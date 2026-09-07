@@ -1,5 +1,20 @@
 # How much of the CATIA V5 format is reverse-engineered and shipped in open source?
 
+> **Correction, 2026-09-07.** Summary point 4 says Datakit CrossManager is "the only non-Dassault
+> writer of native `.CATPart`/`.CATProduct` found". Two counters, one of them this report's own:
+>
+> 1. This report's own table at section 4.2 lists TransMagic (CONFIG), CoreTechnologie
+>    3D_Evolution and 3D-Tool NativeCAD as CATIA read *and* write.
+> 2. Phase-1 research quoted TransMagic's product page directly:
+>    "TransMagic EXPERT is the only core TransMagic product that can write CATIA formats, which
+>    include .CATPart, .CATProduct, .CGM, .Model and .CGR."
+>    See `../../2026-09-06-commercial-sdks/`. Spatial 3D InterOp is a further case, with the caveat
+>    that Spatial is a Dassault subsidiary, so it is not independent.
+>
+> Verified and unchanged: open-source OCCT has 0 paths containing `catia` across 35,642 tree
+> entries on master, checked 2026-09-07. See [`upstream-verification.md`](../2026-09-07-upstream-verification/upstream-verification.md).
+
+
 - Date: 2026-09-06
 - Agent role: web research agent (Cerebo session), OpenCascade/open-source evidence track
 - Question: How much of the CATIA V4/V5 file format has been reverse-engineered and shipped
@@ -93,7 +108,7 @@ below close that gap.
 
 Open Cascade's retired forum and Mantis tracker are published as searchable JSON
 (`occt3d.com/dev/forum-search.json`, `occt3d.com/dev/ticket-search.json`; both copied to
-`raw/`). Lexical counts over the full indexes:
+`../2026-09-06-shared-corpus/raw/`). Lexical counts over the full indexes:
 
 | Term | Forum topics (8,843) | Tickets (7,498) |
 |---|---|---|
@@ -123,9 +138,9 @@ zero. assimp and gmsh were checked too: assimp `doc/Fileformats.md` has 0 occurr
 
 ## 2. What the V5 container actually is (measured on a real file)
 
-Sample: `MM_Oil_Dipstick.CATPart`, 227,597 bytes, from
+Sample: `../2026-09-06-shared-corpus/raw/samples/MM_Oil_Dipstick.CATPart`, 227,597 bytes, from
 `github.com/Momento2025/CATPART` (public, no PII beyond a part name). Full scan in
-`txt/CATPart_container_scan.txt`; sample copied next to this report.
+`../2026-09-06-shared-corpus/txt/CATPart_container_scan.txt`; sample copied next to this report.
 
 ```
 magic bytes      56 35 5f 43 46 56 32 00  →  "V5_CFV2"
@@ -177,7 +192,7 @@ version; older releases or PDM wrappers may differ).
 | Product | Writes `.CATPart`/`.CATProduct` | Evidence |
 |---|---|---|
 | CATIA V5 itself (COM/CATScript/CAA) | yes, sanctioned | companion report `catia-automation-writers.md` |
-| **Datakit CrossManager** | **yes**, native output | product page format matrix lists under Output: "CATIA V5 3D `.CATPart .CATProduct`"; write brochure PDF: "Datakit supports a broad range of CAD formats to write, including CATIA V5, NX, SOLIDWORKS, JT, ..."; "writing libraries are embedded by software vendors ... for native formats such as CATIA V5, CGR, NX, SOLIDWORKS, and 3DXML". Fetched 2026-09-06; PDFs in `raw/` |
+| **Datakit CrossManager** | **yes**, native output | product page format matrix lists under Output: "CATIA V5 3D `.CATPart .CATProduct`"; write brochure PDF: "Datakit supports a broad range of CAD formats to write, including CATIA V5, NX, SOLIDWORKS, JT, ..."; "writing libraries are embedded by software vendors ... for native formats such as CATIA V5, CGR, NX, SOLIDWORKS, and 3DXML". Fetched 2026-09-06; PDFs in `../2026-09-06-shared-corpus/raw/` |
 | CAD Exchanger | no, read-only | formats page matrix: CATIA V5 Read R, no W |
 | HOOPS Exchange | no, read-only | FAQ: "Read Only Support ... CATIA V4, CATIA v5, CATIA V6" |
 | ODA | unknown | homepage lists "Catia" in the format matrix; write capability not documented publicly |
@@ -204,7 +219,7 @@ pipeline needs programmatic V5 writing without Dassault software, Datakit CrossM
 ### 4.2 Open source, real code that touches CATIA files
 
 - `sobalvarro/CATProductFiles` (C#, 6 stars). Entire technique, from `Form1.cs`
-  (source copied to `raw/`): read `.CATProduct` **as a UTF-8 text string**, find
+  (source copied to `../2026-09-06-shared-corpus/raw/`): read `.CATProduct` **as a UTF-8 text string**, find
   `CATOctetArray`, cut at the `\u0008FINJPL` stream terminator, split on the
   `\u0001File` document-id keyword, strip nulls, keep the text after the last backslash.
   It recovers referenced part filenames from an assembly. That is the full depth of
@@ -275,7 +290,7 @@ APIs (GET, anonymous):
 
 Archives / docs:
 - `occt3d.com/dev/forum-search.json` (8,843 topics) and `occt3d.com/dev/ticket-search.json`
-  (7,498 tickets) → copied to `raw/`; ticket `0005080` quoted in 1.3
+  (7,498 tickets) → copied to `../2026-09-06-shared-corpus/raw/`; ticket `0005080` quoted in 1.3
 - Wayback: `web.archive.org/web/20160405110228id_/http://www.opencascade.com/content/data-exchange`
   ("IGES, STEP, STL, VRML, etc.")
 - Wayback: `.../content/added-value-components` 2018 (commercial components, no CATIA)
@@ -291,19 +306,19 @@ Vendors:
   .session", "CATIA V5 2D .CATDrawing", "CATIA V5 3D .CATPart .CATProduct", "CATIA V6 ...
   .3dxml", "CGR .cgr"; output list "CATIA V5 3D .CATPart .CATProduct", "3DXML .3dxml", "CGR .cgr"
 - `datakit.com/download.php?kind=doc&filename=write_cad_files_in_multiple_formats.pdf` →
-  "supports a broad range of CAD formats to write, including CATIA V5"; copied to `raw/dk_write.pdf`
+  "supports a broad range of CAD formats to write, including CATIA V5"; copied to `../2026-09-06-shared-corpus/raw/dk_write.pdf`
 - `datakit.com/download.php?kind=doc&filename=dtk_brochure_crossmanager_convertors_2025-en.pdf`
-  → copied to `raw/dk_converters.pdf`
+  → copied to `../2026-09-06-shared-corpus/raw/dk_converters.pdf`
 - `opendesign.com/products` → homepage matrix incl. "Catia"
 - `assimp` `doc/Fileformats.md` → 0 catia; `gmsh.info` → 0 catia
 
 Code:
 - `raw.githubusercontent.com/sobalvarro/CATProductFiles/master/CATProductFiles/Form1.cs`
-  → copied to `raw/`; technique quoted in 4.2
+  → copied to `../2026-09-06-shared-corpus/raw/`; technique quoted in 4.2
 - `raw.githubusercontent.com/lycorismmoonlights/catpart-converter/main/README.md` → backend
   matrix quoted in 4.3 (fetched via webfetch of GitHub page)
-- `Momento2025/CATPART` → `MM_Oil_Dipstick.CATPart` copied next to this report; scan output
-  in `txt/CATPart_container_scan.txt`
+- `Momento2025/CATPART` → `../2026-09-06-shared-corpus/raw/samples/MM_Oil_Dipstick.CATPart`; scan output
+  in `../2026-09-06-shared-corpus/txt/CATPart_container_scan.txt`
 
 Blocked during research (for the record): DuckDuckGo lite (image captcha), Mojeek (JS
 captcha), Bing (ad-spam on exact-phrase query), FreeCAD forum (Anubis PoW), grep.app

@@ -1,10 +1,31 @@
 # CATIA V5 .CATPart/.CATProduct format: community prior art
 
+> **Correction, 2026-09-07.** Four findings in this report did not survive a verification pass.
+> Full detail in [`upstream-verification.md`](../2026-09-07-upstream-verification/upstream-verification.md) and
+> [`container-invariant-sweep.md`](../2026-09-07-container-invariant-sweep/container-invariant-sweep.md).
+>
+> 1. Section 5 says open-source parsers: "None." That is wrong. `cadmpeg/cadmpeg` publishes a
+>    byte-level CATIA V5 decoder plus a 265 KB format spec
+>    (`../../2026-09-06-shared-corpus/raw/cadmpeg/catia.md`). This swarm's own
+>    `format-internals.md` found it, so the miss was internal, not external. Web search failed to
+>    surface a 32-star repo; the GitHub API found it in one call.
+> 2. "contains the original filename with extension somewhere after the header" holds for 2 of 10
+>    native samples in this repository, not all. Eight contain no `.CATPart` or `.CATProduct`
+>    string in any case, including the three PRONOM-corpus samples used to validate the signature.
+>    The `CATPart` token most files carry is class vocabulary (`FromCATPart`), not a name.
+> 3. "The `*` wildcard in PRONOM byte sequences is a fixed 1-byte gap per occurrence" is wrong. In
+>    PRONOM syntax `*` is a variable-length gap. The practical result is the same for these files,
+>    though: the signature fails on 8 of 10 real files either way.
+> 4. "Sample .CATPart never downloaded, so the PRONOM magic is not byte-verified on a real file" is
+>    now closed. 10 native samples were swept on 2026-09-07. `V5_CFV2\0` at offset 0 holds 10/10,
+>    and `directory_offset + directory_length == file_size` holds 10/10.
+
+
 Research report. Date: 2026-09-06. Agent: opencode research session (model flashnext-w4a16-fp8ple).
 Question: what does the public web actually know about the internal structure of CATIA V5
 .CATPart/.CATProduct files, and about tools that read or write them without CATIA installed?
 
-All raw search output is under `raw/me/` next to this file. Claims below carry source URL, date,
+All raw search output is under `../2026-09-06-shared-corpus/raw/me/` next to this file. Claims below carry source URL, date,
 and speaker. Anything the community merely guesses is labelled as such.
 
 ## Headline finding
@@ -43,7 +64,7 @@ recovery. No open-source parser of the native binary structure exists as of this
 ## 2. The actual byte-level facts that are public
 
 The authoritative public statement is the PRONOM signature repository (github.com/nationalarchives/pronom,
-signatures/fmt/*.json, signatures/x-fmt/*.json; fetched as repo tarball to `raw/me/pronom-main/`):
+signatures/fmt/*.json, signatures/x-fmt/*.json; fetched as repo tarball to `../2026-09-06-shared-corpus/raw/me/pronom-main/`):
 
 | PUID | Format | Signature (offset 0 unless noted) |
 |---|---|---|
@@ -73,7 +94,7 @@ What follows from this, and what does not:
   `"D0 CF 11 E0" catpart OR catproduct`, `"catia" "compound file binary" OR "oletools"` all
   returned no matches on DuckDuckGo (see null-query list), and the BOF `V5_CFV2` signature is
   incompatible with a CFB header.
-- file(1) magic: `Magdir/cad` (449 lines fetched, `raw/me/file-cad-magic.txt`) has no CATIA
+- file(1) magic: `Magdir/cad` (449 lines fetched, `../2026-09-06-shared-corpus/raw/me/file-cad-magic.txt`) has no CATIA
   entry. Sourcegraph `repo:github.com/file/file CATIA`: 0 files.
 - PRONOM has **no** signature for .cgr, 3DXML, EPL, or EBA. Grep across all 2557 signature JSONs:
   only the six CATIA formats above.
@@ -174,9 +195,9 @@ Null queries are logged; the Chinese "破解" (crack/parsing) searches returned 
 
 ## 8. What practitioners actually do without CATIA (Reddit full-history crawl)
 
-Crawled every r/CATIA post 2014→2026 via Arctic Shift (2724 posts, `raw/me/as/posts_all.json`,
-keyword hits in `raw/me/reddit_catia_hits.md`; comment trees of 9 threads in
-`raw/me/reddit_threads.md`). PullPush was IP-blocked; Arctic Shift comment-search timed out
+Crawled every r/CATIA post 2014→2026 via Arctic Shift (2724 posts, `../2026-09-06-shared-corpus/raw/me/as/posts_all.json`,
+keyword hits in `../2026-09-06-shared-corpus/raw/me/reddit_catia_hits.md`; comment trees of 9 threads in
+`../2026-09-06-shared-corpus/raw/me/reddit_threads.md`). PullPush was IP-blocked; Arctic Shift comment-search timed out
 (server-side), so comment coverage = threads selected from post matches.
 
 - The universal answer to "convert/open CATIA without CATIA" is **conversion or paid viewer**, not
@@ -211,7 +232,7 @@ keyword hits in `raw/me/reddit_catia_hits.md`; comment trees of 9 threads in
 
 ## Queries that returned nothing (negative results, worth not repeating)
 
-All run through spaced DuckDuckGo html (logs: `raw/me/ddg-loop.log`, `ddg-loop2.log`,
+All run through spaced DuckDuckGo html (logs: `../2026-09-06-shared-corpus/raw/me/ddg-loop.log`, `ddg-loop2.log`,
 `ddg-loop3.log`):
 
 - `"CATIA" "structured storage"` → no match

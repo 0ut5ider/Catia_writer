@@ -1,5 +1,7 @@
 # Dassault Systèmes CATIA V5 `.CATPart`: Format Specification
 
+> **Mirror note:** verbatim copy of an upstream cadmpeg document. Links inside are upstream-relative; prefix them with `https://github.com/cadmpeg/cadmpeg/blob/main/docs/`. The local mirror of the whole upstream `docs/formats/` set is `../2026-09-06-shared-corpus/raw/cadmpeg/`.
+
 > **License:** This document is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Attribute to the cadmpeg project.
 
 All multi-byte integers are little-endian unless explicitly marked **BE**. Float coordinates are in millimetres.
