@@ -1,5 +1,11 @@
 # CATIA V5 `.catpart`/`.catproduct` reverse engineering: methodology and tooling for building a writer
 
+> **Correction, 2026-09-07.** "PRONOM says the file embeds its own file name" is a property of
+> 2 of the 10 native samples swept on 2026-09-07, not of the format. Do not build a detection or
+> indexing step on the embedded name. See
+> [`container-invariant-sweep.md`](../2026-09-07-container-invariant-sweep/container-invariant-sweep.md) and [`upstream-verification.md`](../2026-09-07-upstream-verification/upstream-verification.md).
+
+
 - Date: 2026-09-06
 - Role: research agent (opencode / web research + local binary analysis)
 - Question: What is a concrete, executable RE methodology and toolchain for building a writer for CATIA V5 `.catpart`/`.catproduct` binary containers?

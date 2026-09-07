@@ -1,0 +1,16 @@
+10 V5_CFV2 samples
+
+file                             PUID        fixed b0-8  literal hit  PRONOM match  class-token hits
+sample2.CATPart                  x-fmt/439   True        -1           False         1
+sample_assembly.CATProduct       x-fmt/440   True        -1           False         1
+analysis.catpart                 x-fmt/439   True        -1           False         0
+brepaccess.catpart               x-fmt/439   True        -1           False         0
+catconduit.catpart               x-fmt/439   True        -1           False         0
+motor.CATProduct                 x-fmt/440   True        -1           False         1
+spur_gear.CATPart                x-fmt/439   True        -1           False         1
+MM_Oil_Dipstick.CATPart          x-fmt/439   True        -1           False         1
+Part1.CATPart                    x-fmt/439   True        270          True          1
+Print.CATProduct                 x-fmt/440   True        9223         True          1
+
+PRONOM internal signature matches 2/10 real files.
+Compare: directory_offset + directory_length == file_size holds 10/10 on the same set.

@@ -1,0 +1,3 @@
+36:V5_MAGIC    = (b'V5_CFV2', b'V5_CFV4')
+56:    if not any(data.startswith(m) for m in V5_MAGIC):
+58:    m = re.search(rb'V5R(\d+)SP(\d+)HF(\d+)', data)

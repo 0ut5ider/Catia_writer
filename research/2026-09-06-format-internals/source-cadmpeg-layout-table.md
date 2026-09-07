@@ -4,6 +4,8 @@
 
 # `catia` record layouts
 
+> **Mirror note:** verbatim copy of an upstream cadmpeg document. Links inside are upstream-relative; prefix them with `https://github.com/cadmpeg/cadmpeg/blob/main/docs/`. The local mirror of the whole upstream `docs/formats/` set is `../2026-09-06-shared-corpus/raw/cadmpeg/`.
+
 Source of truth: [`docs/formats/catia.md`](../../docs/formats/catia.md).
 Table source: `docs/layouts/catia.toml`.
 

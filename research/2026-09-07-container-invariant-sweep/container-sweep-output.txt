@@ -1,0 +1,219 @@
+10 native samples, invariants from cadmpeg catia.md 3.1-3.3
+
+--- research/2026-09-06-alt-generation-routes/raw/sample2.CATPart (76575 B)
+      size                     76575
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0103
+      dir_off                  66397
+      dir_len                  10178
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   2
+      inner_v5_cfv2            1
+      finjpl                   12
+      cgm                      4
+      cls_tags                 {'CATProdCont': 4, 'CATFeatCont': 2, 'CATPrtCont': 3, 'CATDrwCont': 0}
+      release                  V5R20SP0HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@...-........+.................................V............................................................................................
+--- research/2026-09-06-alt-generation-routes/raw/sample_assembly.CATProduct (90859 B)
+      size                     90859
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0148
+      dir_off                  84049
+      dir_len                  6810
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   7
+      cgm                      2
+      cls_tags                 {'CATProdCont': 3, 'CATFeatCont': 4, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  V5R20SP0HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@........BE..b.................................V............................................................................................
+--- research/2026-09-06-format-internals/samples/analysis.catpart (15186 B)
+      size                     15186
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                002e
+      dir_off                  11948
+      dir_len                  3238
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   4
+      cgm                      0
+      cls_tags                 {'CATProdCont': 0, 'CATFeatCont': 2, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  V5R24SP4HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@........,...;R................................V............................................................................................
+--- research/2026-09-06-format-internals/samples/brepaccess.catpart (11436 B)
+      size                     11436
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0020
+      dir_off                  8202
+      dir_len                  3234
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   4
+      cgm                      0
+      cls_tags                 {'CATProdCont': 0, 'CATFeatCont': 1, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  V5R27SP0HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@.........h..,.................................V............................................................................................
+--- research/2026-09-06-format-internals/samples/catconduit.catpart (15106 B)
+      size                     15106
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                002e
+      dir_off                  11860
+      dir_len                  3246
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   4
+      cgm                      0
+      cls_tags                 {'CATProdCont': 0, 'CATFeatCont': 3, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  V5R25SP4HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@........+...;.................................V............................................................................................
+--- research/2026-09-06-format-internals/samples/motor.CATProduct (381724 B)
+      size                     381724
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                05b0
+      dir_off                  372884
+      dir_len                  8840
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   9
+      cgm                      2
+      cls_tags                 {'CATProdCont': 3, 'CATFeatCont': 4, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  V5R21SP0HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@...&.'........................................V............................................................................................
+--- research/2026-09-06-format-internals/samples/spur_gear.CATPart (481357 B)
+      size                     481357
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0732
+      dir_off                  471773
+      dir_len                  9584
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   2
+      inner_v5_cfv2            1
+      finjpl                   11
+      cgm                      3
+      cls_tags                 {'CATProdCont': 4, 'CATFeatCont': 1, 'CATPrtCont': 3, 'CATDrwCont': 0}
+      release                  V5R21SP0HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@...).*..)e..XM................................V............................................................................................
+--- research/2026-09-06-shared-corpus/raw/samples/MM_Oil_Dipstick.CATPart (227597 B)
+      size                     227597
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0350
+      dir_off                  217117
+      dir_len                  10480
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000025f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   2
+      inner_v5_cfv2            1
+      finjpl                   12
+      cgm                      6
+      cls_tags                 {'CATProdCont': 4, 'CATFeatCont': 2, 'CATPrtCont': 3, 'CATDrwCont': 0}
+      release                  V5R30SP6HF0
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@...-....E...y.................................V............................................................................................
+--- research/2026-09-06-shared-corpus/raw/samples/Part1.CATPart (112111 B)
+      size                     112111
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0189
+      dir_off                  100847
+      dir_len                  11264
+      off_plus_len_eq_size     True
+      fill_ff_at_10            False
+      fill_00_at_18            True
+      hdr_flags_38             000000005f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   3
+      inner_v5_cfv2            1
+      finjpl                   12
+      cgm                      3
+      cls_tags                 {'CATProdCont': 4, 'CATFeatCont': 3, 'CATPrtCont': 3, 'CATDrwCont': 0}
+      release                  None
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@...*.+..j.....................................~............................................................................................
+--- research/2026-09-06-shared-corpus/raw/samples/Print.CATProduct (14975 B)
+      size                     14975
+      magic                    V5_CFV2\0
+      byte08                   0
+      byte09_0a                0026
+      dir_off                  9855
+      dir_len                  5120
+      off_plus_len_eq_size     True
+      fill_ff_at_10            True
+      fill_00_at_18            True
+      hdr_flags_38             000000005f0d0a00
+      dir_magic                CATIA_V5 CB0001
+      cb_end                   1
+      inner_v5_cfv2            0
+      finjpl                   4
+      cgm                      0
+      cls_tags                 {'CATProdCont': 1, 'CATFeatCont': 2, 'CATPrtCont': 0, 'CATDrwCont': 0}
+      release                  None
+      ole_cfb                  False
+      cfv4                     0
+      tail_dir_ascii_sample    CATIA_V5 CB0001.N...@........#g..:.................................V............................................................................................
+
+AGGREGATE
+      off_plus_len_eq_size     10/10 true
+      fill_ff_at_10            9/10 true
+      fill_00_at_18            10/10 true
+      ole_cfb                  0/10 true
+      cfv4                     0/10 true
