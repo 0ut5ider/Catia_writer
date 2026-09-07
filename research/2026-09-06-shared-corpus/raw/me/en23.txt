@@ -1,0 +1,1 @@
+* CATIA - Format Overview | https://rapidpipeline.com/en/a/formats-catia/ | CATIA is a comprehensive multi-platform CAD/CAM/CAE software suite developed by Dassault Systèmes, widely used in aerospace, automotive, and industrial design for advanced 3D modeling, simulation, and product lifecycle management. It is a file format

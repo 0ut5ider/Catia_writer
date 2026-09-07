@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>CATIA ファイル形式 解析 at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="CATIA ファイル形式 解析" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.file-extension.info/ja/downloads/catia">CATIA - 対応ファイル形式・ダウンロード・詳細情報 | File-Extension.info</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.file-extension.info/ja/downloads/catia">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.file-extension.info.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.file-extension.info/ja/downloads/catia">
+                            www.file-extension.info/ja/downloads/catia
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-08-23T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.file-extension.info/ja/downloads/catia"><b>CATIA</b> をダウンロード このページの内容 概要対応ファイル変換ダウンロード 15 種類のファイル形式を検証済み 最終確認日：Sep 2026 ファイルの種類がわかりませんか？ ファイルを識別ツールにドロップしてください。 最初の数バイトを読み取って形式を特定 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.capa.co.jp/archives/49215">Catiaでできるcaeって何？はじめての構造解析をやさしく解説 | 株式会社キャパ</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.capa.co.jp/archives/49215">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.capa.co.jp.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.capa.co.jp/archives/49215">
+                            www.capa.co.jp/archives/49215
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2025-07-25T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.capa.co.jp/archives/49215">中でも、CATIA（キャティア）はフランスのDassault Systèmes（ダッソー・システムズ）が提供する高機能3D CADで、設計から解析までを一貫して行えるのが大きな特長です。 このような解析機能を支えるのが「CAE（Computer Aided Engineering）」という考え方です。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.nss.co.th/blog/jp-datacompatibilitybetweencatiav5-3dexperiencecatia1/">~ CATIA V5と3DEXPERIENCE CATIA (CATIA V6)のデータの ... - NSS Blog</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.nss.co.th/blog/jp-datacompatibilitybetweencatiav5-3dexperiencecatia1/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.nss.co.th.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.nss.co.th/blog/jp-datacompatibilitybetweencatiav5-3dexperiencecatia1/">
+                            www.nss.co.th/blog/jp-datacompatibilitybetweencatiav5-3dexperiencecatia1/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.nss.co.th/blog/jp-datacompatibilitybetweencatiav5-3dexperiencecatia1/">CATPart: CATPART ファイルは、Dassault Systèmes社が開発したCATIA V5 ソフトウェアのネイティブ ファイル形式で、部品モデルを保存するために使用され、3D幾何学データと構造データを含みます。 お客様 なるほど。 ありがとうございました。 NSS</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299189198">CATIAV5についての質問です。x_tファイルのデータをCATIAに取り込... - Yahoo!知恵袋</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299189198">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/detail.chiebukuro.yahoo.co.jp.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299189198">
+                            detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299189198
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13299189198">・これでx_tファイルのデータがCATIAに取り込まれます。 取り込み時の注意点として、x_tファイルはCATIAの旧バージョンで作成されたデータを新しいバージョンで開くためのファイル形式です。 そのため、データの品質が低下する可能性があります。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://support.ptc.com/help/creo/creo_pma/r12/japanese/data_exchange/interface/To_Import_a_CATIA_V5_Part_CATPart_File.html">Catia V5 の部品ファイルまたはアセンブリファイルをインポートするには</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://support.ptc.com/help/creo/creo_pma/r12/japanese/data_exchange/interface/To_Import_a_CATIA_V5_Part_CATPart_File.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/support.ptc.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://support.ptc.com/help/creo/creo_pma/r12/japanese/data_exchange/interface/To_Import_a_CATIA_V5_Part_CATPart_File.html">
+                            support.ptc.com/help/creo/creo_pma/r12/japanese/data_exchange/interface/To_Import_a_CATIA_V5_Part_CATPart_File.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://support.ptc.com/help/creo/creo_pma/r12/japanese/data_exchange/interface/To_Import_a_CATIA_V5_Part_CATPart_File.html"><b>CATIA</b> V5 ファイルから色をインポートする場合、使用中のインポートプロファイルの「その他」(Misc)タブにある「色を含む」(Include colors)オプションをクリックします。 7.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.capa.co.jp/archives/42773">Catiaでstepにデータ変換ができない!注意点と変換手順 | 株式会社キャパ</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.capa.co.jp/archives/42773">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.capa.co.jp.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.capa.co.jp/archives/42773">
+                            www.capa.co.jp/archives/42773
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.capa.co.jp/archives/42773">データ形式で「.stp」を選択して保存 <b>CATIA</b> STEP コア インターフェイス 1（ST1）では、STEPのAP214またはSTEP AP203形式でデータが読み書きできます。 もしCATIAのST1ライセンスがない場合には、データ変換サービスなど別のシステムを介する方法があります。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://3d-raku.com/free-3d-viewer/">CATIAファイルが見れる無料3Dビューア</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://3d-raku.com/free-3d-viewer/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/3d-raku.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://3d-raku.com/free-3d-viewer/">
+                            3d-raku.com/free-3d-viewer/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://3d-raku.com/free-3d-viewer/">CATIAファイルが見れる無料3Dビューア 2020年3月7日 無料ソフト <b>CATIA</b> V5, 3DViewer 9491view 無料ソフト HOME 無料ソフト CATIAファイルが見れる無料3Dビューア 目次 1 最強 3d-Viewer Autodesk Viewer 1.1 Autodesk Viewer は、ほとんどの 2D および 3D 形式をサポートしています。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://bimant.com/docs/3dformat/CATIA/">CATIA (.catia)-CATIA模型格式 | 3D文件格式指南 - bimant.com</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://bimant.com/docs/3dformat/CATIA/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/bimant.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://bimant.com/docs/3dformat/CATIA/">
+                            bimant.com/docs/3dformat/CATIA/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://bimant.com/docs/3dformat/CATIA/">CATIA文件的规范链接包括三个方面：CATIA自身规范、国际ISO规范和国内行业标准。 CATIA自身规范主要包括CGR（CATIA Graphical Representation）格式和CATPart格式，其中CGR格式将模型数据以几何图形格式存储，可以被其他CAD软件读取，并广泛应用于CATIA的数据交换、数据发布 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.gvtech.com/ja/2025/01/30/how-to-open-3dexperience-files-in-catia-v5-ja/">CATIA V5で3DEXPERIENCEのファイルを変換し開く方法 | Global Vision Technology, Inc.</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.gvtech.com/ja/2025/01/30/how-to-open-3dexperience-files-in-catia-v5-ja/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.gvtech.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.gvtech.com/ja/2025/01/30/how-to-open-3dexperience-files-in-catia-v5-ja/">
+                            www.gvtech.com/ja/2025/01/30/how-to-open-3dexperience-files-in-catia-v5-ja/
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2025-01-30T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.gvtech.com/ja/2025/01/30/how-to-open-3dexperience-files-in-catia-v5-ja/">Format; 「<b>CATIA</b> ファイル」を選択すると、CATPart または CATProduct 形式で出力できます。 必要に応じて他のファイル形式を選択できますが、<b>CATIA</b> V5 との互換性を優先する場合は、「<b>CATIA</b> ファイル」をお勧めします。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://d-monoweb.com/blog/middle-of-3dmodel/">「取引先とのやり取りで注意したい3dモデルの中間ファイルについて」 | Mono塾</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://d-monoweb.com/blog/middle-of-3dmodel/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/d-monoweb.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://d-monoweb.com/blog/middle-of-3dmodel/">
+                            d-monoweb.com/blog/middle-of-3dmodel/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://d-monoweb.com/blog/middle-of-3dmodel/">中間ファイルはあくまで3Dモデルの外形をソリッド、もしくはサーフェスで簡略化してデータ保存するため、モデリングの履歴を見ることはできません。 こうした特徴から、中間ファイルの形式は機密情報を漏らさない点で有利であると言えるでしょう。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="CATIA ファイル形式 解析" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-288234407734849854557073692448118750199" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

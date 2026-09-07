@@ -1,0 +1,81 @@
+{
+  "fileFormatID": 169,
+  "formatName": "Lotus 1-2-3 Worksheet",
+  "version": "1.0",
+  "formatDescription": "Lotus 1-2-3 Worksheet v 1 is a spreadsheet format developed for the spreadsheet, charting, and database software of the same name. Lotus Development Corporation released Lotus 1-2-3 in 1983 and its popularity led to it becoming close to an industry standard through the early 1990s.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Jan 2025",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "v.120- New description added as part of PRONOM Research Week 2024. Submitted by the J. Paul Getty Trust",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Spreadsheet",
+  "byteOrders": "Little-endian (Intel)",
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "application/vnd.lotus-1-2-3",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "application/x-123",
+      "identifierType": "MIME"
+    },
+    {
+      "identifierText": "x-fmt/117",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 460,
+      "name": "Lotus 123 Worksheet 1.0",
+      "note": "BOF Record Type = 0, record length =2 bytes; file format version number = dec 1028 = hex 0404",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": null,
+          "byteSequence": "000002000404",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "wks",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has lower priority than",
+      "relatedFormatID": 894,
+      "relatedFormatName": "Microsoft Works Spreadsheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 166,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 167,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    },
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 168,
+      "relatedFormatName": "Lotus 1-2-3 Worksheet"
+    }
+  ],
+  "source": 1
+}

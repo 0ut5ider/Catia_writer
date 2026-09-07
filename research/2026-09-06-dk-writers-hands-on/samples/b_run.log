@@ -1,0 +1,4 @@
+/home/outsider/.cache/dk-writers-work/scripts/b_pythonocc.py:77: DeprecationWarning: Call to deprecated function Interface_Static_SetCVal since pythonocc-core 7.7.1. This function will be removed in a future release, please rather use the static method Interface_Static.SetCVal
+  Interface_Static_SetCVal("write.step.schema", "AP214IS")
+/home/outsider/.cache/dk-writers-work/scripts/b_pythonocc.py:82: DeprecationWarning: Call to deprecated function Interface_Static_CVal since pythonocc-core 7.7.1. This function will be removed in a future release, please rather use the static method Interface_Static.CVal
+  print("STEP write status:", st, "| schema CvVal:", Interface_Static_CVal("write.step.schema"))

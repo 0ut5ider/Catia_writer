@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>CATPart 構造 at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="CATPart 構造" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.tuofa-cncmachining.com/ja/tuofa-blog/catpart-files-for-cnc-machining.html">CNC加工用CATPartファイル：各種フォーマットガイドと変換</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.tuofa-cncmachining.com/ja/tuofa-blog/catpart-files-for-cnc-machining.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.tuofa-cncmachining.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.tuofa-cncmachining.com/ja/tuofa-blog/catpart-files-for-cnc-machining.html">
+                            www.tuofa-cncmachining.com/ja/tuofa-blog/catpart-files-for-cnc-machining.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.tuofa-cncmachining.com/ja/tuofa-blog/catpart-files-for-cnc-machining.html">CNC加工用のCATPartファイルの完全ガイドです。CATPartファイルをCAD対応フォーマットに変換する方法やその他のヒントもご紹介します。ぜひお役立てください!</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.file-extension.info/ja/format/catpart">CATPART ファイルとは？開き方・変換方法まとめ | File-Extension.info</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.file-extension.info/ja/format/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.file-extension.info.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.file-extension.info/ja/format/catpart">
+                            www.file-extension.info/ja/format/catpart
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-08-21T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.file-extension.info/ja/format/catpart"><b>CATPART</b> ファイル形式とは？ 拡張子 .<b>catpart</b> を持つファイルには、 3D CAD/CAM/CAE モデルパーツとそれに関連付けられた構造化データ が含まれています。 .<b>catpart</b> ファイルは、Dassault Systèmes が CATIA 用に開発した独自のバイナリ形式で保存されます。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://docs.fileformat.com/ja/cad/catpart/">Catpart ファイル形式 - Catia V5 パーツ ファイル</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://docs.fileformat.com/ja/cad/catpart/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/docs.fileformat.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://docs.fileformat.com/ja/cad/catpart/">
+                            docs.fileformat.com/ja/cad/catpart/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://docs.fileformat.com/ja/cad/catpart/">これらのファイルは、CATIA V5 または AutoCAD などの <b>CATPART</b> ファイル形式をサポートするその他の CAD アプリケーションで開いて編集できます。 <b>CATPART</b> ファイルには、モデルの構造データとともに 3D ジオメトリが含まれています。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.spatial.com/ja/glossary/what-is-a-catpart-file-extension">用語集｜Catpart ファイル拡張子とは - ACIS</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.spatial.com/ja/glossary/what-is-a-catpart-file-extension">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.spatial.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.spatial.com/ja/glossary/what-is-a-catpart-file-extension">
+                            www.spatial.com/ja/glossary/what-is-a-catpart-file-extension
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.spatial.com/ja/glossary/what-is-a-catpart-file-extension">.CATPartファイル拡張子は、CATIA V5と呼ばれる3D CAD製造業向けアプリケーションによって作成されたフォーマットです。CATPartはパーツモデルの格納に使用され、3Dの幾何形状データや構造データを含んでいます。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://catia.jp/tag/catpart/">CATPart - CATIAの小技</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://catia.jp/tag/catpart/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/catia.jp.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://catia.jp/tag/catpart/">
+                            catia.jp/tag/catpart/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://catia.jp/tag/catpart/">CATProductからCATPartを作成 事前選択でまとめたい階層を選択する基本的にトップツリーを選択する。 下位層のプロダクトを選択するとそれ以下のツリーが<b>catPart</b>として出力される。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://filext.com/ja/fairu-kakuchoshi/CATPART">CATPARTファイル拡張子とは？CATPARTファイルの開き方は？</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://filext.com/ja/fairu-kakuchoshi/CATPART">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/filext.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://filext.com/ja/fairu-kakuchoshi/CATPART">
+                            filext.com/ja/fairu-kakuchoshi/CATPART
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://filext.com/ja/fairu-kakuchoshi/CATPART"><b>CATPART</b>ファイル の問題解決方法 <b>CATPART</b>ファイル拡張子を正しいアプリケーションで開くよう設定しましょう。 実際に部品の説明ファイルを開くソフトウェアを更新しましょう。 最新の<b>CATPART</b>ファイルフォーマットに対応しているのは最新版のみだからです。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://wenku.baidu.com/view/9a08fe0c352b3169a45177232f60ddccdb38e663.html">CATPART是什么？CATIA零件文件详解：定义、打开与转换</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://wenku.baidu.com/view/9a08fe0c352b3169a45177232f60ddccdb38e663.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/wenku.baidu.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://wenku.baidu.com/view/9a08fe0c352b3169a45177232f60ddccdb38e663.html">
+                            wenku.baidu.com/view/9a08fe0c352b3169a45177232f60ddccdb38e663.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://wenku.baidu.com/view/9a08fe0c352b3169a45177232f60ddccdb38e663.html">CATPART文件是由法国达索系统（Dassault Systèmes）公司开发的CATIA软件生成的三维零件文件格式。它是存储单个机械部件（如支架、外壳）三维设计的权威数据容器，不仅包含完整的几何模型，还集成了特征树、材料参数等设计信息。作为产品研发与制造的核心数据载体，CATPART文件在航空航天、汽车 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://d-monoweb.com/blog/middle-of-3dmodel/">「取引先とのやり取りで注意したい3dモデルの中間ファイルについて」 | Mono塾</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://d-monoweb.com/blog/middle-of-3dmodel/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/d-monoweb.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://d-monoweb.com/blog/middle-of-3dmodel/">
+                            d-monoweb.com/blog/middle-of-3dmodel/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://d-monoweb.com/blog/middle-of-3dmodel/">CATIA V5を例に挙げるなら、ミッドレンジの3DCADであるSolidWorksとFusion360は部品データ（.CATPart）とアセンブリデータ（.CATProduct）を読み込むことが可能です。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.openthefile.net/ja/extension/catpart">CATPARTファイル拡張子 - catpartファイルとは何ですか？catpartファイルを開くにはどうすればいいですか ...</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.openthefile.net/ja/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.openthefile.net.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.openthefile.net/ja/extension/catpart">
+                            www.openthefile.net/ja/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.openthefile.net/ja/extension/catpart"><b>catpart</b>ファイルとは何ですか？ <b>catpart</b>ファイルを開くにはどうすればよいですか？ CATPartは、CATIA V5、3D CADの製造アプリケーション情報によって作成された一部のファイルです。 これは、三次元形状および構造データを含む一部のモデルを格納します。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://catia.pc-profes.com/catia-%E3%82%A2%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AA%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%EF%BC%81%E9%83%A8%E5%93%81%E3%81%AE%E9%85%8D%E7%BD%AE%E3%81%A8%E6%8B%98%E6%9D%9F/">Catia アセンブリデザインの基礎!部品の配置と拘束の付け方</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://catia.pc-profes.com/catia-%E3%82%A2%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AA%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%EF%BC%81%E9%83%A8%E5%93%81%E3%81%AE%E9%85%8D%E7%BD%AE%E3%81%A8%E6%8B%98%E6%9D%9F/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/catia.pc-profes.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://catia.pc-profes.com/catia-%E3%82%A2%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AA%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%EF%BC%81%E9%83%A8%E5%93%81%E3%81%AE%E9%85%8D%E7%BD%AE%E3%81%A8%E6%8B%98%E6%9D%9F/">
+                            catia.pc-profes.com/catia-アセンブリデザインの基礎！部品の配置と拘束/
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-08-21T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://catia.pc-profes.com/catia-%E3%82%A2%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AA%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%9F%BA%E7%A4%8E%EF%BC%81%E9%83%A8%E5%93%81%E3%81%AE%E9%85%8D%E7%BD%AE%E3%81%A8%E6%8B%98%E6%9D%9F/">CATIAでは、単品の部品データは「CATPart（拡張子 .CATPart）」として保存されますが、それらをまとめるアセンブリのデータは「CATProduct（拡張子 .CATProduct）」という形式で管理されます。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="CATPart 構造" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-169373701429135179872303384338501472559" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

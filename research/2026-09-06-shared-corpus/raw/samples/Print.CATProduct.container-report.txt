@@ -1,0 +1,46 @@
+file size 14975 dir_off 9855 dir_len 5120
+utf16 @  4340 CATStorageProperty
+utf16 @  4390 >Cont_8b6aefe0_2c7_39d04d68_4ce
+utf16 @  9298 CATPreview
+utf16 @  9336 CATPropertySets
+utf16 @  9384 CATDocumentProperty
+utf16 @  9440 CATStorageProperty
+utf16 @  9490 48b6aefe0_2c7_39d04d68_4ce
+utf16 @  9558 TimeStamp
+utf16 @  9592 ProjectHeader
+utf16 @  9634 Project
+utf16 @  9664 Data
+utf16 @  9688 Indexe
+utf16 @  9716 GesToler
+utf16 @  9748 Format
+utf16 @  9790 CATStorageProperty
+utf16 @  9842 CATIA1
+utf16 @ 10092 D.e0ef6a8bc7020000784dd03911050000
+utf16 @ 10348 CATIA1
+utf16 @ 10548 Format
+utf16 @ 10748 GesToler
+utf16 @ 10952 Indexe
+utf16 @ 11152 Data
+utf16 @ 11348 Project
+utf16 @ 11550 ProjectHeader
+utf16 @ 11764 TimeStamp
+utf16 @ 11968 48b6aefe0_2c7_39d04d68_4ce
+utf16 @ 12206 >Cont_8b6aefe0_2c7_39d04d68_4ce
+utf16 @ 12458 CATStorageProperty
+utf16 @ 12684 CATStorageProperty
+utf16 @ 12910 CATDocumentProperty
+utf16 @ 13138 CATPropertySets
+utf16 @ 13358 CATPreview
+utf16 @ 13568 CATStorageProperty
+--- descriptors ---
+desc@10563 name='Format' extents=1 loglen=24 exts=[(64, 24, 0, 1)]
+desc@10767 name='GesToler' extents=1 loglen=1540 exts=[(88, 1540, 0, 1)]
+desc@10967 name='Indexe' extents=1 loglen=136 exts=[(1628, 136, 0, 1)]
+desc@11163 name='Data' extents=1 loglen=1728 exts=[(1764, 1728, 0, 1)]
+desc@11365 name='Project' extents=1 loglen=26 exts=[(3492, 26, 0, 1)]
+desc@11579 name='ProjectHeader' extents=1 loglen=8 exts=[(3518, 8, 0, 1)]
+desc@11785 name='TimeStamp' extents=1 loglen=7 exts=[(3526, 7, 0, 1)]
+desc@12023 name='48b6aefe0_2c7_39d04d68_4ce' extents=1 loglen=142 exts=[(4311, 142, 0, 1)]
+desc@12271 name='>Cont_8b6aefe0_2c7_39d04d68_4ce' extents=1 loglen=448 exts=[(3533, 448, 0, 1)]
+desc@12497 name='CATStorageProperty' extents=1 loglen=330 exts=[(3981, 330, 0, 1)]
+desc@12723 name='CATStorageProperty' extents=1 loglen=329 exts=[(4453, 329, 0, 1)]

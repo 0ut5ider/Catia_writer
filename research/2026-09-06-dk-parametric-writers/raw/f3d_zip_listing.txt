@@ -1,0 +1,35 @@
+Archive:  ../lollipop.f3d
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  07-22-2026 04:31   FusionAssetName[Active]/
+        0  07-22-2026 04:31   FusionAssetName[Active]/ProteinAssets.BlobParts/
+        0  07-22-2026 04:31   FusionAssetName[Active]/Previews/
+        0  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/
+        0  07-22-2026 04:31   FusionAssetName[Active]/Images.BlobParts/
+        0  07-22-2026 04:31   FusionAssetName[Active]/FusionDesignSegmentType1/
+        0  07-22-2026 04:31   FusionAssetName[Active]/FusionBrowserSegmentType1/
+        0  07-22-2026 04:31   FusionAssetName[Active]/FusionACTSegmentType1/
+        0  07-22-2026 04:31   FusionAssetName[Active]/DesignConfigurationTable.BlobParts/
+        0  07-22-2026 04:31   FusionAssetName[Active]/Breps.BlobParts/
+        0  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/OGS/
+        0  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/
+      571  07-22-2026 04:31   Manifest.dat
+      100  07-22-2026 04:31   Properties.dat
+      589  07-22-2026 04:31   FusionAssetName[Active]/Manifest.dat
+   165728  07-22-2026 04:31   FusionAssetName[Active]/ProteinAssets.BlobParts/ProteinAsset.2be06646-438b-49b6-aa28-5eee182a8c1f.protein
+    12716  07-22-2026 04:31   FusionAssetName[Active]/Previews/small.png
+   123501  07-22-2026 04:31   FusionAssetName[Active]/FusionDesignSegmentType1/BulkStream.dat
+    36032  07-22-2026 04:31   FusionAssetName[Active]/FusionDesignSegmentType1/MetaStream.dat
+     5141  07-22-2026 04:31   FusionAssetName[Active]/FusionBrowserSegmentType1/BulkStream.dat
+     5335  07-22-2026 04:31   FusionAssetName[Active]/FusionBrowserSegmentType1/MetaStream.dat
+     3658  07-22-2026 04:31   FusionAssetName[Active]/FusionACTSegmentType1/BulkStream.dat
+     2445  07-22-2026 04:31   FusionAssetName[Active]/FusionACTSegmentType1/MetaStream.dat
+        2  07-22-2026 04:31   FusionAssetName[Active]/DesignConfigurationTable.BlobParts/DesignConfigurationTable.c2261093-4129-4d2d-a73e-609f75add0b8.dsgcfg
+        2  07-22-2026 04:31   FusionAssetName[Active]/DesignConfigurationTable.BlobParts/DesignConfigurationRule.748fc7b7-cbec-4254-ad18-b7e1283a586a.dsgcfgrule
+    25474  07-22-2026 04:31   FusionAssetName[Active]/Breps.BlobParts/BREP.10183642-1988-44c6-a32d-09f27734c691.smb
+    89626  07-22-2026 04:31   FusionAssetName[Active]/Breps.BlobParts/BREP.c0646a88-4702-4a9b-9bc1-e02d0c785796.smbh
+   103473  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/world
+     6292  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/stream_mesh_000
+    86096  07-22-2026 04:31   FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/Fusion_mesh_000
+---------                     -------
+   666781                     30 files

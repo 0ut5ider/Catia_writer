@@ -1,0 +1,36 @@
+== analysis.catpart size=15186
+  BOF: 56355f434656320000002eac00000ca6 ascii=b'V5_CFV2\x00\x00'
+  u32be@8=11948 u32be@12=3238 sum==size:True bytes16-23=ffffffffffffffff
+  dir_marker_at_off1=b'CATIA_V5 CB0001\x00N' EOF-9=b'\xa6CB__END\x00'
+  inner_V5_CFV2_at=-1
+  D0CF11E0_present:False
+
+== brepaccess.catpart size=11436
+  BOF: 56355f43465632000000200a00000ca2 ascii=b'V5_CFV2\x00\x00'
+  u32be@8=8202 u32be@12=3234 sum==size:True bytes16-23=ffffffffffffffff
+  dir_marker_at_off1=b'CATIA_V5 CB0001\x00N' EOF-9=b'\xa2CB__END\x00'
+  inner_V5_CFV2_at=-1
+  D0CF11E0_present:False
+
+== catconduit.catpart size=15106
+  BOF: 56355f434656320000002e5400000cae ascii=b'V5_CFV2\x00\x00'
+  u32be@8=11860 u32be@12=3246 sum==size:True bytes16-23=ffffffffffffffff
+  dir_marker_at_off1=b'CATIA_V5 CB0001\x00N' EOF-9=b'\xaeCB__END\x00'
+  inner_V5_CFV2_at=-1
+  D0CF11E0_present:False
+
+== spur_gear.CATPart size=481357
+  BOF: 56355f4346563200000732dd00002570 ascii=b'V5_CFV2\x00\x00'
+  u32be@8=471773 u32be@12=9584 sum==size:True bytes16-23=ffffffffffffffff
+  dir_marker_at_off1=b'CATIA_V5 CB0001\x00N' EOF-9=b'pCB__END\x00'
+  inner_V5_CFV2_at=381501
+  inner: A=79599 B=2724 inner_dir_abs=461100 marker=b'CATIA_V5 CB0001\x00N'
+  D0CF11E0_present:False
+
+== motor.CATProduct size=381724
+  BOF: 56355f43465632000005b09400002288 ascii=b'V5_CFV2\x00\x00'
+  u32be@8=372884 u32be@12=8840 sum==size:True bytes16-23=ffffffffffffffff
+  dir_marker_at_off1=b'CATIA_V5 CB0001\x00N' EOF-9=b'\x88CB__END\x00'
+  inner_V5_CFV2_at=-1
+  D0CF11E0_present:False
+

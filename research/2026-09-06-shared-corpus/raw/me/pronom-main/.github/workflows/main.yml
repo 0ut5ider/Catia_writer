@@ -1,0 +1,38 @@
+name: Release PRONOM
+on:
+  push:
+    branches:
+      - main
+permissions:
+  id-token: write
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    name: Main release test
+    environment: prod
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 #v7.0.0
+        with:
+          persist-credentials: true
+      - name: Set up JDK
+        uses: actions/setup-java@1bcf9fb12cf4aa7d266a90ae39939e61372fe520 #v5.4.0
+        with:
+          java-version: 21
+          distribution: temurin
+      - run: |
+          .github/scripts/create_signature_files.sh --release
+          NEXT_VERSION=$(echo V$(curl https://api.github.com/repos/nationalarchives/pronom/releases/latest | jq -r '.name | ltrimstr("V") | tonumber + 1'))
+          NEW_SIGNATURE_FILENAME=$(echo DROID_SignatureFile_$NEXT_VERSION.xml)
+          mv signature-file.xml $NEW_SIGNATURE_FILENAME
+          mv container-signature-file.xml container-signature-$(date +%Y%m%d).xml
+          gh release create --title $NEXT_VERSION $NEXT_VERSION $NEW_SIGNATURE_FILENAME container-signature-$(date +%Y%m%d).xml
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Build website
+        uses: octokit/request-action@b91aabaa861c777dcdb14e2387e30eddf04619ae #v3.0.0
+        with:
+          ref: main
+          route: POST /repos/nationalarchives/pronom-website/actions/workflows/release.yml/dispatches
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}

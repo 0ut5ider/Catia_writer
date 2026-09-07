@@ -1,0 +1,160 @@
+== FusionAssetName[Active]/Breps.BlobParts/BREP.10183642-1988-44c6-a32d-09f27734c691.smb (25474B) magic=41534d204269
+    ASM BinaryFile4
+    Autodesk Neutron
+    ASM 232.3.0.65535 NT
+    Tue Jul 21 21:31:25 2026
+    asmheader
+    232.3.0.65535
+    ATTRIB_CUSTOM
+    attrib
+    generic_tag_attrib_def
+    generic_tag_attrib_def 
+== FusionAssetName[Active]/Breps.BlobParts/BREP.c0646a88-4702-4a9b-9bc1-e02d0c785796.smbh (89626B) magic=41534d204269
+    ASM BinaryFile4
+    Autodesk Neutron
+    ASM 232.3.0.65535 NT
+    Tue Jul 21 21:31:25 2026
+    asmheader
+    232.3.0.65535
+    ATTRIB_CUSTOM
+    attrib
+    Timestamp_attrib_def
+    ATTRIB_CUSTOM
+== FusionAssetName[Active]/DesignConfigurationTable.BlobParts/DesignConfigurationRule.748fc7b7-cbec-4254-ad18-b7e1283a586a.dsgcfgrule (2B) magic=7b7d
+== FusionAssetName[Active]/DesignConfigurationTable.BlobParts/DesignConfigurationTable.c2261093-4129-4d2d-a73e-609f75add0b8.dsgcfg (2B) magic=7b7d
+== FusionAssetName[Active]/FusionACTSegmentType1/BulkStream.dat (3658B) magic=030000003235
+    ACTTable
+    Appearance$
+    Geometry$
+    PhysicalMaterial$
+    Properties$
+    StructureChange$
+    Transform$
+    ACTComponentsRoot
+    ACTComponentsRoot
+    Appearance$
+== FusionAssetName[Active]/FusionACTSegmentType1/MetaStream.dat (2445B) magic=140000004675
+    FusionACTSegmentType
+    FusionACTSegmentType
+    Fusion
+    8EF12734-4D22-4F6A-8A80-1462E6B40A13$
+    98542EB9-A4F2-4137-A808-DBB5B3CD6159
+    98542EB9-A4F2-4137-A808-DBB5B3CD6159
+    ABC8C0E3-50FB-4E8C-AFF3-116759A36073$
+    19E286C3-1C58-4F13-8050-3F00EC2F1562
+    19E286C3-1C58-4F13-8050-3F00EC2F1562$
+    4624CDED-E181-493B-BC82-3372738D683C
+== FusionAssetName[Active]/FusionBrowserSegmentType1/BulkStream.dat (5141B) magic=030000003236
+    PersistBrowserRootId
+    Ns::Comp::RelationshipsBrowserEntry
+    JointsBrowserEntry
+    Ns::Comp::RigidGroupsBrowserEntry
+    TangentRelationshipsBrowserEntry
+    Ns::Comp::ConstraintsBrowserEntry
+    Na::DocumentStructureTypeBrowserEntry
+    PersistBrowserRootId
+    Ns::Comp::RelationshipsBrowserEntry
+    JointsBrowserEntry
+== FusionAssetName[Active]/FusionBrowserSegmentType1/MetaStream.dat (5335B) magic=180000004675
+    FusionBrowserSegmentType
+    FusionBrowserSegmentType
+    Fusion
+    80DD69FA-8942-4D8B-9E6C-F7F9D730EA80$
+    FEE3F7C7-CEBE-4ED4-9946-453E6298C64E
+    Fusion
+    FEE3F7C7-CEBE-4ED4-9946-453E6298C64E$
+    6AE9DE8C-A6F6-40CB-B13D-4091AEA4968D
+    BrowserAddInIdentifier
+    6AE9DE8C-A6F6-40CB-B13D-4091AEA4968D$
+== FusionAssetName[Active]/FusionDesignSegmentType1/BulkStream.dat (123501B) magic=030000003430
+    AssetSettings
+    ProteinAssetManager
+    0?333?
+    ComponentsRoot
+    ComponentsRoot
+    crv_tag_id_idx
+    IntrinsicMetaTypeuint64
+    DcRevolveFeatureMetaType
+    DcSketchMetaType
+    DcSplitFaceFeatureMetaType
+== FusionAssetName[Active]/FusionDesignSegmentType1/MetaStream.dat (36032B) magic=170000004675
+    FusionDesignSegmentType
+    FusionDesignSegmentType
+    Fusion
+    5A1BF548-241F-46FD-9FB5-E4B05126EB9D$
+    6144EA59-3ACA-4172-9F14-A6531E94D69B
+    Fusion
+    6144EA59-3ACA-4172-9F14-A6531E94D69B$
+    F8CD0BB3-2CE6-4236-8C1B-6D0638BF215F
+    Fusion
+    F8CD0BB3-2CE6-4236-8C1B-6D0638BF215F$
+== FusionAssetName[Active]/Manifest.dat (589B) magic=0f0000004600
+    FusionAssetType
+    Application
+    ParaMesh
+    Server$
+    VolField
+    Neutron3DAssetType
+    physicalChangeGuid$
+    FusionDesignSegmentType
+    FusionDesignSegmentType
+    FusionACTSegmentType
+== FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/Fusion_mesh_000 (86096B) magic=55e01c408add
+    ?kx$?X
+    'ArKD?
+    'AO9Y? v
+    x?,=|>
+    'A>&v?
+    Q?.I*A
+    >T$S>6
+    >"Pf?6
+    #?#`A?#
+    ?Jq-A`F
+== FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/stream_mesh_000 (6292B) magic=0000c0c10000
+    A7??SF
+     sE?gi<
+== FusionAssetName[Active]/OGS.BlobFolder/OGS/DefaultScene/world (103473B) magic=0b0000004100
+    ffffff
+    ffffff
+    ffffff
+    ffffff
+    ffffff
+    ffffff
+    ffffff
+    ffffff
+    ?c'5?c
+    ffffff
+== FusionAssetName[Active]/Previews/small.png (12716B) magic=89504e470d0a
+    eXIfMM
+    $1Hi1p
+    9#}}]{
+    ~)WF>_D
+    Th[u+jk{
+    _EY=*(
+    -XTbSH
+    NZragm
+    /hEbW;
+    d#.=k!
+== FusionAssetName[Active]/ProteinAssets.BlobParts/ProteinAsset.2be06646-438b-49b6-aa28-5eee182a8c1f.protein (165728B) magic=504b03041400
+    918FDFE3-ABDF-4EA2-85E4-AECE17415CBB/AssetData/DefinitionIteratorProperties.bin
+    918FDFE3-ABDF-4EA2-85E4-AECE17415CBB/AssetData/InstanceProperties.bin
+    xok#Sp
+    918FDFE3-ABDF-4EA2-85E4-AECE17415CBB/Resources/080E8A68-45BF-48DF-868B-C86A1162193F_Post20
+    Z84lt_L
+    }KTWZn"
+    u.ZDZgIb
+    s+&BJ@
+    N")OR'
+    :-SXuZ
+== Manifest.dat (571B) magic=07000000332d
+    3-2-0-0
+    FusionDocType
+    Application
+    ParaMesh
+    SimCommon5u
+    SimFEACSObjects
+    SimFluidDynamics
+    SimStructuralAttributes
+== Properties.dat (100B) magic=600000007b22
+    {"docstruct":{"version":"1.0.0","type":"part-design","subtype":"part-standard","attributes
+== feature-name hits in FusionDesignSegmentType1/BulkStream.dat: ['FeatureMetaType', 'FeatureOperationIdFlag', 'RevolveFeatureMetaType', 'SketchMetaType', 'SketchesRoot']

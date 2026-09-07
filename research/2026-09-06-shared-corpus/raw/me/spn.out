@@ -1,0 +1,4525 @@
+
+	
+	
+	
+	
+	
+
+	
+			
+		
+			
+		
+		
+			
+		
+		
+		
+	
+
+
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR" data-xf="2.3" data-app="public" data-template="thread_view_type_question" data-container-key="node-560" data-content-key="thread-166313" data-logged-in="false" data-cookie-prefix="xf_" data-csrf="1788721022,6a6eb122bf62546cd244ec78e32b91f4" class="has-no-js template-thread_view_type_question XenBase layout-classic style-var(--xf-styleType) sidebar-right    xb-toggle-default xb-sidebar-show ">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/","20260906185703","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1788721023");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	
+	
+	
+
+	<meta charset="utf-8"/>
+	<title>Catia File Contents &amp;amp; Translation | Eng-Tips</title>
+	<link rel="manifest" href="/web/20260906185703/https://www.eng-tips.com/webmanifest.php">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	
+		
+			
+				<meta name="theme-color" content="#647ec4"/>
+			
+		
+	
+
+	<meta name="apple-mobile-web-app-title" content="Eng-Tips Engineering Forums">
+	
+
+	
+		
+		<meta name="description" content="We operated NX 3D CAD software (previously known as Unigraphics), and have ben asked if we can read Catia V5models.
+
+My question is do Catia files contain..."/>
+		<meta property="og:description" content="We operated NX 3D CAD software (previously known as Unigraphics), and have ben asked if we can read Catia V5models.
+
+My question is do Catia files contain the drg file also (like NX does) or is the drg a separate file.  The files we have are Catia part files and there is some suggestion that..."/>
+		<meta property="twitter:description" content="We operated NX 3D CAD software (previously known as Unigraphics), and have ben asked if we can read Catia V5models.
+
+My question is do Catia files contain the drg file also (like NX does) or is..."/>
+	
+	
+		<meta property="og:url" content="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/"/>
+	
+		<link rel="canonical" href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/"/>
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="Eng-Tips"/>
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website"/>
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Catia File Contents &amp;amp; Translation"/>
+		<meta property="twitter:title" content="Catia File Contents &amp;amp; Translation"/>
+	
+
+
+	
+	
+	
+	
+	
+	
+<link rel="preconnect" href="https://web.archive.org/web/20260906185703/https://fonts.googleapis.com/"><link rel="preconnect" href="https://web.archive.org/web/20260906185703/https://fonts.gstatic.com/" crossorigin><link href="https://web.archive.org/web/20260906185703cs_/https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+
+
+	
+
+	
+	
+	
+		
+	
+	
+
+	<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Avariations.less%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=ed88c2218bd0518f249f5fd0aa22762050880abb"/>
+
+	<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Amessage.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=677ffa305d2870ac7bc64898002b72f2c9ed1532"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Anotices.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=ef4d2eb9cdb4dd8bbc6989f4f363797492fa523f"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Ashare_controls.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=e33aac9207c11d4b53183be1862566e5892ecb15"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Asnog_groups.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=c5b368ef5b0a85a49deeb389dc5d4212436004e7"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Astructured_list.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=cfb0eb482cd0d71089a159779939b7ea2021a290"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3AsvESE_autocomplete.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=31dab38b6e69cc3f23d734803f4510f6de4705f2"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axb.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=2146ff5e140be42771ee939ae677482fa42ad590"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axb_search.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=ac9b6151081a640738715875b4a4469a133dd6a3"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axb_sidebar_login.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=3d9e4530fc22144c3b767fceb7cd5e73165ea670"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axb_welcome.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=b2b93b0bcff647e89df9a14704952c50dd8fc4a7"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axc_soft_attachment.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=6c0501cb90401ca6f21affddfe6a1eae332a5b8c"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axc_votes_button.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=a169ef3e01119eac946ecba020478a225df15a20"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axcpa_main.css&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=bf17700d0598bfd6c7a889e7ce6ef003985e96d2"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Axcpa_prestitial.css&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=c1d7af9c51ec68e7425555c7a98825b7f4ef4095"/>
+<link rel="stylesheet" href="/web/20260906185703cs_/https://www.eng-tips.com/css.php?css=public%3Aextra.less&amp;s=5&amp;l=1&amp;d=1788011440&amp;k=619d6243d04b9c0d4141d67358e3669d62cbfeb7"/>
+
+
+	
+		<script src="/web/20260906185703js_/https://www.eng-tips.com/js/xf/preamble.min.js?_v=5a1d78aa"></script>
+	
+
+	
+	<script src="/web/20260906185703js_/https://www.eng-tips.com/js/vendor/vendor-compiled.js?_v=5a1d78aa" defer></script>
+	<script src="/web/20260906185703js_/https://www.eng-tips.com/js/xf/core-compiled.js?_v=5a1d78aa" defer></script>
+
+	<script>
+		XF.ready(() =>
+		{
+			XF.extendObject(true, XF.config, {
+				// 
+				userId: 0,
+				enablePush: true,
+				pushAppServerKey: 'BOMxZzk8q7aElYlG06U2kaAXm_rfyr5n47J-WINWyAe05zu9Ork4zhOqoqqlM7rwJJjznZyQxrCCF27wOorEgVs',
+				url: {
+					fullBase: 'https://web.archive.org/web/20260906185703/https://www.eng-tips.com/',
+					basePath: '/',
+					css: '/css.php?css=__SENTINEL__&s=5&l=1&d=1788011440',
+					js: '/js/__SENTINEL__?_v=5a1d78aa',
+					icon: '/data/local/icons/__VARIANT__.svg?v=1788011461#__NAME__',
+					iconInline: '/styles/fa/__VARIANT__/__NAME__.svg?v=5.15.3',
+					keepAlive: '/login/keep-alive'
+				},
+				cookie: {
+					path: '/',
+					domain: '',
+					prefix: 'xf_',
+					secure: true,
+					consentMode: 'disabled',
+					consented: ["optional","_third_party"]
+				},
+				cacheKey: 'f3ed7234243583f554e27d349fe769c5',
+				csrf: '1788721022,6a6eb122bf62546cd244ec78e32b91f4',
+				js: {"\/js\/XenCentral\/InContentAds\/ads.js?_v=5a1d78aa":true,"\/js\/sv\/ese\/xf\/core_handlers.min.js?_v=5a1d78aa":true},
+				fullJs: false,
+				css: {"public:message.less":true,"public:notices.less":true,"public:share_controls.less":true,"public:snog_groups.less":true,"public:structured_list.less":true,"public:svESE_autocomplete.less":true,"public:xb.less":true,"public:xb_search.less":true,"public:xb_sidebar_login.less":true,"public:xb_welcome.less":true,"public:xc_soft_attachment.less":true,"public:xc_votes_button.less":true,"public:xcpa_main.css":true,"public:xcpa_prestitial.css":true,"public:extra.less":true},
+				time: {
+					now: 1788721022,
+					today: 1788649200,
+					todayDow: 0,
+					tomorrow: 1788735600,
+					yesterday: 1788562800,
+					week: 1788130800,
+					month: 1788217200,
+					year: 1767225600
+				},
+				style: {
+					light: 'default',
+					dark: '',
+					defaultColorScheme: 'light'
+				},
+				borderSizeFeature: '2px',
+				fontAwesomeWeight: 'l',
+				enableRtnProtect: true,
+				
+				enableFormSubmitSticky: true,
+				imageOptimization: '0',
+				imageOptimizationQuality: 0.85,
+				uploadMaxFilesize: 268435456,
+				uploadMaxWidth: 0,
+				uploadMaxHeight: 0,
+				allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+				allowedAudioExtensions: ["mp3","opus","ogg","wav"],
+				shortcodeToEmoji: true,
+				visitorCounts: {
+					conversations_unread: '0',
+					alerts_unviewed: '0',
+					total_unread: '0',
+					title_count: true,
+					icon_indicator: true
+				},
+				jsMt: {"xf\/action.js":"69ed256b","xf\/embed.js":"2e26051a","xf\/form.js":"2e26051a","xf\/structure.js":"69ed256b","xf\/tooltip.js":"2e26051a"},
+				jsState: {},
+				publicMetadataLogoUrl: '',
+				publicPushBadgeUrl: 'https://web.archive.org/web/20260906185703/https://www.eng-tips.com/styles/default/xenforo/bell.png'
+			})
+
+			XF.extendObject(XF.phrases, {
+				// 
+"svStandardLib_time.day": "{count} day",
+"svStandardLib_time.days": "{count} days",
+"svStandardLib_time.hour": "{count} hour",
+"svStandardLib_time.hours": "{count} hours",
+"svStandardLib_time.minute": "{count} minutes",
+"svStandardLib_time.minutes": "{count} minutes",
+"svStandardLib_time.month": "{count} month",
+"svStandardLib_time.months": "{count} months",
+"svStandardLib_time.second": "{count} second",
+"svStandardLib_time.seconds": "{count} seconds",
+"svStandardLib_time.week": "time.week",
+"svStandardLib_time.weeks": "{count} weeks",
+"svStandardLib_time.year": "{count} year",
+"svStandardLib_time.years": "{count} years",
+				date_x_at_time_y:     "{date} at {time}",
+				day_x_at_time_y:      "{day} at {time}",
+				yesterday_at_x:       "Yesterday at {time}",
+				x_minutes_ago:        "{minutes} minutes ago",
+				one_minute_ago:       "1 minute ago",
+				a_moment_ago:         "A moment ago",
+				today_at_x:           "Today at {time}",
+				in_a_moment:          "In a moment",
+				in_a_minute:          "In a minute",
+				in_x_minutes:         "In {minutes} minutes",
+				later_today_at_x:     "Later today at {time}",
+				tomorrow_at_x:        "Tomorrow at {time}",
+				short_date_x_minutes: "{minutes}m",
+				short_date_x_hours:   "{hours}h",
+				short_date_x_days:    "{days}d",
+
+				day0: "Sunday",
+				day1: "Monday",
+				day2: "Tuesday",
+				day3: "Wednesday",
+				day4: "Thursday",
+				day5: "Friday",
+				day6: "Saturday",
+
+				dayShort0: "Sun",
+				dayShort1: "Mon",
+				dayShort2: "Tue",
+				dayShort3: "Wed",
+				dayShort4: "Thu",
+				dayShort5: "Fri",
+				dayShort6: "Sat",
+
+				month0: "January",
+				month1: "February",
+				month2: "March",
+				month3: "April",
+				month4: "May",
+				month5: "June",
+				month6: "July",
+				month7: "August",
+				month8: "September",
+				month9: "October",
+				month10: "November",
+				month11: "December",
+
+				active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+				server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+				oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+				oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+				file_too_large_to_upload: "The file is too large to be uploaded.",
+				uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+				files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+				attach: "Attach files",
+				rich_text_box: "Rich text box",
+				close: "Close",
+				link_copied_to_clipboard: "Link copied to clipboard.",
+				text_copied_to_clipboard: "Text copied to clipboard.",
+				loading: "Loading…",
+				you_have_exceeded_maximum_number_of_selectable_items: "You have exceeded the maximum number of selectable items.",
+
+				processing: "Processing",
+				'processing...': "Processing…",
+
+				showing_x_of_y_items: "Showing {count} of {total} items",
+				showing_all_items: "Showing all items",
+				no_items_to_display: "No items to display",
+
+				number_button_up: "Increase",
+				number_button_down: "Decrease",
+
+				push_enable_notification_title: "Push notifications enabled successfully at Eng-Tips",
+				push_enable_notification_body: "Thank you for enabling push notifications!",
+
+				pull_down_to_refresh: "Pull down to refresh",
+				release_to_refresh: "Release to refresh",
+				refreshing: "Refreshing…"
+			})
+		})
+	</script>
+
+	<script src="/web/20260906185703js_/https://www.eng-tips.com/js/XenCentral/InContentAds/ads.js?_v=5a1d78aa" defer></script>
+<script src="/web/20260906185703js_/https://www.eng-tips.com/js/sv/ese/xf/core_handlers.min.js?_v=5a1d78aa" defer></script>
+<script>
+XF.ready(() =>
+{
+
+			document.querySelectorAll('.xb-searchWrapper').forEach(function(element) {
+			element.addEventListener('click', function(event) {
+			event.stopPropagation();
+			// Remove is-active from all others
+			document.querySelectorAll('.xb-searchWrapper').forEach(function(el) {
+			el.classList.remove('is-active');
+			});
+			element.classList.add('is-active');
+			});
+			});
+
+			// When clicking anywhere else, remove is-active from all
+			document.addEventListener('click', function() {
+			document.querySelectorAll('.xb-searchWrapper').forEach(function(element) {
+			element.classList.remove('is-active');
+			});
+			});
+        
+})
+</script>
+
+
+
+	
+		<link rel="icon" type="image/png" href="https://web.archive.org/web/20260906185703im_/https://www.eng-tips.com/data/assets/logo/tipsico.png" sizes="32x32"/>
+	
+
+	
+	
+	
+
+<script>
+  
+    var dimensionValue1 = 'Engineering Computer Programs';
+    
+  
+    var dimensionValue2 = 'Engineering Programs';
+    
+  var dimensionValue3 = 'DASSAULT: CATIA products';
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+  'Area' : dimensionValue1,
+  'Category' : dimensionValue2,
+  'Forum' : dimensionValue3
+  });
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://web.archive.org/web/20260906185703/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-539G66QN');</script>
+<!-- End Google Tag Manager -->
+        <!-- AdRoll code -->
+
+
+
+
+ <script type="text/javascript">
+var infolinks_pid = 3408564;
+var infolinks_wsid = 0;
+</script>
+<!--<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>-->
+	
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://web.archive.org/web/20260906185703/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MMC9PJ9');</script>
+        <!-- End Google Tag Manager -->
+<script type="text/javascript">
+  adroll_adv_id = "KCG7QJRNGNEX3GEZSJPEFG";
+  adroll_pix_id = "HNHCAFVMNNC7FBZP3GMMLE";
+  adroll_version = "2.0";
+
+  (function(w, d, e, o, a) {
+  w.__adroll_loaded = true;
+  w.adroll = w.adroll || [];
+  w.adroll.f = [ 'setProperties', 'identify', 'track', 'identify_email' ];
+  var roundtripUrl = "https://web.archive.org/web/20260906185703/https://s.adroll.com/j/" + adroll_adv_id
+  + "/roundtrip.js";
+  for (a = 0; a < w.adroll.f.length; a++) {
+  w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) {
+  return function() {
+  w.adroll.push([ n, arguments ])
+  }
+  })(w.adroll.f[a])
+  }
+
+  e = d.createElement('script');
+  o = d.getElementsByTagName('script')[0];
+  e.async = 1;
+  e.src = roundtripUrl;
+  o.parentNode.insertBefore(e, o);
+  })(window, document);
+  adroll.track("pageView");
+</script>
+	<!--Adsense-->
+<!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4401622383960692"
+        crossorigin="anonymous"></script>-->
+<!--End Adsense-->
+
+        <!-- AdRoll code -->
+
+
+<script async src="https://web.archive.org/web/20260906185703js_/https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+var pathParts = window.location.pathname.substr(1).split('/');
+var mapLeaderboard = googletag.sizeMapping()
+.addSize([1024, 200], [728, 90])
+.addSize([0, 0], [300, 250])
+.build();
+var mapWallpaper = googletag.sizeMapping()
+.addSize([1024, 200], [1, 1])
+.addSize([0, 0],  [[1, 1]])
+.build();
+
+var gptSlots = [];
+
+
+googletag.defineSlot('/5272491/dw_network/engtips_customsearchbox', [300, 90], 'div-gpt-engtips_customsearchbox').addService(googletag.pubads());
+gptSlots[1] = googletag.defineSlot('/5272491/dw_network/engtips_thread1', [728, 90], 'div-gpt-engtips_thread1').defineSizeMapping(mapLeaderboard).addService(googletag.pubads());
+gptSlots[2] = googletag.defineSlot('/5272491/dw_network/engtips_thread2', [728, 90], 'div-gpt-engtips_thread2').defineSizeMapping(mapLeaderboard).addService(googletag.pubads());
+googletag.defineSlot('/5272491/dw_network/engtips_thread3', [[728, 90]], 'div-gpt-engtips_thread3').addService(googletag.pubads());
+
+  
+googletag.defineSlot('/5272491/dw_network/engtips_sidebar1', [[300, 250], [300, 600]], 'div-gpt-engtips_sidebar1').addService(googletag.pubads());
+googletag.defineSlot('/5272491/dw_network/engtips_sidebarbottom', [[300, 250], [300, 600],[160, 600]], 'div-gpt-engtips_sidebarbottom').addService(googletag.pubads());
+var mapPrestitial = googletag.sizeMapping()
+               .addSize([1024, 500], [640, 480])
+               .addSize([0, 0], [300, 225])
+               .build();
+
+	googletag.defineSlot('/5272491/dw_network/engtips_wallpaper', [1, 1], 'div-gpt-engtips_wallpaper').addService(googletag.pubads());
+    gptSlots[4] = googletag.defineSlot('/5272491/dw_network/engtips_prestitial', [[1024, 500], [640, 480], [300, 225]], 'div-gpt-pmq_prestitial').defineSizeMapping(mapPrestitial).addService(googletag.pubads());
+
+	googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+	
+googletag.pubads().setTargeting('Forum', dimensionValue3);
+googletag.pubads().setTargeting('ForumCategory', dimensionValue2);
+googletag.pubads().setTargeting('ForumArea', dimensionValue1);
+
+	
+googletag.enableServices();
+});
+</script>
+
+
+    <script data-wtwh-analytics-loader>(function(w,d){'use strict';
+var cfg={"scriptUrl":"https://web.archive.org/web/20260906185703/https://scripts.wtwhmedia.com/developer/wtwh_analytics/env/prod/index.js","endpoint":"https://web.archive.org/web/20260906185703/https://collect.wtwhmedia.com/v1/events","site":"www.eng-tips.com","pageUrl":"https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/","country":"US","consentDenied":true};
+var consentMessageType="arrowfly:analytics-consent";
+if(w.__wtwhAnalyticsEdgeLoaderInstalled)return;
+w.__wtwhAnalyticsEdgeLoaderInstalled=true;
+var analytics=null;
+var pageTracker=null;
+var consentGranted=!cfg.consentDenied;
+function browserConsent(){
+  var n=w.navigator||{};
+  return n.globalPrivacyControl!==true&&n.doNotTrack!=='1';
+}
+function canTrack(){return consentGranted&&browserConsent();}
+function embedFrames(){
+  return d.querySelectorAll('iframe[src*="embeds.wtwhmedia.com"],iframe[src*="embeds.dev.wtwhmedia.com"]');
+}
+function broadcastEmbedConsent(){
+  var msg={type:consentMessageType,granted:canTrack()};
+  var frames=embedFrames();
+  for(var i=0;i<frames.length;i++){
+    try{
+      var frame=frames[i];
+      var targetOrigin=new URL(frame.src,w.location.href).origin;
+      if(frame.contentWindow)frame.contentWindow.postMessage(msg,targetOrigin);
+    }catch(_){}
+  }
+}
+function startPageTracking(){
+  if(!analytics||pageTracker||!canTrack())return;
+  var api=w.wtwh&&w.wtwh.analytics;
+  if(api&&typeof api.trackPage==='function'){
+    pageTracker=api.trackPage(analytics,{props:{source:'edge-router',country:cfg.country}});
+    return;
+  }
+  analytics.track('page_view',{
+    page_url:cfg.pageUrl,
+    page_host:w.location.hostname,
+    page_path:w.location.pathname,
+    referer:d.referrer||'',
+    props:{source:'edge-router',country:cfg.country,navigation_type:'initial'}
+  });
+  analytics.flush();
+}
+function stopPageTracking(){
+  if(!pageTracker)return;
+  pageTracker.destroy();
+  pageTracker=null;
+}
+function setConsent(granted){
+  consentGranted=!!granted;
+  if(consentGranted)startPageTracking();
+  else stopPageTracking();
+  broadcastEmbedConsent();
+}
+function applyConsentEvent(event){
+  var value=event&&event.detail&&event.detail.consent_analytics;
+  if(value==='granted')setConsent(true);
+  else if(value==='denied')setConsent(false);
+}
+function readKlaroConsent(){
+  try{
+    var manager=w.klaro&&typeof w.klaro.getManager==='function'&&w.klaro.getManager();
+    if(manager&&manager.consents&&typeof manager.consents.analytics==='boolean'){
+      setConsent(manager.consents.analytics);
+      return true;
+    }
+  }catch(_){}
+  return false;
+}
+function pollKlaroConsent(){
+  if(!cfg.consentDenied)return;
+  var attempts=0;
+  var timer=w.setInterval(function(){
+    attempts++;
+    if(readKlaroConsent()||attempts>=20)w.clearInterval(timer);
+  },500);
+}
+function start(){
+  var api=w.wtwh&&w.wtwh.analytics;
+  if(!api||typeof api.create!=='function')return;
+  analytics=api.create({
+    site:String(cfg.site||w.location.hostname),
+    endpoint:String(cfg.endpoint),
+    context:{
+      page_url:String(cfg.pageUrl||w.location.href),
+      page_host:w.location.hostname,
+      page_path:w.location.pathname,
+      referer:d.referrer||''
+    },
+    consent:canTrack
+  });
+  readKlaroConsent();
+  startPageTracking();
+  broadcastEmbedConsent();
+}
+w.addEventListener('consent_initialized',applyConsentEvent);
+w.addEventListener('consent_updated',applyConsentEvent);
+w.addEventListener('load',broadcastEmbedConsent);
+d.addEventListener('load',function(event){
+  if(event.target&&event.target.tagName==='IFRAME')broadcastEmbedConsent();
+},true);
+if(w.wtwh&&w.wtwh.analytics)start();
+else{
+  var script=d.createElement('script');
+  script.async=true;
+  script.src=String(cfg.scriptUrl);
+  script.onload=start;
+  (d.head||d.documentElement).appendChild(script);
+}
+pollKlaroConsent();
+})(window,document);</script><script data-wtwh-ad-info>window.dataLayer=window.dataLayer||[];window.dataLayer.push({"wtwhAdInfo":{"request":"unrestricted","verified_bot_category":""}});</script></head>
+<body data-template="thread_view_type_question">
+  
+  <script>
+     var GAMaccountID   = 5272491
+     var GAMnetworkName = 'dw_network';
+     var GAMadUnitName 	= 'engtips_prestitial';
+     var GAMadSizes 		= '300, 225\n 640, 480';
+
+
+      googletag.slots = googletag.slots || {};
+</script>
+    <div id="prestitial" style="opacity: 0;">
+      <div id="prestitial-overlay"></div>
+      <div id="prestitial-grid">
+
+
+      <div class="prestitial-logo">
+      	 <div class="title-area">
+      	<div class="p-header-logo p-header-logo--image">
+				<div class="p-header-logo p-header-logo--image">
+					<a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/">
+						
+
+	
+
+	
+		
+		
+
+		
+	
+		
+		
+
+		
+	
+
+	
+
+	<picture data-variations="{&quot;default&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null},&quot;alternate&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null}}">
+		
+		
+		
+
+		
+
+		<img src="/web/20260906185703im_/https://www.eng-tips.com/styles/images/header-logo.png" width="" height="" alt="Eng-Tips"/>
+	</picture>
+
+
+					</a>
+				</div>
+			</div>
+      </div>
+       </div>
+        <div class="close-cta">
+          Continue to Site <i class="fa fa-arrow-right"></i>
+        </div>
+         <div id="prestitial-banner"></div>
+      </div>
+    </div>
+
+
+    <!-- hides rest of content -->
+    <div id="body-wrapper" style="opacity: 0;">
+
+
+<!-- Google Tag Manager Global (noscript) -->
+<noscript><iframe src="https://web.archive.org/web/20260906185703if_/https://www.googletagmanager.com/ns.html?id=GTM-MMC9PJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://web.archive.org/web/20260906185703if_/https://www.googletagmanager.com/ns.html?id=GTM-TZQ8TVZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="p-pageWrapper" id="top">
+
+    <div class="p-pageWrapper--helper"></div>
+    
+
+    
+
+    <div class="xb-page-wrapper xb-canvasNoCollapse">
+        
+        
+        <div class="xb-page-wrapper--helper"></div>
+        
+            
+        <header class="p-header" id="header">
+            <div class="p-header-inner">
+                <div class="p-header-content">
+                    <div class="p-header-logo p-header-logo--image">
+                        <a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/">
+                            
+                                
+
+	
+
+	
+		
+		
+
+		
+	
+		
+		
+
+		
+	
+
+	
+
+	<picture data-variations="{&quot;default&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null},&quot;alternate&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null}}">
+		
+		
+		
+
+		
+
+		<img src="/web/20260906185703im_/https://www.eng-tips.com/styles/images/header-logo.png" width="" height="" alt="Eng-Tips"/>
+	</picture>
+
+
+                            
+                        </a>
+                    </div>
+
+                    
+                    
+                    
+                    
+                        
+    
+        
+        
+        <div class="xb-searchWrapper" id="xb-searchWrapper" tabindex="0">
+            <form action="/web/20260906185703/https://www.eng-tips.com/search/search" id="xbSearch" data-xf-init="quick-search" data-autocomplete-filter="null" class="xb-search" method="post" data-no-auto-focus="true">
+                <input type="text" class="input" name="keywords" data-autocomplete-filter="null" data-constraints-selector="#" placeholder="Search…" aria-label="Search" data-menu-autofocus="true"/>
+                <div class="menu menu--structural menu--search" aria-hidden="true">
+                    <div class="menu-content">
+                        
+                            <div class="menu-row">
+                                
+
+
+	
+
+
+
+			<select name="constraints" class="js-quickSearch-constraint input" aria-label="Search within">
+				<option value="">Everywhere</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;}">Threads</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;nodes&quot;:[560],&quot;child_nodes&quot;:1}}">This forum</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;thread&quot;:166313}}" selected="selected">This thread</option>
+
+			</select>
+		
+                            </div>
+                        
+
+
+	
+		<div class="menu-row">
+			
+				
+	
+		
+		
+
+		
+			<label class="iconic"><input type="checkbox" name="c[container_only]" value="1"/><i aria-hidden="true"></i><span class="iconic-label">Search titles and first posts only</span></label>
+
+		
+	
+
+			
+		</div>
+	
+
+                        
+                        <div class="menu-row">
+                            <label class="iconic"><input type="checkbox" name="c[title_only]" value="1"/><i aria-hidden="true"></i><span class="iconic-label">Search titles only</span></label>
+
+                        </div>
+                        
+                        <div class="menu-row">
+                            <div class="inputGroup">
+                                <span class="inputGroup-text" id="ctrl_search_menu_by_member">By:</span>
+                                <input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Member" aria-labelledby="ctrl_search_menu_by_member"/>
+                            </div>
+                        </div>
+                        <div class="menu-footer">
+									<span class="menu-footer-controls">
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#search"></use></svg></i><span class="button-text">Search</span></button>
+										<a href="/web/20260906185703/https://www.eng-tips.com/search/" class="button "><span class="button-text">Advanced search…</span></a>
+									</span>
+                        </div>
+
+                        <input type="hidden" name="_xfToken" value="1788721022,6a6eb122bf62546cd244ec78e32b91f4"/>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    
+
+                    
+                </div>
+            </div>
+        </header>
+    
+        
+
+        <div class="xb-content-wrapper">
+            <div class="navigation-helper"></div>
+
+            
+            
+
+            
+                <div class="p-navSticky p-navSticky--primary" data-xf-init="sticky-header">
+                    
+                <div class="p-nav--wrapper">
+                    <nav class="p-nav">
+                        <div class="p-nav-inner">
+                            <button type="button" class="button button--plain p-nav-menuTrigger" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" tabindex="0" aria-label="Menu"><span class="button-text">
+                                <i aria-hidden="true"></i>
+                            </span></button>
+
+                            <div class="p-nav-smallLogo">
+                                <a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/">
+                                    
+                                        <div class="logo-default">
+                                            
+
+	
+
+	
+		
+		
+
+		
+	
+		
+		
+
+		
+	
+
+	
+
+	<picture data-variations="{&quot;default&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null},&quot;alternate&quot;:{&quot;1&quot;:&quot;\/styles\/images\/header-logo.png&quot;,&quot;2&quot;:null}}">
+		
+		
+		
+
+		
+
+		<img src="/web/20260906185703im_/https://www.eng-tips.com/styles/images/header-logo.png" width="" height="" alt="Eng-Tips"/>
+	</picture>
+
+
+                                        </div>
+                                        
+                                    
+                                </a>
+                            </div>
+
+                            <div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+                                <div class="hScroller-scroll">
+                                    <ul class="p-nav-list js-offCanvasNavSource">
+                                        
+                                            <li class="navhome">
+                                                
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/" class="p-navEl-link " data-xf-key="1" data-nav-id="home">Home</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                            </li>
+                                        
+                                            <li class="navforums">
+                                                
+    <div class="p-navEl is-selected" data-has-children="true">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="forums">Forums</a>
+
+
+        <a data-xf-key="2" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+        
+    
+        <div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+            <div class="menu-content">
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="newPosts">New posts</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/search/?type=post" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="searchForums">Search forums</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="0">Forum</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/faqs/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy faqLink" data-nav-id="1">FAQs</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/links/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="2">Links</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/mvps/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy mvpLink" data-nav-id="3">MVPs</a>
+
+    
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+                                            </li>
+                                        
+                                            <li class="navwhatsNew">
+                                                
+    <div class="p-navEl " data-has-children="true">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="whatsNew">What's new</a>
+
+
+        <a data-xf-key="3" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+        
+    
+        <div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+            <div class="menu-content">
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/featured/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="featured">Featured content</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewPosts">New posts</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/media/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="xfmgWhatsNewNewMedia">New media</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/media-comments/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="xfmgWhatsNewMediaComments">New media comments</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/resources/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="xfrmNewResources">New resources</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/profile-posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewProfilePosts">New profile posts</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/latest-activity" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="latestActivity">Latest activity</a>
+
+    
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+                                            </li>
+                                        
+                                            <li class="navxfmg">
+                                                
+    <div class="p-navEl " data-has-children="true">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/media/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="xfmg">Media</a>
+
+
+        <a data-xf-key="4" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+        
+    
+        <div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+            <div class="menu-content">
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/media/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="xfmgNewMedia">New media</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/media-comments/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="xfmgNewComments">New comments</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/search/?type=xfmg_media" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="xfmgSearchMedia">Search media</a>
+
+    
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+                                            </li>
+                                        
+                                            <li class="navxfrm">
+                                                
+    <div class="p-navEl " data-has-children="true">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/resources/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="xfrm">Resources</a>
+
+
+        <a data-xf-key="5" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+        
+    
+        <div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+            <div class="menu-content">
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/resources/latest-reviews" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="xfrmLatestReviews">Latest reviews</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/search/?type=resource" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="xfrmSearchResources">Search resources</a>
+
+    
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+                                            </li>
+                                        
+                                            <li class="navmembers">
+                                                
+    <div class="p-navEl " data-has-children="true">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/members/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="members">Members</a>
+
+
+        <a data-xf-key="6" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+        
+    
+        <div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+            <div class="menu-content">
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/online/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="currentVisitors">Current visitors</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/profile-posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="newProfilePosts">New profile posts</a>
+
+    
+
+                
+                    
+    
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/search/?type=profile_post" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="searchProfilePosts">Search profile posts</a>
+
+    
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+
+                            
+                            
+                                <div class="p-nav-opposite">
+                                    <div class="p-navgroup p-account p-navgroup--guest">
+                                        
+                                            <a href="/web/20260906185703/https://www.eng-tips.com/login/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn" data-xf-click="overlay" data-follow-redirects="on">
+                                                <span class="p-navgroup-linkText">Log in</span>
+                                            </a>
+                                            
+                                                <a href="/web/20260906185703/https://www.eng-tips.com/register/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--register" data-xf-click="overlay" data-follow-redirects="on">
+                                                    <span class="p-navgroup-linkText">Register</span>
+                                                </a>
+                                            
+                                        
+                                        
+                                            <a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation" rel="nofollow" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--variations js-styleVariationsLink" data-xf-init="tooltip" title="Style variation" data-menu-pos-ref="< .p-navgroup" data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
+
+                                                <i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Style variation</title><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+                                            </a>
+
+                                            <div class="menu" data-menu="menu" aria-hidden="true">
+                                                <div class="menu-content js-styleVariationsMenu">
+                                                    
+
+	
+		
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?reset=1&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow is-selected" rel="nofollow" data-xf-click="style-variation" data-variation="">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Default
+		
+	</a>
+
+	
+
+	
+		
+			
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?variation=alternate&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow " rel="nofollow" data-xf-click="style-variation" data-variation="alternate">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Alternate
+		
+	</a>
+
+		
+	
+
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+
+                                    <div class="p-navgroup p-discovery">
+                                        <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew" aria-label="What's new" title="What's new">
+                                            <i aria-hidden="true"></i>
+                                            <span class="p-navgroup-linkText">What's new</span>
+                                        </a>
+
+                                        
+                                            <a href="/web/20260906185703/https://www.eng-tips.com/search/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--search" data-xf-click="menu" data-xf-key="/" aria-label="Search" aria-expanded="false" aria-haspopup="true" title="Search">
+                                                <i aria-hidden="true"></i>
+                                                <span class="p-navgroup-linkText">Search</span>
+                                            </a>
+                                            <div class="menu menu--structural menu--wide" data-menu="menu" aria-hidden="true">
+                                                <form action="/web/20260906185703/https://www.eng-tips.com/search/search" method="post" class="menu-content" data-xf-init="quick-search ">
+
+                                                    <h3 class="menu-header">Search</h3>
+                                                    
+                                                    <div class="menu-row">
+                                                        
+                                                            <div class="inputGroup inputGroup--joined">
+                                                                <input type="text" class="input" data-xf-init="ese-autocomplete" name="keywords" data-acurl="/search/search?autocomplete=1" data-autocomplete-filter="[&quot;resource&quot;,&quot;post&quot;]" data-constraints-selector="#_xfUid-sv_ess_search_constraints-1788721022" placeholder="Search…" aria-label="Search" data-menu-autofocus="true"/>
+                                                                
+
+
+	
+
+
+
+			<select name="constraints" class="js-quickSearch-constraint input" id="_xfUid-sv_ess_search_constraints-1788721022" aria-label="Search within">
+				<option value="">Everywhere</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;}">Threads</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;nodes&quot;:[560],&quot;child_nodes&quot;:1}}">This forum</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;thread&quot;:166313}}" selected="selected" data-suggest-optout="1">This thread</option>
+
+			</select>
+		
+                                                            </div>
+                                                            
+                                                    </div>
+
+
+	
+		<div class="menu-row">
+			
+				
+	
+		
+		
+
+		
+			<label class="iconic"><input type="checkbox" name="c[container_only]" value="1"/><i aria-hidden="true"></i><span class="iconic-label">Search titles and first posts only</span></label>
+
+		
+	
+
+			
+		</div>
+	
+
+                                                    
+                                                    <div class="menu-row">
+                                                        <label class="iconic"><input type="checkbox" name="c[title_only]" value="1"/><i aria-hidden="true"></i><span class="iconic-label">Search titles only</span></label>
+
+                                                    </div>
+                                                    
+                                                    <div class="menu-row">
+                                                        <div class="inputGroup">
+                                                            <span class="inputGroup-text" id="ctrl_search_menu_by_member">By:</span>
+                                                            <input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Member" aria-labelledby="ctrl_search_menu_by_member"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="menu-footer">
+									<span class="menu-footer-controls">
+										<button type="submit" class="button button--icon button--icon--search button--primary"><i class="fa--xf fal fa-search "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#search"></use></svg></i><span class="button-text">Search</span></button>
+										<button type="submit" class="button " name="from_search_menu"><span class="button-text">Advanced search…</span></button>
+									</span>
+                                                    </div>
+
+                                                    <input type="hidden" name="_xfToken" value="1788721022,6a6eb122bf62546cd244ec78e32b91f4"/>
+                                                </form>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            
+                </div>
+                
+                
+                    <div class="p-sectionLinks--wrapper">
+                        <div class="p-sectionLinks">
+                            <div class="p-sectionLinks-inner">
+                                <div class="hScroller" data-xf-init="h-scroller">
+                                    <div class="hScroller-scroll">
+                                        <ul class="p-sectionLinks-list">
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/whats-new/posts/" class="p-navEl-link " data-xf-key="alt+1" data-nav-id="newPosts">New posts</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/search/?type=post" class="p-navEl-link " data-xf-key="alt+2" data-nav-id="searchForums">Search forums</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/" class="p-navEl-link " data-xf-key="alt+3" data-nav-id="0">Forum</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/faqs/" class="p-navEl-link faqLink" data-xf-key="alt+4" data-nav-id="1">FAQs</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/links/" class="p-navEl-link " data-xf-key="alt+5" data-nav-id="2">Links</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                                <li>
+                                                    
+    <div class="p-navEl ">
+    
+
+        
+    
+    <a href="/web/20260906185703/https://www.eng-tips.com/forums/560/mvps/" class="p-navEl-link mvpLink" data-xf-key="alt+6" data-nav-id="3">MVPs</a>
+
+
+        
+
+        
+    
+    </div>
+
+                                                </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="p-sectionLinks-right">
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                
+
+            <div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+                <div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+                <div class="offCanvasMenu-content">
+                    <div class="offCanvasMenu-content--inner">
+                        
+                        <div class="offCanvasMenu-header">
+                            Menu
+                            <a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+                        </div>
+                        
+                            <div class="p-offCanvasRegisterLink">
+                                <div class="offCanvasMenu-linkHolder">
+                                    <a href="/web/20260906185703/https://www.eng-tips.com/login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+                                        Log in
+                                    </a>
+                                </div>
+                                <hr class="offCanvasMenu-separator"/>
+                                
+                                    <div class="offCanvasMenu-linkHolder">
+                                        <a href="/web/20260906185703/https://www.eng-tips.com/register/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+                                            Register
+                                        </a>
+                                    </div>
+                                    <hr class="offCanvasMenu-separator"/>
+                                
+                            </div>
+                        
+                        <div class="offCanvasMenu-subHeader">Navigation</div>
+                        <div class="js-offCanvasNavTarget"></div>
+                        <div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+                            <div class="offCanvasMenu-installBanner-header">Install the app</div>
+                            <button type="button" class="button js-installPromptButton"><span class="button-text">Install</span></button>
+                            <template class="js-installTemplateIOS">
+                                <div class="js-installTemplateContent">
+                                    <div class="overlay-title">How to install the app on iOS</div>
+                                    <div class="block-body">
+                                        <div class="block-row">
+                                            <p>
+                                                Follow along with the video below to see how to install our site as a web app on your home screen.
+                                            </p>
+                                            <p style="text-align: center">
+                                                <video src="/web/20260906185703im_/https://www.eng-tips.com/styles/default/xenforo/add_to_home.mp4" width="280" height="480" autoplay loop muted playsinline></video>
+                                            </p>
+                                            <p>
+                                                <small><strong>Note:</strong> This feature may not be available in some browsers.</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="offCanvasMenu-subHeader">More options</div>
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation" rel="nofollow" class="offCanvasMenu-link offCanvasMenu-link--variations js-styleVariationsLink" data-xf-init="tooltip" title="Style variation" data-nav-id="styleVariation" data-xf-click="menu" role="button" aria-expanded="false" aria-haspopup="true">
+
+                                Style variation
+                            </a>
+
+                            <div class="menu" data-menu="menu" aria-hidden="true">
+                                <div class="menu-content js-styleVariationsMenu">
+                                    
+
+	
+		
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?reset=1&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow is-selected" rel="nofollow" data-xf-click="style-variation" data-variation="">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Default
+		
+	</a>
+
+	
+
+	
+		
+			
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?variation=alternate&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow " rel="nofollow" data-xf-click="style-variation" data-variation="alternate">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Alternate
+		
+	</a>
+
+		
+	
+
+                                </div>
+                            </div>
+                        
+                        
+                        
+                            
+                                <div class="offCanvasMenu-linkHolder">
+                                    <a href="/web/20260906185703/https://www.eng-tips.com/misc/contact" class="offCanvasMenu-link" data-menu-close="true" data-nav-id="contactUs" data-xf-click="overlay">Contact us</a>
+                                </div>
+                            
+                        
+                        <div class="offCanvasMenu-linkHolder">
+                            <a class="offCanvasMenu-link" data-menu-close="true" data-nav-id="closeMenu" role="button" tabindex="0" aria-label="Close">Close Menu</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+            
+
+            <div class="p-body">
+                <div class="p-body-inner">
+                    
+                        
+
+<div class="xb-welcome-notice">
+	<div class="xb-welcome-notice--mask">
+		<div class="xb-welcome-notice--inner">
+			<div class="xb-welcome-notice--title">
+			
+				<h3>Eng-Tips is the largest forum for Engineering Professionals on the Internet.</h3>
+			
+			
+				<h4>Members share and learn making Eng-Tips Forums the best source of engineering information on the Internet!</h4>
+			
+			</div>
+			<div class="xb-welcome-notice--buttons">
+			
+			<a href="/web/20260906185703/https://www.eng-tips.com/register/" class="button" data-xf-click="overlay" data-follow-redirects="on"><span class="button-text">Register</span></a>
+			
+
+			<a href="/web/20260906185703/https://www.eng-tips.com/login/" class="button--cta button" rel="nofollow" data-xf-click="overlay" data-menu-close="true">
+				<span class="button-text">Log in</span>
+			</a>
+			</div>
+		</div>
+		</div>
+</div>
+
+                    
+                    <!--XF:EXTRA_OUTPUT-->
+
+                    
+                        
+	
+		
+		
+
+		<ul class="notices notices--block  js-notices" data-xf-init="notices" data-type="block" data-scroll-interval="6">
+
+			
+				
+	<li class="notice js-notice notice--light" data-notice-id="100" data-delay-duration="0" data-display-duration="0" data-auto-dismiss="" data-visibility="">
+
+		
+		<div class="notice-content">
+			
+			<b>Congratulations <span><a href="/web/20260906185703/https://www.eng-tips.com/members/kootk.35814/">KootK</a></span></b> on being selected by the Eng-Tips community for having the most helpful posts in the forums last week. Way to Go!
+		</div>
+	</li>
+
+			
+		</ul>
+	
+
+                    
+
+                    
+
+                    
+                        
+
+	
+
+		
+		<div style="text-align:center;"> 
+		<div class="inContentAd"><div id="div-gpt-engtips_thread1">
+			<script>
+		    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_thread1'); });
+		  </script>
+		</div>
+		</div>
+		</div><div>
+
+	
+
+
+                        
+    
+        <div class="p-breadcrumbs--parent ">
+            <ul class="p-breadcrumbs " itemscope itemtype="https://schema.org/BreadcrumbList">
+                
+                    
+
+                    
+                    
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/" itemprop="item">
+            <span itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1"/>
+    </li>
+
+                    
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/" itemprop="item">
+            <span itemprop="name">Forums</span>
+        </a>
+        <meta itemprop="position" content="2"/>
+    </li>
+
+                    
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/#things.1002" itemprop="item">
+            <span itemprop="name">Things</span>
+        </a>
+        <meta itemprop="position" content="3"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/categories/engineering-computer-programs.10022/" itemprop="item">
+            <span itemprop="name">Engineering Computer Programs</span>
+        </a>
+        <meta itemprop="position" content="4"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/categories/engineering-programs.10070/" itemprop="item">
+            <span itemprop="name">Engineering Programs</span>
+        </a>
+        <meta itemprop="position" content="5"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/" itemprop="item">
+            <span itemprop="name">DASSAULT: CATIA products</span>
+        </a>
+        <meta itemprop="position" content="6"/>
+    </li>
+
+                    
+                
+            </ul>
+            
+        </div>
+    
+
+                        
+                    
+
+                    
+	<noscript class="js-jsWarning"><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+                    
+	<div class="blockMessage blockMessage--important blockMessage--iconic js-browserWarning" style="display: none">You are using an out of date browser. It  may not display this or other websites correctly.<br/>You should upgrade or use an <a href="https://web.archive.org/web/20260906185703/https://www.google.com/chrome/" target="_blank" rel="noopener">alternative browser</a>.</div>
+
+		
+	<!-- HEADER START -->
+
+                    
+                    
+                        
+                        
+                            <div class="p-body-header">
+                                
+                                    
+                                        <div class="p-title ">
+                                            
+                                                
+                                                    <h1 class="p-title-value">Catia File Contents &amp;amp; Translation
+
+	</h1>
+                                                
+                                                
+                                            
+                                        </div>
+                                    
+
+                                    
+                                        <div class="p-description">
+    <ul class="listInline listInline--bullet">
+        <li>
+            <i class="fa--xf fal fa-user "><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Thread starter</title><use href="/data/local/icons/light.svg?v=1788011461#user"></use></svg></i>
+            <span class="u-srOnly">Thread starter</span>
+
+            <a href="/web/20260906185703/https://www.eng-tips.com/members/wairau.121020/" class="username  u-concealed" dir="auto" data-user-id="121020" data-xf-init="member-tooltip">Wairau</a>
+        </li>
+        <li>
+            <i class="fa--xf fal fa-clock "><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Start date</title><use href="/data/local/icons/light.svg?v=1788011461#clock"></use></svg></i>
+            <span class="u-srOnly">Start date</span>
+
+            <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/" class="u-concealed"><time class="u-dt" dir="auto" datetime="2006-09-26T15:10:27+0100" data-timestamp="1159279827" data-date="Sep 26, 2006" data-time="3:10 PM" data-short="Sep '06" title="Sep 26, 2006 at 3:10 PM">Sep 26, 2006</time></a>
+        </li>
+        
+        
+    </ul>
+</div>
+                                    
+                                
+                            </div>
+                        
+                    
+                    
+
+                    <!-- HEADER END -->
+
+		<div class="p-body-main p-body-main--withSidebar ">
+                        
+                        <div class="p-body-contentCol"></div>
+                        
+                            <div class="p-body-sidebarCol"></div>
+                        
+
+                        
+
+                        
+	<div class="p-body-content">
+										<div id="div-gpt-engtips_wallpaper">
+	<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_wallpaper'); });
+  </script>
+</div>
+                            
+                            
+                            
+                            
+                            <div class="p-body-pageContent">
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    <div class="block block--messages " data-xf-init="lightbox select-to-quote" data-message-selector=".js-post" data-lb-id="thread-166313">
+        
+            
+    
+        <div class="block-outer">
+            <dl class="blockStatus">
+                <dt>Status</dt>
+                
+                    
+                    
+                        <dd class="blockStatus-message blockStatus-message--locked">
+                            Not open for further replies.
+                        </dd>
+                    
+                
+            </dl>
+        </div>
+    
+
+
+            <div class="block-outer"></div>
+
+            
+    <div class="block-outer js-threadStatusField"></div>
+
+        
+
+        <div class="block-container">
+            <div class="block-body">
+                
+                    
+
+	
+	
+
+	
+
+	
+	<article class="message message--post js-post js-inlineModContainer  " data-author="Wairau" data-content="post-782549" id="js-post-782549">
+
+		
+
+		<span class="u-anchorTarget" id="post-782549"></span>
+		
+			<div class="message-header">
+				
+								
+
+	
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782549" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2006-09-26T15:10:27+0100" data-timestamp="1159279827" data-date="Sep 26, 2006" data-time="3:10 PM" data-short="Sep '06" title="Sep 26, 2006 at 3:10 PM">Sep 26, 2006</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+	
+			
+			
+			<li>
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782549" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/782549/share" aria-label="Share" rel="nofollow">
+					<i class="fa--xf fal fa-share-alt "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#share-alt"></use></svg></i>
+				</a>
+			</li>
+			
+				<li class="u-hidden js-embedCopy">
+					
+	<a href="javascript:" data-xf-init="copy-to-clipboard" data-copy-text="<div class=&quot;js-xf-embed&quot; data-url=&quot;https://www.eng-tips.com&quot; data-content=&quot;post-782549&quot;></div><script defer src=&quot;https://www.eng-tips.com/js/xf/external_embed.js?_v=5a1d78aa&quot;></script>" data-success="Embed code HTML copied to clipboard." class="">
+		<i class="fa--xf fal fa-code "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#code"></use></svg></i>
+	</a>
+
+				</li>
+			
+			
+			
+				<li>
+					<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782549" rel="nofollow">
+						#1
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+			</div>
+		
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section class="message-user">
+
+		
+
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+				<a href="/web/20260906185703/https://www.eng-tips.com/members/wairau.121020/" class="avatar avatar--s" data-user-id="121020" data-xf-init="member-tooltip">
+			<img src="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=48" srcset="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=96 2x" alt="Wairau" class="avatar-u121020-s" width="48" height="48" loading="lazy"/> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="/web/20260906185703/https://www.eng-tips.com/members/wairau.121020/" class="username " dir="auto" data-user-id="121020" data-xf-init="member-tooltip">Wairau</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto">New member</h5>
+			
+		</div>
+		
+			
+			
+				<div class="message-userExtras">
+				
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-calendar fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Joined</title><use href="/data/local/icons/light.svg?v=1788011461#calendar"></use></svg></i></dt>
+							
+							<dd>Feb 9, 2003</dd>
+						</dl>
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-comments fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Messages</title><use href="/data/local/icons/light.svg?v=1788011461#comments"></use></svg></i></dt>
+							
+							<dd>13</dd>
+						</dl>
+					
+					
+					
+					
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-map fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Location</title><use href="/data/local/icons/light.svg?v=1788011461#map"></use></svg></i></dt>
+							
+							<dd>
+								
+									<a href="/web/20260906185703/https://www.eng-tips.com/misc/location-info?location=NZ" rel="nofollow noreferrer" target="_blank" class="u-concealed">NZ</a>
+								
+							</dd>
+						</dl>
+					
+					
+					
+						
+
+	
+
+						
+							
+
+	
+		
+	
+
+						
+					
+				
+				</div>
+			
+		
+		<span class="message-userArrow"></span>
+	</section>
+
+						
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+	
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-782549" data-lb-caption-desc="Wairau · Sep 26, 2006 at 3:10 PM">
+
+		
+			
+
+	
+		
+	
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+
+			<div>
+				
+					<div class="bbWrapper">We operated NX 3D CAD software (previously known as Unigraphics), and have ben asked if we can read Catia V5models.<br/>
+<br/>
+My question is do Catia files contain the drg file also (like NX does) or is the drg a separate file.  The files we have are Catia part files and there is some suggestion that these wont contain the drgs.<br/>
+<br/>
+Has anybody had any experience of translating Catia V5 files to NX either vis specialised software or the use of STEP files?<br/>
+<br/>
+Graham Murphy</div>
+				
+			</div>
+
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+
+	
+
+		
+		<div style="text-align:center;"> 
+		<div class="inContentAd"><div id="div-gpt-engtips_thread2">
+			<script>
+		    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_thread2'); });
+		  </script>
+			</div></div></div>
+
+	
+
+
+			
+		</article>
+
+		
+			
+
+	
+		
+	
+
+		
+
+		
+
+    
+    
+    
+    
+
+	</div>
+
+								
+
+								
+									
+	
+
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	
+
+	<footer class="message-footer">
+		
+
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+                    
+                        
+							<style>
+								
+			#myNodeTitle {
+                margin: 0 0 12px;
+                font-size: 1.25rem;
+                font-weight: 700;
+                line-height: 1.2;
+                color: inherit;
+            }
+            #myNode .more-like-this {
+                display: flex;
+                gap: 12px;
+                flex-wrap: nowrap;
+            }
+
+            #myNode .more-like-this-article-item {
+                width: calc((100% - 36px) / 4);
+                min-width: 0;
+            }
+
+            @media (max-width: 1200px) {
+                #myNode .more-like-this {
+                    flex-wrap: wrap;
+                }
+
+                #myNode .more-like-this-article-item {
+                    width: calc((100% - 12px) / 2);
+                }
+            }
+        </style>
+<script src="https://web.archive.org/web/20260906185703js_/https://scripts.wtwhmedia.com/wordpress-event-hub/more_like_this/env/prod/index.js"></script>
+<script>
+  const mlt = new window.MoreLikeThis({
+    autoBoot: false,
+    host: "https://web.archive.org/web/20260906185703/https://wpeventhub.wtwhmedia.com",
+    containerId: "myNode",
+    prepend: { enabled: false },
+    removal: { enabled: false },
+    params: {
+      text: ["Catia File Contents &amp; Translation"],
+      siteIdentifiers: ["ENGCOM","EE","DWD","CONTROLENG","PLANTENG","CSEMAG","EG"],
+      limit: 4
+    }
+  });
+
+  function normalizeUrl(rawUrl) {
+    try {
+      const url = new URL(rawUrl, window.location.origin);
+      url.hash = "";
+      return url.toString();
+    } catch (e) {
+      return rawUrl;
+    }
+  }
+
+  function setupRecommendedContentTracking() {
+    if (!window.posthog) {
+      console.warn("PostHog is not available on window.posthog");
+      return;
+    }
+
+    const container = document.getElementById("myNode");
+    const titleEl = document.getElementById("myNodeTitle");
+
+    if (!container) return;
+
+    const widgetMeta = {
+      widget_id: "recommended_content_myNode",
+      widget_title: titleEl ? titleEl.textContent.trim() : "Recommended Content",
+      page_url: window.location.href,
+      page_path: window.location.pathname
+    };
+
+    let widgetImpressionTracked = false;
+    let itemObserver = null;
+
+    function getRecommendationItems() {
+      return Array.from(
+        container.querySelectorAll("article.more-like-this-article-item")
+      );
+    }
+
+    function getItemData(article, index) {
+      const titleLink = article.querySelector("a.more-like-this-title");
+      const imageLink = article.querySelector("a.more-like-this-article-img-link");
+      const ctaLink = article.querySelector("a.more-like-this-cta");
+      const primaryLink =
+        titleLink ||
+        imageLink ||
+        ctaLink ||
+        article.querySelector("a[href]");
+
+      const titleHeading = article.querySelector("h4");
+      const itemTitle =
+        (titleHeading && titleHeading.textContent.trim()) ||
+        (titleLink && titleLink.textContent.trim()) ||
+        "";
+
+      return {
+        destination_url: primaryLink ? normalizeUrl(primaryLink.href) : null,
+        item_title: itemTitle,
+        position: index + 1
+      };
+    }
+
+    function trackWidgetImpressionWhenVisible() {
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting || widgetImpressionTracked) continue;
+
+          const items = getRecommendationItems();
+          if (items.length === 0) continue;
+
+          widgetImpressionTracked = true;
+
+          window.posthog.capture("recommended_widget_impression", {
+            ...widgetMeta,
+            item_count: items.length
+          });
+
+          observer.disconnect();
+        }
+      }, {
+        threshold: 0.5
+      });
+
+      observer.observe(container);
+    }
+
+    function observeItemImpressions() {
+      const items = getRecommendationItems();
+
+      if (itemObserver) {
+        itemObserver.disconnect();
+      }
+
+      itemObserver = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+
+          const article = entry.target;
+          if (article.dataset.phImpressionTracked === "1") continue;
+
+          const itemsNow = getRecommendationItems();
+          const index = itemsNow.indexOf(article);
+          if (index < 0) continue;
+
+          const item = getItemData(article, index);
+          if (!item.destination_url) continue;
+
+          article.dataset.phImpressionTracked = "1";
+
+          window.posthog.capture("recommended_widget_item_impression", {
+            ...widgetMeta,
+            destination_url: item.destination_url,
+            item_title: item.item_title,
+            position: item.position
+          });
+        }
+      }, {
+        threshold: 0.5
+      });
+
+      items.forEach((article) => {
+        itemObserver.observe(article);
+      });
+    }
+
+    function trackClicks() {
+      if (container.dataset.posthogClickBound === "1") return;
+      container.dataset.posthogClickBound = "1";
+
+      container.addEventListener("click", (event) => {
+        const clickedLink = event.target.closest("a[href]");
+        if (!clickedLink || !container.contains(clickedLink)) return;
+
+        const article = clickedLink.closest("article.more-like-this-article-item");
+        if (!article) return;
+
+        const items = getRecommendationItems();
+        const index = items.indexOf(article);
+        if (index < 0) return;
+
+        const item = getItemData(article, index);
+        if (!item.destination_url) return;
+
+        const properties = {
+          ...widgetMeta,
+          destination_url: item.destination_url,
+          item_title: item.item_title,
+          position: item.position,
+          click_target_class: clickedLink.className || ""
+        };
+
+        const isModifiedClick =
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey ||
+          event.button !== 0;
+
+        const opensNewTab = clickedLink.target === "_blank";
+
+        if (isModifiedClick || opensNewTab) {
+          window.posthog.capture("recommended_widget_item_click", properties);
+          return;
+        }
+
+        event.preventDefault();
+        window.posthog.capture("recommended_widget_item_click", properties);
+
+        setTimeout(() => {
+          window.location.assign(clickedLink.href);
+        }, 350);
+      }, true);
+    }
+
+    function refreshTrackingOnRender() {
+      const items = getRecommendationItems();
+      if (items.length === 0) return;
+
+      observeItemImpressions();
+    }
+
+    const mutationObserver = new MutationObserver(() => {
+      refreshTrackingOnRender();
+    });
+
+    mutationObserver.observe(container, {
+      childList: true,
+      subtree: true
+    });
+
+    trackWidgetImpressionWhenVisible();
+    trackClicks();
+    refreshTrackingOnRender();
+  }
+
+  mlt.boot();
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupRecommendedContentTracking);
+  } else {
+    setupRecommendedContentTracking();
+  }
+</script>
+
+<h3 id="myNodeTitle">Recommended Content</h3>
+<div id="myNode"></div>
+                        
+                    
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+	
+
+
+
+<div class="block block--messages" data-xf-init="" data-type="post" data-href="/inline-mod/" data-search-target="*">
+
+    <span class="u-anchorTarget" id="posts"></span>
+
+    
+
+    <div class="block-outer"><div class="block-outer-opposite">
+                
+    
+        
+            
+                <div class="tabs tabs--standalone tabs--standalone--small tabs--standalone--inline">
+                    
+                        
+                            
+                                <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/" class="tabs-tab is-active" rel="nofollow">
+                                    Sort by date
+                                </a>
+                            
+                                <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/?order=vote_score" class="tabs-tab " rel="nofollow">
+                                    Sort by votes
+                                </a>
+                            
+                        
+                        
+                    
+                </div>
+            
+        
+    
+
+            </div></div>
+
+    
+
+    
+
+    <div class="block-container lbContainer" data-xf-init="lightbox select-to-quote" data-message-selector=".js-post" data-lb-id="thread-166313" data-lb-universal="1">
+
+        <div class="block-body js-replyNewMessageContainer">
+            
+                
+
+                    
+
+                    
+                        
+
+	
+	
+
+	
+
+	
+	<article class="message message--post  js-post js-inlineModContainer  " data-author="Albigger" data-content="post-782550" id="js-post-782550" itemscope itemtype="https://schema.org/Answer" itemid="https://www.eng-tips.com/posts/782550/">
+
+		
+			<meta itemprop="parentItem" itemscope itemid="https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/"/>
+		
+
+		<span class="u-anchorTarget" id="post-782550"></span>
+		
+			<div class="message-header">
+				
+								
+
+	
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782550" rel="nofollow" itemprop="url">
+					<time class="u-dt" dir="auto" datetime="2006-09-27T09:30:33+0100" data-timestamp="1159345833" data-date="Sep 27, 2006" data-time="9:30 AM" data-short="Sep '06" title="Sep 27, 2006 at 9:30 AM" itemprop="datePublished">Sep 27, 2006</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+	
+			
+			
+			<li>
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782550" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/782550/share" aria-label="Share" rel="nofollow">
+					<i class="fa--xf fal fa-share-alt "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#share-alt"></use></svg></i>
+				</a>
+			</li>
+			
+				<li class="u-hidden js-embedCopy">
+					
+	<a href="javascript:" data-xf-init="copy-to-clipboard" data-copy-text="<div class=&quot;js-xf-embed&quot; data-url=&quot;https://www.eng-tips.com&quot; data-content=&quot;post-782550&quot;></div><script defer src=&quot;https://www.eng-tips.com/js/xf/external_embed.js?_v=5a1d78aa&quot;></script>" data-success="Embed code HTML copied to clipboard." class="">
+		<i class="fa--xf fal fa-code "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#code"></use></svg></i>
+	</a>
+
+				</li>
+			
+			
+			
+				<li>
+					<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782550" rel="nofollow">
+						#2
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+			</div>
+		
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section class="message-user" itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="https://www.eng-tips.com/members/albigger.313503/">
+
+		
+			<meta itemprop="url" content="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/albigger.313503/"/>
+		
+
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+				<a href="/web/20260906185703/https://www.eng-tips.com/members/albigger.313503/" class="avatar avatar--s" data-user-id="313503" data-xf-init="member-tooltip">
+			<img src="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=48" srcset="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=96 2x" alt="Albigger" class="avatar-u313503-s" width="48" height="48" loading="lazy" itemprop="image"/> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="/web/20260906185703/https://www.eng-tips.com/members/albigger.313503/" class="username " dir="auto" data-user-id="313503" data-xf-init="member-tooltip"><span itemprop="name">Albigger</span></a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Aerospace</h5>
+			
+		</div>
+		
+			
+			
+				<div class="message-userExtras">
+				
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-calendar fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Joined</title><use href="/data/local/icons/light.svg?v=1788011461#calendar"></use></svg></i></dt>
+							
+							<dd>Dec 29, 2004</dd>
+						</dl>
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-comments fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Messages</title><use href="/data/local/icons/light.svg?v=1788011461#comments"></use></svg></i></dt>
+							
+							<dd>204</dd>
+						</dl>
+					
+					
+					
+					
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-map fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Location</title><use href="/data/local/icons/light.svg?v=1788011461#map"></use></svg></i></dt>
+							
+							<dd>
+								
+									<a href="/web/20260906185703/https://www.eng-tips.com/misc/location-info?location=US" rel="nofollow noreferrer" target="_blank" class="u-concealed">US</a>
+								
+							</dd>
+						</dl>
+					
+					
+					
+						
+
+	
+
+						
+							
+
+	
+		
+	
+
+						
+					
+				
+				</div>
+			
+		
+		<span class="message-userArrow"></span>
+	</section>
+
+						
+					</div>
+				
+
+				
+		
+					<div class="message-cell message-cell--main">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+	
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-782550" data-lb-caption-desc="Albigger · Sep 27, 2006 at 9:30 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+
+			<div itemprop="text">
+				
+					<div class="bbWrapper">in v5, the drawings are separate files from the parts.</div>
+				
+			</div>
+
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+
+	
+
+		
+		<div style="text-align:center;"> 
+		<div class="inContentAd"><div id="div-gpt-engtips_thread2">
+			<script>
+		    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_thread2'); });
+		  </script>
+			</div></div></div>
+
+	
+
+
+			
+		</article>
+
+		
+
+		
+
+    
+    
+    
+    
+
+	</div>
+
+								
+
+								
+									
+	
+
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	
+
+	<footer class="message-footer">
+		
+			<div class="message-microdata" itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+				<meta itemprop="userInteractionCount" content="0"/>
+				<meta itemprop="interactionType" content="https://schema.org/LikeAction"/>
+			</div>
+		
+
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+
+		
+			<div class="message-cell message-cell--vote">
+				<div class="message-column">
+				
+					
+						
+
+	
+	
+	<div class="contentVote  js-contentVote " data-xf-init="content-vote" data-content-id="post-782550">
+		
+			<meta itemprop="upvoteCount" content="0"/>
+		
+
+		<a href="javascript:" class="contentVote-vote is-disabled contentVote-vote--up " data-vote="up"><span class="u-srOnly">Upvote</span></a>
+
+		<span class="contentVote-score   js-voteCount" data-score="0">0</span>
+
+		
+			<a href="javascript:" class="contentVote-vote is-disabled contentVote-vote--down " data-vote="down"><span class="u-srOnly">Downvote</span></a>
+		
+	</div>
+
+
+					
+
+					
+				
+				</div>
+			</div>
+		
+	
+			</div>
+		
+	</article>
+
+	
+	
+
+                    
+
+                    
+
+
+                
+
+                    
+
+                    
+                        
+
+	
+	
+
+	
+
+	
+	<article class="message message--post  js-post js-inlineModContainer  " data-author="DBezaire" data-content="post-782551" id="js-post-782551" itemscope itemtype="https://schema.org/Answer" itemid="https://www.eng-tips.com/posts/782551/">
+
+		
+			<meta itemprop="parentItem" itemscope itemid="https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/"/>
+		
+
+		<span class="u-anchorTarget" id="post-782551"></span>
+		
+			<div class="message-header">
+				
+								
+
+	
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782551" rel="nofollow" itemprop="url">
+					<time class="u-dt" dir="auto" datetime="2006-09-27T12:26:49+0100" data-timestamp="1159356409" data-date="Sep 27, 2006" data-time="12:26 PM" data-short="Sep '06" title="Sep 27, 2006 at 12:26 PM" itemprop="datePublished">Sep 27, 2006</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+	
+			
+			
+			<li>
+				<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782551" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/782551/share" aria-label="Share" rel="nofollow">
+					<i class="fa--xf fal fa-share-alt "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#share-alt"></use></svg></i>
+				</a>
+			</li>
+			
+				<li class="u-hidden js-embedCopy">
+					
+	<a href="javascript:" data-xf-init="copy-to-clipboard" data-copy-text="<div class=&quot;js-xf-embed&quot; data-url=&quot;https://www.eng-tips.com&quot; data-content=&quot;post-782551&quot;></div><script defer src=&quot;https://www.eng-tips.com/js/xf/external_embed.js?_v=5a1d78aa&quot;></script>" data-success="Embed code HTML copied to clipboard." class="">
+		<i class="fa--xf fal fa-code "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#code"></use></svg></i>
+	</a>
+
+				</li>
+			
+			
+			
+				<li>
+					<a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/post-782551" rel="nofollow">
+						#3
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+			</div>
+		
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section class="message-user" itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="https://www.eng-tips.com/members/dbezaire.455113/">
+
+		
+			<meta itemprop="url" content="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/dbezaire.455113/"/>
+		
+
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				
+				<a href="/web/20260906185703/https://www.eng-tips.com/members/dbezaire.455113/" class="avatar avatar--s" data-user-id="455113" data-xf-init="member-tooltip">
+			<img src="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=48" srcset="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=96 2x" alt="DBezaire" class="avatar-u455113-s" width="48" height="48" loading="lazy" itemprop="image"/> 
+		</a>
+				
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="/web/20260906185703/https://www.eng-tips.com/members/dbezaire.455113/" class="username " dir="auto" data-user-id="455113" data-xf-init="member-tooltip"><span itemprop="name">DBezaire</span></a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Automotive</h5>
+			
+		</div>
+		
+			
+			
+				<div class="message-userExtras">
+				
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-calendar fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Joined</title><use href="/data/local/icons/light.svg?v=1788011461#calendar"></use></svg></i></dt>
+							
+							<dd>Feb 28, 2006</dd>
+						</dl>
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-comments fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Messages</title><use href="/data/local/icons/light.svg?v=1788011461#comments"></use></svg></i></dt>
+							
+							<dd>962</dd>
+						</dl>
+					
+					
+					
+					
+					
+					
+						<dl class="pairs pairs--justified">
+							
+								<dt><i class="fa--xf fal fa-map fa-fw "><svg xmlns="http://www.w3.org/2000/svg" role="img" data-xf-init="tooltip"><title>Location</title><use href="/data/local/icons/light.svg?v=1788011461#map"></use></svg></i></dt>
+							
+							<dd>
+								
+									<a href="/web/20260906185703/https://www.eng-tips.com/misc/location-info?location=CA" rel="nofollow noreferrer" target="_blank" class="u-concealed">CA</a>
+								
+							</dd>
+						</dl>
+					
+					
+					
+						
+
+	
+
+						
+							
+
+	
+		
+	
+
+						
+					
+				
+				</div>
+			
+		
+		<span class="message-userArrow"></span>
+	</section>
+
+						
+					</div>
+				
+
+				
+		
+					<div class="message-cell message-cell--main">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+	
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-782551" data-lb-caption-desc="DBezaire · Sep 27, 2006 at 12:26 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+
+			<div itemprop="text">
+				
+					<div class="bbWrapper">Step works great for parts and products (Products are groups of parts.)<br/>
+Drawing files - dxf, dwg, ig2 (the 2 tells catia it is a 2d drawing file.  You can change this to .igs for the receiving system.<br/>
+<br/>
+Regards,<br/>
+Derek<br/></div>
+				
+			</div>
+
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+
+	
+
+		
+		<div style="text-align:center;"> 
+		<div class="inContentAd"><div id="div-gpt-engtips_thread2">
+			<script>
+		    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_thread2'); });
+		  </script>
+			</div></div></div>
+
+	
+
+
+			
+		</article>
+
+		
+
+		
+
+    
+    
+    
+    
+
+	</div>
+
+								
+
+								
+									
+	
+
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	
+
+	<footer class="message-footer">
+		
+			<div class="message-microdata" itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+				<meta itemprop="userInteractionCount" content="0"/>
+				<meta itemprop="interactionType" content="https://schema.org/LikeAction"/>
+			</div>
+		
+
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+
+		
+			<div class="message-cell message-cell--vote">
+				<div class="message-column">
+				
+					
+						
+
+	
+	
+	<div class="contentVote  js-contentVote " data-xf-init="content-vote" data-content-id="post-782551">
+		
+			<meta itemprop="upvoteCount" content="0"/>
+		
+
+		<a href="javascript:" class="contentVote-vote is-disabled contentVote-vote--up " data-vote="up"><span class="u-srOnly">Upvote</span></a>
+
+		<span class="contentVote-score   js-voteCount" data-score="0">0</span>
+
+		
+			<a href="javascript:" class="contentVote-vote is-disabled contentVote-vote--down " data-vote="down"><span class="u-srOnly">Downvote</span></a>
+		
+	</div>
+
+
+					
+
+					
+				
+				</div>
+			</div>
+		
+	
+			</div>
+		
+	</article>
+
+	
+	
+
+                    
+
+                    
+
+
+                
+                
+        </div>
+    </div>
+
+    
+
+    
+    
+        <div class="block-outer block-outer--after">
+            <dl class="blockStatus">
+                <dt>Status</dt>
+                
+                    
+                    
+                        <dd class="blockStatus-message blockStatus-message--locked">
+                            Not open for further replies.
+                        </dd>
+                    
+                
+            </dl>
+        </div>
+    
+
+</div>
+
+
+
+	
+
+		
+		<div style="text-align:center;"> <div class="inContentAd"><div id="div-gpt-engtips_thread3">
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-engtips_thread3'); });
+		</script>
+			</div></div></div>
+
+	
+
+
+
+
+
+
+
+
+
+	<div class="block" data-widget-id="11" data-widget-key="xfes_thread_view_below_quick_reply_similar_threads" data-widget-definition="xfes_similar_threads">
+		<div class="block-container">
+			
+				<h3 class="block-header">Similar threads</h3>
+
+				<div class="block-body">
+					<div class="structItemContainer">
+						
+							
+
+    
+
+    <div class="structItem structItem--thread js-inlineModContainer js-threadListItem-585160" data-author="Alderfek_01">
+
+        
+            <div class="structItem-cell structItem-cell--icon">
+                <div class="structItem-iconContainer">
+                    <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="avatar avatar--s" data-user-id="1224307" data-xf-init="member-tooltip">
+			<img src="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/s/1224/1224307.jpg?1758287840" srcset="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/m/1224/1224307.jpg?1758287840 2x" alt="Alderfek_01" class="avatar-u1224307-s" width="48" height="48" loading="lazy"/> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+                
+                    <ul class="structItem-statuses">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                    <li>
+                                        <i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+                                        <span class="u-srOnly">Locked</span>
+                                    </li>
+                                
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+
+                                
+                                
+
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                <li>
+                                                    
+                                                    <i class="fa--xf fal fa-question-circle  structItem-status"><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Question</title><use href="/data/local/icons/light.svg?v=1788011461#question-circle"></use></svg></i>
+                                                    <span class="u-srOnly">Question</span>
+                                                </li>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    </ul>
+                
+
+                <div class="structItem-title">
+                    
+                    
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-v5-enovia-file-auto-revisions.585160/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/threads/catia-v5-enovia-file-auto-revisions.585160/preview">
+                    Catia V5/Enovia file auto revisions
+                    </a>
+                </div>
+
+                <div class="structItem-minor">
+                    
+
+                    
+                        <ul class="structItem-parts">
+                            <li><a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="username " dir="auto" data-user-id="1224307" data-xf-init="member-tooltip">Alderfek_01</a></li>
+                            <li class="structItem-startDate"><a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-v5-enovia-file-auto-revisions.585160/" rel="nofollow"><time class="u-dt" dir="auto" datetime="2026-01-31T18:02:08+0000" data-timestamp="1769882528" data-date="Jan 31, 2026" data-time="6:02 PM" data-short="Jan 31" title="Jan 31, 2026 at 6:02 PM">Jan 31, 2026</time></a></li>
+                            
+                                <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/">DASSAULT: CATIA products</a></li>
+                            
+                        </ul>
+
+                        
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+                <dl class="pairs pairs--justified">
+                    <dt>Replies</dt>
+                    <dd>0</dd>
+                </dl>
+                <dl class="pairs pairs--justified structItem-minor">
+                    <dt>Views</dt>
+                    <dd>217</dd>
+                </dl>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--latest">
+                
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-v5-enovia-file-auto-revisions.585160/latest" rel="nofollow"><time class="structItem-latestDate u-dt" dir="auto" datetime="2026-01-31T18:02:08+0000" data-timestamp="1769882528" data-date="Jan 31, 2026" data-time="6:02 PM" data-short="Jan 31" title="Jan 31, 2026 at 6:02 PM">Jan 31, 2026</time></a>
+                    <div class="structItem-minor">
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="username " dir="auto" data-user-id="1224307" data-xf-init="member-tooltip">Alderfek_01</a>
+                        
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+                <div class="structItem-iconContainer">
+                    
+                        <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="avatar avatar--xxs" data-user-id="1224307" data-xf-init="member-tooltip">
+			<img src="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/s/1224/1224307.jpg?1758287840" alt="Alderfek_01" class="avatar-u1224307-s" width="48" height="48" loading="lazy"/> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+    </div>
+
+						
+							
+
+    
+
+    <div class="structItem structItem--thread js-inlineModContainer js-threadListItem-585661" data-author="romaintl">
+
+        
+            <div class="structItem-cell structItem-cell--icon">
+                <div class="structItem-iconContainer">
+                    <a href="/web/20260906185703/https://www.eng-tips.com/members/romaintl.1236767/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1236767" data-xf-init="member-tooltip" style="background-color: #cc6666; color: #602020">
+			<span class="avatar-u1236767-s" role="img" aria-label="romaintl">R</span> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+                
+                    <ul class="structItem-statuses">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                    <li>
+                                        <i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+                                        <span class="u-srOnly">Locked</span>
+                                    </li>
+                                
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+
+                                
+                                
+
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                <li>
+                                                    
+                                                    <i class="fa--xf fal fa-question-circle  structItem-status"><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Question</title><use href="/data/local/icons/light.svg?v=1788011461#question-circle"></use></svg></i>
+                                                    <span class="u-srOnly">Question</span>
+                                                </li>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    </ul>
+                
+
+                <div class="structItem-title">
+                    
+                    
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/fonction-barre-d%C3%A9tat-catia-v6.585661/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/threads/fonction-barre-d%C3%A9tat-catia-v6.585661/preview">
+                    fonction barre d&#039;état catia V6
+                    </a>
+                </div>
+
+                <div class="structItem-minor">
+                    
+
+                    
+                        <ul class="structItem-parts">
+                            <li><a href="/web/20260906185703/https://www.eng-tips.com/members/romaintl.1236767/" class="username " dir="auto" data-user-id="1236767" data-xf-init="member-tooltip">romaintl</a></li>
+                            <li class="structItem-startDate"><a href="/web/20260906185703/https://www.eng-tips.com/threads/fonction-barre-d%C3%A9tat-catia-v6.585661/" rel="nofollow"><time class="u-dt" dir="auto" datetime="2026-02-27T07:16:52+0000" data-timestamp="1772176612" data-date="Feb 27, 2026" data-time="7:16 AM" data-short="Feb 27" title="Feb 27, 2026 at 7:16 AM">Feb 27, 2026</time></a></li>
+                            
+                                <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/">DASSAULT: CATIA products</a></li>
+                            
+                        </ul>
+
+                        
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+                <dl class="pairs pairs--justified">
+                    <dt>Replies</dt>
+                    <dd>1</dd>
+                </dl>
+                <dl class="pairs pairs--justified structItem-minor">
+                    <dt>Views</dt>
+                    <dd>178</dd>
+                </dl>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--latest">
+                
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/fonction-barre-d%C3%A9tat-catia-v6.585661/latest" rel="nofollow"><time class="structItem-latestDate u-dt" dir="auto" datetime="2026-03-02T08:05:46+0000" data-timestamp="1772438746" data-date="Mar 2, 2026" data-time="8:05 AM" data-short="Mar 2" title="Mar 2, 2026 at 8:05 AM">Mar 2, 2026</time></a>
+                    <div class="structItem-minor">
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/members/lwolf.570313/" class="username " dir="auto" data-user-id="570313" data-xf-init="member-tooltip">LWolf</a>
+                        
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+                <div class="structItem-iconContainer">
+                    
+                        <a href="/web/20260906185703/https://www.eng-tips.com/members/lwolf.570313/" class="avatar avatar--xxs" data-user-id="570313" data-xf-init="member-tooltip">
+			<img src="https://web.archive.org/web/20260906185703im_/https://gravatar.com/avatar/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855?s=48" alt="LWolf" class="avatar-u570313-s" width="48" height="48" loading="lazy"/> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+    </div>
+
+						
+							
+
+    
+
+    <div class="structItem structItem--thread js-inlineModContainer js-threadListItem-585161" data-author="Alderfek_01">
+
+        
+            <div class="structItem-cell structItem-cell--icon">
+                <div class="structItem-iconContainer">
+                    <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="avatar avatar--s" data-user-id="1224307" data-xf-init="member-tooltip">
+			<img src="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/s/1224/1224307.jpg?1758287840" srcset="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/m/1224/1224307.jpg?1758287840 2x" alt="Alderfek_01" class="avatar-u1224307-s" width="48" height="48" loading="lazy"/> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+                
+                    <ul class="structItem-statuses">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                    <li>
+                                        <i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+                                        <span class="u-srOnly">Locked</span>
+                                    </li>
+                                
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+
+                                
+                                
+
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                <li>
+                                                    
+                                                    <i class="fa--xf fal fa-question-circle  structItem-status"><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Question</title><use href="/data/local/icons/light.svg?v=1788011461#question-circle"></use></svg></i>
+                                                    <span class="u-srOnly">Question</span>
+                                                </li>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    </ul>
+                
+
+                <div class="structItem-title">
+                    
+                    
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/file-opening-error.585161/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/threads/file-opening-error.585161/preview">
+                    File opening error
+                    </a>
+                </div>
+
+                <div class="structItem-minor">
+                    
+
+                    
+                        <ul class="structItem-parts">
+                            <li><a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="username " dir="auto" data-user-id="1224307" data-xf-init="member-tooltip">Alderfek_01</a></li>
+                            <li class="structItem-startDate"><a href="/web/20260906185703/https://www.eng-tips.com/threads/file-opening-error.585161/" rel="nofollow"><time class="u-dt" dir="auto" datetime="2026-01-31T18:12:11+0000" data-timestamp="1769883131" data-date="Jan 31, 2026" data-time="6:12 PM" data-short="Jan 31" title="Jan 31, 2026 at 6:12 PM">Jan 31, 2026</time></a></li>
+                            
+                                <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/">DASSAULT: CATIA products</a></li>
+                            
+                        </ul>
+
+                        
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+                <dl class="pairs pairs--justified">
+                    <dt>Replies</dt>
+                    <dd>0</dd>
+                </dl>
+                <dl class="pairs pairs--justified structItem-minor">
+                    <dt>Views</dt>
+                    <dd>179</dd>
+                </dl>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--latest">
+                
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/file-opening-error.585161/latest" rel="nofollow"><time class="structItem-latestDate u-dt" dir="auto" datetime="2026-01-31T18:12:11+0000" data-timestamp="1769883131" data-date="Jan 31, 2026" data-time="6:12 PM" data-short="Jan 31" title="Jan 31, 2026 at 6:12 PM">Jan 31, 2026</time></a>
+                    <div class="structItem-minor">
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="username " dir="auto" data-user-id="1224307" data-xf-init="member-tooltip">Alderfek_01</a>
+                        
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+                <div class="structItem-iconContainer">
+                    
+                        <a href="/web/20260906185703/https://www.eng-tips.com/members/alderfek_01.1224307/" class="avatar avatar--xxs" data-user-id="1224307" data-xf-init="member-tooltip">
+			<img src="/web/20260906185703im_/https://www.eng-tips.com/data/avatars/s/1224/1224307.jpg?1758287840" alt="Alderfek_01" class="avatar-u1224307-s" width="48" height="48" loading="lazy"/> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+    </div>
+
+						
+							
+
+    
+
+    <div class="structItem structItem--thread js-inlineModContainer js-threadListItem-586309" data-author="keremorak">
+
+        
+            <div class="structItem-cell structItem-cell--icon">
+                <div class="structItem-iconContainer">
+                    <a href="/web/20260906185703/https://www.eng-tips.com/members/keremorak.1242789/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1242789" data-xf-init="member-tooltip" style="background-color: #7a5c1f; color: #dbb870">
+			<span class="avatar-u1242789-s" role="img" aria-label="keremorak">K</span> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+                
+                    <ul class="structItem-statuses">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                    <li>
+                                        <i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+                                        <span class="u-srOnly">Locked</span>
+                                    </li>
+                                
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+
+                                
+                                
+
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                <li>
+                                                    
+                                                    <i class="fa--xf fal fa-question-circle  structItem-status"><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Question</title><use href="/data/local/icons/light.svg?v=1788011461#question-circle"></use></svg></i>
+                                                    <span class="u-srOnly">Question</span>
+                                                </li>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    </ul>
+                
+
+                <div class="structItem-title">
+                    
+                    
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-working-slower-with-cache-visualisation-mode.586309/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/threads/catia-working-slower-with-cache-visualisation-mode.586309/preview">
+                    CATIA working slower with cache (Visualisation Mode)
+                    </a>
+                </div>
+
+                <div class="structItem-minor">
+                    
+
+                    
+                        <ul class="structItem-parts">
+                            <li><a href="/web/20260906185703/https://www.eng-tips.com/members/keremorak.1242789/" class="username " dir="auto" data-user-id="1242789" data-xf-init="member-tooltip">keremorak</a></li>
+                            <li class="structItem-startDate"><a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-working-slower-with-cache-visualisation-mode.586309/" rel="nofollow"><time class="u-dt" dir="auto" datetime="2026-04-11T10:07:01+0100" data-timestamp="1775898421" data-date="Apr 11, 2026" data-time="10:07 AM" data-short="Apr 11" title="Apr 11, 2026 at 10:07 AM">Apr 11, 2026</time></a></li>
+                            
+                                <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/">DASSAULT: CATIA products</a></li>
+                            
+                        </ul>
+
+                        
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+                <dl class="pairs pairs--justified">
+                    <dt>Replies</dt>
+                    <dd>2</dd>
+                </dl>
+                <dl class="pairs pairs--justified structItem-minor">
+                    <dt>Views</dt>
+                    <dd>301</dd>
+                </dl>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--latest">
+                
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-working-slower-with-cache-visualisation-mode.586309/latest" rel="nofollow"><time class="structItem-latestDate u-dt" dir="auto" datetime="2026-04-13T18:53:05+0100" data-timestamp="1776102785" data-date="Apr 13, 2026" data-time="6:53 PM" data-short="Apr 13" title="Apr 13, 2026 at 6:53 PM">Apr 13, 2026</time></a>
+                    <div class="structItem-minor">
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/members/keremorak.1242789/" class="username " dir="auto" data-user-id="1242789" data-xf-init="member-tooltip">keremorak</a>
+                        
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+                <div class="structItem-iconContainer">
+                    
+                        <a href="/web/20260906185703/https://www.eng-tips.com/members/keremorak.1242789/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1242789" data-xf-init="member-tooltip" style="background-color: #7a5c1f; color: #dbb870">
+			<span class="avatar-u1242789-s" role="img" aria-label="keremorak">K</span> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+    </div>
+
+						
+							
+
+    
+
+    <div class="structItem structItem--thread js-inlineModContainer js-threadListItem-586942" data-author="Ionut87">
+
+        
+            <div class="structItem-cell structItem-cell--icon">
+                <div class="structItem-iconContainer">
+                    <a href="/web/20260906185703/https://www.eng-tips.com/members/ionut87.1243982/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="1243982" data-xf-init="member-tooltip" style="background-color: #3333cc; color: #c2c2f0">
+			<span class="avatar-u1243982-s" role="img" aria-label="Ionut87">I</span> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--main" data-xf-init="touch-proxy">
+                
+                    <ul class="structItem-statuses">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                    <li>
+                                        <i class="structItem-status structItem-status--locked" aria-hidden="true" title="Locked"></i>
+                                        <span class="u-srOnly">Locked</span>
+                                    </li>
+                                
+
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+
+                                
+                                
+
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                <li>
+                                                    
+                                                    <i class="fa--xf fal fa-question-circle  structItem-status"><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Question</title><use href="/data/local/icons/light.svg?v=1788011461#question-circle"></use></svg></i>
+                                                    <span class="u-srOnly">Question</span>
+                                                </li>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    </ul>
+                
+
+                <div class="structItem-title">
+                    
+                    
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-macro-to-open-the-3d-model-from-drawing.586942/" class="" data-tp-primary="on" data-xf-init="preview-tooltip" data-preview-url="/threads/catia-macro-to-open-the-3d-model-from-drawing.586942/preview">
+                    Catia macro to open the 3D model from drawing
+                    </a>
+                </div>
+
+                <div class="structItem-minor">
+                    
+
+                    
+                        <ul class="structItem-parts">
+                            <li><a href="/web/20260906185703/https://www.eng-tips.com/members/ionut87.1243982/" class="username " dir="auto" data-user-id="1243982" data-xf-init="member-tooltip">Ionut87</a></li>
+                            <li class="structItem-startDate"><a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-macro-to-open-the-3d-model-from-drawing.586942/" rel="nofollow"><time class="u-dt" dir="auto" datetime="2026-05-27T08:39:39+0100" data-timestamp="1779867579" data-date="May 27, 2026" data-time="8:39 AM" data-short="May 27" title="May 27, 2026 at 8:39 AM">May 27, 2026</time></a></li>
+                            
+                                <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/">DASSAULT: CATIA products</a></li>
+                            
+                        </ul>
+
+                        
+                    
+                </div>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--meta" title="First message reaction score: 0">
+                <dl class="pairs pairs--justified">
+                    <dt>Replies</dt>
+                    <dd>3</dd>
+                </dl>
+                <dl class="pairs pairs--justified structItem-minor">
+                    <dt>Views</dt>
+                    <dd>308</dd>
+                </dl>
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--latest">
+                
+                    <a href="/web/20260906185703/https://www.eng-tips.com/threads/catia-macro-to-open-the-3d-model-from-drawing.586942/latest" rel="nofollow"><time class="structItem-latestDate u-dt" dir="auto" datetime="2026-06-04T04:16:35+0100" data-timestamp="1780542995" data-date="Jun 4, 2026" data-time="4:16 AM" data-short="Jun 4" title="Jun 4, 2026 at 4:16 AM">Jun 4, 2026</time></a>
+                    <div class="structItem-minor">
+                        
+                            <a href="/web/20260906185703/https://www.eng-tips.com/members/ttlycared.1238608/" class="username " dir="auto" data-user-id="1238608" data-xf-init="member-tooltip">ttlycared</a>
+                        
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="structItem-cell structItem-cell--icon structItem-cell--iconEnd">
+                <div class="structItem-iconContainer">
+                    
+                        <a href="/web/20260906185703/https://www.eng-tips.com/members/ttlycared.1238608/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="1238608" data-xf-init="member-tooltip" style="background-color: #993399; color: #df9fdf">
+			<span class="avatar-u1238608-s" role="img" aria-label="ttlycared">T</span> 
+		</a>
+                    
+                </div>
+            </div>
+        
+
+    </div>
+
+						
+					</div>
+				</div>
+			
+		</div>
+	</div>
+
+
+
+
+<div class="blockMessage blockMessage--none">
+    
+
+	
+
+	
+		
+
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons" data-page-url="" data-page-title="" data-page-desc="" data-page-image="">
+			<span class="u-anchorTarget" id="_xfUid-1-1788721022"></span>
+
+			
+				<span class="shareButtons-label">Share:</span>
+			
+
+			<div class="shareButtons-buttons">
+				
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook" href="#_xfUid-1-1788721022" data-href="https://www.facebook.com/sharer.php?u={url}">
+							<i class="fa--xf fab fa-facebook-f "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#facebook-f"></use></svg></i>
+							<span>Facebook</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter" href="#_xfUid-1-1788721022" data-href="https://x.com/intent/tweet?url={url}&amp;text={title}">
+							<i class="fa--xf fab fa-x "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" role="img" aria-hidden="true"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></i>
+							<span>X</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--bluesky" href="#_xfUid-1-1788721022" data-href="https://bsky.app/intent/compose?text={url}">
+							<i class="fa--xf fab fa-bluesky "><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" role="img" aria-hidden="true"><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"/></svg></i>
+							<span>Bluesky</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--linkedin" href="#_xfUid-1-1788721022" data-href="https://www.linkedin.com/sharing/share-offsite/?url={url}">
+							<i class="fa--xf fab fa-linkedin "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#linkedin"></use></svg></i>
+							<span>LinkedIn</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit" href="#_xfUid-1-1788721022" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+							<i class="fa--xf fab fa-reddit-alien "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#reddit-alien"></use></svg></i>
+							<span>Reddit</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--pinterest" href="#_xfUid-1-1788721022" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}&amp;media={image}">
+							<i class="fa--xf fab fa-pinterest-p "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#pinterest-p"></use></svg></i>
+							<span>Pinterest</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr" href="#_xfUid-1-1788721022" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
+							<i class="fa--xf fab fa-tumblr "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#tumblr"></use></svg></i>
+							<span>Tumblr</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp" href="#_xfUid-1-1788721022" data-href="https://api.whatsapp.com/send?text={title} {url}">
+							<i class="fa--xf fab fa-whatsapp "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/brands.svg?v=1788011461#whatsapp"></use></svg></i>
+							<span>WhatsApp</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--email" href="#_xfUid-1-1788721022" data-href="mailto:?subject={title}&amp;body={url}">
+							<i class="fa--xf far fa-envelope "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/regular.svg?v=1788011461#envelope"></use></svg></i>
+							<span>Email</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--share is-hidden" href="#_xfUid-1-1788721022" data-xf-init="web-share" data-title="" data-text="" data-url="" data-hide=".shareButtons-button:not(.shareButtons-button--share)">
+
+							<i class="fa--xf far fa-share-alt "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/regular.svg?v=1788011461#share-alt"></use></svg></i>
+							<span>Share</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--link is-hidden" href="#_xfUid-1-1788721022" data-clipboard="{url}">
+							<i class="fa--xf far fa-link "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/regular.svg?v=1788011461#link"></use></svg></i>
+							<span>Link</span>
+						</a>
+					
+				
+			</div>
+		</div>
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+</div>
+                            
+                            
+                        </div>
+
+
+                        
+                            <div class="p-sidebarWrapper">
+                                
+                                <div class="p-body-sidebar">
+                                    
+                                    
+                                    
+                                        
+
+
+<div class="block block--login">
+	
+			<form action="/web/20260906185703/https://www.eng-tips.com/login/login" method="post" class="">
+				<input type="hidden" name="_xfToken" value="1788721022,6a6eb122bf62546cd244ec78e32b91f4"/>
+				
+		<div class="block-container">
+			<h3 class="block-minorHeader">
+				Log in
+			</h3>
+			<div class="block-body">
+				<div class="block-row">
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-2-1788721022">Your name or email address</label></div>
+				</dt>
+				<dd>
+					<input type="text" class="input" name="login" autocomplete="username" id="_xfUid-2-1788721022"/>
+				</dd>
+			</dl>
+		
+
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-3-1788721022">Password</label></div>
+				</dt>
+				<dd>
+					<input type="password" class="input" name="password" autocomplete="current-password" id="_xfUid-3-1788721022"/>
+					<a href="/web/20260906185703/https://www.eng-tips.com/lost-password/" data-xf-click="overlay">Forgot your password?</a>
+				</dd>
+			</dl>
+		
+
+				
+
+				
+			<dl class="formRow">
+				<dt>
+					<div class="formRow-labelWrapper"></div>
+				</dt>
+				<dd>
+					
+			<ul class="inputChoices">
+				<li class="inputChoices-choice"><label class="iconic"><input type="checkbox" name="remember" value="1" checked="checked"/><i aria-hidden="true"></i><span class="iconic-label">Stay logged in</span></label></li>
+
+			</ul>
+		
+				</dd>
+			</dl>
+		
+					
+			<dl class="formRow formSubmitRow">
+				<dt></dt>
+				<dd>
+					<div class="formSubmitRow-main">
+						<div class="formSubmitRow-bar"></div>
+						<div class="formSubmitRow-controls"><button type="submit" class="button button--icon button--icon--login button--primary"><i class="fa--xf fal fa-lock "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#lock"></use></svg></i><span class="button-text">Log in</span></button></div>
+					</div>
+				</dd>
+			</dl>
+		
+					
+					
+						<dl class="formRow formRegisterRow">
+							<dt></dt>
+							<dd>Don't have an account? <a href="/web/20260906185703/https://www.eng-tips.com/register/" data-xf-click="overlay" data-follow-redirects="on">Register now</a></dd>
+						</dl>
+					
+					
+				</div>
+			</div>
+			
+		</div>
+
+	
+				
+			</form>
+		
+</div>
+                                    
+                                    
+                                        <div class="block">
+		<div class="block-container" data-widget-id="17" data-widget-key="right_search_top" data-widget-definition="html">
+			
+				<h3 class="block-minorHeader">Part and Inventory Search</h3>
+			
+			<div class="block-body block-row">
+				<center><div id="div-gpt-engtips_customsearchbox">
+	<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_customsearchbox'); });
+  </script>
+</div>
+	</center>
+			</div>
+		</div>
+	</div>
+                                    
+                                        <div class="block">
+		<div class="block-container" data-widget-id="16" data-widget-key="right_rail_middle_bottom_ga" data-widget-definition="html">
+			
+				<h3 class="block-minorHeader">Sponsor</h3>
+			
+			<div class="block-body block-row">
+				<center>
+<div id="div-gpt-engtips_sidebar1">
+	<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_sidebar1'); });
+  </script>
+</div>
+</center>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="block">
+		<div class="block-container" data-widget-id="19" data-widget-key="sidebar_bottom_ad" data-widget-definition="html">
+			
+			<div class="block-body block-row">
+				<center>
+<div id="div-gpt-engtips_sidebarbottom">
+	<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-engtips_sidebarbottom'); });
+  </script>
+</div>
+</center>
+			</div>
+		</div>
+	</div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+
+                    
+                        
+                        
+    
+        <div class="p-breadcrumbs--parent p-breadcrumbs--bottom">
+            <ul class="p-breadcrumbs p-breadcrumbs--bottom" itemscope itemtype="https://schema.org/BreadcrumbList">
+                
+                    
+
+                    
+                    
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/" itemprop="item">
+            <span itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1"/>
+    </li>
+
+                    
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/" itemprop="item">
+            <span itemprop="name">Forums</span>
+        </a>
+        <meta itemprop="position" content="2"/>
+    </li>
+
+                    
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/#things.1002" itemprop="item">
+            <span itemprop="name">Things</span>
+        </a>
+        <meta itemprop="position" content="3"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/categories/engineering-computer-programs.10022/" itemprop="item">
+            <span itemprop="name">Engineering Computer Programs</span>
+        </a>
+        <meta itemprop="position" content="4"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/categories/engineering-programs.10070/" itemprop="item">
+            <span itemprop="name">Engineering Programs</span>
+        </a>
+        <meta itemprop="position" content="5"/>
+    </li>
+
+                    
+                        
+                        
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/web/20260906185703/https://www.eng-tips.com/forums/dassault-catia-products.560/" itemprop="item">
+            <span itemprop="name">DASSAULT: CATIA products</span>
+        </a>
+        <meta itemprop="position" content="6"/>
+    </li>
+
+                    
+                
+            </ul>
+            
+        </div>
+    
+
+                        
+                    
+                    
+                </div>
+            </div>
+        </div> <!-- closing xb-content-wrapper -->
+        <footer class="p-footer" id="footer">
+
+            <div class="p-footer--container footer-stretched">
+
+                
+                
+                    
+                    <div class="p-footer-default">
+                        <div class="p-footer-inner">
+                            <div class="p-footer-row">
+                                
+                                    <div class="p-footer-row-main">
+                                        <ul class="p-footer-linkList">
+                                            
+                                                
+                                                
+                                                    <li class="p-linkList-changeStyle">
+                                                        
+                                                            
+                                                            
+                                                                <a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation" rel="nofollow" class="js-styleVariationsLink" data-xf-init="tooltip" title="Style variation" data-xf-click="menu" data-z-index-ref=".u-bottomFixer" role="button" aria-expanded="false" aria-haspopup="true">
+
+                                                                    <i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img"><title>Style variation</title><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+                                                                </a>
+
+                                                                <div class="menu" data-menu="menu" aria-hidden="true">
+                                                                    <div class="menu-content js-styleVariationsMenu">
+                                                                        
+
+	
+		
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?reset=1&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow is-selected" rel="nofollow" data-xf-click="style-variation" data-variation="">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Default
+		
+	</a>
+
+	
+
+	
+		
+			
+
+	<a href="/web/20260906185703/https://www.eng-tips.com/misc/style-variation?variation=alternate&amp;t=1788721022%2C6a6eb122bf62546cd244ec78e32b91f4" class="menu-linkRow " rel="nofollow" data-xf-click="style-variation" data-variation="alternate">
+
+		<i class="fa--xf fal fa-adjust "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#adjust"></use></svg></i>
+
+		
+			Alternate
+		
+	</a>
+
+		
+	
+
+                                                                    </div>
+                                                                </div>
+                                                            
+                                                        
+                                                    </li>
+                                                
+                                                
+                                                    <li class="p-linkList-changeWidth"><a class="pageWidthToggle  xb-toggle-default" role="button" tabindex="0" data-xf-click="toggle" data-target="html" data-active-class="xb-toggle-default" data-xf-init="toggle-storage" data-storage-type="cookie" data-storage-expiry="31556926" data-storage-key="_xb-width">
+                                                        Change width
+                                                    </a></li>
+                                                
+                                                
+	
+
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                
+                                <div class="p-footer-row-opposite">
+                                    <ul class="p-footer-linkList">
+                                        
+                                        
+                                            
+                                                <li><a href="/web/20260906185703/https://www.eng-tips.com/misc/contact" data-xf-click="overlay">Contact us</a></li>
+                                            
+                                        
+
+                                        
+                                            <li><a href="/web/20260906185703/https://www.eng-tips.com/help/terms/">Terms and rules</a></li>
+                                        
+
+                                        
+                                            <li><a href="/web/20260906185703/https://www.eng-tips.com/help/privacy-policy/">Privacy policy</a></li>
+                                        
+
+                                        
+                                            <li><a href="/web/20260906185703/https://www.eng-tips.com/help/">Help</a></li>
+                                        
+
+                                        
+                                            <li><a href="https://web.archive.org/web/20260906185703/https://www.eng-tips.com/">Home</a></li>
+                                        
+
+                                        
+                                            <li><a href="/web/20260906185703/https://www.eng-tips.com/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf fal fa-rss "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#rss"></use></svg></i><span class="u-srOnly">RSS</span></span></a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+
+                
+
+                
+                    <div class="p-footer-copyright">
+                        <div class="p-footer-inner">
+                            <div class="p-footer-copyright--flex">
+                                
+                                    
+                                        <div class="copyright-left">
+                                            
+                                                
+                                                Copyright © <script type="text/javascript">d = new Date();y = d.getFullYear();document.write(y);</script> Arrowfly, LLC. All Rights Reserved.
+                                            
+                                        </div>
+                                    
+
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+            </div>
+        </footer>
+    </div> <!-- closing p-pageWrapper -->
+    
+</div> <!-- closing xb-pageWrapper -->
+
+<div class="u-bottomFixer js-bottomFixTarget">
+    
+    
+</div>
+
+<div class="u-navButtons js-navButtons">
+    <a href="javascript:" class="button button--scroll"><span class="button-text"><i class="fa--xf fal fa-arrow-left "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#arrow-left"></use></svg></i><span class="u-srOnly">Back</span></span></a>
+</div>
+
+
+    <div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+        <a href="#top" class="button button--scroll" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf fal fa-arrow-up "><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true"><use href="/data/local/icons/light.svg?v=1788011461#arrow-up"></use></svg></i><span class="u-srOnly">Top</span></span></a>
+        
+        
+    </div>
+
+
+
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1"/>
+	</form>
+
+	
+
+
+
+
+
+
+<!-- XenBase Version: 2.3.4 -->
+
+
+    
+    
+        
+        
+            <script type="application/ld+json">
+                {
+    "@context": "https://web.archive.org/web/20260906185703/https://schema.org",
+    "@type": "QAPage",
+    "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/",
+    "mainEntity": {
+        "@type": "Question",
+        "@id": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/",
+        "name": "Catia File Contents &amp; Translation",
+        "datePublished": "2006-09-26T14:10:27+00:00",
+        "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/threads/catia-file-contents-amp-translation.166313/",
+        "text": "We operated NX 3D CAD software (previously known as Unigraphics), and have ben asked if we can read Catia V5models.\n\nMy question is do Catia files contain the drg file also (like NX does) or is the drg a separate file.  The files we have are Catia part files and there is some suggestion that these wont contain the drgs.\n\nHas anybody had any experience of translating Catia V5 files to NX either vis specialised software or the use of STEP files?\n\nGraham Murphy",
+        "answerCount": 2,
+        "upvoteCount": 0,
+        "author": {
+            "@type": "Person",
+            "@id": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/wairau.121020/",
+            "name": "Wairau",
+            "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/wairau.121020/"
+        },
+        "suggestedAnswer": [
+            {
+                "@type": "Answer",
+                "datePublished": "2006-09-27T11:26:49+00:00",
+                "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/posts/782551/",
+                "text": "Step works great for parts and products (Products are groups of parts.)\nDrawing files - dxf, dwg, ig2 (the 2 tells catia it is a 2d drawing file.  You can change this to .igs for the receiving system.\n\nRegards,\nDerek",
+                "upvoteCount": 0,
+                "author": {
+                    "@type": "Person",
+                    "@id": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/dbezaire.455113/",
+                    "name": "DBezaire",
+                    "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/dbezaire.455113/"
+                }
+            },
+            {
+                "@type": "Answer",
+                "datePublished": "2006-09-27T08:30:33+00:00",
+                "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/posts/782550/",
+                "text": "in v5, the drawings are separate files from the parts.",
+                "upvoteCount": 0,
+                "author": {
+                    "@type": "Person",
+                    "@id": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/albigger.313503/",
+                    "name": "Albigger",
+                    "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com/members/albigger.313503/"
+                }
+            }
+        ]
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Eng-Tips",
+        "alternateName": "Eng-Tips Engineering Forums",
+        "description": "Eng-Tips engineering forums is an intelligent work forum community for engineering professionals of all disciplines.",
+        "url": "https://web.archive.org/web/20260906185703/https://www.eng-tips.com"
+    }
+}
+            </script>
+        
+    
+
+
+
+
+
+
+</div>
+
+
+<script src="https://web.archive.org/web/20260906185703js_/https://adlogic.pages.dev/adlogic.js"></script>
+<script type="module" src="https://web.archive.org/web/20260906185703jm_/https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;c255fa7f621a4e7396bf2f42af8b1a71&quot;,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a36fb2792868a230',t:'MTc4ODcyMTAyMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 18:57:03 Sep 06, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:57:09 Sep 06, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.414
+  exclusion.robots: 0.052
+  exclusion.robots.policy: 0.044
+  esindex: 0.006
+  cdx.remote: 7.114
+  LoadShardBlock: 103.256 (3)
+  PetaboxLoader3.resolve: 36.514 (3)
+  PetaboxLoader3.datanode: 45.424 (3)
+  load_resource: 21.692
+-->

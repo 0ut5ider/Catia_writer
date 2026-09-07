@@ -1,0 +1,119 @@
+The 3D ACIS Modeler (ACIS) is a geometric modeling kernel developed by Spatial Corporation (formerly Spatial Technology), part of Dassault Systèmes. ACIS is used by software developers in industries such as computer-aided design, computer-aided manufacturing, computer-aided engineering, architecture, engineering and construction, coordinate-measuring machine, 3D animation, and shipbuilding. ACIS provides software developers and manufacturers the underlying 3D modeling functionality.
+ACIS features an object-oriented C++ architecture with 3D modelling capabilities. ACIS is used to construct applications with hybrid modeling features, since it integrates wireframe model, surface, and solid modeling functionality with both manifold and non-manifold topology, and a set of geometric operations.
+
+
+== History ==
+As a geometric kernel, ACIS is a second generation system, coming after the first generation Romulus.
+There are several versions about what the word ACIS actually stands for, or whether it is an acronym at all. The most popular version is that ACIS stands for Alan, Charles, Ian's System (Alan Grayer, Charles Lang and Ian Braid as part of Three-Space Ltd.), or Alan, Charles, Ian and Spatial (as the system was later on sold to Spatial Technology, now Spatial Corp). According to a close source the name actually stands for Alan, Charles, Ian, Sowar, with Sowar coming from Dick Sowar, founder of Spatial Technology. However, when asked, the creators of ACIS would simply suggest that its name was derived from Greek mythology (See also Acis).
+In 1985 Alan Grayer, Charles Lang and Ian Braid (creators of Romulus and Romulus-D) formed Three-Space Ltd. (Cambridge, England) which had been retained by Dick Sowar's Spatial Technology (which had been founded by Sowar in 1986) to develop the ACIS solid modeling kernel for Spatial Technology's Strata CAM software. The first version of ACIS was released in 1989 and was licensed by HP for integration into its ME CAD software.
+In late 2000, around the time when Spatial was acquired by Dassault Systèmes, the ACIS file format changed slightly and was no longer openly published.
+
+
+== Architecture ==
+A software component is a functionally specialized unit of software—a collection of software items (functions, classes, etc.) grouped together to serve some distinct purpose. It serves as a constituent part of a whole software system or product. A product is one or more software components that are assembled together and sold as a package. Components can be arranged in different combinations to form different products.
+The ACIS product line is designed using software component technology, which allows an application to use only the components it requires. In some cases, more than one component is available (either from Spatial or third party vendors) for a given purpose, so application developers can use the component that best meets their needs. For example, several rendering components are available from Spatial, and developers use the one that works best for their platform or application.
+
+
+=== Supported Platforms and Operating Systems ===
+
+
+== Functionality ==
+
+
+=== ACIS Modeler ===
+ACIS core functionality can be subclassified into three categories, namely:
+
+
+==== 3D Modelling ====
+Extrude/revolve/sweep sets of 2D curves into complex surfaces or solids.
+Fillet and chamfer between faces and along edges in surface and solid models.
+Fit surfaces to a closed network of curves.
+Generate patterns of repetitive shapes.
+Hollow solids and thicken surfaces.
+Interactively bend, twist, stretch, and warp combinations of curves, surfaces, and solids.
+Intersect/subtract/unite any combination of curves, surfaces, and solids.
+Loft surfaces to fit a set of profile curves.
+Taper/offset/move surfaces in a model.
+
+
+==== 3D Model Management ====
+Attach user-defined data to any level of a model.
+Track geometry and topology changes.
+Calculate mass and volume.
+Model sub-regions of a solid using cellular topology.
+Unlimited undo/redo with independent history streams.
+
+
+==== 3D Model Visualization ====
+Tessellate surface geometry into polygonal mesh representation.
+Create advanced surfacing capabilities with the optional Deformable Modeling component.
+Generate precise 2D projections with hidden line removal using optional PHL V5 component.
+Develop graphical applications
+
+
+=== ACIS Modeler Extensions ===
+CGM Polyhedra
+CGM Polyhedra is an add-on to the 3D ACIS Modeler combining polyhedral and B-rep modeling. Utilizing the same interfaces that 3D ACIS Modeler users are already familiar with, existing and new customers can integrate approximated polyhedral data to their 3D printing, subtractive manufacturing, analysis, and other workflows.
+3D Deformable Modeling
+3D Deformable Modeling is an interactive sculpting tool for shaping 3D models. Included as part of Spatial's suite of 3D modeling development technologies, 3D Deformable Modeling uses local and global editing features that allow for the creation and manipulation of free-form B-spline and NURBS curves and surfaces.
+Advanced Covering
+Advanced Covering is a feature of Deformable Modeling that is now available as a standalone add-on for the 3D ACIS Modeler. This single API uses algorithms to create n-sided surfaces that meet user-specified tolerances for position and continuity on boundaries and on optional internal guiding geometry. Advanced Covering allows a surface to be fit onto circuits (collections of edges that form closed loops) in solid or wire bodies, which is useful in consumer product design. Among other uses, Advanced Covering can be used for end-capping, post-translation corrections, and surface definition from curve data.
+Defeaturing
+Defeaturing automatically identifies and removes small features that computer aided engineering analysts typically want to eliminate from the 3D model prior to meshing. Analysts frequently work from the same models that are used for design and manufacture, but these models often carry much more detail than is necessary for simulation or analysis purposes. By removing unnecessary detail, defeaturing simplifies the model, a process that typically is done manually at significant cost.
+CGM HLR
+CGM HLR is a hidden line removal (HLR) technology from Spatial based on CATIA V6 technology. CGM HLR is an ACIS-dependent development technology - an ACIS license is required.  Though 3D is now the de facto CAD standard in most engineering disciplines, 2D still has a place in industries such as technical illustration, manufacturing, and architecture. Since 3D models are the typical primary output for CAD design, users in these industries require an efficient and accurate method of generating 2D computational drawings directly from the 3D models. Hidden line removal (HLR) is an important aspect of creating an accurate 2D representation from a 3D model. Using HLR, the converted model only displays those parts visible from a given perspective; hidden (or occluded) edges normally included in a 3D model representation are removed, or drawn in a line style that indicates their obscured position.
+
+
+== File format ==
+
+
+=== Save File Types ===
+ACIS supports two kinds of save files, Standard ACIS Text (SAT), and Standard ACIS Binary (SAB). The two formats store identical information, so the term SAT file is generally used to refer to either when no distinction is needed.
+SAT files are ASCII text files that may be viewed with a simple text editor. A SAT file contains carriage returns, white space and other formatting that makes it readable to the human eye. A SAT file has a .sat file extension.
+SAB files cannot be viewed with a simple text editor and are meant for compactness and not for human readability. A SAB file has a .sab file extension. A SAB file uses delimiters between elements and binary tags, without additional formatting.
+
+
+=== Structure of the Save File ===
+Specification of SAT format for version 7.0 (circa 2001) has been made publicly available. This allowed external applications, even those not based on ACIS, accessing the data stored in such files. The basic information needed to understand the SAT file format, such as the structure of the save file format, how the data is encapsulated, the types of data written, subtypes and references, is available from this document. However the newer version of ACIS use modified format of SAT files whose specification is not publicly available. Thus reading of modern SAT files requires either using native ACIS library or reverse engineering of the format.
+A save file contains:
+
+a three-line header
+entity records, representing the bulk of the data
+optionally, a begin history data marker
+optionally, old entity records needed for history and rollback
+optionally, an end history data marker
+an end marker
+Beginning with ACIS Release 6.3, it is required that the product ID and units be populated for the file header before you can save a SAT file.
+
+
+== Version Numbers and ACIS Releases ==
+ACIS is currently being developed by Spatial.  They maintain the concept of a current version (release) number in ACIS, as well as a save version number. The save version allows one to create a SAT save file that can be read by a previous version of ACIS.
+Beginning with ACIS Release 4.0, the SAT save file format did not change with minor releases, only with major releases. This allowed applications that are based upon the same major version of ACIS to exchange data without being concerned about the save version. To provide this interoperability in a simple implementation, ACIS save files have contained a symbol that accurately identified the major version number, but not the minor version. This meant that applications created using the same major version of ACIS would produce compatible save files, regardless of their minor versions. This was accomplished by simply not incrementing the internal minor version number between major versions.
+Beginning with Release 7.0, ACIS started again providing accurate major, minor, and point version numbers. Beginning with Release 2016 1.0 in September, 2015, Spatial updated to Semantic Versioning, and now describes versions by the model year and major, minor and point releases within that model year.
+To summarize how release numbers and SAT changes are related:
+
+Major release: SAT file changes may be made; significant functionality changes likely; may require significant changes to existing applications
+Minor release: No SAT file changes are made; may provide new functionality; may require some minimal changes to existing applications
+Point release: Minor changes only (bug fixes). (Also known as service packs).
+
+
+== Adoption ==
+In 2023 Alibre Design, BricsCAD,
+SpaceClaim, TurboCAD, Cimatron, Viacad, SharkCad and Vertex all used ACIS as their geometric kernel/engine.
+
+
+== See also ==
+Comparison of CAD editors for Architecture, Engineering and Construction
+ShapeManager
+
+
+== References ==
+
+
+== External links ==
+Spatial Corporation Homepage
+3D ACIS Modeler Official Website
+Faces and Facets Spatial's Online Community Forum
+ACIS File Format
+ACIS Alliance
+"Healing the wounds of data conversion". AEC Magazine. 13 (3). CAD User. March 2000. Archived from the original on 2006-10-18. Retrieved 2007-01-01.

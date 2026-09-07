@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://wiki.freecad.org/Part_Import","20220614105500","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1655204100");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<title>Part Import - FreeCAD Documentation</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"acabd0afe91a09a33dcd2f42","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Part_Import","wgTitle":"Part Import","wgCurRevisionId":988872,"wgRevisionId":988872,"wgArticleId":39228,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["User Documentation","Command Reference","Part"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Part_Import","wgRelevantArticleId":39228,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgULSAcceptLanguageList":["en-us"
+,"en"],"wgULSCurrentAutonym":"English","wgULSPosition":"personal","wgTranslatePageTranslation":"source"};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.translate":"ready","ext.translate.tag.languages":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","ext.uls.pt":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.uls.interface","skins.vector.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/web/20220614105500cs_/https://wiki.freecad.org/load.php?lang=en&amp;modules=ext.translate%7Cext.translate.tag.languages%7Cext.uls.pt%7Cjquery.makeCollapsible.styles%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/web/20220614105500js_/https://wiki.freecad.org/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/web/20220614105500cs_/https://wiki.freecad.org/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.2"/>
+<link rel="shortcut icon" href="/web/20220614105500im_/https://wiki.freecad.org/images/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/web/20220614105500/https://wiki.freecad.org/opensearch_desc.php" title="FreeCAD Documentation (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//wiki.freecadweb.org/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="FreeCAD Documentation Atom feed" href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Part_Import rootpage-Part_Import skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Part Import</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From FreeCAD Documentation</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="mw-pt-languages noprint" lang="en" dir="ltr"><div class="mw-pt-languages-label">Other languages:</div><div class="mw-pt-languages-list autonym"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/de" class="mw-pt-progress mw-pt-progress--complete" title="Part Import (100% translated)" lang="de">Deutsch</a>&#160;• ‎<span class="mw-pt-languages-ui mw-pt-languages-selected mw-pt-progress mw-pt-progress--complete" lang="en">English</span>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/fr" class="mw-pt-progress mw-pt-progress--complete" title="Part Importation (100% translated)" lang="fr">français</a>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/it" class="mw-pt-progress mw-pt-progress--low" title="Part: Importa CAD (38% translated)" lang="it">italiano</a>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/pl" class="mw-pt-progress mw-pt-progress--stub" title="Część: Import (12% translated)" lang="pl">polski</a>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/pt-br" class="mw-pt-progress mw-pt-progress--stub" title="Importar (12% translated)" lang="pt-BR">português do Brasil</a>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/ro" class="mw-pt-progress mw-pt-progress--stub" title="Part: ImportCAD (12% translated)" lang="ro">română</a>&#160;• ‎<a href="/web/20220614105500/https://wiki.freecad.org/Part_Import/ru" class="mw-pt-progress mw-pt-progress--high" title="Part &quot;Импорт CAD...&quot; (62% translated)" lang="ru">русский</a></div></div>
+<div class="docnav" style="background-color:#ececef; border: 1px solid #a2a9b1; padding: 2px 10px 2px 10px; clear: both; margin: 10px 0;">
+  <div style="float:left"><a href="/web/20220614105500/https://wiki.freecad.org/File:Arrow-left.svg" class="image"><img alt="Arrow-left.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/6/6f/Arrow-left.svg" width="16" height="16"/></a> Previous: <a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Measure_Toggle_Delta.svg" class="image"><img alt="Part Measure Toggle Delta.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/b/be/Part_Measure_Toggle_Delta.svg" width="16" height="16"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Toggle_Delta" title="Part Measure Toggle Delta">Toggle Delta</a> </div>
+  <div style="float:right">Next: <a href="/web/20220614105500/https://wiki.freecad.org/Part_Export" title="Part Export">Export</a>
+ <a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Export.svg" class="image"><img alt="Part Export.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/a/a6/Part_Export.svg" width="16" height="16"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/File:Arrow-right.svg" class="image"><img alt="Arrow-right.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/a/af/Arrow-right.svg" width="16" height="16"/></a></div>
+  <div style="text-align:center"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench" class="mw-redirect" title="Part Workbench">Part</a>
+ <a href="/web/20220614105500/https://wiki.freecad.org/File:Workbench_Part.svg" class="image"><img alt="Workbench Part.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/0/04/Workbench_Part.svg" width="24" height="24"/></a><div></div></div></div>
+<table class="fcinfobox wikitable ct" width="100%" style="float: right; width: 230px; margin-left: 1em">
+<tbody><tr>
+<td class="ctTitle" style="font-weight: bold; font-size: 125%;">
+<p><img alt="Part Import.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/6/6f/Part_Import.svg" width="32" height="32"/><span> </span>Part Import‎
+</p>
+</td></tr>
+<tr>
+<th class="ctOdd">Menu location
+</th></tr>
+<tr>
+<td class="ctEven">Part → Import CAD
+</td></tr>
+<tr>
+<th class="ctOdd">Workbenches
+</th></tr>
+<tr>
+<td class="ctEven"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench" class="mw-redirect" title="Part Workbench">Part</a>
+</td></tr>
+<tr>
+<th class="ctOdd">Default shortcut
+</th></tr>
+<tr>
+<td class="ctEven"><i>None</i>
+</td></tr>
+<tr>
+<th class="ctOdd">Introduced in version
+</th></tr>
+<tr>
+<td class="ctEven">-
+</td></tr>
+<tr>
+<th class="ctOdd">See also
+</th></tr>
+<tr>
+<td class="ctEven"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Export" title="Part Export">Part Export</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Std_Import" title="Std Import">Std Import</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Import_Export" title="Import Export">Import Export</a>
+</td></tr>
+<tr>
+<td class="ctToc"><br/><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"/><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Usage"><span class="tocnumber">2</span> <span class="toctext">Usage</span></a></li>
+</ul>
+</div>
+
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Description">Description</span></h2>
+<p>The <span style="background: #f5f5f5; -moz-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); -webkit-box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1); border: 2px solid #989898; border-radius: 0.4em; padding: 0px 10px 1px 10px; font-weight:normal;"><a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Import.svg" class="image"><img alt="Part Import.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/6/6f/Part_Import.svg" width="16" height="16"/></a> <a class="mw-selflink selflink">Part Import</a></span> tool opens a dialog that allows you to import the following CAD file formats: <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220614105500/http://en.wikipedia.org/wiki/IGES">IGES</a>, <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220614105500/http://en.wikipedia.org/wiki/Step_file">STEP</a> and <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220614105500/http://en.wikipedia.org/wiki/BREP">BREP</a> into the current document.
+</p>
+<h2><span class="mw-headline" id="Usage">Usage</span></h2>
+<ol><li>Set up the <a href="/web/20220614105500/https://wiki.freecad.org/Import_Export_Preferences" title="Import Export Preferences">Import Export Preferences</a> in the <a href="/web/20220614105500/https://wiki.freecad.org/Preferences_Editor" title="Preferences Editor">Preferences Editor</a>.</li>
+<li>Go to the menu <b>Part →  <a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Import.svg" class="image"><img alt="Part Import.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/6/6f/Part_Import.svg" width="16" height="16"/></a> Import CAD</b>.</li>
+<li>Select the file to be imported.</li></ol>
+<p><br/>
+</p>
+<div class="docnav" style="background-color:#ececef; border: 1px solid #a2a9b1; padding: 2px 10px 2px 10px; clear: both; margin: 10px 0;">
+  <div style="float:left"><a href="/web/20220614105500/https://wiki.freecad.org/File:Arrow-left.svg" class="image"><img alt="Arrow-left.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/6/6f/Arrow-left.svg" width="16" height="16"/></a> Previous: <a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Measure_Toggle_Delta.svg" class="image"><img alt="Part Measure Toggle Delta.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/b/be/Part_Measure_Toggle_Delta.svg" width="16" height="16"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Toggle_Delta" title="Part Measure Toggle Delta">Toggle Delta</a> </div>
+  <div style="float:right">Next: <a href="/web/20220614105500/https://wiki.freecad.org/Part_Export" title="Part Export">Export</a>
+ <a href="/web/20220614105500/https://wiki.freecad.org/File:Part_Export.svg" class="image"><img alt="Part Export.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/a/a6/Part_Export.svg" width="16" height="16"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/File:Arrow-right.svg" class="image"><img alt="Arrow-right.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/a/af/Arrow-right.svg" width="16" height="16"/></a></div>
+  <div style="text-align:center"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench" class="mw-redirect" title="Part Workbench">Part</a>
+ <a href="/web/20220614105500/https://wiki.freecad.org/File:Workbench_Part.svg" class="image"><img alt="Workbench Part.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/0/04/Workbench_Part.svg" width="24" height="24"/></a><div></div></div></div>
+<div class="NavFrame" style="margin: 0px; text-align: center; border-collapse: collapse; font-size: 100%; border-top-style: double; border-top-style: 1px; clear:both;">
+    <div class="NavHead mw-collapsible mw-collapsed" style="margin: 1px; font-weight: normal; background-color: #fefefe;"><a href="/web/20220614105500/https://wiki.freecad.org/File:Workbench_Part.svg" class="image"><img alt="Workbench Part.svg" src="/web/20220614105500im_/https://wiki.freecad.org/images/0/04/Workbench_Part.svg" width="24" height="24"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench" class="mw-redirect" title="Part Workbench">Part</a>
+        <div class="NavContent mw-collapsible-content" style="margin: 10px; border: 1px solid #aaaaaa; text-align: left; border-collapse: collapse; font-weight: normal; font-size: 100%; clear:both; margin-top: 1px; background-color: #fefefe;">
+<ul><li><b>Primitives:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Box" title="Part Box">Box</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Cylinder" title="Part Cylinder">Cylinder</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Sphere" title="Part Sphere">Sphere</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Cone" title="Part Cone">Cone</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Torus" title="Part Torus">Torus</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Tube" title="Part Tube">Tube</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Primitives" title="Part Primitives">Create primitives</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Builder" title="Part Builder">Shape builder</a></li></ul>
+<hr/>
+<ul><li><b>Creation and modification:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Extrude" title="Part Extrude">Extrude</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Revolve" title="Part Revolve">Revolve</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Mirror" title="Part Mirror">Mirror</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Fillet" title="Part Fillet">Fillet</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Chamfer" title="Part Chamfer">Chamfer</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_MakeFace" title="Part MakeFace">Make face from wires</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_RuledSurface" title="Part RuledSurface">Ruled Surface</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Loft" title="Part Loft">Loft</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Sweep" title="Part Sweep">Sweep</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Section" title="Part Section">Section</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_CrossSections" title="Part CrossSections">Cross sections</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Offset" title="Part Offset">3D Offset</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Offset2D" title="Part Offset2D">2D Offset</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Thickness" title="Part Thickness">Thickness</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_ProjectionOnSurface" title="Part ProjectionOnSurface">Projection on surface</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_EditAttachment" title="Part EditAttachment">Attachment</a></li></ul>
+<hr/>
+<ul><li><b>Boolean:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Compound" title="Part Compound">Make compound</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_ExplodeCompound" title="Part ExplodeCompound">Explode Compound</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_CompoundFilter" title="Part CompoundFilter">Compound Filter</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Boolean" title="Part Boolean">Boolean</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Cut" title="Part Cut">Cut</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Fuse" title="Part Fuse">Fuse</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Common" title="Part Common">Common</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_JoinConnect" title="Part JoinConnect">Connect</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_JoinEmbed" title="Part JoinEmbed">Embed</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_JoinCutout" title="Part JoinCutout">Cutout</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_BooleanFragments" title="Part BooleanFragments">Boolean fragments</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_SliceApart" title="Part SliceApart">Slice apart</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Slice" title="Part Slice">Slice</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_XOR" title="Part XOR">XOR</a></li></ul>
+<hr/>
+<ul><li><b>Measure:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Linear" title="Part Measure Linear">Measure Linear</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Angular" title="Part Measure Angular">Measure Angular</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Refresh" title="Part Measure Refresh">Measure Refresh</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Clear_All" title="Part Measure Clear All">Clear All</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Toggle_All" title="Part Measure Toggle All">Toggle All</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Toggle_3d" title="Part Measure Toggle 3d">Toggle 3D</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Measure_Toggle_Delta" title="Part Measure Toggle Delta">Toggle Delta</a></li></ul>
+<hr/>
+<ul><li><b>Other tools:</b> <a class="mw-selflink selflink">Import</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Export" title="Part Export">Export</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_BoxSelection" title="Part BoxSelection">Box selection</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_ShapeFromMesh" title="Part ShapeFromMesh">Shape from Mesh</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_PointsFromMesh" title="Part PointsFromMesh">Points from mesh</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_MakeSolid" title="Part MakeSolid">Convert to solid</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_ReverseShapes" title="Part ReverseShapes">Reverse shapes</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_SimpleCopy" title="Part SimpleCopy">Create simple copy</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_TransformedCopy" title="Part TransformedCopy">Create transformed copy</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_ElementCopy" title="Part ElementCopy">Create shape element copy</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_RefineShape" title="Part RefineShape">Refine shape</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_CheckGeometry" title="Part CheckGeometry">Check geometry</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Defeaturing" title="Part Defeaturing">Defeaturing</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Std_SetAppearance" title="Std SetAppearance">Appearance</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_FaceColors" title="Part FaceColors">Set colors</a></li></ul></div>
+    </div></div>
+<div class="NavFrame" style="margin: 0px; text-align: center; border-collapse: collapse; font-size: 100%; border-top-style: double; border-top-style: 1px; clear:both;">
+    <div class="NavHead mw-collapsible mw-collapsed" style="margin: 1px; font-weight: normal; background-color: #fefefe;"><a href="/web/20220614105500/https://wiki.freecad.org/File:User_hub.png" class="image"><img alt="User hub.png" src="/web/20220614105500im_/https://wiki.freecad.org/images/thumb/9/94/User_hub.png/24px-User_hub.png" decoding="async" width="24" height="24" srcset="/web/20220614105500im_/https://wiki.freecad.org/images/thumb/9/94/User_hub.png/36px-User_hub.png 1.5x, /web/20220614105500im_/https://wiki.freecad.org/images/thumb/9/94/User_hub.png/48px-User_hub.png 2x"/></a> <a href="/web/20220614105500/https://wiki.freecad.org/User_hub" title="User hub">User documentation</a>
+        <div class="NavContent mw-collapsible-content" style="margin: 10px; border: 1px solid #aaaaaa; text-align: left; border-collapse: collapse; font-weight: normal; font-size: 100%; clear:both; margin-top: 1px; background-color: #fefefe;">
+<ul><li><b><a href="/web/20220614105500/https://wiki.freecad.org/Getting_started" title="Getting started">Getting started</a></b></li>
+<li><b>Installation:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Download" title="Download">Download</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Installing_on_Windows" title="Installing on Windows">Windows</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Installing_on_Linux" title="Installing on Linux">Linux</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Installing_on_Mac" title="Installing on Mac">Mac</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Installing_additional_components" title="Installing additional components">Additional components</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Compile_on_Docker" title="Compile on Docker">Docker</a>, <a href="/web/20220614105500/https://wiki.freecad.org/AppImage" title="AppImage">AppImage</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Ubuntu_Snap" title="Ubuntu Snap">Ubuntu Snap</a></li>
+<li><b>Basics:</b> <a href="/web/20220614105500/https://wiki.freecad.org/About_FreeCAD" title="About FreeCAD">About FreeCAD</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Interface" title="Interface">Interface</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Mouse_navigation" title="Mouse navigation">Mouse navigation</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Selection_methods" title="Selection methods">Selection methods</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Object_name" title="Object name">Object name</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Preferences_Editor" title="Preferences Editor">Preferences</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Workbenches" title="Workbenches">Workbenches</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Document_structure" title="Document structure">Document structure</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Property" title="Property">Properties</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Help_FreeCAD" title="Help FreeCAD">Help FreeCAD</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Donate" title="Donate">Donate</a></li></ul>
+<hr/>
+<ul><li><b>Help:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Tutorials" title="Tutorials">Tutorials</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Video_tutorials" title="Video tutorials">Video tutorials</a></li>
+<li><b><a href="/web/20220614105500/https://wiki.freecad.org/Workbenches" title="Workbenches">Workbenches</a>:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Std_Base" title="Std Base">Std Base</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Arch_Workbench" title="Arch Workbench">Arch</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Draft_Workbench" title="Draft Workbench">Draft</a>, <a href="/web/20220614105500/https://wiki.freecad.org/FEM_Workbench" title="FEM Workbench">FEM</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Image_Workbench" title="Image Workbench">Image</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Inspection_Workbench" title="Inspection Workbench">Inspection</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Mesh_Workbench" title="Mesh Workbench">Mesh</a>, <a href="/web/20220614105500/https://wiki.freecad.org/OpenSCAD_Workbench" title="OpenSCAD Workbench">OpenSCAD</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench" class="mw-redirect" title="Part Workbench">Part</a>, <a href="/web/20220614105500/https://wiki.freecad.org/PartDesign_Workbench" title="PartDesign Workbench">PartDesign</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Path_Workbench" title="Path Workbench">Path</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Points_Workbench" title="Points Workbench">Points</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Raytracing_Workbench" title="Raytracing Workbench">Raytracing</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Reverse_Engineering_Workbench" title="Reverse Engineering Workbench">Reverse Engineering</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Sketcher_Workbench" title="Sketcher Workbench">Sketcher</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Spreadsheet_Workbench" title="Spreadsheet Workbench">Spreadsheet</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Start_Workbench" title="Start Workbench">Start</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Surface_Workbench" title="Surface Workbench">Surface</a>, <a href="/web/20220614105500/https://wiki.freecad.org/TechDraw_Workbench" title="TechDraw Workbench">TechDraw</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Testing" title="Testing">Test Framework</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Web_Workbench" title="Web Workbench">Web</a></li>
+<li><b>Deprecated or unmaintained workbenches:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Complete_Workbench" title="Complete Workbench">Complete</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Drawing_Workbench" title="Drawing Workbench">Drawing</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Robot_Workbench" title="Robot Workbench">Robot</a></li></ul>
+<hr/>
+<ul><li><b><a href="/web/20220614105500/https://wiki.freecad.org/Addon" title="Addon">Addons</a>:</b> <a href="/web/20220614105500/https://wiki.freecad.org/Std_AddonMgr" title="Std AddonMgr">Addon Manager</a>, <a href="/web/20220614105500/https://wiki.freecad.org/External_workbenches" title="External workbenches">External workbenches</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Scripting_and_macros" title="Scripting and macros">Scripting and macros</a></li></ul>
+<hr/>
+<ul><li><b>Hubs:</b> <a href="/web/20220614105500/https://wiki.freecad.org/User_hub" title="User hub">User hub</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Power_users_hub" title="Power users hub">Power users hub</a>, <a href="/web/20220614105500/https://wiki.freecad.org/Developer_hub" title="Developer hub">Developer hub</a></li></ul></div>
+    </div></div>
+<div style="clear:both"></div>
+<!-- 
+NewPP limit report
+Cached time: 20220408162536
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.099 seconds
+Real time usage: 0.238 seconds
+Preprocessor visited node count: 311/1000000
+Post‐expand include size: 15320/2097152 bytes
+Template argument size: 5167/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 1/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1329/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   34.343      1 -total
+ 24.83%    8.526      1 Template:Part_Tools_navi
+ 17.55%    6.026      1 Template:Userdocnavi
+ 17.06%    5.858      1 Template:GuiCommand
+ 14.72%    5.056      2 Template:Navigation_menu_2
+ 11.85%    4.071      1 Template:Clear
+ 11.65%    4.000      2 Template:Docnav
+  7.91%    2.716      1 Template:MenuCommand
+  7.01%    2.409      1 Template:Button
+-->
+
+<!-- Saved in parser cache with key freecadweb_db01-wiki_:pcache:idhash:39228-0!canonical and timestamp 20220408162536 and revision id 988872
+ -->
+</div></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://web.archive.org/web/20220614105500/http://wiki.freecadweb.org/index.php?title=Part_Import&amp;oldid=988872">http://wiki.freecadweb.org/index.php?title=Part_Import&amp;oldid=988872</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/web/20220614105500/https://wiki.freecad.org/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/web/20220614105500/https://wiki.freecad.org/Category:User_Documentation" title="Category:User Documentation">User Documentation</a></li><li><a href="/web/20220614105500/https://wiki.freecad.org/Category:Command_Reference" title="Category:Command Reference">Command Reference</a></li><li><a href="/web/20220614105500/https://wiki.freecad.org/Category:Part" title="Category:Part">Part</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="#" class="uls-trigger">English</a></li><li id="pt-login"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Special:UserLogin&amp;returnto=Part+Import" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Import" title="View the content page [c]" accesskey="c">Page</a></li><li id="ca-talk" class="new"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Talk:Part_Import&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label"/>
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Import">Read</a></li><li id="ca-viewsource" class="collapsible"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Part_Import&amp;action=edit" title="This page is protected.
+You can view its source [e]" accesskey="e">View source</a></li><li id="ca-history" class="collapsible"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Part_Import&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label"/>
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/web/20220614105500/https://wiki.freecad.org/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search FreeCAD Documentation" title="Search FreeCAD Documentation [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/web/20220614105500/https://wiki.freecad.org/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-" aria-labelledby="p--label">
+			<h3 id="p--label"></h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-overview"><a href="/web/20220614105500/https://wiki.freecad.org/About_FreeCAD">Overview</a></li><li id="n-Sidebar-features"><a href="/web/20220614105500/https://wiki.freecad.org/Feature_list">Features</a></li><li id="n-Sidebar-screenshots"><a href="/web/20220614105500/https://wiki.freecad.org/Screenshots">Screenshots</a></li><li id="n-Sidebar-download"><a href="/web/20220614105500/https://wiki.freecad.org/Download">Download</a></li><li id="n-Sidebar-FAQ"><a href="/web/20220614105500/https://wiki.freecad.org/Frequently_asked_questions">FAQ</a></li><li id="n-Sidebar-forum"><a href="https://web.archive.org/web/20220614105500/http://forum.freecadweb.org/" rel="nofollow">Forum</a></li><li id="n-Sidebar-tracker"><a href="https://web.archive.org/web/20220614105500/http://www.freecadweb.org/tracker/" rel="nofollow">Tracker</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Sidebar-users-doc" aria-labelledby="p-Sidebar-users-doc-label">
+			<h3 id="p-Sidebar-users-doc-label">General usage</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-user-hub"><a href="/web/20220614105500/https://wiki.freecad.org/User_hub">User Hub</a></li><li id="n-Sidebar-manual"><a href="/web/20220614105500/https://wiki.freecad.org/Manual:Introduction">Manual</a></li><li id="n-Sidebar-tutorials"><a href="/web/20220614105500/https://wiki.freecad.org/Tutorials">Tutorials</a></li><li id="n-Sidebar-installing"><a href="/web/20220614105500/https://wiki.freecad.org/Installing">Installing</a></li><li id="n-Sidebar-getting-started"><a href="/web/20220614105500/https://wiki.freecad.org/Getting_started">Getting started</a></li><li id="n-Sidebar-navigate-in-3D"><a href="/web/20220614105500/https://wiki.freecad.org/Mouse_navigation">Navigation styles</a></li><li id="n-Sidebar-interface-customize"><a href="/web/20220614105500/https://wiki.freecad.org/Interface_Customization">Customizing FreeCAD</a></li><li id="n-Sidebar-commands-ref"><a href="/web/20220614105500/https://wiki.freecad.org/List_of_Commands">Commands list</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Sidebar-workbenches" aria-labelledby="p-Sidebar-workbenches-label">
+			<h3 id="p-Sidebar-workbenches-label">Workbenches</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-workbenches-list"><a href="/web/20220614105500/https://wiki.freecad.org/Workbenches">Workbenches list</a></li><li id="n-Sidebar-arch-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Arch_Workbench">Arch</a></li><li id="n-Sidebar-draft-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Draft_Workbench">Draft</a></li><li id="n-Sidebar-fem-wb"><a href="/web/20220614105500/https://wiki.freecad.org/FEM_Workbench">FEM</a></li><li id="n-Sidebar-mesh-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Mesh_Workbench">Mesh</a></li><li id="n-Sidebar-openscad-wb"><a href="/web/20220614105500/https://wiki.freecad.org/OpenSCAD_Workbench">OpenSCAD</a></li><li id="n-Sidebar-part-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Part_Workbench">Part</a></li><li id="n-Sidebar-partdesign-wb"><a href="/web/20220614105500/https://wiki.freecad.org/PartDesign_Workbench">PartDesign</a></li><li id="n-Sidebar-path-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Path_Workbench">Path</a></li><li id="n-Sidebar-points-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Points_Workbench">Points</a></li><li id="n-Sidebar-raytracing-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Raytracing_Workbench">Raytracing</a></li><li id="n-Sidebar-robot-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Robot_Workbench">Robot</a></li><li id="n-Sidebar-sketcher-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Sketcher_Workbench">Sketcher</a></li><li id="n-Sidebar-spreadsheet-wb"><a href="/web/20220614105500/https://wiki.freecad.org/Spreadsheet_Workbench">Spreadsheet</a></li><li id="n-Sidebar-techdraw-wb"><a href="/web/20220614105500/https://wiki.freecad.org/TechDraw_Workbench">TechDraw</a></li><li id="n-Sidebar-addons"><a href="/web/20220614105500/https://wiki.freecad.org/External_workbenches">External workbenches</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Sidebar-powerusers-doc" aria-labelledby="p-Sidebar-powerusers-doc-label">
+			<h3 id="p-Sidebar-powerusers-doc-label">Python scripting</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-poweruser-hub"><a href="/web/20220614105500/https://wiki.freecad.org/Power_users_hub">Powerusers hub</a></li><li id="n-Sidebar-discovering-python"><a href="/web/20220614105500/https://wiki.freecad.org/Introduction_to_Python">Discovering Python</a></li><li id="n-Sidebar-freecad-scripting"><a href="/web/20220614105500/https://wiki.freecad.org/FreeCAD_Scripting_Basics">Python in FreeCAD</a></li><li id="n-Sidebar-work-with-macros"><a href="/web/20220614105500/https://wiki.freecad.org/Macros">Macros</a></li><li id="n-Sidebar-mesh-scripting"><a href="/web/20220614105500/https://wiki.freecad.org/Mesh_Scripting">Mesh scripting</a></li><li id="n-Sidebar-part-scripting"><a href="/web/20220614105500/https://wiki.freecad.org/Topological_data_scripting">Part scripting</a></li><li id="n-Sidebar-access-3D-view"><a href="/web/20220614105500/https://wiki.freecad.org/Scenegraph">Pivy</a></li><li id="n-Sidebar-access-the-interface"><a href="/web/20220614105500/https://wiki.freecad.org/PySide">PySide</a></li><li id="n-Sidebar-scripted-objects"><a href="/web/20220614105500/https://wiki.freecad.org/Scripted_objects">Parametric objects</a></li><li id="n-Sidebar-scripting-exemples"><a href="/web/20220614105500/https://wiki.freecad.org/Scripting_examples">Code examples</a></li><li id="n-Sidebar-python-API"><a href="https://web.archive.org/web/20220614105500/https://freecad.github.io/SourceDoc/" rel="nofollow">Python API</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Sidebar-developer-doc" aria-labelledby="p-Sidebar-developer-doc-label">
+			<h3 id="p-Sidebar-developer-doc-label">Development</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-developer-hub"><a href="/web/20220614105500/https://wiki.freecad.org/Developer_hub">Developers hub</a></li><li id="n-Sidebar-help-freecad"><a href="/web/20220614105500/https://wiki.freecad.org/Help_FreeCAD">How to contribute</a></li><li id="n-Sidebar-github"><a href="https://web.archive.org/web/20220614105500/https://github.com/FreeCAD/FreeCAD" rel="nofollow">Git repository</a></li><li id="n-Sidebar-compiling"><a href="/web/20220614105500/https://wiki.freecad.org/Compiling">Compiling</a></li><li id="n-Sidebar-licence"><a href="/web/20220614105500/https://wiki.freecad.org/Licence">License details</a></li><li id="n-Sidebar-organization-chart"><a href="/web/20220614105500/https://wiki.freecad.org/Organization_chart">Organization chart</a></li><li id="n-Sidebar-start-up"><a href="/web/20220614105500/https://wiki.freecad.org/Start_up_and_Configuration">Startup options</a></li><li id="n-Sidebar-branding"><a href="/web/20220614105500/https://wiki.freecad.org/Branding">Branding</a></li><li id="n-Sidebar-localisation"><a href="/web/20220614105500/https://wiki.freecad.org/Localisation">Translating</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Sidebar-help-feedback" aria-labelledby="p-Sidebar-help-feedback-label">
+			<h3 id="p-Sidebar-help-feedback-label">Help &amp; Feedback</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Sidebar-help-forum"><a href="https://web.archive.org/web/20220614105500/http://forum.freecadweb.org/viewforum.php" rel="nofollow">Forum</a></li><li id="n-Sidebar-report-bug"><a href="https://web.archive.org/web/20220614105500/http://www.freecadweb.org/tracker/main_page.php" rel="nofollow">Bugs tracker</a></li><li id="n-Sidebar-irc-channel"><a href="https://web.archive.org/web/20220614105500/irc://chat.freenode.net/freecad" rel="nofollow">IRC channel</a></li><li id="n-Sidebar-facebook-page"><a href="https://web.archive.org/web/20220614105500/http://www.facebook.com/FreeCAD" rel="nofollow">Facebook</a></li><li id="n-Sidebar-twitter"><a href="https://web.archive.org/web/20220614105500/http://www.twitter.com/FreeCADNews" rel="nofollow">Twitter</a></li><li id="n-Sidebar-mastodon"><a href="https://web.archive.org/web/20220614105500/https://fosstodon.org/@FreeCAD" rel="nofollow">Mastodon</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Meta" aria-labelledby="p-Meta-label">
+			<h3 id="p-Meta-label">Meta</h3>
+			<div class="body">
+								<ul>
+					<li id="n-recentchanges"><a href="/web/20220614105500/https://wiki.freecad.org/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/web/20220614105500/https://wiki.freecad.org/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-Sidebar-links"><a href="/web/20220614105500/https://wiki.freecad.org/Interesting_links">Links</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/web/20220614105500/https://wiki.freecad.org/Special:WhatLinksHere/Part_Import" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/web/20220614105500/https://wiki.freecad.org/Special:RecentChangesLinked/Part_Import" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/web/20220614105500/https://wiki.freecad.org/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Part_Import&amp;oldid=988872" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/web/20220614105500/https://wiki.freecad.org/index.php?title=Part_Import&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 25 August 2021, at 12:31.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://web.archive.org/web/20220614105500/http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/web/20220614105500/https://wiki.freecad.org/FreeCAD:Privacy_policy" title="FreeCAD:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/web/20220614105500/https://wiki.freecad.org/FreeCAD:About" title="FreeCAD:About">About FreeCAD Documentation</a></li>
+								<li id="footer-places-disclaimer"><a href="/web/20220614105500/https://wiki.freecad.org/FreeCAD:General_disclaimer" title="FreeCAD:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://web.archive.org/web/20220614105500/http://creativecommons.org/licenses/by/3.0/"><img src="/web/20220614105500im_/https://wiki.freecad.org/resources/assets/licenses/cc-by.png" alt="Creative Commons Attribution" width="88" height="31" loading="lazy"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://web.archive.org/web/20220614105500/https://www.mediawiki.org/"><img src="/web/20220614105500im_/https://wiki.freecad.org/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/web/20220614105500im_/https://wiki.freecad.org/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /web/20220614105500im_/https://wiki.freecad.org/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.099","walltime":"0.238","ppvisitednodes":{"value":311,"limit":1000000},"postexpandincludesize":{"value":15320,"limit":2097152},"templateargumentsize":{"value":5167,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":1,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1329,"limit":5000000},"timingprofile":["100.00%   34.343      1 -total"," 24.83%    8.526      1 Template:Part_Tools_navi"," 17.55%    6.026      1 Template:Userdocnavi"," 17.06%    5.858      1 Template:GuiCommand"," 14.72%    5.056      2 Template:Navigation_menu_2"," 11.85%    4.071      1 Template:Clear"," 11.65%    4.000      2 Template:Docnav","  7.91%    2.716      1 Template:MenuCommand","  7.01%    2.409      1 Template:Button"]},"cachereport":{"timestamp":"20220408162536","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":456});});</script>
+</body>
+<!-- Cached 20220408162537 -->
+</html>
+<!--
+     FILE ARCHIVED ON 10:55:00 Jun 14, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:55:41 Sep 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.573
+  exclusion.robots: 0.043
+  exclusion.robots.policy: 0.03
+  esindex: 0.008
+  cdx.remote: 12.803
+  LoadShardBlock: 75.324 (3)
+  PetaboxLoader3.datanode: 65.011 (4)
+  load_resource: 285.603
+  PetaboxLoader3.resolve: 257.133
+-->

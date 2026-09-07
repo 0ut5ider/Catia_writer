@@ -1,0 +1,251 @@
+{
+  "sha": "273d0401d4c0778907a1d6622e319a7160e44841",
+  "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/trees/273d0401d4c0778907a1d6622e319a7160e44841",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fedb7cfc896feab893d463070094bb30b23527a8",
+      "size": 204,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/fedb7cfc896feab893d463070094bb30b23527a8"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95b6ccd6a8e3d78fd212010865796d0045bea960",
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/trees/95b6ccd6a8e3d78fd212010865796d0045bea960"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a2000b29d85527642a3c7fc5b0bc25a8e24e335",
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/trees/4a2000b29d85527642a3c7fc5b0bc25a8e24e335"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e249da39889e012c97a159102350712e49d34f",
+      "size": 1214,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/d8e249da39889e012c97a159102350712e49d34f"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7486fee2ae7616b436e4cdc1a64c456622fc24d0",
+      "size": 2910,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/7486fee2ae7616b436e4cdc1a64c456622fc24d0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af5726f06b8dba626cb8d3a5049e221d83e5ea12",
+      "size": 277,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/af5726f06b8dba626cb8d3a5049e221d83e5ea12"
+    },
+    {
+      "path": "ArchiveWorkspace.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb1a91252cc73b412fa317ca71340c22399acc8e",
+      "size": 17193,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/fb1a91252cc73b412fa317ca71340c22399acc8e"
+    },
+    {
+      "path": "Assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aede2809134379ec8fc8a7f094c693e7915b092c",
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/trees/aede2809134379ec8fc8a7f094c693e7915b092c"
+    },
+    {
+      "path": "Assets/app-preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74639836aa202c66e0cca3493729606d1a8eb1f9",
+      "size": 5509,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/74639836aa202c66e0cca3493729606d1a8eb1f9"
+    },
+    {
+      "path": "Assets/app.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e128afb4aabace1af37c7cb9e461ef973333d9bf",
+      "size": 14440,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/e128afb4aabace1af37c7cb9e461ef973333d9bf"
+    },
+    {
+      "path": "CatiaConverter.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "065fabe489aecfaef2767637fc6fc3daba6bf43f",
+      "size": 19176,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/065fabe489aecfaef2767637fc6fc3daba6bf43f"
+    },
+    {
+      "path": "CatiaStepConverter.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd33c3c95f35a0988d4f638ebd3e91fcf07e2d61",
+      "size": 1267,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/cd33c3c95f35a0988d4f638ebd3e91fcf07e2d61"
+    },
+    {
+      "path": "ConversionCategorySelection.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38a88972d93e778ab2db252f2b103f8656c08ad",
+      "size": 367,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/e38a88972d93e778ab2db252f2b103f8656c08ad"
+    },
+    {
+      "path": "ConversionModels.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040a4449f43d76830b982af7c41b7b91dbbb064a",
+      "size": 3959,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/040a4449f43d76830b982af7c41b7b91dbbb064a"
+    },
+    {
+      "path": "ExportFormats.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d85c0f3c4b4b1d875aa8f2a90f1f757116803f2",
+      "size": 3529,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/3d85c0f3c4b4b1d875aa8f2a90f1f757116803f2"
+    },
+    {
+      "path": "GenerateIcon.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5914483441f0b320a39319435598730edcb00078",
+      "size": 6488,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/5914483441f0b320a39319435598730edcb00078"
+    },
+    {
+      "path": "InputDiscovery.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56773a08ef6e70d1c4e77329aead94e53a093aed",
+      "size": 7853,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/56773a08ef6e70d1c4e77329aead94e53a093aed"
+    },
+    {
+      "path": "InputLoader.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adaa57d1c8a3f4239f600fb080588061b6895b01",
+      "size": 4864,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/adaa57d1c8a3f4239f600fb080588061b6895b01"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d4e5c745f6be39c54bd395fb8382b4f1f5f89d6",
+      "size": 1088,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/0d4e5c745f6be39c54bd395fb8382b4f1f5f89d6"
+    },
+    {
+      "path": "MainForm.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88dc149651bd1d9568802b55424e3c8cc01ec147",
+      "size": 59714,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/88dc149651bd1d9568802b55424e3c8cc01ec147"
+    },
+    {
+      "path": "Program.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe954ddd8f5efd7d40cd3b4b547a85db5a70153",
+      "size": 775,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/afe954ddd8f5efd7d40cd3b4b547a85db5a70153"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef5911b295cba68ae3e882676c3b66f642af344",
+      "size": 6445,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/2ef5911b295cba68ae3e882676c3b66f642af344"
+    },
+    {
+      "path": "StepSchemaReader.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f042c601f0b2dbdcc3aeb57c4a22a03b642ccb88",
+      "size": 1991,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/f042c601f0b2dbdcc3aeb57c4a22a03b642ccb88"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1259fd9bea04107ad42400e2de21aba8ce45fd43",
+      "size": 482,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/1259fd9bea04107ad42400e2de21aba8ce45fd43"
+    },
+    {
+      "path": "Tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c31b6e8386ddd1effd5baf92b1c3d0f765232030",
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/trees/c31b6e8386ddd1effd5baf92b1c3d0f765232030"
+    },
+    {
+      "path": "Tests/Directory.Build.props",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbfeb3849311bd8baa91e3546ec280ceae9ae48",
+      "size": 241,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/2fbfeb3849311bd8baa91e3546ec280ceae9ae48"
+    },
+    {
+      "path": "Tests/DiscoveryTests.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac032f4e442eefd9a3376ee3d08921838c91e48",
+      "size": 921,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/eac032f4e442eefd9a3376ee3d08921838c91e48"
+    },
+    {
+      "path": "Tests/Program.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29087458f3c22f959acfb1776f64d68d7ffd420e",
+      "size": 28979,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/29087458f3c22f959acfb1776f64d68d7ffd420e"
+    },
+    {
+      "path": "Tests/UiLogicProgram.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7b5b8b091b1c0aeccf4f58383296eac67af94c",
+      "size": 9130,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/bb7b5b8b091b1c0aeccf4f58383296eac67af94c"
+    },
+    {
+      "path": "Tests/UiLogicTests.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1662c37a5c720217b6635a4e5ac28a19204af3a5",
+      "size": 623,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/1662c37a5c720217b6635a4e5ac28a19204af3a5"
+    },
+    {
+      "path": "app.manifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f5afe9a919d36bbf1e61589ad5df0e74a17d732",
+      "size": 616,
+      "url": "https://api.github.com/repos/YESdontASKmeAgain-Engineer/CatiaStepConverter/git/blobs/0f5afe9a919d36bbf1e61589ad5df0e74a17d732"
+    }
+  ],
+  "truncated": false
+}

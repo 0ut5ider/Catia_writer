@@ -1,0 +1,703 @@
+
+Network Automation, Inc. v. Advanced Systems Concepts, Inc. – CourtListener.com
+Toggle navigation
+About
+FAQ
+Become a Member
+Sign in / Register
+Case Law 
+Search Case Law
+Look Up Citations
+Citation Visualizations
+About this Collection
+API
+RECAP Archive 
+Search PACER Data
+Install RECAP
+Pray and Pay Project
+Get Case Alerts
+About this Collection
+Bulk Data Service
+API
+Oral Arguments 
+Search Oral Arguments
+Get Search Alerts
+Custom Podcasts
+About this Collection
+API
+Judges 
+Search Judges
+About this Collection
+API
+Financial Disclosures 
+Search Financial Disclosures
+About this Collection
+API
+ Donate
+Jump To
+Top
+Caption
+Headmatter
+                    Combined Opinion
+                      by Wardlaw
+The text of this document was obtained by analyzing a scanned document and may have typos.
+Support FLP 
+      CourtListener is a project of 
+Free
+      Law Project
+, a federally-recognized 501(c)(3) non-profit. Members help support our work and get special access to features.
+Please become a member today.
+Join Free.law Now
+March 8, 2011
+Get Citation Alerts
+Toggle Dropdown
+Learn More
+        Download PDF 
+                Download Case Law Scan
+                        Combined Opinion from
+                        our Backup
+                        Combined Opinion from
+                        the Court
+Add Note
+Network Automation, Inc. v. Advanced Systems Concepts, Inc.
+Court of Appeals for the Ninth Circuit
+Citations:
+638 F.3d 1137
+, 
+97 U.S.P.Q. 2d (BNA) 2036
+, 
+2011 WL 815806
+, 
+2011 U.S. App. LEXIS 4488
+Full Case Name:
+NETWORK AUTOMATION, INC., a California Corporation, Plaintiff-Counter-Defendant-Appellant, v. ADVANCED SYSTEMS CONCEPTS, INC., a New Jersey Corporation, Defendant-Counter-Claimant-Appellee
+Docket Number:
+ 10-55840
+Panel:
+Stephen S. Trott
+, 
+Kim McLane Wardlaw
+Judges:
+ Trott, Wardlaw, Mosman
+Other Dates:
+ Argued and Submitted Dec. 8, 2010.
+Opinion
+        Authorities
+            Cited By
+            Summaries
+            Similar Cases
+PDF
+Headmatter
+    NETWORK AUTOMATION, INC., a California Corporation, Plaintiff-counter-defendant-Appellant, v. ADVANCED SYSTEMS CONCEPTS, INC., a New Jersey Corporation, Defendant-counter-claimant-Appellee.
+    No. 10-55840.
+    United States Court of Appeals, Ninth Circuit.
+    Argued and Submitted Dec. 8, 2010.
+    Filed March 8, 2011.
+     *1141
+    Courtney L. Stuart-Alban (argued), Brent H. Blakely, Blakely Law Group, Hollywood, CA, for the plaintiff-appellant.
+    James E. Doroshow (argued), Fox Rothschild LLP, Los Angeles, CA, for the defendant-appellee.
+    Before: STEPHEN S. TROTT and KIM McLANE WARDLAW, Circuit Judges, and MICHAEL W. MOSMAN, District Judge.
+     *
+     *
+     The Honorable Michael W. Mosman, United States District Judge for the District of Oregon, sitting by designation.
+                        Combined Opinion
+                            by Wardlaw
+  OPINION
+  WARDLAW, Circuit Judge:
+  “We must be acutely aware of excessive rigidity when applying the law in the
+   *1142
+  Internet context; emerging technologies require a flexible approach.”
+   Brookfield Commc’ns, Inc. v. West Coast Entm’t Corp.,
+174 F.3d 1036, 1054
+ (9th Cir.1999).
+  Network Automation (“Network”) and Advanced Systems Concepts (“Systems”) are both in the business of selling job scheduling and management software, and both advertise on the Internet. Network sells its software under the mark AutoMate, while Systems’ product is sold under the registered trademark AetiveBatch. Network decided to advertise its product by purchasing certain keywords, such as “AetiveBatch,” which when keyed into various search engines, most prominently Google and Microsoft Bing, produce a results page showing “www.Network Automation.com” as a sponsored link. Systems’ objection to Network’s use of its trademark to interest viewers in Network’s website gave rise to this trademark infringement action.
+  The district court was confronted with the question whether Network’s use of AetiveBatch to advertise its products was a clever and legitimate use of readily available technology, such as Google’s Ad-Words, or a likely violation of the Lanham Act, 
+15 U.S.C. § 1114
+. The court found a likelihood of initial interest confusion by applying the eight factors we established more than three decades ago in
+   AMF Inc. v. Sleekcraft Boats,
+599 F.2d 341
+ (9th Cir. 1979), and reasoning that the three most important factors in “cases involving the Internet” are (1) the similarity of the marks; (2) the relatedness of the goods; and (3) the marketing channel used. The court therefore issued a preliminary injunction against Network’s use of the mark AetiveBatch.
+  Mindful that the
+   sine qua non
+  of trademark infringement is consumer confusion, and that the
+   Sleekcraft
+  factors are but a nonexhaustive list of factors relevant to determining the likelihood of consumer confusion, we conclude that Systems’ showing of a likelihood of confusion was insufficient to support injunctive relief. Therefore, we vacate the injunction and reverse and remand.
+  I. Factual and Procedural Background
+  Systems is a software engineering and consulting firm founded in 1981. It has used the AetiveBatch trademark since 2000, and it procured federal registration of the mark in 2001. Systems markets AetiveBatch software to businesses, which use the product to centralize and manage disparate tasks. Network is a software company founded in 1997 under the name Unisyn. Its signature product, AutoMate, also provides businesses with job scheduling, event monitoring, and related services. Network has approximately 15,000 total customers, and between 4,000 and 5,000 active customers, including Fortune 500 companies and mid-sized and small firms. The cost of a license to use AutoMate typically ranges from $995 to $10,995. There is no dispute that Network and Systems are direct competitors, or that AetiveBatch and AutoMate are directly competing products.
+  Google AdWords is a program through which the search engine sells “keywords,” or search terms that trigger the display of a sponsor’s advertisement. When a user enters a keyword, Google displays the links generated by its own algorithm in the main part of the page, along with the advertisements in a separate “sponsored links” section next to or above the objective results.
+   See
+  Appendix A.
+   1
+  Multiple
+   *1143
+  advertisers can purchase the same keyword, and Google charges sponsors based on the number of times users click on an ad to travel from the search results page to the advertiser’s own website. Network purchased “ActiveBatch” as a keyword from Google AdWords and a comparable program offered by Microsoft’s Bing search engine.
+  As a result, consumers searching for business software who enter “ActiveBatch” as a search term would locate a results page where the top objective results are links to Systems’ own website and various articles about the product.
+   See
+  Appendix A. In the “Sponsored Links” or “Sponsored Sites” section of the page, above or to the right of the regular results, users see Network’s advertisement, either alone or alongside Systems’ own sponsored link. The text of Network’s advertisements begin with phrases such as “Job Scheduler,” “Intuitive Job Scheduler,” or “Batch Job Scheduling,” and end with the company’s web site address, www.Network Automation.com. The middle line reads: “Windows Job Scheduling + Much More. Easy to Deploy, Scalable. D/L Trial.”
+  On November 16, 2009, Systems demanded that Network cease and desist from using the ActiveBatch mark in its search engine advertising, as it was not “authorized to use these marks in commerce.” In a second letter, Systems explained that Network’s use of ActiveBatch in its Google AdWords keyword advertising infringed Systems’ trademark rights by deceiving customers into believing that Network’s software products were affiliated with Systems’ products. Systems threatened litigation unless Network immediately ceased all use of Systems’ mark, including removing the mark from the Google AdWords Program. Network responded that its use of the ActiveBatch mark was non-infringing as a matter of law, and filed this lawsuit seeking a declaratory judgment of non-infringement. Systems counterclaimed on February 22, 2010, alleging trademark infringement under the Lanham Act, 
+15 U.S.C. § 1114
+(1), and moved for a preliminary injunction against Network’s use of the ActiveBatch mark pending trial.
+  The district court granted injunctive relief on April 30, 2010. Noting that the parties did not dispute the validity or ownership of the ActiveBatch mark, the district court ruled that Systems was likely to succeed in satisfying the Lanham Act’s “use in commerce” requirement by showing that Network “used” the mark when it purchased advertisements from search engines triggered by the term “ActiveBatch.” Applying the eight-factor
+   Sleekcraft
+  test for source confusion,
+   2
+  the district court emphasized three factors it viewed as significant for “cases involving the Internet”: the similarity, of the marks, relatedness of the goods or services, and simultaneous use of the Web as a marketing channel. The district court concluded that all three factors favored Systems: Network used the identical mark to sell a directly competing product, and both advertised on the Internet.
+  The district court also concluded that Systems’ mark was strong because, as a federally registered trademark, Active-Batch is presumptively distinctive. It concluded that the degree of consumer care suggested likely confusion because “there is generally a low degree of care exercised
+   *1144
+  by Internet consumers.” Moreover, Network intentionally used Systems’ mark to advertise its own product. Finally, the district court noted that neither party introduced evidence of actual confusion, and that the likelihood of product expansion was not relevant.
+  The district court also analyzed whether Network infringed Systems’ mark by creating initial interest confusion — as opposed to source confusion — which “occurs when the defendant uses the plaintiffs trademark in a manner calculated to capture initial consumer attention, even though no actual sale is finally completed as a result of the confusion.” (quoting
+   Nissan Motor Co. v. Nissan Computer Corp.,
+378 F.3d 1002, 1018
+ (9th Cir.2004) (internal quotations omitted)). Because the district court found that Network’s advertisements did not clearly divulge their source, it concluded that consumers might be confused into unwittingly visiting Network’s website, allowing the company to “impermissibly capitalize[ ] on [Systems’] goodwill.”
+  Based on its analysis of the
+   Sleekcraft
+  factors and its finding of likely initial interest confusion, the district court concluded that Systems had a strong likelihood of success on the merits of its trademark infringement claim. It then presumed a likelihood of irreparable harm, and concluded that the balance of hardships and the public interest favored Systems. Following entry of the preliminary injunction, Network timely appealed.
+  II. Jurisdiction and Standard of Review
+  We have jurisdiction pursuant to 
+28 U.S.C. § 1292
+(a)(1). We review the grant of a preliminary injunction for abuse of discretion.
+   See Advertise.com, Inc. v. AOL Advertising, Inc.,
+616 F.3d 974, 976
+ (9th Cir.2010). “The district court ‘should be reversed if [it] based its decision on an erroneous legal standard or on clearly erroneous findings of fact.’ ”
+Id.
+  (quoting
+   Stormans, Inc. v. Selecky,
+586 F.3d 1109, 1119
+ (9th Cir.2009) (quotation marks omitted)).
+  III. Discussion
+  “A plaintiff seeking a preliminary injunction must establish that he is likely to succeed on the merits, that he is likely to suffer irreparable harm in the absence of preliminary relief, that the balance of equities tips in his favor, and that an injunction is in the public interest.”
+   Winter v. Natural Res. Def. Council, Inc.,
+555 U.S. 7
+, 
+129 S.Ct. 365, 374
+, 
+172 L.Ed.2d 249
+ (2008). Network argues that the district court erred by ruling that Systems was likely to succeed on the merits of its trademark claim, and by then presuming a likelihood of irreparable injury. It also contends that the preliminary injunction is overbroad.
+  To prevail on a claim of trademark infringement under the Lanham Act, 
+15 U.S.C. § 1114
+, a party “must prove: (1) that it has a protectible ownership interest in the mark; and (2) that the defendant’s use of the mark is likely to cause consumer confusion.”
+   Dep’t of Parks & Recreation v. Bazaar Del Mundo Inc.,
+448 F.3d 1118, 1124
+ (9th Cir.2006).
+  Network does not contest the ownership or its use of the mark. We note that the district court correctly found the prerequisite “use in commerce” in Network’s use of the mark to purchase keywords to advertise its products for sale on the Internet. Previously we have assumed, without expressly deciding, that the use of a trademark as a search engine keyword that triggers the display of a competitor’s advertisement is a “use in commerce” under the Lanham Act.
+   See Playboy Enters., Inc. v. Netscape Commc’ns Corp.,
+354 F.3d 1020, 1024
+ (9th Cir.2004);
+   Brookfield,
+174 F.3d at 1053
+;
+   see also Finance Express LLC v. Nowcom
+   *1145
+   Corp.,
+564 F.Supp.2d 1160, 1172-73
+ (C.D.Cal.2008). We now agree with the Second Circuit that such use is a “use in commerce” under the Lanham Act.
+   See Rescuecom Corp. v. Google Inc.,
+562 F.3d 123, 127
+ (2d Cir.2009) (holding that Google’s sale of trademarks as search engine keywords is a use in commerce);
+   see also
+  J. Thomas McCarthy,
+   McCarthy on Trademarks & Unfair Competition
+  §§ 23:11.50, 25:70:25 (4th ed. 2010) (suggesting that cases taking a more restrictive view of “use” in this context are based on an erroneous interpretation of the Lanham Act).
+  This case, therefore, turns on whether Network’s use of Systems’ trademark is likely to cause consumer confusion. Network argues that its use of Systems’ mark is legitimate “comparative, contextual advertising” which presents sophisticated consumers with clear choices. Systems characterizes Network’s behavior differently, accusing it of misleading consumers by hijacking their attention with intentionally unclear advertisements. To resolve this dispute we must apply the
+   Sleekcraft
+  test in a flexible manner, keeping in mind that the eight factors it recited are not exhaustive, and that only some of them are relevant to determining whether confusion is likely in the ease at hand.
+  A.
+  In
+   Sleekcraft,
+  we analyzed the likelihood of consumer source confusion between boats that were sold under the marks “Sleekcraft” and “Sliekcraft.” We noted that “[w]hen the goods produced by the alleged infringer compete for sales with those of the trademark owner, infringement usually will be found if the marks are sufficiently similar that confusion can be expected.” 
+599 F.2d at 348
+. Although both boats were designed for towing water skiers, and despite a potential overlap in the markets, we concluded that because “Sliekcraft” boats appealed to consumers desiring family recreation and “Sleekcraft” boats appealed to the “highly skilled enthusiast” requiring Sleekeraft’s higher speeds, the owners were not direct competitors.
+Id.
+  Because the goods were not competitive, but merely related, factors in addition to the similarity of the marks were “added to the calculus.”
+Id.
+  We identified eight “relevant” factors for determining whether consumers would likely be confused by related goods: “[1] strength of the mark; [2] proximity of the goods; [3] similarity of the marks; [4] evidence of actual confusion; [5] marketing channels used; [6] type of goods and the degree of care likely to be exercised by the purchaser; [7] defendant’s intent in selecting the mark; and [8] likelihood of expansion of the product lines.”
+   Id.
+  at 348-49
+. We also noted that “the list is not exhaustive,” and that “[o]ther variables may come into play depending on the particular facts presented.”
+Id.
+  at 348 n. 11.
+  The
+   Sleekcraft
+  factors are intended as an adaptable proxy for consumer confusion, not a rote checklist.
+   See, e.g., Fortune Dynamic, Inc. v. Victoria’s Secret Stores Brand Mgmt., Inc.,
+618 F.3d 1025, 1030
+ (9th Cir.2010) (“This eight-factor analysis is ‘pliant,’ illustrative rather than exhaustive, and best understood as simply providing helpful guideposts.”);
+   Dreamwerks Prod. Grp., Inc. v. SKG Studio,
+142 F.3d 1127, 1129
+ (9th Cir.1998) (“The factors should not be rigidly weighed; we do not count beans.”);
+   Eclipse
+  Assoc.
+   Ltd. v. Data Gen. Corp.,
+894 F.2d 1114, 1118
+ (9th Cir.1990) (“These tests were not meant to be requirements or hoops that a district court need jump through to make the determination.”).
+  When we first confronted issues of trademark infringement and consumer confusion in the Internet context over a decade ago in
+   Brookfield,
+  we noted that “[w]e must be acutely aware of excessive rigidity when applying the law in the In
+   *1146
+  ternet context; emerging technologies require a flexible approach.” 
+174 F.3d at 1054
+. There, Brookfield, a software company, marketed an entertainment database program under the mark MovieBuff. It sold the software, and offered access to the database, on its website, moviebuffonline.com.
+   Id.
+  at 1041-42
+. West Coast, a video retailer, had registered the mark The Movie Buffs Movie Store. West Coast operated a website using the domain name moviebuff.com, which included a film database that competed with Brookfield’s product.
+   Id.
+  at 1043
+.
+  We held that Brookfield was likely to succeed in its claim to be the senior user of MovieBuff, and that there was a likelihood of source confusion stemming from West Coast’s use of the mark in its domain name.
+   Id.
+  at 1053, 1060
+. “Heeding our repeated warnings against simply launching into a mechanical application of the eight-factor
+   Sleekcraft
+  test,” we determined that three of the eight factors were the most important in analyzing source confusion in the context of Internet domain names: (1) the similarity of the marks; (2) the relatedness of the goods and services offered; and (3) the simultaneous use of the Internet as a marketing channel.
+Id.
+  at 1054 n. 16. Reasoning that the two marks were virtually identical in terms of sight, sound and meaning,
+   id.
+  at 1055
+, that West Coast and Brookfield both offered products and services relating to movies,
+   id.
+  at 1056
+, and that they both used the Web as a marketing and advertising device,
+   id.
+  at 1057
+, we concluded that consumer confusion was likely, particularly given the nature of the consumers at issue, who included casual movie watchers unlikely to realize that they had mistakenly clicked on to West Coast’s site when they had intended to reach Brookfield’s,
+   id.
+  at 1060
+.
+  Brookfield also asserted that West Coast infringed its mark by causing initial interest confusion because it had included MovieBuff in its “metatags,” code not visible to web users embedded in a website to attract search engines seeking a corresponding keyword.
+   3
+Id.
+  at 1061 n. 23. Although were we to apply the same analysis in the metatags' context as we did in the domain name context, we would easily reach the same conclusion as to each of the factors (with the possible exception of purchaser care), we declined to do so, reasoning that the “question in the metatags context is quite different.”
+   Id.
+  at 1062
+. In the metatags context, the question was whether West Coast could use the mark MovieBuff in the metatags of its website to attract search engines to locate its site when the keyword “MovieBuff’ was entered, a question analogous to the issue presented here. As in the domain name context, the degree of care and sophistication of the consumer was a key factor, although the outcome differed. We did not find a likelihood of source confusion because the results list from a search for “MovieBuff’ would result in a list that included both Brookfield’s and West Coast’s websites, and if the consumer clicked on West Coast’s site its own name was “prominently display[ed].”
+Id.
+  Thus a consumer was much less likely to be confused about which site he was viewing.
+  Finding no source confusion, we nonetheless concluded that West Coast’s use of MovieBuff in its metatags was likely to cause initial interest confusion. That is, by using Brookfield’s mark MovieBuff to direct persons searching for Brookfield’s product to the West Coast site, West Coast derived an improper benefit from the goodwill Brookfield developed in its mark.
+Id.
+   *1147
+  Five years later in
+   Playboy,
+  we considered the practice of “keying” — another situation analogous to that here. Netscape operated a search engine that offered an early version of a keyword advertising program. It sold lists of terms to sponsors, and when users searched for the keywords on the list, the sponsor’s advertisement would be displayed on the results page. 
+354 F.3d at 1022
+. Netscape required its advertisers from the adult entertainment industry to link their ads to one such list that contained more than 400 terms, including trademarks held by Playboy.
+   Id.
+  at 1023
+. Playboy sued, contending that this practice infringed its trademarks in violation of the Lanham Act. The district court entered summary judgment in favor of Netscape.
+Id.
+  We reversed, holding that summary judgment was inappropriate because genuine issues of material fact existed as to whether Netscape’s keying practices constituted actionable infringement.
+   Id.
+  at 1031
+. Following
+   Brookfield,
+  we analyzed the keying issue in terms of initial interest confusion, “finding] insufficient evidence to defeat summary judgment on any other theory.”
+Id.
+  at 1024 n. 13. Playboy claimed that Netscape “misappropriated the goodwill of [its] marks by leading Internet users to competitors’ websites just as West Coast ... misappropriated the goodwill of Brookfield’s mark.”
+   Id.
+  at 1025
+. In framing the initial interest confusion inquiry, we stressed that Playboy’s infringement claim relied on the fact that the linked banner advertisements were “unlabeled,” and were, therefore, more likely to mislead consumers into believing they had followed a link to Playboy’s own website.
+Id.
+  In
+   Playboy,
+  as in
+   Brookfield,
+  we applied the
+   Sleekeraft
+  test flexibly, determining that evidence of actual confusion was the most important factor.
+   Id.
+  at 1026
+. Playboy had introduced an expert study showing that a “statistically significant number” of Internet users searching for the terms “playboy” and “playmate” would think that Playboy itself sponsored the banner advertisements which appeared on the search results page.
+Id.
+  We noted that this study “alone probably suffices to reverse the grant of summary judgment,” but we nonetheless analyzed other relevant
+   Sleekcrafb
+  factors.
+Id.
+  As to the strength of the mark, we credited Playboy’s expert reports showing it had created strong secondary meanings for “playboy” and “playmate.” This suggested that consumers who entered these terms were likely searching for Playboy’s products in particular.
+   Id.
+  at 1028
+. Analyzing the nature of the goods and consumer, we “presume[d] that the average searcher seeking adult-oriented materials on the Internet is easily diverted from a specific product he or she is seeking if other options, particularly graphic ones, appear more quickly.”
+   Id.
+  at 1028
+. We concluded that there were genuine issues of material fact with respect to whether consumers were likely to be confused by Netscape’s keying practices.
+   Id.
+  at 1031
+.
+  Concurring, Judge Berzon was struck by how analytically similar the keyed advertisements in
+   Playboy
+  were to the infringing metatags in
+   Brookfield.
+  We agree, and also find similarity to the use of the keyword “AetiveBatch” in this case. Judge Berzon cautioned that a broad reading of Brookfield’s metatags holding could result in a finding of initial interest confusion “when a consumer is never confused as to source or affiliation, but instead knows, or should know, from the outset that a product or web link is not related to that of the trademark holder because the list produced by the search engine so informs him.”
+   Id.
+  at 1034-35
+ (Berzon, J., concurring). She clarified* that the
+   Playboy
+  panel’s holding was limited to “sitúa
+   *1148
+  tions in which the banner advertisements are not labeled or identified.”
+   Id.
+  at 1036
+.
+  Judge Berzon analogized the experience of browsing clearly labeled keyword advertisements to shopping at Macy’s, explaining that if a shopper en route to the Calvin Klein section is diverted by a prominently displayed Charter Club (Macy’s own. brand) collection and never reaches the Calvin Klein collection, it could not be said that Macy’s had infringed on Calvin Klein’s trademark by diverting the customer to it with a clearly labeled, but more prominent display.
+   Id.
+  at 1035
+. Therefore, it would be wrong to expand the initial interest confusion theory of infringement beyond the realm of the misleading and deceptive to the context of legitimate comparative and contextual advertising.
+  B.
+  Here we consider whether the use of another’s trademark as a search engine keyword to trigger one’s own product advertisement violates the Lanham Act. We begin by examining the
+   Sleekcraft
+  factors that are most relevant to the determination whether the use is likely to cause initial interest confusion.
+   4
+  While the district court analyzed each of the
+   Sleekcraft
+  factors, it identified the three most important factors as (1) the similarity of the marks, (2) the relatedness of the goods or services, and (3) the simultaneous use of the Web as a marketing channel, for any case addressing trademark infringement on the Internet. For this proposition the district court cited
+   GoTo.com, Inc. v. Walt Disney Co.,
+202 F.3d 1199
+ (9th Cir.2000), which followed
+   Brookfield
+  in emphasizing these three factors.
+   See GoTo.com,
+202 F.3d at 1205
+;
+   Brookfield,
+174 F.3d at 1054
+ n. 16.
+  However, we did not intend
+   Brook-field
+  to be read so expansively as to forever enshrine these three factors — now often referred to as the “Internet trinity” or “Internet troika” — as the test for trademark infringement on the Internet.
+   Brookfield
+  was the first to present a claim of initial interest confusion on the Internet; we recognized at the time it would not be the last, and so emphasized flexibility over rigidity. Depending on the facts of each specific case arising on the Internet, other factors may emerge as more illuminating on the question of consumer confusion. In
+   Brookfield,
+  we used the “troika” factors to analyze the risk of source confusion generated by similar domain names, but we did not wholesale adopt them in the metatag analysis. 
+174 F.3d at 1054-55
+. Subsequent courts similarly have found the “troika” helpful to resolve disputes involving websites with similar names or appearances.
+   See, e.g., Internet Specialties West, Inc. v. Milon-DiGiorgio Enters., Inc.,
+559 F.3d 985, 988-89
+ (9th Cir.2009);
+   Perfumebay.com Inc. v. eBay, Inc.,
+506 F.3d 1165, 1169, 1173
+ (9th Cir.2007);
+   Interstellar Starship Servs., Ltd. v. Epix, Inc.,
+304 F.3d 936
+, 939, 942 (9th Cir.2002);
+   GoTo. com,
+202 F.3d at 1203-05
+. The leading trademark treatise correctly explains that the “troika” analysis “is appropriate for domain name disputes.” McCarthy at § 24:39.
+  Given the multifaceted nature of the Internet and the ever-expanding ways in which we all use the technology, however, it makes no sense to prioritize the same three factors for every type of potential online commercial activity. The “troika” is a particularly poor fit for the question presented here.
+   See
+  Jonathan Moskin,
+   Virtual Trademark Use
+  — The
+   Parallel
+   *1149
+   World of Keyword Ads,
+  98 Trademark Reporter 873, 892-93 (2008) (arguing that the “troika” is inadequate for analyzing trademark infringement claims based on search engine keyword advertising because it omits important factors). The potential infringement in this context arises from the risk that while using Systems’ mark to search for information about its product, a consumer might be confused by a results page that shows a competitor’s advertisement on the same screen, when that advertisement does not clearly identify the source or its product.
+  In determining the proper inquiry for this particular trademark infringement claim, we adhere to two long stated principles: the
+   Sleekcmft
+  factors (1) are non-exhaustive, and (2) should be applied flexibly, particularly in the context of Internet commerce. Finally, because the
+   sine qua non
+  of trademark infringement is consumer confusion, when we examine initial interest confusion, the owner of the mark must demonstrate likely confusion, not mere diversion.
+  We turn to an examination of each
+   Sleekcmft
+  factor to analyze whether there is a likelihood of consumer confusion in this case, assigning each factor appropriate weight in accordance with its relevance to the factual circumstances presented here.
+  1. Strength of the Mark
+  “The stronger a mark — meaning the more likely it is to be remembered and associated in the public mind with the mark’s owner — the greater the protection it is accorded by the trademark laws.”
+   Brookfield,
+174 F.3d at 1058
+. Two relevant measurements are conceptual strength and commercial strength. Conceptual strength involves classification of a mark “along a spectrum of generally increasing inherent distinctiveness as generic, descriptive, suggestive, arbitrary, or fanciful.”
+Id.
+  “A mark’s conceptual strength depends largely on the obviousness of its connection to the good or service to which it refers.”
+   Fortune Dynamic,
+618 F.3d at 1032-33
+. Federal trademark “[registration alone may be sufficient in an appropriate case to satisfy a determination of distinctiveness.”
+   Lahoti v. VeriCheck, Inc.,
+586 F.3d 1190, 1199
+ (9th Cir.2009). However, “while the registration adds something on the scales, we must come to grips with an assessment of the mark itself.”
+   Zobmondo Entertainment, LLC v. Falls Media, LLC,
+602 F.3d 1108, 1115
+ (9th Cir.2010). Commercial strength is based on “actual marketplace recognition,” and thus “advertising expenditures can transform a suggestive mark into a strong mark.”
+   Brookfield,
+174 F.3d at 1058
+.
+  This factor is probative of confusion here because a consumer searching for a generic term is more likely to be searching for a product category.
+   See 
+id.
+  at 1058 n. 19 (“Generic terms are those used by the public to refer generally to the product rather than a particular brand of the product.”). That consumer is more likely to expect to encounter links and advertisements from a variety of sources. By contrast, a user searching for a distinctive term is more likely to be looking for a particular product, and therefore could be more susceptible to confusion when sponsored links appear that advertise a similar product from a different source.
+   See 1-800 Contacts, Inc. v. Lens.com, Inc.,
+755 F.Supp.2d 1151
+, 
+2010 WL 5150800 at *17
+ (D.Utah 2010) (determining that “1800 Contacts” was a weak mark in a keyword advertising case because the “nature of how third parties use generic and descriptive words on search engines” suggested that users who entered the term were likely searching for a type of product). On the other hand, if the ordinary consumers
+   *1150
+  of this particular product are particularly-sophisticated and knowledgeable, they might also be aware that Systems is the source of ActiveBatch software and not be confused at all.
+  The district court acknowledged that the parties failed to address the strength of the mark, but it concluded that the factor favors Systems. It reasoned that Active-Batch is a suggestive mark because it “requires a mental leap from the mark to the product,” (quoting
+   Brookfield,
+174 F.3d at 1058
+), and as a registered trademark it is “inherently distinctive.” We agree. Because the mark is both Systems’ product name and a suggestive federally registered trademark, consumers searching for the term are presumably looking for its specific product, and not a category of goods. Nonetheless, that may not be the end of the inquiry about this factor, as the sophistication of the consumers of the product may also play a role. The district court properly declined to consider commercial strength, which, as an evidence-intensive inquiry, is unnecessary at the preliminary injunction stage.
+  2. Proximity of the Goods
+  “Related goods are generally more likely than unrelated goods to confuse the public as to the producers of the goods.”
+   Brookfield,
+174 F.3d at 1055
+. “[T]he danger presented is that the public will mistakenly assume there is an association between the producers of the related goods, though no such association exists.”
+   Sleekcraft,
+599 F.2d at 350
+. The proximity of goods is measured by whether the products are: (1) complementary; (2) sold to the same class of purchasers; and (3) similar in use and function.
+Id.
+  The proximity of the goods was relevant in
+   Playboy,
+  where unsophisticated consumers were confronted with unlabeled banner advertisements that touted adult-oriented material very similar to Playboy’s own products. There, we concluded that under the circumstances, the relatedness of the goods bolstered the likelihood of confusion, and therefore favored Playboy.
+   Playboy,
+354 F.3d at 1028
+. However, the proximity of the goods would become less important if advertisements are clearly labeled or consumers exercise a high degree of care, because rather than being misled, the consumer would merely be confronted with choices among similar products.
+   Id.
+  at 1035
+ (Berzon, J., concurring) (“[S]uch choices do not constitute trademark infringement off the internet, and I cannot understand why they should on the internet.”).
+  Because the products at issue here are virtually interchangeable, this factor may be helpful, but it must be considered in conjunction with the labeling and appearance of the advertisements and the degree of care exercised by the consumers of the ActiveBatch software. By weighing this factor in isolation and failing to consider whether the parties’ status as direct competitors would actually lead to a likelihood of confusion, the district court allowed this factor to weigh too heavily in the analysis.
+  3. Similarity of the Marks
+  “[T]he more similar the marks in terms of appearance, sound, and meaning, the greater the likelihood of confusion.”
+   Brookfield,
+174 F.3d at 1054
+. “Where the two marks are entirely dissimilar, there is no likelihood of confusion.”
+Id.
+  “Similarity of the marks is tested on three levels: sight, sound, and meaning. Each must be considered as they are encountered in the marketplace.”
+   Sleekcraft,
+599 F.2d at 351
+ (citations omitted).
+  In
+   Sleekcraft,
+  we concluded that the marks “Sleekcraft” and “Sliekcraft” were similar in terms of sight, sound, and meaning by examining the actual situations in which consumers were likely to read, hear,
+   *1151
+  and consider the meaning of the terms.
+   Id.
+  at 351-52
+. Such an inquiry is impossible here where the consumer does not confront two distinct trademarks. Rather, after entering one company’s mark as a search term, the consumer sees a competitor’s sponsored link that displays neither company’s trademarks. The district court erroneously treated “ActiveBatch,” the keyword purchased by Network, as conceptually separate from ActiveBatch the trademark owned by Systems. This is an artificial distinction that does not reflect what consumers “encountered in the marketplace.” Again, however, because the consumer keys in Systems’ trademark, which results in Network’s sponsored link, depending on the labeling and appearance of the advertisement, including whether it identifies Network’s own mark, and the degree of care and sophistication of the consumer, it could be helpful in determining initial interest confusion.
+  4. Evidence of Actual Confusion
+  “[A] showing of actual confusion among significant numbers of consumers provides strong support for the likelihood of confusion.”
+   Playboy,
+354 F.3d at 1026
+ (citing
+   Thane Int’l, Inc. v. Trek Bicycle Corp.,
+305 F.3d 894
+, 902 (9th Cir.2002)) (“Evidence of actual confusion constitutes persuasive proof that future confusion is likely.... If enough people have been
+   actually
+  confused, then a
+   likelihood
+  that people are confused is established.”). However, “actual confusion is not necessary to a finding of likelihood of confusion under the Lanham Act.”
+   Academy of Motion Picture Arts & Sciences v. Creative House Promotions, Inc.,
+944 F.2d 1446, 1456
+ (9th Cir.1991) (citing
+   American Int’l Group, Inc. v. American Int’l Bank,
+926 F.2d 829, 832
+ (9th Cir.1991)). Indeed, “[p]roving actual confusion is difficult ... and the courts have often discounted such evidence because it was unclear or insubstantial.”
+   Sleekcraft,
+599 F.2d at 352
+.
+  In
+   Playboy,
+  the expert report showing a significant number of users were confused by the keying practice at issue was strong evidence that Playboy’s infringement claim should be allowed to proceed. 
+354 F.3d at 1027
+.
+   Playboy,
+  however, was decided at the summary judgment stage, whereas here we examine a sparse record supporting preliminary injunctive relief. As the district court noted, neither Network nor Systems provided evidence regarding actual confusion, which is not surprising given the procedural posture. Therefore, while this is a relevant factor for determining the likelihood of confusion in keyword advertising cases, its importance is diminished at the preliminary injunction stage of the proceedings. The district court correctly concluded that this factor should be accorded no weight.
+  5. Marketing Channels
+  “Convergent marketing channels increase the likelihood of confusion.”
+   Sleekcraft,
+599 F.2d at 353
+. In
+   Sleekcraft,
+  the two products were sold in niche marketplaces, including boat shows, specialty retail outlets, and trade magazines.
+   Id.
+  at 353
+. However, this factor becomes less important when the marketing channel is less obscure. Today, it would be the rare commercial retailer that did not advertise online, and the shared use of a ubiquitous marketing channel does not shed much light on the likelihood of consumer confusion.
+   See Playboy,
+354 F.3d at 1028
+ (“Given the broad use of the Internet today, the same could be said for countless companies. Thus, this factor merits little weight.”).
+  Therefore, the district court’s determination that because both parties advertise on the Internet this factor weighed in favor of Systems was incorrect.
+   *1152
+  6. Type of Goods and Degree of Care
+  “Low consumer care ... increases the likelihood of confusion.”
+   Playboy,
+354 F.3d at 1028
+. “In assessing the likelihood of confusion to the public, the standard used by the courts is the typical buyer exercising ordinary caution.... When the buyer has expertise in the field, a higher standard is proper though it will not preclude a finding that confusion is likely. Similarly, when the goods are expensive, the buyer can be expected to exercise greater care in his purchases; again, though, confusion may still be likely.”
+   Sleekcraft,
+599 F.2d at 353
+ (citations omitted).
+  The nature of the goods and the type of consumer is highly relevant to determining the likelihood of confusion in the keyword advertising context. A sophisticated consumer of business software exercising a high degree of care is more likely to understand the mechanics of Internet search engines and the nature of sponsored links, whereas an un-sawy consumer exercising less care is more likely to be confused. The district court determined that this factor weighed in Systems’ favor because “there is generally a low degree of care exercised by Internet consumers.” However, the degree of care analysis cannot begin and end at the marketing channel. We still must consider the nature and cost of the goods, and whether “the products being sold are marketed primarily to expert buyers.”
+   Brookfield,
+174 F.3d at 1060
+.
+  In
+   Brookfield,
+  the websites were visited by both sophisticated entertainment industry professionals and amateur film fans, which supported the conclusion that at least some of the consumers were likely to exercise a low degree of care.
+   Id.
+  at 1056
+. In
+   Playboy,
+  the relevant consumer was looking for cheap, interchangeable adult-oriented material, which similarly led to our court’s finding that the consumers at issue would exercise a low degree of care. 
+354 F.3d at 1029
+. In both cases, we looked beyond the medium itself and to the nature of the particular goods and the relevant consumers.
+  We have recently acknowledged that the default degree of consumer care is becoming more heightened as the novelty of the Internet evaporates and online commerce becomes commonplace. In
+   Toyota Motor Sales v. Tabari,
+610 F.3d 1171
+ (9th Cir. 2010), we vacated a preliminary injunction that prohibited a pair of automobile brokers from using Toyota’s “Lexus” mark in their domain names.
+   5
+  We determined that it was unlikely that a reasonably prudent consumer would be confused into believing that a domain name that included a product name would necessarily have a formal affiliation with the maker of the product, as “[cjonsumers who use the internet for shopping are generally quite sophisticated about such matters.”
+   Id.
+  at 1178
+. The
+Tabari
+  panel reasoned,
+  [I]n the age of FIOS, cable modems, DSL and T1 lines, reasonable, prudent and experienced internet consumers are accustomed to such exploration by trial and error. They skip from site to site, ready to hit the back button whenever they’re not satisfied with a site’s contents. They fully expect to find some sites that aren’t what they imagine
+   *1153
+  based on a glance at the domain name or search engine summary. Outside the special case of ... domains that actively claim affiliation with the trademark holder, consumers don’t form any firm expectations about the sponsorship of a website until they’ve seen the landing page — if then.
+   Id.
+  at 1179
+ (citations omitted).
+  We further explained that we expect consumers searching for expensive products online to be even more sophisticated.
+   Id.
+  at 1176
+ (“Unreasonable, imprudent and inexperienced web-shoppers are not relevant.”).
+  Therefore the district court improperly concluded that this factor weighed in Systems’ favor based on a conclusion reached by our court more than a decade ago in
+   Brookfield
+  and
+   GoTo.com
+  that Internet users on the whole exercise a low degree of care. While the statement may have been accurate then, we suspect that there are many contexts in which it no longer holds true.
+  7. Defendant’s Intent
+  “When the alleged infringer knowingly adopts a mark similar to another’s, reviewing courts presume that the defendant can accomplish his purpose: that is, that the public will be deceived.”
+   Sleekcraft,
+599 F.2d at 354
+. Nevertheless, we have also “recognized that liability for infringement may not be imposed for using a registered trademark in connection with truthful comparative advertising.”
+   Lindy Pen Co., Inc. v. Bic Pen Corp.,
+725 F.2d 1240, 1248
+ (9th Cir.1984).
+  Therefore, much like the proximity of the goods, the defendant’s intent may be relevant here, but only insofar as it bolsters a finding that the use of the trademark serves to mislead consumers rather than truthfully inform them of their choice of products. The district court incorrectly considered the intent factor in isolation, and concluded that it weighed in Systems’ favor without first determining that Network intended to deceive consumers rather than compare its product to ActiveBatch.
+  8. Likelihood of Expansion of the Product Lines
+  “Inasmuch as a trademark owner is afforded greater protection against competing goods, a ‘strong possibility’ that either party may expand his business to compete with the other will weigh in favor of finding that the present use is infringing. When goods are closely related, any expansion is likely to result in direct competition.”
+   Sleekcraft,
+599 F.2d at 354
+ (citations omitted). Where two companies are direct competitors, this factor is unimportant.
+   Cf. Brookfield,
+174 F.3d at 1060
+. Therefore, the district court correctly declined to consider the likelihood of expansion.
+  9. Other Relevant Factors
+  The eight
+   Sleekcraft
+  factors are “not exhaustive. Other variables may come into play depending on the particular facts presented.”
+   Sleekcraft,
+599 F.2d at 348
+ n. 11. In the keyword advertising context the “likelihood of confusion will ultimately turn on what the consumer saw on the screen and reasonably believed, given the context.”
+   Hearts on Fire Co. v. Blue Nile, Inc.,
+603 F.Supp.2d 274, 289
+ (D.Mass.2009).
+   6
+  In
+   Playboy,
+  we found it important that the consumers saw banner
+   *1154
+  advertisements that were “confusingly labeled or not labeled at all.” 
+354 F.3d at 1023
+. We noted that clear labeling “might eliminate the likelihood of initial interest confusion that exists in this case.”
+Id.
+  at 1030 n. 43.
+  The appearance of the advertisements and their surrounding context on the user’s screen are similarly important here. The district court correctly examined the text of Network’s sponsored links, concluding that the advertisements did not clearly identify their source. However, the district court did not consider the surrounding context. In
+   Playboy,
+  we also found it important that Netscape’s search engine did not clearly segregate the sponsored advertisements from the objective results. 
+354 F.3d at 1030
+. Here, even if Network has not clearly identified itself in the text of its ads, Google and Bing have partitioned their search results pages so that the advertisements appear in separately labeled sections for “sponsored” links. The labeling and appearance of the advertisements as they appear on the results page includes more than the text of the advertisement, and must be considered as a whole.
+  C.
+  Given the nature of the alleged infringement here, the most relevant factors to the analysis of the likelihood of confusion are: (1) the strength of the mark; (2) the evidence of actual confusion; (3) the type of goods and degree of care likely to be exercised by the purchaser; and (4) the labeling and appearance of the advertisements and the surrounding context on the screen displaying the results page.
+  The district court did not weigh the
+   Sleekcraft
+  factors flexibly to match the specific facts of this case. It relied on the Internet “troika,” which is highly illuminating in the context of domain names, but which fails to discern whether there is a likelihood of confusion in a keywords case. Because the linchpin of trademark infringement is consumer confusion, the district court abused its discretion in issuing the injunction.
+   See United States v. Hinkson,
+585 F.3d 1247, 1262
+ (9th Cir.2009) (en banc) (holding that a district court abuses its discretion by failing to identify the correct legal rule to apply);
+   see also Abercrombie & Fitch Co. v. Moose Creek, Inc.,
+486 F.3d 629, 637
+ (9th Cir.2007) (holding that the district court abused its discretion in its application of the
+   Sleekcraft
+  factors). We need not reach the three remaining preliminary injunction elements, or consider the remaining issues on appeal.
+   See Advertise.com, Inc. v. AOL Advertising, Inc.,
+616 F.3d 974, 982
+ (9th Cir.2010).
+  IV. Conclusion
+  We REVERSE the district court’s order granting Systems’ motion for a preliminary injunction, VACATE the injunction, and REMAND for further proceedings consistent with this opinion.
+   *1155
+  APPENDIX A
+  [[Image here]]
+   *1156
+  [[Image here]]
+   *1157
+  [[Image here]]
+   *1158
+  [[Image here]]
+   *1159
+  [[Image here]]
+   *1160
+  [[Image here]]
+   *1161
+  [[Image here]]
+   *1162
+  [[Image here]]
+   *1163
+  [[Image here]]
+   1
+   . Appendix A presents a compilation of exhibits from the district court record showing results pages displayed when users search for "AetiveBatch” on Google or Bing.
+   2
+   . The eight factors we identified in
+    Sleekcraft
+   were: "[1] strength of the mark; [2] proximity of the goods; [3] similarity of the marks;  evidence of actual confusion; [5] marketing channels used; [6] type of goods and the degree of care likely to be exercised by the purchaser; [7] defendant's intent in selecting the mark; and [8] likelihood of expansion of the product lines.” 
+599 F.2d at 348-49
+.
+   3
+   . Modern search engines such as Google no longer use metatags. Instead they rely on their own algorithms to find websites.
+    See
+   McCarthy at § 25:69.
+   4
+   . Systems' argument rests only on the theory of initial interest confusion. It does not argue source confusion.
+   5
+   . The
+Tabari
+   court applied the nominative fair use test rather than the
+    Sleekcraft
+   factors, but it explained that Sleekcraft's consumer confusion inquiry was "analogous.”
+    Id.
+   at 1176
+. Network has not argued that nominative fair use applies here. We find the initial interest confusion analysis more appropriate for the circumstances of this case.
+    Cf. New Kids on the Block v. News Am. Publ'g, Inc.,
+971 F.2d 302
+, 308 (9th Cir.1992) (explaining that nominative fair use applies when "the only word reasonably available to describe a particular thing is pressed into service”).
+   6
+   . The
+    Hearts on Fire
+   court identified a new seven-factor test to determine whether there is a likelihood of consumer confusion arising from a firm’s use of a competitor's trademark as a search engine keyword triggering its own sponsored links. 
+603 F.Supp.2d at 289
+. Network urges us to adopt the
+    Hearts on Fire
+   factors. While we agree that the decision’s reasoning is useful, we decline to add another multi-factor test to the extant eight-factor
+    Sleekcraft
+   test.
+&times;
+Please Sign In or Register
+Sign In
+Register
+Newsletter
+Sign up to receive the Free Law Project newsletter with tips and announcements.
+ Subscribe
+About
+Help
+ & 
+FAQ
+Donate
+About Our Data
+APIs & Bulk Data
+Feeds
+&
+Podcasts
+Blog Posts
+Contact
+Data Services
+Contribute
+Terms & Privacy
+Removal
+Vulnerability Policies
+CourtListener is sponsored by the non-profit 
+Free Law Project
+.

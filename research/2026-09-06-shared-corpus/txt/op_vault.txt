@@ -1,0 +1,513 @@
+
+Vault Corp. v. Quaid Software Ltd., 655 F. Supp. 750 | Casetext Search + Citator
+All State &amp; Fed.
+JX
+Sign In
+Opinion
+Case details
+Vault Corp. v. Quaid Software Ltd.
+Citing Cases
+Vault Corp. v. Quaid Software Ltd.
+The district court denied Vault's motion for a preliminary injunction, holding that Vault did not have a…
+MedX Inc. of Florida v. Ranger
+Therefore, the exception to the general rule, as well as the public policy supporting that rule, dictate that…
+8&#x20;
+Citing Cases
+Case Details
+Full title:
+VAULT CORPORATION v. QUAID SOFTWARE LIMITED
+Court:
+United States District Court, E.D. Louisiana
+Date published:&#x20;
+Feb 12, 1987
+Citations
+Copy Citation
+655 F. Supp. 750 (E.D. La. 1987)
+Citing Cases
+Vault Corp. v. Quaid Software Ltd.
+The district court denied Vault's motion for a preliminary injunction, holding that Vault did not have a…
+MedX Inc. of Florida v. Ranger
+Therefore, the exception to the general rule, as well as the public policy supporting that rule, dictate that…
+8&#x20;
+Citing Cases
+From Casetext: Smarter Legal Research
+Vault Corp. v. Quaid Software Ltd.
+United States District Court, E.D. Louisiana
+Feb 12, 1987
+655 F. Supp. 750 (E.D. La. 1987)
+Copy Citation
+Download&#x20;
+PDF
+Check&#x20;
+Treatment
+Opinion
+ Civ. A. No. 85-2283. 
+ February 12, 1987. 
+ Jarrell E. Godfrey, Jr. and Eleanor A. Lasky, Chaffe, McCall, Phillips, Toler Sarpy, New Orleans, La., for plaintiff. 
+ William E. Wright, Jr., David P. Banowetz, Jr., Baldwin Haspel, New Orleans, La., for defendant. 
+ Harry A. Rosenberg, John P. Manard, Jr., Phelps, Dunbar, Marks, Claverie Sims, New Orleans, La., Max Stul Oppenheimer, Venable, Baetjer Howard, Baltimore, Md., for Capital PC User Group, Central Point Software, Inc., The PC Tech Journal, John Denork and Dale Hillman. 
+ HEEBE, Chief Judge. 
+ Plaintiff, Vault Corporation, instituted an action against defendant, Quaid Software Limited, seeking a permanent injunction and damages. Vault manufactures certain data security software designed to prevent the copying of software programs, which is sold under the registered trademark PROLOK. Quaid has developed a program called "CopyWrite" which unlocks the PROLOK security software and allows the program contained on the protected diskette to be copied. 
+ This matter came on for hearing on the motion of plaintiff, Vault Corporation, for a preliminary injunction enjoining defendant, Quaid Software Limited, from advertising for sale or selling that portion of its CopyWrite Program that unlocks PROLOK; from violating the PROLOK license agreement; from misappropriating Vault's trade secret (the PROLOK program); from infringing or contributorily infringing Vault's copyright on PROLOK; and ordering the impoundment of all Quaid's copies 
+ of CopyWrite that are capable of unlocking PROLOK. The Court, having heard the testimony at the hearing and having considered the evidence, the applicable law, the amicus brief, and the memoranda submitted by the parties, now makes the following findings of fact and conclusions of law pursuant to 
+Fed.R.Civ.P. 52(a)
+, as hereafter set forth. 
+ FINDINGS OF FACT
+ 1. Plaintiff, Vault Corporation (hereinafter "Vault"), is a corporation organized pursuant to the laws of the State of California and is domiciled in West Lake Village, California. Plaintiff does business in the State of Louisiana. 
+ 2. Defendant, Quaid Software Limited (hereinafter "Quaid"), is a corporation organized under the laws of the Province of Ontario, Canada, and is domiciled in Toronto, Ontario, Canada. 
+ 3. Vault manufactures and distributes a line of computer software security products designed to prevent the copying of programs. Its primary product, PROLOK, is a program placed on a medium of storage referred to in the computer trade as a floppy diskette, upon which a "read only memory" (ROM) type alteration (termed a "hard fingerprint" by Vault) has been made. 
+ 4. There are two parts to PROLOK: the software component (program) and the fingerprint disk (read only memory chip). 
+ 5. Vault developed the original commercial version of PROLOK in early 1983. Since 1983 Vault has produced three substantially revised versions of PROLOK. The first is described as versions 1.01-1.06, the second as version 1.7, and the third as versions 2.0-2.01. 
+ 6. PROLOK is sold on the open market through retail dealers, through mail order, and through direct sales to other software manufacturers. 
+ 7. The PROLOK diskettes are sold in various different packages, containing different numbers of diskettes, all of which indicate that PROLOK is copyrighted. Additionally, the following license agreement is printed on each package: 
+ IMPORTANT! VAULT IS PROVIDING THE ENCLOSED MATERIALS TO YOU ON THE EXPRESS CONDITION THAT YOU ASSENT TO THIS SOFTWARE LICENSE. BY USING ANY OF THE ENCLOSED DISKETTE(S), YOU AGREE TO THE FOLLOWING PROVISIONS. IF YOU DO NOT AGREE WITH THESE LICENSE PROVISIONS, RETURN THESE MATERIALS TO YOUR DEALER, IN ORIGINAL PACKAGING WITHIN 3 DAYS FROM RECEIPT, FOR A REFUND.
+ 1. This copy of the PROLOK Software Protection System and this PROLOK Software Protection Diskette (the "Licensed Software") are licensed to you, the end-user, for your own internal use. Title to the Licensed Software and all copyrights and proprietary rights in the Licensed Software shall remain with VAULT. You may not transfer, sub-license, rent, lease, convey, copy, modify, translate, convert to another programming language, decompile or disassemble the Licensed Software for any purpose without VAULT's prior written consent.
+ 2. THE LICENSED SOFTWARE IS PROVIDED "AS-IS". VAULT DISCLAIMS ALL WARRANTIES AND REPRESENTATIONS OF ANY KIND WITH REGARD TO THE LICENSED SOFTWARE, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. UNDER NO CIRCUMSTANCES WILL VAULT BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, SPECIAL OR EXEMPLARY DAMAGES EVEN IF VAULT IS APPRISED OF THE LIKELIHOOD OF SUCH DAMAGES OCCURRING. SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+ 8. On PROLOK version 2.0, the first shipments of which were made on or about 
+ August 27, 1985, the following language was included: 
+ To the extent the laws of the United States of America are not applicable, 
+this license agreement shall be governed by the laws of the State of Louisiana.
+ (Emphasis added) 
+ 9. Vault sells blank protected diskettes to software producers. The software producer places his program on a PROLOK diskette, and sells the diskette to the public. The user of a program placed on a PROLOK diskette cannot make a copy of the program that will run independently of the original PROLOK diskette. The sole purpose of PROLOK is to inhibit copying of the program by the user. 
+ 10. Vault at all times attempted to prevent the general public from discovering the PROLOK program, method and technology. Their efforts included encrypting the PROLOK program in four layers of code, separating the various different programmers working on the program from each other, having all employees sign nondisclosure agreements prohibiting them from disclosing any of Vault's secrets, the use of shredding devices at the close of business each day to shred all paper containing any portion of the PROLOK program, and keeping the master PROLOK program locked in a safe. 
+ 11. Periodically Vault changes PROLOK in order to make it more difficult to be broken or unlocked. 
+ 12. The PROLOK licensing agreement is not necessarily enclosed in the sale by the software manufacturer to the ultimate user. The user usually is not aware that the program is on a PROLOK diskette. 
+ 13. Vault registered the copyrights of PROLOK versions 1.7 and 2.0 on August 8, 1985. 
+ 14. Defendant, Quaid Software Limited, manufactures at least three different computer software products and one hardware product. 
+ 15. Quaid manufactures a software program called "CopyWrite," which allows a user to make copies of programs contained on floppy diskettes. A segment of CopyWrite called "RAMKEY" allows a user to make copies of software programs placed on a PROLOK disk. 
+ 16. The development of CopyWrite took place at Quaid's offices in Toronto, Ontario, Canada. 
+ 17. CopyWrite is sold by Quaid primarily through mail order sales solicited by advertising in national magazines. The shipments are made from Quaid's offices in Canada. 
+ 18. Quaid advertises its products in at least six different personal computer publications which are distributed in all fifty states, including Louisiana. These publications include "Personal Computing", "PC Magazine", "BYTE", "Infoworld", "PC World Magazine", and "PC Tech Journal". In its advertisements, Quaid solicits direct mail sales of CopyWrite for $50.00 (U.S.) per unit. The advertisements state that CopyWrite is revised monthly to keep up with the latest in copy protection. 
+ 19. Quaid has been involved in a total of 375 transactions with Louisiana residents since 1983. This includes new sales and updates. 
+ 20. Quaid's total sales in Louisiana of all four of its products totalled $2,763.00 in fiscal year 1984, $9,756.00 in fiscal year 1985, and $6,665.00 in 1986 at the date of trial. Projected sales for 1986 were estimated to be approximately $13,000.00. 
+ 21. Quaid does not maintain any offices or personnel in Louisiana, nor does it operate any research, manufacturing or business operations in Louisiana. 
+ 22. Quaid has never purchased any PROLOK diskettes in Louisiana. Quaid has only purchased PROLOK diskettes by mail. These diskettes were received and used by Quaid solely in Canada. 
+ 23. It is an ordinary practice of computer users to purchase computer software and immediately make archival backup copies of that software. This is done in order to assure the user that in the event of mechanical, electrical or physical damage to the software program or disks, a functional backup copy is available for use. 
+ 24. Without the use of CopyWrite or other methods of unlocking PROLOK, a purchaser of a PROLOK protected software program cannot make a functional archival copy of that program. 
+ 25. Although one can make a "backup" copy of a PROLOK protected software program without CopyWrite or a similar product, that copy is not workable in the event that the original PROLOK disk is extensively damaged, destroyed or lost. The backup copy will operate only as long as the original PROLOK diskette is in either of the two disk drives of the computer. The backup copy will not operate by itself. 
+ 26. In order to unlock PROLOK protected software programs, Quaid developed RAMKEY and incorporated it within the CopyWrite product. The means for creating the RAMKEY program evolved in three different stages. In the first stage, Quaid developed RAMKEY by analyzing the operation of PROLOK using Disk Explorer and IBM Debug, two products sold on the open market. This analysis took place in September or October 1983. The next version of RAMKEY was developed with information gained through the disassembly and decompilation of PROLOK. The RAMKEY product developed through this means was discontinued in July 1984. Subsequently, Quaid developed a new software program known as "Monitor" which allowed Quaid to analyze the functions of various programs, including PROLOK, without decompiling or disassembling PROLOK. Quaid developed an updated version of RAMKEY through this analysis. 
+ 27. Vault contends that Quaid made an illegal copy of PROLOK by loading the PROLOK program into the random access memory (RAM) of Quaid's computer. However, any person who purchases a PROLOK disk must necessarily load the PROLOK program into RAM in order to utilize the program. 
+ 28. There was no evidence introduced that Quaid has ever made a physical copy of PROLOK which could be sold or loaned to others. 
+ 29. Quaid neither sought nor obtained the permission of Vault to copy, disassemble, decompile or reverse engineer the PROLOK program. 
+ 30. Decompilation and disassembly is the process by which a machine language program is placed in another programming language which is more readily understood by human beings. Quaid has neither decompiled nor disassembled PROLOK since July 1984. 
+ 31. Thirty characters within the 1984 PROLOK program were similar to thirty characters in the 1984 RAMKEY module of the CopyWrite program. This amounted to one page out of approximately eighty pages. 
+ 32. This 1984 version of RAMKEY was discontinued in July 1984. No evidence was introduced to indicate that there has been any source code common to PROLOK and RAMKEY since that time. 
+ 33. RAMKEY is not a "substantially similar copy" of PROLOK, nor can it be said that RAMKEY is a "recasting, transformation or adaptation of PROLOK." 
+ 34. A copy of a program placed on a PROLOK diskette made by using CopyWrite/RAMKEY is a fully operating copy of the program. It will operate completely independently of the original PROLOK diskette. 
+ 35. CopyWrite/RAMKEY is used to make legitimate archival copies of computer software programs. 
+ 36. CopyWrite is also used as a diagnostic tool for assessing the quality of computer programs. 
+ 37. Another use of CopyWrite is the copying of unprotected programs. CopyWrite allows the user to make a more accurate copy of the program than the copy utility programs provided to users by hardware manufacturers. 
+ 38. In selling CopyWrite, Quaid takes steps to prevent the use of CopyWrite for illegal purposes. These steps include: 
+ a) Statements in advertising to the effect that CopyWrite should not be used for making illegal copies;
+ b) Statements in the CopyWrite user manuals to the effect that CopyWrite 
+ should not be used for making illegal copies;
+ c) The incorporation of code within the CopyWrite program which allows the tracing of any copied program; and
+ d) Taking steps in prosecuting individuals who were found to be using CopyWrite to make illegal copies.
+ CONCLUSIONS OF LAW
+ 1. Subject matter jurisdiction of this Court is founded upon 
+28 U.S.C. &sect; 1338
+, copyright jurisdiction, and 
+28 U.S.C. &sect; 1332
+, diversity jurisdiction, in that plaintiff is a citizen of California, defendant is a citizen of Canada, and the amount in controversy exceeds $10,000. 
+ 2. Personal jurisdiction over the defendant, Quaid Software Limited, is based upon the Louisiana long-arm statute, 
+La.Rev.Stat. 13:3201(a)
+, (b), and (d). The statute states in pertinent part: 
+ A court may exercise personal jurisdiction over a nonresident, who acts directly or by an agent, as to a cause of action arising from any one of the following activities performed by the nonresident:
+ (1) Transacting any business in this state. 
+ (2) Contracting to supply services or things in this state.
+ (3) Causing injury or damage by an offense or quasi-offense committed through an act or omission in this state.
+ (4) Causing injury or damage in this state by an offense or quasi-offense committed through an act or omission outside of this state if he regularly does or solicits business, or engages in any other persistent course of conduct, or derives revenue from goods used or consumed or services rendered in this state.
+ 3. This provision is modified by 
+La.Rev.Stat. 13:3202
+, which states: 
+ When personal jurisdiction over a nonresident is based solely upon R.S. 13:3201, only a cause of action arising from acts or omissions enumerated therein may be asserted against him.
+ 4. In 
+Farnham v. Bristow Helicopters, Inc.,
+776 F.2d 535, 537
+ (5th Cir. 1985), a panel of the Fifth Circuit Court of Appeals held that the Louisiana long-arm statute is not available to plaintiffs whose claims do not arise out of any activity or business within Louisiana. However, a year earlier, another panel of the Fifth Circuit Court of Appeals in 
+Pedelahore v. Astropark, Inc.,
+745 F.2d 346, 348
+ (5th Cir. 1984), concluded that the Louisiana long-arm statute does 
+not
+ require a nexus between the business transacted in Louisiana and the asserted claim. The panel in 
+Farnham
+ chose not to follow 
+Pedelahore
+ because of subsequent state court decisions that were contrary to 
+Pedelahore. Id.
+ at 537. 
+ 5. This Court will follow the guidance of the appellate court in 
+Farmham v. Bristow Helicopters, Inc.,
+ for that case seems more in line with the Louisiana jurisprudence, and requires a nexus between the activity or business in Louisiana and the claim. 
+ 6. The Louisiana long-arm statute must be liberally interpreted in favor of finding jurisdiction. 
+Robinson v. Vanguard Ins. Co.,
+468 So.2d 1360, 1365
+ (La.App. 1st Cir.), 
+cert. denied,
+ 472 So.2d 34 (La. 1985). "The legislative intent for enacting 
+La.R.S. 13:3201
+ was to extend personal jurisdiction of Louisiana courts over nonresidents to the full limits of due process." 
+Id.
+ 7. Vault claims that jurisdiction exists here under subsection (4) because Quaid causes injury in Louisiana in at least three different ways. Plaintiff argues that: 1) Louisiana residents use CopyWrite to make unauthorized copies of programs produced by Louisiana software producers; 2) Louisiana residents use CopyWrite to make unauthorized copies in Louisiana of programs produced in other states; and 3) persons in other states use CopyWrite to copy programs produced by Louisiana companies. Vault maintains that Louisiana has a strong interest in redressing the injury being done to Louisiana software publishers and also to corporations doing business in Louisiana. 
+ 8. Quaid has sold computer software, in particular CopyWrite, in Louisiana. Vault's claims against Quaid arise from the sale of CopyWrite to users in Louisiana as 
+ well as the other 49 states. These users purchase CopyWrite to make copies of PROLOK protected disks. 
+ 9. Since the Louisiana long-arm statute is to be liberally construed in favor of finding jurisdiction, this Court concludes that there is a nexus between the sales of CopyWrite in Louisiana and Vault's claims against Quaid. 
+ 10. Vault has moved for an order enjoining Quaid from advertising for sale or selling that portion of its CopyWrite program that unlocks PROLOK; from violating the PROLOK license agreement; from misappropriating Vault's trade secret (the PROLOK Program); and from infringing or contributorily infringing Vault's copyright on PROLOK. Vault is further seeking impoundment of all Quaid's copies of CopyWrite that are capable of unlocking PROLOK. 
+ 11. In considering a motion for preliminary injunctive relief, a court must carefully weigh four factors: 1) whether there is a substantial likelihood that movant will prevail on the merits; 2) whether the movant will suffer irreparable injury if relief is denied; 3) whether the threatened injury to the movant outweighs the threatened harm the injunction may do to the nonmoving party; and 4) whether the granting of the preliminary injunction will be in the public's interest. 
+Enterprise International, Inc. v. Corporacion Estatal Petrolera Ecuatoriana,
+762 F.2d 464, 471
+ (5th Cir. 1985); 
+Spiegel v. City of Houston,
+636 F.2d 997, 1001
+ (5th Cir. 1981); 
+Canal Authority of the State of Florida v. Callaway,
+489 F.2d 567, 572
+ (5th Cir. 1974); 
+Continental Oil Co. v. Crutcher,
+465 F. Supp. 118, 120
+ (E.D.La. 1979). 
+ 12. The grant or denial of a preliminary injunction rests in the discretion of the trial court. 11 C. Wright A. Miller, Federal Practice and Procedure &sect; 2947 (1973); 
+Apple Computer, Inc. v. Franklin Computer Corp.,
+714 F.2d 1240, 1242
+ (3d Cir. 1983), 
+cert. dismissed,
+464 U.S. 1033
+, 
+104 S.Ct. 690
+, 
+79 L.Ed.2d 158
+ (1984). 
+ 13. A finding against the movant on any of these four factors will justify the refusal of the preliminary injunctive relief. 
+Continental Oil Co. v. Crutcher,
+465 F. Supp. at 120
+. 
+ COPYRIGHT INFRINGEMENT
+ 14. This court will first address the issue of copyright infringement. In a copyright infringement case, the substantial likelihood of success on the merits prong of the preliminary injunction test is predominant. 
+E.F. Johnson Co. v. Uniden Corporation of America,
+623 F. Supp. 1485, 1491
+ (D.C.Minn. 1985). 
+ 15. The second factor, that of proving irreparable harm, is generally not required in copyright litigation. It is presumed once the moving party has established a case of copyright infringement. 
+623 F. Supp. at 1491
+. 
+ 16. The third factor, balancing of hardships, is not usually dispositive in a copyright infringement action. "If that were the correct standard, then a knowing infringer would be permitted to construct its business around its infringement . . ." 
+Id. See Apple Computer, Inc. v. Franklin Computer Corp.,
+714 F.2d at 1255
+; 
+Atari, Inc. v. North American Philips Consumer Electronics Corp.,
+672 F.2d 607, 620
+ (7th Cir.), 
+cert. denied,
+459 U.S. 880
+, 
+103 S.Ct. 176
+, 
+74 L.Ed.2d 145
+ (1982). 
+ 17. As to the fourth factor, "the public interest can only be served by upholding copyright protections and, correspondingly, preventing the misappropriation of the skills, creative energies, and resources which are invested in the protected work." 
+Apple Computer, Inc. v. Franklin Computer Corp.,
+714 F.2d at 1255
+. 
+ 18. To establish copyright infringement, a plaintiff must prove ownership of a valid copyright and "copying" by the defendant of the copyrighted work. 
+Atari, Inc. v. North American Philips Consumer Electronics Corp.,
+672 F.2d at 614
+; 3 M. Nimmer, Nimmer on Copyright &sect; 13.01, at 13-3 (1981). 
+ 19. Vault owns the copyrights to each version of PROLOK and has registered the copyrights of PROLOK versions 
+ 1.7 and 2.0 with the U.S. Registrar of Copyrights. The copyright registration certificates are prima facie proof of the validity of the copyrights. 
+17 U.S.C. &sect; 410(c)
+. There has been no evidence presented that the copyrights might be invalid. Accordingly, this Court finds that the copyrights are valid and fully enforceable. 
+ 20. A copyright infringement occurs when a person violates any of the exclusive rights of the copyright owner as provided by Sections 106-118 of the Copyright Act. 
+17 U.S.C. &sect; 501(a)
+ (1977). Among the exclusive rights of the copyright owner are the right to reproduce and to authorize the reproduction of the copyrighted work in copies, the right to prepare derivative works based upon the copyrighted work, and the right to distribute copies of the copyrighted work to the public by sale or lease. 
+17 U.S.C. &sect; 106
+ (1977). 
+ 21. Vault claims that Quaid has infringed its copyright in three different ways: 1) First, Vault claims that Quaid infringes its copyright whenever an employee of Quaid loads a PROLOK diskette into a personal computer's random-access memory (RAM). By loading the PROLOK program into RAM, Vault claims that Quaid is making an unauthorized copy of PROLOK; 2) Vault contends that CopyWrite is an unauthorized derivative work of PROLOK; and 3) Vault argues that by producing CopyWrite, Quaid is a contributory infringer because CopyWrite may be used to make an unauthorized copy of copyrighted software placed on a PROLOK protected diskette. 
+ 22. Section 117 of the 1976 Copyright Act provides as follows: 
+ Notwithstanding the provisions of 
+section 106
+, it is not an infringement for the owner of a copy of a computer program to make or authorize the making of another copy or adaptation of that computer program provided:
+ (1) that such a new copy or adaptation is created as an essential step in the utilization of the computer program in conjunction with a machine and that it is used in no another manner, or
+ (2) that such new copy or adaptation is for archival purposes only and that all archival copies are destroyed in the event that continued possession of the computer program should cease to be rightful. Any exact copies prepared in accordance with the provisions of this section may be leased, sold, or otherwise transferred, along with the copy from which such copies were prepared, only as part of the lease, sale, or other transfer of all rights in the program. Adaptations so prepared may be transferred only with the authorization of the copyright owner.
+17 U.S.C. &sect; 117
+ (1977). 
+ 23. Subsection (1) of 
+Section 117
+ exempts the "copying" of the computer program which is performed when a program is loaded into a computer's random-access memory (RAM). Quaid's actions clearly fall within this exemption. The loading of the PROLOK program into the RAM of a computer is an "essential step in the utilization" of the PROLOK program. Therefore, Quaid has not infringed Vault's copyright by loading PROLOK into RAM. 
+ 24. Vault has contended that RAMKEY is a derivative work of PROLOK. Section 101 of the Copyright Act defines a derivative work as: 
+ A "derivative work" is a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a "derivative work".
+17 U.S.C. &sect; 101
+ (1977). 
+ 25. 
+Section 106(2)
+ grants the holder of the copyright the exclusive right to prepare a derivative work. "To constitute a violation of 
+section 106(2)
+ the infringing work must incorporate in some form a portion of the copyrighted work." 
+Litchfield v. Spielberg,
+736 F.2d 1352, 1357
+ (9th Cir. 1984), 
+cert. denied,
+470 U.S. 1052
+, 
+105 S.Ct. 1753
+, 
+84 L.Ed.2d 817
+ (1985). The allegedly infringing work must be a "substantially similar copy" of the original work. 
+Id.
+ 26. There is no substantial similarity between CopyWrite and PROLOK. In 1984 thirty characters of RAMKEY were copied from PROLOK. Quaid discontinued this version of RAMKEY that same year. Since that time there has been no evidence to convince this Court that there has been any further duplication. The Court finds that the copying in 1984 was not significant. 
+ 27. There has been no violation of 
+17 U.S.C. &sect; 106(2)
+ because RAMKEY is not a substantially similar copy of PROLOK. RAMKEY is not a derivative work of PROLOK. 
+ 28. Vault has contended that Quaid is guilty of contributory infringement because CopyWrite permits a user to make illegal copies of programs placed on PROLOK disks. Vault lacks standing to raise such a claim since it is not Vault, but the customers of Vault who place their programs on PROLOK disks, who may assert such claims. Clearly, the copyright rights to these underlying programs belong to their publishers, not Vault. 
+ 29. Even if Vault has standing to pursue a claim for contributory infringement, this Court finds no contributory infringement. 
+ 30. The Copyright Act does not expressly hold one liable for infringement committed by another. 
+Sony Corp. v. Universal City Studios, Inc.,
+464 U.S. 417, 434
+, 
+104 S.Ct. 774, 784
+, 
+78 L.Ed.2d 574
+ (1984). However, "[t]he absence of such express language in the copyright statute does not preclude the imposition of liability for copyright infringements on certain parties who have not themselves engaged in the infringing activity." 
+Id.
+ at 435, 
+104 S.Ct. at 785
+. 
+ 31. In a contributory infringement case, the Court is "to look beyond actual duplication of a device or publication to the products or activities that make such duplication possible." 
+Sony Corp. v. Universal City Studios, Inc.,
+464 U.S. at 442
+, 
+104 S.Ct. at 788
+. 
+ 32. CopyWrite, however, does not contributorily infringe PROLOK if it is capable of "commercially significant noninfringing uses." 
+Id.
+ 33. Quaid claims that CopyWrite is capable of "commercially significant noninfringing uses," such as making archival copies of software programs as allowed by Section 117(2) of the Copyright Act. The archival copies which PROLOK provides are not functional, those copies made by CopyWrite are functional. In addition, there was testimony at trial that CopyWrite is used to make copies of 
+unprotected
+ software because CopyWrite makes a better copy than IBM DOS Copy, the copy utility supplied with all IBM personal computers. CopyWrite is also used as a diagnostic tool to analyze the quality of new computer programs. 
+ 34. The archival copy exception created by Congress for the users of computer programs applies to mediums of storage for computer programs that are subject to "destruction or damage by mechanical or electrical failure." The Final Report of the Commission on New Technological Works (CONTU Report) at 31. A program stored on a disk instead of in the computer's memory is less susceptible to destruction or damage by mechanical or electrical failure. However, "it is not completely immune from such a mishap." 
+Micro-Sparc, Inc. v. Amtype Corp.,
+592 F. Supp. 33, 35
+ n. 8 (D.Mass. 1984). Accordingly, a program stored on a PROLOK diskette could be destroyed or damaged by mechanical or electrical failure. 
+ 35. The Court concludes that Quaid has met its burden of bringing itself within the 
+&sect; 117
+ archival exception. CopyWrite is capable of "commercially significant noninfringing uses." 
+ LOUISIANA LAW
+ 36. Vault has contended that the steps taken by Quaid to analyze PROLOK and to develop RAMKEY constitute violations of the Louisiana Software License Enforcement 
+ Act, 
+La.Rev.Stat. 51:1961-1966
+, and the Uniform Trade Secrets Act, 
+La.Rev.Stat. 51:1431-1439
+. 
+ 37. In order to determine the applicable law in a diversity case, federal courts should apply the conflict of laws rule of the forum state. 
+Klaxon Co. v. Stentor Elec. Mfg. Co.,
+313 U.S. 487, 496
+, 
+61 S.Ct. 1020, 1021
+, 
+85 L.Ed. 1477
+ (1941). Thus, Louisiana conflicts law is applicable to this case. 
+ 38. Since 1973 Louisiana has adopted the "interest analysis" approach set forth in the Restatement (Second) of Conflict of Laws. 
+Burbank v. Ford Motor Co.,
+703 F.2d 865, 866
+ (5th Cir. 1983); 
+Delhomme Industries, Inc., v. Houston Beechcraft,
+669 F.2d 1049
+ (5th Cir. 1982); 
+Jagers v. Royal Indemnity Co.,
+276 So.2d 309, 312
+ (La. 1973). 
+ 39. Notwithstanding the "interest analysis" approach, Louisiana courts allow parties to stipulate in their contract which state's law will govern the contract in accordance with &sect; 187(1) of the Restatement (Second). 
+Matte v. Zapata Offshore Co.,
+784 F.2d 628, 631
+ (5th Cir.), 
+cert. denied,
+ ___ U.S. ___, 107 S.Ct. 247, 93 L.Ed.2d 171 (1986); 
+Delhomme Industries, Inc. v. Houston Beechcraft,
+669 F.2d at 1057
+. 
+ 40. A factor which the forum may consider is whether the choice-of-law provision is contained in an "adhesion" contract, namely one that is drafted unilaterally by the dominant party and then presented on a "take-it-or-leave-it basis" to the weaker party who has no real opportunity to bargain about its terms. Such contracts are usually prepared in printed form, and frequently at least some of their provisions are in extremely small print. Common examples are tickets of various kinds and insurance policies. Choice-of-law provisions contained in such contracts are usually respected. Nevertheless, the forum will scrutinize such contracts with care and will refuse to apply any choice-of-law provision they may contain if to do so would result in substantial injustice to the adherent.
+ Restatement (Second) of Conflict of Laws &sect; 187, Comment (b), p. 562 (1971). 
+See Burbank v. Ford Motor Co.,
+703 F.2d 865, 866-67
+ (5th Cir. 1983). 
+ 41. Vault has contended that Quaid is bound by the terms of a "license agreement" which is contained within the packaging of the PROLOK product. Since August 1985 the document labeled "license agreement" in the packaging includes a choice of law provision which reads as follows: 
+ To the extent the laws of the United States of America are not applicable, 
+this license agreement shall be governed by the laws of the state of Louisiana.
+ (Emphasis added).
+ 42. Under Louisiana law, a provision concerning the governing law will be enforced "unless there are legal or strong public policy considerations justifying the refusal to honor the contract as written." 
+Matte v. Zapata Offshore Co.,
+784 F.2d at 631
+, quoting 
+Lirette v. Union Texas Petroleum Corp.,
+467 So.2d 29, 32
+ (La.App. 1st Cir. 1985). 
+ 43. The only way to determine whether "'there is a jurisprudential or statutory law to the contrary or strong public policy considerations' justif[ying] refusal to honor" the choice of law provision is to decide whether Louisiana law, in particular the Louisiana Software License Enforcement Act and the Uniform Trade Secrets Act, applies to this license agreement. 
+Clarkco Contractors v. Texas Eastern Gas Pipeline,
+ 615 F. Supp. 775, 779 (M.D.La. 1985). 
+ 44. In 
+Fantastic Fakes, Inc. v. Pickwick International, Inc.,
+661 F.2d 479, 482-83
+ (5th Cir. 1981), the court was faced with a choice of law provision in a copyright licensing agreement which specified that Georgia law would be applicable. Concerning this issue, the Fifth Circuit held: 
+ Important to the proper resolution of these questions is an understanding of the extent to which Georgia law applies versus the scope of application and influence of the provisions and policies of the 1909 and 1976 Copyright Acts. Although the parties stipulated in the licensing agreement that Georgia law would govern the construction and enforcement 
+ of their contractual obligations, this does not mean that all rights and obligations created by the copyright acts are superseded by Georgia law. In 
+Sears, Roebuck Co. v. Stiffel Co.,
+376 U.S. 225, 229
+, 
+84 S.Ct. 784, 787
+, 
+11 L.Ed.2d 661
+ (1964), the Court stated that federal patent and copyright law "like other laws of the United States enacted pursuant to constitutional authority, are the supreme law of the land . . . When state law touches upon the area of these federal statutes, it is 'familiar doctrine' that the federal policy 'may not be set at naught, or its benefits denied' by the state law." [citations omitted]. Under the 1976 Copyright Act, 
+17 U.S.C. &sect; 101
+et seq.,
+ the scope of federal copyright protection was expanded and its preemptive nature codified. 
+17 U.S.C. &sect; 301
+. A choice of law provision, therefore, merely designates the state whose law is to be applied to the extent its use is not preempted by nor contrary to the policies of the 1909 and 1976 Copyright Acts.
+ 45. This Court will examine the Louisiana statutes to determine whether they are preempted by or contrary to the federal Copyright Act. 
+ 46. Vault has contended that Quaid's actions in decompiling and disassembling PROLOK in 1984 constituted a violation of the Louisiana Uniform Trade Secrets Act, 
+La.Rev.Stat. 51:1432-1439
+. That statute defines "trade secret" as follows: 
+ (4) "Trade secret" means information, including a formula, pattern, compilation, program, device, method, technique, or process, that:
+ (a) derives independent economic value, actual or potential, from not being generally known to and not being readily ascertainable by proper means by other persons who can obtain economic value from its disclosure or use, and (b) is the subject of efforts that are reasonable under the circumstances to maintain its secrecy.
+La.Rev.Stat. 51:1431(4)
+ (West Supp. 1987). 
+ 47. PROLOK is "the subject of efforts that are reasonable under the circumstances to maintain its secrecy" and so meets the second requirement of a trade secret. 
+ 48. A program which is "readily ascertainable by proper means" does not meet the first requirement of a trade secret. 
+ 49. Proper means include 
+ (1) Discovery by independent invention; 
+ (2) Discovery by "reverse engineering", that is, by starting with the known product and working backward to find the method by which it was developed. The acquisition of the known product must of course, also be by a fair and honest means, such as purchase of the item on the open market for reverse engineering to be lawful;
+ (3) Discovery under a license from the owner of the trade secret;
+ (4) Observation of the item in public use or on public display;
+ (5) Obtaining the trade secret from published literature.
+ Comment (a) of 
+La.Rev.Stat. 51:1431
+ (West Supp. 1987). 
+ 50. Vault argues that Quaid discovered how PROLOK operates by "improper means" because Quaid engaged in decompilation, disassembly, and reverse engineering in violation of the license agreement contained in the PROLOK package. The license agreement states that the user will not decompile or disassemble the program without Vault's prior written permission. 
+ 51. The process of ascertaining information by "reverse engineering" does not constitute a violation of the Louisiana Trade Secrets Act on the face of the statute. However, Vault alleges that the license agreement prohibits reverse engineering as provided by the Louisiana Software License Enforcement Act. 
+ 52. The license agreement on the package of PROLOK diskettes is displayed in accordance with the terms of 
+La.Rev.Stat. 51:1962-1965
+. 
+ 53. The license agreement contained in the PROLOK package is a contract of adhesion which could only be enforceable if the Louisiana Software License Enforcement Act (SLEA), 
+La.Rev.Stat. 51:1961-1966
+, is a valid and enforceable statute. 
+ 54. The SLEA allows a software producer to bind a purchaser of its software in a contract of adhesion. Under &sect; 1964 of the SLEA, a software producer is allowed to impose the following contractual terms upon the software purchaser: 
+ (1) Provisions for the retention by the licensor of title to the copy of the computer software.
+ (2) If title to the copy of computer software has been retained by the licensor, provisions for the prohibition of any copying of the copy of computer software for any purpose and/or limitations on the purposes for which copies of the computer software can be made and/or limitations on the number of copies of the computer software which can be made.
+ (3) If title to the copy of computer software has been retained by the licensor, provisions for the prohibition or limitation of rights to modify and/or adapt the copy of the computer software in any way, including without limitation prohibitions on translating, reverse engineering, decompiling, disassembling, and/or creating derivative works based on the computer software.
+ (4) If title to the copy of computer software has been retained by the licensor, provisions for prohibitions on further transfer, assignment, rental, sale, or other disposition of that copy or any other copies made from that copy of the computer software, provided that terms which prohibit the transfer of a copy of computer software in connection with the sale or transfer by operation of law of all or substantially all of the operating assets of a licensee's business shall to that extent only not be deemed to have been accepted under R.S. 51:1963.
+ (5) Provisions for the automatic termination without notice of the license agreement if any provisions of the license agreement are breached by the licensee.
+ 55. The Copyright Act establishes preemption with respect to other laws. 
+17 U.S.C. &sect; 301(a)
+ provides: 
+ (a) On and after January 1, 1978, all legal or equitable rights that are equivalent to any of the exclusive rights within the general scope of copyright as specified by 
+section 106
+ in works of authorship that are fixed in a tangible medium of expression and come within the subject matter of copyright as specified by sections 102 and 103, whether created before or after that date and whether published or unpublished, are governed exclusively by this title. Thereafter, no person is entitled to any such right or equivalent right in any such work under the common law or statutes of any State.
+ 56. 
+Section 301(a)
+ must be read in conjunction with 
+Section 301(b)
+ which states: 
+ (b) Nothing in this title annuls or limits any rights or remedies under the common law or statutes of any State with respect to &mdash;
+ (1) subject matter that does not come within the subject matter of copyright as specified by sections 102 and 103, including works of authorship not fixed in any tangible medium of expression; or
+ (2) any cause of action arising from undertakings commenced before January 1, 1978; or
+ (3) activities violating legal or equitable rights that are not equivalent to any of the exclusive rights within the general scope of copyright as specified by 
+section 106
+.
+ 57. &sect; 1964(2) of the SLEA prohibits copying "for any purpose." This section is in direct violation of the Copyright Act which permits the making of archival copies from copies of computer software and permits copying which is "an essential step in the utilization of the computer program." 
+17 U.S.C. &sect; 117
+. The SLEA has granted greater protection than the Copyright Act. 
+ 58. In addition, &sect; 1964(3) prohibits "translating, reverse engineering, decompiling, disassembling, and/or creating derivative works based on the computer software." The Copyright Act grants the owner of the copyright the right to prepare derivative works based upon the copyrighted 
+ work. 
+17 U.S.C. &sect; 106(2)
+. The right to prepare derivative works is an exclusive right under the federal Copyright Act and the SLEA cannot provide "an equivalent right." 
+17 U.S.C. &sect; 301(a)
+. 
+ 59. Vault's cause of action based on the Louisiana trade secrets act is not preempted by the federal Copyright act, on its face. 
+See Kewanee Oil Co. v. Bicron Corp.,
+416 U.S. 470
+, 
+94 S.Ct. 1879
+, 
+40 L.Ed.2d 315
+ (1974). State trade secret protection is much less effective than copyright and patent protection, and so is not preempted by federal law. One of the major weaknesses is the inability of trade secret laws to protect the owner against discovery of the trade secret by independent invention, accidental disclosure, or reverse engineering. 
+Id.
+ at 475-76, 
+94 S.Ct. at 1883
+. 
+ 60. The Louisiana Software License Enforcement Act, on the other hand, has invaded the exclusive province of the federal Copyright Act, and has gone beyond trade secrets law by outlawing reverse engineering. 
+ 61. In 
+Sears, Roebuck Co. v. Stiffel Co.,
+376 U.S. 225
+, 
+84 S.Ct. 784
+, 
+11 L.Ed.2d 661
+ (1964), and 
+Compco Corp. v. Day-Brite Lighting, Inc.,
+376 U.S. 234
+, 
+84 S.Ct. 779
+, 
+11 L.Ed.2d 669
+ (1964), the United States Supreme Court refused to enforce the Illinois unfair competition law and held that state law had been preempted by federal patent law, the patent and copyright clause of the United States Constitution. 
+U.S. Const. Art. I, &sect; 8
+. "Just as a State cannot encroach upon the federal patent laws directly, it cannot, under some other law, such as that forbidding unfair competition, give protection of a kind that clashes with the objectives of the federal patent laws." 
+Sears, Roebuck Co. v. Stiffel Co.,
+376 U.S. at 230-32
+, 
+84 S.Ct. at 788-89
+. 
+ 62. Congress has taken action to afford copyright protection to computer software. In this situation the 
+Sears-Compco
+ preemption doctrine, as well as &sect; 301 of the Copyright Act, are both applicable. 
+ 63. The Louisiana Software License Enforcement Act creates a perpetual bar against copying any computer program licensed pursuant to its provisions. The federal Copyright Act, on the other hand, grants protection against unauthorized copying for the life of the author plus fifty years. 
+17 U.S.C. &sect; 302(a)
+. The Louisiana act also places no restrictions on the programs which may be protected under its provisions. However, under Section 102 of the federal Copyright Act, only "original works of authorship" can be protected. The Louisiana Software Act allows any computer program, original or not, to be protected from copying. 
+ 64. Since the Louisiana Software Act has "touch[ed] upon the area" of the federal patent and copyright law, the provisions of the PROLOK licensing agreement are unenforceable to the extent they are contrary to the policies of the federal Copyright Act. 
+Fantastic Fakes, Inc. v. Pickwick International, Inc.,
+661 F.2d at 481-83
+. 
+ 65. Since the license agreement is unenforceable, it cannot buttress Vault's claim that Quaid has used "improper means" to discover an alleged trade secret in violation of the Louisiana Trade Secrets Act. Decompiling, disassembly, and reverse engineering are all proper means of discovering any trade secret which may be contained in PROLOK. 
+ 66. Moreover, Vault has failed to prove that Quaid ever undertook any of the acts identified as "misappropriation" in La.Rev. Stat. 51:1431(2). To the contrary, Quaid merely purchased a copy of PROLOK by mail on the open market. 
+ 67. Based on the evidence presented at trial and the law in this case, this Court finds that Vault has not shown a reasonable probability of success on the merits of its allegations of copyright infringement and violations of the Louisiana Software License Enforcement Act and the Uniform Trade Secrets Act. Vault has not met its "heavy burden" of proving to this court that a preliminary injunction should issue. 
+Enterprise International, Inc. v. Corporacion Estatal Petrolera Ecuatoriana,
+762 F.2d at 472
+. 
+ Accordingly, 
+ IT IS THE ORDER OF THE COURT that the motion of plaintiff, Vault Corporation, for a preliminary injunction enjoining defendant, Quaid Software Limited, from advertising for sale or selling that portion of its CopyWrite program that unlocks PROLOK; from violating the PROLOK license agreement; from misappropriating Vault's trade secret (the PROLOK program); from infringing or contributorily infringing Vault's copyright on PROLOK; and ordering the impoundment of all Quaid's copies of CopyWrite that are capable of unlocking PROLOK, be, and the same is here, DENIED. 
+Summaries of
+Vault Corp. v. Quaid Software Ltd.
+United States District Court, E.D. Louisiana
+Feb 12, 1987
+655 F. Supp. 750 (E.D. La. 1987)
+Case details for
+Vault Corp. v. Quaid Software Ltd.
+Case Details
+Full title:
+VAULT CORPORATION v. QUAID SOFTWARE LIMITED
+Court:
+United States District Court, E.D. Louisiana
+Date published:&#x20;
+Feb 12, 1987
+Citations
+Copy Citation
+655 F. Supp. 750 (E.D. La. 1987)
+Citing Cases
+Vault Corp. v. Quaid Software Ltd.
+The district court denied Vault's motion for a preliminary injunction, holding that Vault did not have a…
+MedX Inc. of Florida v. Ranger
+Therefore, the exception to the general rule, as well as the public policy supporting that rule, dictate that…
+8&#x20;
+Citing Cases
+About us
+Jobs
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+Cookie Settings
+Do Not Sell or Share My Personal Information/Limit the Use of My Sensitive Personal Information
+Privacy
+Terms
+&copy; 2024 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.

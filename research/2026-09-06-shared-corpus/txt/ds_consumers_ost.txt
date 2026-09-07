@@ -1,0 +1,390 @@
+                                             DASSAULT SYSTEMES
+                                       OFFERING SPECIFIC TERMS (OST) FOR
+
+                                                           ONLINE SERVICES
+If you are a Consumer, as referred to in the Agreement (as defined hereunder), Customer shall be understood as Consumer in this entire
+document.
+
+This OST (Offering Specific Terms) and the terms incorporated herein by reference (including terms referenced on a website) are an integral
+part of the license and online services agreement between DS and Customer (“Agreement”), which refers to this OST. In the event of a
+discrepancy, inconsistency or contradiction between this OST and the other terms of the Agreement, the provisions of this OST shall prevail,
+but only with respect to the Online Services to which this OST applies. Customer acknowledges that (i) it has full knowledge of all the terms of
+this OST and those incorporated herein by reference, and (ii) this OST applies to any Release available from February 8, 2022.
+
+
+1. PRICING STRUCTURES
+
+The use of Online Services to which this OST applies is granted according to the pricing structures mentioned in the related Transaction
+Document. Standard pricing structures are defined in the section “DEFINITIONS” of this OST, even though those pricing structures may not
+be applicable to the DS Offerings to which this OST applies. Other pricing structures may be made available on a case-by-case basis.
+
+
+2. LICENSING SCHEMES AND GEOGRAPHIC SCOPE
+
+2.1     GENERAL RULES
+
+Online Services to which this OST applies may be granted according to one of the following licensing schemes (specifying the authorized use),
+as specified in the Product Portfolio if available, and as determined in the applicable Transaction Document:
+
+       Named User Based
+
+Online Services to which this OST applies are granted for use on Machines by the Users only in the country for which the DS Offerings are
+ordered. However, Users, whose usual workplace is located in the same country as the country where such use of the Online Services has
+been authorized, may use the Online Services in any other country (subject inter alia to the export and re-export laws and regulations provisions
+of the Agreement) for a trip of a maximum of thirty (30) consecutive days.
+
+It is agreed that, notwithstanding anything to the contrary provided in the Documentation, software components packaged and delivered by
+DS as part of a given DS Offering:
+      shall solely be used together and as part of such DS Offering and
+      shall not be used standalone and/or for other purposes than the ones for which such DS Offering has been marketed and granted to
+         Customer by DS.
+
+Moreover, by ordering a DS Offering under this applicable OST, Customer is granted the right to access and manage one (1) online
+environment (“Platform”) in which DS Offerings are assigned.
+
+If a patent invention is implemented in the DS Offering for which a right to use or access is granted pursuant to the Agreement, DS hereby
+grants Customer a non-exclusive license on the applicable patent limited to the use of such DS Offering.
+
+Images, videos, and texts presenting DS Offerings functionalities and included as marketing materials in the DS Offering are not contractual.
+Customer shall only refer to the Documentation with respect to the DS Offerings functionalities.
+
+2.2     SPECIFIC PROVISIONS FOR CERTAIN DS OFFERINGS
+
+3DEXPERIENCE for Makers business category
+
+Access to DS Offerings listed below in Table 1 is granted only to User who is any individual creating projects for personal use such as hobby,
+being specified that such use shall not be for commercial purpose or gain above two thousand (2 000) USD/EUR annually or equivalent amount
+for other currencies. However if DS suspects any commercial use or purpose, in breach of the above mentioned definition (in particular, but
+not limited to, regarding data connection, credit card, usage hours and/or any public information), DS may request additional information to
+the Customer in order to demonstrate Users’ compliance with the terms of the Agreement.
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                      1/6
+                                                                           Table 1
+                                 DS Offering Name                                                   Product Number
+  Collaborative Industry Innovator                                                                      6NP-CSV-MC
+  Collaborative Business Innovator                                                                      6NP-IFW-MC
+  3D Creator                                                                                           6NP-WXD-MC
+  3D Sculptor                                                                                           6NP-XFO-MC
+  3DEXPERIENCE SOLIDWORKS Professional                                                                 6NP-XWB-MC
+  NC Shop Floor Programmer                                                                              6NP-NSR-MC
+  3DEXPERIENCE SOLIDWORKS for Makers                                                                   6NB-3SME-MC
+
+Access to the 3DEXPERIENCE SOLIDWORKS for Makers (6NB-3SME-MC) Packaged Offering provides access to the Online Services listed
+below in Table 2; all these Online Services should be operated together. The terms and conditions related to these Online Services can be
+found in the Product Portfolio.
+                                                                 Table 2
+                              DS Offering Name                                                    Product Number
+  Collaborative Industry Innovator                                                                     6NP-CSV-MC
+  Collaborative Business Innovator                                                                     6NP-IFW-MC
+  3D Creator                                                                                           6NP-WXD-MC
+  3D Sculptor                                                                                          6NP-XFO-MC
+  3DEXPERIENCE SOLIDWORKS Professional                                                                 6NP-XWB-MC
+  NC Shop Floor Programmer                                                                             6NP-NSR-MC
+
+At any given time, Customer can authorize, in a given Platform, up to four (4) additional Named Users to use the DS Offerings assigned to
+such Platform.
+
+Online disk space
+Access to the Online Services listed below in Table 3 provides the right to use the corresponding online disk space.
+                                                                   Table 3
+                            DS Offering Name                                            Product Number               Online disk space [GB]
+  3DEXPERIENCE SOLIDWORKS for Makers                                                    6NB-3SME-MC                          Five (5)
+
+For one (1) Platform, such disk space is shared among all the authorized Users. Such online disk space of one (1) Platform cannot be
+transferred to another Platform.
+
+3DEXPERIENCE for Students business category
+
+Access to DS Offerings listed below in Table 4 is granted only to Customer who is any individual enrolled in good faith as a student in an
+academic program.
+                                                                 Table 4
+                            DS Offering Name                                                     Product Number
+  Collaborative Industry Innovator Student                                                            6NP-CSV-STU-AC
+  Collaborative Business Innovator Student                                                            6NP-IFW-STU-AC
+  Collaborative 3DEXPERIENCE Engineer Student                                                           6NP-IWR-AC
+  3D Innovator Student                                                                                   6NP-IXI-AC
+  3D Designer Student                                                                                   6NP-IXW-AC
+  3DEXPERIENCE CATIA Student                                                                             6NP-IYI-AC
+  3DEXPERIENCE Engineer Student                                                                         6NP-IYR-AC
+  3DEXPERIENCE SOLIDWORKS Student                                                                       6NP-IYW-AC
+  3DEXPERIENCE CATIA for Students                                                                      6NB-I3I-STU-AC
+  3DEXPERIENCE Engineer for Students                                                                  6NB-I3R-STU-AC
+  3DEXPERIENCE SOLIDWORKS for Students                                                                6NB-I3W-STU-AC
+
+Access to the 3DEXPERIENCE SOLIDWORKS for Students (6NB-I3W-STU-AC) Packaged Offering provides access to the Online Services
+listed below in Table 5; all these Online Services should be operated together. The terms and conditions related to these Online Services can
+be found in the Product Portfolio.
+                                                                    Table 5
+                               DS Offering Name                                                      Product Number
+  Collaborative Industry Innovator Student                                                            6NP-CSV-STU-AC
+  Collaborative Business Innovator Student                                                            6NP-IFW-STU-AC
+  3D Designer Student                                                                                   6NP-IXW-AC
+  3DEXPERIENCE SOLIDWORKS Student                                                                       6NP-IYW-AC
+
+Access to the 3DEXPERIENCE CATIA for Students (6NB-I3I-STU-AC) Packaged Offering provides access to Online Services listed below in
+Table 6; all these Online Services should be operated together. The terms and conditions related to these Online Services can be found in the
+Product Portfolio.
+
+
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                  2/6
+                                                                           Table 6
+                                 DS Offering Name                                                   Product Number
+  Collaborative Industry Innovator Student                                                           6NP-CSV-STU-AC
+  Collaborative Business Innovator Student                                                           6NP-IFW-STU-AC
+  3D Innovator Student                                                                                 6NP-IXI-AC
+  3DEXPERIENCE CATIA Student                                                                           6NP-IYI-AC
+
+Access to the 3DEXPERIENCE Engineer for Students (6NB-I3R-STU-AC) Packaged Offering provides access to Online Services listed
+below in Table 7; all these Online Services should be operated together.
+The terms and conditions related to these Online Services can be found in the Product Portfolio.
+                                                                  Table 7
+                             DS Offering Name                                                    Product Number
+  Collaborative Industry Innovator Student                                                           6NP-CSV-STU-AC
+  Collaborative Business Innovator Student                                                           6NP-IFW-STU-AC
+  Collaborative 3DEXPERIENCE Engineer Student                                                          6NP-IWR-AC
+  3DEXPERIENCE Engineer Student                                                                        6NP-IYR-AC
+
+User is granted the right to use one (1) and only one (1) Collaborative Business Innovator Student (6NP-IFW-STU-AC) whatever DS Offerings
+purchased.
+
+Online disk space
+Access to the Collaborative Business Innovator Student (6NP-IFW-STU-AC) Online Service provides the right to use five (5) GB of online disk
+space.
+
+
+3. OTHER PERMITTED USES FOR DS OFFERINGS
+
+3DEXPERIENCE for Makers business category
+Cross-Customers collaboration
+If so specified in the Documentation applicable to a given Online Service, a User authorized to use a Customer’s Online Service under the
+Named User Based licensing scheme can be invited to use some Licensed Programs included in such Online Service (excluding any other
+related services such as but not limited to the online disk space) on a Platform that belongs to another Customer.
+
+3DEXPERIENCE for Students business category
+Certification exams
+For some Online Services, User has access to certification exams during the term of DS Offerings. Until a given exam is passed, consecutive
+attempts are separated by at least fourteen (14) days alternating with at least one hundred eighty (180) days.
+
+
+4. SPECIFIC TERMS FOR THIRD PARTY COMPONENTS
+
+The specific terms relating to the use of certain third party components or products not developed by or for a DS Group Company and granted
+to Customer to be used in connection with or within a DS Offering are defined hereafter:
+
+4.1     OPEN SOURCE COMPONENTS
+
+The DS Offerings may include open source components. Whenever notices (such as acknowledgment, copies of licenses or attribution notice)
+are required by the original licensor, such notices are included in the Documentation and Program Directory (PDir) of the DS Offerings.
+
+Moreover, some open source components may not be distributed and licensed under the terms of the Agreement but under the terms of their
+original licenses as set forth in the Documentation and Program Directory (PDir) of the DS Offerings themselves.
+
+Source code for open source software components licensed under terms and conditions that mandate availability of such source code is
+available upon request. Except for components mentioned in the section EXCLUSIONS below, the warranty and indemnification provided by
+DS under the Agreement apply to all open source software components and shall be provided by DS and not by the original licensor, but only
+for the use of the DS Offerings that is in compliance with the terms of the Agreement, and in conjunction with the DS Offerings. The original
+licensors of said open source software components provide them on an “as is” basis and without any liability whatsoever to Customer.
+
+
+
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                  3/6
+4.2     ADDITIONAL THIRD PARTY TERMS
+
+The following terms apply in addition to the Agreement:
+
+        Adobe® PDF
+        When working with the Adobe® PDF software, Customer may embed copies of the font software into Customer’s electronic documents
+        for the purpose of printing, viewing and editing the document. If the font software that Customer is embedding is identified as “licensed
+        for editable embedding” on Adobe’s website at http://www.adobe.com/type/browser/legal/embeddingeula.html, Customer may also
+        embed copies of that font software for the additional purpose of editing Customer’s electronic documents. No other embedding rights
+        are implied or permitted under this license. Adobe is either a registered trademark or a trademark of Adobe Systems Incorporated in
+        the United States and other countries.
+
+        Box services
+        If Customer authorizes its authorized users to use their Box accounts in conjunction with the use of the Online Services, Customer
+        acknowledges and agrees to comply with the following additional terms:
+        1. Use of Box services by the authorized users is under Customer’s sole responsibility, including but not limited to, compliance with
+             Applicable Data Protection Legislation, any other applicable law, regulation, and the Box terms and conditions.
+        2. Access to Box services through Online Services may be limited, suspended and/or terminated at any time without prior notice
+             from DS.
+
+        Dropbox services
+        If Customer authorizes its authorized users to use their Dropbox accounts in conjunction with the use of the Online Services, Customer
+        acknowledges and agrees to comply with the following additional terms:
+        1. Use of Dropbox services by the authorized users is under Customer’s sole responsibility, including but not limited to, compliance
+             with Applicable Data Protection Legislation, any other applicable law, regulation, and the Dropbox terms and conditions. In
+             particular, Customer shall describe in its data privacy policy what Personal Data are collected and how they are used and shared
+             when using Dropbox services, as described in the Documentation.
+        2. Access to Dropbox services through Online Services may be limited, suspended and/or terminated at any time without prior notice
+             from DS.
+
+        Google Drive services
+        If Customer authorizes its authorized users to use their Google Drive accounts in conjunction with the use of the Online Services,
+        Customer acknowledges and agrees to comply with the following additional terms:
+        1. Use of Google Drive services by the authorized Users is under Customer’s sole responsibility, including but not limited to,
+             compliance with Applicable Data Protection Legislation, any other applicable law, regulation, and the Google terms and conditions.
+        2. Access to Google Drive services through Online Services may be limited, suspended and/or terminated at any time without notice
+             from DS.
+        Use of Google Drive services by the authorized users implies that Customer grants to Google, for the sole purpose of enabling Google to
+        provide, secure, and improve the Google Drive services, a perpetual, irrevocable, worldwide, sub-licensable, royalty-free, and non-
+        exclusive license to Use Customer Data authorized Users’ Google Drive accounts through Online Services. "Use" means use, host, store,
+        modify, communicate, and publish.
+
+        OneDrive services
+        If Customer authorizes its authorized users to use their OneDrive accounts in conjunction with the use of the Online Services, Customer
+        acknowledges and agrees to comply with the following additional terms:
+        1. Use of OneDrive services by the authorized users is under Customer’s sole responsibility, including but not limited to, compliance
+             with Applicable Data Protection Legislation, any other applicable law, regulation, and the OneDrive terms and conditions.
+        2. Access to OneDrive services through Online Services may be limited, suspended and/or terminated at any time without prior
+             notice from DS.
+
+        IBM MPI Community Edition
+        The IBM MPI Community Edition component is not licensed under the terms of the Agreement but under the terms of the IBM
+        International License Agreement for Non-Warranted Programs.
+
+        Sencha components
+        Customer is not authorized to use Sencha components in any other application other than the one with which it is distributed.
+
+        VISA libraries
+        VISA libraries are not provided as part of this product.
+        The use of VISA libraries in conjunction with this product is subject to the acceptance by the Customer of the IVI Foundation license
+        agreement.
+        The aforementioned IVI Foundation license agreement can be obtained from the IVI Foundation and shall only bind Customer and the
+        IVI Foundation.
+
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                      4/6
+        Oracle Instant Client
+        The following terms apply in addition to Oracle terms above if Customer is granted licenses of Oracle Instant Client software:
+        1. Customer shall comply fully with all applicable export and import laws to assure that neither the Oracle software, nor any direct
+             product thereof, are exported, directly or indirectly, in violation of applicable laws.
+
+        Oracle
+        The following terms also apply if Customer is granted licenses of Oracle software:
+        1. The Oracle software licenses shall be used only in conjunction with the Online Services.
+        2. Customer shall not publish the results of any benchmark tests run on the Oracle software.
+        3. Oracle or its licensor retains all ownership and intellectual property rights to Oracle software, including Oracle AutoVue.
+        4. Oracle is a third party beneficiary of the Agreement.
+        5. The parties agree to exclude the Agreement from the applicability of the Uniform Computer Information Transactions Act.
+        6. Some Oracle software may include source code that Oracle may provide as part of its standard shipment of Oracle software and
+             such source code shall be governed by the Agreement.
+        7. Customer shall not assign, give or transfer the licenses of the Oracle software or the Oracle agreement insofar as it relates to the
+             Oracle software; or use the Oracle software for rental, timesharing, subscription service, hosting or outsourcing; make the Oracle
+             software available in any manner to any third party for use in the third party’s business operations.
+        8. Customer shall not remove or modify any program marking or any notice of Oracle’s or its licensor’s proprietary rights.
+        9. Use of the Commercial Features for any commercial or production purpose requires a separate license from Oracle. “Commercial
+             Features” means those features that are identified as such in the Licensing Information User Manual – Oracle Java SE and Oracle
+             Java Embedded Products Document, accessible at http://www.oracle.com/technetwork/java/javase/documentation/index.html,
+             under the “Description of Product Editions and Permitted Features” section.
+
+        Support for Oracle Software
+        Customer may not contact Oracle for support for Oracle software licensed through DS. Customer may not contact DS for support for
+        Oracle software not licensed through DS.
+
+        Microsoft Kinect
+        1. Customer shall not use the Microsoft Kinect component with any program where failure or fault of any kind of the Microsoft Kinect
+             component could lead to death or serious bodily injury of any person, or to severe physical or environmental damage
+             (“High Risk Use”). High Risk Use is STRICTLY PROHIBITED. High Risk Use includes, for example, the following: aircraft
+             navigation and control of other modes of human mass transportation, nuclear or chemical facilities.
+        2. When using the Online Services with a Kinect for Windows v2 Sensor, Microsoft will collect telemetry data (e.g. operating system,
+             number of processors, graphic chipset, memory, device type, locale, time) in order to improve Microsoft products and services.
+             The data will not be used to identify specific individuals.
+
+        Third party components included in SOLIDWORKS Connected
+        The following terms supplement the Export section of the Agreement:
+        Customer acknowledges that the DS Offerings including SOLIDWORKS Connected Licensed Program, as specified in the
+        Documentation, and its associated Documentation contain software and technical data that are expressly subject to the export control
+        laws, orders or other restrictions of the United States and the United Kingdom regarding export of software, technical data or products
+        of such software, or technical data. Customer shall not directly or indirectly import, export or re-export these DS Offerings or permit
+        transshipment of these DS Offerings (a) to any country or destination for which the United States or the United Kingdom require(s) an
+        export license or other approval for export without first having obtained such approval and the written approval of DS, or (b) otherwise
+        contrary to United States or United Kingdom law. Customer understands and acknowledges that, in the event of a conflict between
+        United States and United Kingdom laws, the more restrictive law shall prevail.
+
+4.3     EXCLUSIONS
+
+The warranty and indemnification provided by DS under the Agreement are not applicable to third party software components listed hereunder:
+
+        Oracle Java Runtime Environment (JRE) and Apache TomEE+ (including both Tomcat and Java EE) from the Apache Foundation
+        which may be delivered for Customer convenience.
+
+
+5. DEFINITIONS
+
+The following definitions supplement those of the section “Definitions” of the Agreement.
+
+5.1     GENERAL DEFINITIONS
+
+Configuration or Package means a standard set of DS Offerings which are bundled together. The DS Offerings composing such Configuration
+or Package shall only be operated together.
+
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                     5/6
+Product Portfolio means a set of information related to the DS Offerings available at https://www.3ds.com/terms/product-portfolio/online-services.
+
+GENERAL DEFINITIONS SPECIFIC TO THIS OST
+
+Machine means a device belonging to User or under its sole control or supervision on which a DS Offering is executed.
+
+User means either the Customer identified in the Transaction Document or any natural person designated by Customer to use the DS Offerings
+under Customer sole responsibility.
+
+5.2     PRICING STRUCTURE DEFINITIONS
+
+QSC means the Quarterly Service Charge for use of a DS Offering, subject to the conditions set forth in the Agreement. Payment of the QSC
+for a DS Offering entitles Customer to (i) a three (3) month right to use the DS Offering and (ii) Support Services for such DS Offering for three
+(3) months. Customer is deemed to have accepted to renew any DS Offering for three (3) months and to pay QSC at the then applicable price,
+if Customer continues to use such DS Offering(s) after the anniversary date of the DS Offering. The renewal price shall be calculated by
+applying the percentage difference between the list price of the renewal period and the list price of the prior period against the price charged
+to Customer for the prior period. Termination of use rights and Support Services is not permitted without terminating the access rights to the
+Online Services.
+
+MSC means the Monthly Service Charge for use of a DS Offering, subject to the conditions set forth in the Agreement. Payment of the MSC
+for a DS Offering entitles Customer to (i) a one (1) month right to use the DS Offering and (ii) Support Services for such DS Offering for one
+(1) month. Notwithstanding anything contrary within the Agreement, in absence of non-renewal notification at least five (5) days before the
+anniversary date of a DS Offering, Customer is deemed to have accepted to renew such DS offering for one (1) month and to pay MSC at the
+then applicable price. The renewal price shall be calculated by applying the percentage difference between the list price of the renewal period
+and the list price of the prior period against the price charged to Customer for the prior period. Termination of use rights and Support Services
+is not permitted without terminating the access rights to the Online Services.
+
+YSC means the Yearly Service Charge for use of a DS Offering, subject to the conditions set forth in the Agreement. Payment of the YSC of
+a DS Offering entitles Customer to (i) a one (1) year right to use the DS Offering and (ii) Support Services for such DS Offering for one (1)
+year. Customer is deemed to have accepted to renew any DS Offering for one (1) year and to pay YSC at the then applicable price, if Customer
+continues to use such DS Offering(s) after the anniversary date of the DS Offering. The renewal price shall be calculated by applying the
+percentage difference between the list price of the renewal period and the list price of the prior period against the price charged to Customer
+for the prior period. Termination of use rights and Support Services is not permitted without terminating the access rights to the Online Services.
+
+5.3     LICENSING SCHEME DEFINITIONS
+
+Named User means a User identified with a unique username and password to use the DS Offering from a single machine at any given time.
+
+Named User Based. Use of a DS Offering in Named User Based mode is authorized for the maximum number of Named Users, defined in
+related Transaction Document. If so specified in the Product Portfolio, certain DS Offerings used in Named User Based mode can be run on
+several machines at the same time. Customer shall not use any automated program or “user agent” program or utilities for multiple Users, and
+Customer shall ensure that Named Users do not share or use the same username and password. Customer may replace Named User(s) as
+necessary to reflect permanent personnel change(s), provided that the number of individuals authorized to use the DS Offering does not
+exceed the maximum number of rights granted to Customer for such DS Offering. Upon DS’s request, Customer shall provide DS with a signed
+document listing (i) the number of Named Users, (ii) the type of use of the DS Offerings, and (iii) the locations and types of the systems on
+which DS Offerings operate or Customer has installed the DS Offering(s) as applicable. DS may provide Customer with one or more utilities,
+either included within the DS Offering(s) or separately, for the purpose of analyzing access right(s) and utilization, to establish usage by
+Customer. In such case, Customer shall provide, if applicable, the unedited and unmodified output file(s) and/or report(s) resulting from the
+operation(s) of such utility(ies), along with a signed declaration that the file(s) is(are) representative of actual DS Offering(s) usage. Customer
+is responsible for implementing all reasonable means to monitor its compliance with the terms of the Agreement.
+
+
+6. TRADEMARKS
+
+The trademarks listed in the Dassault Systèmes Trademarks section at https://www.3ds.com/legal-information are commercial trademarks or
+registered trademarks of Dassault Systèmes, a French “société européenne” (Versailles Commercial Register # B 322 306 440), or its
+subsidiaries in the United States and/or other countries. All other trademarks are owned by their respective owners. Use of any Dassault
+Systèmes or its subsidiaries trademarks is subject to their express written approval.
+
+DS Offerings and services names may be trademarks or service marks of Dassault Systèmes or its subsidiaries.
+
+
+
+
+DS OST for 3DEXPERIENCE for Consumers Online Services – February 8, 2022                                                                        6/6
+

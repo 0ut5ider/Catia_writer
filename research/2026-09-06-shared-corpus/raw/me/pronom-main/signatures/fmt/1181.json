@@ -1,0 +1,52 @@
+{
+  "fileFormatID": 1991,
+  "formatName": "Bodypaint 3D",
+  "version": null,
+  "formatDescription": "BodyPaint 3D is 3D painting application created by Maxon. It is primarily used to create textures for 3D models.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "07 Aug 2018",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "07 Aug 2018",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Image (Raster)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1181",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1563,
+      "name": "BodyPaint 3D",
+      "note": "BOF: AC4DBody - http://http.maxon.net/pub/sdk/91/b3dformat.zip",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "41433444426F6479",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "b3d",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 1
+}

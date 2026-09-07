@@ -1,0 +1,45 @@
+size 112111 magic b'V5_CFV2\x00'
+outer dir_off 100847 dir_len 11264 D+L==size True fillff 0000199200001400
+outer dir magic b'CATIA_V5 CB0001\x00'
+inner V5_CFV2 @ 82572
+inner A 7072 B 4096 inner dir_off 89644 magic b'CATIA_V5 CB0001\x00'
+CB__END tail b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+--- inner descriptors ---
+innerdesc@89938 name='6.0ac19000027f22c402d060000' extents=1 loglen=132 exts=[(6940, 132, 0, 1)]
+innerdesc@90134 name='MAIN' extents=1 loglen=9 exts=[(6931, 9, 0, 1)]
+innerdesc@90338 name='Describe' extents=1 loglen=88 exts=[(92, 88, 0, 1)]
+innerdesc@90542 name='Describe' extents=1 loglen=9 exts=[(64, 9, 0, 1)]
+innerdesc@90758 name='MainDataStream' extents=1 loglen=19 exts=[(73, 19, 0, 1)]
+innerdesc@90958 name='Header' extents=1 loglen=84 exts=[(248, 84, 0, 1)]
+innerdesc@91158 name='Header' extents=1 loglen=9 exts=[(180, 9, 0, 1)]
+innerdesc@91374 name='MainDataStream' extents=1 loglen=59 exts=[(189, 59, 0, 1)]
+innerdesc@91582 name='SceneGraph' extents=1 loglen=132 exts=[(6799, 132, 0, 1)]
+innerdesc@91790 name='SceneGraph' extents=1 loglen=9 exts=[(332, 9, 0, 1)]
+innerdesc@92006 name='MainDataStream' extents=1 loglen=5020 exts=[(341, 5020, 0, 1)]
+innerdesc@92218 name='SurfacicReps' extents=1 loglen=1438 exts=[(5361, 1438, 0, 1)]
+--- FINJPL markers ---
+FINJPL @300 type=0x494e4a50
+FINJPL @2596 type=0x0000008c
+FINJPL @2994 type=0x3b01cd3b
+FINJPL @3048 type=0x27000000
+FINJPL @14549 type=0x000000bc
+FINJPL @42159 type=0x01010001
+FINJPL @76365 type=0x0000008c
+FINJPL @81907 type=0x0000008c
+FINJPL @82301 type=0x01010001
+FINJPL @93978 type=0x0000008c
+FINJPL @94792 type=0x00000084
+FINJPL @99909 type=0x000003a2
+--- markers census ---
+050801 19
+60 155
+e50d03 525
+003332 6
+003333 7
+003335 1
+003336 19
+003337 10
+300404ff 14
+102404ffff000000 3
+OLE CFB @ -1
+JFIF @ 3560

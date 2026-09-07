@@ -1,0 +1,473 @@
+
+977 F.2d 1510: Sega Enterprises Ltd., a Japanese Corporation, Plaintiff-appellee, v. Accolade, Inc., a California Corporation, Defendant-appellant :: US Court of Appeals Cases :: Justia
+Justia.com
+Lawyer Directory
+Legal Answers
+Law Blogs
+Law
+more
+ ▼
+Justia Blog
+Supreme Court
+Federal Law
+Federal Regs
+Federal Cases
+Federal Dockets
+State Law
+State Cases
+Legal Forms
+Bankruptcy
+Mexico Law
+Legal News
+Law Podcasts
+Law Tweeters
+-----
+Marketing Services
+Law Firm Websites
+Lawyer Blogs
+Google & Bing CPC
+Client Portfolio
+Client Testimonials
+-----
+even more &raquo;
+Sign In
+Justia
+ &gt; 
+US Law
+ &gt; 
+US Case Law
+ &gt; 
+US Federal Case Law
+ &gt; 
+US Courts of Appeals Cases
+ &gt; 
+F.2d
+ &gt; 
+Volume 977
+ &gt; 977 F.2d 1510 - Sega Enterprises Ltd., a Japanese Corporation, ...			
+NEW
+ - 
+Receive Justia's FREE Daily Newsletters of Opinion Summaries
+ for the US Supreme Court, all US Federal Appellate Courts & the 50 US State Supreme Courts and Weekly Practice Area Opinion Summaries Newsletters. 
+Subscribe Now
+977 F.2d 1510: Sega Enterprises Ltd., a Japanese Corporation, Plaintiff-appellee, v. Accolade, Inc., a California Corporation, Defendant-appellant
+Share
+|
+United States Court of Appeals, Ninth Circuit. - 977 F.2d 1510
+Argued and Submitted July 20, 1992.Decided Oct. 20, 1992.As Amended Jan. 6, 1993
+William S. Coats, Gibson, Dunn & Crutcher, San Francisco, Cal., for defendant-appellant.
+James Alan Cook, Cook & Lefevre, Palo Alto, CA, Riley R. Russell (of counsel), Redwood Cty., CA, Peter W. Davis, Joel Linzner, Scott D. Baker, and Carla J. Shapreau, Crosby, Heafey, Roach & May, Oakland, Cal., for plaintiff-appellee.
+Dennis S. Karjala, Arizona State University, Tempe, Ariz., for amicus curiae Copyright Law Professors.
+Peter M.C. Choy, American Committee for Interoperable Systems, Mountain View, Cal., for amicus curiae American Committee for Interoperable Systems.
+John Haven Chapman, Chapman, Moran, Hubbard, Glazer & Zimmerman, Stamford, Conn., Thomas N. White, Santa Clara, Cal., for amicus curiae Computer and Communications Industry Ass'n.
+Morton David Goldberg, Schwab, Goldberg, Price & Dannay, New York City, for amicus curiae Computer & Business Equipment Mfrs. Ass'n, et al.
+Appeal from the United States District Court for the Northern District of California.
+Before:  CANBY, REINHARDT, and LEAVY, Circuit Judges.
+REINHARDT, Circuit Judge:
+1
+This case presents several difficult questions of first impression involving our copyright and trademark laws.
+1
+  We are asked to determine, first, whether the Copyright Act permits persons who are neither copyright holders nor licensees to disassemble a copyrighted computer program in order to gain an understanding of the unprotected functional elements of the program.   In light of the public policies underlying the Act, we conclude that, when the person seeking the understanding has a legitimate reason for doing so and when no other means of access to the unprotected elements exists, such disassembly is as a matter of law a fair use of the copyrighted work.   Second, we must decide the legal consequences under the Lanham Trademark Act of a computer manufacturer's use of a security system that affords access to its computers to software cartridges that include an initialization code which triggers a screen display of the computer manufacturer's trademark.   The computer manufacturer also manufactures software cartridges;  those cartridges all contain the initialization code.   The question is whether the computer manufacturer may enjoin competing cartridge manufacturers from gaining access to its computers through the use of the code on the ground that such use will result in the display of a "false" trademark.   Again, our holding is based on the public policies underlying the statute.   We hold that when there is no other method of access to the computer that is known or readily available to rival cartridge manufacturers, the use of the initialization code by a rival does not violate the Act even though that use triggers a misleading trademark display.   Accordingly, we reverse the district court's grant of a preliminary injunction in favor of plaintiff-appellee Sega Enterprises, Ltd. on its claims of copyright and trademark infringement.   We decline, however, to order that an injunction pendente lite issue precluding Sega from continuing to use its security system, even though such use may result in a certain amount of false labeling.   We prefer to leave the decision on that question to the district court initially.
+2
+Plaintiff-appellee Sega Enterprises, Ltd.  ("Sega"), a Japanese corporation, and its subsidiary, Sega of America, develop and market video entertainment systems, including the "Genesis" console (distributed in Asia under the name "Mega-Drive") and video game cartridges.   Defendant-appellant Accolade, Inc., is an independent developer, manufacturer, and marketer of computer entertainment software, including game cartridges that are compatible with the Genesis console, as well as game cartridges that are compatible with other computer systems.
+3
+Sega licenses its copyrighted computer code and its "SEGA" trademark to a number of independent developers of computer game software.   Those licensees develop and sell Genesis-compatible video games in competition with Sega.   Accolade is not and never has been a licensee of Sega.   Prior to rendering its own games compatible with the Genesis console, Accolade explored the possibility of entering into a licensing agreement with Sega, but abandoned the effort because the agreement would have required that Sega be the exclusive manufacturer of all games produced by Accolade.
+4
+Accolade used a two-step process to render its video games compatible with the Genesis console.   First, it "reverse engineered" Sega's video game programs in order to discover the requirements for compatibility with the Genesis console.   As part of the reverse engineering process, Accolade transformed the machine-readable object code contained in commercially available copies of Sega's game cartridges into human-readable source code using a process called "disassembly" or "decompilation".
+2
+  Accolade purchased a Genesis console and three Sega game cartridges, wired a decompiler into the console circuitry, and generated printouts of the resulting source code.   Accolade engineers studied and annotated the printouts in order to identify areas of commonality among the three game programs.   They then loaded the disassembled code back into a computer, and experimented to discover the interface specifications for the Genesis console by modifying the programs and studying the results.   At the end of the reverse engineering process, Accolade created a development manual that incorporated the information it had discovered about the requirements for a Genesis-compatible game.   According to the Accolade employees who created the manual, the manual contained only functional descriptions of the interface requirements and did not include any of Sega's code.
+5
+In the second stage, Accolade created its own games for the Genesis.   According to Accolade, at this stage it did not copy Sega's programs, but relied only on the information concerning interface specifications for the Genesis that was contained in its development manual.   Accolade maintains that with the exception of the interface specifications, none of the code in its own games is derived in any way from its examination of Sega's code.   In 1990, Accolade released "Ishido", a game which it had originally developed and released for use with the Macintosh and IBM personal computer systems, for use with the Genesis console.
+6
+Even before Accolade began to reverse engineer Sega's games, Sega had grown concerned about the rise of software and hardware piracy in Taiwan and other Southeast Asian countries to which it exported its products.   Taiwan is not a signatory to the Berne Convention and does not recognize foreign copyrights.   Taiwan does allow prosecution of trademark counterfeiters.   However, the counterfeiters had discovered how to modify Sega's game programs to blank out the screen display of Sega's trademark before repackaging and reselling the games as their own.   Accordingly, Sega began to explore methods of protecting its trademark rights in the Genesis and Genesis-compatible games.   While the development of its own trademark security system (TMSS) was pending, Sega licensed a patented TMSS for use with the Genesis home entertainment system.
+7
+The most recent version of the Genesis console, the "Genesis III", incorporates the licensed TMSS.   When a game cartridge is inserted, the microprocessor contained in the Genesis III searches the game program for four bytes of data consisting of the letters "S-E-G-A" (the "TMSS initialization code").   If the Genesis III finds the TMSS initialization code in the right location, the game is rendered compatible and will operate on the console.   In such case, the TMSS initialization code then prompts a visual display for approximately three seconds which reads "PRODUCED BY OR UNDER LICENSE FROM SEGA ENTERPRISES LTD" (the "Sega Message").   All of Sega's game cartridges, including those disassembled by Accolade, contain the TMSS initialization code.
+8
+Accolade learned of the impending release of the Genesis III in the United States in January, 1991, when the Genesis III was displayed at a consumer electronics show.   When a demonstration at the consumer electronics show revealed that Accolade's "Ishido" game cartridges would not operate on the Genesis III, Accolade returned to the drawing board.   During the reverse engineering process, Accolade engineers had discovered a small segment of code--the TMSS initialization code--that was included in the "power-up" sequence of every Sega game, but that had no identifiable function.   The games would operate on the original Genesis console even if the code segment was removed.   Mike Lorenzen, the Accolade engineer with primary responsibility for reverse engineering the interface procedures for the Genesis console, sent a memo regarding the code segment to Alan Miller, his supervisor and the current president of Accolade, in which he noted that "it is possible that some future Sega peripheral device might require it for proper initialization."
+9
+In the second round of reverse engineering, Accolade engineers focused on the code segment identified by Lorenzen.   After further study, Accolade added the code to its development manual in the form of a standard header file to be used in all games.   The file contains approximately twenty to twenty-five bytes of data.   Each of Accolade's games contains a total of 500,000 to 1,500,000 bytes.   According to Accolade employees, the header file is the only portion of Sega's code that Accolade copied into its own game programs.
+10
+In 1991, Accolade released five more games for use with the Genesis III, "Star Control", "Hardball!", "Onslaught", "Turrican", and "Mike Ditka Power Football."   With the exception of "Mike Ditka Power Football", all of those games, like "Ishido", had originally been developed and marketed for use with other hardware systems.   All contained the standard header file that included the TMSS initialization code.   According to Accolade, it did not learn until after the Genesis III was released on the market in September, 1991, that in addition to enabling its software to operate on the Genesis III, the header file caused the display of the Sega Message.   All of the games except "Onslaught" operate on the Genesis III console;  apparently, the programmer who translated "Onslaught" for use with the Genesis system did not place the TMSS initialization code at the correct location in the program.
+11
+All of Accolade's Genesis-compatible games are packaged in a similar fashion.   The front of the box displays Accolade's "Ballistic" trademark and states "for use with Sega Genesis and Mega Drive Systems."   The back of the box contains the following statement:  "Sega and Genesis are registered trademarks of Sega Enterprises, Ltd. Game 1991 Accolade, Inc.   All rights reserved.   Ballistic is a trademark of Accolade, Inc.   Accolade, Inc. is not associated with Sega Enterprises, Ltd.   All product and corporate names are trademarks and registered trademarks of their respective owners."
+12
+Sega filed suit against Accolade on October 31, 1991, alleging trademark infringement and false designation of origin in violation of sections 32(1) and 43(a) of the Lanham Act, 15 U.S.C. &sect;&sect; 1114(1)(a), 1125(a).
+3
+  On November 29, 1991, Sega amended its complaint to include a claim for copyright infringement.   Accolade filed a counterclaim against Sega for false designation of origin under section 43(a) of the Lanham Act, 15 U.S.C. &sect; 1125(a).
+4
+  The parties filed cross-motions for preliminary injunctions on their respective claims.
+13
+After expedited discovery and a hearing, the district court granted Sega's motion.   Prior to the hearing, Sega introduced the declaration of Takeshi Nagashima, an employee of Sega.   Nagashima stated that it was possible either to create a game program which did not contain the TMSS code but would still operate on the Genesis III, or to modify a game program so that the Sega Message would not appear when the game cartridge was inserted.   Nagashima stated that he had been able to make both modifications using standard components, at a total extra cost of approximately fifty cents.   At the hearing, counsel for Sega produced two game cartridges which, he represented, contained the modifications made by Nagashima, and demonstrated to the district judge that the Sega Message did not appear when the cartridges were inserted into a Genesis III console.   Sega offered to make the cartridges available for inspection by Accolade's counsel, but declined to let Accolade's software engineers examine the cartridges or to reveal the manner in which the cartridges had been modified.   The district court concluded that the TMSS code was not functional and that Accolade could not assert a functionality defense to Sega's claim of trademark infringement.
+14
+With respect to Sega's copyright claim, the district court rejected Accolade's contention that intermediate copying of computer object code does not constitute infringement under the Copyright Act.   It found that Accolade had disassembled Sega's code for a commercial purpose, and that Sega had likely lost sales of its games as a result of Accolade's copying.   The court further found that there were alternatives to disassembly that Accolade could have used in order to study the functional requirements for Genesis compatibility.   Accordingly, it also rejected Accolade's fair use defense to Sega's copyright infringement claim.
+15
+Based on its conclusion that Sega is likely to succeed on the merits of its claims for copyright and trademark infringement, on April 3, 1992, the district court enjoined Accolade from:  (1) disassembling Sega's copyrighted code;  (2) using or modifying Sega's copyrighted code;  (3) developing, manufacturing, distributing, or selling Genesis-compatible games that were created in whole or in part by means that included disassembly;  and (4) manufacturing, distributing, or selling any Genesis-compatible game that prompts the Sega Message.   On April 9, 1992, in response to a request from Sega, the district court modified the preliminary injunction order to require the recall of Accolade's infringing games within ten business days.
+16
+On April 14, 1992, Accolade filed a motion in the district court for a stay of the preliminary injunction pending appeal.   When the district court failed to rule on the motion for a stay by April 21, ten business days after the April 9 recall order, Accolade filed a motion for an emergency stay in this court pursuant to 9th Cir.R. 27-3, together with its notice of appeal.   On April 23, we stayed the April 9 recall order.   The April 3 preliminary injunction order remained in effect until August 28, when we ordered it dissolved and announced that this opinion would follow.
+17
+In order to obtain a preliminary injunction, the movant must demonstrate "either a likelihood of success on the merits and the possibility of irreparable injury, or that serious questions going to the merits were raised and the balance of hardships tips sharply in its favor."  Johnson Controls, Inc. v. Phoenix Control Systems, Inc., 
+886 F.2d 1173
+, 1174 (9th Cir.1989).   We may reverse the district court's grant of a preliminary injunction to Sega if the district court abused its discretion, made an error of law, or based its decision on an erroneous legal standard or on clearly erroneous findings of fact.  Religious Technology Ctr. v. Scott, 
+869 F.2d 1306
+, 1309 (9th Cir.1989);  Lou v. Belzberg, 
+834 F.2d 730
+, 733 (9th Cir.1987), cert. denied, 
+485 U.S. 993
+, 108 S.Ct. 1302, 99 L.Ed.2d 512 (1988).
+18
+Accolade raises four arguments in support of its position that disassembly of the object code in a copyrighted computer program does not constitute copyright infringement.   First, it maintains that intermediate copying does not infringe the exclusive rights granted to copyright owners in section 106 of the Copyright Act unless the end product of the copying is substantially similar to the copyrighted work.   Second, it argues that disassembly of object code in order to gain an understanding of the ideas and functional concepts embodied in the code is lawful under section 102(b) of the Act, which exempts ideas and functional concepts from copyright protection.   Third, it suggests that disassembly is authorized by section 117 of the Act, which entitles the lawful owner of a copy of a computer program to load the program into a computer.   Finally, Accolade contends that disassembly of object code in order to gain an understanding of the ideas and functional concepts embodied in the code is a fair use that is privileged by section 107 of the Act.
+19
+Neither the language of the Act nor the law of this circuit supports Accolade's first three arguments.   Accolade's fourth argument, however, has merit.   Although the question is fairly debatable, we conclude based on the policies underlying the Copyright Act that disassembly of copyrighted object code is, as a matter of law, a fair use of the copyrighted work if such disassembly provides the only means of access to those elements of the code that are not protected by copyright and the copier has a legitimate reason for seeking such access.   Accordingly, we hold that Sega has failed to demonstrate a likelihood of success on the merits of its copyright claim.   Because on the record before us the hardships do not tip sharply (or at all) in Sega's favor, the preliminary injunction issued in its favor must be dissolved, at least with respect to that claim.
+20
+We have previously held that the Copyright Act does not distinguish between unauthorized copies of a copyrighted work on the basis of what stage of the alleged infringer's work the unauthorized copies represent.  Walker v. University Books, 
+602 F.2d 859
+, 864 (9th Cir.1979) ("[T]he fact that an allegedly infringing copy of a protected work may itself be only an inchoate representation of some final product to be marketed commercially does not in itself negate the possibility of infringement.").   Our holding in Walker was based on the plain language of the Act.   Section 106 grants to the copyright owner the exclusive rights "to reproduce the work in copies", "to prepare derivative works based upon the copyrighted work", and to authorize the preparation of copies and derivative works.  17 U.S.C. &sect; 106(1)-(2).   Section 501 provides that "[a]nyone who violates any of the exclusive rights of the copyright owner as provided by sections 106 through 118 ... is an infringer of the copyright."   Id. &sect; 501(a).   On its face, that language unambiguously encompasses and proscribes "intermediate copying".  Walker, 
+602 F.2d at 863
+-64;  see also Walt Disney Productions v. Filmation Associates, 628 F.Supp. 871, 875-76 (C.D.Cal.1986).
+21
+In order to constitute a "copy" for purposes of the Act, the allegedly infringing work must be fixed in some tangible form, "from which the work can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device."  17 U.S.C. &sect; 101.   The computer file generated by the disassembly program, the printouts of the disassembled code, and the computer files containing Accolade's modifications of the code that were generated during the reverse engineering process all satisfy that requirement.   The intermediate copying done by Accolade therefore falls squarely within the category of acts that are prohibited by the statute.
+22
+Accolade points to a number of cases that it argues establish the lawfulness of intermediate copying.   Most of the cases involved the alleged copying of books, scripts, or literary characters.  See v. Durang, 
+711 F.2d 141
+ (9th Cir.1983);  Warner Bros. v. ABC, 
+654 F.2d 204
+ (2d Cir.1981);  Miller v. Universal City Studios, Inc., 
+650 F.2d 1365
+ (5th Cir.1981);  Walker v. Time Life Films, Inc., 615 F.Supp. 430 (S.D.N.Y.1985), aff'd, 
+784 F.2d 44
+ (2d Cir.), cert. denied, 
+476 U.S. 1159
+, 106 S.Ct. 2278, 90 L.Ed.2d 721 (1986);  Davis v. United Artists, Inc., 547 F.Supp. 722 (S.D.N.Y.1982);  Fuld v. NBC, 390 F.Supp. 877 (S.D.N.Y.1975);  Cain v. Universal Pictures Co., 47 F.Supp. 1013 (S.D.Cal.1942).   In each case, however, the eventual lawsuit alleged infringement only as to the final work of the defendants.   We conclude that this group of cases does not alter or limit the holding of Walker.
+23
+The remaining cases cited by Accolade, like the case before us, involved intermediate copying of computer code as an initial step in the development of a competing product.  Computer Assoc.  Int'l v. Altai, Inc., 1992 WL 372273, 23 U.S.P.Q.2d (BNA) 1241 (2d Cir.1992) ("CAI");  NEC Corp. v. Intel Corp., 10 U.S.P.Q.2d 1177, 1989 WL 67434 (N.D.Cal.1989);  E.F. Johnson Co. v. Uniden Corp., 623 F.Supp. 1485 (D.Minn.1985).   In each case, the court based its determination regarding infringement solely on the degree of similarity between the allegedly infringed work and the defendant's final product.   A close reading of those cases, however, reveals that in none of them was the legality of the intermediate copying at issue.   Sega cites an equal number of cases involving intermediate copying of copyrighted computer code to support its assertion that such copying is prohibited.  Atari Games Corp. v. Nintendo of America, Inc., 18 U.S.P.Q.2d 1935, 1991 WL 57304 (N.D.Cal.1991);  SAS Institute, Inc. v. S & H Computer Systems, Inc., 605 F.Supp. 816 (M.D.Tenn.1985);  S & H Computer Systems, Inc. v. SAS Institute, Inc., 568 F.Supp. 416 (M.D.Tenn.1983);  Hubco Data Products v. Management Assistance, Inc., 219 U.S.P.Q. 450 (D.Idaho 1983).   Again, however, it appears that the question of the lawfulness of intermediate copying was not raised in any of those cases.
+24
+In summary, the question whether intermediate copying of computer object code infringes the exclusive rights granted to the copyright owner in section 106 of the Copyright Act is a question of first impression.   In light of the unambiguous language of the Act, we decline to depart from the rule set forth in Walker for copyrighted works generally.   Accordingly, we hold that intermediate copying of computer object code may infringe the exclusive rights granted to the copyright owner in section 106 of the Copyright Act regardless of whether the end product of the copying also infringes those rights.   If intermediate copying is permissible under the Act, authority for such copying must be found in one of the statutory provisions to which the rights granted in section 106 are subject.
+25
+Accolade next contends that disassembly of computer object code does not violate the Copyright Act because it is necessary in order to gain access to the ideas and functional concepts embodied in the code, which are not protected by copyright.  17 U.S.C. &sect; 102(b).   Because humans cannot comprehend object code, it reasons, disassembly of a commercially available computer program into human-readable form should not be considered an infringement of the owner's copyright.   Insofar as Accolade suggests that disassembly of object code is lawful per se, it seeks to overturn settled law.
+26
+Accolade's argument regarding access to ideas is, in essence, an argument that object code is not eligible for the full range of copyright protection.   Although some scholarly authority supports that view, we have previously rejected it based on the language and legislative history of the Copyright Act.  Johnson Controls, Inc. v. Phoenix Control Sys., Inc., 
+886 F.2d 1173
+, 1175 (9th Cir.1989);  Apple Computer, Inc. v. Formula Int'l Inc., 
+725 F.2d 521
+, 524-25 (9th Cir.1984);  see also Apple Computer, Inc. v. Franklin Computer Corp., 
+714 F.2d 1240
+, 1246-48 (3d Cir.1983), cert. dismissed, 
+464 U.S. 1033
+, 104 S.Ct. 690, 79 L.Ed.2d 158 (1984).
+27
+As recommended by the National Commission on New Technological Uses of Copyrighted Works (CONTU), the 1980 amendments to the Copyright Act unambiguously extended copyright protection to computer programs.   Pub.L. 96-517, sec. 10, 94 Stat. 3028 (1980) (codified at 17 U.S.C. &sect;&sect; 101, 117);  see National Commission on New Technological Uses of Copyrighted Works, Final Report 1 (1979) [CONTU Report].
+5
+  "[T]he Act makes no distinction between the copyrightability of those programs which directly interact with the computer user and those which simply manage the computer system."  Formula, 
+725 F.2d at 525
+.   Nor does the Act require that a work be directly accessible to humans in order to be eligible for copyright protection.   Rather, it extends protection to all original works "which ... can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device."  17 U.S.C. &sect; 102(a);  see Formula, 
+725 F.2d at 525
+.   The statutory language, read together with the CONTU report, leads inexorably to the conclusion that the copyright in a computer program extends to the object code version of the program.  Formula, 
+725 F.2d at 525
+;  Franklin, 
+714 F.2d at 1248
+;  CONTU Report at 21.
+28
+Nor does a refusal to recognize a per se right to disassemble object code lead to an absurd result.   The ideas and functional concepts underlying many types of computer programs, including word processing programs, spreadsheets, and video game displays, are readily discernible without the need for disassembly, because the operation of such programs is visible on the computer screen.   The need to disassemble object code arises, if at all, only in connection with operations systems, system interface procedures, and other programs that are not visible to the user when operating--and then only when no alternative means of gaining an understanding of those ideas and functional concepts exists.   In our view, consideration of the unique nature of computer object code thus is more appropriate as part of the case-by-case, equitable "fair use" analysis authorized by section 107 of the Act.   See infra Part III(D).   Accordingly, we reject Accolade's second argument.
+29
+Section 117 of the Copyright Act allows the lawful owner of a copy of a computer program to copy or adapt the program if the new copy or adaptation "is created as an essential step in the utilization of the computer program in conjunction with a machine and ... is used in no other manner."  17 U.S.C. &sect; 117(1).   Accolade contends that section 117 authorizes disassembly of the object code in a copyrighted computer program.
+30
+Section 117 was enacted on the recommendation of CONTU, which noted that "[b]ecause the placement of any copyrighted work into a computer is the preparation of a copy [since the program is loaded into the computer's memory], the law should provide that persons in rightful possession of copies of programs be able to use them freely without fear of exposure to copyright liability."   CONTU Report at 13.   We think it is clear that Accolade's use went far beyond that contemplated by CONTU and authorized by section 117.   Section 117 does not purport to protect a user who disassembles object code, converts it from assembly into source code, and makes printouts and photocopies of the refined source code version.
+6
+31
+Accolade contends, finally, that its disassembly of copyrighted object code as a necessary step in its examination of the unprotected ideas and functional concepts embodied in the code is a fair use that is privileged by section 107 of the Act.   Because, in the case before us, disassembly is the only means of gaining access to those unprotected aspects of the program, and because Accolade has a legitimate interest in gaining such access (in order to determine how to make its cartridges compatible with the Genesis console), we agree with Accolade.   Where there is good reason for studying or examining the unprotected aspects of a copyrighted computer program, disassembly for purposes of such study or examination constitutes a fair use.
+32
+As a preliminary matter, we reject Sega's contention that the assertion of a fair use defense in connection with the disassembly of object code is precluded by statute.   First, Sega argues that not only does section 117 of the Act not authorize disassembly of object code, but it also constitutes a legislative determination that any copying of a computer program other than that authorized by section 117 cannot be considered a fair use of that program under section 107.   That argument verges on the frivolous.   Each of the exclusive rights created by section 106 of the Copyright Act is expressly made subject to all of the limitations contained in sections 107 through 120.  17 U.S.C. &sect; 106.   Nothing in the language or the legislative history of section 117, or in the CONTU Report, suggests that section 117 was intended to preclude the assertion of a fair use defense with respect to uses of computer programs that are not covered by section 117, nor has section 107 been amended to exclude computer programs from its ambit.
+33
+Moreover, sections 107 and 117 serve entirely different functions.   Section 117 defines a narrow category of copying that is lawful per se.  17 U.S.C. &sect; 117.   Section 107, by contrast, establishes a defense to an otherwise valid claim of copyright infringement.   It provides that particular instances of copying that otherwise would be actionable are lawful, and sets forth the factors to be considered in determining whether the defense applies.   Id. &sect; 107.   The fact that Congress has not chosen to provide a per se exemption to section 106 for disassembly does not mean that particular instances of disassembly may not constitute fair use.
+34
+Second, Sega maintains that the language and legislative history of section 906 of the Semiconductor Chip Protection Act of 1984 (SCPA) establish that Congress did not intend that disassembly of object code be considered a fair use.   Section 906 of the SCPA authorizes the copying of the "mask work" on a silicon chip in the course of reverse engineering the chip.  17 U.S.C. &sect; 906.   The mask work in a standard ROM chip, such as those used in the Genesis console and in Genesis-compatible cartridges, is a physical representation of the computer program that is embedded in the chip.   The zeros and ones of binary object code are represented in the circuitry of the mask work by open and closed switches.   Sega contends that Congress's express authorization of copying in the particular circumstances set forth in section 906 constitutes a determination that other forms of copying of computer programs are prohibited.
+35
+The legislative history of the SCPA reveals, however, that Congress passed a separate statute to protect semiconductor chip products because it believed that semiconductor chips were intrinsically utilitarian articles that were not protected under the Copyright Act.   H.R.Rep. No. 781, 98th Cong., 2d Sess. 8-10, reprinted in 1984 U.S.C.C.A.N. 5750, 5757-59.   Accordingly, rather than amend the Copyright Act to extend traditional copyright protection to chips, it enacted "a sui generis form of protection, apart from and independent of the copyright laws."   Id. at 10, 1984 U.S.C.C.A.N. at 5759.   Because Congress did not believe that semiconductor chips were eligible for copyright protection in the first instance, the fact that it included an exception for reverse engineering of mask work in the SCPA says nothing about its intent with respect to the lawfulness of disassembly of computer programs under the Copyright Act.   Nor is the fact that Congress did not contemporaneously amend the Copyright Act to permit disassembly significant, since it was focusing on the protection to be afforded to semiconductor chips.   Here we are dealing not with an alleged violation of the SCPA, but with the copying of a computer program, which is governed by the Copyright Act.   Moreover, Congress expressly stated that it did not intend to "limit, enlarge or otherwise affect the scope, duration, ownership or subsistence of copyright protection ... in computer programs, data bases, or any other copyrightable works embodied in semiconductor chip products."   Id. at 28, 1984 U.S.C.C.A.N. at 5777.   Accordingly, Sega's second statutory argument also fails.   We proceed to consider Accolade's fair use defense.
+36
+Section 107 lists the factors to be considered in determining whether a particular use is a fair one.   Those factors include:
+37
+(1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+38
+(2) the nature of the copyrighted work;
+39
+(3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole;  and
+40
+(4) the effect of the use upon the potential market for or value of the copyrighted work.
+41
+17 U.S.C. &sect; 107.   The statutory factors are not exclusive.   Rather, the doctrine of fair use is in essence "an equitable rule of reason."  Harper & Row, Publishers, Inc. v. Nation Enterprises, 
+471 U.S. 539, 560
+, 105 S.Ct. 2218, 2230, 85 L.Ed.2d 588 (1985) (quoting H.R.Rep. No. 1476, 94th Cong., 2d Sess. 65, reprinted in 1976 U.S.C.C.A.N. 5659, 5679).   Fair use is a mixed question of law and fact.  Id.  "Where the district court has found facts sufficient to evaluate each of the statutory factors," an appellate court may resolve the fair use question as a matter of law.  Id.
+42
+In determining that Accolade's disassembly of Sega's object code did not constitute a fair use, the district court treated the first and fourth statutory factors as dispositive, and ignored the second factor entirely.   Given the nature and characteristics of Accolade's direct use of the copied works, the ultimate use to which Accolade put the functional information it obtained, and the nature of the market for home video entertainment systems, we conclude that neither the first nor the fourth factor weighs in Sega's favor.   In fact, we conclude that both factors support Accolade's fair use defense, as does the second factor, a factor which is important to the resolution of cases such as the one before us.
+43
+(a)
+44
+With respect to the first statutory factor, we observe initially that the fact that copying is for a commercial purpose weighs against a finding of fair use.  Harper & Row, 
+471 U.S. at 562
+, 105 S.Ct. at 2231.   However, the presumption of unfairness that arises in such cases can be rebutted by the characteristics of a particular commercial use.  Hustler Magazine, Inc. v. Moral Majority, Inc., 
+796 F.2d 1148
+, 1152 (9th Cir.1986);  see also Maxtone-Graham v. Burtchaell, 
+803 F.2d 1253
+, 1262 (2d Cir.1986), cert. denied, 
+481 U.S. 1059
+, 107 S.Ct. 2201, 95 L.Ed.2d 856 (1987).   Further "[t]he commercial nature of a use is a matter of degree, not an absolute...."  Maxtone-Graham, 
+803 F.2d at 1262
+.
+45
+Sega argues that because Accolade copied its object code in order to produce a competing product, the Harper & Row presumption applies and precludes a finding of fair use.   That analysis is far too simple and ignores a number of important considerations.   We must consider other aspects of "the purpose and character of the use" as well.   As we have noted, the use at issue was an intermediate one only and thus any commercial "exploitation" was indirect or derivative.
+46
+The declarations of Accolade's employees indicate, and the district court found, that Accolade copied Sega's software solely in order to discover the functional requirements for compatibility with the Genesis console--aspects of Sega's programs that are not protected by copyright.  17 U.S.C. &sect; 102(b).   With respect to the video game programs contained in Accolade's game cartridges, there is no evidence in the record that Accolade sought to avoid performing its own creative work.   Indeed, most of the games that Accolade released for use with the Genesis console were originally developed for other hardware systems.   Moreover, with respect to the interface procedures for the Genesis console, Accolade did not seek to avoid paying a customarily charged fee for use of those procedures, nor did it simply copy Sega's code;  rather, it wrote its own procedures based on what it had learned through disassembly.   Taken together, these facts indicate that although Accolade's ultimate purpose was the release of Genesis-compatible games for sale, its direct purpose in copying Sega's code, and thus its direct use of the copyrighted material, was simply to study the functional requirements for Genesis compatibility so that it could modify existing games and make them usable with the Genesis console.   Moreover, as we discuss below, no other method of studying those requirements was available to Accolade.   On these facts, we conclude that Accolade copied Sega's code for a legitimate, essentially non-exploitative purpose, and that the commercial aspect of its use can best be described as of minimal significance.
+47
+We further note that we are free to consider the public benefit resulting from a particular use notwithstanding the fact that the alleged infringer may gain commercially.   See Hustler, 
+796 F.2d at 1153
+ (quoting MCA, Inc. v. Wilson, 
+677 F.2d 180
+, 182 (2d Cir.1981)).   Public benefit need not be direct or tangible, but may arise because the challenged use serves a public interest.  Id.  In the case before us, Accolade's identification of the functional requirements for Genesis compatibility has led to an increase in the number of independently designed video game programs offered for use with the Genesis console.   It is precisely this growth in creative expression, based on the dissemination of other creative works and the unprotected ideas contained in those works, that the Copyright Act was intended to promote.   See Feist Publications, Inc. v. Rural Tel. Serv.  Co., --- U.S. ----, ----, 111 S.Ct. 1282, 1290, 113 L.Ed.2d 358 (1991) (citing Harper & Row, 
+471 U.S. at 556
+-57, 105 S.Ct. at 2228-29).   The fact that Genesis-compatible video games are not scholarly works, but works offered for sale on the market, does not alter our judgment in this regard.   We conclude that given the purpose and character of Accolade's use of Sega's video game programs, the presumption of unfairness has been overcome and the first statutory factor weighs in favor of Accolade.
+48
+(b)
+49
+As applied, the fourth statutory factor, effect on the potential market for the copyrighted work, bears a close relationship to the "purpose and character" inquiry in that it, too, accommodates the distinction between the copying of works in order to make independent creative expression possible and the simple exploitation of another's creative efforts.   We must, of course, inquire whether, "if [the challenged use] should become widespread, it would adversely affect the potential market for the copyrighted work,"  Sony Corp. v. Universal City Studios, 
+464 U.S. 417, 451
+, 104 S.Ct. 774, 793, 78 L.Ed.2d 574 (1984), by diminishing potential sales, interfering with marketability, or usurping the market,  Hustler, 
+796 F.2d at 1155
+-56.   If the copying resulted in the latter effect, all other considerations might be irrelevant.   The Harper & Row Court found a use that effectively usurped the market for the copyrighted work by supplanting that work to be dispositive.  
+471 U.S. at 567
+-69, 105 S.Ct. at 2234-35.   However, the same consequences do not and could not attach to a use which simply enables the copier to enter the market for works of the same type as the copied work.
+50
+Unlike the defendant in Harper & Row, which printed excerpts from President Ford's memoirs verbatim with the stated purpose of "scooping" a Time magazine review of the book, 
+471 U.S. at 562
+, 105 S.Ct. at 2231, Accolade did not attempt to "scoop" Sega's release of any particular game or games, but sought only to become a legitimate competitor in the field of Genesis-compatible video games.   Within that market, it is the characteristics of the game program as experienced by the user that determine the program's commercial success.   As we have noted, there is nothing in the record that suggests that Accolade copied any of those elements.
+51
+By facilitating the entry of a new competitor, the first lawful one that is not a Sega licensee, Accolade's disassembly of Sega's software undoubtedly "affected" the market for Genesis-compatible games in an indirect fashion.   We note, however, that while no consumer except the most avid devotee of President Ford's regime might be expected to buy more than one version of the President's memoirs, video game users typically purchase more than one game.   There is no basis for assuming that Accolade's "Ishido" has significantly affected the market for Sega's "Altered Beast", since a consumer might easily purchase both;  nor does it seem unlikely that a consumer particularly interested in sports might purchase both Accolade's "Mike Ditka Power Football" and Sega's "Joe Montana Football", particularly if the games are, as Accolade contends, not substantially similar.   In any event, an attempt to monopolize the market by making it impossible for others to compete runs counter to the statutory purpose of promoting creative expression and cannot constitute a strong equitable basis for resisting the invocation of the fair use doctrine.   Thus, we conclude that the fourth statutory factor weighs in Accolade's, not Sega's, favor, notwithstanding the minor economic loss Sega may suffer.
+52
+(c)
+53
+The second statutory factor, the nature of the copyrighted work, reflects the fact that not all copyrighted works are entitled to the same level of protection.   The protection established by the Copyright Act for original works of authorship does not extend to the ideas underlying a work or to the functional or factual aspects of the work.  17 U.S.C. &sect; 102(b).   To the extent that a work is functional or factual, it may be copied, Baker v. Selden, 101 U.S.  (11 Otto) 99, 102-04, 25 L.Ed. 841 (1879), as may those expressive elements of the work that "must necessarily be used as incident to" expression of the underlying ideas, functional concepts, or facts, id. at 104.   Works of fiction receive greater protection than works that have strong factual elements, such as historical or biographical works, Maxtone-Graham, 
+803 F.2d at 1263
+ (citing Rosemont Enterprises, Inc. v. Random House, Inc., 
+366 F.2d 303
+, 307 (2d Cir.1966), cert. denied, 
+385 U.S. 1009
+, 87 S.Ct. 714, 17 L.Ed.2d 546 (1967)), or works that have strong functional elements, such as accounting textbooks, Baker, 
+101 U.S. at 104
+.   Works that are merely compilations of fact are copyrightable, but the copyright in such a work is "thin."  Feist Publications, --- U.S. at ----, 111 S.Ct. at 1289.
+54
+Computer programs pose unique problems for the application of the "idea/expression distinction" that determines the extent of copyright protection.   To the extent that there are many possible ways of accomplishing a given task or fulfilling a particular market demand, the programmer's choice of program structure and design may be highly creative and idiosyncratic.   However, computer programs are, in essence, utilitarian articles--articles that accomplish tasks.   As such, they contain many logical, structural, and visual display elements that are dictated by the function to be performed, by considerations of efficiency, or by external factors such as compatibility requirements and industry demands.  Computer Assoc.  Int'l, Inc. v. Altai, Inc., 1992 WL 372273, 23 U.S.P.Q.2d (BNA) 1241, 1253-56 (2d Cir.1992) ("CAI").   In some circumstances, even the exact set of commands used by the programmer is deemed functional rather than creative for purposes of copyright.  "[W]hen specific instructions, even though previously copyrighted, are the only and essential means of accomplishing a given task, their later use by another will not amount to infringement."   CONTU Report at 20;  see CAI, 23 U.S.P.Q.2d at 1254.
+7
+55
+Because of the hybrid nature of computer programs, there is no settled standard for identifying what is protected expression and what is unprotected idea in a case involving the alleged infringement of a copyright in computer software.   We are in wholehearted agreement with the Second Circuit's recent observation that "[t]hus far, many of the decisions in this area reflect the courts' attempt to fit the proverbial square peg in a round hole."  CAI, 23 U.S.P.Q.2d at 1257.   In 1986, the Third Circuit attempted to resolve the dilemma by suggesting that the idea or function of a computer program is the idea of the program as a whole, and "everything that is not necessary to that purpose or function [is] part of the expression of that idea."  Whelan Assoc., Inc. v. Jaslow Dental Laboratory, Inc., 
+797 F.2d 1222
+, 1236 (3d Cir.1986) (emphasis omitted).   The Whelan rule, however, has been widely--and soundly--criticized as simplistic and overbroad.   See CAI, 23 U.S.P.Q.2d at 1252 (citing cases, treatises, and articles).   In reality, "a computer program's ultimate function or purpose is the composite result of interacting subroutines.   Since each subroutine is itself a program, and thus, may be said to have its own 'idea,' Whelan's general formulation ... is descriptively inadequate."  Id.  For example, the computer program at issue in the case before us, a video game program, contains at least two such subroutines--the subroutine that allows the user to interact with the video game and the subroutine that allows the game cartridge to interact with the console.   Under a test that breaks down a computer program into its component subroutines and sub-subroutines and then identifies the idea or core functional element of each, such as the test recently adopted by the Second Circuit in CAI, 23 U.S.P.Q.2d at 1252-53, many aspects of the program are not protected by copyright.   In our view, in light of the essentially utilitarian nature of computer programs, the Second Circuit's approach is an appropriate one.
+56
+Sega argues that even if many elements of its video game programs are properly characterized as functional and therefore not protected by copyright, Accolade copied protected expression.   Sega is correct.   The record makes clear that disassembly is wholesale copying.   Because computer programs are also unique among copyrighted works in the form in which they are distributed for public use, however, Sega's observation does not bring us much closer to a resolution of the dispute.
+57
+The unprotected aspects of most functional works are readily accessible to the human eye.   The systems described in accounting textbooks or the basic structural concepts embodied in architectural plans, to give two examples, can be easily copied without also copying any of the protected, expressive aspects of the original works.   Computer programs, however, are typically distributed for public use in object code form, embedded in a silicon chip or on a floppy disk.   For that reason, humans often cannot gain access to the unprotected ideas and functional concepts contained in object code without disassembling that code--i.e., making copies.
+8
+  Atari Games Corp. v. Nintendo of America, 
+975 F.2d at 843
+-44 (Fed.Cir.1992).
+58
+Sega argues that the record does not establish that disassembly of its object code is the only available method for gaining access to the interface specifications for the Genesis console, and the district court agreed.   An independent examination of the record reveals that Sega misstates its contents, and demonstrates that the district court committed clear error in this respect.
+59
+First, the record clearly establishes that humans cannot read object code.   Sega makes much of Mike Lorenzen's statement that a reverse engineer can work directly from the zeros and ones of object code but "[i]t's not as fun."   In full, Lorenzen's statements establish only that the use of an electronic decompiler is not absolutely necessary.   Trained programmers can disassemble object code by hand.   Because even a trained programmer cannot possibly remember the millions of zeros and ones that make up a program, however, he must make a written or computerized copy of the disassembled code in order to keep track of his work.   See generally Johnson-Laird, Technical Demonstration of "Decompilation", reprinted in Reverse Engineering:  Legal and Business Strategies for Competitive Design in the 1990's 102 (Prentice Hall Law & Business ed. 1992).   The relevant fact for purposes of Sega's copyright infringement claim and Accolade's fair use defense is that translation of a program from object code into source code cannot be accomplished without making copies of the code.
+60
+Second, the record provides no support for a conclusion that a viable alternative to disassembly exists.   The district court found that Accolade could have avoided a copyright infringement claim by "peeling" the chips contained in Sega's games or in the Genesis console, as authorized by section 906 of the SCPA, 17 U.S.C. &sect; 906.   Even Sega's amici agree that this finding was clear error.   The declaration of Dr. Harry Tredennick, an expert witness for Accolade, establishes that chip peeling yields only a physical diagram of the object code embedded in a ROM chip.   It does not obviate the need to translate object code into source code.  Atari Games Corp., 
+975 F.2d at 843
+-44.
+61
+The district court also suggested that Accolade could have avoided a copyright infringement suit by programming in a "clean room".   That finding too is clearly erroneous.   A "clean room" is a procedure used in the computer industry in order to prevent direct copying of a competitor's code during the development of a competing product.   Programmers in clean rooms are provided only with the functional specifications for the desired program.   As Dr. Tredennick explained, the use of a clean room would not have avoided the need for disassembly because disassembly was necessary in order to discover the functional specifications for a Genesis-compatible game.
+62
+In summary, the record clearly establishes that disassembly of the object code in Sega's video game cartridges was necessary in order to understand the functional requirements for Genesis compatibility.   The interface procedures for the Genesis console are distributed for public use only in object code form, and are not visible to the user during operation of the video game program.   Because object code cannot be read by humans, it must be disassembled, either by hand or by machine.   Disassembly of object code necessarily entails copying.   Those facts dictate our analysis of the second statutory fair use factor.   If disassembly of copyrighted object code is per se an unfair use, the owner of the copyright gains a de facto monopoly over the functional aspects of his work--aspects that were expressly denied copyright protection by Congress.  17 U.S.C. &sect; 102(b).   In order to enjoy a lawful monopoly over the idea or functional principle underlying a work, the creator of the work must satisfy the more stringent standards imposed by the patent laws.  Bonito Boats, Inc. v. Thunder Craft Boats, Inc., 
+489 U.S. 141, 159
+-64, 109 S.Ct. 971, 982-84, 103 L.Ed.2d 118 (1989).   Sega does not hold a patent on the Genesis console.
+63
+Because Sega's video game programs contain unprotected aspects that cannot be examined without copying, we afford them a lower degree of protection than more traditional literary works.   See CAI, 23 U.S.P.Q.2d at 1257.   In light of all the considerations discussed above, we conclude that the second statutory factor also weighs in favor of Accolade.
+9
+64
+(d)
+65
+As to the third statutory factor, Accolade disassembled entire programs written by Sega.   Accordingly, the third factor weighs against Accolade.   The fact that an entire work was copied does not, however, preclude a finding a fair use.  Sony Corp., 
+464 U.S. at 449
+-50, 104 S.Ct. at 792;  Hustler, 
+796 F.2d at 1155
+ ("Sony Corp. teaches us that the copying of an entire work does not preclude fair use per se.").   In fact, where the ultimate (as opposed to direct) use is as limited as it was here, the factor is of very little weight.   Cf. Wright v. Warner Books, Inc., 
+953 F.2d 731
+, 738 (2d Cir.1991).
+66
+(e)
+67
+In summary, careful analysis of the purpose and characteristics of Accolade's use of Sega's video game programs, the nature of the computer programs involved, and the nature of the market for video game cartridges yields the conclusion that the first, second, and fourth statutory fair use factors weigh in favor of Accolade, while only the third weighs in favor of Sega, and even then only slightly.   Accordingly, Accolade clearly has by far the better case on the fair use issue.
+68
+We are not unaware of the fact that to those used to considering copyright issues in more traditional contexts, our result may seem incongruous at first blush.   To oversimplify, the record establishes that Accolade, a commercial competitor of Sega, engaged in wholesale copying of Sega's copyrighted code as a preliminary step in the development of a competing product.   However, the key to this case is that we are dealing with computer software, a relatively unexplored area in the world of copyright law.   We must avoid the temptation of trying to force "the proverbial square peg in[to] a round hole."  CAI, 23 U.S.P.Q.2d at 1257.
+69
+In determining whether a challenged use of copyrighted material is fair, a court must keep in mind the public policy underlying the Copyright Act.  " 'The immediate effect of our copyright law is to secure a fair return for an "author's" creative labor.   But the ultimate aim is, by this incentive, to stimulate artistic creativity for the general public good.' "  Sony Corp., 
+464 U.S. at 432
+, 104 S.Ct. at 783 (quoting Twentieth Century Music Corp. v. Aiken, 
+422 U.S. 151, 156
+, 95 S.Ct. 2040, 2044, 45 L.Ed.2d 84 (1975)).   When technological change has rendered an aspect or application of the Copyright Act ambiguous, " 'the Copyright Act must be construed in light of this basic purpose.' "  Id.  As discussed above, the fact that computer programs are distributed for public use in object code form often precludes public access to the ideas and functional concepts contained in those programs, and thus confers on the copyright owner a de facto monopoly over those ideas and functional concepts.   That result defeats the fundamental purpose of the Copyright Act--to encourage the production of original works by protecting the expressive elements of those works while leaving the ideas, facts, and functional concepts in the public domain for others to build on.  Feist Publications, --- U.S. at ----, 111 S.Ct. at 1290;  see also Atari Games Corp., 
+975 F.2d at 842
+ - 43.
+70
+Sega argues that the considerable time, effort, and money that went into development of the Genesis and Genesis-compatible video games militate against a finding of fair use.   Borrowing from antitrust principles, Sega attempts to label Accolade a "free rider" on its product development efforts.   In Feist Publications, however, the Court unequivocally rejected the "sweat of the brow" rationale for copyright protection.  --- U.S. at ---- - ----, 111 S.Ct. at 1290-95.   Under the Copyright Act, if a work is largely functional, it receives only weak protection.  "This result is neither unfair nor unfortunate.   It is the means by which copyright advances the progress of science and art."  Id. --- U.S. at ----, 111 S.Ct. at 1290;  see also id. --- U.S. at ----, 111 S.Ct. at 1292 ("In truth, '[i]t is just such wasted effort that the proscription against the copyright of ideas and facts ... [is] designed to prevent.' ")  (quoting Rosemont Enterprises, Inc. v. Random House, Inc., 
+366 F.2d 303
+, 310 (2d Cir.1966), cert. denied 
+385 U.S. 1009
+, 87 S.Ct. 714, 17 L.Ed.2d 546 (1967));  CAI, 23 U.S.P.Q.2d at 1257.   Here, while the work may not be largely functional, it incorporates functional elements which do not merit protection.   The equitable considerations involved weigh on the side of public access.   Accordingly, we reject Sega's argument.
+71
+(f)
+72
+We conclude that where disassembly is the only way to gain access to the ideas and functional elements embodied in a copyrighted computer program and where there is a legitimate reason for seeking such access, disassembly is a fair use of the copyrighted work, as a matter of law.   Our conclusion does not, of course, insulate Accolade from a claim of copyright infringement with respect to its finished products.   Sega has reserved the right to raise such a claim, and it may do so on remand.
+73
+Ordinarily in a trademark case, a trademark holder contends that another party is misusing the holder's mark or is attempting to pass off goods or services as those of the trademark holder.   The other party usually protests that the mark is not being misused, that there is no actual confusion, or that for some other reason no violation has occurred.   This case is different.   Here, both parties agree that there is a misuse of a trademark, both agree that there is unlawful mislabeling, and both agree that confusion may result.   The issue, here, is--which party is primarily responsible?   Which is the wrongdoer--the violator?   Is it Sega, which has adopted a security system governing access to its Genesis III console that displays its trademark and message whenever the initialization code for the security system is utilized, even when the video game program was manufactured by a Sega competitor?   Or is it Accolade, which, having discovered how to gain access to the Genesis III through the initialization code, uses that code even though doing so triggers the display of Sega's trademark and message in a manner that leads observers to believe that Sega manufactured the Accolade game cartridge?   In other words, is Sega the injured party because its mark is wrongfully attached to an Accolade video game by Accolade?   Or is Accolade wronged because its game is mislabeled as a Sega product by Sega?   The facts are relatively straightforward and we have little difficulty answering the question.
+74
+Sega's trademark security system (TMSS) initialization code not only enables video game programs to operate on the Genesis III console, but also prompts a screen display of the SEGA trademark and message.   As a result, Accolade's inclusion of the TMSS initialization code in its video game programs has an effect ultimately beneficial neither to Sega nor to Accolade.   A Genesis III owner who purchases a video game made by Accolade sees Sega's trademark associated with Accolade's product each time he inserts the game cartridge into the console.   Sega claims that Accolade's inclusion of the TMSS initialization code in its games constitutes trademark infringement and false designation of origin in violation of sections 32(1)(a) and 43(a) of the Lanham Trademark Act, 15 U.S.C. &sect;&sect; 1114(1)(a), 1125(a), respectively.   Accolade counterclaims that Sega's use of the TMSS to prompt a screen display of its trademark constitutes false designation of origin under Lanham Act section 43(a), 15 U.S.C. &sect; 1125(a).
+75
+Because the TMSS has the effect of regulating access to the Genesis III console, and because there is no indication in the record of any public or industry awareness of any feasible alternate method of gaining access to the Genesis III, we hold that Sega is primarily responsible for any resultant confusion.   Thus, it has not demonstrated a likelihood of success on the merits of its Lanham Act claims.   Accordingly, the preliminary injunction it obtained must be dissolved with respect to the trademark claim also.   However, we decline to instruct the district court to grant Accolade's request for preliminary injunctive relief at this time.   The decision whether to grant such relief requires the making of factual and equitable determinations in light of the legal conclusions we express here.   Such determinations are best left in the first instance to the district court.
+76
+Section 32(1)(a) of the Lanham Act creates a cause of action for trademark infringement against any person who, without the consent of the trademark owner, "use[s] in commerce any reproduction ... of a registered mark in connection with the sale, offering for sale, distribution, or advertising of any goods or services on or in connection with which such use is likely to cause confusion, or to cause mistake, or to deceive...."  15 U.S.C. &sect; 1114(1)(a).   Section 43(a) proscribes the use in commerce of a false designation of origin in connection with goods or services where such use is "likely to cause confusion, or ... mistake."   Id. &sect; 1125(a).   Both Sega and Accolade agree that the screen display of the Sega trademark and message creates a likelihood of consumer confusion regarding the origin of Accolade's games.   The question is:  which party is legally responsible for that confusion?   We disagree with the answer given by the district court.
+77
+The district court found that Accolade bore primary responsibility for any consumer confusion that resulted from the display of the false Sega Message.   However, Accolade had no desire to cause the Sega Message to appear or otherwise to create any appearance of association between itself and Sega;  in fact, it had precisely the opposite wish.   It used the TMSS initialization code only because it wanted to gain access for its products to the Genesis III, and was aware of no other method for doing so.   On the other hand, while it may not have been Sega's ultimate goal to mislabel Accolade's products, the record is clear that the false labeling was the result of a deliberate decision on the part of Sega to include in the Genesis III a device which would both limit general access and cause false labeling.   The decision to use the SEGA trademark as an essential element of a functional device that regulates access and to cause the SEGA trademark and message to be displayed whenever that functional device was triggered compels us to place primary responsibility for consumer confusion squarely on Sega.
+78
+With respect to Accolade, we emphasize that the record clearly establishes that it had only one objective in this matter:  to make its video game programs compatible with the Genesis III console.   That objective was a legitimate and a lawful one.   There is no evidence whatsoever that Accolade wished Sega's trademark to be displayed when Accolade's games were played on Sega's consoles.   To the contrary, Accolade included disclaimers on its packaging materials which stated that "Accolade, Inc. is not associated with Sega Enterprises, Ltd."   When questioned regarding the Sega Message and its potential effect on consumers, Alan Miller testified that Accolade does not welcome the association between its product and Sega and would gladly avoid that association if there were a way to do so.   Miller testified that Accolade's engineers had not been able to discover any way to modify their game cartridges so that the games would operate on the Genesis III without prompting the screen display of the Sega Message.
+79
+In contrast, Sega officials testified that Sega incorporated the TMSS into the Genesis console, known in Asia as the Mega-Drive, in order to lay the groundwork for the trademark prosecution of software pirates who sell counterfeit cartridges in Taiwan and South Korea, as well as in the United States.   Sega then marketed the redesigned console worldwide.   Sega intended that when Sega game programs manufactured by a counterfeiter were played on its consoles, the Sega Message would be displayed, thereby establishing the legal basis for a claim of trademark infringement.   However, as Sega certainly knew, the TMSS also had the potential to affect legitimate competitors adversely.   First, Sega should have foreseen that a competitor might discover how to utilize the TMSS, and that when it did and included the initialization code in its cartridges, its video game programs would also end up being falsely labeled.   Sega should also have known that the TMSS might discourage some competitors from manufacturing independently developed games for use with the Genesis III console, because they would not want to become the victims of such a labeling practice.   Thus, in addition to laying the groundwork for lawsuits against pirates, Sega knowingly risked two significant consequences:  the false labeling of some competitors' products and the discouraging of other competitors from manufacturing Genesis-compatible games.   Under the Lanham Act, the former conduct, at least, is clearly unlawful.
+80
+"[T]rademark policies are designed '(1) to protect consumers from being misled ...;  (2) to prevent an impairment of the value of the enterprise which owns the trademark;  and (3) to achieve these ends in a manner consistent with the objectives of free competition.' "  Anti-Monopoly, Inc. v. General Mills Fun Group, 
+611 F.2d 296
+, 300-01 (9th Cir.1979) (quoting HMH Publishing Co. v. Brincat, 
+504 F.2d 713
+, 716 (9th Cir.1974)).   Sega violated the first and the third of these principles.  "The trademark is misused if it serves to limit competition in the manufacture and sales of a product.   That is the special province of the limited monopolies provided pursuant to the patent laws."  Id. at 301 (citation omitted).
+81
+Sega makes much of the fact that it did not adopt the TMSS in order to wage war on Accolade in particular, but rather as a defensive measure against software counterfeiters.   It is regrettable that Sega is troubled by software pirates who manufacture counterfeit products in other areas of the world where adequate copyright remedies are not available.   However, under the Lanham Act, which governs the use of trademarks and other designations of origin in this country, it is the effect of the message display that matters.   Whatever Sega's intent with respect to the TMSS, the device serves to limit competition in the market for Genesis-compatible games and to mislabel the products of competitors.   Moreover, by seeking injunctive relief based on the mislabeling it has itself induced, Sega seeks once again to take advantage of its trademark to exclude its competitors from the market.   The use of a mark for such purpose is inconsistent with the Lanham Act.
+82
+Sega argues that even if the legal analysis we have enunciated is correct, the facts do not support its application to this case.   Specifically, Sega contends that the TMSS does not prevent legitimate unlicensed competitors from developing and marketing Genesis III-compatible cartridges that do not trigger a display of the Sega trademark and message.   In other words, Sega claims that Accolade could have "engineered around" the TMSS.   Accolade strongly disagrees with Sega's factual assertions.   It contends that the TMSS initialization sequence is a functional feature that must be included in a video game program by a manufacturer in order for the game to operate on the Genesis III.   Sega's factual argument stands or falls on the Nagashima declaration and the accompanying modified game cartridges that Sega introduced at the hearing.   Having carefully reviewed the declaration, we conclude that Sega has not met its burden of establishing nonfunctionality.
+83
+Based on the Nagashima declaration and on the modified cartridges, the district court concluded that the TMSS initialization sequence was not a necessary component of a Genesis-compatible game.
+10
+  The court found that Accolade could have created a game cartridge that lacked the TMSS initialization code but would still operate on the Genesis III, or could have programmed its games in such a way that the false Sega Message would not be displayed on the screen.   The court further found that either modification could have been accomplished at minimal additional expense to Accolade.   Accordingly, the court ruled that Accolade could not assert a functionality defense.
+84
+The question whether a product feature is functional is a question of fact.  Inwood Laboratories, Inc. v. Ives Laboratories, Inc., 
+456 U.S. 844, 855
+, 102 S.Ct. 2182, 2189, 72 L.Ed.2d 606 (1982).   Determination of the correct legal standard to apply in evaluating functionality, however, is a question of law which we review de novo.  Id. at 855 n. 15, 102 S.Ct. at 2189 n. 15.   The burden of proving nonfunctionality is on Sega.   See Rachel v. Banana Republic, Inc., 
+831 F.2d 1503
+, 1506 (9th Cir.1987).   In the case before us, we conclude that the district court's finding of nonfunctionality was based on its use of an incorrect legal standard.   Viewed in the correct light, the record before us supports only one conclusion:  The TMSS initialization code is a functional feature of a Genesis-compatible game and Accolade may not be barred from using it.
+85
+"Functional features of a product are features 'which constitute the actual benefit that the consumer wishes to purchase, as distinguished from an assurance that a particular entity made, sponsored, or endorsed a product.' "  Vuitton et Fils S.A. v. J. Young Enterprises, Inc., 
+644 F.2d 769
+, 774 (9th Cir.1981) (quoting International Order of Job's Daughters v. Lindeburg & Co., 
+633 F.2d 912
+, 917 (9th Cir.1980), cert. denied, 
+452 U.S. 941
+, 101 S.Ct. 3086, 69 L.Ed.2d 956 (1981)).   A product feature thus is functional "if it is essential to the use or purpose of the article or if it affects the cost or quality of the article."  Inwood Laboratories, 
+456 U.S. at 850
+ n. 10, 102 S.Ct. at 2187 n. 10.   The Lanham Act does not protect essentially functional or utilitarian product features because such protection would constitute a grant of a perpetual monopoly over features that could not be patented.  Keene Corp. v. Paraflex Industries, Inc., 
+653 F.2d 822
+, 824 (3d Cir.1981).   Even when the allegedly functional product feature is a trademark, the trademark owner may not enjoy a monopoly over the functional use of the mark.  Job's Daughters, 
+633 F.2d at 918
+-19.
+86
+In determining whether a product feature is functional, a court may consider a number of factors, including--but not limited to--"the availability of alternative designs;  and whether a particular design results from a comparatively simple or cheap method of manufacture."  Clamp Mfg. Co. v. Enco Mfg. Co., Inc., 
+870 F.2d 512
+, 516 (9th Cir.), cert. denied, 
+493 U.S. 872
+, 110 S.Ct. 202, 107 L.Ed.2d 155 (1989).   The availability of alternative methods of manufacture must be more than merely theoretical or speculative, however.   The court must find "that commercially feasible alternative configurations exist. "  Id. (emphasis added).   Moreover, some cases have even suggested that in order to establish nonfunctionality the party with the burden must demonstrate that the product feature " 'serves no purpose other than identification.' "  Keene Corp., 
+653 F.2d at 826
+ (quoting SK & F Co. v. Premo Pharmaceutical Laboratories, Inc., 
+625 F.2d 1055
+, 1063 (3d Cir.1980)).   With these principles in mind, we turn to the question whether the TMSS initialization code is a functional feature of a Genesis-compatible game.
+87
+It is indisputable that, in the case before us, part of "the actual benefit that the consumer wishes to purchase" is compatibility with the Genesis III console.   The TMSS initialization code provides that compatibility.   Sega argues that the modified cartridges that were introduced in the district court establish the actual existence of technically and commercially feasible alternative methods of gaining access to the Genesis III.   The cartridges were prepared by Nagashima, an employee in Sega's Hardware Research and Development Department who was "familiar with the TMSS system".   At most, the Nagashima affidavit establishes that an individual familiar with the operation of the TMSS can discover a way to engineer around it.   It does not establish that a competitor with no knowledge of the workings of the TMSS could do so.   Nor is there any evidence that there was any public or industry awareness of any alternate method for gaining access to the Genesis III.   Evidence that an individual, even an independent expert, produced one or more cartridges is not sufficient proof that an alternate method exists.   What is needed for proof of that fact is proof of the method itself.   Here, such proof is totally lacking.   What is also needed is proof that knowledge of the alternate method exists or is readily available to knowledgeable persons in the industry.   That proof also is totally lacking here.   Accordingly, the district court erred as a matter of law in concluding that the Nagashima declaration and the modified cartridges were sufficient to establish nonfunctionality.
+88
+Because the TMSS serves the function of regulating access to the Genesis III, and because a means of access to the Genesis III console without using the TMSS initialization code is not known to manufacturers of competing video game cartridges, there is an insufficient basis for a finding of nonfunctionality.   Moreover, we note that the only evidence in the record (other than the Nagashima declaration) relating to Accolade's ability to gain access to the Genesis III through the use of any process other than the TMSS is the affidavit of Alan Miller.   Miller stated that Accolade's software engineers--who, absent any evidence to the contrary, we presume to be reasonably competent representatives of their profession--have not been able to discover such a method.   This evidence supports our conclusion that Sega has not met its burden of establishing nonfunctionality.
+89
+Sega argues that it is not required to share with Accolade or with any other competitor the secrets of how the TMSS works, and how to engineer around it.   Sega is correct--the law does not require that it disclose its trade secrets to Accolade in connection with its effort to prevail on its Lanham Act claim, nor in connection with its effort to defend itself against Accolade's counterclaim.   Nevertheless, a Lanham Act plaintiff is not entitled to prevail in litigation solely on the basis of unsupported assertions.   Rather, it has a choice.   It can take its chances and proceed to trial without the sensitive evidence.   Alternatively, if it believes the evidence important to the resolution of the dispute, it may seek a protective order from the court pursuant to Federal Rule of Civil Procedure 26(c)(7) governing discovery.  "The protective order is not a substitute for [evidence relevant to the merits].  Its purpose ... is to prevent harm by limiting disclosure of relevant and necessary information."  Micro Motion, Inc. v. Kane Steel Co., Inc., 
+894 F.2d 1318
+, 1325 (Fed.Cir.1990) (emphasis omitted).   Upon a showing that a protective order is warranted, see American Standard, Inc. v. Pfizer Inc., 
+828 F.2d 734
+, 739-44 (Fed.Cir.1987), the court may restrict access to the disputed material to the opposing party's counsel, or may allow the parties to retain independent experts to evaluate material that is subject to the protective order.   See, e.g., Safe Flight Instrument Corp. v. Sundstrand Data Control, Inc., 682 F.Supp. 20, 22 (D.Del.1988) (listing cases).   The latter solution is particularly helpful to the court in a case such as this one, in which the dispute is highly technical in nature.   However, neither the district court nor Sega took advantage of this procedure.   Thus there is no independent evidence to support the conclusion offered by Nagashima.
+90
+In summary, because Sega did not produce sufficient evidence regarding the existence of a feasible alternative to the use of the TMSS initialization code, it did not carry its burden and its claim of nonfunctionality fails.   Possibly, Sega will be able to meet its burden of proof at trial.   We cannot say.   However, we conclude that in light of the record before the district court, Sega was not entitled to preliminary injunctive relief under the Lanham Act.
+11
+91
+C. Accolade's Request for Preliminary Injunctive Relief
+92
+Finally, we decline to order the district court to grant Accolade preliminary injunctive relief on its Lanham Act claim.   If requested, the district court may reconsider that issue in light of the legal principles we have set forth.   The parties have presented arguments regarding the hardships they would suffer under various circumstances.   We believe those arguments should be weighed by the district court before any affirmative relief is ordered.   Moreover, the parties may have additional factual material they wish to present regarding the question of Accolade's right to preliminary injunctive relief.   Pending further consideration of this matter by the district court, we are content to let the matter rest where it stands, with each party as free to act as it was before the issuance of preliminary injunctive relief.   We are confident that preserving the status quo in this manner will not lead to any serious inequity.   Costs on appeal shall be assessed against Sega.
+93
+AFFIRMED IN PART;  REVERSED IN PART;  AND REMANDED.
+1
+ The recent decision by the Federal Circuit in  Atari Games Corp. v. Nintendo of America, Inc., 
+975 F.2d 832
+ (Fed.Cir.1992), which discusses a number of the issues we decide here, is consistent both with our analysis and the result we reach
+2
+ Computer programs are written in specialized alphanumeric languages, or "source code".   In order to operate a computer, source code must be translated into computer readable form, or "object code".   Object code uses only two symbols, 0 and 1, in combinations which represent the alphanumeric characters of the source code.   A program written in source code is translated into object code using a computer program called an "assembler" or "compiler", and then imprinted onto a silicon chip for commercial distribution.   Devices called "disassemblers" or "decompilers" can reverse this process by "reading" the electronic signals for "0" and "1" that are produced while the program is being run, storing the resulting object code in computer memory, and translating the object code into source code.   Both assembly and disassembly devices are commercially available, and both types of devices are widely used within the software industry
+3
+ The complaint also included state law claims for common law trademark infringement, dilution, unfair competition, and false or misleading statements.   None of the state law claims are at issue in this appeal
+4
+ Accolade also asserted state law counterclaims for unfair competition, false or misleading statements, and intentional interference with prospective economic advantage.   Again, the state law counterclaims are not at issue here
+5
+ Congress adopted all of the statutory changes recommended by CONTU verbatim.   Subsequent Congresses, the courts, and commentators have regarded the CONTU Report as the authoritative guide to congressional intent
+6
+ We need not decide whether section 117 protects only the use intended by the copyright owner, as Sega argues.  See Vault Corp. v.  Quaid Software Ltd., 
+847 F.2d 255
+, 261 (5th Cir.1988) (authorization of section 117(1) not limited to use intended by copyright owner)
+7
+ We therefore reject Sega's belated suggestion that Accolade's incorporation of the code which "unlocks" the Genesis III console is not a fair use.   Our decision on this point is entirely consistent with  Atari v. Nintendo, 
+975 F.2d 832
+ (Fed.Cir.1992).   Although Nintendo extended copyright protection to Nintendo's 10NES security system, that system consisted of an original program which generates an arbitrary data stream "key" which unlocks the NES console.   Creativity and originality went into the design of that program.   See id. at 840.   Moreover, the federal circuit concluded that there is a "multitude of different ways to generate a data stream which unlocks the NES console."   Atari, 
+975 F.2d at 839
+.   The circumstances are clearly different here.   Sega's key appears to be functional.   It consists merely of 20 bytes of initialization code plus the letters S-E-G-A.   There is no showing that there is a multitude of different ways to unlock the Genesis III console.   Finally, we note that Sega's security code is of such de minimis length that it is probably unprotected under the words and short phrases doctrine.  37 C.F.R. &sect; 202.1(a)
+8
+ We do not intend to suggest that disassembly is always the only available means of access to those aspects of a computer program that are unprotected by copyright.   As we noted in Part III(B), supra, in many cases the operation of a program is directly reflected on the screen display and therefore visible to the human eye.   In those cases, it is likely that a reverse engineer would not need to examine the code in order to understand what the program does
+9
+ Sega argues that its programs are unpublished works and that therefore, under Harper & Row, the second statutory factor weighs in its favor.  
+471 U.S. at 553
+-55, 105 S.Ct. at 2226-28.   Recently, however, this court affirmed a district court holding that computer game cartridges that are held out to the public for sale are published works for purposes of copyright.   Lewis Galoob Toys, Inc. v. Nintendo of America, Inc., 
+964 F.2d 965
+, 971 (9th Cir.1992, as amended August 5, 1992) (affirming 780 F.Supp. 1283, 1293 (N.D.Cal.1991).   The decision in  Association of Am.  Medical Colleges v. Cuomo, 
+928 F.2d 519
+ (2d Cir.1991), cert. denied, --- U.S. ----, 112 S.Ct. 184, 116 L.Ed.2d 146 (1991), is not to the contrary.   The Medical College Admission Test is not held out to the public for sale, but rather is distributed on a highly restricted basis
+10
+ Accolade challenges the admissibility of the Nagashima declaration and the modified cartridges on several grounds.   First, it argues that the district court promised to hold an in camera hearing on the declaration, but never did so.   However, the record reveals that the district judge ultimately promised to hold such a hearing only if she felt it was necessary
+Second, Accolade contends that because Nagashima never specified the nature of the modification that he had made to Accolade's cartridges, the district court erred in admitting the cartridges as evidence without ascertaining that the TMSS initialization sequence really had been omitted.   In a preliminary injunction proceeding, the district court is accorded broad discretion in ruling on the admissibility of evidence.  Flynt Distributing Co., Inc. v. Harvey, 
+734 F.2d 1389
+, 1394 (9th Cir.1984).   In the absence of any evidence that Nagashima was lying, it was not an abuse of discretion for the district judge to admit his declaration and the altered Accolade cartridges as evidence.   The fact that neither Accolade nor the district court was able to verify Nagashima's statements affects the weight to be given the statements and the proffered cartridges, not their admissibility.
+11
+ Sega contends that even if the TMSS code is functional, Accolade, as the copier, was obligated to take the most effective measures reasonably available to eliminate the consumer confusion that has arisen as a result of the association of Sega's trademark with Accolade's product.   The district court relied on Plasticolor Molded Products v. Ford Motor Co., 713 F.Supp. 1329, 1339 (C.D.Cal.1989), a decision it acknowledged had been vacated.   See Plasticolor Molded Products v. Ford Motor Co., 767 F.Supp. 1036 (C.D.Cal.1991).   When a product feature is both functional and source-identifying, the copier need only take reasonable measures to avoid consumer confusion.  American Greetings Corp. v. Dan-Dee Imports, Inc., 
+807 F.2d 1136
+, 1141 (3d Cir.1986);  Job's Daughters, 
+633 F.2d at 919
+ (the degree of protection afforded a product feature that has both functional and source-identifying aspects depends on the characteristics of the use and on the copier's merchandising practices).   Assuming arguendo that the rules applicable to copiers apply here, the measures adopted by Accolade satisfy a reasonableness standard.   Accolade placed disclaimers on its packaging materials which stated that "Accolade, Inc. is not associated with Sega Enterprises, Ltd."   While Accolade could have worded its disclaimer more strongly, the version that it chose would appear to be sufficient
+Justia
+on
+Daily Opinion Summaries
+Subscribe to Justia's FREE Daily Newsletter Opinion Summaries
+Subscribe Now
+Today on Verdict
+Fisher v. Texas and the Reasons Why Liberals and Conservatives on the Supreme Court Don’t Trust Each Other on Affirmative Action:  Part Two in a Two-Part Series of Columns
+Justia columnist and U.C. Davis law professor Vikram David Amar discusses methodologies the Supreme Court justices should use in affirmative action cases like Fisher v. University of Texas.
+By 
+Vikram David Amar
+Ask a Lawyer
+Question:
+Add question details
+Additional Details:
+About Legal Answers
+Connect with Justia
+Follow justiacom
+Fan Justia
+Find a Lawyer
+Browse Lawyers
+Lawyers - Get Listed Now!
+Get a free full directory profile listing
+Copyright &copy; 
+Justia
+ :: 
+Company
+ :: 
+Terms of Service
+ :: 
+Privacy Policy
+ :: 
+Contact Us

@@ -1,0 +1,688 @@
+#################### searches/3dxml-oneway.md
+URL: https://www.file-extension.info/conversion/3dxml-to-catpart
+  T: Convert 3DXML to CATPART - How-To Guide | File-Extension.info
+  S: You **cannot** convert a **published 3DXML****back** into an editable **CATIA** part (.catpart): the **parametric** features and history exist only in the source CAD file, while the 3DXML carries a downstream visual/mesh
+
+URL: https://file-extensions.com/docs/3dxml
+  T: 3DXML file extension - Dassault Systemes 3D XML File
+  S: Converting **back** to an editable .CATPart is effectively impossible for the same reason: the **parametric** features and history live only in the source CAD file, and a **published 3DXML** is a downstream representatio
+
+#################### searches/3dxml-to-catpart.md
+URL: https://www.101convert.com/convert/3dxml-to-catpart
+  T: Convert 3DXML to CATPART | 3D modeling file conversions
+  S: Converting a **3DXML** file to a **CATPART** file involves using software that can read and interpret both file formats. This conversion is essential for users who need to edit or further develop 3D models initially shar
+
+URL: https://www.file-extension.info/conversion/3dxml-to-catpart
+  T: Convert 3DXML to CATPART - How-To Guide | File-Extension.info
+  S: Is it possible to **convert****3DXML****to****CATPART**? No- not a direct conversion. You cannot **convert** a published **3DXML****back** into an editable **CATIA** part (.**catpart**): the parametric features and histo
+
+URL: https://cadmonster.org/knowledge/?convert=3dxml&to=catpart
+  T: Conversion from .3DXML to .CATPART. Transform from 3DXML to CATIA Part ...
+  S: Transformation from .**3DXML****to** .**CATPART** Backward .**CATPART** → .**3DXML** Input format contains polygonal information. The target format in most cases contains a solid information, but also allows you to store
+
+URL: https://3dswym.3dexperience.3ds.com/question/catia-user-community/converting-file-from-3dxml-to-catpart_W2h78NQKTJye7iZ0OPzzug
+  T: Converting file from 3DXML to CATPart | Dassault Systèmes®
+  S: Converting file from **3DXML****to****CATPart** Hello, I have a problem with converting files from **3DXML****to****CATPart** format, so that they can be opened in **CATIA** V5. When I clickuse mapping tablesoption, the 
+
+URL: https://www.gvtech.com/2025/01/28/how-to-open-3dexperience-files-in-catia-v5/
+  T: How to open 3DEXPERIENCE files in CATIA V5 - gvtech.com
+  S: January 28, 2025 This article explains how to make files created in the 3DEXPERIENCE (hereinafter referred to as 3DX) environment usable in the conventional **CATIA** V5. This article explains the procedure for convertin
+
+URL: https://fileextension.info/convert/3dxml-to-catpart
+  T: Convert 3DXML to CATPART - Free & Online
+  S: Applications for the **3DXML****to****CATPART** conversion as well as advice on how to **convert** the given **3DXML** and **CATPART** files. fileextension.info/convert/3dxml-to-catpart
+
+URL: https://cadmonster.org/knowledge/?convert=CATPART&to=3DXML
+  T: Conversion from .CATPART to .3DXML. Transform from CATIA Part to 3DXML ...
+  S: Transformation from .**CATPART****to** .3DXMLBackward .**3DXML** → .**CATPART** The input format in most cases contains a solid information, but also allows you to store surface (NURBS), and polygons. Target format conta
+
+URL: https://transmagic.com/catia-file-converter/
+  T: CATIA File Converter - TransMagic
+  S: **CATIA** File Converter covers the different **CATIA** formats and tips on when and how to **convert** from and to **CATIA** and other formats.. transmagic.com/catia-file-converter/
+
+URL: https://www.spatial.com/glossary/catpart-to-3d-xml
+  T: Convert CATPART to 3D-XML | CATIA File Translation & Repair - ACIS
+  S: **Convert****CATPART****to****3D-XML** with Spatial's 3D InterOp. Preserve geometry, PMI, and metadata while automatically repairing and healing **CATIA** V5 data. www.spatial.com/glossary/catpart-to-3d-xml
+
+URL: https://www.file-extension.org/convert/3dxml-catpart
+  T: 3DXML to CATPART - Instructions how to convert the file 3DXML to CATPART
+  S: How to **convert** the **3DXML** file to **CATPART**? If you have already downloaded one of the converters and installed it on your computer, you can proceed to the appropriate conversion process of **3DXML****to****CATP
+
+#################### searches/3dxml-writer.md
+URL: http://catiadoc.free.fr/online/rt1ug_C2/rt1ug3dxml.htm
+  T: Importing / Exporting of Rendering Data via 3D XML
+  S: There are two modes available to export materials in **3D****XML:** Export in a **3DXML** for review: The materials applied on a product are saved with their rendering properties in a **3D****XML** file. You can work the
+
+URL: https://cadexchanger.com/convert-3dxml/
+  T: CATIA V6 (3D XML) Converter | CAD Exchanger
+  S: How to convert **CATIA** V6 (**3D****XML)** files? Use CAD Exchanger software to read and write **3dxml** or enable your 3D CAD application to process it. cadexchanger.com/convert-3dxml/
+
+URL: https://www.cadinterop.com/en/formats/cad-systems/catia-v6.html
+  T: CATIA V6 & 3DXML format: interoperability and conversion
+  S: Retreive **Catia** V6 **3DXML** files extension and CAD interoperability solutions to visualize, convert, simplify, or compare your **Catia** V6 data by Dassault systemes. www.cadinterop.com/en/formats/cad-systems/catia-
+
+URL: https://forum.freecad.org/viewtopic.php?t=46886
+  T: Catia 3DXML (again) - FreeCAD Forum
+  S: The problem with Dassault / **CATIA** is that they really don't want you to utilize the general STP-format cuz then you could use a cheaper CAD-program for creating stuff and only transfer it to **CATIA****without** the 
+
+URL: https://cceintl.com/development-tools/open-data-exchange-sdk/
+  T: Multi-CAD Library | Read/Write, Import/Export CAD SDK | CATIA V5/V4 ...
+  S: CAD Open Data Exchange (ODX) Libraries is a set of CAD-independent API for reading and writing native CAD files. File formats supported include **Catia** V4, **Catia** V5, **CATIA** V6, CATShape, Unigraphics, SOLIDWORKS,
+
+URL: https://www.datakit.com/Doc_API_html/_3dxml.html
+  T: DATAKIT SDK: 3DXML Writer
+  S: Datakit Libraries and usage : Lib3dxmlWrite Detailed Mapping : **3DXML** General Mapping Sample Source Code : **3DXML** Write Sample www.datakit.com/Doc_API_html/_3dxml.html
+
+URL: https://3dencoder.com/Catia-to-3dxml
+  T: CATIA to 3DXML - 3dEncoder
+  S: Convert SKP, SolidWorks, Max, NX and 30+ formats to GLB, USD, PDF 3D, or STL instantly. 3dencoder.com/Catia-to-3dxml
+
+URL: https://forum.freecad.org/viewtopic.php?t=98446
+  T: Catia 3DXML to manageable format - FreeCAD Forum
+  S: Users Open Discussions **Catia****3DXML** to manageable format Have some feature requests, feedback, cool stuff to share, or want to know where FreeCAD is going? This is the place for such discussions. Usage questions an
+
+URL: https://www.datakit.com/cad-convertors/all-to-3dxml/0-75-0.html
+  T: CAD convertors to 3DXML - DATAKIT
+  S: Datakit's expertise meets the critical need for services that use multiple software to work together without wasting data, time or energy. By using our 3DXML(.3dxml) file writing convertors, your design offices will inte
+
+URL: https://www.3ds.com/support/documentation/resource-library/3dxml-import-export-3dexperience-r2024x
+  T: 3DXML Import Export on 3DEXPERIENCE R2024x | Dassault Systèmes
+  S: This function creates 3DEXPERIENCE content from the **3DXML** file. Export **3DXML**: used to send data from the platform to external systems or other servers. This function creates a 3DEXPERIENCE export file in **3DXML*
+
+#################### searches/caa-license.md
+URL: https://www.3ds.com/store/what-price-catia-comprehensive-buying-guide
+  T: What is the price of CATIA? A comprehensive buying guide
+  S: CATIA offers a variety of licensing options tailored to the needs of different users, from professionals to students. Here's a breakdown of the costs associated with CATIA **licenses** and what you get for your money. CA
+
+URL: https://www.maruf.ca/files/caadoc/CAAPdiTechArticles/CAAPdiVbtLicensing.htm
+  T: Setting up the Licensing for CAA RADE V5 Products - Maruf
+  S: Abstract This article describes the basic operations to set up your licensing configuration for the RADE development environment. Each user needs to explicitly specify which **licenses** he will acquire when launching an
+
+URL: https://plmcoach.com/getting-started-with-catia-caa-customization/
+  T: Getting Started with CATIA CAA Customization - PLM Coach
+  S: In this blog post you will learn the **CAA****V5** development platform, know the foundation components, and understand the architecture of the CATIA / 3DEXPERIENCE native **application** following the Model/View/Control
+
+URL: https://www.3ds.com/support/documentation/developer-guides
+  T: Developer guides | Support - Dassault Systèmes
+  S: Get started with Dassault Systèmes **CAA** Encyclopedia and explore **V5**& V6 development toolkits, including how-to information that guides you through tasks, code samples demonstrating standard scenarios, and referenc
+
+URL: https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/caa-rade-solutions_Rf9_bb94TmuIKz58V1s3Og
+  T: CAA RADE Solutions | Dassault Systèmes®
+  S: **CAA**-RADE Solutions / This is augmented through a community of **application****developers** that have recognized the value of PLM and the opportunity to enrich **V5** through their areas of expertise. Market leaders 
+
+URL: http://catiadoc.free.fr/online/basil_C2/basilLicensingMechanism.htm
+  T: Licensing Overview - Free
+  S: Concurrent Offline Licensing The concurrent **license** control technique is available via the LUM server. It gives CATIA, ENOVIA DMU, DELMIA and RADE **applications** running on a Windows laptop the ability to disconnec
+
+URL: https://www.worquick.com/post/catia-expert-review-pricing-and-alternatives
+  T: CATIA Expert Review, Pricing, and Alternatives — 2025
+  S: A hands-on expert review of CATIA **V5** and 3DEXPERIENCE: pricing from $13,700, key features, pros and cons, and best alternatives in 2025. www.worquick.com/post/catia-expert-review-pricing-and-alternatives 2025-01-01T0
+
+URL: https://www.maruf.ca/files/caadoc/CAAPdiBase/CAAPdiGettingStarted.htm
+  T: CAA V5 - Getting Started - Maruf
+  S: Welcome to **CAA** Version 5! Following information is related to Version 5 Release 19 www.maruf.ca/files/caadoc/CAAPdiBase/CAAPdiGettingStarted.htm
+
+URL: https://www.goengineer.com/guide-to-buying-catia
+  T: Buying Guide for CATIA CAD Software | GoEngineer
+  S: How Much Does CATIA Cost? A guide to the many forms of CATIA CAD and how to find the right package and licensing. www.goengineer.com/guide-to-buying-catia
+
+URL: https://public.dhe.ibm.com/software/plm/uk/dom_caa_rade_sol_en.pdf
+  T: PDF CAA Rade solutions - IBM
+  S: **CAA** Rade solutions **CAA****V5** provides the most complete set of tools, guides and API's to support the **application** development process from the very start of the requirement specification to the final product 
+
+#################### searches/catia-batch.md
+URL: https://www.scribd.com/document/358963174/Executing-CATIA-Scripts-in-Batch-Mode-CATIA-V5-Automation
+  T: Automating CATIA Drawings in Batch Mode - Scribd
+  S: This document discusses executing **CATIA** scripts in **batch****mode** to automate tasks on multiple files. It provides code to open thousands of **CATIA** drawings, extract specified parameter values from each, and wr
+
+URL: https://v5vb.wordpress.com/2010/09/26/exec-scripts-in-batch-mode/
+  T: Executing CATIA scripts in batch mode | CATIA V5 Automation
+  S: **CNEXT**.exe -direnv E:\CATEnv -env **CATIA**.V5R18.B18 -**batch** -macro C:\Temp\BatchTest\DwgParamBatch.CATScript On the first line of the **batch** file, I change directory using the CD command to the bin folder wher
+
+URL: http://catiadoc.free.fr/online/basug_C2/basugbt2301.htm
+  T: Running Batches Using the Batch Monitor - Free
+  S: Running Batches Using the **Batch** Monitor The CATUTILfunctionality, available on both Windows and UNIX, lets you run some of the batches available in **V5**. These batches can be run either from the command line, or us
+
+URL: http://catiadoc.free.fr/online/basug_C2/basugbt0101.htm
+  T: Starting a Session on Windows - Free
+  S: -**batch**: starts a session in **batch****mode** (an interactive session is not displayed) Used with "-e", it specifies that you want to run a **batch** utility. example, you would run a **batch** utility like this: **C
+
+URL: https://catiahelp.azurewebsites.net/English/InstallMap/install-r-rf-ManageEnvironment-CustomizeCmdLine.htm
+  T: Configuring Your Environment in Command Line Mode
+  S: This task explains how to configure an environment in command line **mode**. catiahelp.azurewebsites.net/English/InstallMap/install-r-rf-ManageEnvironment-CustomizeCmdLine.htm
+
+URL: https://catiadesign.org/_doc/V5Automation/
+  T: CATIA V5 Automation
+  S: **CATIA****v5**, Tutorials, Manuals, Drawings 2D 3D, Mechanical Design, Shape Design, Analysis, Machining, Assembly, Drafting, Part Design, Sheetmetal, Sketcher, GSD catiadesign.org/_doc/V5Automation/
+
+URL: https://catiadesign.org/_doc/V5Automation/online/CAAScdInfTechArticles/CAAInfInvoking.htm
+  T: Invoking CATIA from a Scripting Language
+  S: You can start **CATIA** in **batch** to execute a macro using the -**batch** option followed by the full path of the macro you want to run: **CNEXT** -**batch** -macro E:\Users\Macros\BatchMacro.CATScript this generally 
+
+URL: https://www.staff.city.ac.uk/~ra600/ME2105/Catia%20course/CATIA%20Tutorials/estug_C2/estugbt0410.htm
+  T: Computing Using a Batch - staff.city.ac.uk
+  S: 3. Right-click on the duplicated **V5** environment shortcut and select the Properties option from the contextual menu. 4. In Target modifiable field, enter the new path. 5. Edit the CNextBatch file and at the end of the
+
+URL: https://github.com/williannavarroo-glitch/catia-v5-automation-framework
+  T: CATIA V5 Automation Framework - GitHub
+  S: Modern C# .NET framework for automating repetitive tasks in **CATIA****V5** through COM **automation**. Built for engineers, designers, and manufacturing consultancies. github.com/williannavarroo-glitch/catia-v5-automati
+
+URL: https://edstelearning.com/cad/catia/catia-advanced/fundamentals-of-catia-v5-automation/
+  T: CATIA V5 Automation|EDST e-Learning
+  S: Overview: Through this course, the user will be able to learn Fundamentals of **CATIA****V5****Automation**. On completion of this course, user will be able to learn the following: Create **automation** scripts, programs
+
+#################### searches/catia-headless-license.md
+URL: http://catiadoc.free.fr/online/basil_C2/basilInstallBatch.htm
+  T: Installing in Batch Mode - Free
+  S: the unload directory and importing the appropriate **licenses**. To install the MD2 and DP2 configurations for the **CATIA** product line, type the following command, for example on Windows XP with 32-bit code: StartB -u
+
+URL: http://catiadoc.free.fr/online/basug_C2/basugbt2301.htm
+  T: Running Batches Using the Batch Monitor - Free
+  S: The **Batch** Monitordoes not run within the Version 5 process, whether it is accessed from a V5 session or from the command line. The **Batch** Monitoris a standalone process. It means that it remains open after closing
+
+URL: https://catiahelp.azurewebsites.net/English/ComUserMap/com-r-rf-CATBatchStarterOptions.htm
+  T: CATBatchStarter Options - catiahelp.azurewebsites.net
+  S: a **batch** monitor server process must run in the remote computer the default environment used to run the **batch** is the **batch** monitor server process environment the settings used to run the **batch** are those re
+
+URL: https://www.3ds.com/store/what-price-catia-comprehensive-buying-guide
+  T: What is the price of CATIA? A comprehensive buying guide
+  S: Students using **CATIA****3DEXPERIENCE** Student Edition can also pursue certification to validate their skills and enhance their career prospects. The certification process ensures that students are proficient in the us
+
+URL: https://www.3ds.com/support/documentation/user-guides
+  T: User Guides | Support - Dassault Systèmes
+  S: Explore our Dassault Systèmes user assistance guides and learn more on V6, **3DEXPERIENCE** platform applications and SIMULIA Established products www.3ds.com/support/documentation/user-guides
+
+URL: https://edstechnologies.com/wp-content/uploads/2024/09/3ds-catia-v5-3dexperience-ebook-en.pdf
+  T: PDF 50 Questions You Asked About Catia V5 on The 3dexperience Cloud
+  S: How much is **CATIA** V5 and the **3DEXPERIENCE** platform for students, educators and researchers for personal and educational use? d **3DEXPERIENCE** platform **license** costs will depend on the usage. On our websi e,
+
+URL: https://catiahelp.azurewebsites.net/English/ComUserMap/com-c-BatchMonitor-BatchMonitorRun.htm
+  T: About Running Batches Using the Batch Monitor
+  S: See the V4 Integration User's Guide: Migrating from **CATIA** V6 to **CATIA** V4: Exporting V6 Data into **CATIA** V4: Exporting V6 Data via the ExportToV4 **Batch** in Interactive Mode. FastenerFlatReport: lets you use 
+
+URL: https://enterprise.trimech.com/catia-v5-with-3dexperience-cloud-services-what-is-it/
+  T: CATIA V5 with Cloud Services vs 3DEXPERIENCE CATIA on the Cloud: What's ...
+  S: **CATIA** V5 with cloud services keeps the same **CATIA** V5 software and workflows but moves the underlying infrastructure (compute, storage, and sometimes **license** servers) into a cloud or cloud‑hosted environment. 
+
+URL: https://www.nss.co.th/blog/en-faq1-catia-migraion-v5v6/
+  T: FAQs: Migration from CATIA V5 to 3DEXPERIENCE CATIA (CATIA V6)
+  S: 5. Do you need to prepare server for the migration? ⇒Yes. You need to prepare **3DEXPERIENCE** server for **3DEXPERIENCE****CATIA** (V6) On-Premise. You can utilize an existing hardware for **3DEXPERIENCE** (V6) such as 
+
+URL: https://www.cati.com/blog/catia-v5-6-moving-of-license-servers/
+  T: CATIA V5-6 Moving of License Servers - Computer Aided Technology
+  S: Moving **license** servers for **CATIA** V5-6 can seem like a daunting task, especially for users who may not have been involved with setting up the original server, or who are new to the software. In this blog, we will 
+
+#################### searches/catiadoc-cgr.md
+URL: http://catiadoc.free.fr/online/dmnug_C2/dmnugat0401.htm
+  T: Running the CATDMUUtility Batch Process - Free
+  S: The CATDMUUtility is a batch process enabling the generation of **cgr**, 3dmap, hcg, wrl and NCGM formats from a CATIA file or from a MULTICAD file. It can also process files accessed in a PDM database, e.g. ENOVIA VPM o
+
+URL: http://catiadoc.free.fr/online/cfyugdr_C2/cfyugdr1012.htm
+  T: Editing View Properties - Free
+  S: geometry becomes available). **CGR**: turns the view into a **CGR** view (only the external appearance of the component is used and displayed; the geometry is not available). Approximate: turns the view into an approxima
+
+URL: http://catiadoc.free.fr/online/bascupst_C2/bascupst0800.htm
+  T: Cgr Management - Free
+  S: **Cgr** Management The **Cgr** settings page concerns the following settings categories: General Applicative data The **cgr** settings enable you to define the policy for the generation of **cgrs** into the cache. Genera
+
+URL: http://catiadoc.free.fr/online/bascudr_C2/bascudr0009.htm
+  T: View - Free
+  S: Infrastructure > Product Structure >**Cgr** Managementbefore the creation of **CGR** data (i.e. before you launched the part or product in Visualization mode). If not, you need to activate the Save lineic elements in cgr
+
+URL: http://catiadoc.free.fr/online/dtlug_C2/dtlugbt0500.htm
+  T: Translating files from the Command Line - Free
+  S: The CATDMUUtility is a batch process enabling the generation of .CATProduct, .**cgr** and CATPart formats from STEP files. Some STEP entities are not converted to V5. catiadoc.free.fr/online/dtlug_C2/dtlugbt0500.htm
+
+URL: http://catiadoc.free.fr/online/draug_C2/draugbt0426.htm
+  T: About the View Generation Modes - Free
+  S: The **CGR** view uses and displays only the external appearance of the component; the geometry is not available. The corresponding .**cgr** file, if it exists, is inserted from the cache system. To generate a correct **C
+
+URL: http://catiadoc.free.fr/online/dglug_C2/dglugbt0500.htm
+  T: Translating Files from the Command Line - Free
+  S: Output Options -**cgr** Output file for **cgr** corresponding to a part input file. -part Output file for CATPart corresponding to the part input file. Other options The other options available for conversion are the set
+
+URL: http://catiadoc.free.fr/online/cfyugasm_C2/cfyugasmut1000.htm
+  T: Displaying the Assembly Mass Properties - Free
+  S: Density can be saved into **cgr** documents, see **Cgr** Management for Density. Be sure that you are working in Design mode, see Cache Management for CATProduct and CATProcess Document. Open the Assembly_01.CATProduct d
+
+URL: http://catiadoc.free.fr/online/pstug_C2/pstugbt0304.htm
+  T: Inserting Existing Components - Free
+  S: Moreover, under a **cgr** file, you can insert a component (with or without Representation) such as Product, Part, Component, Model, **cgr**. For this, you need to right-click the **cgr** file and select Components > New
+
+URL: http://catiadoc.free.fr/online/cfyugdmu_C2/cfyugdmu0011.htm
+  T: Working with CGRs in DMU - Free
+  S: This section provides information on working with **CGRs** in a DMU context. This is the default document format used for DMU sessions when working in Visualization mode and with the cache system. This format is not suit
+
+#################### searches/catpart-cfb.md
+#################### searches/catpart-format-re.md
+URL: https://cadexchanger.com/catpart/
+  T: What is CATPart file and how to open it | CAD Exchanger
+  S: **CATPart** is a native **format** developed by Dassault Systems for storing parts of the assemblies created in **CATIA** V5 software suite, which is extensively used in mechanical **engineering** including aerospace, au
+
+URL: https://file-extensions.com/docs/catpart
+  T: CATPART file format - CATIA V5 Part File
+  S: What is a .**catpart****file**? **CATPART** — **CATIA** V5 Part **File**. **Format** details, MIME type, technical specifications and the programs that open **CATPART****files**. file-extensions.com/docs/catpart
+
+URL: https://www.youtube.com/watch?v=m0FnNRmZMTw
+  T: CATIA V5 REVERSE ENGINEERING !! From Scanned Data to solid catpart!
+  S: This video covers: 1) How to import STL **file** into **CATIA** V5 2) How to create curve from scan 3) How to create sketch from scan 4) How to extrude curve 5) Difference between trim and split 6) How to ... www.youtube
+
+URL: https://github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA
+  T: Reverse-Engineering-in-CATIA - GitHub
+  S: **Reverse****Engineering** in **CATIA** V5 | Step-by-Step Tutorial In this tutorial, I show how to do **reverse****engineering** in **CATIA** V5, step by step. I recreate a part based on existing geometry and explain the
+
+URL: https://docs.fileformat.com/cad/catpart/
+  T: CATPART File Format - CATIA V5 Part File
+  S: What is a **CATPART****file**? A **CATPART****file** is the native **file****format** of **CATIA** V5 software. It stores parts and assemblies created in **CATIA** V5, a 3D CAD manufacturing application. These **files** 
+
+URL: https://www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html
+  T: CATPart Files for CNC Machining: Various Format Guide & Conversion
+  S: **CATIA** eases this difficulty. It is a highly powerful CAD software that can make **engineering** designs with ease and accuracy. The **CATPart****file** that it creates can be sent to the CAM software via an intermedi
+
+URL: https://www.okino.com/conv/imp_catia5.htm
+  T: CATIA v5 CAD File Converter, Viewer and Exchanger - Okino
+  S: This geometry import converter imports and processes BREP solids-based CAD geometry **files** stored in the **CATIA** v5 native part (.**catpart**) and assembly **file** (.catproduct) **formats**. The importer is based o
+
+URL: https://www.file-extension.info/format/catpart
+  T: CATPART File - What It Is, How to Open & Convert It - File-Extension.info
+  S: A **CATPART****file** is a 3D CAD part document from **CATIA** V5 (or V6/3DEXPERIENCE) by Dassault Systèmes - it stores one component's geometry and parametric feature history. To open it without a **CATIA** license, use
+
+URL: https://3dswym.3dexperience.3ds.com/post/catia-user-community/catia-reverse-engineering-from-stl-to-solid-body_Q3cY7AuHT4q7KX7gnJ8lqw
+  T: CATIA Reverse Engineering - from STL to Solid Body
+  S: Learning how to convert an STL model to a solid body in **CATIA** for **reverse****engineering** is an important skill for engineers, designers, and 3D modelers who work with scanned or mesh-based data. In many industrie
+
+URL: https://shchenxingtech.com/knowledge/catia-file-format-cgr-3dxml-stp-conversion.html
+  T: CATIA 各文件格式互转完整指南 (CATPart/CATProduct/CGR/3DXML/STP/IGES/STL)
+  S: **CATIA** 涉及的所有文件格式 (.**CATPart** .CATProduct .CATDrawing .CGR .3DXML .STP/.STEP .IGES .STL .OBJ .X_T 等) 完整对比 + 互转方法 (UI / 脚本 / CAA C++) + 各格式适用场景 + 数据损失评估。 shchenxingtech.com/knowledge/catia-file-format-cgr-3dxml-stp-co
+
+#################### searches/catpart-magic.md
+URL: https://parts.cat.com/en/catcorp
+  T: Cat® Parts Store - Order Genuine Parts & Tools from Caterpillar
+  S: Shop for genuine **Cat**® **parts** by category, part or serial number to repair and maintain your equipment efficiently. parts.cat.com/en/catcorp
+
+URL: https://parts.cat.com/en/catcorp/parts-diagram
+  T: Parts Diagram Lookup by Serial Number | Cat® Parts Store
+  S: Enter your Cat® machine or engine serial number to look up and buy the parts you need. Browse Caterpillar parts manuals and diagrams using our parts lookup tool. parts.cat.com/en/catcorp/parts-diagram
+
+URL: https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/68530324-9d3d-4441-9ea9-66a2c8f79567
+  T: [MS-CFB]: The Header | Microsoft Learn
+  S: Byte offset Field name Field value 0x0000 Header Signature learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/68530324-9d3d-4441-9ea9-66a2c8f79567
+
+URL: https://www.cat.com/en_US/support/maintenance/parts-reference-guides.html
+  T: Parts Reference Guides | Cat | Caterpillar
+  S: There are plenty of reasons to choose genuine Cat® parts—quality, reliability, long life and consistent performance. Here's one more: We make finding exactly what you need easy. Select your machine type below to download
+
+URL: https://shopcaterpillar.com/pages/home-caterpillar-parts
+  T: Home Caterpillar Parts - shopcaterpillar.com
+  S: LOOKING FOR PARTS? Shop more than 1.4 million **Cat****parts** VISIT PARTS.CAT.COM shopcaterpillar.com/pages/home-caterpillar-parts
+
+URL: https://www.cat.com/en_US/support/maintenance/parts.html
+  T: The Right Parts, Right Now | Cat | Caterpillar
+  S: Parts.cat.com provides a convenient way for you to order genuine **Cat****parts** online from your local Cat Dealer, 24 hours a day, seven days a week. www.cat.com/en_US/support/maintenance/parts.html
+
+URL: https://autopartscatalogue.net/caterpillar/
+  T: Caterpillar - AutoPartsCatalogue
+  S: Electronic Parts Catalogue (EPC), Parts Manuals, Parts Book, Workshop Manuals, Repair Manuals, Diagnostics Software, and wiring Diagrams for Caterpillar Equipment autopartscatalogue.net/caterpillar/
+
+URL: https://www.holtcat.com/parts_service/parts/partscatcom/locale/en
+  T: HOLT CAT Genuine Cat Parts: Your Online Source for Caterpillar ...
+  S: Explore genuine **Cat**® **parts** with ease on Parts.Cat.Com, presented by HOLT CAT. Offering a user-friendly interface for quick part searches, convenient online ordering, and expert support. Enjoy flexible delivery op
+
+URL: https://www.zieglercat.com/parts/
+  T: Parts - Ziegler CAT
+  S: **Cat**® **Parts** orders from Ziegler CAT can be shipped directly to you, to your nearest location or to one of our convenient parts drop locations. www.zieglercat.com/parts/
+
+URL: https://forensicskween.com/ctf/cyberdefenders/emprisa-maldoc/
+  T: CyberDefenders: Emprisa Maldoc - forensicskween
+  S: Object Data, which is item 7, is named Equation3, and has the **magic** signature **d0cf11e0**. Answer: **d0cf11e0** forensicskween.com/ctf/cyberdefenders/emprisa-maldoc/
+
+#################### searches/catpart-streams2.md
+URL: https://blog.didierstevens.com/programs/oledump-py/
+  T: oledump.py | Didier Stevens
+  S: oledump.py is a program to analyze **OLE** files (**Compound File** Binary Format). These files contain **streams** of data. oledump allows you to analyze these **streams**. Many applications use this file format, the be
+
+#################### searches/cgr-license.md
+#################### searches/cgr-write.md
+URL: https://github.com/danielrspereira/CatiaAPI
+  T: GitHub - danielrspereira/CatiaApi
+  S: Welcome to the CatiaApi repository! This repository is dedicated to showcasing the capabilities of the **CATIA** v5 **API** using .NET C#. Whether you are new to **CATIA** or looking to leverage its power through code, t
+
+URL: https://cceintl.com/development-tools/open-data-exchange-sdk/
+  T: Multi-CAD Library | Read/Write, Import/Export CAD SDK | CATIA V5/V4 ...
+  S: CAD Open Data Exchange (ODX) Libraries is a set of CAD-independent **API** for reading and writing native CAD **files**. **File** formats supported include **Catia** V4, **Catia** V5, **CATIA** V6, CATShape, Unigraphics,
+
+URL: https://github.com/robertpardillo/rice
+  T: GitHub - robertpardillo/rice: Python API to control Catia
+  S: Python **API** to control **Catia**. Contribute to robertpardillo/rice development by creating an account on GitHub. github.com/robertpardillo/rice
+
+URL: https://resources.rand3d.com/insights-from-within/extracting-geometry-from-cgr-files
+  T: Extracting Geometry from CGR files - Rand 3D
+  S: Learn some tricks to extract geometry from **CGR** (**Catia** Graphics Representation) **files**. resources.rand3d.com/insights-from-within/extracting-geometry-from-cgr-files 2025-09-30T00:00:00.0000000
+
+URL: https://www.datakit.com/Doc_API_html/v5w_asm_how_to.html
+  T: How To Use Catia V5 Writer APIs for CATProduct writing
+  S: How To Use **Catia** V5 Writer **APIs** for CATProduct writing Table of Contents the Document ID Notion The CATProduct writing step-by-step. Referencing existing **files** from a CATProduct The Virtual Component writing 
+
+URL: https://resources.rand3d.com/insights-from-within/catia-v5-creating-drawings-from-cgrs
+  T: CATIA V5: Creating Drawings from CGRs - Rand 3D
+  S: The **CATIA** Graphics Representation (**CGR** from here on out) is a lightweight **file** format for **CATIA**. In general, the outside "skin" of a CATPart is tessellated and saved, leaving only the shape data behind. T
+
+URL: https://www.datakit.com/Doc_API_html/cgr.html
+  T: DATAKIT SDK: CGR reader
+  S: Datakit Libraries and usage : LibCatiaV5Read Detailed Mapping : General Mapping Annotation Set Result - ARS Mapping Options : Options for **CGR** Reader www.datakit.com/Doc_API_html/cgr.html
+
+URL: https://cadexchanger.com/products/sdk/
+  T: CAD Exchanger SDK | Libraries to read and write 3D CAD files
+  S: Home Products CAD Exchanger **SDK** Software Libraries to Read, **Write** and Visualize 3D CAD **files** Quickly and easily enrich your web, server or desktop app with access to CAD and BIM data. Work with **CATIA**, SOL
+
+URL: https://www.3ds.com/support/documentation/developer-guides
+  T: Developer guides | Support - Dassault Systèmes
+  S: Get started with Dassault Systèmes CAA Encyclopedia and explore V5 & V6 development toolkits, including how-to information that guides you through tasks, code samples demonstrating standard scenarios, and reference infor
+
+URL: https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/caa-c-api-documentation-generator-cdg_CHfNRg97QqGCiYZWkXnkdg
+  T: CAA C API Documentation Generator CDG | Dassault Systèmes®
+  S: CAA - C++ **API** Documentation Generator provides a single command that can be integrated to the release process driven by CAA - Teamwork Release Manager product for generating the C++ **API** reference documentation. T
+
+#################### searches/iso-10303-237.md
+#################### searches/iso-19457.md
+URL: https://www.3ds.com/newsroom/press-releases/dassault-systemes-delivers-3d-xml-specifications-and-player
+  T: Dassault Systemes Delivers 3D XML Specifications and Player
+  S: It delivers Internet Explorer and Microsoft Office plug-ins, with **3D XML** drag-and-drop capabilities. "The **3D XML** format is a cornerstone of **Dassault** Systèmes' ambition to democratize 3D and demonstrates our c
+
+URL: https://file-extensions.com/docs/3dxml
+  T: 3DXML file extension - Dassault Systemes 3D XML File
+  S: What is a .3dxml file? 3DXML — **Dassault** Systemes **3D XML** File. Format details, MIME type, technical specifications and the programs that open 3DXML files. file-extensions.com/docs/3dxml
+
+URL: https://www.scribd.com/document/739651988/3D-XML-User-Guide-4-3
+  T: 3D XML User Guide 4.3 | PDF | Xml Schema | Texture Mapping
+  S: If so, read the **3D XML** User's Guidefirst. 1. **3D XML** OverviewThe **3D XML** format is used across all of **Dassault** Systèmes brands - CATIA, DELMIA, ENOVIA,SIMULIA, 3DVIA, SolidWorks and Virtools. **3D XML** for
+
+URL: https://www.scribd.com/document/447080927/3DXML-User-Guide
+  T: 3DXML User Guide | PDF | Xml | File Format - Scribd
+  S: VII **3D XML** USER'S GUIDE **3D XML** OverviewThe **3D XML** format is used in the **Dassault** Systemes' entire line of products -CATIA, DELMIA, ENOVIA, SMARTEAM, SolidWorks and Spatial. **3D XML** is partof the 3D For
+
+#################### searches/iso-19457b.md
+URL: https://www.iso.org/standard/85878.html
+  T: ISO 19457:2026 - Rolling bearings — Roller blocks as subassemblies for ...
+  S: Rolling bearings — Roller blocks as subassemblies for linear motion rolling bearings — Boundary dimensions and tolerance values www.iso.org/standard/85878.html
+
+URL: https://www.iso.org/obp/ui/en/#!iso:std:85878:en
+  T: ISO 19457:2026 (en), Rolling bearings — Roller blocks as subassemblies ...
+  S: Rolling bearings — Roller blocks as subassemblies for linear motion rolling bearings — Boundary dimensions and tolerance values www.iso.org/obp/ui/en/#!iso:std:85878:en
+
+URL: https://cdn.standards.iteh.ai/samples/iso/iso-19457-2026/1be35a50a13f4aa3bee36d3d997893df/iso-19457-2026.pdf
+  T: PDF ISO 19457:2026 - ISO 19457:2026 - cdn.standards.iteh.ai
+  S: The title in ISO 12090-1 and ISO 12090-2 can ISO 24393:2008, Annex of this block design given in document applies the A. classification document. of linear motion rolling bearings as defined in v International Standard *
+
+URL: https://www.en-standard.eu/iso-19457-2026-rolling-bearings-roller-blocks-as-subassemblies-for-linear-motion-rolling-bearings-boundary-dimensions-and-tolerance-values/
+  T: ISO 19457:2026 - en-standard.eu
+  S: **ISO 19457**:2026 This document specifies the boundary dimensions and tolerances for Types A to D of roller blocks. Types E and F of roller blocks are given in Annex A. They require fixing parts and are not yet produced
+
+URL: https://www.prosprintinc.com/sys-nd/139.html
+  T: ISO 19457 Standard Released - Linear Motion Bearings | ProSprint
+  S: What Is **ISO 19457**? **ISO 19457** specifies dimensions, tolerances, and technical requirements for linear motion rolling bearings — roller blocks. These components are widely used in high-precision equipment such as C
+
+URL: https://www.bsbedge.com/standard/rolling-bearings-roller-blocks-as-subassemblies-for-linear-motion-rolling-bearings-boundary-dimensions-and-tolerance-values-iso-19457-2026/ISO85878
+  T: ISO 19457:2026 Rolling bearings — Roller blocks as
+  S: **ISO 19457**:2026 Rolling bearings — Roller blocks as subassemblies for linear motion rolling bearings — Boundary dimensions and tolerance values Standard Details This document specifies the boundary dimensions and tole
+
+URL: https://genorma.com/en/standards/iso-19457-2026
+  T: ISO 19457:2026 - genorma.com
+  S: Rolling bearings — Roller blocks as subassemblies for linear motion rolling bearings — Boundary dimensions and tolerance values **ISO 19457**:2026 Publication date: Jul 2, 2026 genorma.com/en/standards/iso-19457-2026
+
+URL: https://members.motionpower.org/ItemDetail?iProductCode=19457-2026&Category=ISO
+  T: Iso 19457-2026
+  S: **ISO 19457**-2026 Linear motion rolling bearing subassemblies as standardized in this document are a product that has been on the market for several decades. It is projected that these products will become less importan
+
+URL: https://plusstd.com/standard/1227181985/iso-19457-2026/
+  T: Rolling bearings — Roller blocks as subassemblies for linear motion ...
+  S: **ISO 19457**:2026 — Rolling bearings — Roller blocks as subassemblies for linear motion rolling bearings — Boundary dimensions and tolerance values is an international standard developed by a recognized standards body. 
+
+#################### searches/iso-19457c.md
+#################### searches/iso-237c.md
+URL: https://en.wikipedia.org/wiki/ISO_10303
+  T: ISO 10303 - Wikipedia
+  S: Toggle the table of contents **ISO****10303** en.wikipedia.org/wiki/ISO_10303
+
+URL: https://www.iso.org/obp/ui#!iso:std:iso:10303:-1:ed-3:v1:en
+  T: ISO 10303-1:2024 (en), Industrial automation systems and integration ...
+  S: The **ISO****10303** series of International Standards describe the computer-interpretable representation of product information for the exchange of product data. The objective is to provide a neutral mechanism capable o
+
+URL: https://www.iso.org/standard/72237.html
+  T: ISO 10303-1:2021 - Industrial automation systems and integration ...
+  S: Industrial automation systems and integration — Product data representation and exchange — Part 1: Overview and fundamental principles www.iso.org/standard/72237.html
+
+URL: https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=821600
+  T: Introduction to ISO 10303 - the STEP Standard for Product Data ... - NIST
+  S: Introduction to **ISO****10303** - the STEP Standard for Product Data Exchange Michael J. Pratt* National Institute of Standards and Technology Manufacturing Systems Integration Division Gaithersburg, MD 20899-8261, USA.
+
+URL: https://cdn.standards.iteh.ai/samples/83105/e5c16e0599044f18ba5d184ed338678b/ISO-10303-1-2024.pdf
+  T: PDF ISO 10303-1:2024 - ISO 10303-1:2024 - iTeh Standards
+  S: The **ISO****10303** series implements Standard of a three-layer machine-interpretable interface data and associated architecture specifies the business data access. defining schemata. cdn.standards.iteh.ai/samples/83105
+
+URL: https://steptools.com/stds/step/
+  T: ISO 10303 STEP Standards
+  S: STEP, the Standard for the Exchange of Product Model Data, is a comprehensive **ISO** standard (**ISO****10303**) that describes how to represent and exchange digital product information. steptools.com/stds/step/
+
+URL: https://handwiki.org/wiki/ISO_10303
+  T: ISO 10303 - HandWiki
+  S: **ISO****10303** (Automation systems and integration — Product data representation and exchange) is a family of **ISO** standards for computer-interpretable representation (description) and exchange of product manufactur
+
+URL: https://pdesinc.org/step/
+  T: STEP - PDES, Inc.
+  S: The **ISO****10303** standard, more commonly referred to as STEP, is the best way to efficiently exchange product information throughout the product's life cycle, both internally and with worldwide partners. PDES, Inc. c
+
+URL: https://pdesinc.org/wp-content/uploads/2020/04/STEP-application-handbook-63006-BF.pdf
+  T: PDF Step Application Handbook Iso 10303 Version 3
+  S: STEP APPLICATION HANDBOOK **ISO****10303** VERSION 3 30 June 2006 The overall objective of STEP is to provide a mechanism that describes a complete and unambiguous product definition throughout the life cycle of a produc
+
+URL: https://ida-step.net/support/resources/about-step
+  T: About STEP (ISO 10303) standard | IDA-STEP
+  S: About STEP (**ISO****10303**) standard STEP is the name of the international standard **ISO-10303** on Industrial automation systems and integration - Product data representation and exchange. ida-step.net/support/resour
+
+#################### searches/olefile-catpart.md
+URL: https://github.com/decalage2/olefile
+  T: GitHub - decalage2/olefile: olefile is a Python package to parse, read ...
+  S: **olefile** is a Python package to parse, read and write Microsoft OLE2 **files** (also called Structured Storage, **Compound****File** Binary Format or **Compound** Document **File** Format), such as Microsoft Office 97
+
+URL: https://github.com/sysfce2/python-olefile
+  T: GitHub - sysfce2/python-olefile: Python library to parse, read and ...
+  S: **olefile** is a Python package to parse, read and write Microsoft OLE2 **files** (also called Structured Storage, **Compound****File** Binary Format or **Compound** Document **File** Format), such as Microsoft Office 97
+
+URL: https://pypi.org/project/olefile/
+  T: olefile · PyPI
+  S: 2018-01-24 v0.45: **olefile** can now overwrite **streams** of any size, improved handling of malformed **files**, fixed several bugs, end of support for Python 2.6 and 3.3. pypi.org/project/olefile/
+
+URL: https://olefile.readthedocs.io/en/latest/
+  T: olefile 0.47 documentation — olefile 0.47 documentation - Read the Docs
+  S: **olefile** 0.47 documentation This is the home page of the documentation for **olefile**. The latest version can be found online, otherwise a copy is provided in the doc subfolder of the package. **olefile** is a Python
+
+URL: https://www.decalage.info/olefile/
+  T: olefile - a Python module to read/write MS OLE2 files - Decalage
+  S: **olefile** (formerly OleFileIO_PL) is a Python package to parse, read and write Microsoft OLE2 **files** (also called Structured Storage, **Compound****File** Binary Format or **Compound** Document **File** Format), suc
+
+URL: https://deepwiki.com/decalage2/olefile/2.3-streams-and-storages
+  T: Streams and Storages | decalage2/olefile | DeepWiki
+  S: **Streams** and Storages Relevant source **files** Purpose and Scope This page describes the core concepts of **streams** and storages in OLE2 **files**, how they are represented in the **olefile** library, and the dual-
+
+URL: https://olefile.readthedocs.io/en/latest/olefile.html
+  T: olefile API Reference — olefile 0.47 documentation
+  S: Index Module Index Search Page Summary ... **olefile** module **olefile** (formerly OleFileIO_PL) Module to read/write Microsoft OLE2 **files** (also called Structured Storage or Microsoft **Compound** Document **File** 
+
+URL: https://compound-files.readthedocs.io/en/latest/_modules/compoundfiles/streams.html
+  T: compoundfiles.streams — Compoundfiles 0.3 documentation
+  S: [docs] classCompoundFileStream(io.RawIOBase):""" Abstract base class for **streams** within an OLE **Compound** Document. Instances of :class:`CompoundFileStream` are not constructed directly, but are returned by the :me
+
+URL: https://deepwiki.com/decalage2/olefile/3-user-guide
+  T: User Guide | decalage2/olefile | DeepWiki
+  S: The **olefile** package enables Python applications to parse, read, and write Microsoft OLE2 **files** (also called Structured Storage or **Compound****File** Binary Format). These **files** are used by Microsoft Office 
+
+URL: https://techshelps.github.io/MSDN/INOLE/D1/S1197.htm
+  T: OLE's Implementation: Compound Files - techshelps.github.io
+  S: OLE's Implementation: **Compound****Files** What we've seen to this point, with the exception of custom marshaling for storage and **stream** objects, is the specification for Structured Storage. In other words, we've se
+
+#################### searches/pycatia-example.md
+URL: https://pycatia.readthedocs.io/en/latest/examples.html
+  T: Examples — pycatia 0.10.0 documentation
+  S: The **Sketch****examples** also show further usage of constraints. Constraints - 001 DOCUMENT **EXAMPLES** ¶ Document - **Example** 1 ¶ Use the context manager to open CATIA documents and close. Document - 001 Document -
+
+URL: https://pycatia.readthedocs.io/en/latest/api/pycatia/part_interfaces/pad.html
+  T: pycatia.part_interfaces.pad — pycatia 0.10.0 documentation
+  S: **pycatia**.part_interfaces.**pad** ¶ Module initially auto generated using V5Automation files from CATIA V5 R28 on 2020-06-11 12:40:47.360445 pycatia.readthedocs.io/en/latest/api/pycatia/part_interfaces/pad.html
+
+URL: https://github.com/evereux/pycatia/blob/master/examples/example__hybrid_sketch__shape_factory__001.py
+  T: Example - Hybrid Sketch & Shape Factory - 001 - GitHub
+  S: **Creates** a square in a **sketch** and fully constrains it. **Sketch** then used to **pad**. # insert syspath to project folder so **examples** can be run. # for development purposes. # **create** a point at 0, 0, 0. T
+
+URL: https://deepwiki.com/evereux/pycatia/8-examples-and-user-scripts
+  T: Examples and User Scripts | evereux/pycatia | DeepWiki
+  S: This page provides an overview of the practical **examples** and user scripts available in the **pycatia** library. While the **examples** demonstrate basic functionality and common operations, the user scripts s deepwik
+
+URL: https://deepwiki.com/evereux/pycatia/8.1-code-examples
+  T: Code Examples | evereux/pycatia | DeepWiki
+  S: This page provides a comprehensive overview of the code **examples** available in the pycatialibrary. These **examples** demonstrate how to use various features of **pycatia** to interact with CATIA V5 through the Python
+
+URL: https://github.com/SheydaKarimabadi/PyCATIA_Automation_Tutorial
+  T: GitHub - SheydaKarimabadi/PyCATIA_Automation_Tutorial: Learn how to ...
+  S: Automate CATIA with Python | **PyCATIA** Tutorial 🚀 This repository contains all the files and code **examples** from my YouTube tutorial on automating CATIA design using Python and the **PyCATIA** library. github.com/Sh
+
+URL: https://www.youtube.com/watch?v=_KfYiUn70rQ
+  T: How To Automate CATIA Design (Sketch) Using Python - Step by Step ...
+  S: 🚀 Automate Your CATIA Designs with Python! In this video, I'll show you how to connect Python with CATIA using the **PyCATIA** library and **create** a simple **sketch** — step by step, in plain English. www.youtube.com/
+
+URL: https://www.youtube.com/playlist?list=PLaG7z_rSv2MfT1-X5Lp2ef8btQ-iKncLA
+  T: PyCATIA - YouTube
+  S: How To Automate CATIA Design (**Sketch**) Using Python - Step by Step Tutorial SheydaCore 1.3K views • 1 year ago 4:47 www.youtube.com/playlist?list=PLaG7z_rSv2MfT1-X5Lp2ef8btQ-iKncLA
+
+URL: https://gitee.com/liang-jun/pycatia/blob/master/example_016.py
+  T: example_016.py · 梁军/pycatia - Gitee.com
+  S: **Example** 16: **Creates** a square in a **sketch** and fully constrains it. **Sketch** then used to **pad**. gitee.com/liang-jun/pycatia/blob/master/example_016.py
+
+URL: https://www.udemy.com/course/pycatia-module/
+  T: PyCATIA module - Udemy
+  S: **Create** a simple **sketch** in **PyCATIA** by selecting the **part** body, setting the xy plane as **sketch** support, adding a four-point square, and updating the document. Draw basic shapes2:31 **Create** a **new** 
+
+#################### searches/step-named-attributes.md
+URL: https://3dswym.3dexperience.3ds.com/question/catia-user-community/how-to-mapp-attributes-during-step-import-in-3dx-native-catia-v6_2UuhFXNqScW4XL9WIAdukA
+  T: How to mapp attributes during STEP-Import in 3DX-Native CATIA (V6)
+  S: Hello, I am trying to **import** a **STEP** file with 3DX-**CATIA**. But the **Attributes** from the **STEP** file get not mapped to the Physical Product. Which possibilities are there to get this managed? In my case, th
+
+URL: http://catiadoc.free.fr/online/itfug_C2/itfugbt0101.htm
+  T: STEP: Import - Free
+  S: This task shows you how to **import** to a CATPart or CATProduct document catiadoc.free.fr/online/itfug_C2/itfugbt0101.htm
+
+URL: https://catia-v5-help.anarkia333data.center/online/itfug_C2/itfugbt0101.htm
+  T: STEP: Import - catia-v5-help.anarkia333data.center
+  S: Detailed report, to set the level of details of the transfer log, Validation Properties, to check the quality of the transfer, Groups (Selection Sets), to activate/de-activate the transfer of groups mapped with Selection
+
+URL: http://catiadoc.free.fr/online/itfug_C2/itfugat0101.htm
+  T: STEP: Trouble Shooting
+  S: **STEP**: Trouble Shooting **Import** Export catiadoc.free.fr/online/itfug_C2/itfugat0101.htm
+
+URL: https://catiahelp.azurewebsites.net/English/SettingsMap/settingsig1-c-STEP.htm
+  T: STEP - catiahelp.azurewebsites.net
+  S: **Import** - Continuity optimization of curves and surfaces This setting allows a better user control over the number of curves and surfaces that are created during the process of importing **STEP** data into V6: V6 requ
+
+URL: https://www.eng-tips.com/threads/problem-when-importing-step-file-into-catia-assembly-combined-into-one-part-amp-partbody.512974/
+  T: Problem when importing STEP file into CATIA - Eng-Tips
+  S: Hi pals, I am having an issue with importing **STEP** file consisting of an assembly into **CATIA**. It will always show the whole as one single PART, and every actual 'parts' of the assembly as PARTBODY. This makes it d
+
+URL: https://ansyshelp.ansys.com/public///Views/Secured/corp/v252/en/spaceclaim/Discovery/user_manual/file/r_file-operation_import-export_import-file-formats.html
+  T: Importing: Supported File Types - ansyshelp.ansys.com
+  S: It is visible in the Design window but you can't change the model. **Import** of free points is supported CGR **imports** Facets as mesh objects. SpaceClaimrecommends editing meshes on a 64bit OS. **Named** selections of
+
+URL: https://mecanicasolutions.com/en/blog/importing-into-catia-v5-and-saving-parts/
+  T: Import STEP assemblies to CATIA and Save Parts
+  S: **Import****STEP** assemblies into **CATIA** V5 and save parts as CATPart files with ease. Follow this simple **step**-by-**step** guide. mecanicasolutions.com/en/blog/importing-into-catia-v5-and-saving-parts/
+
+URL: https://www.goengineer.com/blog/catia-step-exchange-3d-models-with-pmi-or-composites-data
+  T: Using CATIA STEP to Exchange 3D Models with PMI or Composites Data
+  S: These application protocol formats support the **import** and export of geometry and assembly structures as well as handle shells and solids **topology**. The lesser-known **CATIA** Extended **STEP** Interface license (S
+
+URL: https://www.ibm.com/support/pages/apar/HD09936
+  T: Hd09936: Scm : Positioning Is Lost for Step Import (Ap214) - Ibm
+  S: **Step** by **step** scenario: 1. Start **Catia** v5. Make sure you have a **step**- license. 2. Create new cat-product 3. Insert a part under the cat-product. 4. Insert another part under the cat-product. 5. Move the pa
+
+#################### searches/xdesign-re.md
+URL: https://blogs.solidworks.com/products/solidworks/lesson-5-solidworks-xdesign-design-guidance/
+  T: Lesson 5: SOLIDWORKS xDesign - Design Guidance
+  S: In this Lesson, we will use the **3DEXPERIENCE** Platform to investigate Design Guidance in SOLIDWORKS **xDesign** for an Additive Manufacturing process. The Design Guidance tool helps you design geometries taking into a
+
+URL: https://blogs.solidworks.com/products/solidworks/lesson-6-solidworks-xdesign-design-guidance-load-case-manager/
+  T: Lesson 6: SOLIDWORKS xDesign - Design Guidance - Load Case Manager
+  S: In Lesson 5, we used the **3DEXPERIENCE** Platform to investigate Design Guidance in SOLIDWORKS **xDesign** for an Additive Manufacturing process. The Design Guidance tool helps you design geometries taking into account,
+
+URL: https://www.youtube.com/watch?v=A_8d7oRfN20
+  T: SOLIDWORKS xDesign Tutorials: Part 1 : Import/Export on xDesign
+  S: **File****Formats** Supported for Import in SOLIDWORKS **xDesign** 1. SOLIDWORKS Part → .sldprt 2. CATIA Part → .CATPart 3. SOLIDWORKS Assembly → .sldasm (only via 3DDrive) 4. www.youtube.com/watch?v=A_8d7oRfN20 2025-08-
+
+URL: https://www.engineersrule.com/9-key-differences-when-comparing-solidworks-and-xdesign/
+  T: 9 Key differences when comparing SOLIDWORKS and xDesign
+  S: Developed to have similarities and functions from both SOLIDWORKS and CATIA, **xDesign** combines the power of cloud technology with an intuitive design flow. In this blog post, we'll highlight some of the differences be
+
+URL: https://www.youtube.com/watch?v=E-g6W82TfZE
+  T: Tutorial Solidworks Reverse Engineering, Convert stl/mesh file to Solid ...
+  S: Learn how to **reverse** engineer STL/mesh **files** into solid parts in SolidWorks! This step-by-step tutorial covers importing, converting, and refining 3D scans o... www.youtube.com/watch?v=E-g6W82TfZE 2024-11-18T00:0
+
+URL: https://www.3ds.com/store/get-started/professionals/solidworks-xdesign
+  T: Get started SOLIDWORKS xDesign | Dassault Systèmes
+  S: Get started with SOLIDWORKS **xDesign** on the **3DEXPERIENCE** platform—step-by-step guides, videos, and resources to begin. www.3ds.com/store/get-started/professionals/solidworks-xdesign
+
+URL: https://hub.ohmycad.com/en/knowledge/automatic-step-pdf-conversion-3dexperience-derived-formats
+  T: 1. 3DEXPERIENCE export : STEP & PDF derived formats - XDI
+  S: The status modification is set to " Frozen " for this example. In other words, the **file** will be converted when you change its status to " Frozen " in **3DEXPERIENCE**. Make sure you check "Force update". Let's look a
+
+URL: https://www.3ds.com/support/documentation/user-guides
+  T: User Guides | Support - Dassault Systèmes
+  S: Explore our Dassault Systèmes user assistance guides and learn more on V6, **3DEXPERIENCE** platform applications and SIMULIA Established products www.3ds.com/support/documentation/user-guides
+
+URL: https://3dswym.3dexperience.3ds.com/question/solidworks-user-forum/importing-dxf-into-xdesign-to-create-a-3d-model_FLagvfv-Sy-cho3uRgBJgA
+  T: Importing DXF into xDesign to Create a 3D Model
+  S: I am using the **3DEXPERIENCE** platform, version 3D Dashboard 2.7.7 (2024), and I would like to import a DXF **file** into **xDesign** in order to create a 3D model from it (e.g. via extrusion). Unfortunately, I cannot 
+
+URL: https://3dswym.3dexperience.3ds.com/post/3dexperience-edu-students/valuable-knowledge-xdesign__x_02bfzQr2bE6loteh9jw
+  T: Valuable knowledge xDesign | Dassault Systèmes®
+  S: How it Works **xDesign** : Because **xDesign** was made by the creators of SOLIDWORKS, anyone who has used SOLIDWORKS will instantly feel at home. This app utilizes 2D sketches to create 3D solids through extrusion, rota
+
+#################### searches/xdesign3.md
+URL: https://dshelp-embed.3ds.com/2020x/english/xd_dashboard/SOLIDWORKS_XD_Tips.html
+  T: xDesign Dashboard - Dassault Systèmes
+  S: FAQ: SOLIDWORKS **Files** and **xDesign** Do SOLIDWORKS and **xDesign** have the same **file** type? No. Components created in **3DEXPERIENCE** apps like **xDesign** are saved as physical products in collaborative spaces
+
+URL: https://www.youtube.com/watch?v=A_8d7oRfN20
+  T: SOLIDWORKS xDesign Tutorials: Part 1 : Import/Export on xDesign
+  S: **File****Formats** Supported for Import in SOLIDWORKS **xDesign** 1. SOLIDWORKS Part → .**sldprt** 2. CATIA Part → .CATPart 3. SOLIDWORKS Assembly → .sldasm (only via 3DDrive) 4. www.youtube.com/watch?v=A_8d7oRfN20 2025
+
+URL: https://www.solidworks.com/solution/solidworks-makers/solidworks-xdesign-makers
+  T: xDesign for Makers Online 3D CAD Software - SOLIDWORKS
+  S: This applies to native **formats**: .**3dxml**, .**sldprt**, .sldasm and .slddrw. You can **export** in neutral **formats** like .stl, .step or .iges to share or use your designs without restrictions. www.solidworks.com/
+
+URL: https://community.3dcs.com/help_manual/saveas.htm
+  T: 3DEXPERIENCE General Information > Saving > Saving > Export - 3DCS
+  S: In **3DEXPERIENCE**, the user can **export** their part or assembly **files** as a STEP, IGES, **3D****XML,** or native CATIA V5 **files**. community.3dcs.com/help_manual/saveas.htm
+
+URL: https://hub.ohmycad.com/en/knowledge/automatic-step-pdf-conversion-3dexperience-derived-formats
+  T: 1. 3DEXPERIENCE export : STEP & PDF derived formats - XDI
+  S: This rule will launch the conversion of **files** when they change maturity in **3DEXPERIENCE**. The choice of converter is important here, as it involves installing a **3DEXPERIENCE** application that will take care of 
+
+URL: https://www.3ds.com/support/documentation/resource-library/3dxml-import-export-3dexperience-r2024x
+  T: 3DXML Import Export on 3DEXPERIENCE R2024x | Dassault Systèmes
+  S: This function creates **3DEXPERIENCE** content from the **3DXML****file**. **Export****3DXML**: used to send data from the platform to external systems or other servers. This function creates a **3DEXPERIENCE****export**
+
+URL: https://www.goengineer.com/blog/exporting-derived-outputs-3dexperience-platform
+  T: Exporting Derived Outputs from the 3DEXPERIENCE Platform
+  S: Derived Outputs on the **3DEXPERIENCE** platform are PDFs, DXFs, STEP **files**, etc., that are manually or automatically created from your CAD **files** for use downstream. This article explains how to "package" these o
+
+URL: https://www.youtube.com/watch?v=Czz4W6sB20Q
+  T: How to Export STL from xDesign - YouTube
+  S: This video shows how to **export** an STL and other **files** in **xDesign**. www.youtube.com/watch?v=Czz4W6sB20Q
+
+URL: https://store.trimech.com/blog/designing-and-printing-with-xdesign-part-two
+  T: Designing and Printing With xDesign: Part Two - TriMech Store
+  S: However, there is a better way. There's a second choice for exporting **files** which gives you more control over the printing process. **xDesign** has the option to set up the 3D print within the design system. I change
+
+URL: https://blogs.solidworks.com/products/solidworks/lesson-5-solidworks-xdesign-design-guidance/
+  T: Lesson 5: SOLIDWORKS xDesign - Design Guidance
+  S: Save the Cantilever_Bracket-**xDesign** Physical Product as a **3DXML** (*.**3dxml**) and a STL (*.stl) **file**. Before you begin: You need to purchase a **3DEXPERIENCE** education offer from your Value Added Reseller (
+
+#################### searches/xshape-fmt.md

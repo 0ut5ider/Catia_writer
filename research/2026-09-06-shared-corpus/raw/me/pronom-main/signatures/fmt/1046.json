@@ -1,0 +1,60 @@
+{
+  "fileFormatID": 1851,
+  "formatName": "Draco",
+  "version": "1",
+  "formatDescription": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to provide efficient storage and transmission of 3D graphics.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "10 May 2017",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": null,
+  "formatSourceDate": "10 May 2017",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Model",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/1046",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 1406,
+      "name": "Draco",
+      "note": "BOF: 'DRACO', major version 1\r\nHeader defined in code: https://github.com/google/draco/blob/master/compression/config/compression_shared.h",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 0,
+          "byteSequence": "445241434F01",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "drc",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Is previous version of",
+      "relatedFormatID": 3944,
+      "relatedFormatName": "Draco"
+    }
+  ],
+  "supportedBy": 141,
+  "developedBy": 141,
+  "source": 1
+}

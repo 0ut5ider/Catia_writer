@@ -1,0 +1,55 @@
+{
+  "fileFormatID": 3916,
+  "formatName": "Android Package File",
+  "provenanceCompoundName": "Bibliothèque nationale de France / Bibliothèque nationale de France",
+  "identifiers": [
+    {
+      "identifierText": "fmt/2041",
+      "identifierType": "PUID"
+    }
+  ],
+  "containerSignatures": [
+    {
+      "containerType": "ZIP",
+      "id": "101120",
+      "description": "Android Package File",
+      "files": [
+        {
+          "path": "classes.dex"
+        },
+        {
+          "path": "AndroidManifest.xml",
+          "byteSequences": [
+            {
+              "subSequences": [
+                {
+                  "position": "1",
+                  "subSeqMinOffset": "0",
+                  "subSeqMaxOffset": "0",
+                  "sequence": "03 00 08 00"
+                }
+              ],
+              "reference": "BOFoffset"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "apk",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 382,
+      "relatedFormatName": "ZIP Format"
+    }
+  ],
+  "source": 162
+}

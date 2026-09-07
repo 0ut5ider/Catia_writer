@@ -1,0 +1,582 @@
+
+ Harold L. Bowers (doing Business As Hlb Technology), Plaintiff-cross Appellant, v. Baystate Technologies, Inc., Defendant-appellant, 320 F.3d 1317 (Fed. Cir. 2003) :: Justia
+Log In
+Sign Up
+Find a Lawyer
+Ask a Lawyer 
+Research the Law
+Law Schools
+Laws & Regs
+Newsletters
+Legal Marketing
+Justia
+ &rsaquo; 
+U.S. Law
+ &rsaquo; 
+Case Law
+ &rsaquo; 
+Federal Courts
+ &rsaquo; 
+Courts of Appeals
+ &rsaquo; 
+Federal Circuit
+ &rsaquo; 
+2003
+ &rsaquo; 
+					Harold L. Bowers (doing Business As Hlb Technology), Plaintiff-cross Appellant, v. Baystate Technolo...
+Harold L. Bowers (doing Business As Hlb Technology), Plaintiff-cross Appellant, v. Baystate Technologies, Inc., Defendant-appellant, 320 F.3d 1317 (Fed. Cir. 2003)
+Annotate this Case
+					U.S. Court of Appeals for the Federal Circuit
+											- 320 F.3d 1317 (Fed. Cir. 2003)
+January 29, 2003
+COPYRIGHT MATERIAL OMITTED COPYRIGHT MATERIAL OMITTED Frederic M. Meeker, Banner & Witcoff, LTD, of Washington, DC, filed a response for plaintiff-cross appellant. With him on the response were Steve S. Chang, Bradley C. Wright, and Charles W. Shifley.
+Robert L. Kann, Bromberg & Sunstein LLP, of Boston, Massachusetts, filed a combined petition for panel rehearing and rehearing en banc for defendant-appellant. Of counsel were Judith R.S. Stern and Erik P. Belt.
+Mark A. Lemley, Professor of Law, Boalt Hall School of Law, University of California at Berkeley, of Berkeley, CA, filed an amici curiae brief.
+Before CLEVENGER, RADER, and DYK, Circuit Judges.
+Opinion for the court filed by Circuit Judge RADER. Concurring/dissenting opinion filed by Circuit Judge DYK.
+RADER, Circuit Judge.
+Following trial in the United States District Court for the District of Massachusetts, the jury returned a verdict for Harold L. Bowers on his patent infringement, copyright infringement, and breach of contract claims, while rejecting Baystate Technologies, Inc.'s claim for patent invalidity. The jury awarded Mr. Bowers separate damages on each of his claims. The district court, however, omitted the copyright damages as duplicative of the contract damages. Because substantial evidence supports the jury's verdict that Baystate breached the contract, this court affirms that verdict. This court holds also that the district court did not abuse its discretion in modifying the damages award. Nevertheless, because no reasonable jury could find that Baystate infringes claim 1 as properly construed, this court reverses the patent infringement verdict.
+Harold L. Bowers (Bowers) created a template to improve computer aided design (CAD) software, such as the CADKEY tool of Cadkey, Inc. Mr. Bowers filed a patent application for his template on February 27, 1989. On June 12, 1990, United States Patent No. 4,933,514 ('514 patent) issued from that application.
+Generally, a CAD software program has many commands that the software presents to the user in nested menus many layers deep. The layering often makes it difficult for a user to find quickly a desired command. To address this problem, the claimed template works with a CAD system as illustrated in Fig. 1 of the '514 patent. In that figure, the '514 patent template lies on top of the digitizing tablet 18 of a CAD computer. The user selects data from the template with a pointing device 20. The template places the many CAD commands in a claimed visual and logical order. Figure 1 shows:
+NOTE: OPINION CONTAINING TABLE OR OTHER DATA THAT IS NOT VIEWABLE
+Mr. Bowers commercialized the '514 patent template as Cadjet for use with CADKEY.
+On February 1, 1993, Mr. Bowers requested reexamination of the '514 patent in view of prior art, namely the Keymaster template. Like the '514 patent template, the Keymaster template provides a unified visual representation of many CAD commands. Like the preferred embodiment of the '514 patent, the Keymaster template operates with CADKEY software. Following examiner rejections, the Board of Patent Appeals and Interferences ultimately found some amended claims of the '514 patent patentable. The PTO issued a reexamination certificate on December 9, 1997. U.S. Patent No. B1-4,933,514.
+Since the early 1980s, CAD programs have assisted engineers to draft and design on a computer screen. George W. Ford, III, a development engineer and supervisor of quality control at Heinemann Electric, envisioned a way to improve Mr. Bowers' template and CAD software. Specifically, Mr. Ford designed Geodraft, a DOS-based add-on program to operate with CAD. Geodraft allows an engineer to insert technical tolerances for features of the computer-generated design. These tolerances comply with the geometric dimensioning and tolerancing (GD & T) requirements in ANSI Y14.5M, a standard promulgated by the American National Standards Institute (ANSI). Geodraft works in conjunction with the CAD system to ensure that the design complies with ANSI Y14.5M-a task previously error-prone due to the standard's complexity. Geodraft automatically includes symbols specifying the correct GD & T parameters. Mr. Ford obtained a registered copyright, TX 2-939-672, covering Geodraft.
+In 1989, Mr. Ford offered Mr. Bowers an exclusive license to his Geodraft software. Mr. Bowers accepted that offer and bundled Geodraft and Cadjet together as the Designer's Toolkit. Mr. Bowers sold the Designer's Toolkit with a shrink-wrap license that, 
+inter alia
+, prohibited any reverse engineering.
+In 1989, Baystate also developed and marketed other tools for CADKEY. One of those tools, Draft-Pak version 1 and 2, featured a template and GD & T software. In 1988 and 1989, Mr. Bowers offered to establish a formal relationship with Baystate, including bundling his template with Draft-Pak. Baystate rejected that offer, however, telling Mr. Bowers that it believed it had "the in-house capability to develop the type of products you have proposed."
+In 1990, Mr. Bowers released Designer's Toolkit. By January 1991, Baystate had obtained copies of that product. Three months later, Baystate introduced the substantially revised Draft-Pak version 3, incorporating many of the features of Designer's Toolkit. Although Draft-Pak version 3 operated in the DOS environment, Baystate later upgraded it to operate with Microsoft Windows &reg;.
+Baystate's introduction of Draft-Pak version 3 induced intense price competition between Mr. Bowers and Baystate. To gain market share over Baystate, Mr. Bowers negotiated with Cadkey, Inc., to provide the Designer's Toolkit free with CADKEY. Mr. Bowers planned to recoup his profits by selling software upgrades to the users that he hoped to lure to his products. Following pressure from Baystate, however, Cadkey, Inc., repudiated its distribution agreement with Mr. Bowers. Eventually, Baystate purchased Cadkey, Inc., and eliminated Mr. Bowers from the CADKEY network &#x2014; effectively preventing him from developing and marketing the Designer's Toolkit for that program.
+On May 16, 1991, Baystate sued Mr. Bowers for declaratory judgment that 1) Baystate's products do not infringe the '514 patent, 2) the '514 patent is invalid, and 3) the '514 patent is unenforceable. Mr. Bowers filed counterclaims for copyright infringement, patent infringement, and breach of contract.
+Following trial, the jury found for Mr. Bowers and awarded $1,948,869 for copyright infringement, $3,831,025 for breach of contract, and $232,977 for patent infringement. The district court, however, set aside the copyright damages as duplicative of the contract damages and entered judgment for $5,270,142 (including prejudgment interest). Baystate filed timely motions for judgment as a matter of law (JMOL), or for a new trial, on all of Mr. Bowers' claims. Baystate appeals the district court's denial of its motions for JMOL or a new trial, while Mr. Bowers appeals the district court's denial of copyright damages. This court has jurisdiction under 28 U.S.C. &sect; 1295(a) (1) (2000).
+Baystate raises a number of issues that are not unique to the jurisdiction of this court. On those issues, this court applies the law of the circuit from which the appeal is taken, here the First Circuit. 
+Glaxo, Inc. v. Novopharm, Ltd.
+, 110 F.3d 1562, 1572, 42 USPQ2d 1257, 1265 (Fed. Cir. 1997); 
+Atari, Inc. v. JS & A Group, Inc.
+, 747 F.2d 1422, 1439-40, 223 USPQ 1074, 1087 (Fed. Cir. 1984) (
+en banc
+).
+Under the law of the First Circuit, a court of appeals reviews without deference the district court's denial of JMOL. 
+Larch v. Mansfield Mun. Elec. Dept.
+, 272 F.3d 63, 67 (1st Cir. 2001). The inquiry is whether the evidence, when viewed from the perspective most favorable to the non-movant, would permit a reasonable jury to find in favor of that party on any permissible claim or theory. 
+Id.
+ The First Circuit reviews the district court's denial of a motion for a new trial for manifest abuse of discretion. 
+Seahorse Marine Supplies, Inc. v. P.R. Sun Oil Co.
+, 295 F.3d 68, 82 (2002). The First Circuit will reduce or set aside a damage award only if it exceeds "any rational appraisal or estimate of the damages that could be based upon the evidence before the jury." 
+Segal v. Gilbert Color Sys., Inc.
+, 746 F.2d 78, 81 (1st Cir. 1984) (quoting 
+Glazer v. Glazer
+, 374 F.2d 390, 413 (5th Cir. 1967)). Nevertheless, in the First Circuit, a district court has authority to resolve whether damages awarded by a jury are duplicative, a determination that a court of appeals reviews for an abuse of discretion. 
+Garshman Co. v. Gen. Elec. Co.
+, 176 F.3d 1, 6 (1st Cir. 1999). Further, the First Circuit treats federal preemption as a question of law and reviews it without deference. 
+United States v. R.I. Insurers' Insolvency Fund
+, 80 F.3d 616, 619 (1st Cir. 1996) (" [A] federal preemption ruling presents a pure question of law subject to plenary review.").
+Claim construction is a question of law that this court reviews without deference. 
+Cybor Corp. v. FAS Techs., Inc.
+, 138 F.3d 1448, 1454, 46 USPQ2d 1169, 1173-74 (Fed. Cir. 1998) (
+en banc
+). Infringement, whether literal or under the doctrine of equivalents, is a question of fact. 
+Bai v. L & L Wings, Inc.
+, 160 F.3d 1350, 1353, 48 USPQ2d 1674, 1676 (Fed. Cir. 1998); 
+Optical Disc Corp. v. Del Mar Avionics
+, 208 F.3d 1324, 1333-34, 54 USPQ2d 1289, 1294-95 (Fed. Cir. 2000). Obviousness is a question of law, 
+Graham v. John Deere Co.
+, 
+383 U.S. 1
+, 17, 86 S. Ct. 684, 15 L. Ed. 2d 545 (1966), premised on underlying factual determinations, 
+Dennison Mfg. v. Panduit Corp.
+, 
+475 U.S. 809
+, 810-11, 106 S. Ct. 1578, 89 L. Ed. 2d 817 (1986). Anticipation is a question of fact. 
+Atlas Powder Co. v. Ireco, Inc.
+, 190 F.3d 1342, 1346, 51 USPQ2d 1943, 1945 (Fed. Cir. 1999). Therefore, a district court properly may deny JMOL on these factual issues where substantial evidence supports the jury verdict. Fed. R. Civ. P. 50(a) (1); 
+Sheils Title Co., v. Commonwealth Land Title Ins. Co.
+, 184 F.3d 10, 19 (1st Cir. 1999).
+Baystate contends that the Copyright Act preempts the prohibition of reverse engineering embodied in Mr. Bowers' shrink-wrap license agreements. Swayed by this argument, the district court considered Mr. Bowers' contract and copyright claims coextensive. The district court instructed the jury that "reverse engineering violates the license agreement only if Baystate's product that resulted from reverse engineering infringes Bowers' copyright because it copies protectable expression." Mr. Bowers lodged a timely objection to this instruction. This court holds that, under First Circuit law, the Copyright Act does not preempt or narrow the scope of Mr. Bowers' contract claim.
+Courts respect freedom of contract and do not lightly set aside freely-entered agreements. 
+Beacon Hill Civic Ass'n v. Ristorante Toscano
+, 422 Mass. 318, 662 N.E.2d 1015, 1017 (1996). Nevertheless, at times, federal regulation may preempt private contract. 
+Cf. Nebbia v. New York
+, 
+291 U.S. 502
+, 523, 54 S. Ct. 505, 78 L. Ed. 940 (1934) ("Equally fundamental with the private right is [the right] of the public to regulate [the private right] in the common interest."). The Copyright Act provides that "all legal or equitable rights that are equivalent to any of the exclusive rights within the general scope of copyright... are governed exclusively by this title." 17 U.S.C. &sect; 301(a) (2000). The First Circuit does not interpret this language to require preemption as long as "a state cause of action requires an extra element, beyond mere copying, preparation of derivative works, performance, distribution or display." 
+Data Gen. Corp. v. Grumman Sys. Support Corp.
+, 36 F.3d 1147, 1164, 32 USPQ2d 1385, 1397 (1st Cir. 1994) (quoting 
+Gates Rubber Co. v. Bando Chem. Indus.
+, 9 F.3d 823, 847, 28 USPQ2d 1503, 1520 (10th Cir. 1993)); 
+see also Computer Assoc. Int'l, Inc. v. Altai, Inc.
+, 982 F.2d 693, 716 (2d Cir. 1992) ("But if an `extra element' is `required instead of or in addition to the acts of reproduction, performance, distribution or display, in order to constitute a state-created cause of action, then the right does not lie "within the general scope of copyright," and there is no preemption.'") (quoting 1 Nimmer on Copyright &sect; 1.01 [B] at 1-15). Nevertheless, " [n]ot every `extra element' of a state law claim will establish a qualitative variance between the rights protected by federal copyright law and those protected by state law." 
+Id.
+In 
+Data General
+, Data General alleged that Grumman misappropriated its trade secret software. 36 F.3d  at 1155. Grumman obtained that software from Data General's customers and former employees who were bound by confidentiality agreements to refrain from disclosing the software. 
+Id.
+ at 1154-55. In defense, Grumman argued that the Copyright Act preempted Data General's trade secret claim. 
+Id.
+ at 1158, 1165. The First Circuit held that the Copyright Act did not preempt the state law trade secret claim. 
+Id.
+ at 1165. Beyond mere copying, that state law claim required proof of a trade secret and breach of a duty of confidentiality. 
+Id.
+ These additional elements of proof, according to the First Circuit, made the trade secret claim qualitatively different from a copyright claim. 
+Id.
+ In contrast, the First Circuit noted that claims might be preempted whose extra elements are illusory, being "mere label [s] attached to the same odious business conduct." 
+Id.
+ at 1165 (quoting 
+Mayer v. Josiah Wedgwood & Sons, Ltd.
+, 
+601 F. Supp. 1523
+, 1535, 225 USPQ 776, 784 (S.D.N.Y. 1985)). For example, the First Circuit observed that "a state law misappropriation claim will not escape preemption ... simply because a plaintiff must prove that copying was not only unauthorized but also commercially immoral." 
+Id.
+The First Circuit has not addressed expressly whether the Copyright Act preempts a state law contract claim that restrains copying. This court perceives, however, that 
+Data General's
+ rationale would lead to a judgment that the Copyright Act does not preempt the state contract action in this case. Indeed, most courts to examine this issue have found that the Copyright Act does not preempt contractual constraints on copyrighted articles. 
+See, e.g., ProCD, Inc. v. Zeidenberg
+, 86 F.3d 1447, 39 USPQ2d 1161 (7th Cir. 1996) (holding that a shrink-wrap license was not preempted by federal copyright law); 
+Wrench LLC v. Taco Bell Corp.
+, 256 F.3d 446, 457, 59 USPQ2d 1434, 1441-42 (6th Cir. 2001) (holding a state law contract claim not preempted by federal copyright law); 
+Nat'l Car Rental Sys., Inc. v. Computer Assocs. Int'l, Inc.
+, 991 F.2d 426, 433, 26 USPQ2d 1370, 1376 (8th Cir. 1993); 
+Taquino v. Teledyne Monarch Rubber
+, 893 F.2d 1488, 1501 (5th Cir. 1990); 
+Acorn Structures v. Swantz
+, 846 F.2d 923, 926, 6 USPQ2d 1810, 1812 (4th Cir. 1988); 
+but see Lipscher v. LRP Publs., Inc.
+, 266 F.3d 1305, 1312, 60 USPQ2d 1468, 1473 (11th Cir. 2001).
+In 
+ProCD
+, for example, the court found that the mutual assent and consideration required by a contract claim render that claim qualitatively different from copyright infringement. 86 F.3d  at 1454. Consistent with 
+Data General's
+ reliance on a contract element, the court in 
+ProCD
+ reasoned: "A copyright is a right against the world. Contracts, by contrast, generally affect only their parties; strangers may do as they please, so contracts do not create `exclusive rights.'" 
+Id.
+ Indeed, the Supreme Court recently noted " [i]t goes without saying that a contract cannot bind a nonparty." 
+EEOC v. Waffle House, Inc.
+, 
+534 U.S. 279
+, 122 S. Ct. 754, 764, 151 L. Ed. 2d 755 (2002). This court believes that the First Circuit would follow the reasoning of 
+ProCD
+ and the majority of other courts to consider this issue. This court, therefore, holds that the Copyright Act does not preempt Mr. Bowers' contract claims.
+In making this determination, this court has left untouched the conclusions reached in 
+Atari Games v. Nintendo
+ regarding reverse engineering as a statutory fair use exception to copyright infringement. 
+Atari Games Corp. v. Nintendo of America, Inc.
+, 975 F.2d 832, 24 USPQ2d 1015 (Fed. Cir. 1992). In 
+Atari
+, this court stated that, with respect to 17 U.S.C. &sect; 107 (fair use section of the Copyright Act), " [t]he legislative history of section 107 suggests that courts should adapt the fair use exception to accommodate new technological innovations." 
+Atari
+, 975 F.2d  at 843. This court noted " [a] prohibition on all copying whatsoever would stifle the free flow of ideas without serving any legitimate interest of the copyright holder." 
+Id.
+ Therefore, this court held "reverse engineering object code to discern the unprotectable ideas in a computer program is a fair use." 
+Id.
+ Application of the First Circuit's view distinguishing a state law contract claim having additional elements of proof from a copyright claim does not alter the findings of 
+Atari.
+ Likewise, this claim distinction does not conflict with the expressly defined circumstances in which reverse engineering is not copyright infringement under 17 U.S.C. &sect; 1201(f) (section of the Digital Millennium Copyright Act) and 17 U.S.C. &sect; 906 (section directed to mask works).
+Moreover, while the Fifth Circuit has held a state law prohibiting all copying of a computer program is preempted by the federal Copyright Act, 
+Vault Corp. v. Quaid Software, Ltd.
+, 847 F.2d 255 (5th Cir. 1988), no evidence suggests the First Circuit would extend this concept to include private contractual agreements supported by mutual assent and consideration. The First Circuit recognizes contractual waiver of affirmative defenses and statutory rights. 
+See United States v. Spector
+, 55 F.3d 22, 24-5 (1st Cir. 1995) (holding that a contractual waiver of the statute of limitations defense constitutes an "effective waiver of defendant's rights under the statute of limitations" if the agreement were properly executed, and the "waiver is made knowingly and voluntarily."); 
+Tompkins v. United Healthcare of New England
+, 203 F.3d 90, 97 (1st Cir. 2000) (stating that "in some circumstances contractual waiver of statutory rights is permissible," citing 
+Canal Elec. Co. v. Westinghouse Elec. Corp.
+, 406 Mass. 369, 
+548 N.E.2d 182
+, 187 (Mass. 1990) ("a contractual waiver of statutory rights is permissible when the statute's purpose is the `protection of the property rights of individual parties ... rather than ... the protection of the general public.'")). Thus, case law indicates the First Circuit would find that private parties are free to contractually forego the limited ability to reverse engineer a software product under the exemptions of the Copyright Act. Of course, a party bound by such a contract may elect to efficiently breach the agreement in order to ascertain ideas in a computer program unprotected by copyright law. Under such circumstances, the breaching party must weigh the benefits of breach against the arguably de minimus damages arising from merely discerning non-protected code.
+This court now considers the scope of Mr. Bowers' contract protection. Without objection to the choice of law, the district court applied Massachusetts contract law. Accordingly, contract terms receive "the sense and meaning of the words which the parties have used; and if clear and free from ambiguity the words are to be taken and understood in their natural, usual and ordinary sense." 
+Farber v. Mutual Life Ins. Co.
+, 250 Mass. 250, 253, 145 N.E. 535 (Mass.1924); 
+see also Kelly v. Marx
+, 428 Mass. 877, 881, 705 N.E.2d 1114 (Mass.1999) ("The proper course is to enforce contracts according to their plain meaning and not to undertake to be wiser than the parties.") (quoting 
+Guerin v. Stacy
+, 175 Mass. 595, 597, 56 N.E. 892 (1900) (Holmes, C.J.)).
+In this case, the contract unambiguously prohibits "reverse engineering." That term means ordinarily "to study or analyze (a device, as a microchip for computers) in order to learn details of design, construction, and operation, perhaps to produce a copy or an improved version." 
+Random House Unabridged Dictionary
+ (1993); 
+see also The Free On-Line Dictionary of Computing
+ (2001), at http://wombat.doc. ic.ac.uk/foldoc/foldoc.cgi?reverse + engineering (last visited Jul. 17, 2002). Thus, the contract in this case broadly prohibits any "reverse engineering" of the subject matter covered by the shrink-wrap agreement.
+The record amply supports the jury's finding of a breach of that agreement. As discussed above, the district court erred in instructing the jury that copyright law limited the scope of Mr. Bowers' contract protection. Notwithstanding that error, this court may affirm the jury's breach of contract verdict if substantial record evidence would permit a reasonable jury to find in favor of Mr. Bowers based on a correct understanding of the law. 
+Larch v. Mansfield Mun. Elec. Dept.
+, 272 F.3d 63, 69 (1st Cir. 2001). The shrink-wrap agreements in this case are far broader than the protection afforded by copyright law. Even setting aside copyright violations, the record supports a finding of breach of the agreement between the parties. In view of the breadth of Mr. Bowers' contracts, this court perceives that substantial evidence supports the jury's breach of contract verdict relating to both the DOS and Windows versions of Draft-Pak.
+The record indicates, for example, that Baystate scheduled two weeks in Draft-Pak's development schedule to analyze the Designer's Toolkit. Indeed, Robert Bean, Baystate's president and CEO, testified that Baystate generally analyzed competitor's products to duplicate their functionality.
+The record also contains evidence of extensive and unusual similarities between Geodraft and the accused Draft-Pak &#x2014; further evidence of reverse engineering. James Spencer, head of mechanical engineering and integration at the Space and Naval Warfare Systems Center, testified that he examined the relevant software programs to determine "the overall structure of the operating program" such as "how the operating programs actually executed the task of walking a user through creating a [GD&T;] symbol." Mr. Spencer concluded: "In the process of taking the [ANSI Y14.5M] standard and breaking it down into its component parts to actually create a step-by-step process for a user using the software, both Geodraft and Draft-Pak [for DOS] use almost the identical process of breaking down that task into its individual pieces, and it's organized essentially identically." This evidence supports the jury's verdict of a contract breach based on reverse engineering.
+Mr. Ford also testified that he had compared Geodraft and Draft-Pak. When asked to describe the Draft-Pak interface, Mr. Ford responded: "It looked like I was looking at my own program [i.e., Geodraft]." Both Mr. Spencer and Mr. Ford explained in detail similarities between Geodraft and the accused Draft-Pak. Those similarities included the interrelationships between program screens, the manner in which parameter selection causes program branching, and the manner in which the GD&T; symbols are drawn.
+Both witnesses also testified that those similarities extended beyond structure and design to include many idiosyncratic design choices and inadvertent design flaws. For example, both Geodraft and Draft-Pak offer "straightness tolerance" menu choices of "flat" and "cylindric," unusual in view of the use by ANSI Y14.5M of the terms "linear" and "circular," respectively. As another example, neither program requires the user to provide "angularity tolerance" secondary datum to create a feature control frame &#x2014; a technical oversight that causes creation of an incomplete symbol. In sum, Mr. Spencer testified: "Based on my summary analysis of how the programs function, their errors from the standard and their similar nomenclatures reflecting nonstandard items, I would say that the Draft-Pak [for DOS] is a derivative copy of a Geodraft product."
+Mr. Ford and others also demonstrated to the jury the operation of Geodraft and both the DOS and Windows versions of the accused Draft-Pak. Those software demonstrations undoubtedly conveyed information to the jury that the paper record on appeal cannot easily replicate. This court, therefore, is especially reluctant to substitute its judgment for that of the jury on the sufficiency and interpretation of that evidence. In any event, the record fully supports the jury's verdict that Baystate breached its contract with Mr. Bowers.
+Baystate does not contest the contract damages amount on appeal. Thus, this court sustains the district court's award of contract damages. Mr. Bowers, however, argues that the district court abused its discretion by dropping copyright damages from the combined damage award. To the contrary, this court perceives no abuse of discretion.
+The shrink-wrap license agreement prohibited, 
+inter alia
+, all reverse engineering of Mr. Bowers' software, protection encompassing but more extensive than copyright protection, which prohibits only certain copying. Mr. Bowers' copyright and contract claims both rest on Baystate's copying of Mr. Bowers' software. Following the district court's instructions, the jury considered and awarded damages on each separately. This was entirely appropriate. The law is clear that the jury may award separate damages for each claim, "leaving it to the judge to make appropriate adjustments to avoid double recovery." 
+Britton v. Maloney
+, 196 F.3d 24, 32 (1st Cir. 1999) (citing 
+Spectrum Sports, Inc. v. McQuillan
+, 
+506 U.S. 447
+, 451 n. 3, 113 S. Ct. 884, 122 L. Ed. 2d 247 (1993)); 
+see also Data Gen. Corp. v. Grumman Sys. Support Corp.
+, 
+825 F. Supp. 340
+, 346 (D. Mass. 1993) ("So long as a plaintiff is not twice compensated for a single injury, a judgment may be comprised of elements drawn from separate ... remedies."), 
+aff'd
+in relevant part
+, 36 F.3d 1147 (1st Cir. 1994). In this case, the breach of contract damages arose from the same copying and included the same lost sales that form the basis for the copyright damages. The district court, therefore, did not abuse its discretion by omitting from the final damage award the duplicative copyright damages. Because this court affirms the district court's omission of the copyright damages, this court need not reach the merits of Mr. Bowers' copyright infringement claim.
+Turning now to the patent counts, patent claim language defines the scope of the invention. 
+SRI Int'l v. Matsushita Elec. Corp.
+, 775 F.2d 1107, 1121, 227 USPQ 577, 586 (Fed. Cir. 1985) (
+en banc
+). As a general rule, claim language carries the ordinary meaning of the words in their normal usage in the field of invention. 
+Toro Co. v. White Consol. Indus.
+, 199 F.3d 1295, 1299, 53 USPQ2d 1065, 1067 (Fed. Cir. 1999). Nevertheless, the inventor may act as his own lexicographer and use the specification to supply implicitly or explicitly new meanings for terms. 
+Markman v. Westview Instruments, Inc.
+, 52 F.3d 967, 979-80, 34 USPQ2d 1321, 1330 (Fed. Cir. 1995) (
+en banc
+), 
+aff'd
+517 U.S. 370
+, 116 S. Ct. 1384, 134 L. Ed. 2d 577 (1996). Thus, to help determine the proper construction of a patent claim, a construing court consults the written description, and, if in evidence, the prosecution history. 
+Id.
+ A claim construction that excludes from its scope a preferred embodiment "is rarely, if ever, correct and would require highly persuasive evidentiary support." 
+Vitronics Corp. v. Conceptronic, Inc.
+, 90 F.3d 1576, 1583, 39 USPQ2d 1573, 1578 (Fed. Cir. 1996).
+As described previously, Mr. Bowers' invention claims a template that simplifies operation of a CAD program. A CAD program, such as CADKEY, comprises numerous commands accessible to the user in nested menus many layers deep. For example, CADKEY includes a variety of main menus, such as CREATE and TRANSFORM. Each main menu, in turn, offers many different selections. These options provide additional menus with further selection possibilities, or working functions. The CREATE main menu of CADKEY Version 3.02 is representative. A portion of that menu structure is shown below, where asterisks indicate material omitted for brevity:
+ CREATE Line Endpts 
+Cursor
+ | 
+Point
+ | 
+Endent
+ | 
+Center
+ | 
+Intrsc
+ &gt; (Position menu) 
+Alongl
+ | 
+Polar
+ | 
+Delta
+ | 
+Key &#x2014; In
+| String (Position menu) Par/prp * * * Tangent 
+Arc Pt 2 Arcs
+ Hrz/vrt 
+Horiztl Verticl Both Angle
+ Rectang * * * 
+N-Gon
+ Mesh 
+Ruled General
+ Arc * * * Circle * * * Point * * * Polyin * * * Fillet * * * Chamfer * * * Conic * * * Polygon * * * Spline * * *
+In this menu structure, menu items indicated in italicized type represent working functions, while all others represent additional menus simply providing more menu options. For example, "Line" is a sub-menu of CREATE. Selection of "Line" leads to a variety of menu items including the sub-sub-menu "Endpts" and the working function "
+Angle.
+" "Endpts," in turn, leads to a variety of working functions such as "
+Cursor
+" and "
+Point.
+"
+The '514 patent describes a template that presents a single visual representation of many of the available CAD program commands. Mr. Bowers asserts claim 1, the only independent claim:
+1. In a computer system including a central processing unit having a keyboard entry station with a plurality of keys for data entry and a pointing device station having a pointer with at least one pointer button for data entry and responsive to positionable movement of said pointer, and including system operating functions having successive layers of a main menu of selectable group functions and [a plurality of sub-levels of sub-menus] 
+successive series of a first layer of sub-menus, and at least a second sub-layer of sub-menus
+ having selectable group sub-functions, accessible by successive entries on said keyboard or said pointer to select an ultimate working function, the improvement comprising:
+(a) a template for use with said pointing device;
+(b) indicia arranged on the template and located in a plurality of groups, one group of each corresponding to one predetermined, selectable item of said main menu and all said indicia in a respective group bearing a common group identifying characteristic;
+(c) at least a second plurality of indicia, each of which corresponds to a predetermined selectable item of a sub-menu corresponding to an item of said main menu;
+(d) means securing said templates in a fixed orientation to said tablet whereby said pointing device can select a working function with a single movement of the said button.
+U.S. Patent No. B1-4,933,514, col. 1, l. 25 to col. 2, l. 19. The reissued claim's altered language is not at issue in this appeal.
+Figs. 3A-D of the '514 patent illustrate a template according to claim 1 and configured to operate with CADKEY. That template is illustrated below as a composite of Figs. 3A-D. The template includes a variety of indicia that represent selected items from the CADKEY menus. For example, the template includes the main-menu indicia "CREATE" (middle) and "TRANSFORM" (lower-right corner). In turn, other indicia are associated with those main-menu indicia (e.g., using location and color) to form main-menu indicia groups. To illustrate, the "CREATE" main-menu indicia group includes the sub-menus "Lines," "Arcs," "Circ," "Points," "Plygns," and "Splines" (sub-menu indicia), but not the remaining "CREATE" sub-menus "Polyin," "Fillet," "Chamfer," or "Conic," 
+see supra
+ at pp. 15-16. In the template, each of the "CREATE" group's sub-menus has working functions in columns below. The working function indicia represent working functions dependent from the relevant sub-menu. For example, the working function indicia associated with the "Lines" sub-menu fall below that heading and include "Tan:ArcPt," "Tan:2Arcs," "Horz," "Vert," and "Horz/Vert." NOTE: OPINION CONTAINING TABLE OR OTHER DATA THAT IS NOT VIEWABLE
+The parties dispute the meaning of paragraphs b, c, and d of claim 1. This court agrees generally with the district court's construction of paragraphs b and c. With respect to paragraph d, however, the district court erred in its construction. Under a correct construction of that paragraph, no reasonable jury could find that Baystate infringes claim 1. In view of this court's holding of noninfringement, this court does not reach the alternative ground for challenging the district court's judgment based on patent invalidity.
+The district court construed paragraph b: "at least two groups must appear on a template where one group corresponds to a main menu item and the other corresponds to another main menu item." In other words, the template must include at least two main-menu indicia groups, such as the "CREATE" and "TRANSFORM" groups described above. Baystate argues, nevertheless, that the reexamination history requires that "
+every
+ group of the template must correspond to a main menu item." The history of reexamination indicates otherwise.
+During reexamination, Mr. Bowers noted that each group of the Keymaster template did not correspond to a main-menu item. With respect to those groups that did correspond to main-menu items, Mr. Bowers argued that those did not satisfy claim paragraphs c and d. Mr. Bowers thus admitted that a set of Keymaster template groups satisfy claim paragraph b, but he then distinguished them in view of paragraphs c and d. Specifically, Mr. Bowers stated: "Each of the groups of the Keymaster template does not correspond to one selectable item of the main menu of the Cadkey system." Baystate would read this statement to mean that the claim's reference to a "plurality" of groups on the template encompasses all groups on the template. In other words, Baystate reads "each" in several of Bowers' statement to mean "all." The claim, however, uses the term "plurality," meaning "comprising, or consisting of more than one." 
+The Oxford English Dictionary
+ (2d ed. 1989). Thus, Bowers' references to "each" refers to the "at least two groups" required by the claims. To read Bowers statements too strictly would exclude from claim scope the preferred embodiment of the '514 patent &#x2014; a disfavored result. That embodiment includes, for example, a group "SET" that is not associated with a CADKEY main-menu item. In sum, this court agrees with the district court's interpretation of paragraph b.
+With respect to paragraph c, the district court interpreted claim 1 to require "that at least two indicia contained in the second set of indicia contained within one of the at least two groups of indicia described in claim 1(b) must correspond to an item of the first submenu of the main menu item to which the group corresponds." In other words, at least one of the main-menu indicia groups paragraph b requires must include at least two indicia associated with a sub-menu of the main-menu. '514 patent at col. 4, ll. 9-16. The specification supports the trial court's interpretation. In the preferred embodiment, for example, the sub-menu "Lines" under the "CREATE" group defines two columns of indicia representing working functions. 
+Id.
+ at col. 4, ll. 9-16. The sub-menu indicium "Lines" and the working functions in columns below are associated with the "Lines" sub-menu of the "CREATE" main-menu, thus satisfying the claim requirement. In sum, paragraph c requires that at least one of the main-menu indicia groups include at least two indicia associated with the same sub-menu of the main-menu.
+With respect to paragraph d, the district court held "that the single movement of the pointing device's button can, but need not, select a working function." Properly construed, however, this limitation requires that each of the indicia associated with the sub-menu of a main-menu group must represent a working function accessible with a single movement of the pointer button (e.g., as opposed to access through further selection via a drop-down menu). Using the "Lines" sub-menu as an example, 
+see
+ Figs. 3A-D 
+supra
+ at p. 18, paragraph d requires that all indicia below that sub-menu must represent working functions. The specification and the reexamination history support this construction of paragraph d.
+As just described with respect to the "Lines" sub-menu, the '514 patent discloses a sub-menu with one or more columns of working functions. '514 patent at col. 4, ll. 9-16. This arrangement supplies the second plurality of indicia required by paragraph c. 
+Id.
+ at col. 4, ll. 9-16. The specification discloses expressly that all indicia associated with sub-menus (i.e., "Line," "Arcs," etc.) of the "CREATE" group represent working functions.
+*
+Id.
+ at col. 4, ll. 24-26. For example, two columns fall beneath the "Lines" sub-menu within the "CREATE" group. Each indicium in those columns, e.g., "Tan:ArcPt," "Tan:2Arcs," "Horz," "Vert," and "Horz/Vert," represents a working function that depends from the "Lines" sub-menu. 
+Id.
+ at col. 4, ll. 24-65 ("The individual items appearing in the rows of each of these columns [defined by the sub-menu indicia] represent an ultimate working function"). In other words, consistent with this court's construction, all the indicia associated with the sub-menus of the "CREATE" group represent working functions.
+The reexamination history also precludes this court from adopting a broader construction. Specifically, with respect to "working functions," the claim language recites only that the "pointing device can select a working function with a single movement of the said button." During the reexamination proceedings, Mr. Bowers argued that the Keymaster template did not satisfy this limitation because that template's "DETAIL" and "TRANSFORM" main-menu groups included indicia that did not represent working functions. With reference to the "DETAIL" group more specifically, that group includes sub-menus "Dim," and "Arr/Wit," and an additional indicium "Misc." The Keymaster "DETAIL" group and relevant portions of the CADKEY 3.02 menu structure are shown in the figure below. In that figure, working functions are highlighted.
+NOTE: OPINION CONTAINING TABLE OR OTHER DATA THAT IS NOT VIEWABLE
+The indicia "Dim," "Arr/Wit," and "Misc" each have a group of indicia underneath them. However, as shown above, none of those indicia groups includes only working functions. With respect to the group "Misc," Mr. Bowers made clear that the indicia "Note," "X-Hatch," "Change," and "Set," all represented additional menus rather than working functions. For example, selecting the indicium "X-Hatch" simply presents an opportunity to select the actual working cross-hatching functions of "
+Brick
+," "
+Steel
+," "
+Copper
+," "
+Alloys
+," "
+Aluminum
+," "
+Rubber
+," or "
+Marble
+" (not shown in the menu structure above). A user simply cannot access these cross-hatching functions through a single movement of the pointing device button using the Keymaster template. In like manner, as shown in the figure, the indicia groups associated with "Dim" and "Arr/Wit," respectively, also include indicia that do not represent working functions.
+After claim construction, the infringement inquiry shifts to a comparison of the claim with the allegedly infringing device. 
+Kemco Sales, Inc. v. Control Papers Co.
+, 208 F.3d 1352, 1359, 54 USPQ2d 1308, 1312 (Fed. Cir. 2000). To prove infringement, the patentee must show that the accused device contains each limitation of the asserted claim, 
+Mas-Hamilton Group v. LaGard, Inc.
+, 156 F.3d 1206, 1211, 48 USPQ2d 1010, 1014 (Fed. Cir. 1998), or an equivalent of each limitation, 
+Warner-Jenkinson Co. v. Hilton Davis Chem. Co.
+, 
+520 U.S. 17
+, 40, 117 S. Ct. 1040, 137 L. Ed. 2d 146 (1997). This comparison is a question of fact. 
+Bai
+, 160 F.3d  at 1353. Hence, a change in the claim construction at the appellate level generally necessitates a remand to the district court to consider new factual issues unless the record on appeal supplies substantial evidence to support the jury verdict under the new claim construction. 
+See
+ Fed. R. Civ. P. 50.
+On the issue of literal infringement, Mr. Bowers relies upon the accused templates' "CREATE" and "TRANSFORM" groups to satisfy the limitations of claim 1. With respect to paragraph d, Mr. Bowers proffered evidence showing only that each of the "CREATE" and "TRANSFORM" groups included some, but not all, indicia representing working functions. Moreover, the record contained undisputed evidence showing that the limitations of paragraph d are not met.
+Specifically, Baystate's director of MIS (management information systems), John Pentecost, produced reports comparing menu trees of the relevant versions of CADKEY with corresponding versions of Baystate's accused Draft-Pak templates. That unrebutted evidence shows that each of the sub-menus under the "CREATE" group includes an associated dependent indicium &#x2014; e.g., "End Pts" depending from "Line"; "3Pts" depending from "Arc"; "Ctr + Edge" depending from "Circle"; "Pos" depending from "Point"; "String" depending from "Polyin"; "5 Cond" depending from "Conic"; "Rect" depending from "Polygon"; and "2D Cubic" depending from "Spline" &#x2014; that activates menus rather than a working function. Moreover, that evidence shows that none of the "TRANSFORM" group indicia activates working functions. This court, therefore, determines that the record shows that the '514 patent is not literally infringed. Because Mr. Bowers did not assert infringement under the doctrine of equivalents, this court does not consider that issue.
+In sum, this court perceives no basis upon which a reasonable jury could find that Baystate's accused templates infringe claim 1 of the '514 patent. Hence, this court reverses the district court's denial of Baystate's motion for JMOL of non-infringement.
+CONCLUSION
+Because substantial evidence supports the jury's verdict that Baystate breached its contract with Mr. Bowers, this court affirms that verdict. This court holds also that the district court did not abuse its discretion in omitting as duplicative copyright damages from the damage award. Because no reasonable jury could find that Baystate infringes properly construed claim 1, this court reverses the verdict of patent infringement.
+Each party shall bear its own costs.
+AFFIRMED-IN-PART, REVERSED-IN-PART.
+DYK, Circuit Judge, concurring in part and dissenting in part.
+I join the majority opinion except insofar as it holds that the contract claim is not preempted by federal law.
+1
+  Based on the petition for rehearing and the opposition, I have concluded that our original decision on the preemption issue, reaffirmed in today's revision of the majority opinion, was not correct. By holding that shrinkwrap licenses that override the fair use defense are not preempted by the Copyright Act, 17 U.S.C. &sect;&sect; 101 
+et seq.
+, the majority has rendered a decision in conflict with the only other federal court of appeals decision that has addressed the issue &#x2014; the Fifth Circuit decision in 
+Vault Corp. v. Quaid Software Ltd.
+, 847 F.2d 255 (5th Cir. 1988). The majority's approach permits state law to eviscerate an important federal copyright policy reflected in the fair use defense, and the majority's logic threatens other federal copyright policies as well. I respectfully dissent.
+* Congress has made the Copyright Act the exclusive means for protecting copyright. The Act provides that "all legal or equitable rights that are equivalent to any of the exclusive rights within the general scope of copyright ... are governed exclusively by this title." 17 U.S.C. &sect; 301(a) (2000). All other laws, including the common law, are preempted. " [N]o person is entitled to any such right or equivalent right in any such work under the common law or statutes of any State." 
+Id.
+The test for preemption by copyright law, like the test for patent law preemption, should be whether the state law "substantially impedes the public use of the otherwise unprotected" material. 
+Bonito Boats, Inc. v. Thunder Craft Boats, Inc.
+, 
+489 U.S. 141
+, 157, 167, 109 S. Ct. 971, 103 L. Ed. 2d 118 (1989) (state law at issue was preempted because it "substantially restrict [ed] the public's ability to exploit ideas that the patent system mandates shall be free for all to use."); 
+Sears, Roebuck & Co. v. Stiffel Co.
+, 
+376 U.S. 225
+, 231-32, 84 S. Ct. 784, 11 L. Ed. 2d 661 (1964). 
+See also Eldred v. Ashcroft
+, ___ U.S. ___, 123 S. Ct. 769, 154 L. Ed. 2d 683 (2003) (applying patent precedent in copyright case). In the copyright area, the First Circuit has adopted an "equivalent in substance" test to determine whether a state law is preempted by the Copyright Act. 
+Data Gen. Corp. v. Grumman Sys. Support Corp.
+ 36 F.3d 1147, 1164-65 (1st Cir. 1994). That test seeks to determine whether the state cause of action contains an additional element not present in the copyright right, such as scienter. If the state cause of action contains such an extra element, it is not preempted by the Copyright Act. 
+Id.
+ However, "such an action is equivalent in substance to a copyright infringement claim [and thus preempted by the Copyright Act] where the additional element merely concerns 
+the extent to which
+ authors and their licensees can prohibit unauthorized copying by third parties." 
+Id.
+ at 1165 (emphasis in original).
+II
+The fair use defense is an important limitation on copyright. Indeed, the Supreme Court has said that " [f]rom the infancy of copyright protection, some opportunity for fair use of copyrighted materials has been thought necessary to fulfill copyright's very purpose, ` [t]o promote the Progress of Science and useful Arts....' U.S. Const., Art. I, &sect; 8, cl.8." 
+Campbell v. Acuff-Rose Music, Inc.
+, 
+510 U.S. 569
+, 575, 114 S. Ct. 1164, 127 L. Ed. 2d 500 (1994). The protective nature of the fair use defense was recently emphasized by the Court in the 
+Eldred
+ case, in which the Court noted that "copyright law contains built-in accommodations," including "the `fair use' defense [which] allows the public to use not only facts an ideas contained in the copyrighted work, but also expression itself in certain circumstances." 
+Id.
+ at ___, 123 S. Ct. 769.
+We correctly held in 
+Atari Games Corp. v. Nintendo of America, Inc.
+, 975 F.2d 832, 843 (Fed. Cir. 1992), that reverse engineering constitutes a fair use under the Copyright Act.
+2
+  The Ninth and Eleventh Circuits have also ruled that reverse engineering constitutes fair use. 
+Bateman v. Mnemonics, Inc.
+, 79 F.3d 1532, 1539 n. 18 (11th Cir. 1996); 
+Sega Enters. Ltd. v. Accolade, Inc.
+, 977 F.2d 1510, 1527-28 (9th Cir. 1992). No other federal court of appeals has disagreed.
+We emphasized in 
+Atari
+ that an author cannot achieve protection for an idea simply by embodying it in a computer program. "An author cannot acquire patent-like protection by putting an idea, process, or method of operation in an unintelligible format and asserting copyright infringement against those who try to understand that idea, process, or method of operation." 975 F.2d  at 842. Thus, the fair use defense for reverse engineering is necessary so that copyright protection does not "extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work," as proscribed by the Copyright Act. 17 U.S.C. &sect; 102(b) (2000).
+III
+A state is not free to eliminate the fair use defense. Enforcement of a total ban on reverse engineering would conflict with the Copyright Act itself by protecting otherwise unprotectable material. If state law provided that a copyright holder could bar fair use of the copyrighted material by placing a black dot on each copy of the work offered for sale, there would be no question but that the state law would be preempted. A state law that allowed a copyright holder to simply label its products so as to eliminate a fair use defense would "substantially impede" the public's right to fair use and allow the copyright holder, through state law, to protect material that the Congress has determined must be free to all under the Copyright Act. 
+See Bonito Boats
+, 489 U.S.  at 157, 109 S. Ct. 971.
+I nonetheless agree with the majority opinion that a state can permit parties to contract away a fair use defense or to agree not to engage in uses of copyrighted material that are permitted by the copyright law, if the contract is freely negotiated. 
+See, e.g., Nat'l Car Rental Sys., Inc. v. Computer Assocs. Int'l, Inc.
+, 991 F.2d 426 (8th Cir. 1993); 
+Acorn Structures v. Swantz
+, 846 F.2d 923, 926 (4th Cir. 1988). 
+See also Taquino v. Teledyne Monarch Rubber
+, 893 F.2d 1488 (5th Cir. 1990). 
+But see Wrench LLC v. Taco Bell Corp.
+, 256 F.3d 446, 457 (6th Cir. 2001) ("If the promise amounts only to a promise to refrain from reproducing, performing, distributing or displaying the work, then the contract claim is preempted."). A freely negotiated agreement represents the "extra element" that prevents preemption of a state law claim that would otherwise be identical to the infringement claim barred by the fair use defense of reverse engineering. 
+See Data Gen.
+, 36 F.3d  at 1164-65.
+However, state law giving effect to shrinkwrap licenses is no different in substance from a hypothetical black dot law. Like any other contract of adhesion, the only choice offered to the purchaser is to avoid making the purchase in the first place. 
+See Fuentes v. Shevin
+, 
+407 U.S. 67
+, 95, 92 S. Ct. 1983, 32 L. Ed. 2d 556 (1972). State law thus gives the copyright holder the ability to eliminate the fair use defense in each and every instance at its option. In doing so, as the majority concedes, it authorizes "shrinkwrap agreements ... [that] are far broader than the protection afforded by copyright law." 
+Ante
+ at 1326.
+IV
+There is, moreover, no logical stopping point to the majority's reasoning. The amici rightly question whether under our original opinion the first sale doctrine and a host of other limitations on copyright protection might be eliminated by shrinkwrap licenses in just this fashion. 
+See
+ Brief for Electric Frontier Foundation et al. as 
+Amici Curiae
+ 10. If by printing a few words on the outside of its product a party can eliminate the fair use defense, then it can also, by the same means, restrict a purchaser from asserting the "first sale" defense, embodied in 17 U.S.C. &sect; 109(a), or any other of the protections Congress has afforded the public in the Copyright Act. That means that, under the majority's reasoning, state law could extensively undermine the protections of the Copyright Act.
+V
+The Fifth Circuit's decision in 
+Vault
+ directly supports preemption of the shrinkwrap limitation. The majority states that 
+Vault
+ held that "a state law prohibiting all copying of a computer program is preempted by the federal Copyright Act" and then states that "no evidence suggests the First Circuit would extend this concept to include private contractual agreements supported by mutual assent and consideration." 
+Ante
+ at 1325. But, in fact, the Fifth Circuit held that the specific provision of state law that authorized contracts prohibiting reverse engineering, decompilation, or disassembly of computer programs was preempted by federal law because it conflicted with a portion of the Copyright Act and because it "`touche [d] upon an area' of federal copyright law." 847 F.2d  at 269-70 (quoting 
+Sears, Roebuck
+, 376 U.S.  at 229, 84 S. Ct. 784). From a preemption standpoint, there is no distinction between a state law that explicitly validates a contract that restricts reverse engineering (
+Vault
+) and general common law that permits such a restriction (as here). On the contrary, the preemption clause of the Copyright Act makes clear that it covers "any such right or equivalent right in any such work 
+under the common law or statutes of any State.
+" 17 U.S.C. &sect; 301(a) (2000) (emphasis added).
+I do not read 
+ProCD, Inc. v. Zeidenberg
+, 86 F.3d 1447 (7th Cir. 1996), the only other court of appeals shrinkwrap case, as being to the contrary, even though it contains broad language stating that "a simple two-party contract is not `equivalent to any of the exclusive rights within the general scope of copyright.'" 
+Id.
+ at 1455. In 
+ProCD
+, the Seventh Circuit validated a shrinkwrap license that restricted the use of a CD-ROM to non-commercial purposes, which the defendant had violated by charging users a fee to access the CD-ROM over the Internet. The court held that the restriction to non-commercial use of the program was not equivalent to any rights protected by the Copyright Act. Rather, the "contract reflect [ed] private ordering, essential to efficient functioning of markets." 
+Id.
+ at 1455. The court saw the licensor as legitimately seeking to distinguish between personal and commercial use. "ProCD offers software and data for two prices: one for personal use, a higher prices for commercial use," the court said. The defendant "wants to use the data without paying the seller's price." 
+Id.
+ at 1454. The court also emphasized that the license "would not withdraw any information from the public domain" because all of the information on the CD-ROM was publicly available. 
+Id.
+ at 1455.
+The case before us is different from 
+ProCD.
+ The Copyright Act does not confer a right to pay the same amount for commercial and personal use. It does, however, confer a right to fair use, 17 U.S.C. &sect; 107, which we have held encompasses reverse engineering.
+ProCD
+ and the other contract cases are also careful not to create a blanket rule that all contracts will escape preemption. The court in that case emphasized that "we think it prudent to refrain from adopting a rule that anything with the label `contract' is necessarily outside the preemption clause." 86 F.3d  at 1455. It also noted with approval another court's "recogni [tion of] the possibility that some applications of the law of contract could interfere with the attainment of national objectives and therefore come within the domain" of the Copyright Act. 
+Id.
+ The Eighth Circuit too cautioned in 
+National Car Rental
+ that a contractual restriction could impermissibly "protect rights equivalent to the exclusive copyright rights." 991 F.2d  at 432.
+I conclude that 
+Vault
+ states the correct rule; that state law authorizing shrinkwrap licenses that prohibit reverse engineering is preempted; and that the First Circuit would so hold because the extra element here "merely concerns 
+the extent to which
+ authors and their licensees can prohibit unauthorized copying by third parties." 
+Data Gen.
+, 36 F.3d  at 1165 (emphasis in original). I respectfully dissent.
+*
+ Bowers urges in a conclusory fashion that this construction would render the preferred embodiment outside the scope of the claims, a result that requires "highly persuasive evidentiary support,"
+Vitronics Corp. v. Conceptronic, Inc.
+, 90 F.3d 1576, 1583, 39 USPQ2d 1573, 1578 (Fed. Cir. 1996). Bowers has not established his premise (that the preferred embodiment is outside the claim scope), and even if he had, the reexamination history provides just that highly persuasive evidentiary support, as this court explains below.
+1
+ Like the majority, I do not reach the copyright claim
+2
+ In the patent context, reverse engineering is viewed as an important right of the public 
+Bonito Boats
+, 489 U.S.  at 160, 109 S. Ct. 971.
+        Search this Case 
+Google Scholar
+Google Books
+Legal Blogs  
+Google Web 
+Bing Web 
+Google News 
+Google News Archive 
+Yahoo! News 
+			Find a Lawyer
+Lawyers - Get Listed Now!
+Get a free directory profile listing
+Ask a Lawyer
+Question:
+120
+                    Add details
+Additional Details: 
+1000
+Ask Question
+                Subscribe to Justia's 
+Free Summaries 
+                of Federal Circuit opinions. 
+            Subscribe Now
+            Justia Legal Resources
+Find a Lawyer
+Bankruptcy Lawyers
+Business Lawyers
+Criminal Lawyers
+Employment Lawyers
+Estate Planning Lawyers
+Family Lawyers
+Personal Injury Lawyers
+More... 
+Individuals
+Bankruptcy
+Criminal
+Divorce
+DUI
+Estate Planning
+Family Law
+Personal Injury
+More...
+Business
+Business Formation
+Business Operations
+Employment
+Intellectual Property
+International Trade
+Real Estate
+Tax Law
+More... 
+Law Students
+Law Schools
+Admissions
+Financial Aid
+Course Outlines
+Law Journals
+Blogs
+Employment
+More...
+US Federal Law
+US Constitution
+US Code
+Regulations
+Supreme Court
+Circuit Courts
+District Courts
+Dockets & Filings
+More...
+US State Law
+State Constitutions
+State Codes
+State Case Law
+California
+Florida
+New York
+Texas
+More... 
+Other Databases
+Legal Blogs
+Legal Forms
+GAO Reports
+Product Recalls
+Patents
+Trademarks
+Countries
+More...
+Legal Marketing
+Websites
+Blogs
+Content
+Social Media
+Local Marketing
+Paid Ads (CPC/PPC)
+Lawyer Directory
+More...
+                    © 2015 
+Justia
+Company
+Terms of Service
+Privacy Policy
+Contact Us

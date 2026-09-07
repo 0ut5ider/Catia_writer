@@ -1,0 +1,86 @@
+                     LICENSED PROGRAMS TERMS FOR CATIA –UP VERSION 5 RELEASE 20
+
+Terms that are initially capitalized            are    defined   in   the   Glossary -   Release   1,   available   at
+http://www.3ds.com/terms/glossary.
+
+These Licensed Programs Terms (“LPT”) and the terms incorporated herein by reference (including terms
+referenced on a website), are an integral part of the license agreement between DS and Licensee
+(“Agreement”), which refers to this LPT. In the event of a discrepancy, inconsistency or contradiction
+between this LPT and the other terms of the Agreement, the provisions of this LPT shall prevail, but only with
+respect to the Licensed Programs to which this LPT applies. Licensee acknowledges that it has full
+knowledge of all these terms and those incorporated herein by reference.
+
+
+AVAILABLE PRICING STRUCTURES
+Licenses and Support Service on the Licensed Programs to which this LPT applies may be ordered
+according to one of the following pricing structures:
+             PLC/ALC, or
+             YLC
+Other pricing structures may be made available on a case by case basis.
+
+
+LICENSING SCHEMES & GEOGRAPHIC SCOPE
+The licenses on the Licensed Programs to which this LPT applies are granted pursuant to the Agreement for
+the following usage and authorized users:
+                           up to the number of Users for which licenses have been ordered,
+                           in Concurrent Based mode or as Add-on Products,
+                           and only for use in the country for which the license is ordered.
+
+Users whose usual workplace is located in the same country as the country where such use of the Licensed
+Program has been authorized, may use the Licensed Program in any other country (subject inter alia to the
+Export and Reexport laws and regulations provision of the Agreement) for purposes of a business trip of a
+maximum of thirty (30) consecutive days.
+
+
+OTHER PERMITTED USES
+
+USE FOR CERTAIN SERVICES. Except for Development Tool Kits, Licensee is authorized to use such
+Licensed Programs for added-value engineering and/or implementation services. Added-value engineering
+or implementation services are services to deliver to a third party end user any deliverable generated
+specifically for said third party end user from use by Licensee of the Licensed Programs. In any event,
+Licensee may not (A) use the Licensed Programs to develop software code for (i) general distribution by any
+means, and whether alone or bundled or delivered with any product, data, information, software, or other
+element, or (ii) any services that do not add value attributable to the intervention of specific human skills,
+such as, without limitation, in a data services operation or as an applications service provider, or (B) install
+and/or operate the Licensed Programs on any hardware and/or software environment owned by or under
+control of any third party, or (C) represent or imply to any party that it is an authorized or certified provider of
+services for DS. Licensee shall indemnify, defend and hold harmless DS against any claim, expense,
+judgment, damage, or loss (including reasonable attorneys’ fees) which arises out of or in any way relates to
+Licensee’s use of the Licensed Programs with third party end users.
+
+OUTSOURCING TO A THIRD PARTY. Licensee is authorized to execute the Licensed Programs remotely
+on computers operated by third parties, provided that only duly authorized Users, and/or Extended
+Enterprise Users if applicable, shall have access to the Licensed Programs. Licensee may appoint a third
+party, such as an outsourcer, to operate the hardware on which the Licensed Programs are installed, on
+behalf of Licensee, only if (i) Licensee does not assign the Agreement or any licenses granted thereunder, in
+whole or in part, to the third party, (ii) the third party and Licensee enter into a written Agreement under
+
+
+
+      DS LPT - CATIA up to Version 5 Release 20 - April 2010                                                        1/2
+which the third party agrees that its access to and use of the Licensed Programs is subject to all of the grant
+of license, confidentiality, restrictions, and limitations on use provisions of the Agreement, and (iii) such third
+party is not a competitor of any DS Group Company. Licensee acknowledges and agrees that the third party
+shall be deemed an agent of Licensee. If Licensee becomes aware of any actual or suspected unauthorized
+use or disclosure of the Licensed Programs, Licensee shall immediately terminate the third party’s access to
+and use of the Licensed Programs. Licensee shall indemnify, defend, and hold harmless DS against any
+claim, expense, judgment, damage, or loss (including reasonable attorneys’ fees) which arises out of or in
+any way relates to each third party’s access to or use of the Licensed Programs.
+
+
+SECURITY MECHANISMS
+DS and its affiliated companies take all legal steps to eliminate piracy of their software products. In this
+context, the Licensed Programs may include a security mechanism that can detect the installation or use of
+illegal copies of the Licensed Programs, and collect and transmit data about those illegal copies only. Data
+collected will not include any Licensee data created with the Licensed Programs. By using the Licensed
+Programs, Licensee consents to such detection and collection of data, as well as its transmission and use if
+an illegal copy is detected. DS also reserves the right to use a hardware lock device, license administration
+software, and/or a license authorization key to control access to the Licensed Programs. Licensee may not
+take any steps to avoid or defeat the purpose of any such measures. Use of any Licensed Programs without
+any required lock device or authorization key provided by DS is prohibited.
+
+
+
+
+      DS LPT - CATIA up to Version 5 Release 20 - April 2010                                                    2/2
+

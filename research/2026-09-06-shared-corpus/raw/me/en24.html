@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>reverse engineering CAD file format survey at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="reverse engineering CAD file format survey" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://cad-journal.net/files/vol_15/CAD_15(3)_2018_443-464.pdf"><span class="result__type">PDF</span> Reverse engineering modeling methods and tools: a survey - CAD Journal</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://cad-journal.net/files/vol_15/CAD_15(3)_2018_443-464.pdf">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/cad-journal.net.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://cad-journal.net/files/vol_15/CAD_15(3)_2018_443-464.pdf">
+                            cad-journal.net/files/vol_15/CAD_15(3)_2018_443-464.pdf
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://cad-journal.net/files/vol_15/CAD_15(3)_2018_443-464.pdf">ABSTRACT <b>Reverse</b> <b>Engineering</b> (RE) is a long-term goal of <b>engineering</b> and computer science; it aims at the reconstruction of <b>CAD</b> models from measured data by means of 3D mathematical surfaces and geo-metrical features representing the geometry of a physical part. In the last two decades, reviews and <b>surveys</b> have occasionally covered this topic, but a systematic dissertation of modeling methods ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://docslib.org/doc/12998638/reverse-engineering-modeling-methods-and-tools-a-survey">Reverse Engineering Modeling Methods and Tools: a Survey</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://docslib.org/doc/12998638/reverse-engineering-modeling-methods-and-tools-a-survey">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/docslib.org.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://docslib.org/doc/12998638/reverse-engineering-modeling-methods-and-tools-a-survey">
+                            docslib.org/doc/12998638/reverse-engineering-modeling-methods-and-tools-a-survey
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://docslib.org/doc/12998638/reverse-engineering-modeling-methods-and-tools-a-survey">The reconstruction of digital models from measured data has been a long-term goal of <b>engineering</b> and com- puter science in general; this process, usually called <b>&#x27;Reverse</b> <b>Engineering</b> (RE)&#x27; or <b>&#x27;CAD</b> reconstruction&#x27;, aims at the generation of 3D mathematical surfaces and geometrical features representing the geometry of</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.researchgate.net/publication/321116176_Reverse_engineering_modeling_methods_and_tools_a_survey">(PDF) Reverse engineering modeling methods and tools: a survey</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.researchgate.net/publication/321116176_Reverse_engineering_modeling_methods_and_tools_a_survey">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.researchgate.net.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.researchgate.net/publication/321116176_Reverse_engineering_modeling_methods_and_tools_a_survey">
+                            www.researchgate.net/publication/321116176_Reverse_engineering_modeling_methods_and_tools_a_survey
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.researchgate.net/publication/321116176_Reverse_engineering_modeling_methods_and_tools_a_survey"><b>Reverse</b> <b>Engineering</b> (RE) is a long-term goal of <b>engineering</b> and computer science; it aims at the reconstruction of <b>CAD</b> models from measured data by means of 3D mathematical surfaces and ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.quicksurface.com/">QUICKSURFACE - From 3D scan to CAD</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.quicksurface.com/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.quicksurface.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.quicksurface.com/">
+                            www.quicksurface.com
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.quicksurface.com/">QUICKSURFACE leading <b>reverse</b> <b>engineering</b> software, convert 3D scan data into <b>CAD</b> models with hybrid, parametric, and freeform modeling tools.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.scribd.com/document/987172419/Reverse-Engineering-Modeling-Methods-and-Tools-A-Survey">Reverse Engineering Modeling Survey</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.scribd.com/document/987172419/Reverse-Engineering-Modeling-Methods-and-Tools-A-Survey">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.scribd.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.scribd.com/document/987172419/Reverse-Engineering-Modeling-Methods-and-Tools-A-Survey">
+                            www.scribd.com/document/987172419/Reverse-Engineering-Modeling-Methods-and-Tools-A-Survey
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.scribd.com/document/987172419/Reverse-Engineering-Modeling-Methods-and-Tools-A-Survey"><b>Reverse</b> <b>Engineering</b> Modeling Methods and Tools_A <b>Survey</b> - Free download as PDF <b>File</b> (.pdf), Text <b>File</b> (.txt) or read online for free. The document is a <b>survey</b> of <b>reverse</b> <b>engineering</b> (RE) modeling methods and tools, focusing on the reconstruction of <b>CAD</b> models from measured data.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.keyence.com/products/3d-measure/cmm/applications/reverse-engineering.jsp">Reverse Engineering | KEYENCE America</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.keyence.com/products/3d-measure/cmm/applications/reverse-engineering.jsp">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.keyence.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.keyence.com/products/3d-measure/cmm/applications/reverse-engineering.jsp">
+                            www.keyence.com/products/3d-measure/cmm/applications/reverse-engineering.jsp
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.keyence.com/products/3d-measure/cmm/applications/reverse-engineering.jsp">Elevate Your <b>Engineering</b> Game with <b>Reverse</b> <b>Engineering</b> and <b>CAD</b> Modeling. Discover utilizing <b>File</b> <b>Formats</b> like .DXF, .STP, and .IGES.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://github.com/shangadi/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md">reverse-engineering-reference-manual/contents/file-formats ... - GitHub</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://github.com/shangadi/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/github.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://github.com/shangadi/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md">
+                            github.com/shangadi/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://github.com/shangadi/reverse-engineering-reference-manual/blob/master/contents/file-formats/file-formats.md">There are perhaps thousands of different <b>file</b> <b>formats</b> in the wild — <b>file</b> <b>formats</b> for images (e.g. JPEG, PNG, GIF), <b>file</b> <b>formats</b> for sounds (e.g. WAV, MP3, OPUS), or proprietary <b>file</b> <b>formats</b> for specific software products. As a <b>reverse</b> engineer, you are mostly only interested in executable <b>file</b> <b>formats</b> such as ELFand PE, but at times you might also want to understand what information is ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://re-mechanical.com/step-iges-parasolid-or-stl-which-cad-file-format-do-you-actually-need/">STEP, IGES, Parasolid, or STL: Which CAD File Format Do You Actually ...</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://re-mechanical.com/step-iges-parasolid-or-stl-which-cad-file-format-do-you-actually-need/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/re-mechanical.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://re-mechanical.com/step-iges-parasolid-or-stl-which-cad-file-format-do-you-actually-need/">
+                            re-mechanical.com/step-iges-parasolid-or-stl-which-cad-file-format-do-you-actually-need/
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-04-07T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://re-mechanical.com/step-iges-parasolid-or-stl-which-cad-file-format-do-you-actually-need/">STEP, IGES, Parasolid, STL, OBJ — when you commission <b>reverse</b> <b>engineering</b> or 3D scanning, you&#x27;ll be asked which <b>file</b> <b>format</b> you need. This guide explains what each <b>format</b> contains, what it&#x27;s used for, and how to choose the right one for your downstream workflow.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://iris.cnr.it/handle/20.500.14243/401707">Reverse engineering modeling methods and tools: a survey</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://iris.cnr.it/handle/20.500.14243/401707">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/iris.cnr.it.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://iris.cnr.it/handle/20.500.14243/401707">
+                            iris.cnr.it/handle/20.500.14243/401707
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://iris.cnr.it/handle/20.500.14243/401707">Abstract <b>Reverse</b> <b>Engineering</b> (RE) is a long-term goal of <b>engineering</b> and computer science; it aims at the reconstruction of <b>CAD</b> models from measured data by means of 3D mathematical surfaces and geometrical features representing the geometry of a physical part. In the last two decades, reviews and <b>surveys</b> have occasionally covered this topic, but a systematic dissertation of modeling methods ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.tandfonline.com/doi/full/10.1080/16864360.2017.1397894">Reverse engineering modeling methods and tools: a survey</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.tandfonline.com/doi/full/10.1080/16864360.2017.1397894">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.tandfonline.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.tandfonline.com/doi/full/10.1080/16864360.2017.1397894">
+                            www.tandfonline.com/doi/full/10.1080/16864360.2017.1397894
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.tandfonline.com/doi/full/10.1080/16864360.2017.1397894"><b>Reverse</b> <b>Engineering</b> (RE) is a long-term goal of <b>engineering</b> and computer science; it aims at the reconstruction of <b>CAD</b> models from measured data by means of 3D mathematical surfaces and geometrical features representing the geometry of a physical part. In the last two decades, reviews and <b>surveys</b> have occasionally covered this topic, but a systematic dissertation of modeling methods from a ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="reverse engineering CAD file format survey" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-131305642210087333206776798071914421285" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+=== reverseengineering : catia ===
+=== reverseengineering : catpart ===
+=== reverseengineering : 3dxml ===
+=== reverseengineering : catia+file+format ===
+=== reverseengineering : CATIA+automation ===
+=== reverseengineering : xdesign ===
+=== stackoverflow : catia ===
+[0] CATIA and VB.NET detect closing of CATIA in external app :: https://stackoverflow.com/questions/27654354/catia-and-vb-net-detect-closing-of-catia-in-external-app
+[0] VB.NET and CATIA COM libraries :: https://stackoverflow.com/questions/77495471/vb-net-and-catia-com-libraries
+[4] Matlab - Catia connection error :: https://stackoverflow.com/questions/22455769/matlab-catia-connection-error
+[0] How to customize Catia :: https://stackoverflow.com/questions/33927695/how-to-customize-catia
+[0] Catia enumeration values when using Python (Original title:accessing CATIA object in python) :: https://stackoverflow.com/questions/55670030/catia-enumeration-values-when-using-python-original-titleaccessing-catia-objec
+[1] Catia sketch constraints using python :: https://stackoverflow.com/questions/67970776/catia-sketch-constraints-using-python
+[0] Catia Listbox items :: https://stackoverflow.com/questions/68600252/catia-listbox-items
+[0] CATIA File Open optimization :: https://stackoverflow.com/questions/76804044/catia-file-open-optimization
+[3] Use C# for Catia V5 Automation :: https://stackoverflow.com/questions/40620334/use-c-for-catia-v5-automation
+[0] How does catia store file? :: https://stackoverflow.com/questions/68160726/how-does-catia-store-file
+=== stackoverflow : catpart ===
+[2] Catia CATProduct &amp; CATPart File Formats :: https://stackoverflow.com/questions/45237882/catia-catproduct-catpart-file-formats
+[0] Suggestions for Catpart to VRML Converter :: https://stackoverflow.com/questions/12137506/suggestions-for-catpart-to-vrml-converter
+[1] extracting measurements from .catpart in CATIA V5 :: https://stackoverflow.com/questions/28669245/extracting-measurements-from-catpart-in-catia-v5
+[0] Saving the product tree of a CATpart into a txt file :: https://stackoverflow.com/questions/71673624/saving-the-product-tree-of-a-catpart-into-a-txt-file
+[1] CATIA V5R20: How to Quickly Change CATPart Reference Link :: https://stackoverflow.com/questions/79390321/catia-v5r20-how-to-quickly-change-catpart-reference-link
+[0] How to loop through a catpart in Catia :: https://stackoverflow.com/questions/55062379/how-to-loop-through-a-catpart-in-catia
+[0] CATIA V5 VBA: get CATPart linked documents :: https://stackoverflow.com/questions/22823475/catia-v5-vba-get-catpart-linked-documents
+[2] How to convert a CatPart file to STL format in python? :: https://stackoverflow.com/questions/66881295/how-to-convert-a-catpart-file-to-stl-format-in-python
+[0] C# -Launch Catia by opening a CatPart :: https://stackoverflow.com/questions/53478841/c-launch-catia-by-opening-a-catpart
+[0] catvba how to determine if catpart needs to be updated :: https://stackoverflow.com/questions/42259468/catvba-how-to-determine-if-catpart-needs-to-be-updated
+=== stackoverflow : 3dxml ===
+[1] OpenGL Library 3dXML :: https://stackoverflow.com/questions/4064350/opengl-library-3dxml
+[0] Importing 3dxml file with trimesh :: https://stackoverflow.com/questions/74199975/importing-3dxml-file-with-trimesh
+[0] 3DXML Catia files not showing :: https://stackoverflow.com/questions/35395444/3dxml-catia-files-not-showing
+[0] Open 3DXML files in browser using ASP.NET 2008 :: https://stackoverflow.com/questions/1707587/open-3dxml-files-in-browser-using-asp-net-2008
+[2] Does Catias 3dxml format contain CAD as Nurbs, or is it just a triangulated/polygonal mesh? :: https://stackoverflow.com/questions/59333552/does-catias-3dxml-format-contain-cad-as-nurbs-or-is-it-just-a-triangulated-poly
+[4] Android Chrome adds unwanted &quot;.txt&quot; extension to downloaded files with non-conventional extensions (e.g. 3dxml) :: https://stackoverflow.com/questions/70309697/android-chrome-adds-unwanted-txt-extension-to-downloaded-files-with-non-conve
+[1] Three.js - Load .3dxml or .smgxml file formats in html :: https://stackoverflow.com/questions/51382527/three-js-load-3dxml-or-smgxml-file-formats-in-html
+[0] Load .cgr files into CATIA using catscript to generate silhouettes :: https://stackoverflow.com/questions/66982663/load-cgr-files-into-catia-using-catscript-to-generate-silhouettes
+[0] How to make a compressed file with unique extension name, containing many files :: https://stackoverflow.com/questions/57066542/how-to-make-a-compressed-file-with-unique-extension-name-containing-many-files
+[0] Catiascript or VBA macro to save body in different format :: https://stackoverflow.com/questions/71155221/catiascript-or-vba-macro-to-save-body-in-different-format
+=== stackoverflow : catia+file+format ===
+[2] Catia CATProduct &amp; CATPart File Formats :: https://stackoverflow.com/questions/45237882/catia-catproduct-catpart-file-formats
+[0] CATIA File Open optimization :: https://stackoverflow.com/questions/76804044/catia-file-open-optimization
+[0] How to convert files from Catia v5 into Babylon.js format? :: https://stackoverflow.com/questions/45727781/how-to-convert-files-from-catia-v5-into-babylon-js-format
+[0] How to write co-ordinates in German numbering format in a text file using CATIA vb script? :: https://stackoverflow.com/questions/27987369/how-to-write-co-ordinates-in-german-numbering-format-in-a-text-file-using-catia
+[0] Reading a string and it&#39;s value from a binary file in c# :: https://stackoverflow.com/questions/44952646/reading-a-string-and-its-value-from-a-binary-file-in-c
+[0] Any way to convert CAD files to 3d mesh file formats (gltf, FBX, etc) in scripted manner? :: https://stackoverflow.com/questions/54191417/any-way-to-convert-cad-files-to-3d-mesh-file-formats-gltf-fbx-etc-in-scripte
+[2] How to convert a CatPart file to STL format in python? :: https://stackoverflow.com/questions/66881295/how-to-convert-a-catpart-file-to-stl-format-in-python
+[0] Importing parts in Shape format :: https://stackoverflow.com/questions/62219377/importing-parts-in-shape-format
+[1] Geometry in exported STEP not read into Dassault products :: https://stackoverflow.com/questions/75892587/geometry-in-exported-step-not-read-into-dassault-products
+[3] how to create a color pdf from excel using (Catia) vba :: https://stackoverflow.com/questions/46443825/how-to-create-a-color-pdf-from-excel-using-catia-vba
+=== stackoverflow : CATIA+automation ===
+[1] Catia VBA - Automation Error Get Object :: https://stackoverflow.com/questions/51204841/catia-vba-automation-error-get-object
+[1] CATIA automation in VB.NET :: https://stackoverflow.com/questions/40118744/catia-automation-in-vb-net
+[3] Use C# for Catia V5 Automation :: https://stackoverflow.com/questions/40620334/use-c-for-catia-v5-automation
+[0] How to use own created Automation Interface for CATIA V5 with Python? :: https://stackoverflow.com/questions/46096257/how-to-use-own-created-automation-interface-for-catia-v5-with-python
+[3] CATIA V5 Automation with Python Script :: https://stackoverflow.com/questions/48161447/catia-v5-automation-with-python-script
+[0] &quot;Pickable&quot; property in catia V5 drawing using automation :: https://stackoverflow.com/questions/77228247/pickable-property-in-catia-v5-drawing-using-automation
+[-1] Finding Documentation for Catia Libraries :: https://stackoverflow.com/questions/70930475/finding-documentation-for-catia-libraries
+[0] CATIA V5 Automation - How can I filter UserParameters :: https://stackoverflow.com/questions/78972481/catia-v5-automation-how-can-i-filter-userparameters
+[1] Catia VBA Automation Error Run-Time 80010005 - Selection ERROR :: https://stackoverflow.com/questions/51326391/catia-vba-automation-error-run-time-80010005-selection-error
+[0] C# -Launch Catia by opening a CatPart :: https://stackoverflow.com/questions/53478841/c-launch-catia-by-opening-a-catpart
+=== stackoverflow : xdesign ===
+[0] many errors with Warning: include :: https://stackoverflow.com/questions/16428771/many-errors-with-warning-include
+[0] Blurry text with css rotate :: https://stackoverflow.com/questions/75088302/blurry-text-with-css-rotate
+[4] Cannot redeclare a function previously declared :: https://stackoverflow.com/questions/16431652/cannot-redeclare-a-function-previously-declared
+[0] How to set the icon attribute of the MarkerOptions object? :: https://stackoverflow.com/questions/38306875/how-to-set-the-icon-attribute-of-the-markeroptions-object
+[4] How to animate an Icon in markerOptions? [GoogleMaps API] :: https://stackoverflow.com/questions/38331436/how-to-animate-an-icon-in-markeroptions-googlemaps-api
+[1] How to synchronise separate animations in AnimationSet? :: https://stackoverflow.com/questions/38348802/how-to-synchronise-separate-animations-in-animationset
+[0] Cannot run multiple animations on GroundOverlay [GoogleMap] :: https://stackoverflow.com/questions/38347245/cannot-run-multiple-animations-on-groundoverlay-googlemap
+[2] easyui conflict in jquery page :: https://stackoverflow.com/questions/22700808/easyui-conflict-in-jquery-page
+[-2] Strange error php :: https://stackoverflow.com/questions/16432105/strange-error-php
+[1] jQuery window .scroll dysfunction :: https://stackoverflow.com/questions/44292812/jquery-window-scroll-dysfunction
+=== softwarerecs : catia ===
+[6] Parametric 3D modelling application for Mac :: https://softwarerecs.stackexchange.com/questions/4551/parametric-3d-modelling-application-for-mac
+[1] What 2D technical drawing software can import a 3d STL model and use it to create the 2D drawings? :: https://softwarerecs.stackexchange.com/questions/84896/what-2d-technical-drawing-software-can-import-a-3d-stl-model-and-use-it-to-creat
+=== softwarerecs : catpart ===
+=== softwarerecs : 3dxml ===
+=== softwarerecs : catia+file+format ===
+[1] What 2D technical drawing software can import a 3d STL model and use it to create the 2D drawings? :: https://softwarerecs.stackexchange.com/questions/84896/what-2d-technical-drawing-software-can-import-a-3d-stl-model-and-use-it-to-creat
+=== softwarerecs : CATIA+automation ===
+=== softwarerecs : xdesign ===

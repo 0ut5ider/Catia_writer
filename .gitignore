@@ -1,0 +1,7 @@
+# Full PRONOM signature corpus dump (65 MB). Re-downloadable; the
+# CATIA-relevant records are kept in raw/pronom-catia-signatures.json.
+research/2026-09-06-shared-corpus/raw/pronom-main/
+
+# OS/editor noise
+.DS_Store
+*.swp

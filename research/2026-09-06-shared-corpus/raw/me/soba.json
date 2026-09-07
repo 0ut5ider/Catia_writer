@@ -1,0 +1,141 @@
+{
+  "sha": "d7cd89b6736be5fbbf19d9778ec7d55bd0568ff0",
+  "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/trees/d7cd89b6736be5fbbf19d9778ec7d55bd0568ff0",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff0c423042b46cb1d617b81efb715defbe8054d",
+      "size": 2518,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/1ff0c423042b46cb1d617b81efb715defbe8054d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9491a2fda28342ab358eaf234e1afe0c07a53d62",
+      "size": 6223,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/9491a2fda28342ab358eaf234e1afe0c07a53d62"
+    },
+    {
+      "path": "CATProductFiles.sln",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e57b58da78ddf78397cb47eb14a8ac328c4884",
+      "size": 1126,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/a9e57b58da78ddf78397cb47eb14a8ac328c4884"
+    },
+    {
+      "path": "CATProductFiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3777669c74b796886cd2a553b7cc7006c15b47d9",
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/trees/3777669c74b796886cd2a553b7cc7006c15b47d9"
+    },
+    {
+      "path": "CATProductFiles/App.config",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e15646352ec1d9a84bbc6504ef6b46e16bf7823",
+      "size": 182,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/8e15646352ec1d9a84bbc6504ef6b46e16bf7823"
+    },
+    {
+      "path": "CATProductFiles/CATProductFiles.csproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd72f8ab6242e9ca00c29cdfe74dd42c6e30c1b",
+      "size": 4380,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/edd72f8ab6242e9ca00c29cdfe74dd42c6e30c1b"
+    },
+    {
+      "path": "CATProductFiles/Form1.Designer.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c08aff590b139b73f4a3e54454b5c42629ca7b8a",
+      "size": 4295,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/c08aff590b139b73f4a3e54454b5c42629ca7b8a"
+    },
+    {
+      "path": "CATProductFiles/Form1.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6fa0d2fa2d1ba60346381f47a50c3d2a617816",
+      "size": 3726,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/7a6fa0d2fa2d1ba60346381f47a50c3d2a617816"
+    },
+    {
+      "path": "CATProductFiles/Form1.resx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af7de150c99c12dd67a509fe57c10d63e4eeb04",
+      "size": 5698,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/1af7de150c99c12dd67a509fe57c10d63e4eeb04"
+    },
+    {
+      "path": "CATProductFiles/Program.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1443c5482a5d17e878662c50a359516ec936411d",
+      "size": 516,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/1443c5482a5d17e878662c50a359516ec936411d"
+    },
+    {
+      "path": "CATProductFiles/Properties",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ad9d72c5bcf58a2bb5e552416fb9e5576a115c1",
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/trees/9ad9d72c5bcf58a2bb5e552416fb9e5576a115c1"
+    },
+    {
+      "path": "CATProductFiles/Properties/AssemblyInfo.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f07e688889d0aacf480dc7678c9c6e77474331",
+      "size": 1401,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/a8f07e688889d0aacf480dc7678c9c6e77474331"
+    },
+    {
+      "path": "CATProductFiles/Properties/Resources.Designer.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b87d9f38596920038734f8388a64ad6f5c4f8d",
+      "size": 2788,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/48b87d9f38596920038734f8388a64ad6f5c4f8d"
+    },
+    {
+      "path": "CATProductFiles/Properties/Resources.resx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7dbebbacef595e3089c01c05671016c21a8304",
+      "size": 5496,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/af7dbebbacef595e3089c01c05671016c21a8304"
+    },
+    {
+      "path": "CATProductFiles/Properties/Settings.Designer.cs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1647b5efce66de3e4ac64aec6c4fb13e2e9d229",
+      "size": 1071,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/a1647b5efce66de3e4ac64aec6c4fb13e2e9d229"
+    },
+    {
+      "path": "CATProductFiles/Properties/Settings.settings",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39645652af62950ebf3b28ec3a5400dcec30b1c4",
+      "size": 242,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/39645652af62950ebf3b28ec3a5400dcec30b1c4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8f819650ebbce97de91ce761a5133a24da585f",
+      "size": 138,
+      "url": "https://api.github.com/repos/sobalvarro/CATProductFiles/git/blobs/ff8f819650ebbce97de91ce761a5133a24da585f"
+    }
+  ],
+  "truncated": false
+}

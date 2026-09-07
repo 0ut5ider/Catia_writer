@@ -1,0 +1,30 @@
+q2-01	PRONOM fmt "CATIA" "vector data"	NULL(quoted no match)
+q2-02	"PUID" CATIA "fmt" signature	5 results
+q2-03	"V5_CFV2" OR "V5_CDV2" catpart	NULL(quoted no match)
+q2-04	CATIA catpart magic bytes signature	10 results
+q2-05	"D0 CF 11 E0" catpart OR catproduct	NULL(quoted no match)
+q2-06	site:reddit.com catpart format OR structure	10 results
+q2-07	site:eng-tips.com "CATIA" "file format" v5	?
+q2-08	"specification object tree" CATIA	?
+q2-09	"CATIPrtPart" internals OR internals OR binary	?
+q2-10	"CATDocumentServices" OR "CATDocument" CAA reference	?
+q2-11	"CAA V5" "Document Services" use cases	NULL(quoted no match)
+q2-12	"CATIDocRoots" OR "CATIContainer" OR "CATEPLDocument"	?
+q2-13	"catia" "encrypted" file format	4 results
+q2-14	"catpart" "step converter" dll runtime	3 results
+q2-15	"Analysis of the CATIA file format"	NULL(quoted no match)
+q2-16	uppsala CATIA thesis	10 results
+q2-17	site:csdn.net catpart 文件 解析	10 results
+q2-18	site:zhihu.com CATIA 文件格式 二进制	10 results
+q2-19	site:qiita.com CATIA CATPart	?
+q2-20	site:habr.com CATIA	?
+q2-21	taobao catpart 转换 破解 OR 代	?
+q2-22	gumroad catia parser OR file format	?
+q2-23	"catia" "technical modeler" redbook	?
+q2-24	"v5automation.chm" OR "V5Automation" tlB download	?
+q2-25	catia "persistent" "factory" "container" CAA document architecture	?
+q2-26	CATIA V5 references "relative path" catproduct save management	?
+q2-27	"cgr" CATIA lightweight format specification	?
+q2-28	3DXML reverse engineering	?
+q2-29	"catia" "compound file binary" OR "oletools"	?
+q2-30	hexdump catpart OR catproduct site:gitlab.com OR site:github.com	?

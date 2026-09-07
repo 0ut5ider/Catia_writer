@@ -1,0 +1,267 @@
+=====
+# Geometry in exported STEP not read into Dassault products
+https://stackoverflow.com/questions/75892587/geometry-in-exported-step-not-read-into-dassault-products
+SCORE 1 ANSWERS 1
+BODY:
+<p>We have generated some solid geometry in our application using the GBrep.Loft method. Geometry is then exported to a STEP file with WriteSTEP(). When imported into a Dassault product, the solid geometry does not get read in. Other geometry types such as curves or points are successfully read from the same file. After investigating the Catia error report, it seems that the Eyeshot STEP has an unexpected format. Is it possible to change the STEP format used by WriteSTEP()? Seems that it is currently using AP203.</p>
+<p>Have tried importing to both CATIA V5 and CAE, without any luck. However, the geometry will read into Femap successfully.</p>
+
+
+=====
+# Any way to convert CAD files to 3d mesh file formats (gltf, FBX, etc) in scripted manner?
+https://stackoverflow.com/questions/54191417/any-way-to-convert-cad-files-to-3d-mesh-file-formats-gltf-fbx-etc-in-scripte
+SCORE 0 ANSWERS 1
+BODY:
+<p>I have a large amount of CATIA CAD files (.CATProduct, .CATPart) that I want to convert to a 3D mesh file format (preferably gLTF, but STL/OBJ/FBX may be okay as well). Are there any programs or binaries that let me do this in a scripted manner on Linux? I tried Unreal's Datasmith but it seems to only export to FBX and requires the entire studio running for any scripts to execute.</p>
+
+
+=====
+# How does catia store file?
+https://stackoverflow.com/questions/68160726/how-does-catia-store-file
+SCORE 0 ANSWERS 1
+BODY:
+<p>I will try to explain my intention:</p>
+<p>Say I have a CATIA model of a box, I need to fill that box with smaller cubes. Unfortunately, I don't have access to Catia, so I cannot work directly with that file extension. My workaround is assuming that the CATIA model is first converted to stl, I will fill that stl box with stl cubes, then I convert those cubes to CATIA, and finally add it to the original catia file. I cannot convert the entire modified stl file to catia, since the original catia box must retain its parts, and stl kinda saves everything into 1 mesh. The problem is, I don't know if points' coordinates are retained throughout all the conversion processes, so when combining 2 file, I can have the cubes nicely arranged in the original box. I know stl stores data by vertices of triangles, but how does catia store data? And if it stores data by points too, does it retain the original coordinate axis when converted to stl (and vice versa)?</p>
+<p>I'm kinda searching in the dark since I don't have access to the real CATIA software, so sorry in advance if this question seems stupid. STL is just one option that I can think of right now, if there are any other file extensions that can ease the job, I'm open to suggestions too. Thank you!</p>
+
+
+=====
+# Load .cgr files into CATIA using catscript to generate silhouettes
+https://stackoverflow.com/questions/66982663/load-cgr-files-into-catia-using-catscript-to-generate-silhouettes
+SCORE 0 ANSWERS 0
+BODY:
+<p>I am running a catscript that imports a txt file and loads .cgr files into catia to generate a 3dxml file. When this 3dxml file is opened all the cgr components are present but the product structure is flat with no multi-level nodes available. I have followed the catia documentation for adding components to generate the code. The aim of this code is to generate a part with its silhouettes(full cgrs). Here is the code:</p>
+<pre><code>  Sub CATMain()
+  Dim file_name As String
+  Dim RootPartNumber As String
+  Dim linecount As Interger
+  Dim input_level As Interger
+  Dim dbinput_file as File
+  Dim arrFields
+  Dim dbinput_file_stream  As TextStream
+  Dim iMatrix(12)
+  Dim oMatrix(11)
+  Dim mMatrix(2137,12)
+  Dim repo_path(10000) As String
+  Dim cgrpath_part(10000,10000) As String
+  Dim repo_path_present As Integer
+  Dim index As Integer
+  Dim Str As String
+  Dim ProductArray(10000) As Product
+  Dim FileSysObject
+  Dim Instance As Product
+  Dim file_directory As String
+  Dim file_extension As String
+  Set FileSysObject = CATIA.FileSystem
+  
+  flag = false
+  file_name=CATIA.SystemService.Environ(&quot;SIL_INPUTFLE&quot;)
+  file_directory=&quot;/tmp/DLNAME4/&quot;
+  file_extension=&quot;.3dxml&quot;
+  'CATIA.SystemService.print &quot;Input Argument is  &quot; &amp; file_name
+  Dim  value as Boolean
+  value=FileSysObject.FileExists(file_name)
+   ' MsgBox &quot; return value is  &quot; &amp; value
+
+  If (Not CATIA.FileSystem.FileExists (file_name)) Then
+      CATIA.SystemService.print &quot;path not found  &quot;
+  End If
+
+  Set dbinput_file = FileSysObject.GetFile(file_name)
+  Set dbinput_file_stream = dbinput_file.OpenAsTextStream(&quot;ForReading&quot;)
+  repo_path_present=0
+  linecount=1
+    
+
+  'Create a new product document object by adding a document with the Product
+  'type to the document collection of the CATIA application.
+
+  Dim oProductDoc As Document
+  Set oProductDoc = CATIA.Documents.Add(&quot;Product&quot;)
+
+  'Retrieve the Design part as the root product.
+  Dim odesign As Product
+  Set odesign = oProductDoc.Product
+
+
+  'Retrieve the product's collection of the Design.
+  Dim odesignProducts As Products
+  Set odesignProducts = odesign.Products
+
+  ' Read a line at a time until EOF
+  Dim linein As String
+  linein = dbinput_file_stream.ReadLine
+  Do While Not dbinput_file_stream.AtEndOfStream
+
+  ' CATIA.SystemService.print &quot;  value of linein is   &quot; &amp; linein
+  arrFields = Split(linein,&quot;,&quot;)
+  ' iMatrix = arrFields
+  ' CATIA.SystemService.print &quot;  value of arrFields is   &quot; &amp; arrFields
+  'for each x in arrFields
+  'For i = Lbound(arrFields) to Ubound(arrFields)
+
+   RootPartNumber=arrFields(0)
+   odesign.PartNumber=RootPartNumber
+   odesign.Name = RootPartNumber
+
+
+    iMatrix(0) = CDbl(arrFields(1))
+    iMatrix(1) = CDbl(arrFields(2))
+    iMatrix(2) = CDbl(arrFields(3))
+    iMatrix(3) = CDbl(arrFields(4))
+    iMatrix(4) = CDbl(arrFields(5))
+    iMatrix(5) = CDbl(arrFields(6))
+    iMatrix(6) = CDbl(arrFields(7))
+    iMatrix(7) = CDbl(arrFields(8))
+    iMatrix(8) = CDbl(arrFields(9))
+    iMatrix(9) = CDbl(arrFields(10))
+    iMatrix(10) =CDbl(arrFields(11))
+    iMatrix(11) =CDbl(arrFields(12))
+    iMatrix(12) =CDbl(arrFields(13))
+
+' Here we are storing the cgr path is an Array repo_path and if the cgr already exsists in the array its not added then
+
+   If linecount=1 then
+     repo_path(linecount-1)=arrFields(15)
+     reDim repoList(0)
+     repoList(0) = arrFields(15)
+   End If
+   If linecount &gt;1 then
+       'CATIA.SystemService.print &quot;looking for &quot; &amp; arrFields(15)
+       ' CATIA.SystemService.print &quot; line_count is &quot; &amp;linecount
+        For index=0 to linecount-1
+          If arrFields(15)=repo_path(index) then
+            repo_path_present=1
+            'CATIA.SystemService.print &quot; path found  with index vlaue &quot; &amp; index
+            Exit For
+          Else
+            'CATIA.SystemService.print &quot; else &quot;
+             If linecount-1-index=1 then
+              'CATIA.SystemService.print &quot; new cgr with kvlaue &quot; &amp; index
+               repo_path_present=0
+               repo_path(index+1)=arrFields(15)
+              ' CATIA.SystemService.print &quot; new cgr with n pos &quot; &amp; index+1
+              Exit For
+            Else
+              ' CATIA.SystemService.print &quot; e1&quot;
+            End If
+          End if
+
+        Next
+    End if
+
+   flag = false
+   input_level=iMatrix(0)
+
+   If input_level=1 Then
+    For j = 1 to Ubound(iMatrix)
+        mMatrix(input_level,j)=iMatrix(j)
+    Next
+  Else
+   mMatrix(input_level,1) = (mMatrix(input_level-1,1) * iMatrix(1)) + (mMatrix(input_level-1,4) * iMatrix(2)) + (mMatrix(input_level-1,7) * iMatrix(3))
+   mMatrix(input_level,2) = (mMatrix(input_level-1,2) * iMatrix(1)) + (mMatrix(input_level-1,5) * iMatrix(2)) + (mMatrix(input_level-1,8) * iMatrix(3))
+   mMatrix(input_level,3) = (mMatrix(input_level-1,3) * iMatrix(1)) + (mMatrix(input_level-1,6) * iMatrix(2)) + (mMatrix(input_level-1,9) * iMatrix(3))
+   mMatrix(input_level,4) = (mMatrix(input_level-1,1) * iMatrix(4)) + (mMatrix(input_level-1,4) * iMatrix(5)) + (mMatrix(input_level-1,7) * iMatrix(6))
+   mMatrix(input_level,5) = (mMatrix(input_level-1,2) * iMatrix(4)) + (mMatrix(input_level-1,5) * iMatrix(5)) + (mMatrix(input_level-1,8) * iMatrix(6))
+   mMatrix(input_level,6) = (mMatrix(input_level-1,3) * iMatrix(4)) + (mMatrix(input_level-1,6) * iMatrix(5)) + (mMatrix(input_level-1,9) * iMatrix(6))
+   mMatrix(input_level,7) = (mMatrix(input_level-1,1) * iMatrix(7)) + (mMatrix(input_level-1,4) * iMatrix(8)) + (mMatrix(input_level-1,7) * iMatrix(9))
+   mMatrix(input_level,8) = (mMatrix(input_level-1,2) * iMatrix(7)) + (mMatrix(input_level-1,5) * iMatrix(8)) + (mMatrix(input_level-1,8) * iMatrix(9))
+   mMatrix(input_level,9) = (mMatrix(input_level-1,3) * iMatrix(7)) + (mMatrix(input_level-1,6) * iMatrix(8)) + (mMatrix(input_level-1,9) * iMatrix(9))
+   mMatrix(input_level,10) =(mMatrix(input_level-1,1) * iMatrix(10)) + (mMatrix(input_level-1,4) * iMatrix(11)) + (mMatrix(input_level-1,7) * iMatrix(12) + mMatrix(input_level-1,10))
+   mMatrix(input_level,11) =(mMatrix(input_level-1,2) * iMatrix(10)) + (mMatrix(input_level-1,5) * iMatrix(11)) + (mMatrix(input_level-1,8) * iMatrix(12) + mMatrix(input_level-1,11))
+   mMatrix(input_level,12) =(mMatrix(input_level-1,3) * iMatrix(10)) + (mMatrix(input_level-1,6) * iMatrix(11)) + (mMatrix(input_level-1,9) * iMatrix(12) + mMatrix(input_level-1,12))
+
+  End If
+     ' MsgBox &quot;  value of linecount  is   &quot; &amp; linecount
+     ' linecount = linecount + 1
+
+   for j = 1 to 12
+   oMatrix(j-1) = mMatrix(input_level,j)
+   Next
+  
+   ' If repo_path_present value is set to 0 then the current entry is a new product
+        If repo_path_present=0 then
+        ' CATIA.SystemService.print &quot; New product &quot;
+          Dim oSIL_Prod As Product
+         If InStr(arrFields(14), &quot;/&quot;) &lt;&gt; 0 Then
+           arrFields(14)=Replace(arrFields(14),&quot;/&quot;,&quot;-&quot;)
+         End if
+            Set  oSIL_Prod = odesignProducts.AddNewProduct(arrFields(14))
+            oSIL_Prod.PartNumber = arrFields(14)
+            oSIL_Prod.Name = linecount
+
+             'Add a master shape representation to the hull using an existing part and
+             'reframe the viewer.
+             oSIL_Prod.AddMasterShapeRepresentation arrFields(15)
+            ' CATIA.ActiveWindow.ActiveViewer.Reframe
+             oSIL_Prod.Move.Apply oMatrix
+        End If
+   'Copy the product reference is a array ProductArray 
+        Set ProductArray(linecount-1)=oSIL_Prod.ReferenceProduct
+
+   ' If repo_path_present value is set to 1 then the current entry is already present. Use Add component
+
+        If repo_path_present=1 then
+            ' CATIA.SystemService.print &quot; New component &quot;
+             'CATIA.SystemService.print &quot; found  with index vlaue &quot; &amp; index
+             Set Instance= ProductArray(index)
+             'Dim ProductInstance As Product
+             Set ProductInstance = odesignProducts.AddComponent(Instance)
+             ProductInstance.Name = linecount
+             ProductInstance.Move.Apply oMatrix
+             'CATIA.SystemService.print &quot; ProductArray value is &quot; &amp; ProductArray(linecount-1)
+        End If
+
+     linecount= linecount + 1
+     linein = dbinput_file_stream.ReadLine
+  Loop
+  ' Close file
+  dbinput_file_stream.Close
+
+   'Save as 3dxml file
+   'oProductDoc.SaveAs file_directory &amp; odesign.PartNumber &amp; file_extension
+    oProductDoc.ExportData file_directory &amp; odesign.PartNumber , &quot;3dxml&quot;
+End Sub
+</code></pre>
+<p>When the 3dxml file is opened it should not have a flat structure but instead have indented nodes.</p>
+
+
+=====
+# How to convert a CatPart file to STL format in python?
+https://stackoverflow.com/questions/66881295/how-to-convert-a-catpart-file-to-stl-format-in-python
+SCORE 2 ANSWERS 0
+BODY:
+<p>I'm trying to convert a CatPart file to stl format in python. I found the Pycatia library, but it only works with Catia V5 installed. Is there any other way to convert CatParts to STL directly or indirectly in Python?</p>
+
+
+=====
+# Does Catias 3dxml format contain CAD as Nurbs, or is it just a triangulated/polygonal mesh?
+https://stackoverflow.com/questions/59333552/does-catias-3dxml-format-contain-cad-as-nurbs-or-is-it-just-a-triangulated-poly
+SCORE 2 ANSWERS 1
+BODY:
+<p>I am curious if 3DXML is actually a Mesh or if it is Nurbs. Is it limited when compared to a Catpart/Catproduct assembly? My background is not Cad so apologies if this isn't a good question</p>
+
+
+=====
+# Catia CATProduct &amp; CATPart File Formats
+https://stackoverflow.com/questions/45237882/catia-catproduct-catpart-file-formats
+SCORE 2 ANSWERS 0
+BODY:
+<p>I am trying to write a CatProduct/CatPart to step translator. I am writing this in c#. Just want to know if anybody knows what file format is a CatProduct or CatPart is saved in. The principal reason I want to read both file format is to establish the LASTSaveVersion contained within these files. Such information will allow me to translate using the correct Catia version of the CatBatchStarter dos utility. This windows application will ideally translate without entering the Catia modelling environment. This windows application will batch translate as well. </p>
+
+<p>Any help much appreciated.</p>
+
+
+-----
+ANSWER (score 0, accepted=true) q68160726:
+<p>Well CATIA uses CATPart and CATProduct for part and assembly. The contents of those files is a mess (unreadable except for some small info). If you export CATPart to STL you lose everything you created in catia - its called alive model. Alive models keep the history of making and you can change everything with Catia if you open them. STL is called dead model in CATIA because you have only the shape and if you want to work with it and change it you have to build it from scratch. And i think if you want to import STL back to CATIA you will see only the unpicable surfaces. No solid only mesh, and its basically only for viewing except if you have some modules like Digitized Shape Editor etc.</p>
+<p>I would suggest different formats like STP. STP is human readable and its not mesh based but solid based. It is still a dead model for CATIA but you can change it without problems using part design or shape design.</p>
+<p>You can experiment with this list of files.</p>
+<p><a href="https://i.sstatic.net/hwCpR.png" rel="nofollow noreferrer">CATPart Save As</a></p>
+
+
+-----
+ANSWER (score 2, accepted=true) q59333552:
+<p>The current version 4.3 of the 3D XML format has only support für polygons, but not nurbs. The specification of the format can be downloaded from the 3DS website. <a href="https://www.3ds.com/3ds-passport/downloads/" rel="nofollow noreferrer">https://www.3ds.com/3ds-passport/downloads/</a></p>
+
+

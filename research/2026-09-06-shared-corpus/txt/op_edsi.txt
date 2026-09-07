@@ -1,0 +1,705 @@
+
+Engineering Dynamics v. Structural Software, 26 F.3d 1335 | Casetext Search + Citator
+All State & Fed.
+JX
+Search the Law
+Search
+Help
+Sign In
+Sign Up
+Sign Up
+Opinion
+Summaries
+Case details
+Engineering Dynamics v. Structural Software
+Citing Cases
+Ready Productions, Inc. v. Cantrell
+" Norma Ribbon, 51 F.3d at 47. The principle of originality mandates that objective "facts" and scientific…
+SAS Inst. Inc. v. World Programming Ltd.
+Finding that resolving copyrightability within the limited framework of Federal Rule of Civil Procedure 56…
+128&#x20;
+Citing Cases
+Case Details
+Full title:
+ENGINEERING DYNAMICS, INC., PLAINTIFF-APPELLANT-CROSS-APPELLEE, v…
+Court:
+United States Court of Appeals, Fifth Circuit
+Date published:&#x20;
+Jul 13, 1994
+Citations
+Copy Citation
+26 F.3d 1335 (5th Cir. 1994)
+Citing Cases
+Ready Productions, Inc. v. Cantrell
+" Norma Ribbon, 51 F.3d at 47. The principle of originality mandates that objective "facts" and scientific…
+SAS Inst. Inc. v. World Programming Ltd.
+Finding that resolving copyrightability within the limited framework of Federal Rule of Civil Procedure 56…
+128&#x20;
+Citing Cases
+From Casetext: Smarter Legal Research
+Engineering Dynamics v. Structural Software
+United States Court of Appeals, Fifth Circuit
+Jul 13, 1994
+26 F.3d 1335 (5th Cir. 1994)
+Copy Citation
+Download&#x20;
+PDF
+Check&#x20;
+Treatment
+Summary
+holding that a computer program that simulated engineering problems was original because its algorithm differed from its competitors’ algorithm that achieved the same output
+Summary of this case from&#x20;
+S. Credentialing Support Servs., L.L.C. v. Hammond Surgical Hosp., L.L.C.
+See 14 Summaries
+Opinion
+ No. 92-3444. 
+ July 13, 1994. 
+ Thomas L. Cantrell, Roger L. Maxwell, H. Dale Langley, Jr., Johnson Gibbs, Dallas, TX, for plaintiff-appellant. 
+ Al Harrison, Denya Guntur, Houston, TX, for defendants-appellees. 
+ Peter M.C. Choy, Am. Committee for Interoperable Systems, Mountain View, CA, for amicus curiae ACIS. 
+ Appeals from the United States District Court for the Eastern District of Louisiana. 
+ Before JOHNSON, JOLLY, and JONES, Circuit Judges. 
+ EDITH H. JONES, Circuit Judge: 
+ Fifteen years ago Engineering Dynamics, Inc. (EDI) successfully defended itself against claims that its computer program infringed registered copyrights held by Synercom Technology, Inc. on Synercom's user manuals and input formats. That case held that neither the input formats brought to the court's attention nor their sequence and organization were copyrightable. 
+Synercom Technology, Inc. v. University Computing Co.,
+462 F. Supp. 1003
+ (N.D.Tex. 1978). EDI has now switched sides and seeks a judgment of copyright infringement against Structural Software, Inc. (SSI), a competitor who copied many of EDI's input and output formats. The parties primarily differ over the district court's holding that computer input and output formats are not copyrightable and hence cannot infringe a copyright directly or as a derivative work. 
+See
+ district court opinion at 
+785 F. Supp. 576, 582
+ (E.D.La. 1991). 
+ This opinion examines the extent of copyright and trade dress law protection of computer/user interfaces and user manuals. We reverse the district court's holding that computer/user interface in the forms of input and output formats are uncopyrightable and reverse and remand to determine whether there was infringement. We affirm the court's other rulings. 
+BACKGROUND
+ In 1970, Synercom brought to market a computer program called STRAN, designed to solve engineering problems in the field of structural analysis. The program required the user to "input" a large amount of data, including construction details and anticipated environmental and other external forces that would act upon the structure. The computer program performed numerous tedious calculations using accepted engineering principles to generate output which facilitated the design and construction of the structure. 
+ In 1975, EDI entered the market with its computer program, SACS II,
+ which utilized precisely the same input formats and input sequence as Synercom's STRAN program. Both SACS and STRAN were run only on mainframe computers. Part of EDI's marketing strategy was to stress the complete compatibility of SACS with STRAN's input formats, entered into the computer via decks of 80-column keypunch cards. 
+Synercom,
+462 F. Supp. at 1008, 1012
+. Synercom had obtained thirteen copyright registrations covering nine input formats and sued EDI for infringement. Then-district judge Higginbotham ruled that the formats of the keypunch cards, as well as their sequence and organization, were not copyrightable, thus relieving EDI of any liability for format infringement. Judge Higginbotham also held, however, that EDI had infringed Synercom's copyright in its user manuals. As part of a resulting settlement agreement, EDI prepared a new edition of its user manual, SACS III, which did not infringe Synercom's copyright.  
+ There was never a SACS I. The acronym stands for structural analysis computer system.
+ Over the years, EDI refined SACS III and its input formats to accommodate users' desire for greater speed, flexibility, and case of operation. After many piecemeal revisions, EDI changed the name of its program to SACS IV. Despite the fact that actual paper keypunch cards are rarely used anymore, EDI has retained the 80-column data input format. Most users now enter data as image files and store the data on a magnetic storage device, 
+e.g.,
+ a floppy disk. The 80-column card format is familiar to relevant users of these programs, thus facilitating training and allowing them to reevaluate old data decks. This opinion follows industry practice and uses the terms "input format" and "card" interchangeably. 
+ The SACS IV input formats instruct the user to place specific kinds of information in a specific place on the card. The first five columns or so are reserved for identification of the card by its name, 
+e.g.,
+ WAVE. The parties' versions of this card are reproduced in the appendix hereto. Subsequent columns of various widths are reserved to enter instructive and descriptive data. The WAVE card, for example, is used to calculate ocean wave forces on structures built offshore. Several columns allow the user to instruct the computer as to which wave scenario (load case) is to be generated and by what wave theory. Much of the data entered describes conditions and parameters needed to generate hypothetical wave forces, 
+e.g.,
+ the waves' size, frequency, and direction. The placement of the required information on the proper card and in the proper columns is crucial to obtaining correct results. Other input formats instruct or describe many other structural and environmental factors. 
+ EDI's structural analysis program is actually a "suite" of 23 semi-autonomous modules, each created to facilitate certain aspects of structural analysis. Each module is designed to interact with other modules of the suite, for example, by preprocessing certain data, then feeding it to another module. One module called SEASTATE generates and calculates the environmental effects on an offshore structure. This is an important module because most EDI customers use SACS for designing offshore structures, such as drilling platforms. Another module called 
+ JOINTCAN is used to design the "joint cans" which connect tubular members of a structure, taking into account various stresses, tolerances, and construction techniques. The heart of the SACS suite is a module itself called SACS. This module processes, through the computer, user-supplied environmental and design data and calculates the static and dynamic forces within and upon each component of the structure. A large quantity of output data is then organized and printed in a systematic fashion that facilitates further engineering or construction efforts, 
+e.g.,
+ showing the kinds and quantities of forces to which each component of the structure is subject. 
+ EDI has not copyrighted any of the actual computer programs comprising the SACS suite, 
+i.e.,
+ the source code and object code. Instead, it has chosen to protect itself by maintaining the program as an unpublished trade secret via confidentiality contracts with users and other security techniques. It has, however, obtained four copyright registrations covering the user manuals for three of the 23 modules: SACS III, SACS IV, SEASTATE, and JOINTCAN. The SACS suite of programs allegedly specifies over 200 input formats. The four copyrighted user manuals describe 51 formats (excluding nonformatted cards such as header cards and end cards), most of them pertinent to SACS III
+ and SEASTATE.  
+ The SACS IV user manual was apparently not offered as evidence and is not found intact in the record on appeal. It is apparently not much different from SACS III for purposes relevant to this appeal, however.
+ In 1986, Rao Guntur began developing a similar structural analysis program targeted at the offshore platform market that could be used on a personal computer. Guntur's company, Structural Software, Inc. (SSI), began marketing his program, StruCAD 
+*
+3D, that same year. EDI brought its PC version to market a short time later. Although built on a different public-domain structural analysis program, StruCAD borrowed heavily from the SACS user interface. Like SACS, data entry for StruCAD is based on an 80-column format. As was the case when EDI copied Synercom's input format and sequence, many of StruCAD's potential customers were already familiar with EDI's interface; SSI wanted to minimize required training for these users and facilitate conversion of SACS input data files to StruCAD's formats. StruCAD utilizes 126 input formats. 
+ EDI's allegations in the instant case differ in three important respects from Synercom's allegations in 1978. First, the decks of computer keypunch cards prepared for use in Synercom's program STRAN were completely compatible with SACS II when it was introduced. In the instant case, many individual data cards completed for use in SACS would require some, but not extensive, modification before they could be run in StruCAD. Second, StruCAD requires dozens of input formats completely different from those found in SACS III or SACS IV. Third, while only nine input formats were alleged to have been copied in 
+Synercom,
+ and the copyright registrations on each of the nine were at issue, EDI does not claim protection for any of its individual input formats and output reports. Instead, it contends that the sequence and organization of formats and reports is as a whole copyrightable. 
+ EDI brought suit against SSI and against Guntur in his individual capacity, claiming that they copied 56 of EDI's input formats. To support its claim, EDI assembled numerous exhibits highlighting the similarities between the alleged infringing formats. A close examination of the WAVE input format description, for example, (see Appendix) reveals that both programs' cards require precisely the same information in precisely the same data columns, except that StruCAD requires that columns 5-8 and 31-38 be left blank while in SACS these columns are optional. (But note that SACS also requires that 31-38 be left blank if columns 25-30 are used.) In addition to the infringement claim based on input formats, EDI alleges copying of output formats, copying of EDI's user manuals for use in the StruCAD manual, and copying of portions of EDI's user manuals for use on StruCAD's "help screens." EDI also brought unfair competition claims against SSI, alleging violations of 
+ section 43(a) of the Lanham Act and La.Rev. Stat.Ann. &sect; 51:1405(A). 
+ Guntur and SSI (hereinafter often jointly referred to as SSI) admit that Guntur copied EDI material when he developed StruCAD. SSI argues, however, that input formats are not copyrightable in the first instance. Moreover, SSI asserts that EDI appropriated many of these formats from Synercom's STRAN program and contends that EDI cannot now claim a proprietary interest in something that it copied from Synercom. Appellees raise various other defenses to the other copyright and unfair competition claims that are addressed in the analysis below. 
+ After a four-day bench trial, the district court dismissed EDI's claims against Guntur in his individual capacity and dismissed all copyright claims involving StruCAD's input and output formats. The district court agreed, however, that StruCAD's user manual infringed EDI's copyright in its SACS manuals and ordered SSI to pay EDI $250,000 in actual damages. The district court also enjoined SSI from any further marketing of StruCAD until the parties agreed on a noninfringing manual for StruCAD. The parties were unable to reach an agreement on a new noninfringing manual, leading the district court to appoint a special master to decide whether SSI's new manual still infringed. After reviewing the manuals and briefs prepared by both parties, the special master concluded that SSI's new manual did not infringe any of EDI's copyrights. The recommendations and findings of the special master were adopted by the district court the same day they were received. 
+ This opinion will address the appealed issues in the following order: 
+ I. Copyrightability of input/output formats and user interfaces;
+ II. The scope of copyright protection for user interfaces;
+ III. User manual infringement; 
+ IV. Help-screen infringement; 
+ V. Objections to the Special Master's report and procedures;
+ VI. Rao Guntur's liability in his individual capacity;
+ VII. Trade dress infringement and unfair competition; and
+ VIII. Calculation of damages. 
+ I. COPYRIGHTABILITY OF INPUT/OUTPUT FORMATS AND USER INTERFACES
+ EDI has registered copyrights in four user manuals containing detailed verbal descriptions and pictorial representations of input and output formats. EDI contends that SSI and Guntur infringed EDI's copyrights by copying a portion of its user manuals &mdash; the input and output formats &mdash; and incorporating them into the StruCAD user manual and into StruCAD's user interface. This, EDI maintains, is either direct unlawful copying under 
+17 U.S.C. &sect; 106(1)
+ or unlawful preparation of a derivative work under 
+17 U.S.C. &sect; 106(2)
+. 
+ To establish copyright infringement, a plaintiff must prove ownership of a valid copyright and copying of constituent elements of the work that are copyrightable. 
+Feist Publications, Inc. v. Rural Tel. Service Co.,
+499 U.S. 340, 361
+, 
+111 S.Ct. 1282, 1296
+, 
+113 L.Ed.2d 358
+ (1991). Copyright ownership is shown by proof of originality and copyrightability in the work as a whole and by compliance with applicable statutory formalities.
+Plains Cotton Coop. Ass'n. v. Goodpasture Computer Serv., Inc.,
+807 F.2d 1256, 1260
+ (5th Cir.), 
+cert. denied,
+484 U.S. 821
+, 
+108 S.Ct. 80
+, 
+98 L.Ed.2d 42
+ (1987). Two separate components underlie proof of actionable copying. First is the factual question whether the alleged infringer actually used the copyrighted material to create his own work. Copying as a factual matter typically may be inferred from proof of access to the copyrighted work and "probative similarity."
+Plains Cotton,
+807 F.2d at 1260
+. Not 
+ all copying, however, is copyright infringement. 
+Feist,
+499 U.S. at 361
+, 
+111 S.Ct. at 1296
+. The second and usually more difficult question is whether the copying is legally actionable. This requires a court to determine whether there is substantial similarity between the two works. 
+Plains Cotton,
+807 F.2d at 1260
+.   
+ EDI complied with the statutory formalities in regard to the user manuals and input formats and output reports reproduced therein.
+ Professor Latman distinguishes between "probative similarity," which relates to factual copying, and "substantial similarity," which relates to actionable copying. 
+See
+ 3 Melville B. David Nimmer, 
+Nimmer on Copyright
+ &sect; 13.01[B] (1993) (hereinafter Nimmer); 
+see also Gates Rubber Co. v. Bando Chemical Indus., Ltd.,
+9 F.3d 823, 832
+ (10th Cir. 1993) (adopting same terminology).
+ On appeal, SSI does not contest the validity of EDI's ownership in the four copyrighted user manuals as a whole. Nor is copying as a factual matter disputed; Guntur candidly testified that he used EDI's formats when developing StruCAD. Instead, SSI raises several contentions. First, SSI asserts that under this court's 
+Plains Cotton
+ decision, which allegedly approved the 
+Synercom
+ district court decision, user input formats are not copyrightable as a matter of law. SSI elaborates upon this argument by pointing out that nine of the formats found uncopyrightable in 
+Synercom
+ are nevertheless alleged by EDI here to be protected. Second, SSI asserts that EDI's computer input and output formats represent unoriginal facts and lists of facts that are not copyrightable and thus are not subject to infringement. Third, SSI contends that the SACS IV input and output formats represent an uncopyrightable idea, process or method. EDI distinguishes the instant case from 
+Synercom
+ and responds that its input and output formats, at least when taken as a whole, are copyrightable. EDI further argues that SSI has infringed EDI's copyright by SSI's "massive appropriation of plaintiff's expression at the interface." 
+ This inquiry represents a subset of the general questions surrounding computer program copyrightability. Some of the issues in this novel and complex area of law are slowly being resolved. Congress has declared that computer programs are in principle entitled to copyright protection.
+ That decision largely overcame, though it does not fully answer, one major statutory exception to copyrightability, the "useful article" exception.
+ Most courts confronted with the issue have determined that copyright protection extends not only to the literal elements of a program, 
+i.e.,
+ its source code and object code,
+ but also to its "nonliteral" elements, such as the program architecture, "structure, sequence and organization", operational modules, and computer-user interface. 
+See, e.g., Computer Assocs. Int'l, Inc. v. Altai, Inc.,
+982 F.2d 693
+ (2d Cir. 1992); 
+Gates Rubber Co. v. Bando Chemical Indus.,
+9 F.3d 823
+ (10th Cir. 1993); 
+Lotus Development Corp. v. Paperback Software Int'l,
+740 F. Supp. 37
+ (D.Mass. 1990) ( 
+Lotus I
+). But as one moves away from the literal code to more general levels of a program, it becomes more difficult to distinguish between unprotectible ideas, processes, methods or functions, on one hand, and copyrightable expression on the other. 
+Lotus I,
+740 F. Supp. at 53
+. Court decisions are, generously described, in a state of creative ferment concerning the methods by which nonliteral elements of computer programs may be identified and analyzed for copyrightability.
+ A computer program is "a set of statements or instructions to be used directly or indirectly in a computer in order to bring about a certain result." 
+17 U.S.C. &sect; 101
+.
+ In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work. 
+17 U.S.C. &sect; 102(b)
+.
+ Source code is the programming language readable by human programmers; object code is the binary expression that controls the computer hardware.
+ Compare the approaches used by the courts in 
+Whelan Assocs., Inc. v. Jaslow Dental Lab., Inc.,
+797 F.2d 1222
+ (3rd Cir. 1986), 
+cert. denied,
+479 U.S. 1031
+, 
+107 S.Ct. 877
+, 
+93 L.Ed.2d 831
+ (1987); 
+Altai, supra; Lotus I, supra; Brown Bag Software v. Symantec Corp.,
+960 F.2d 1465
+ (9th Cir.), 
+cert. denied,
+ ___ U.S. ___, 113 S.Ct. 198, 121 L.Ed.2d 141 (1992); etc.
+ Until recently, it could be argued that Fifth Circuit precedent precluded recognition of the copyrightability of nonliteral elements of computer programs. This argument was based on the 
+Plains Cotton
+ case, an alleged Fifth Circuit endorsement of the district court decision in 
+Synercom. Synercom,
+ decided before Congress passed the 1980 amendments to the Copyright Act, held that 80-column data cards, developed for an early species of punch-card computers, represented an uncopyrightable process or idea because they could not be divorced from their mode of expression. SSI and the district court interpreted 
+Plains Cotton
+ broadly as adopting 
+Synercom.
+ That 
+Plains Cotton
+ did not actually do so has now been settled by this court in 
+Kepner-Tregoe, Inc. v. Leadership Software Inc.,
+12 F.3d 527
+ (5th Cir. 1994). 
+Kepner-Tregoe
+ embraced the "general, noncontroversial proposition that nonliteral aspects of copyrighted works &mdash; like structure, sequence and organization &mdash; 
+may
+ be protected under copyright law . . ." 
+12 F.3d at 536
+, n. 20. Thus, SSI benefits from no synergy with 
+Synercom.
+ SSI contends that we should not analyze the input formats as nonliteral elements because that analysis depends on the existence of a copyright on the underlying program. We reject this argument. It makes no difference to the formats' copyrightability whether we analyze them as springing from a computer program or from a user manual.
+ But SSI also makes a more particular argument based on 
+Synercom.
+ Because 
+Synercom
+ declared that particular input formats integral to SACS IV's predecessor program (STRAN) were noncopyrightable ideas, SSI contends, the same must be true of those formats descended from STRAN. We disagree. In 
+Synercom,
+ the plaintiff sought copyright protection for individual input formats; here, EDI makes a different claim that several dozen input formats taken together form a copyrightable work, because they represent but one of many ways of expressing a mode of computerized structural analysis. This general point renders 
+Synercom
+ distinguishable. 
+ The holding in 
+Kepner-Tregoe
+ resolves only one level of controversy between the parties, albeit the level on which the district court rested his decision. After 
+Kepner-Tregoe,
+ one must conclude that nonliteral elements of computer programs may be copyrightable in the Fifth Circuit, but not that they are necessarily copyrightable in this case. To that issue we must turn. 
+ II. SCOPE OF COPYRIGHT PROTECTION FOR USER INTERFACES
+ Two qualifications on this discussion must be noted. Because of the factual content of many of these issues, it is expedient to remand to the district court, which conducted a full-scale trial, to reconsider his decision according to the principles about to be explained. The judge's interpretation of 
+Synercom,
+ a decision by which he believed he was bound, rendered a close factual analysis unnecessary. Second, this is not a case in which the outer limits of copyright protection for computer-user interface need be explored. The input and output formats for SACS IV are quasi-textual; while they guide the user in performing a series of sophisticated structural analyses, they consist of a series of words and a framework of instructions that act as prompts for the insertion of relevant data. In some computer programs, the user interface may merge almost wholly with the expression, processes, or ideas embodied in the program &mdash; voice-activated or virtual reality programs or those attuned to the human heartbeat furnish some examples that may trouble courts in the future. We do not presume to anticipate the legal consequences of such technological developments. 
+ The analysis below focuses, as did the parties in their briefs, on the copyrightability of EDI's input formats. There is no intuitive reason why the analysis should be any different for output formats. Indeed, in some cases it may be difficult to classify a given interface as one or the other. Clearly, therefore, some output formats will contain sufficient original expression to merit protection. 
+Cf. Broderbund Software, Inc. v. Unison World, Inc.,
+648 F. Supp. 1127
+ (N.D.Cal. 1986) (interface of program which generated customized greeting cards copyrightable). 
+ Generally, we endorse the abstraction-filtration-comparison method of determining copyright protection for computer programs, which has been ably elucidated by the Tenth Circuit in 
+Gates Rubber,
+9 F.3d 823, 834
+ (10th Cir. 1993). The court summarized this method as follows: 
+ First, in order to provide a framework for analysis, we conclude that a court 
+ should dissect the program according to its varying levels of generality as provided in the abstractions test. Second, poised with this framework, the court should examine each level of abstraction in order to filter out those elements of the program which are unprotectable. Filtration should eliminate from comparison the unprotectable elements of ideas, processes, facts, public domain information, merger material, 
+scenes a faire
+ material, and other unprotectable elements suggested by the particular facts of the program under examination. Third, the court should then compare the remaining protectable elements with the allegedly infringing program to determine whether the defendants have misappropriated substantial elements of the plaintiff's program.
+ It is unnecessary here to reproduce the 
+Gates Rubber
+ court's thoughtful explanations of the various components of this approach. 
+See also
+ discussions in 
+Altai,
+982 F.2d at 706-11
+; 3 Nimmer, &sect; 13.03[F] (advocating much the same test as "successive filtering"). We shall apply that methodology to the parties' arguments in order to provide guidance and to narrow the issues on remand. The abstraction-filtration-comparison method was developed in cases dealing with the copyrightability of parts of computer programs other than user interface. Judge Keeton, however, employed a similar systematic approach to the Lotus user interface cases. 
+See Lotus I, supra; Lotus Development Corp. v. Borland Int'l, Inc.,
+788 F. Supp. 78
+ (D.Mass. 1992) ( 
+Lotus II
+); etc. Describing this approach as abstraction-filtration-comparison should not convey a deceptive air of certitude about the outcome of any particular computer copyright case. Protectible originality can manifest itself in many ways, so the analytic approach may need to be varied to accommodate each case's facts. 
+See Altai,
+982 F.2d at 706
+ (three-step test can and should be modified when computer technology demands it); 
+Gates Rubber,
+9 F.3d at 834
+, n. 12 (same). Given that caveat, we adopt the 
+Gates Rubber/Altai/
+Nimmer method to consider EDI's user interface, input formats and output reports. 
+ A. 
+Abstraction
+ The purpose of segmenting a computer program into successive levels of generality is to "help a court separate ideas [and processes] from expression and eliminate from the substantial similarity analysis those portions of the work that are not eligible for copyright protection." 3 Nimmer, &sect; 13.03[F] at 13-102.17. 
+ Judge Learned Hand first penned the abstraction method to analyze the elements of a literary work to distinguish between protectible expression and abstract unprotectible ideas. 
+Nichols v. Universal Pictures Corp.,
+45 F.2d 119, 121
+ (2d Cir. 1930), 
+cert. denied,
+282 U.S. 902
+, 
+51 S.Ct. 216
+, 
+75 L.Ed. 795
+ (1931). Analogizing his formula to computer programs, at each level of abstraction into which the program can be segmented, the court determines whether the contents of that segment depict an idea, process or method, which, inseparable from its expression or incapable of expression by any other means, is therefore uncopyrightable.
+ The abstraction method makes good sense intuitively, but its application to computer programs has been problematic. A particular source of difficulty has been definitional &mdash; how to describe the levels of generality ascending in computer programs from the literal code to the most general "idea" of the programs itself. Case law has approached the definitional problem inconsistently. One author, while criticizing the courts' diverse and halting efforts at using the abstraction method, suggests that the levels of abstraction can be conformed to six technical component norms recognized among computer programmers. 
+See
+ John W.L. Ogilvie, Note, 
+Defining Computer Program Parts under Learned Hand's Abstraction Test in Software Copyright Infringement Cases,
+ 91 Mich.L.Rev. 526 (1992). His proposed levels of abstraction, in descending order, are: the main purpose, system architecture, abstract data types, algorithms and data structures, source code, and object code. Ogilvie's levels of abstraction have already been approved by one circuit court. 
+Gates Rubber Co.,
+9 F.3d at 835
+. Ogilvie's levels of abstraction do not directly apply to the present case, however, because his note does not deal with user interfaces.
+ Abstraction of ideas from expression does not pose a particular conceptual hurdle in this case for three reasons. First, EDI seeks copyright protection not of its entire suite of SACS programs but only of approximately 
+ 230 input-output formats that comprise the user interface. The user interface is analytically district from other parts of the program. 
+See Ogilvie, supra
+ note 10, 19 Mich.L.Rev. at 542 n. 73. Second, EDI claimed protection of input and output formats not individually but 
+en masse.
+ It is thus unnecessary at this stage to decide whether each individual input format card or output format report represents an idea or an expression. 
+ Third, the formats, taken as a whole, readily qualify as "expression" measured against the ideas versus expression dichotomy. Not all user interfaces will so easily pass that test. The purpose of the SACS input formats is to mediate between the user and the program, identifying what information is essential and how it must be ordered to make the program work. The output formats structure the results of calculations performed by the program informatively for the user. These formats do not self-evidently convey only an "idea." 
+ Because of the functional quality of user interface, the abstraction portion of the three-step methodology may pose difficult questions. A user interface may often shade into the "blank form" that epitomizes an uncopyrightable idea, 
+Baker v. Selden,
+101 U.S. 99
+, 
+25 L.Ed. 841
+ (1880),
+ or it can partake of high expression, like that found in some computerized video games. In the middle of the abstraction spectrum sit user interfaces such as that of Lotus 1-2-3, whose menu structure, including its long prompts, contains numerous expressive features. 
+See Lotus I,
+740 F. Supp. at 65-68
+. As Judge Keeton put it, if a best-selling program's interface were not copyrightable, competitors would be free to emulate the popular interface exactly so long as the underlying programs were not substantially similar. This cannot be the law.  
+ This approach is consistent with the Supreme Court's analysis in 
+Feist,
+ where the Court required "some minimal degree of creativity," or a "minimal creative spark" before finding copyrightability in a compilation of a telephone book's white pages. 
+499 U.S. at 362, 363
+, 
+111 S.Ct. at 1296, 1297
+. More than trivial originality is necessary, however. This approach is consistent with the great majority of blank-form cases decided in other circuits. 
+See Harper House, Inc. v. Thomas Nelson, Inc.,
+889 F.2d 197
+ (9th Cir. 1989) (compilation of blank forms in executive organizer copyrightable, but individual blank diary forms not protectible); 
+Cash Dividend Check Corp. v. Davis,
+247 F.2d 458
+ (9th Cir. 1957) (finding copyrightability of check with accompanying text describing a stamped-check plan to convert savings stamps into cash); 
+Brown Instrument Co. v. Warner,
+161 F.2d 910
+ (D.C. Cir. 1947) (graphic temperature-pressure charts designed to record not copyrightable); 
+Taylor Instrument Co. v. Fawley-Brost Co.,
+139 F.2d 98
+ (7th Cir. 1943), 
+cert. denied,
+321 U.S. 785
+, 
+64 S.Ct. 782
+, 
+88 L.Ed. 1076
+ (1944) (blank form for recording temperatures not copyrightable); 
+see also Harcourt, Brace World, Inc. v. Graphic Controls Corp.,
+329 F. Supp. 517
+ (S.D.N.Y. 1971) (finding copyrightability of optically scanned answer sheet forms which provided spaces for indicating correct answers, but which also conveyed certain minimal information). Blank forms that are designed merely to record information rather than convey it are not copyrightable. 
+See generally
+ 1 Nimmer, &sect; 2.18[B].
+ The scientific, technical character of the SACS IV program distinguishes it in certain respects from the open-ended, user-directed spreadsheet user interface found copyrightable in 
+Lotus I.
+ But on this initial level of abstraction analysis, it is certain that there are numerous ways in which either input or output formats could have been structured in order to achieve the program's purpose. Consequently, it is appropriate to proceed further in considering the copyright protection available to EDI for its input formats and output reports. 
+ B. 
+Filtration
+ The filtration component of the analysis seeks to isolate noncopyrightable elements from each particular level of a program. Copyright protects the expression of ideas, not the ideas themselves, and it does not protect processes, methods or scientific discoveries. Other materials not subject to copyright include facts, information in the public domain, and 
+scenes a faire, i.e.,
+ expressions that are standard, stock or common to a particular subject matter or are dictated by external factors. 
+See Gates Rubber,
+9 F.3d at 837-38
+. Each of these limitations upon copyright or defenses against illicit copying follows logically from the purpose of the Copyright Act: to protect an author's original, creative expression insofar as is 
+ compatible with general advancement of expressive arts and "the free use and development of non-protectable ideas and processes." 
+Altai,
+982 F.2d at 711
+. 
+ SSI forcefully advances several of these concepts in defense of the copying it engaged in to produce StruCAD. SSI contends that EDI's user interface comprises unoriginal facts, which are not copyrightable. It asserts that the data formats are merely a template that enables an engineer to use his tool, the computer. SSI also denies that EDI's "compilation" of input/output formats is copyrightable. Finally, SSI contends that EDI's user interface depends so heavily on engineering industry standards and practice that it is unprotectible under the 
+scenes a faire
+ doctrine. 
+ 1. 
+Unprotectible Facts versus Original Expression
+ SSI describes the input/output data formats as "garden variety documentation that merely presents column-by-column formats of input data and describes the information . . . to be stored in each column, pictures, figures or diagrams, which merely elucidate basic engineering and mathematical relationships." Therefore, according to SSI, the input/output formats fail to satisfy the 
+Feist-Zack Meyer
+ originality test. In 
+Feist,
+ the Supreme Court held that an alphabetically arranged phone book lacks the creativity and originality necessary to sustain a copyright. In 
+Donald v. Zack Meyer's T.V. Sales and Service,
+426 F.2d 1027
+ (5th Cir. 1970) (the 
+Zack Meyer
+ case), this circuit held that boilerplate contractual language printed on a blank form was insufficiently original. 
+ As a comparison with the facts of 
+Feist
+ and 
+Zack Meyer
+ makes obvious, SSI's argument is simplistic in the present context. Certainly, one may isolate each individual input requirement or series of requirements and contend that it is merely shorthand for a common engineering formula. Likewise, abbreviations for terms, dictated by necessity or industry standard, are uncopyrightable by themselves. What appears on EDI's input and output formats, however, are not any kind of formulas or "facts" as such, but organized, descriptive tables for entry of data on which the computer will perform necessary calculations. "Facts" are entered by the user and "factual" algorithms are applied by the computer, but the appearance and expression of the user interface are not themselves a representation of "facts." SSI does not assert that there is only one way or a limited number of ways in which such tables may be or are usually set forth. Given the complexity of offshore design projects, it is hardly surprising that a number of other competing structural design programs exist in the market, and the trial court found them dissimilar to SACS. As a matter of law, the input formats and output reports do not embody only noncopyrightable "facts." 
+ 2. 
+Input Formats as a Template, Process or Method
+ Because the input data formats are organized in a particular fashion to effectuate the performance of mathematical calculations, SSI likens them to a template or tool used by the engineer. We assume this argument relies on 
+Baker v. Selden,
+101 U.S. 99
+, 
+25 L.Ed. 841
+ (1880), although SSI has not cited that seminal case. 
+Baker
+ rejected a claim of copyright on a method of bookkeeping described in a book. Moreover, the author's ledger sheets were held not copyrightable because they were necessary incidents to the idea or process embodied in the bookkeeping method. Like 
+Baker v. Selden,
+ whether one denominates the input formats in this case as a process or as expression "merged" with a process, the demarcation between their utilitarian and expressive aspects is difficult to draw. 
+Compare Altai,
+982 F.2d at 712
+; 
+Synercom,
+462 F. Supp. at 1013-14
+. 
+ The difficulty may best be illustrated by comparing this case with those concerning infringement of the Lotus 1-2-3 spreadsheet program. The Lotus program enables a user to create documents adapted to his particular needs in a framework that may be varied and that may utilize different types of information. As the district court held in 
+Lotus I,
+ the command format and sequence structure in an original word processing or computer spreadsheet should be copyrightable because as a whole, the interface's structure and hierarchy constitute a high degree of original 
+ expression. 
+See Lotus I,
+740 F. Supp. at 65-68
+. 
+ The SACS input cards, in contrast, perform only one, admittedly challenging task: they supply engineering data for offshore structures. The question is whether the utilitarian function of the input formats, which ultimately act like switches in the electrical circuits of the program, outweigh their expressive purpose so as to preclude copyright protection. On balance, we believe they do not. EDI's input formats as a whole convey substantial information regarding what data the user needs to gather and how they should be organized for the program to run properly. One of EDI's trial witnesses testified that the interface "imparts knowledge" by telling the user which data to collect as well as the order of collection. This alone does not necessarily mean that SACS imparts knowledge through protectible expression. But, generally, functional interfaces that directly teach or guide the user's independent decisions are more expressive than functional interfaces that lack these qualities. Although the degree of interaction may not be as high as that present in Lotus, overall, EDI has proved original expressive content in the selection, sequence and coordination of inputs. 
+ 3. 
+EDI's User Interface as a "Compilation" of "Facts"
+ SSI analogizes the copyrightability of the SACS input formats and output reports to the copyrightability of compilations as addressed in 
+Feist Publications, Inc. v. Rural Tel. Serv. Co., Inc.,
+499 U.S. 340
+, 
+111 S.Ct. 1282
+, 
+113 L.Ed.2d 358
+ (1991). That case discarded the "sweat-of-the-brow" doctrine for compilations in favor of an analysis focusing on the originality of the compiler's expression. "[C]opyright protects only the elements that owe their origin to the compiler &mdash; the selection, coordination, and arrangements of facts." 
+499 U.S. at 359
+, 
+111 S.Ct. at 1295
+. "No matter how original the format, however, the facts themselves do not become original through association. . . . This inevitably means that the copyright in a factual compilation is thin." 
+499 U.S. at 349
+, 
+111 S.Ct. at 1289
+. Focusing on 
+Feist
+'s test for originality, SSI argues that many of the SACS input formats derive directly from Synercom's STRAN program. Moreover, SSI posits, "data formats are data formats": organizing parameters and variables as a series of columns of engineering data amounts to a "garden variety arrangement" required in any structural analysis program and is similar to the unoriginal arrangement of names, addresses, and telephone numbers in a telephone directory. SSI concludes that the whole bundle of EDI's input formats and outputs reports is uncopyrightable. 
+ These arguments construe 
+Feist
+ both too broadly and too narrowly. Whether 
+Feist
+ should apply at all to the formats in question here is doubtful. As stated earlier, EDI's data cards do not consist of mere "facts," nor do they portray a "compilation" so much as a progressive demonstration of a particular engineering program. But to the extent that 
+Feist
+'s definition of originality applies here, it appears that EDI has selected data and arranged their placement in a way that is unique and original to SACS. 
+See Lotus Dev. Corp. v. Borland Int'l Inc.,
+831 F. Supp. 223, 231
+ (D.Mass. 1993) ( 
+Lotus V
+) (finding command menu interface copyrightable by comparing it to compilation: "The selection, arrangement, and manner of presentation in a compilation may provide the user with a 
+method
+ or systematic manner of accessing the (uncopyrightable) facts. Thus, copyright law protects only that part of a compilation that the reader actually 
+uses
+ for selection of facts that the reader wants to know"). The creativity inherent in EDI's program is proved by the existence by other, dissimilar structural engineering programs available in the market. The existence of creativity is reinforced by SSI's observation that StruCAD performs the same functions as SACS with significantly fewer input formats. 
+ 4. 
+User Formats as Dictated by Industry Standard
+ Based upon the nature of the offshore structural engineering marketplace, SSI contends, EDI had to use the same or similar formats to those it chose in order to provide a compatible, standardized and efficient product for its customers. In other 
+ words, 
+scenes a faire
+ dictated EDI's choice of input formats and output reports in the same way that the external requirements of the cotton market dictated the program in 
+Plains Cotton, supra,
+ leading to a rejection of copyright protection in that case.
+ Although the parties disagree over application of the doctrine in this case, neither side cites any evidence to support its position. On remand, the district court must consider whether or to what extent industry demand and practice in the offshore engineering market dictated the SACS IV input and output formats.
+ A programmer's freedom of design choice may be circumscribed by other extrinsic considerations such as the nature of the hardware on which the program will run, compatibility requirements of other programs, computer manufacturers' design standards, the demands of the industry being served, and widely accepted programming practices within the computer industry. 
+See Altai,
+982 F.2d at 709-10
+, 
+citing
+ 3 Nimmer &sect; 13.03[F][3], at 13-65-71. In 
+Lotus I,
+ for example, the court found that use of a rotated "L" screen display for spreadsheets, the use of a slash key to invoke a menu system, "Q" for quitting or exiting a system, and similar other common interfaces are not copyrightable because their use is unoriginal, nonexpressive, or thoroughly standardized. 
+See Lotus I,
+740 F. Supp. at 78
+. This opinion deals only with the externalities raised by SSI.
+ Filtration may well render many of EDI's output formats uncopyrightable. (Two examples of the parties' output reports are reproduced in the appendix.) The remarkable similarities in some of these formats may be due to the inherent qualities of the ideas expressed (merger) or compliance with industry standards ( 
+scenes a faire
+). For example, each program must identify individual structural members and the forces acting upon them in a manner easily understood by engineers. The district judge will determine on remand whether there are multiple ways to express these concepts consistent with industry practice.
+ This finding is only the first step, however, for anyone may copy uncopyrightable elements in a copyrighted work. SSI argues that many of EDI's cards are unoriginal and thus uncopyrightable. A close examination of the actual input formats is required to determine whether the allegedly infringed cards are copyrightable. Among the allegedly infringed cards, for instance, some may be so generic, 
+e.g.,
+ a "header" or an "end" card, that they lack that minimal degree of creativity required for copyright protection. If other cards for which EDI claims copyright protection almost wholly derive from the input formats developed by Synercom many years earlier, they would also lack the requisite originality.
+ It appears that nine cards (TITLE, AMOD, SECT, GRUP, JOINT, PERSET, LOADCN, LOAD, and LDCOMB) are virtually the same as those developed by Synercom. A few have very slight modifications from Synercom's cards. For example, the AMOD cards in SACS and StruCAD provide for three-digit load condition numbers while STRAN allowed for only two-digit entries. This sort of originality probably does not meet the minimal requirements demanded by copyright. Similarly, the addition of columns for commentary is not sufficient to imbue a recycled Synercom card with copyrightability.
+ Filtration has resulted in one area of potential unprotectibility that must be considered on remand, and that relates to the impact of the 
+scenes a faire
+ doctrine. SSI's other global objections to copyright protection for the input formats and output reports are ill-founded. 
+ C. 
+Comparison
+ After the district court completes the "filtration" of the user interface as described, it must then decide whether SSI's work is substantially similar to the copyrighted works. 
+See
+ n. 4 
+supra.
+ The district court never ruled on many of the factual issues governing substantial similarity because of its view that computer data formats are not copyrightable. 
+ To determine substantial similarity, the court should "focus on whether the defendant copied any aspect of this protected expression." 
+Altai,
+982 F.2d at 710
+. In this case, it is probably advisable for the court first to determine whether variations in the registered and copyrightable format cards adopted by StruCAD render the cards noninfringing elements of the larger work at the individual card level. Then the court may determine whether the subset of StruCAD cards that are individually substantially similar to their counterparts in SACS, are, taken together, so substantially similar to EDI's copyrighted work or a part thereof as to constitute infringement. While a determination of substantial similarity is, in the final 
+ analysis, a value judgment that resists the imposition of a rigid analytical framework, this only heightens the need for methodical analysis. The ultimate focus, in accordance with EDI's contention, should be on the input formats and output reports taken as a whole. 
+ Another proposition to bear in mind is that the scope of protection afforded by a copyright is not constant across all literary works. Infringement is far more likely to have occurred where a defendant has copied a memorable phrase from a short poem than where the defendant has copied an explanatory phrase from a voluminous textbook on biochemistry, because the law is more protective of highly original and highly expressive works than it is of functional and nonfiction works. This distinction is recognized in 
+Feist,
+ where, because the allegedly infringed work was a collection of facts, the Court noted that any copyright was "thin." 
+499 U.S. at 349
+, 
+111 S.Ct. at 1289
+. The same cautious approach to protection is appropriate for computer user interfaces. To the extent that they are highly functional, or, like the output formats in this case, to the extent that they contain highly standardized technical information, they may lie very near the line of uncopyrightability.
+ As mentioned earlier, some cases may require courts to vary the abstraction-filtration-comparison test to accommodate particular facts. We do not find it necessary to do so, but by way of illustration, our interface copyrightability analysis in this case has focused on three inquiries. First, whether the interface is simply a blank form that fails to convey expression to the user. Second, whether the interface is sufficiently user-directed and interactive. Third, analogous to a compilation, whether the interface provides original expression through the selection, sequence, and organization of information provided to and collected from the user. In this case all of these requisites were met. After applying other more standard "copyrightability filters," such as 
+scenes a faire,
+ the district court will determine whether the thin copyright EDI may enjoy has been infringed.
+ This relatively narrow scope of copyright protection has been adopted by several courts. In 
+Lotus Dev. Corp. v. Borland Int'l, Inc.,
+831 F. Supp. 202, 209
+ (D.Mass. 1993) ( 
+Lotus IV
+), Judge Keeton referred to the scope of copyright protection as a sliding scale that changes with the availability of expressions for a given idea, and he impliedly accorded computer interfaces only a narrow protection. Noting that the menu commands and menu structure of the computer spreadsheet program in that case were highly functional, Judge Keeton emphasized that the defendant had infringed by copying verbatim Lotus's entire command menu hierarchy despite the availability of many different command structures to perform the same functions. 
+See also Apple Computer, Inc. v. Microsoft Corp.,
+799 F. Supp. 1006, 1021
+ (N.D.Cal. 1992) (determining scope of infringement for user interface: "[I]f technical or conceptual constraints limit the available ways to express an idea . . . copyright law will abhor only a virtually identical copy of the original."); 
+Atari Games Corp. v. Nintendo of America, Inc.,
+975 F.2d 832, 840
+ (Fed. Cir. 1992) (determining infringement of nonliteral elements of computer program: "Even for works warranting little copyright protection, verbatim copying is infringement."); 
+Digital Communications Assocs., Inc. v. Softklone Distrib. Corp.,
+659 F. Supp. 449
+ (N.D.Ga. 1987) (finding infringement in a computer program's status screen which was "virtually identical" with the plaintiff's); 
+Harcourt Brace World, Inc. v. Graphic Controls Corp.,
+329 F. Supp. 517, 525
+ (S.D.N.Y. 1971) (according narrow scope of protection to answer sheet designed to be optically scanned by computers); 3 Nimmer, &sect; 13.03[B][2][b] ("If the only original aspect of a work lies in its literal expression, then only a very close similarity, verging on the identical, will suffice to constitute an infringing copy.") (citing cases). 
+ III. INFRINGEMENT OF USER MANUALS
+ The district court found that the StruCAD manual infringed EDI's copyright in its user manuals. This finding was based entirely on text, pictures, diagrams, illustrated examples, and flow charts depicted in the manuals, but not the input and output formats. 
+785 F. Supp. at 583
+. After these findings were entered, SSI revised its manual, but the parties could not agree as to whether this new manual infringed. The district 
+ judge referred the matter to a special master under 
+Fed.R.Civ.Proc. 53
+. The special master issued findings and conclusions of law in a report in which it determined that SSI's new manual did not infringe. The district judge adopted the special master's report the same day it was filed. 
+ EDI argues that the findings of the special master, to the extent they were adopted by the district court, were clearly erroneous. In addition to procedural objections, discussed below, EDI insists that SSI's revised manual contains many examples of allegedly infringing material from the old manual which the district court had held to be infringing. 
+ One example EDI emphasizes in particular is SSI's repeated use of a table of default values of certain engineering constants admittedly taken from EDI's copyrighted manuals. These constants (specifically, drag and mass coefficients for structural members) were allegedly researched and compiled by EDI as part of its efforts to accurately represent these forces in its computer program. They are not copyrightable, however, because they are facts, despite the fact that EDI may have discovered them through great expenditure of time or labor. 
+See Feist,
+499 U.S. at 347
+, 
+111 S.Ct. at 1288
+; 
+Gates Rubber,
+9 F.3d at 842-43
+ (mathematical constants used in computer program uncopyrightable). 
+ If the district court decides on remand that StruCAD's input formats infringe EDI's formats, the court must then reexamine the StruCAD manual after SSI revises it to avoid infringement. The district judge's rulings on other portions of SSI's manual seem somewhat contradictory, for EDI offers considerable evidence that SSI's revised manual incorporates many of the objectionable features that the district court found infringing in its first opinion. Nevertheless, it is unnecessary to review the revised SSI manual until it has been reconsidered on remand. 
+ IV. INFRINGEMENT RELATING TO HELP SCREENS
+ The parties did not thoroughly brief this issue on appeal. It is evident, however, that SSI's help screens are not substantially similar to EDI's copyrighted works. Although in many cases StruCAD's help screens convey the same ideas and information as EDI's user manuals, there is little verbatim copying of text. Naturally, many of EDI's objections to StruCAD's help screens are grounded in its objections to StruCAD's re-creation of its input formats, to which the help screens usually refer. The final infringement determination relating to the help screens must therefore depend upon the court's evaluation of the input formats on remand. 
+ V. OBJECTIONS TO SPECIAL MASTER'S REPORT AND PROCEDURES
+ Because of the remand, we need not discuss in detail EDI's objections to the special master's report and procedure. Should the district court decide to refer any questions on remand to a special master under Rule 53, it must allow the parties ten days to file objections to the master's report before rendering its decision. This procedure was overlooked before. It is also unclear whether the master strictly complied with the court's order of reference and whether the master would have been well advised to offer the parties a hearing, as 
+Fed. Rule Civ.Proc. 53(d)
+ provides. 
+ VI. LIABILITY OF GUNTUR IN HIS INDIVIDUAL CAPACITY
+ EDI claims that the district court erred in dismissing the claims against Rao Guntur in his individual capacity. Although both Guntur and SSI were named as defendants, the district court entered judgment against SSI alone and dismissed the personal claims against Guntur because EDI had presented insufficient justification for "pierc[ing] the corporate veil." 
+785 F. Supp. at 585
+. This holding was erroneous. EDI was not seeking recovery against Guntur in his capacity as the principal owner of SSI, but against Guntur as the individual who first infringed EDI's copyright. Guntur was not acting at the direction of another but initiated the copying for direct personal gain. As this court has recognized in the context of trademark infringement, requiring a piercing of the corporate veil to hold individuals liable 
+ would be putting the cart before the horse. 
+Mead Johnson Co. v. Baby's Formula Service, Inc.,
+402 F.2d 19, 23
+ (5th Cir. 1968) ("the fact that the persons thus acting are acting for a corporation also, of course, may make the corporation liable under the doctrine of respondent superior. It does not relieve the individuals of their responsibility,"). On remand, the district court must apportion damages between Guntur and SSI. 
+ VII. TRADE DRESS AND UNFAIR COMPETITION CLAIMS
+ EDI argues that the district court erred in rejecting EDI's claim that SSI violated section 43(a) of the Lanham Act, 
+15 U.S.C. &sect; 1125(a)
+, by infringing the trade dress of SACS. Trade dress refers to the image and overall appearance of a product. 
+Allied Marketing Group, Inc. v. CDL Marketing, Inc.,
+878 F.2d 806, 812
+ (5th Cir. 1989). The Lanham Act prohibits passing off goods or services as those of a competitor by employing substantially similar trade dress which is likely to confuse consumers as to the sources of the product. 
+Blue Bell Bio-Medical v. Cin-Bad, Inc.,
+864 F.2d 1253, 1256
+ (5th Cir. 1989). In this circuit, there are two elements of a trade dress infringement claim. First, the trade dress of a product may be protected as an unregistered trademark if it is nonfunctional, distinctive, and has acquired a secondary meaning. Second, a finding of infringement requires a consideration of the likelihood of confusion. 
+Taco Cabana International, Inc. v. Two Pesos, Inc.,
+932 F.2d 1113, 1117-18
+ (5th Cir. 1991), 
+aff'd,
+___ U.S. ___
+, 
+112 S.Ct. 2753
+, 
+120 L.Ed.2d 615
+ (1992). This court will reverse these relevant findings of fact only upon a showing of clear error. 
+Marathon Mfg. Co. v. Enerlite Products Corp.,
+767 F.2d 214
+ (5th Cir. 1985). 
+ The district court's rejection of EDI's trade dress claim was based on the second stage of the test through its finding that there was no likelihood of confusion between the two programs.
+ We find no clear error in the district court's holding that there was little likelihood of confusion among the relevant users of the computer programs at issue. Testimony at trial established that both products were targeted at a fairly limited and sophisticated market. Moreover, the printed pages of both parties' reports clearly identify the vendor as EDI or SSI. No witness testified to an instance of actual confusion between the products. Finally, the Lanham Act is grounded in a belief that competitors should not pass off their products as another's. Witnesses testified that SSI explicitly differentiated its product from SACS in its marketing efforts. Furthermore, these programs' trade dress is largely irrelevant when sophisticated users decide which program to purchase. We have no trouble affirming the district court's finding that there was no likelihood of confusion.  
+ It is an interesting question, unnecessary to reach here, whether computer input formats and output reports involving highly technical factual reports of engineering data are so inherently functional as not to be protectible. 
+Cf. Computer Care v. Service Systems Enterprises, Inc.,
+982 F.2d 1063
+ (7th Cir. 1992) (finding trade dress violation in copied format of highly expressive computer form letters dealing with automobile repair business).
+ The same likelihood of confusion standard used for the Lanham Act also applies to Louisiana's unfair competition statute. 
+Louisiana World Exposition, Inc. v. Logue,
+ 221 U.S.P.Q. 589, 594, 1983 WL 224 (E.D.La. 1983). We therefore find no error in the district court's rejection of EDI's state law claim of unfair competition under La.Rev. Stat. &sect; 51:1405(A). 
+ VIII. DAMAGES
+ The final issue is whether the district court erred in awarding EDI $250,000 in damages for copyright infringement. With the following observations, this issue will be revisited on remand. EDI argues that the district court placed too much emphasis on the fact that SSI was first to market, apparently by several months, a program which was designed for a personal computer. EDI asserts that the district court used this factor to reduce EDI's damages from the $1.9 million it claimed it lost in profits over the years 1986 to 1990 to only $250,000. We agree that several months delay in bringing a PC version of SACS to market was not sufficient 
+ reason to reduce damages from nearly $2 million to $250,000. It is not clear, however, that the district court relied on this factor alone in reducing damages to the extent it did. The district court also cited 
+Fitzgerald Pub. Co. v. Baylor Pub. Co.,
+807 F.2d 1110, 1118
+ (2d Cir. 1986), which held that actual damages should reflect the extent to which the market value of the copyrighted work at the time of the infringement has been injured or destroyed by the infringement. The court also indicated at one point that the extent of copying might not justify fully compensating the copyright owners. The district court may have determined that some of the decline in EDI's profits was unrelated to SSI's entry to the market or that SSI only engaged in minimal copying. This would be a permissible finding; whether it was supported by the record we need not decide. 
+ CONCLUSION
+ The district court erred in concluding that EDI's input formats and output reports, taken as a whole, may not qualify for copyright protection. We must therefore 
+REVERSE
+ the district court's holding that computer/user interfaces in the form of input and output formats are uncopyrightable. We also 
+REVERSE
+ its holding that Guntur is not personally liable. We 
+REMAND
+ to determine whether the existence of industry standards precludes copyright protection and whether there was infringement of the user interfaces. On remand the district court must also reexamine infringement of EDI's user manuals and help screens and apportion damages between SSI and Guntur. We 
+AFFIRM
+ the court's other rulings. 
+AFFIRMED
+ in part, 
+REVERSED
+ in part and 
+REMANDED.
+Summaries of
+Engineering Dynamics v. Structural Software
+United States Court of Appeals, Fifth Circuit
+Jul 13, 1994
+26 F.3d 1335 (5th Cir. 1994)
+holding that a computer program that simulated engineering problems was original because its algorithm differed from its competitors’ algorithm that achieved the same output
+Summary of this case from&#x20;
+S. Credentialing Support Servs., L.L.C. v. Hammond Surgical Hosp., L.L.C.
+holding that computer user interfaces, including the output formats, are "highly functional, or . . . to the extent that they contain highly standardized technical information" deserve thin protection
+Summary of this case from&#x20;
+Cisco Systems, Inc. v. Arista Networks, Inc.
+holding input and output formats may be protectable
+Summary of this case from&#x20;
+Harbor Software, Inc. v. Applied Systems
+holding that nonliteral elements "such as the program architecture, `structure, sequence and organization,' operational modules, and computer-user interface" may be protectable
+Summary of this case from&#x20;
+Harbor Software, Inc. v. Applied Systems
+finding computer input formats copyrightable
+Summary of this case from&#x20;
+Interactive Network, Inc. v. NTN Communications, Inc.
+upholding the district court's reliance on the sophistication of the consumers, the prominence of the labeling, and the lack of actual confusion to support a holding of no likelihood of confusion
+Summary of this case from&#x20;
+Compaq Computer Corp. v. Procom Technology
+adopting Altai's segmentation method
+Summary of this case from&#x20;
+Ilog, Inc. v. Bell Logic, LLC
+reversing the district court's holding that computer/user interfaces in the forms of input and output formats are per se not copyrightable and remanding to determine if industry standards, as applied here, precluded sufficient originality
+Summary of this case from&#x20;
+Honeywell Int'l, Inc. v. W. Support Grp., Inc.
+noting that the goal of the comparison step is to “determine whether the defendants have misappropriated substantial elements of the plaintiff's” work (citing Gates Rubber, 9 F.3d at 834 )
+Summary of this case from&#x20;
+Nola Spice Designs, L. L.C. v. Haydel Enters., Inc.
+reasoning that two "components underlie proof of actionable copying" and that these components are "whether the alleged infringer actually used the copyrighted material" and "whether there is substantial similarity"
+Summary of this case from&#x20;
+Sater Design Collection, Inc. v. Waccamaw Construction
+endorsing the removal of non-protectable content from a computer program prior to conducting the substantial similarity evaluation
+Summary of this case from&#x20;
+Mills v. Ayala
+applying the abstraction-filtration-comparison method of determining copyright protection for computer programs
+Summary of this case from&#x20;
+CHM Industries, Inc. v. Structural Steel Prod.
+noting aspects of a work dictated by industry standard are not protected
+Summary of this case from&#x20;
+CHM Industries, Inc. v. Structural Steel Prod.
+applying Feist to a non-compilation infringement case involving a computer software program and finding that the plaintiff had "selected data and arranged their placement in a way that is unique and original"
+Summary of this case from&#x20;
+Compaq Computer Corporation v. Ergonome Inc.
+Case details for
+Engineering Dynamics v. Structural Software
+Case Details
+Full title:
+ENGINEERING DYNAMICS, INC., PLAINTIFF-APPELLANT-CROSS-APPELLEE, v…
+Court:
+United States Court of Appeals, Fifth Circuit
+Date published:&#x20;
+Jul 13, 1994
+Citations
+Copy Citation
+26 F.3d 1335 (5th Cir. 1994)
+Citing Cases
+Ready Productions, Inc. v. Cantrell
+" Norma Ribbon, 51 F.3d at 47. The principle of originality mandates that objective "facts" and scientific…
+SAS Inst. Inc. v. World Programming Ltd.
+Finding that resolving copyrightability within the limited framework of Federal Rule of Civil Procedure 56…
+128&#x20;
+Citing Cases
+Make your practice more effective and efficient with Casetext’s legal research suite.
+Get a Demo
+Casetext research
+Parallel Search
+Compose
+Pricing
+Switch
+Big firm
+Coverage
+SmartCite
+Public records
+ search
+Partnerships and Resources
+Law school
+ access
+Bar associations
+About us
+Jobs
+Blog
+Podcast
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+Privacy
+Terms
+© 2021 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.

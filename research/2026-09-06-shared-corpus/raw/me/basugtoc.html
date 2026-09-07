@@ -1,0 +1,119 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en"><html>
+
+ <head>
+ <meta name="MonocodingType" content="2">
+ <meta name="MonocodingFlag" content="C2D2E2L2O2">
+ <meta http-equiv="Content-Language" content="en-us">
+ <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+ <meta name="ProgId" content="FrontPage.Editor.Document">
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+ <title>About Object Linking and Embedding (OLE)</title>
+ <link rel="stylesheet" type="text/css" href="../icons_C2/dsdoc.css">
+ <meta name="Microsoft Border" content="none, default">
+<script type="text/javascript" src="/analytics.js"></script></head>
+
+ <body>
+
+ <h1 align="center">About Object Linking and Embedding (OLE)</h1>
+ <center>
+ <table Border="0" CELLSPACING="0" valign="top" width="100%" height="681">
+   <tr valign="top" BORDER="0">
+     <td valign="top" height="237">
+     <p align="center">&nbsp;</td>
+     <td rowspan="1" height="237">Certain applications (e.g. Microsoft Office) 
+     support what is known as Object Linking and Embedding (OLE). Such 
+     applications, referred to as OLE-compliant or OLE container applications, 
+     allow you to retrieve a Version 5 document i.e. a part, a drawing or an 
+     assembly (referred to, in an OLE context, as the OLE document server).<p>
+     You can either <strong>link</strong> or <strong>embed</strong> the contents 
+     of the geometry area of a Version 5 document:</p>
+     <ul>
+       <li>Linking the document means that <strong>all</strong> changes made to 
+       it in a Version 5 session are <strong>also</strong> made to the document 
+       inserted in the OLE-compliant application.<br>
+       However, if you move the target file to another directory the link is 
+       severed. The graphic representation still exists but can no longer be 
+       edited (unless the link is repaired via the <kbd>Edit &gt; Links</kbd> menu in 
+       the OLE-compliant application).</li>
+       <li>Embedding the document means that a copy of the document is inserted 
+       in the document within the OLE-compliant application. As no links are 
+       created, any changes made to the document in the Version 5 session are
+       <strong>not</strong> made to the document in the OLE-compliant 
+       application.</li>
+     </ul>
+     <p>The linked or embedded document appears as an image (or, if you specify 
+     otherwise, as an icon). When the document is double-clicked, a normal 
+     Version 5 session is displayed.</td>
+   </tr>
+   <tr valign="top" BORDER="0">
+     <td valign="top" height="51">
+     &nbsp;</td>
+     <td height="51">
+     <div align="left">
+       <table border="0" cellpadding="0" style="border-collapse: collapse" id="table1" width="277" height="33">
+         <tr>
+           <td bgcolor="#E0E0E0">
+     <img src="../icons_C2/common/awarning.gif" width="32" height="32"></td>
+           <td bgcolor="#E0E0E0">OLE is available on Windows only.&nbsp;</td>
+         </tr>
+       </table>
+     </div>
+     </td>
+   </tr>
+   <tr valign="top" BORDER="0">
+     <td valign="top" height="88"></td>
+     <td rowspan="1" height="88">Version 5 documents may be linked or embedded 
+     in host container documents. Linking is always allowed. Embedding is 
+     forbidden in demo mode. Embedding of CATIA V4 models is also forbidden.<p>
+     Only .CATPart, .CATProduct, .CATDrawing, .CATAnalysis and .model documents 
+     implement OLE document server.</td>
+   </tr>
+   <tr valign="top" BORDER="0">
+     <td valign="top" height="319">
+     &nbsp;</td>
+     <td rowspan="1" height="319">Version 5 supports the Microsoft /regserver 
+     and /unregserver options for OLE. If you experience problems with OLE 
+     features, for example, if double-clicking a document icon does not start a 
+     session as expected:<br>
+     <ol class="task">
+       <li>
+       <p class="task">Log on as administrator.</li>
+       <li>
+       <p class="task">Open a command prompt window.</li>
+       <li>
+       <p class="task">Go to the folder where Version 5 is installed, typically:</p>
+       <div align="left">
+         <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber1">
+           <tr>
+             <td><code>C:&#092;Program 
+             Files&#092;DassaultSystemes&#092;Bn&#092;intel_a&#092;code&#092;bin</code><p>
+             (where <code>n</code> is the current release number)</td>
+           </tr>
+         </table>
+       </div>
+       </li>
+       <li value="4">
+       <p class="task">Run the following command once only:</p>
+       <div align="left">
+         <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber2">
+           <tr>
+             <td><code>cnext 
+             /regserver <br>
+          <br>
+          </code>
+             </td>
+           </tr>
+         </table>
+       </div>
+       </li>
+     </ol>
+     <p>If you have installed several levels of Version 5, running this command 
+     activates (for OLE purposes) the level of Version 5 installed in the folder 
+     in which you run the command.</td>
+   </tr>
+ </table>
+ </center>
+
+ </body>
+
+</html>

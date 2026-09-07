@@ -1,0 +1,201 @@
+
+ Sony Computer Entertainment America, Inc., a Delaware Corporation, Plaintiff-appellee, v. Bleem, Llc, Defendant-appellant, and David Herpolsheimer; Jaime Felix, Defendants, 214 F.3d 1022 (9th Cir. 2000) :: Justia
+Log In
+Sign Up
+Find a Lawyer
+Ask a Lawyer 
+Research the Law
+Law Schools
+Laws & Regs
+Newsletters
+Legal Marketing
+Justia
+ &rsaquo; 
+U.S. Law
+ &rsaquo; 
+Case Law
+ &rsaquo; 
+Federal Courts
+ &rsaquo; 
+Courts of Appeals
+ &rsaquo; 
+Ninth Circuit
+ &rsaquo; 
+2000
+ &rsaquo; 
+					Sony Computer Entertainment America, Inc., a Delaware Corporation, Plaintiff-appellee, v. Bleem, Llc...
+Sony Computer Entertainment America, Inc., a Delaware Corporation, Plaintiff-appellee, v. Bleem, Llc, Defendant-appellant, and David Herpolsheimer; Jaime Felix, Defendants, 214 F.3d 1022 (9th Cir. 2000)
+Annotate this Case
+					U.S. Court of Appeals for the Ninth Circuit
+											- 214 F.3d 1022 (9th Cir. 2000)
+Argued and Submitted February 14, 2000--Stanford, CaliforniaFiled May 4, 2000As Amended on Denial of Rehearing and Rehearing En Banc July 10, 2000*
+Jonathan Hangartner (argued), Del Mar, California; Edward I. Silverman, Procopio, Cory, Hargreaves & Savitch, San Diego, California, for the defendant-appellant.
+James G. Gilliland (argued), Jennifer Y. Liu, Townsend & Townsend & Crew; Scott D. Baker, Ezra Hendon, Crosby Heafey Roach & May, San Francisco, California; Riley R. Russell, Sony Computer Entertainment America, Foster City, California, for the plaintiff-appellee.
+Appeal from the United States District Court for the Northern District of California D.C. No. CV-99-01590-CAL
+Before: Diarmuid F. O'Scannlain, Edward Leavy, and Pamela Ann Rymer, Circuit Judges.
+OPINION
+O'SCANNLAIN, Circuit Judge:
+We must decide whether the unauthorized use of a "screen shot" -a frozen image from a personal video game -falls within the fair use exception to the law of copyright.
+* Personal video games come in two basic varieties: console games and PC games. Console games are played by loading a game disk into a console, which is connected to the user's television. PC games are played by loading a game disk into the CD drive of a personal computer. Sony Computer Entertainment America, Inc., ("Sony") manufactures both consoles -the highly popular Sony PlayStation -and their game disks. Sony PlayStation game disks are engineered such that they cannot by played on a PC.
+Bleem, LLC ("Bleem"), has developed a product, called a "software emulator," that allows one to cross the divide between console games and PC games. By using Bleem's software, one can now play a Sony PlayStation game on a personal computer. This development has two consequences: first, one need not buy a PlayStation console in order to enjoy Sony PlayStation games; second, the quality of the games' graphics may be greater because a computer screen is capable of greater resolution than a television screen. Bleem's product therefore allows it to tap into the two segments of video game players. For those enthusiastic video game players who do not want to pay for a PlayStation console, they can avoid having to do so by paying a smaller sum for the Bleem software. For those afficionados who have already purchased a Sony PlayStation console, the new Bleem software allows them to enjoy their games even more by playing them on a computer, which is capable of producing higher resolution graphics than a television. The graphics are a large component of any video game, such that games with better graphics -and products that enhance the quality of graphics -are highly prized in the market.
+The video game market is enormous and lucrative, and Sony, with its PlayStation console and games, is a market leader, having sold more than 60 million consoles and 460 million video game disks worldwide. Emulators, such as that produced by Bleem, may not adversely affect the sales of Sony game disks -in fact, they may help them -but emulators very likely will reduce the sales of consoles.
+The Bleem emulator was developed by Randy Linden who, together with David Herpolsheimer, comprise the entire staff of Bleem. Linden developed PC software that effectively emulates the function performed by Sony's hardware console through a process of reverse-engineering the components in the console. He devised a computer program to perform these same functions on a personal computer. The legality of the emulator is not at issue in this lawsuit.
+The issue in this appeal is the validity of the method by which Bleem is advertising its product. In various advertising media, Bleem has included comparative "screen shots" of Sony PlayStation games. The shots show what the game looks like when played with a Sony console on a television screen, what it looks like when played with Bleem's emulator on a computer screen, and also at times what it looks like when played with Bleem's emulator and speed-enhancing hardware (called a graphics card) on a computer screen. A video game screen shot is a small image depicting the computer or television screen in a frozen moment during the playing of the video game. The cinematic equivalent of a screen shot would be a depiction of one single frame from a movie.
+Screen shots are ubiquitous in the packaging of video games because they convey to the purchaser exactly what the game will look like on a screen when it is played. This slice of verisimilitude is important because the majority of the packaging of most typical video games is ornate artwork that evokes the spirit of the game, if not necessarily the visual truth of it. For instance, a video game such as Gran Turismo -Sony's best-selling, racing car game -might come packaged in a box featuring an almost photographic reproduction of a racing car in action. Since graphics in video games are good, but not that good, however, Sony also places a few screen shots on the packaging to show what the game actually does look like. Similarly, magazines that cover the video game industry routinely include screen shots to illustrate the games they review and discuss.
+The veracity of the screen shots is not at issue in this appeal. Sony has not alleged that Bleem's depictions of the games played in different ways are inaccurate or misleading; it simply contends that Bleem may not use those screen shots because they are Sony's copyrighted material.
+As one might imagine, screen shots for console games are regularly generated by freezing a game in mid-action and "grabbing" the image as it is displayed on the television. Screen shots can also be generated by grabbing the image as the game is played on a computer, but then adjusting the resolution downward to approximate the inferior resolution of a television screen. The first method involves a greater degree of verisimilitude to the claim that the screen shot represents what the game in fact looks like when played with a PlayStation console. The second method, however, is technologically easier.
+Sony sued Bleem for a number of intellectual property violations. The only issue on appeal, however, is whether Bleem's unauthorized use of Sony PlayStation game screen shots in its advertising was a violation of Sony's copyright. The district court ruled in favor of Sony, entering a preliminary injunction against Bleem. Bleem filed a timely appeal.
+II
+A plaintiff is entitled to a preliminary injunction when it "demonstrates either (1) a combination of probable success on the merits and the possibility of irreparable injury or (2) the existence of serious questions going to the merits and that the balance of hardships tips sharply in [its] favor." GoTo.com, Inc. v. The Walt Disney Co., 202 F.3d 1199, 1204 (9th Cir. 2000). This Court may reverse the grant of a preliminary injunction "only when `the district court abused its discretion or based its decision on an erroneous legal standard or on clearly erroneous findings of fact.' " Sony Computer Entertainment, Inc. v. Connectix Corp., 203 F.3d 596, 602 (quoting Roe v. Anderson, 134 F.3d 1400, 1402 n.1 (9th Cir. 1998)).
+Bleem admits that it copied Sony's copyrighted games to create screen shots for its advertising but contends that doing so was protected as a fair use under 17 U.S.C. S 107.
+III
+Justice Story introduced the concept of an exception to the law of copyright for fair uses in 1841. See Folsom v. March, 9 F. Cas. 342 (C.C.D. Mass. 1841). Distilling the common law from earlier cases, he provided that courts should:
+look to the nature and objects of the selections made, the quantity and value of the materials used, and the degree in which the use may prejudice the sale, or diminish the profits, or supersede the objects, of the original work.
+Id. at 348. Expressed as such, fair use continued as exclusively a judge-made doctrine until the enactment of the 1976 Copyright Act, in which Justice Story's words were codified:Notwithstanding the provisions of section 106, the fair use of a copyrighted work, including such use by reproduction in copies or phono-records or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copy right. In determining whether the use made of a work in any particular case is a fair use the factors to be considered shall include --
+(a) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+(b) the nature of the copyrighted work;
+(c) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
+(d) the effect of the use upon the potential market for or value of the copyrighted work.
+17 U.S.C. S 107. The fair use doctrine thus "permits [and requires] courts to avoid rigid application of the copyright statute when, on occasion, it would stifle the very creativity which that law is designed to foster." Campbell v. Acuff-Rose Music, Inc., 
+510 U.S. 569
+, 577 (1994) (quoting Stewart v. Abend, 
+495 U.S. 207
+, 236 (1990)). The process of applying these fair use factors to the facts of any particular scenario calls for case-by-case analysis, and the "task is not to be simplified with bright-line rules." Id. The four factors are to be considered together in light of the purposes of copyright, not in isolation. See id.
+In this analysis, the commercial use of copyrighted material is not presumptively unfair; rather, commercial use is but one of four factors that we must weigh. The Supreme Court expressly rejected the irrebutability of the presumption against fair use in commercial contexts in Campbell when the Court flatly reversed the Sixth Circuit for making just such a presumption. 510 U.S. at 590--91. The Court emphasized that, although the fourth factor may be the most important, all factors must be considered, and the commercial nature of the copies is just one element in the broader calculus. See id.
+We reiterated that position in our Connectix decision, reversing the district court for, inter alia, applying such an erroneous legal standard. The district court held that Connectix's commercial purpose in copying Sony's software gave rise to a "presumption of unfairness . . . that can be rebutted by the characteristics of a particular commercial use." 203 F.3d  at 606. We rejected this rule, noting the Campbell decision, and asserting that the commercial purpose of the copying is "only a separate factor." Id. (quoting Campbell, 510 U.S. at 585) (internal quotation marks omitted).
+We must therefore examine each of the S 107 factors to evaluate Bleem's fair use defense.
+* The fact that Bleem copied Sony's copyrighted material for commercial purposes is an element of both the firstS 107 factor and the fourth. As to this factor, Bleem used screen shots for Sony games on its advertising to provide a comparison between what the games look like when played with a Sony PlayStation console and what they look like when played with Bleem's emulator on a personal computer. We conclude that Bleem's use of the screen shots constitutes comparative advertising.
+This question of whether the two companies compete is an important consideration because, with respect to the first factor, interpreting the copying as comparative advertising is more likely to lead to a conclusion of fair use; but, with respect to the fourth factor, determining that the copying will have a detrimental impact on the copyright holder's profits is less likely to lead to a conclusion of fair use. These issues thus cut against one another, which forces advocates into awkward argumentative corners. Bleem, for instance, insists that the two companies do not compete with respect to any impact on profits but that they can be comparatively advertised. Similarly, Sony argues that of course Bleem's product will harm its sales, but that it is not a competitor, so it should not therefore be allowed the benefit of comparative advertising.
+What is manifestly clear, however, is that the Bleem emulator does compete directly with the Sony PlayStation console. In order to play a Sony video game, one can choose to purchase either a PlayStation console (assuming one has a television) or the Bleem emulator (assuming one has a personal computer). Thus, the greater Bleem's sales, the less likely people will buy Sony's consoles. Of course, people can buy both, if they prefer to play their games on a large format (televisions typically have much larger screens than computers) and if they prefer better graphics (computer screens typically have much greater resolution than televisions). Of course, to the extent Bleem's software affects sales of Sony games, it will only do so beneficially, since a greater universe of people will now be able to play them. Nevertheless, Bleem's software competes with Sony's consoles with respect to both comparative advertising under the first factor and profits under the fourth.
+We have not decided, apparently, any cases on the issue of comparative advertising after the codification of the fair use doctrine, but the Fifth Circuit has. The leading case involved a television commercial in which the Miami Herald displayed a cover of the copyrighted magazine, TV Guide, for the purposes of comparing it to its own analogous publication. See Triangle Publications, Inc. v. Knight-Ridder Newspapers, Inc., 626 F.2d 1171 (5th Cir. 1980). The Fifth Circuit noted that the cover of TV Guide was clearly copyrighted and the Herald had just as clearly reproduced it for a commercial purpose: to sell its own product. The court nevertheless found, after a S 107 analysis, that the reproduction was a fair use. See id. at 1178. With respect to the first factor, the Fifth Circuit noted the public benefit of comparative advertising as a means of providing more information to the public and concluded that this factor weighed in the defendant's favor. See id. at 1175--76.
+The Federal Trade Commission has also noted the social utility of comparative advertising:
+Comparative advertising, when truthful and non deceptive, is a source of important information to consumers and assists them in making rational pur chase decisions. Comparative advertising encourages product improvement and innovation, and can lead to lower prices in the marketplace.
+16 C.F.R. S 14.15(c) (1980). Sony does not contend that Bleem's screen shots are untruthful or deceptive. In fact, Bleem's comparative advertising has the potential to accomplish all the goals espoused by the FTC. First, by seeing how the games' graphics look on a television when played on a console as compared to how they look on a computer screen when played with Bleem's emulator, consumers will be most able to make "rational purchase decisions." Sony argues that Bleem can advertise without the screen shots, which is certainly true, but no other way will allow for the clearest consumer decision-making. Indeed, Bleem's advertising in this fashion will almost certainly lead to product improvements as Sony responds to this competitive threat and as other emulator producers strive for even better performance.
+The first factor, considered in light of the animating principles of the copyright regime, weighs in Bleem's favor. Although Bleem is most certainly copying Sony's copyrighted material for the commercial purposes of increasing its own sales, such comparative advertising redounds greatly to the purchasing public's benefit with very little corresponding loss to the integrity of Sony's copyrighted material.
+The second factor under S 107 is the nature of the copyrighted work. This factor is of most relevance to the fair use analysis when the original material and the copy are of a different nature. For instance, "if the copyrighted work is out of print and cannot be purchased, a user may be more likely to prevail on a fair use defense." Triangle Publications, 626 F.2d  at 1176 n.14. On the other hand, if the copyrighted material is unpublished and creative while the copy is a commercial publication, courts would be less receptive to the defense of fair use. See Micro Star v. Formgen Inc., 154 F.3d 1107, 1113 (9th Cir. 1998) (noting distinctions with respect to publication and creativity); Wright v. Warner Books, Inc., 953 F.2d 731, 737 (2d Cir. 1991). In this case, the copyrighted work and the copies are both commercial video game products; although the copyrighted work is creative in nature generally, a screen shot is not necessarily. A screen shot is merely an inanimate sliver of the game.
+The Supreme Court has passed over this factor without giving it much attention, stating that it is often "not much help." Campbell, 510 U.S.  at 586. In this Court, too, we have spent very little energy parsing it in video game cases such as Micro Star, 154 F.3d at 1111--12; in Connectix, the panel explored the factor and found against Sony since Connectix could not create its emulator without necessarily making some copies of the Sony material. 203 F.3d at 604--05. Just as the Fifth Circuit concluded in Triangle Publications, in this appeal this factor "neither supports nor hurts [defendant's] claim that a fair use defense is appropriate here. " 626 F.2d  at 1176.
+C
+Clearly, the greater the degree of copying involved and the closer those copies are to the essence of the copyrighted work, the less likely the copying is a fair use. To evaluate this factor with respect to screen shots, some more technical detail may be helpful. Video games, much like motion pictures, create the illusion of movement by displaying in rapid succession a series of still pictures with incremental differences. Film is projected at 24 frames per second; video is projected at 30 frames per second. A screen shot is therefore 1/30th of a second's worth of the video game. Temporally, therefore, there can be no doubt that a screen shot is a small amount of a video game. Inasmuch as these games involve plots that can be controlled interactively by the player and may elapse over several hours, it also seems true that a screen shot is of little substance to the overall copyrighted work. See Harper & Row, Publishers, Inc. v. Nation Enterprises, 
+471 U.S. 539
+, 565 (1985).
+Sony contends that we have previously concluded, in Micro Star, that video game screen shots are worthy of protection. Micro Star makes no such proclamation. In Micro Star, a company manufactured a game in which players proceed through successive levels, gaining promotion to each new level as they succeed. 154 F.3d  at 1107. Players can also create their own levels, and many did, posting them on a web site for the benefit of other players. A second company downloaded 300 of those saved levels and sold them on a separate disk. See id. We held that these disks, packaged in boxes that happened to contain screen shots, constituted a copyright infringement since they were derivative works of the original game. See id. at 1114. Although we stated somewhat broadly that "we affirm the grant of the preliminary injunction barring Micro Star from selling [the disks] in boxes covered with screen shots of the game," we never discussed the issue of screen shots in our opinion. Id. This appeal is the first in this circuit squarely to raise the issue of the protectability of screen shots. In this analysis, the third factor will almost always weigh against the video game manufacturer since a screen shot is such an insignificant portion of the complex copyrighted work as a whole. Here, too, it seems clear that the third factor supports a finding of fair use.
+D
+In addressing this fourth and most important factor, the Supreme Court considered
+not only the extent of market harm caused by the particular actions of the alleged infringer, but also "whether unrestricted and widespread conduct of the sort engaged in by the defendant . . . would result in a substantially adverse impact on the potential mar ket."
+Campbell, 510 U.S.  at 590 (quoting 3 M. Nimmer & D. Nimmer, Nimmer on Copyright, S 13.05 [A] [4], at 13-102.61 (1993)). The first question in this appeal is what precisely the market is. The market cannot be the video games themselves because it is the emulator that competes in that niche, not the screen shots that adorn the emulator's advertising. We have already ruled that the emulator is not a violation of the copyright laws. See Connectix, 203 F.3d  at 607. Sony argues that the market is in the screen shots themselves: Bleem's use of the screen shots impinges upon Sony's ability to use the screen shots for promotional purposes in the market. Bleem responds by contending that there is no market in screen shots. Certainly screen shots are a standard device used in the industry to demonstrate video game graphics, but there is not a market for them, or at least not one in which Bleem may participate given Sony's refusal to license to it.
+Assuming there is a market for screen shots, however, this factor still weighs in Bleem's favor, not because Bleem does not compete with Sony, as it contends, but because almost all precedent indicates that this sort of use does not sufficiently impair Sony. First, the Supreme Court has noted that commercial use is not a controlling factor in this question and that a use of the copyrighted work to critique the work may harm its market without producing cognizable harm under the Copyright Act. Campbell, 510 U.S. at 591--92 (providing the example of a "scathing theater review" that "kills demand for the original" while still being a fair use). Second, the Fifth Circuit's comparative advertising decision similarly plays down such a "de minimis" effect on the copyrighted material's market:
+If the plaintiff loses a significant share of its present market, that would result not from the display of plaintiff's cover in defendant's advertising but from commercial competition with a work that does not in any way make use of plaintiff's copyrighted material.
+Triangle Publications, 626 F.2d  at 1177. We made a similar observation in our recent decision, also involving Sony, stating that
+some economic loss by Sony as a result of this com petition does not compel a finding of no fair use. Sony understandably seeks control over the market for devices that play games Sony produces or licenses. The copyright law, however, does not con fer such a monopoly.
+Connectix, 203 F.3d  at 607.
+Bleem's use of a handful of screen shots in its advertising will have no noticeable effect on Sony's ability to do with its screen shots what it chooses. If sales of Sony consoles drop, it will be due to the Bleem emulator's technical superiority over the PlayStation console, not because Bleem used screen shots to illustrate that comparison. This fourth factor, like all the others, appears to weigh in Bleem's favor.
+IV
+Given that all four factors weigh in favor of the conclusion that Bleem's use of the screen shots was fair, our attention must turn to whether the district court abused its discretion in entering injunctive relief in favor of Sony. Upon the record before us, we cannot tell whether the district court engaged in the S 107 analysis and thus we have no evidence of its discretion. In the absence of such an analysis, it does appear that the district court abused its discretion in entering a preliminary injunction against Bleem for its use of screen shots in its advertising. See Anderson, 134 F.3d  at 1402. Sony neither appears likely to prevail on the merits, nor has it shown how the balance of hardships tips in its favor to any degree. See GoTo.com, 202 F.3d  at 1204. Therefore, we must vacate the preliminary injunction and remand to the district court for further proceedings.
+V
+We must qualify our holding with one caveat. Our conclusions with respect to Bleem's use of screen shots apply only to those screen shots that Bleem has generated by taking the actual images of Sony's games from a television screen. The entire premise of comparative advertising is that the consumer is being made aware of the true choices. To the extent Bleem merely approximates what the PlayStation games look like, by generating screen shots through a process of degrading a computer image, it is simply creating a simulation. If Bleem insists on generating simulated approximations of Sony's games, there is no need for Bleem to use Sony's copyrighted material whatsoever.
+We conclude that it is a fair use for Bleem to advertise comparatively only between what PlayStation games actually look like on a television and what they actually look like on a computer when played with the emulator. It is in this context alone that the comparison is necessarily Sony-specific. Otherwise, Bleem must be content to make its comparison without using another's copyrighted material. We are persuaded by the need for Bleem to impose minimally upon Sony's copyright with respect to these screen shots because there is no other way to create a truly accurate comparison for the user. The way of simulations is a slippery one for Bleem and if it chooses to embark upon it, it must do so without the support of Sony's copyright. With that limitation in mind, we conclude that Bleem's use of Sony's copyrighted material was fair.
+Preliminary injunction VACATED; REMANDED with instructions to modify the preliminary injunction in accordance with this opinion.
+*
+ Judge O'Scannlain and Judge Rymen vote to deny the petition for rehearing en banc and Judge Leavy so recommends.
+        Search this Case 
+Google Scholar
+Google Books
+Legal Blogs  
+Google Web 
+Bing Web 
+Google News 
+Google News Archive 
+Yahoo! News 
+			Find a Lawyer
+Lawyers - Get Listed Now!
+Get a free directory profile listing
+Ask a Lawyer
+Question:
+120
+                    Add details
+Additional Details: 
+1000
+Ask Question
+                Subscribe to Justia's 
+Free Summaries 
+                of Ninth Circuit opinions. 
+            Subscribe Now
+            Justia Legal Resources
+Find a Lawyer
+Bankruptcy Lawyers
+Business Lawyers
+Criminal Lawyers
+Employment Lawyers
+Estate Planning Lawyers
+Family Lawyers
+Personal Injury Lawyers
+More... 
+Individuals
+Bankruptcy
+Criminal
+Divorce
+DUI
+Estate Planning
+Family Law
+Personal Injury
+More...
+Business
+Business Formation
+Business Operations
+Employment
+Intellectual Property
+International Trade
+Real Estate
+Tax Law
+More... 
+Law Students
+Law Schools
+Admissions
+Financial Aid
+Course Outlines
+Law Journals
+Blogs
+Employment
+More...
+US Federal Law
+US Constitution
+US Code
+Regulations
+Supreme Court
+Circuit Courts
+District Courts
+Dockets & Filings
+More...
+US State Law
+State Constitutions
+State Codes
+State Case Law
+California
+Florida
+New York
+Texas
+More... 
+Other Databases
+Legal Blogs
+Legal Forms
+GAO Reports
+Product Recalls
+Patents
+Trademarks
+Countries
+More...
+Legal Marketing
+Websites
+Blogs
+Content
+Social Media
+Local Marketing
+Paid Ads (CPC/PPC)
+Lawyer Directory
+More...
+                    © 2015 
+Justia
+Company
+Terms of Service
+Privacy Policy
+Contact Us

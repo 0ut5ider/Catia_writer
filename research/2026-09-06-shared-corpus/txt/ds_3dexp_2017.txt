@@ -1,0 +1,423 @@
+                                          DASSAULT SYSTEMES
+                                    OFFERING SPECIFIC TERMS (OST) FOR
+                                          3DEXPERIENCE R2017x
+                                          LICENSED PROGRAMS
+
+This OST (Offering Specific Terms) and the terms incorporated herein by reference (including terms referenced on a website) are an integral
+part of the license and online services agreement between DS and Customer (“Agreement”), which refers to this OST. In the event of a
+discrepancy, inconsistency or contradiction between this OST and the other terms of the Agreement, the provisions of this OST shall prevail,
+but only with respect to the Licensed Programs to which this OST applies. Customer acknowledges that it has full knowledge of all the terms
+of this OST and those incorporated herein by reference.
+
+
+1. PRICING STRUCTURES
+
+Licenses and Support Services for the Licensed Programs to which this OST applies are granted according to the pricing structures
+mentioned in the related Transaction Document. Standard pricing structures are defined in the section “DEFINITIONS” of this OST, even
+though those pricing structures may not be applicable to the DS Offerings to which this OST applies. Other pricing structures may be made
+available on a case by case basis.
+
+
+2. LICENSING SCHEMES AND GEOGRAPHIC SCOPE
+
+2.1.    GENERAL RULES
+
+Licenses for the Licensed Programs to which this OST applies may be granted according to one of the following licensing schemes
+(specifying the authorized use), as specified in the Product Portfolio if available, and as determined in the applicable Transaction Document:
+
+               Casual Named User Based
+               Concurrent (or Floating) Based
+               Named User Based
+               System License
+               Token Based
+
+Licenses for the Licensed Programs to which this OST applies are granted for use on Machines by the Users (and Extended Enterprise
+Users, as applicable) only in the country for which the licenses are ordered. However, (i) Users, whose usual workplace is located in the
+same country as the country where such use of the Licensed Programs has been authorized, may use the Licensed Programs in any other
+country (subject inter alia to the export and re-export laws and regulations provisions of the Agreement) for purposes of a business trip of a
+maximum of thirty (30) consecutive days and (ii) DS may authorize, on a case-by-case basis, the use of certain Licensed Programs by the
+Users (and Extended Enterprise Users, as applicable) on a Remote Access mode.
+
+It is agreed that, notwithstanding anything to the contrary provided in the Documentation, software components packaged and delivered by
+DS as part of a given DS Offering:
+               shall solely be used together and as part of such DS Offering and
+               shall not be used standalone and/or for other purposes than the ones for which such DS Offering has been marketed and
+                granted to Customer by DS.
+
+If a patent invention is implemented in the DS Offering for which a right to use or access is granted pursuant to the Agreement, DS hereby
+grants Customer a non-exclusive license on the applicable patent limited to the use of such DS Offering.
+
+2.2.    SPECIFIC PROVISIONS FOR CERTAIN DS OFFERINGS
+
+Analytics Engine (6MP-EUS), any Licensed Programs whose name contains "Connector For Indexing":
+Each of these Licensed Programs is eligible for production purpose on one or several Machines within the limited number of related ordered
+tokens. Upon request, Customer can be granted two hundred percent (200 %) additional tokens to be able to use these Licensed Programs
+for non-production purpose on dedicated Machines.
+
+Therapeutics Index (6MP-B01), Issue Index (6MP-IIK):
+Each of these Licensed Programs is eligible for production purpose on one or several Machines within the limited overall indexing capacity of
+such related Licensed Programs, as specified in the Documentation. Upon request, Customer can be granted two hundred percent (200 %)
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                           1/7
+additional indexing capacity of such Licensed Programs to be able to use these Licensed Programs for non-production purpose on dedicated
+Machines.
+
+Behavior (Modelica) libraries:
+As an exception to the Agreement, for Licensed Programs which give access to behavior (Modelica) libraries as defined in the
+Documentation, as long as the corresponding license for the Licensed Programs is valid, DS grants Customer a non-exclusive, non-
+transferable license to prepare Derivative Works of the Value Added Technology only. Customer may distribute such Derivative Works of the
+Value Added Technology to third parties exclusively in Object Code form. In addition, Customer is granted the right to modify, copy, and
+distribute those parts of the Value Added Technology expressly marked as “sample code,” if applicable. However, Customer shall not use,
+and shall not permit any third party to use, any form or part of the Value Added Technology (including without limitation, such as included in
+a Source Code Output File, a Binary Output File and/or Obfuscated Source Code) to develop a software program competing or intended to
+compete directly or indirectly with the Licensed Programs to which this OST applies, for whatever purpose.
+For the avoidance of doubt and without prejudice to the Agreement, distribution of any element of the Value Added Technology in whatever
+form (whether “as is” or included in a Derivative Work, Customer Model, Customer Application or Binary Output File, and/or “sample code”),
+as authorized pursuant hereto remains subject to the export and re-export laws and regulations provisions of the Agreement.
+In addition, Customer shall indemnify, defend, and hold harmless DS against any claim, expense, cost (including reasonable attorneys’
+fees), judgment, damage, or loss of any kind arising out of or in any way relating to, such distribution and/or any third party’s access to or
+use of such Value Added Technology in whatever form.
+Notwithstanding any term or condition of the Agreement, DS shall have no obligation whatsoever to defend, hold harmless or indemnify
+Customer against any claim arising out of or in any way relating to the distribution or redistribution, directly or indirectly, including as part of
+any services, of the Value Added Technology in whatever form (including, without limitation, such as included in a Customer Model, a Binary
+Output File or a Customer Application).
+Additional terms applicable to Source Code Generation Option
+As long as the Source Code Generation Option license is valid, DS grants Customer a non-exclusive, non-transferable license to use,
+reproduce and modify (solely for the purpose of improving, adapting to Customer’s needs and bug fixing of Source Code Output File) the
+Value Added Technology strictly as integrated in the Source Code Output File in order to enable Users (and/or Extended Enterprise Users
+as applicable) to operate the Output File exclusively for Customer’s internal use. In addition, and as long as the license on the Source Code
+Generation Option is valid, DS grants Customer a non-exclusive, non-transferable license to distribute on a worldwide basis to any third
+parties the Value Added Technology in order to enable such third parties to operate the Source Code Output File exclusively for such third
+parties’ internal use.
+Additional terms applicable to Binary Model Export Option
+As long as the Binary Model Export Option license is valid, DS grants Customer a non-exclusive, non-transferable license to use and
+reproduce the Value Added Technology strictly as integrated in the Binary Output File in order to enable Users (and/or Extended Enterprise
+Users as applicable) to operate the Binary Output File exclusively for Customer’s internal use. DS grants Customer a non-exclusive, non-
+transferable, license to distribute on a worldwide basis to any third parties the Value Added Technology exclusively as integrated in the
+Binary Output File in order to enable such third parties to operate the Binary Output File exclusively for such third parties’ internal use.
+Additional terms applicable to Real Time Simulation Option
+As long as the Real Time Simulation Option license is valid, DS grants Customer a non-exclusive, non-transferable license to use, reproduce
+and modify (solely for the purpose of improving, adapting to Customer’s needs and bug fixing of the Obfuscated Source Code) the Value
+Added Technology strictly as integrated in the Obfuscated Source Code in order to enable Users (and/or Extended Enterprise Users as
+applicable) to operate the Obfuscated Source Code exclusively for Customer’s internal use. In addition, and as long as the license on the
+Real Time Simulation Option is valid, DS grants Customer a non-exclusive, non-transferable license to distribute on a worldwide basis to any
+third parties the Value Added Technology integrated in the Obfuscated Source Code exclusively as embedded in a Customer Application for
+such third parties’ internal use.
+
+CATIA - 3DEXPERIENCE Design/Engineering business category:
+For the Function Driven Generative Designer (6CP-GDE) Licensed Program which comprises client applications (graphical user interface)
+and compute capabilities, client applications and compute capabilities shall not be operated simultaneously by more than one (1) authorized
+User and/or Extended Enterprise User, as applicable.
+
+SIMULIA - 3DEXPERIENCE Simulation business category:
+Embedded Compute capability
+For Licensed Programs which comprise client applications (graphical user interface) and compute capabilities, client applications and
+compute capabilities shall not be operated simultaneously by more than one (1) authorized User and/or Extended Enterprise User, as
+applicable.
+Token Based for SIMULIA - 3DEXPERIENCE Simulation business category
+Token Based DS Offerings from 3DEXPERIENCE Simulation business category may be accessed and executed by Users whose usual
+workplace is limited to one Customer facility (location) where the Licensed Programs are deployed.
+Token Based DS Offerings from the 3DEXPERIENCE Simulation business category, as specified in the Product Portfolio, provide a right to a
+maximum number of independent or concurrent simulation jobs. Simulation jobs include solver execution and may include other operations
+as specified in the Documentation (“Simulation Jobs”). The maximum number of Simulation Jobs at any time is determined by: i) the number
+of tokens included in the granted DS Offerings and ii) the number of tokens required for each Simulation Job as specified in the Product
+Portfolio.
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                                 2/7
+Customer shall promptly provide DS with usage reports when requested.
+
+SIMULIA - 3DEXPERIENCE Anatomical business category
+Living Heart Human Model (6CB-SHH):
+Each ordered Licensed Program grants a right to use the available content (FEA model & related intellectual property delivered with the
+Licensed Program) within one (1) simultaneous Simulation Job. If Customer has been granted several Licensed Programs, the right to use
+the included content in a Simulation Job can be pooled to enable individual users to execute more than one simultaneous Simulation Job.
+The total number of simultaneous Simulation Jobs using the available content shall not exceed the total number of Living Heart Human
+Model (6CB-SHH) Licensed Programs ordered by Customer.
+
+
+3. OTHER PERMITTED USES FOR DS OFFERINGS
+
+USE FOR CERTAIN SERVICES. Except for Development Tool Kits, Customer is authorized to use the Licensed Programs for added-value
+engineering or implementation services. Added-value engineering or implementation services are services to deliver to a third party end user
+any deliverable generated specifically for said third party end user from use by Customer of the Licensed Programs. In any event, Customer
+may not (1) use the Licensed Programs to develop software code for (i) general distribution by any means, and whether alone or bundled or
+delivered with any product, data, information, software, or other element, or (ii) any services that do not add value attributable to the
+intervention of specific human skills, such as, without limitation, in a data services operation or as an application service provider, or (2)
+install and/or operate and/or give access to the Licensed Programs on any hardware and/or software environment owned by or under control
+of any third party unless otherwise expressly authorized in the Agreement, or (3) represent or imply to any party that it is an authorized or
+certified provider of services for DS. Customer shall indemnify, defend and hold harmless DS against any claim, expense, judgment,
+damage or loss (including reasonable attorneys’ fees) which arises out of or in any way relates to Customer’s use of the Licensed Programs
+with third party end users.
+
+SIMULIA - 3DEXPERIENCE Simulation – Anatomical business category:
+LICENSE AND USE RIGHTS: Notwithstanding anything to the contrary in the Article “Grant” of the Agreement, DS grants Customer, from
+the Effective Date of the license, a non-exclusive and non-transferable (except as expressly permitted in the Agreement) right, for the
+duration identified in the Transaction Document and solely for its internal business use, to (i) modify the databases provided within the
+Anatomical Licensed Programs and (ii) copy the Anatomical Licensed Programs.
+Unless DS provides express written consent otherwise, Customer (i) is only permitted to make modifications to databases provided within
+the Anatomical Licensed Program from within the graphical user interface of another Licensed Program which is necessary to run the
+Anatomical Licensed Program, or with a dedicated, stand-alone, text editor (for example Microsoft Word or Emacs) and (ii) shall use
+simulation results obtained from the Anatomical Licensed Program solely in combination with any other Licensed Programs, excluding any
+other software and open source, that is capable of creating a numerical or finite element based model, and (iii) shall not translate the
+Anatomical Licensed Programs into any other proprietary or commercial numerical or finite element based modeling or solution format.
+Customer is expressly prohibited from distributing any text file, or any portion thereof, which is necessary to run the Anatomical Licensed
+Program.
+
+OWNERSHIP: Customer shall retain title to all modifications made to the databases included within the Anatomical Licensed Program.
+Modifications may include, without limitation, the insertion by Customer of medical devices or additional or alternative material definitions into
+the Anatomical Licensed Program. Customer agrees that DS may create derivatives works or enhance the Anatomical Licensed Program
+which may contain similar or identical modifications to those made to the Anatomical Licensed Program by Customer. In such a case, DS
+shall retain title to its own modifications or creations and Customer will not bring any claim against DS or any DS Group Company related to
+such derivative work or enhancement.
+
+WARRANTY: DS does not warrant that the Anatomical Licensed Program will materially conform to its Documentation if Customer modifies
+the Anatomical Licensed Program in any way.
+
+
+4. SPECIFIC TERMS FOR THIRD PARTY SOFTWARE
+
+The specific terms relating to the use of certain third party software components or products not developed by or for a DS Group Company
+and granted to Customer to be used in connection with or within a DS Offering are defined hereafter:
+
+4.1     OPEN SOURCE SOFTWARE
+
+The DS Offerings may include open source software components. Whenever notices (such as acknowledgment, copies of licenses or
+attribution notice) are required by the original licensor, such notices are included in the Documentation of the DS Offerings.
+
+Moreover, some components may not be distributed and licensed under the terms of the Agreement but under the terms of their original
+licenses as set forth in the Documentation of the DS Offerings themselves. Source code for these components is available upon request.
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                               3/7
+Except for components mentioned in the section “EXCLUSIONS” below, the warranty, indemnification and Support Services provided by DS
+under the Agreement apply to all such open source software components and shall be provided by DS and not by the original licensor, but
+only for the use of the DS Offerings that is in compliance with the terms of the Agreement, and in conjunction with the DS Offerings. The
+original licensors of said open source software components provide them on an “as is” basis and without any liability whatsoever to
+Customer.
+
+4.2     ADDITIONAL THIRD PARTY SOFTWARE TERMS
+
+The following terms apply in addition to the Agreement:
+
+        Oracle
+        The following terms also apply if Customer is granted licenses of Oracle software:
+        1. The Oracle software licenses shall be used only in conjunction with the Licensed Programs.
+        2. Customer shall not publish the results of any benchmark tests run on the Oracle software.
+        3. Oracle is a third party beneficiary of the Agreement.
+        4. The parties agree to exclude the Agreement from the applicability of the Uniform Computer Information Transactions Act.
+        5. Some Oracle software may include source code that Oracle may provide as part of its standard shipment of Oracle software and
+           such source code shall be governed by the Oracle agreement.
+        6. Customer shall not assign the licenses of the Oracle software or the Oracle agreement insofar as it relates to the Oracle software
+           or rent or lease the Oracle software.
+
+        Support for Oracle Software
+        Customer may not contact Oracle for support for Oracle software licensed through DS. Customer may not contact DS for support for
+        Oracle software not licensed through DS.
+
+        Sencha components
+        Customer is not authorized to use Sencha components in any other application other than the one with which it is distributed.
+
+        Oracle Instant Client:
+        The following terms apply in addition to Oracle terms above if Customer is granted licenses of Oracle Instant Client software:
+        1. Customer shall comply fully with all applicable export and import laws to assure that neither the Oracle software, nor any direct
+             product thereof, are exported, directly or indirectly, in violation of applicable laws.
+
+4.3     EXCLUSIONS
+
+The warranty, indemnification and Support Services provided by DS under the Agreement are not applicable to third party software
+components listed hereunder:
+
+          Sun Microsystems Java Development Kit (JDK) and Apache TomEE+ (including both Tomcat and Java EE) from the Apache
+          Foundation may be delivered for Customer convenience but will not be maintained nor supported by DS through the Support
+          Services.
+
+The Support Services provided by DS under the Agreement are not applicable for the open source components listed hereunder:
+
+          Motif for Linux
+
+
+5. DEFINITIONS
+
+The following definitions are supplementary to the section “Definitions” of the Agreement.
+
+Binary Model Export Option means an option of the Licensed Program that will allow Customer to generate Binary Output Files.
+
+Binary Output File means output generated by the Binary Model Export Option in the form of an application which may operate
+independently from any other application and based on the Customer Model. A Binary Output File (i) contains Value Added Technology and
+(ii) has a structure dictated by Value Added Technology integrated in the Licensed Program.
+
+Configuration or Package means a standard set of DS Offerings which are bundled together. The DS Offerings composing such
+Configuration or Package shall only be operated together.
+
+Customer Application means a software program in Object Code format that Customer has created and which integrates, in whole or in
+part, Value Added Technology, a Source Code Output File and/or a Binary Output File.
+
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                          4/7
+Customer Model means the model used as input in the Licensed Program and whose purpose is to model, simulate and/or control systems.
+
+Derivative Work means work that Customer has derived from a Licensed Program including Value Added Technology (including without
+limitation by incorporating, translating, or modifying, in whole or in part, any such Licensed Program), and which, if made without DS's
+authorization, would constitute copyright infringement. For the avoidance of doubt, (i) a library incorporating in whole or in part one or more
+libraries provided with a Licensed Program shall be considered as a Derivative Work of said one or more libraries but (ii) a Customer Model
+merely referencing Value Added Technology is not considered as a Derivative Work.
+
+Development Tool Kit means a DS Offering specifically designed for application or content development. A Development Tool Kit is either
+identified (i) with “CAA” or “ENOVIA Studio” in the DS Offering name, or (ii) in the Transaction Document and/or the Product Portfolio.
+
+Extended Enterprise User means an employee of Customer’s affiliate(s), supplier(s) and/or customer(s) authorized to use Customer’s DS
+Offering for the sole and exclusive purpose of enabling the Extended Enterprise User(s) to conduct business with Customer. The use of the
+DS Offering by any such Extended Enterprise User(s) 1) shall be solely limited to use (a) as configured and deployed by Customer and (b) in
+connection with the Extended Enterprise User’s performance of services for and on behalf of Customer, and 2) shall exclude any use by
+Extended Enterprise User (a) for its own account or a third party’s account, or (b) for the purpose of modifying, otherwise using, maintaining
+or hosting the DS Offering. Extended Enterprise Users are authorized if so specified in the Product Portfolio.
+
+Machine means a computer equipment on which a Licensed Program is executed (1) (a) belonging to Customer or under its sole control or
+supervision and (b) located on Customer’s premises (provided when applicable that Users and Extended Enterprise Users, as applicable,
+may occasionally use laptop computers outside Customer’s premises) or (2) operated by a third party service provider as specifically
+authorized in the Agreement solely for and on behalf of Customer, in the same country.
+
+Obfuscated Source Code means a version of the Source Code generated by the Real Time Simulation Option preventing usual viewing
+and understanding by a qualified programmer of the said Source Code.
+
+Object Code means computer-programming code, substantially or entirely in binary form, which is directly executable by a computer.
+
+Product Portfolio means a set of information related to the DS Offerings available at http://www.3ds.com/terms/product-portfolio.
+
+Real Time Simulation Option means an option of the Licensed Program that will allow Customer to generate Obfuscated Source Code for
+the primary purpose of real-time simulation.
+
+Remote Access means, if so specified in the Product Portfolio, that Users and/or Extended Enterprise Users may access and use the DS
+Offering remotely via the Internet from any country (subject inter alia to the export and re-export laws and regulations provisions of the
+Agreement).
+
+Source Code means computer-programming code and related comment(s) and procedural and/or declarative code, which is not directly
+executable by a computer and may be printed out or displayed in a readable form and understandable by a qualified programmer. Source
+Code also includes header files and other human-readable files necessary for a Customer Application to be compiled.
+
+Source Code Generation Option means an option of the Licensed Program that will allow the Customer to process the Customer Model
+through value added processing and to generate a Source Code Output File based on said Customer Model.
+
+Source Code Output File means output generated in the form of Source Code by the Source Code Generation option and based on the
+Customer Model. A Source Code Output File (i) contains Value Added Technology and (ii) has a structure dictated by the Value Added
+Technology integrated in the Licensed Program.
+
+User means any (a) Customer’s employee, or (b) employee of Customer’s consultant(s) or subcontractor(s) (i) who accesses a DS Offering,
+(ii) who works for the exclusive internal needs of Customer and (iii) whose usual workplace is located within Customer’s premises. For
+Academic Use of DS Offering, User means (i) any individual who works for Customer and is dedicated either to education or research or (ii)
+any individual regularly enrolled as a bona fide student in Customer’s academic program.
+
+Value Added Technology means any portion or file of the Licensed Program, in any form or format that may be provided therewith, or any
+method used during the processing of the Customer Model by the Licensed Program, which is integrated in the Source Code Output File, the
+Binary Output File and/or the Customer Application. Without limitation, libraries (and their templates) of DS or its licensors and know-how or
+trade secrets of DS included in the Licensed Program shall be deemed Value Added Technology. For purpose of clarity, the method used by
+the Licensed Program to handle equations during Source Code Output File and Binary Output File generation shall be deemed to be DS’s
+knowhow and trade-secret.
+
+
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                            5/7
+PRICING STRUCTURES
+
+ALC means Annual License Charge which is a yearly charge. For the first year of each license of each DS Offering, ALC is due together
+with the PLC or TBL, as applicable. Payment of the ALC for a DS Offering entitles Customer to (i) Support Services for the DS Offering for
+one (1) year and (ii) a license (subject to the conditions set forth in the Agreement) to use the Release(s) of such DS Offering made available
+by DS during such year, in lieu of the license(s) on the previous Release(s) of the DS Offering delivered to Customer. The applicable price
+for the ALC for any given year is the price of the previous year plus the last percentage of increase applicable to the license of a DS Offering
+in a given country, as published at http://www.3ds.com/terms/price at least ninety (90) days before renewal date. However, such increase
+shall not exceed the increase which would have resulted from the revision of the price of the ALC according to the applicable price index
+since the date of the last price increase published by DS at http://www.3ds.com/terms/price for the related DS Offering.
+
+PLC means Primary License Charge applicable to each license of a DS Offering ordered under the PLC/ALC pricing structure. The PLC is a
+one-time and non-refundable charge. Payment of the PLC for a DS Offering provides Customer with a perpetual license (subject to the
+conditions set forth in the Agreement) to use the Release of such DS Offering made available by DS on the Effective Date of the license.
+
+QLC means the Quarterly License Charge for use of a DS Offering, subject to the conditions set forth in the Agreement. Payment of the QLC
+for a DS Offering entitles Customer to (i) a three (3) months license to use the Release of a DS Offering and its subsequent Release(s), if
+any, as made available by DS during such quarter, in lieu of the license(s) on the previous Release(s) of such DS Offering, and (ii) Support
+Services for the DS Offering for such three months period. QLC is not automatically renewable.
+
+TBL means Term Based License charge applicable to each license of a DS Offering ordered under the TBL/ALC pricing structure. The TBL
+is a one-time and non-refundable charge. Payment of the TBL for a DS Offering provides Customer with a license for a period as described
+in the Product Portfolio and in the Transaction Document (subject to the conditions set forth in the Agreement) to use the Release of such
+DS Offering made available by DS on the Effective Date of the license. “TBLx” is a TBL for a period of “x” years. As an example, “TBL2” is a
+TBL for a period of two (2) years. TBL is not automatically renewable.
+
+YLC means the Yearly License Charge for use of a DS Offering, subject to the conditions set forth in the Agreement. Payment of the YLC for
+a DS Offering entitles Customer to (i) a one (1) year license to use the Release of a DS Offering and its subsequent Release(s), if any, as
+made available by DS during such year, in lieu of the license(s) on the previous Release(s) of such DS Offering, and (ii) Support Services for
+the DS Offering for one (1) year. The applicable price for the YLC for any given year is the price of the previous year plus the last percentage
+of increase applicable to the use of a DS Offering in a given country, as published at http://www.3ds.com/terms/price at least ninety (90)
+days before renewal date. However, such increase shall not exceed the increase which would have resulted from the revision of the price of
+the YLC according to the applicable price index since the date of the last price increase published by DS at http://www.3ds.com/terms/price
+for the related DS Offering.
+
+
+LICENSING SCHEMES
+
+Casual Named User Based means, when mentioned in a Transaction Document and with respect to a given DS Offering to which this OST
+applies, that the use of such DS Offering by a Named User shall not exceed forty (40) hours per calendar month unless otherwise stated in
+the Transaction Document and/or the Product Portfolio if available.
+
+Concurrent (or Floating) Based. Use of a DS Offering in Concurrent Based mode is authorized for a maximum number of simultaneous
+Users and/or Extended Enterprise Users, as applicable.
+
+Extended Enterprise Named User means an Extended Enterprise User identified with a unique username and password to use the DS
+Offering from a single machine at any given time.
+
+Named User means a User identified with a unique username and password to use the DS Offering from a single machine at any given
+time.
+
+Named User Based. Use of a DS Offering in Named User Based mode is authorized for the maximum number of Named Users and/or
+Extended Enterprise Named Users, as applicable, defined in related Transaction Document. If so specified in the Product Portfolio, certain
+DS Offerings used in Named User Based mode can be run on several machines at the same time, within the limit of the consumption
+capacity of the Token Based licenses. Customer shall not use any automated program or “user agent” program or utilities for multiple Users
+and/or Extended Enterprise Users, as applicable, and Customer shall ensure that Named Users and Extended Enterprise Named Users do
+not share or use the same username and password. Customer may replace Named User(s) or Extended Enterprise Named User(s), as
+applicable, as necessary to reflect permanent personnel change(s), provided that the number of individuals authorized to use the DS
+Offering does not exceed the maximum number of rights granted to Customer for such DS Offering. Upon DS’s request, Customer shall
+provide DS with a signed document listing (i) the number of Named Users and Extended Enterprise Named Users, as applicable, (ii) the type
+of use of the DS Offerings, and (iii) the locations and types of the systems on which DS Offerings operate or Customer has installed the DS
+Offering(s) as applicable. DS may provide Customer with one or more utilities, either included within the DS Offering(s) or separately, for the
+purpose of analyzing access right(s) and utilization, to establish usage by Customer. In such case, Customer shall provide, if applicable, the
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                             6/7
+unedited and unmodified output file(s) and/or report(s) resulting from the operation(s) of such utility(ies), along with a signed declaration that
+the file(s) is(are) representative of actual DS Offering(s) usage. Customer is responsible for implementing all reasonable means to monitor
+its compliance with the terms of the Agreement.
+
+System License means a right to use certain DS Offerings for a specific database instance or as may be otherwise indicated in the Product
+Portfolio. A minimum number of Named User’s (or Extended Enterprise Named User’s, as applicable) rights to use certain identified DS
+Offerings may be required in order to be granted a System License. If the name of the DS Offering includes a specific reference to
+“Departmental Site License”, such DS Offering shall be used only within a particular department of Customer at a particular office, building or
+physical location which shall be identified in the Transaction Document.
+Customer may be requested to order certain DS Offerings rights to use, to be granted a System License.
+
+Token Based. Use of a DS Offering granted in Token Based mode provides a right to use a determined number of tokens for the duration of
+the license. Tokens are reserved for one use at a time and when released, are available for other uses. The quantity of tokens required for a
+given use of the DS Offering is determined in the Product Portfolio and/or in the Documentation, and may be changed in the event of
+modifications to such DS Offering. Pool of tokens of same type can be accessed and used simultaneously by one or several authorized
+Users and/or Extended Enterprise Users and/or Machines, as applicable within the limit of the number of available tokens.
+Tokens of given type(s) may be required to enable use of other DS Offering.
+
+
+6. TRADEMARKS
+
+3DEXPERIENCE, the Compass logo and the 3DS logo, CATIA, SOLIDWORKS, ENOVIA, DELMIA, SIMULIA, GEOVIA, EXALEAD, 3D VIA,
+BIOVIA, NETVIBES, 3DSWYM, IFWE and 3DEXCITE are commercial trademarks or registered trademarks of Dassault Systèmes, a French
+“société européenne” (Versailles Commercial Register # B 322 306 440), or its subsidiaries in the U.S. and/or other countries. All other
+trademarks are owned by their respective owners. Use of any Dassault Systèmes or its subsidiaries trademarks is subject to their express
+written approval.
+
+DS Offerings and services names may be trademarks or service marks of Dassault Systèmes or its subsidiaries.
+
+
+
+
+DS OST for 3DEXPERIENCE R2017x Licensed Programs – November 2016                                                                               7/7
+

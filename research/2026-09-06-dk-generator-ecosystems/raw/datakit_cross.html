@@ -1,0 +1,3994 @@
+<!doctype html>
+<html lang="en">
+	<head> 
+		<base href="https://www.datakit.com/en/" />
+			<meta charset="utf-8" />
+	<meta name="copyright" content="Copyright 2026 - Datakit" />
+	<meta name="publisher" content="Datakit" />
+	<meta name="author" content="Datakit" />
+	<meta name="robots" content="index,follow" />
+
+	<meta name="language" content="en" />
+	<meta name="category" content="logiciels" />
+	<meta name="identifier-url" content="https://www.datakit.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<script src="/js/tarteaucitron/tarteaucitron.js"></script>
+		<script>
+			tarteaucitron.init({
+				"privacyUrl": "", /* Privacy policy url */
+				"bodyPosition": "bottom", /* or top to bring it as first element for accessibility */
+
+				"hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+				"cookieName": "tarteaucitron", /* Cookie name */
+
+				"orientation": "middle", /* Banner position (top - bottom) */
+
+				"groupServices": false, /* Group services by category */
+				"serviceDefaultState": "wait", /* Default state (true - wait - false) */
+
+				"showAlertSmall": false, /* Show the small banner on bottom right */
+				"cookieslist": false, /* Show the cookie list */
+
+				"closePopup": false, /* Show a close X on the banner */
+
+				"showIcon": false, /* Show cookie icon to manage cookies */
+				//"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+				"iconPosition": "BottomLeft", /* BottomRight, BottomLeft, TopRight and TopLeft */
+
+				"adblocker": false, /* Show a Warning if an adblocker is detected */
+
+				"DenyAllCta": true, /* Show the deny all button */
+				"AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
+				"highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+
+				"handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+				"removeCredit": true, /* Remove credit link */
+				"moreInfoLink": true, /* Show more info link */
+
+				"useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+				"useExternalJs": false, /* If false, the tarteaucitron.js file will be loaded */
+
+				//"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+				"readmoreLink": "", /* Change the default readmore link */
+
+				"mandatory": true, /* Show a message about mandatory cookies */
+				"mandatoryCta": true /* Show the disabled accept button when mandatory on */
+			});
+		</script><title>Stand alone or plugins CAD files convertor</title>
+<meta name="description" content="3D and 2D CAD files convertor, CAD technical data exchange solution for CAD software" />
+<meta name="keywords" content="3DBrep, 2D, attributes, meshes, PMI, FD&T, parts, assemblies , convertor, converter, translator, format, file, CAD, data, models, import, export, read, write" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed - Datakit News" href="../rss/news.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed - Datakit new products" href="../rss/products.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed - Datakit product updates" href="../rss/product_updates.xml" />
+
+<link rel="alternate" hreflang="en" href="https://www.datakit.com/en/cross_manager.php" />
+<link rel="alternate" hreflang="fr" href="https://www.datakit.com/fr/cross_manager.php" />
+
+<link rel="canonical" href="https://www.datakit.com/en/cross_manager.php" />
+
+<link href="/css/knacss-unminified.css?V1_3_6" rel="stylesheet" />
+<link href="/css/datakit.css?V1_3_6" rel="stylesheet" />
+<script src="/js/jquery-3.6.0.min.js?V1_3_6"></script>
+<script src="/js/lightbox/js/lightbox.min.js?V1_3_6"></script>
+<link href="/js/lightbox/css/lightbox.css?V1_3_6" rel="stylesheet" />
+<script src="/js/site.js?V1_3_6"></script>
+<script>
+	/*
+	 var _gaq = _gaq || [];
+	 _gaq.push(['_setAccount', 'UA-5865230-1']);
+	 _gaq.push(['_trackPageview']);
+
+	 (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	 })();
+	 */
+	tarteaucitron.user.gtagUa = 'G-GBML5BB1P6';
+	tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */
+	};
+	(tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+	(tarteaucitron.job = tarteaucitron.job || []).push('dailymotion');
+	(tarteaucitron.job = tarteaucitron.job || []).push('maps_noapi');
+	(tarteaucitron.job = tarteaucitron.job || []).push('googlefonts');
+
+</script>
+<script type="text/javascript" src="../js/basictable/jquery.basictable.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		//Plein écran tableau
+		tableau = document.getElementById('tableau-combinaisons-3D');
+		tableau.addEventListener('click', function () {
+			pleinEcran(tableau);
+		}, false);
+
+		$('#tableau-combinaisons-3D').basictable({
+			breakpoint: 1080
+		});
+
+		interface = document.getElementById('interface');
+		interface.addEventListener('click', function () {
+			pleinEcran(interface);
+		}, false);
+
+		$('#interface').basictable({
+			breakpoint: 1080
+		});
+
+		$('#crossmanager-produits').basictable({
+			breakpoint: 460
+		});
+
+	});
+</script>
+</head>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		// Récupère l'identifiant de l'article courant
+		var menuScroll = document.querySelector('.menu-scroll');
+		var articleId = menuScroll.getAttribute('data-article-id');
+
+		// Récupère la liste des articles fermés depuis localStorage (ou tableau vide)
+		var closedArticles = JSON.parse(localStorage.getItem('closedArticles') || '[]');
+
+		// Si l'article courant est dans la liste, on le masque
+		if (closedArticles.includes(articleId)) {
+			menuScroll.classList.add('hidden');
+		}
+
+		// Au clic sur la croix, on ajoute l'ID à la liste et on masque
+		document.querySelector('.scroll-croix').addEventListener('click', function() {
+			if (!closedArticles.includes(articleId)) {
+				closedArticles.push(articleId);
+				localStorage.setItem('closedArticles', JSON.stringify(closedArticles));
+			}
+			menuScroll.classList.add('hidden');
+		});
+	});
+</script>
+
+<body>
+	<div class="wrapper">
+		<header id="main-header">
+			<div id="main-buttons">
+
+				<div class="menu-scroll " data-article-id="244">
+					<div class="scroll-zoom upper">
+						Focus					</div>
+					<div class="scroll-hor">
+						<div class="msg">
+							<a href="/en/news/datakit-releases-2026-3-version-244.html"> <span class="bleu">July 2, 2026</span> Datakit releases 2026.3 version</a>
+						</div>
+					</div>
+					<div class="scroll-bouton chapeau_bold sous_titre_h1_cap">
+						<a href="/en/news/datakit-releases-2026-3-version-244.html" class="scroll-article">Read the news</a>
+					</div>
+					<div class="scroll-croix icon-croix">
+					</div>
+				</div>
+				<div class="menu-bar">
+					<ul class="unstyled txt-sur-menu">
+						<li>
+							<a href="join_datakit.php">Join our Team</a>
+						</li>
+						<!-- A FAIRE
+						<li class="pipe">
+							<a href="join_datakit.php">Join Datakit reseller network</a>
+						</li>
+						-->
+						<li class="pipe space-li">
+							<a href="medias.php">Resources</a>
+						</li>
+
+						<li id="button-user" class="block cursor">
+							<div id="user-login-button-box">
+																	<button class="icon-utilisateur txt-sur-menu icone-menu btn--unstyled" title="Account"></button>
+									<span class="cursor">
+										Account									</span>
+															</div>
+							<nav id="menu-user" class="menu-button ">
+																	<form name="login_form" action="login.php" method="post">
+										<ul class="unstyled">
+											<li class="form_line">
+												<label for="inputEmail">E-mail</label><br />
+												<input type="text" name="email" class="client_access" id="inputEmail" />
+											</li>
+											<li class="form_line">
+												<label for="inputMdp">Password</label><br />
+												<input type="password" name="pass" class="client_access" id="inputMdp" />
+											</li>
+											<li class="form_line">
+												<input type="submit" class="bouton orange_hover" value="Connect to your client room" />
+											</li>
+											<li class="center">>
+												<a href="recover_password.php" class="pass-perdu">
+													<img src="/imgs/listes/puce.gif" alt="fl&egrave;che" />Recover password												</a>
+											</li>
+
+											<li class="form_line">
+												<a href="register.php">
+													<span class="orange upper center bold">Register right now</span>
+												</a>
+											</li>
+
+										</ul>
+									</form>
+															</nav>
+						</li>
+
+						<li id="button-panier" class="block pipe space-li">
+															<a title="View my cart" href="cart.php">
+																<button class="icon-panier txt-sur-menu icone-menu btn--unstyled icon-none">
+																	</button>
+								<span class="txt-sur-menu cursor">
+									Cart								</span>
+																</a>
+																				</li>
+
+												<li>
+							<a href="/en/cross_manager.php">
+								<span class="nav-legend txt-sur-menu lang_select">EN</span>
+							</a>
+							<a href="/fr/cross_manager.php">
+								<span class="nav-legend txt-sur-menu ">FR</span>
+							</a>
+						</li>
+											</ul>
+					<button id="bouton-search" class="icon-loupe txt-blanc icone-menu btn--unstyled" title="Search"></button>
+				</div>
+			</div>
+
+			<div id="head-logo">
+				<a href="/en/">
+					<img src="/imgs/logo-datakit.svg" alt="Datakit" class="logo-header" />
+				</a>
+			</div>
+
+			<nav id="main-nav1" class="flex-list">
+				<ul class="unstyled main-nav1-list ma0 pa0">
+					<li>
+						<a href="about.php">Company</a>
+					</li>
+					<li class="pipe_ATT">
+						<a href="crosscad_ware.php">SDK for developers</a>
+					</li>
+					<li class="pipe_ATT">
+						<a href="cross_manager.php">Converters for end-users</a>
+					</li>
+					<li class="pipe_ATT">
+						<a href="news.php" class="txt-orange">News</a>
+					</li>
+					<li class="pipe_ATT">
+						<a href="contact/contact.php" class="txt-bleu">CONTACT</a>
+					</li>
+					<!--
+					<li id="button-societe" class="block">
+						<span class="cursor">Solutions</span>
+							<div id="menu-societe" class="menu-button">
+								<ul class="unstyled">
+										<li>
+											<a href="crosscad_ware.php">SDK for developers</a>
+										</li>
+										<li>
+											<a href="product.php">Converters for end-users</a>
+										</li>
+								</ul>
+							</div>
+					</li>
+					-->
+				</ul>
+				<div id="burger-button">
+					<button class="icon-menu-hamburger burger-menu btn--unstyled txt-bleu"></button>
+					<span class="nav-legend u-bold">MENU</span>
+				</div>
+			</nav>
+			<nav id="main-nav2">
+				<img src="/imgs/logo-datakit.svg" alt="Menu Datakit" class="logo-header" />
+				<span class="icon-croix escape-menu-button"></span>
+				<form action="search.php" method="post">
+					<button class="icon-loupe"></button>
+					<input id="search-input" name="search_txt" type="search" placeholder="Rechercher" />
+				</form>
+				<ul>
+					<li>
+						<h2>
+														<a href="../en/">Home</a>
+						</h2>
+					</li>
+					<li>
+						<h2>
+														<a href="about.php">Company</a>
+							<span class="icon-utilisateur txt-sur-menu"></span>
+						</h2>
+					</li>
+										<li>
+						<h2>
+							<a href="cross_manager.php">Converters for end-users</a>
+							<span class="icon-utilisateur txt-sur-menu"></span>
+						</h2>
+					</li>
+										<li>
+						<h2>
+							<a href="crosscad_ware.php">SDK for developers</a>
+							<span class="icon-utilisateur txt-sur-menu"></span>
+						</h2>
+					</li>
+										<li>
+						<h2>
+														<a href="account/">Account</a>
+							<span class="icon-utilisateur txt-sur-menu"></span>
+						</h2>
+					</li>
+					<li>
+						<h2>
+														<a href="cart.php">Cart</a>
+							<span class="icon-panier txt-sur-menu"></span>
+						</h2>
+					</li>
+					<li>
+						<h2>
+														<a href="faq.php">FAQ</a>
+						</h2>
+					</li>
+					<li>
+						<h2>
+														<a href="contact/contact.php">Contact</a>
+						</h2>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<nav id="main-ariane" aria-label="Breadcrumb">
+			<div id="ariane-content">
+				 <a class="ariane-txt" href="../en/">Home</a>	<img src="/imgs/chevron-ariane.svg" alt="&gt;" /><span class="ariane-txt" aria-current="page">Converters for end-users - CrossManager</span>			</div>
+		</nav>
+		<main><section>
+
+	<article class="article-like large fond-carres-orange">
+		<div class="cols-center-12 titre_index">
+			<h1 class="orange">
+				<span class="w520">CrossManager CAD Convertor <br>& PLUG-IN</span>
+				<span class="sous_titre_h1_normal bleu-fonce titre_h2 txt-shadow-white">Converters for<br>design offices</span>
+			</h1>
+		</div>
+		<div class="cols-center-12 row-3">
+			<a href="product_search.php">
+				<span id="raidnbow" class="bouton upper orange_hover possibilites holographic-card2 border-fadding" >
+					<span class="possibilites text-part left-ani">Explore  </span>
+					<span class="possibilites text-part right-ani">the possibilities </span>
+				</span>
+			</a>
+		</div>
+	</article>
+
+	<article class="large choix-cross">
+		<div class="cols-center-12 article-like sticky-cross">
+
+			<nav class="flex-container cols-center-12 nav-cross sous_titre_h1 sous_titre_h1_cap">
+				<div>
+					<a href="cross_manager.php#crossmanager" class="cross-hover">CrossManager</a>
+					<div class="ss_titre mt30_480 mb50_480 sous_titre_h1_normal mt10 orange">Single or batch files stand-alone converters</div>
+				</div>
+
+				<div>
+					<a class="mt30_480 cross-hover" href="cross_manager.php#crosscad">CrossCad/Plug-in</a>
+					<div class="ss_titre mt30_480 mb50_480 sous_titre_h1_normal mt10 orange">Plugin converters dedicated to SolidWorks and Rhino</div>
+				</div>
+
+				<div>
+					<a class="mt30_480 sous_titre_h1_normal distributeur txt_orange_hover" href="partners_search.php">Show the list of distributors</a>
+				</div>
+			</nav>
+
+		</div>
+	</article>
+
+	<article class="large_flex article-aere accueil-3 fond-gris ul-flex mb100">
+		<div class="center">
+			<div class="orange article_first mb30 f-weight-initial">Standalone converters and Datakit plug-ins meet				<br>design offices<span class="bold"> CAD file exchange</span> — <span class="bold">quickly</span> and <span class="bold">reliably.</span> </div>
+			<span class="bold">They enable users of 3D engineering software to streamline				<br>and accelerate their part and assembly design process,				<br>whatever their preferred software and exchange formats:</span>
+			<div class="ligne"></div>
+			<ul class="chapeau_bold">
+				<li>CATIA</li>
+				<li>CREO</li>
+				<li>INVENTOR</li>
+				<li>NX</li>
+				<li>RHINO</li>
+				<li>SOLIDEDGE</li>
+				<li>SOLIDWORKS</li>
+				<li>NAVISWORKS</li>
+			</ul>
+			<ul class="chapeau_bold">
+				<li>ACIS</li>
+				<li>PARASOLID</li>
+				<li>CGR</li>
+				<li>DXF</li>
+				<li>IGES</li>
+				<li>STEP</li>
+				<li>QIF</li>
+				<li>IFC</li>
+				<li>JT</li>
+				<li>REVIT</li>
+				<li>ZW3D ...</li>
+			</ul>
+		</div>
+	</article>
+
+	<article id="crossmanager" class="large_flex text_cross">
+		<div class="trapezoid_cross">
+			<div class="ATT_trapezoid_dev_droit">
+				<div class="icon-box-img wauto">
+					<div class="icon-box-cross">
+						<h2 class="titre_cross">CrossManager</h2>
+					</div>
+					<div class="icon_cross">
+						<img src="/imgs/design/en/convert-CAD-CAO.png" alt="CAD CAO Convert">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="titre_h3 ligne_after">
+			 Stand-alone converters			<br>for single or batch CAD files.		</div>
+	</article>
+
+	<article class="large_flex large mt50 font-orange-trou">
+		<div class="txt-rejoindre-1">
+			<h2 class="titre_h2 ligne_after left">CrossManager</h2>
+			With CrossManager, <span class="bold">converting the CAD files of your choice is easy.</span>
+			<ul class="ul_check_h5 ul_check_h5_orange mt30 mb30">
+				<li><span class="bold orange">01</span> <span class="bold">-</span> You select <span class="bold">one or more files.</span></li>
+				<li><span class="bold orange">02</span> <span class="bold">-</span> You <span class="bold">convert them into the chosen format.</span></li>
+				<li class="no_background"></li>
+				<li class="no_background"></li>
+				<li>Available with <span class="bold">GUI</span> (Graphical User Interface)  and/or  <span class="bold">CLI</span> (Command Line Interface).</li>
+				<li><span class="bold">Does not require an external licence.</span></li>
+				<li><span class="bold">Easy to use.</span></li>
+				<li><span class="bold">Reliable conversion</span> of 2D and 3D data.</li>
+				<li><span class="bold">Regular updates</span>
+					<p>directly on the Datakit website for users with an up-to-date maintenance contract.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="crossmanager-txt-2 tester-cross">
+			<span>A CrossManager licence </span> <span class="bold">&nbsp;includes:</span>
+			<ul class="puce">
+				<li><span class="bold">the conversion engine,</span></li>
+				<li><span class="bold">a reading module for each file format to be read,</span></li>
+				<li><span class="bold">a write module for each format to be written.</span></li>
+			</ul>
+			Our solution also includes <span class="bold">&nbsp;maintenance:</span>
+			<ul class="puce">
+				<li><span class="bold">quarterly updates</span> (to be able to read and write the latest versions of native files),</li>
+				<li><span class="bold">technical support.</span></li>
+			</ul>
+		</div>
+			</article>
+		<article class="large_flex large mt50 flex wrap_960 font-orange-trou">
+		<div class="crossmanager-txt-1 mr50">
+			<span id="crossmanager" class="titre_h2 ligne_after left">CrossManager Product Range</span>
+			<ul class="ul_check_h5 ul_check_h5_orange mt30 mb30">
+				<li>
+					<span class="sous_titre_h1 sous_titre_h1_cap size36">CrossManager</span>
+				</li>
+				<li class="no_background">
+					<span class="span-block"><span class="bold inline">Convert 2D and 3D CAD files</span><span class="inline"> from a simple GUI program, </span><span class="bold inline">on premise</span>, <span class="inline">without the need of external third-party CAD licenses.</span></span>
+					<span class="span-block"><span class="inline">Easy to use, updated quarterly depending on your maintenance contract.</span></span>
+					<span class="span-block"><span class="inline">Available on PC,</span> <span class="bold inline">Windows 64 bits versions.</span></span>
+				</li>
+				<li class="mt30">
+					<span class="sous_titre_h1 sous_titre_h1_cap size36">CrossManager Advanced</span>
+				</li>
+				<li class="no_background">
+					<span class="span-block"><span class="bold inline">CrossManager Advanced</span> <span class="inline"> extends Cross-Manager to support </span><span class="bold inline">unlimited </span> <span class="inline"> file conversions within the GUI.</span></span>
+					<span class="span-block"><span class="inline">Includes </span> <span class="bold inline">processing of </span> <span class="inline">entire folders recursively.</span></span>
+				</li>
+				<li class="mt30">
+					<span class="sous_titre_h1 sous_titre_h1_cap size36">CrossManager CLI</span>
+					<span class="sous_titre_h1_cap">Command Line Interface</span>
+				</li>
+				<li class="no_background">
+					<span class="span-block"><span class="bold inline">CrossManager CLI</span> <span class="inline">(Command Line Interface) will allow tight </span> <span class="bold inline">integration </span> <span class="inline">into your workflow (PLM, background services, scripts)</span>.</span>
+					<span class="span-block"><span class="inline">It comes as a lightweight </span> <span class="bold inline">no-GUI executable </span> <span class="inline">that can run on various platforms, including </span> <span class="bold inline">Windows, Linux and macOS</span>.</span>
+					<span class="span-block"><span class="inline">Licensing</span> <span class="bold inline">can be adapted  </span> <span class="inline">to your organization size and software/hardware environment</span>.</span>
+				</li>
+			</ul>
+		</div>
+	</article>
+
+	<table id="crossmanager-produits" class="data_table columns_table tableau-double-entree tableau-hover tableau-espace zoomable mt50" border="1">
+		<thead>
+			<tr>
+				<th class="title-tab title-tab-color"></th>
+				<th class="title-tab title-tab-color">CrossManager</th>
+				<th class="title-tab title-tab-color">CrossManager Advanced</th>
+				<th class="title-tab title-tab-color">CrossManager CLI</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="title-tab">Company</td>
+				<td>Industrial / Design Offices</td>
+				<td>Large Accounts / Integrators</td>
+				<td>Large Accounts / Integrators</td>
+			</tr>
+			<tr>
+				<td class="title-tab">GUI (Graphical user Interface)</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>No (Command Line EXE)</td>
+			</tr>
+			<tr>
+				<td class="title-tab">CLI (Command Line Interface)</td>
+				<td>No</td>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td class="title-tab">Use-case </td>
+				<td>File-to-file Conversions</td>
+				<td>Mass File-to-file Conversions</td>
+				<td>Mass File-to-file Conversions, <br>integrated in a Server/PLM/automatization process</td>
+			</tr>
+			<tr>
+				<td class="title-tab">File conversion volume</td>
+				<td>100 files at a time</td>
+				<td>Unlimited</td>
+				<td>Unlimited</td>
+			</tr>
+			<tr>
+				<td class="title-tab">Licenses</td>
+				<td>Desktop / Floating</td>
+				<td>Desktop / Floating</td>
+				<td>Contact us</td>
+			</tr>
+			<tr>
+				<td class="title-tab">Platform</td>
+				<td>Windows</td>
+				<td>Windows</td>
+				<td>Windows, Linux, macOS</td>
+			</tr>
+			<tr>
+				<td class="title-tab"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="title-tab">Request a Quote</td>
+				<td>
+					<a class="orange" href="get_a_quote.php">
+						 CrossManager quote					</a>
+				</td>
+				<td>
+					<a class="orange" href="get_a_quote.php">
+						 CrossManager Advanced quote					</a>
+				</td>
+				<td>
+					<a class="orange" href="contact/contact_cross_manager_test_cli.php">
+						<span class="icon-mail orange cross-mail"></span>
+						Contact Datakit					</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="title-tab">Request a Test Version</td>
+				<td>
+					<a class="orange" href="account/test_licenses.php">Test CrossManager for free</a>
+				</td>
+				<td>
+					<a class="orange" href="contact/contact_cross_manager_test_advanced.php"><span class="icon-mail orange cross-mail"></span>Contact Datakit</a>
+				</td>
+				<td>
+					<a class="orange" href="contact/contact_cross_manager_test_cli.php"><span class="icon-mail orange cross-mail"></span>Contact Datakit</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="title-tab">Request  Documentation</td>
+				<td>
+					<a class="orange" href="../download.php?kind=zip&filename=CrossManagerDocEN.zip"><span class="icon-download orange cross-mail"></span>Download documentation</a>
+				</td>
+				<td>
+					<a class="orange" href="../download.php?kind=zip&filename=CrossManagerDocEN.zip"><span class="icon-download orange cross-mail"></span>Download documentation</a>
+				</td>
+				<td>
+					<a class="orange" href="../download.php?kind=zip&filename=CrossManagerCLIDoc.zip"><span class="icon-download orange cross-mail"></span>Download CLI documentation				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	
+	<article>
+		<div class="article-aere">
+			<div class="cols-center-12 flex-container flex360">
+				<ul class="liste-plus-moins mk-none">
+					<li class="accordeon no-none" id="formatsupportes">
+						<h3>Supported formats</h3>
+
+						<div class="liste-colonne">
+							<div class="chapeau_bold bleu-fonce upper mt20 mb20">
+								 Input							</div>
+							<ul class="cols3 puce orange">
+								 									<li>
+										<span class="orange">3DVIA / CATIA / SOLIDWORKS Composer</span> <span class="bleu-fonce">.smg .smgGeom</span>
+									</li>
+																	<li>
+										<span class="orange">ACIS</span> <span class="bleu-fonce">.sat .asat .sab .asab</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V4 2D</span> <span class="bleu-fonce">.model .dlv .dlv3 .exp</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V4 3D</span> <span class="bleu-fonce">.model .dlv .dlv3 .exp .session</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V5 2D</span> <span class="bleu-fonce">.CATDrawing</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V5 3D</span> <span class="bleu-fonce">.CATPart .CATProduct</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V6 / 3DEXPERIENCE 2D</span> <span class="bleu-fonce">.3dxml</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V6 / 3DEXPERIENCE 3D</span> <span class="bleu-fonce">.3dxml</span>
+									</li>
+																	<li>
+										<span class="orange">CGR</span> <span class="bleu-fonce">.cgr</span>
+									</li>
+																	<li>
+										<span class="orange">Creo View</span> <span class="bleu-fonce">.ol .ed .edz .pvs .pvz</span>
+									</li>
+																	<li>
+										<span class="orange">DWG / DXF 2D</span> <span class="bleu-fonce">.dwg .dxf</span>
+									</li>
+																	<li>
+										<span class="orange">DWG / DXF 3D</span> <span class="bleu-fonce">.dwg .dxf</span>
+									</li>
+																	<li>
+										<span class="orange">FBX</span> <span class="bleu-fonce">.fbx</span>
+									</li>
+																	<li>
+										<span class="orange">Fusion 360</span> <span class="bleu-fonce">.f3d</span>
+									</li>
+																	<li>
+										<span class="orange">glTF</span> <span class="bleu-fonce">.gltf .bin .glb</span>
+									</li>
+																	<li>
+										<span class="orange">IFC</span> <span class="bleu-fonce">.ifc .ifcxml .ifczip</span>
+									</li>
+																	<li>
+										<span class="orange">IGES</span> <span class="bleu-fonce">.igs .iges</span>
+									</li>
+																	<li>
+										<span class="orange">Inventor</span> <span class="bleu-fonce">.ipt .iam</span>
+									</li>
+																	<li>
+										<span class="orange">JT</span> <span class="bleu-fonce">.jt</span>
+									</li>
+																	<li>
+										<span class="orange">Navisworks</span> <span class="bleu-fonce">.nwd</span>
+									</li>
+																	<li>
+										<span class="orange">OBJ</span> <span class="bleu-fonce">.obj</span>
+									</li>
+																	<li>
+										<span class="orange">Parasolid</span> <span class="bleu-fonce">.x_t .x_b .xmt_txt .xmt_bin</span>
+									</li>
+																	<li>
+										<span class="orange">PLM XML</span> <span class="bleu-fonce">.plmxml</span>
+									</li>
+																	<li>
+										<span class="orange">ProE / Creo Parametric 2D</span> <span class="bleu-fonce">.drw .drw.*</span>
+									</li>
+																	<li>
+										<span class="orange">ProE / Creo Parametric 3D</span> <span class="bleu-fonce">.prt .prt.* .xpr .asm .asm.* .xas</span>
+									</li>
+																	<li>
+										<span class="orange">QIF 3D</span> <span class="bleu-fonce">.qif</span>
+									</li>
+																	<li>
+										<span class="orange">Revit</span> <span class="bleu-fonce">.rvt .rfa</span>
+									</li>
+																	<li>
+										<span class="orange">Rhino</span> <span class="bleu-fonce">.3dm</span>
+									</li>
+																	<li>
+										<span class="orange">Solid Edge 2D</span> <span class="bleu-fonce">.dft</span>
+									</li>
+																	<li>
+										<span class="orange">Solid Edge 3D</span> <span class="bleu-fonce">.par .psm .asm .pwd</span>
+									</li>
+																	<li>
+										<span class="orange">SOLIDWORKS 2D</span> <span class="bleu-fonce">.slddrw</span>
+									</li>
+																	<li>
+										<span class="orange">SOLIDWORKS 3D</span> <span class="bleu-fonce">.sldprt .sldasm</span>
+									</li>
+																	<li>
+										<span class="orange">STEP</span> <span class="bleu-fonce">.stp .step .stpZ</span>
+									</li>
+																	<li>
+										<span class="orange">STL</span> <span class="bleu-fonce">.stl</span>
+									</li>
+																	<li>
+										<span class="orange">UG NX 2D</span> <span class="bleu-fonce">.prt</span>
+									</li>
+																	<li>
+										<span class="orange">UG NX 3D</span> <span class="bleu-fonce">.prt</span>
+									</li>
+																	<li>
+										<span class="orange">USD</span> <span class="bleu-fonce">.usd .usda .usdc</span>
+									</li>
+																	<li>
+										<span class="orange">ZW3D</span> <span class="bleu-fonce">.Z3PRT .Z3ASM .Z3 .VX</span>
+									</li>
+															</ul>
+
+							<div class="chapeau_bold bleu-fonce upper mt20 mb20">
+								 Output							</div>
+							<ul class="cols3 puce orange">
+								 									<li>
+										<span class="orange">3DXML</span> <span class="bleu-fonce">.3dxml</span>
+									</li>
+																	<li>
+										<span class="orange">3MF</span> <span class="bleu-fonce">.3mf</span>
+									</li>
+																	<li>
+										<span class="orange">ACIS</span> <span class="bleu-fonce">.sat</span>
+									</li>
+																	<li>
+										<span class="orange">CATIA V5 3D</span> <span class="bleu-fonce">.CATPart .CATProduct</span>
+									</li>
+																	<li>
+										<span class="orange">CGR</span> <span class="bleu-fonce">.cgr</span>
+									</li>
+																	<li>
+										<span class="orange">COLLADA</span> <span class="bleu-fonce">.dae</span>
+									</li>
+																	<li>
+										<span class="orange">DXF 2D</span> <span class="bleu-fonce">.dxf</span>
+									</li>
+																	<li>
+										<span class="orange">FBX</span> <span class="bleu-fonce">.fbx</span>
+									</li>
+																	<li>
+										<span class="orange">glTF</span> <span class="bleu-fonce">.gltf .bin .glb</span>
+									</li>
+																	<li>
+										<span class="orange">IFC</span> <span class="bleu-fonce">.ifc .ifcxml</span>
+									</li>
+																	<li>
+										<span class="orange">IGES</span> <span class="bleu-fonce">.igs</span>
+									</li>
+																	<li>
+										<span class="orange">JT</span> <span class="bleu-fonce">.jt</span>
+									</li>
+																	<li>
+										<span class="orange">OBJ</span> <span class="bleu-fonce">.obj</span>
+									</li>
+																	<li>
+										<span class="orange">Open CASCADE</span> <span class="bleu-fonce">.brep</span>
+									</li>
+																	<li>
+										<span class="orange">Parasolid</span> <span class="bleu-fonce">.x_t .x_b</span>
+									</li>
+																	<li>
+										<span class="orange">PDF 2D</span> <span class="bleu-fonce">.pdf</span>
+									</li>
+																	<li>
+										<span class="orange">PDF 3D</span> <span class="bleu-fonce">.pdf</span>
+									</li>
+																	<li>
+										<span class="orange">PLM XML</span> <span class="bleu-fonce">.plmxml</span>
+									</li>
+																	<li>
+										<span class="orange">PRC</span> <span class="bleu-fonce">.prc</span>
+									</li>
+																	<li>
+										<span class="orange">SOLIDWORKS 3D</span> <span class="bleu-fonce">.sldprt .sldasm</span>
+									</li>
+																	<li>
+										<span class="orange">STEP</span> <span class="bleu-fonce">.stp .stpZ</span>
+									</li>
+																	<li>
+										<span class="orange">STL</span> <span class="bleu-fonce">.stl</span>
+									</li>
+																	<li>
+										<span class="orange">UG NX 3D</span> <span class="bleu-fonce">.prt</span>
+									</li>
+																	<li>
+										<span class="orange">Unisurf</span> <span class="bleu-fonce">.uni</span>
+									</li>
+																	<li>
+										<span class="orange">VRML</span> <span class="bleu-fonce">.wrl</span>
+									</li>
+															</ul>
+						</div>
+
+					</li>
+					<li class="accordeon no-none">
+						<h3>How licences work</h3>
+
+						<div class="break_avoid bleu-fonce">
+							<span class="bold">
+								 You must have a licence to use CrossManager.							</span>
+							<div class="mb20">
+								You can buy one by <a class="size18" href="contact/contact.php">contacting us</a>, or <a class="size18" href="account/test_licenses.php">apply for a trial license</a> to test the quality of the software.							</div>
+
+							<span class="bold">
+								 Each input or output format requires its own licence to work.							</span>
+							<div class="mb20">
+								 That way, you can order your "à la carte" configuration according to your needs, and only buy the formats you need.							</div>
+							<span class="bold">
+								We provide three types of licenses :
+							</span>
+							<div class="mb50">
+								-  <strong>single licences</strong>, that operate on a single workstation.<br>
+								-  <strong>floating licences</strong>, installed on a licence server so that CrossManager can be used on different workstations. You can choose the number of “tokens”, which defines the number of users who can use the software simultaneously.<br>
+								-  <strong>remote licenses</strong>, installed on a single workstation, but which can be used remotely from another workstation.							</div>
+							<div class="mb50 flex justify-center">
+								<a href="account/test_licenses.php" class="bouton bouton-ovale bouton-clair">
+									Apply for a trial license <span class="icon-fleche-triangle"></span>
+								</a>
+							</div>
+							<div class="mb50 flex justify-center">
+								<a href="contact/contact.php" class="bouton orange_hover">
+									 Contact								</a>
+							</div>
+						</div>
+
+					</li>
+					<li class="accordeon no-none" id="combinaisons3D">
+						<h3 id="goCombinaisons3D">All combinations</h3>
+						<div class="cols-center-12">
+							 	<table id="tableau-combinaisons-3D" class="tableau-double-entree zoomable " border="1">
+		<caption class="orange">
+			<span class="bleu-fonce chapeau_bold">Combinations</span> <span class="bold chapeau_bold ">CrossManager 3D</span>		</caption>
+		<thead>
+			<tr>
+				 					<th class="th-principal diagonal">
+						<span class="lb">Inputs</span>
+						<span class="rt txt-hide">Outputs</span>
+						<div class="line"></div>
+					</th>
+													<th title="3DXML output">
+						 3DXML					</th>
+									<th title="3MF output">
+						 3MF					</th>
+									<th title="ACIS output">
+						 ACIS					</th>
+									<th title="CATIA V5 3D output">
+						 CATIA V5 3D					</th>
+									<th title="CGR output">
+						 CGR					</th>
+									<th title="COLLADA output">
+						 COLLADA					</th>
+									<th title="FBX output">
+						 FBX					</th>
+									<th title="glTF output">
+						 glTF					</th>
+									<th title="IFC output">
+						 IFC					</th>
+									<th title="IGES output">
+						 IGES					</th>
+									<th title="JT output">
+						 JT					</th>
+									<th title="OBJ output">
+						 OBJ					</th>
+									<th title="Open CASCADE output">
+						 Open CASCADE					</th>
+									<th title="Parasolid output">
+						 Parasolid					</th>
+									<th title="PDF 3D output">
+						 PDF 3D					</th>
+									<th title="PLM XML output">
+						 PLM XML					</th>
+									<th title="PRC output">
+						 PRC					</th>
+									<th title="SOLIDWORKS 3D output">
+						 SOLIDWORKS 3D					</th>
+									<th title="STEP output">
+						 STEP					</th>
+									<th title="STL output">
+						 STL					</th>
+									<th title="UG NX 3D output">
+						 UG NX 3D					</th>
+									<th title="Unisurf output">
+						 Unisurf					</th>
+									<th title="VRML output">
+						 VRML					</th>
+							</tr>
+		</thead>
+		<tbody>
+			 				<tr>
+					<td class="title-tab" title="3DVIA / CATIA / SOLIDWORKS Composer input">
+						 3DVIA / CATIA / SOLIDWORKS Composer					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion 3DVIA / CATIA / SOLIDWORKS Composer 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS COMPOSER 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CM 3DVIA / CATIA / SOLIDWORKS Composer 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="ACIS input">
+						 ACIS					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ACIS 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CATIA V4 3D input">
+						 CATIA V4 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CATIA V5 3D input">
+						 CATIA V5 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CATIA V6 / 3DEXPERIENCE 3D input">
+						 CATIA V6 / 3DEXPERIENCE 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CGR input">
+						 CGR					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion CGR 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Creo View input">
+						 Creo View					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CREO VIEW 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Creo View 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="DWG / DXF 3D input">
+						 DWG / DXF 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to Parasolid">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="FBX input">
+						 FBX					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion FBX 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Fusion 360 input">
+						 Fusion 360					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to PDF 3D">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion FUSION 360 TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Fusion 360 to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="glTF input">
+						 glTF					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to PDF 3D">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion GLTF 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion glTF 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="IFC input">
+						 IFC					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D TO 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion IFC 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="IGES input">
+						 IGES					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion IGES 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Inventor input">
+						 Inventor					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Inventor 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion INVENTOR 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="JT input">
+						 JT					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT TO PLM XML 3D">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion JT 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Navisworks input">
+						 Navisworks					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion NAVISWORKS TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Navisworks to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="OBJ input">
+						 OBJ					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion OBJ 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Parasolid input">
+						 Parasolid					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Parasolid 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PARASOLID 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="PLM XML input">
+						 PLM XML					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO OPEN CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to PDF 3D">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PLM XML 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="ProE / Creo Parametric 3D input">
+						 ProE / Creo Parametric 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion ProE / Creo Parametric 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="QIF 3D input">
+						 QIF 3D					</td>
+												<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion QIF 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion QIF 3D TO 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion QIF 3D TO PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion QIF 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion QIF 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Revit input">
+						 Revit					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion REVIT 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion Revit 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Rhino input">
+						 Rhino					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to Parasolid">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion RHINO 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to SOLIDWORKS ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to Unisurf">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Rhino 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Solid Edge 3D input">
+						 Solid Edge 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Solid Edge 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Solid Edge 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion Solid Edge 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO SOLIWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDEDGE 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="SOLIDWORKS 3D input">
+						 SOLIDWORKS 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="STEP input">
+						 STEP					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D to UG NX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STEP 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="STL input">
+						 STL					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion STL 3D to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="UG NX 3D input">
+						 UG NX 3D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to 3MF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO ACIS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO CATIA V5">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to IFC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to Open CASCADE">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO PARASOLID">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO PLM XML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 3D to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO SOLIDWORKS">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO UNISURF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="USD input">
+						 USD					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion USD to 3DXML">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD TO CGR">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion USD TO COLLADA">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion USD to FBX">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion USD to glTF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD TO JT">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion USD TO OBJ">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD TO 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD to PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD to STL">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion USD to VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="ZW3D input">
+						 ZW3D					</td>
+												<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion ZW3D TO IGES">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion ZW3D TO 3DPDF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion ZW3D TO PRC">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion ZW3D TO STEP">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_not_ok infobulle" aria-label="Conversion not supported by CrossManager">
+								<span class="icon-croix"></span>
+							</td>
+														<td class="cellules_ok infobulle" aria-label="Conversion ZW3D TO VRML">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+					</tbody> <!-- fin tbody-->
+	</table>
+		<table id="tableau-combinaisons-2D" class="tableau-double-entree  tableau-fixed-sur-ecrans-moyens-et-larges" border="1">
+		<caption class="orange">
+			<span class="bleu-fonce chapeau_bold">Combinations</span> <span class="bold chapeau_bold ">CrossManager 2D</span>		</caption>
+		<thead>
+			<tr>
+				 					<th class="th-principal diagonal">
+						<span class="lb">Inputs</span>
+						<span class="rt txt-hide">Outputs</span>
+						<div class="line"></div>
+					</th>
+													<th title="DXF 2D output">
+						 DXF 2D					</th>
+									<th title="PDF 2D output">
+						 PDF 2D					</th>
+							</tr>
+		</thead>
+		<tbody>
+			 				<tr>
+					<td class="title-tab" title="CATIA V4 2D input">
+						 CATIA V4 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V4 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CATIA V5 2D input">
+						 CATIA V5 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V5 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="CATIA V6 / 3DEXPERIENCE 2D input">
+						 CATIA V6 / 3DEXPERIENCE 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion CATIA V6 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="DWG / DXF 2D input">
+						 DWG / DXF 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion DWG 2D to DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion DWG / DXF 2D to PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="ProE / Creo Parametric 2D input">
+						 ProE / Creo Parametric 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion PROE / CREO PARAMETRIC 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="Solid Edge 2D input">
+						 Solid Edge 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLID EDGE 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="SOLIDWORKS 2D input">
+						 SOLIDWORKS 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion SOLIDWORKS 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+							<tr>
+					<td class="title-tab" title="UG NX 2D input">
+						 UG NX 2D					</td>
+												<td class="cellules_ok infobulle" aria-label="Conversion UNIGRAPHICS 2D TO DXF">
+								<span class="icon-coche"></span>
+							</td>
+													<td class="cellules_ok infobulle" aria-label="Conversion UG NX 2D TO PDF">
+								<span class="icon-coche"></span>
+							</td>
+										</tr>
+					</tbody> <!-- fin tbody-->
+	</table>
+							</div>
+					</li>
+					<li class="accordeon no-none" id="crosscadversion">
+						<h3>Converters and supported versions</h3>
+						<div>
+							 							<table id="interface" border="1" class="tableau-double-entree tableau-double-entree-orange">
+								<caption>
+									<span class="bleu-fonce chapeau_bold">Converters and managed versions by</span> <span class="bold chapeau_bold orange">CrossManager</span>
+																	</caption>
+								<thead>
+									<tr>
+										<th class="th-principal">
+											<b>Formats</b>
+										</th>
+										<th class="th-principal" colspan="2">
+											<b>Reading</b>
+										</th>
+										<th class="th-principal" colspan="2">
+											<b>Writing</b>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>
+										</th>
+										<th>
+											 Versions										</th>
+										<th>
+											 Extensions										</th>
+										<th>
+											 Versions										</th>
+										<th>
+											 Extensions										</th>
+									</tr>
+																			<tr>
+											<td class="coltitle">
+												 3DVIA / CATIA / SOLIDWORKS Composer											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>3.6 to 7.x</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.smg .smgGeom</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 3DXML											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>1.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.3dxml</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 3MF											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 N/A												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.3mf</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 ACIS											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>Up to 2025 1.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.sat .asat .sab .asab</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>V5, 6-8, 10-31, 33</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.sat</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V4 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>4.15 to 4.24</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.model .dlv .dlv3 .exp</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V4 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>4.15 to 4.25</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.model .dlv .dlv3 .exp .session</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V5 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R10 to V5-6R2026</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.CATDrawing</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V5 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R10 to V5-6R2026</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.CATPart .CATProduct</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>R14, R19, R20, R21 &amp; V5-6R2012 to V5-6R2026</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.CATPart .CATProduct</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V6 / 3DEXPERIENCE 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R2010x to R2026x</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.3dxml</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CATIA V6 / 3DEXPERIENCE 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R2010x to R2026x</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.3dxml</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 CGR											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R10 to V5-6R2026 (R36)</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.cgr</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>R14 &amp; R19</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.cgr</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 COLLADA											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>1.4.1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.dae</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Creo View											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>MCAD 6.1.0.0 to 12.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.ol .ed .edz .pvs .pvz</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 DWG / DXF 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R2.5 up to R2018</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.dwg .dxf</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 DWG / DXF 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>R2.5 up to R2018</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.dwg .dxf</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 DXF 2D											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 N/A												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.dxf</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 FBX											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>6.1 to 7.7, Binary &amp; ASCII</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.fbx</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>7.4</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.fbx</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Fusion 360											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>up to 2703.1.11</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.f3d</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 glTF											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.gltf .bin .glb</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>2.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.gltf .bin .glb</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 IFC											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2x3 &amp; 2x4 &amp; 4 add1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.ifc .ifcxml .ifczip</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>2x3 &amp; 4</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.ifc .ifcxml</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 IGES											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>up to 5.3</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.igs .iges</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>5.2</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.igs</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Inventor											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>9 to 2027</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.ipt .iam</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 JT											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>6.4 to. 10.10</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.jt</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>8.0 &amp; 9.0 to 10.10</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.jt</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Navisworks											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2016-2027</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.nwd</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 OBJ											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>all.</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.obj</b>
+												</td>
+																								<td>
+													 N/A												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.obj</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Open CASCADE											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>up to 7.7.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.brep</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Parasolid											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>V7 to V38.1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.x_t .x_b .xmt_txt .xmt_bin</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>V10 to V36.1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.x_t .x_b</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 PDF 2D											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>1.7</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.pdf</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 PDF 3D											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>1.7</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.pdf</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 PLM XML											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>4 &amp; 6</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.plmxml</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>6</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.plmxml</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 PRC											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>8137</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.prc</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 ProE / Creo Parametric 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2000i to Creo 13.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.drw .drw.*</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 ProE / Creo Parametric 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2000i to Creo 13.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.prt .prt.* .xpr .asm .asm.* .xas</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 QIF 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>3.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.qif</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Revit											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>2011 to 2027</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.rvt .rfa</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Rhino											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>6 to 8</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.3dm</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Solid Edge 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>ST1 to 2026</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.dft</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Solid Edge 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>10 to 2026</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.par .psm .asm .pwd</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 SOLIDWORKS 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>1999 to 2026 SP2.1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.slddrw</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 SOLIDWORKS 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>1999 to 2026 SP2.1</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.sldprt .sldasm</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>2006</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.sldprt .sldasm</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 STEP											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>AP203 (E1, E2), AP209, AP214 (up to E3), AP242 (up to E4), AP238(.stpnc)</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.stp .step .stpZ</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>AP203 (E1, E2), AP214 (E3), AP242 (E1, E3, E4)</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.stp .stpZ</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 STL											</td>
+																							<td>
+													 N/A												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.stl</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>Binary or ASCII</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.stl</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 UG NX 2D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>15 to NX 2606 Series (until 2606.1700)</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.prt</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 UG NX 3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>15 to NX 2606 Series (until 2606.1700)</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.prt</b>
+												</td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>NX 5,  NX 1980, NX 2212</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.prt</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 Unisurf											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 N/A												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.uni</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 USD											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>0.8.0 to 0.9.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.usd .usda .usdc</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 VRML											</td>
+																							<td></td>
+												<td></td>
+																								<td>
+													 <span class="tabDisplay">Version :  </span><b>2.0</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.wrl</b>
+												</td>
+																					</tr>
+									<tbody>
+									 										<tr>
+											<td class="coltitle">
+												 ZW3D											</td>
+																							<td>
+													 <span class="tabDisplay">Version : </span><b>up to ZW3D 2026 SP2</b>												</td>
+												<td>
+													<span class="tabDisplay">Extension : </span><b>.Z3PRT .Z3ASM .Z3 .VX</b>
+												</td>
+																								<td colspan="2"></td>
+																					</tr>
+									<tbody>
+									 							</table>
+						</div>
+					</li>
+					<li class="accordeon no-none">
+						<h3>Supported languages</h3>
+						<p>
+							<span class="bold">CrossManager is available in 9 languages</span> : French, English, German, Italian, Czech, Chinese, Russian, Korean and Japanese.<br>
+							You can choose your language in the software options.						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</article>
+
+	<article id="crosscad" class="large_flex text_cross">
+		<div class="">
+			<div class="trapezoid_cross">
+				<div class="ATT_trapezoid_dev_droit">
+					<div class="icon-box-img wauto">
+						<div class="icon-box-cross">
+							<h2 class="titre_cross">CrossCad/Plug-in</h2>
+						</div>
+						<div class="icon_cross">
+							<img src="/imgs/design/en/convert-plugins.png" alt="CAD CAO convert plugins">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="titre_h3 ligne_after">
+			 Integrated converters			<br>for SolidWorks or Rhino.		</span>
+	</article>
+
+	<article class="large_flex large article-aere">
+		<div class="txt-rejoindre-1">
+			These SolidWorks and Rhino plug-ins let you <span class="bold">read formats that these softwares do not natively support</span>
+			or <span class="bold">and save files in different formats than</span> those of SolidWorks or Rhino.			<ul class="ul_check_h5 ul_check_h5_orange mt30 mb30">
+				<li><span class="bold orange">01</span> <span class="bold">-</span> <span class="bold">You install the plug-in.</span></li>
+				<li><span class="bold orange">02</span> <span class="bold">-</span> <span class="bold">The Datakit menu is created in the SolidWorks or Rhino software.</span></li>
+				<li><span class="bold orange">03</span> <span class="bold">-</span> <span class="bold"><span class="bold">You then have direct access to the Datakit menu for all of your model import or export operations.</span> </li>
+				<li class="no_background"></li>
+				<li class="no_background"></li>
+				<li><span class="bold">Easy to install.</span></li>
+				<li><span class="bold">Easy to use.</span> </li>
+				<li><span class="bold">Reliable conversion from</span> many formats.</li>
+				<li><span class="bold">Regular updates</span> directly on the Datakit website for users with an up-to-date maintenance contract.</li>
+			</ul>
+		</div>
+		<div class="txt-rejoindre-2 tester-cross">
+			<span class="lien lien_indent orange icon-right-small"><a class="orange" href="/en/conversion-plug-ins/rhino-25.html">Learn more about Rhino</a></span>
+			<span class="ml30"><span class="bold">To view the list of Rhino plug-ins and purchase a licence.</span></span>
+			<span class="lien lien_indent orange icon-right-small mt30"><a class="orange" href="/en/conversion-plug-ins/solidworks-12.html">Learn more about Solidworks</a></span><!-- https://www.datakit.com/fr/plug-ins-de-conversion/solidworks-12.html -->
+			<span class="bold ml30"><span class="bold">To view the list of SolidWorks plug-ins and purchase a licence.</span></span>
+			<span class="lien lien_indent orange icon-right-small mt30 mw40"><a class="orange" href="contact/contact_cross_manager.php">Contact Datakit</a></span>
+			<span class="bold ml30"><span class="bold"><span class="bold">For product information.</span></span></span>
+		</div>
+	</article>
+
+	<article class="large img-footer-carre-orange">
+	</article>
+
+</section>
+</main>
+<footer id="main-footer">
+	<ul class="menu-footer unstyled">
+		<li>
+			<a href="/">
+				<img src="/imgs/design/logo-footer.png" alt="logo Datakit" class="logo-footer" />
+			</a>
+			<ul class="unstyled">
+				<li>
+					<a href="https://twitter.com/DatakitSoftware" target="_blank"><span class="icon-twitter-x"></span></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company/datakit/" target="_blank"><span class="icon-linkedin"></span></a>
+				</li>
+							</ul>
+			<p class="copyright">
+				© 2026 - <a href="legal_notices.php">Legal Notice</a>
+			</p>
+		</li>
+		<li>
+			<h2><a href="about.php">Company</a></h2>
+			<ul class="unstyled">
+				<li>
+					<a href="about.php">Interoperability Experts</a>
+				</li>
+				<li>
+					<a href="our_hallmarks.php">Our hallmarks</a> 				</li>
+				<li>
+					<a href="step_why.php">Datakit and STEP</a>
+				</li>
+				<li>
+					<a href="join_datakit.php">Join Datakit</a>
+				</li>
+				<li>
+					<a href="getting_to_datakit.php">Access map</a>
+				</li>
+				<li>
+					<a href="partners.php">Partners</a>
+				</li>
+				<li>
+					<a href="partners_search.php">Distributors</a>
+				</li>
+							</ul>
+		</li>
+
+		<li>
+			<h2><a href="../en/">Our solutions</a></h2>
+			<ul class="unstyled">
+				<li>
+					<a href="cross_manager.php">CrossManager</a>
+				</li>
+				<li>
+					<a href="crosscad_plg.php#crosscad">CrossCad/Plug-in</a>
+				</li>
+				<li>
+					<a href="crosscad_ware.php">CrossCad/Ware</a>
+				</li>
+							</ul>
+		</li>
+		<li>
+			<h2>Information</h2>
+			<ul class="unstyled">
+				<li>
+					<a href="contact/contact.php">Contact</a>
+				</li>
+				<li>
+					<a href="sitemap.php">Site map</a>
+				</li>
+				<li>
+					<a href="login.php">User area</a>
+				</li>
+				<li>
+					<a href="faq.php">FAQs</a>
+				</li>
+
+				<li>
+					<a href="search.php">Research</a>
+				</li>
+				<li>
+					<a href="first_visit.php">First visit</a>
+				</li>
+				<li>
+					<a href="news.php">News</a>
+				</li>
+				<li>
+					<a href="rss_feeds.php">RSS feed</a>
+				</li>
+				<li>
+					<a href="medias.php">Documentation</a> 				</li>
+				<li>
+					<a href="archives.php">Archives</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	</footer>
+</div>
+<div id="shadder"></div>
+<a id="top-button" href="/en/cross_manager.php#">
+	<span class="icon-fleche"></span>
+</a>
+<script src="/js/script.js"></script>
+</body>
+</html>

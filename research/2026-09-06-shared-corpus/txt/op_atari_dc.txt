@@ -1,0 +1,413 @@
+
+Atari Games Corp. v. Nintendo of America, 897 F.2d 1572 | Casetext Search + Citator
+All State & Fed.
+JX
+Search the Law
+Search
+Help
+Sign In
+Sign Up
+Sign Up
+Opinion
+Summaries
+Case details
+Atari Games Corp. v. Nintendo of America
+Citing Cases
+FAIRFIELD RESORTS v. FAIRFIELD MTN. PROP. OWNERS ASSO
+Moreover, a district court should be wary of issuing an injunction based solely upon allegations and…
+U.S. Ass'n of Importers v. U.S. Dept. of C
+Even if the balance of harms tips sharply in favor of the movant, however, the movant must demonstrate at…
+77&#x20;
+Citing Cases
+Case Details
+Full title:
+ATARI GAMES CORPORATION AND TENGEN, INC., PLAINTIFFS/CROSS-APPELLANTS, v…
+Court:
+United States Court of Appeals, Federal Circuit
+Date published:&#x20;
+Apr 3, 1990
+Citations
+Copy Citation
+897 F.2d 1572 (Fed. Cir. 1990)
+Citing Cases
+FAIRFIELD RESORTS v. FAIRFIELD MTN. PROP. OWNERS ASSO
+Moreover, a district court should be wary of issuing an injunction based solely upon allegations and…
+U.S. Ass'n of Importers v. U.S. Dept. of C
+Even if the balance of harms tips sharply in favor of the movant, however, the movant must demonstrate at…
+77&#x20;
+Citing Cases
+From Casetext: Smarter Legal Research
+Atari Games Corp. v. Nintendo of America
+United States Court of Appeals, Federal Circuit
+Apr 3, 1990
+897 F.2d 1572 (Fed. Cir. 1990)
+Copy Citation
+Download&#x20;
+PDF
+Check&#x20;
+Treatment
+Summary
+vacating preliminary injunction against filing infringement suits
+Summary of this case from&#x20;
+Mallinckrodt, Inc. v. Medipart, Inc.
+See 10 Summaries
+Opinion
+ Nos. 89-1396, 89-1426. 
+ March 7, 1990. Rehearing Denied April 3, 1990. 
+ Morgan Chu, Richard C.P. De Bodo, and Dorette S. Feit, Irell Manella, Los Angeles, Cal., argued for plaintiffs/cross-appellants. Robert Steinberg, Irell Manella, Los Angeles, Cal., of counsel. 
+ Thomas G. Gallatin, Jr., Mudge Rose Guthrie Alexander Ferson, New York City, argued for defendants-appellants. With him on the brief was John J. Kirby, Jr. Also on the brief were George A. Cumming, Jr., Jeffrey S. Kingston and Thomas M. Kingston, Brobeck, Phleger Harrison, San Francisco, Cal. 
+ Appeal from the United States District Court for the Northern District of California. 
+ Before MARKEY, Chief Judge, SMITH, Senior Circuit Judge, and NORGLE,
+ District Judge.  
+ The Honorable Charles R. Norgle, United States District Court for the Northern District of Illinois, Eastern Division, sitting by designation.
+ NORGLE, District Judge. 
+ Atari Games Corporation, (Atari) and its wholly owned subsidiary, Tengen Inc. (Tengen), have brought suit against Nintendo of America, Inc. and Nintendo Co., Ltd., (collectively Nintendo) for unfair competition and violations of section 2 of the Sherman Anti-Trust Act, 
+15 U.S.C. &sect; 2
+ (1988), based upon alleged monopolization and attempted monopolization of the markets for home video game machines and home video games and game cartridges playable on the Nintendo Entertainment System. Nintendo has also brought suit against Atari and Tengen for alleged patent infringement, Lanham Trade-Mark Act and RICO violations, breach of contract, unfair competition and tortious interference with contract. Atari and Tengen sought a preliminary injunction enjoining Nintendo from filing lawsuits for contributory infringement against customers of Atari. The district court granted the motion but also enjoined Atari and Tengen from filing suit against Nintendo customers. Both parties have appealed. For the following reasons, the court vacates the preliminary injunction and remands this action to the district court for disposition consistent with this opinion. 
+ BACKGROUND
+ Nintendo manufactures the Nintendo Entertainment System (NES). The NES has met with enormous success and Nintendo now is the undisputed industry leader in home video game entertainment, occupying an 80% share of the market for home video games. The NES includes a base console which allows the playing of various video games on a television screen and cartridges containing those games for use in the console. The NES contains a security system, which consists of a master computer chip in the base console and a slave computer chip in the cartridge. Atari says the security system renders it impossible to play a video game cartridge on the NES unless both chips are present. On January 24, 1989, Nintendo obtained a patent on the security system encompassing both the master chip and the slave chip described in the patent as necessary for a game cartridge to be played on the NES. 
+ Tengen obtained a license from Nintendo, the patent owner, for the development and distribution of game software for the NES. Under the licensing agreement, Tengen was to create video games for use on the NES. Nintendo reserved the right to approve the game and manufacture the game cartridge. Nintendo would then sell the completed cartridges to Tengen for distribution. Tengen developed three games for Nintendo: "Pac-Man", "Gauntlet" and "RBI Baseball". 
+ In December 1988, Atari, without obtaining a license from Nintendo, began to manufacture and sell its own Nintendo compatible cartridges which were able to circumvent the NES security system. On December 12, 1988, Atari filed this suit against Nintendo. Atari has asserted that Nintendo is improperly using its patent and greater market share to monopolize the home video game market. Specifically, Atari asserts that, once Nintendo received a patent 
+ on its security system, Nintendo sent letters to retailers of Nintendo and Atari game cartridges, such as Toys "R" Us and Bradlees, threatening suit for patent infringement against any retailer who continued to sell unauthorized NES compatible game cartridges. Nintendo then filed suit against Atari, alleging among other things patent infringement and Lanham Act and RICO violations. 
+ DISTRICT COURT PROCEEDINGS
+ The suits were consolidated and Atari sought a preliminary injunction preventing Nintendo from suing retailers of Atari's NES compatible cartridges. The district court granted the preliminary injunction, concluding that the practices alleged by Atari "raised serious questions going to the merits" of Atari's antitrust claims. The court further determined that the balance of hardships and public interest favored imposition of an injunction restraining Nintendo from filing lawsuits against customers, retailers, distributors and dealers of Atari game cartridges. However, the court went further than Atari asked, making the injunction reciprocally binding on Atari and Tengen as well. Both parties then appealed that decision to this court. 
+ OPINION
+ The decision to grant or deny a preliminary injunction is within the sound discretion of the district court. 
+Xeta, Inc. v. Atex, Inc.,
+852 F.2d 1280, 1282
+, 
+7 USPQ2d 1471, 1473
+ (Fed. Cir. 1988). This court may reverse the district court's decision only if the district court has committed an abuse of discretion, if the decision is based upon an error of law or if the court misapplied the law to particular facts. 
+Xeta,
+852 F.2d at 1282
+, 
+7 USPQ2d at 1473
+. When the questions on appeal involve law and precedent on subjects not exclusively assigned to the Federal Circuit, the court applies the law which would be applied by the regional circuit. 
+Panduit Corp. v. All States Plastic Mfg. Co.,
+744 F.2d 1564, 1575
+, 
+223 USPQ 465, 472
+ (Fed. Cir. 1984). In this action, the applicable law is that of the Ninth Circuit. 
+ The Ninth Circuit has long held that, in order to obtain a preliminary injunction, a movant must show: 1) a strong likelihood of success on the merits, 2) the possibility of irreparable injury to the plaintiff if the preliminary relief is not granted, 3) the balance of hardships favoring the plaintiff, and 4) advancement of the public interest. 
+Los Angeles Memorial Coliseum Comm. v. National Football League,
+634 F.2d 1197, 1200
+ (9th Cir. 1980); 
+William Inglis Sons Baking v. ITT Continental Baking Co. Inc.,
+526 F.2d 86, 87
+ (9th Cir. 1975). A party may meet the burden under these four factors by demonstrating either: 1) a combination of probable success on the merits and the possibility of irreparable injury, or 2) that serious questions of law are raised and the balance of hardships tips sharply in its favor. 
+Fong v. Lawn,
+851 F.2d 1559, 1561
+ (9th Cir. 1988); 
+L.A. Memorial Coliseum,
+634 F.2d at 1197
+; 
+Inglis,
+526 F.2d at 88
+. 
+ As a general rule, a preliminary injunction should not issue on the basis of affidavits alone. 
+People ex rel. Hartigan v. Peters,
+871 F.2d 1336
+ (7th Cir. 1989); 
+Medeco Sec. Locks, Inc. v. Swiderek,
+680 F.2d 37
+, 
+216 USPQ 577
+ (7th Cir. 1981); 
+Carter-Wallace, Inc. v. Davis-Edwards Pharmacal Corp.,
+443 F.2d 867
+, 
+169 USPQ 625
+ (2d Cir. 1971). Moreover, a district court should be wary of issuing an injunction based solely upon allegations and conclusory affidavits submitted by plaintiff. 
+See American Passage Media Corp. v. Cass Communications,
+750 F.2d 1470
+ (9th Cir. 1985) (reversing grant of preliminary injunction of alleged antitrust violations based on conclusory affidavits); 
+Oakland Tribune, Inc. v. Chronicle Publishing Co.,
+762 F.2d 1374
+ (9th Cir. 1985) (denying preliminary injunction of alleged antitrust violations supported by only two affidavits). When granting an injunction, Rule 52(a) requires that a court set forth the findings of fact and conclusions of law which are the basis of its decision. 
+Fed.R.Civ.P. 52(a)
+. The district court need not make binding findings of fact, but at the very least, must find probabilities that the necessary facts can be proved. 
+Sierra On-Line,
+Inc. v. Phoenix Software, Inc.,
+739 F.2d 1415
+, 
+223 USPQ 227
+ (9th Cir. 1984). 
+ A preliminary injunction takes on special significance when the injunction involves patent rights and antitrust allegations. The patent laws were enacted by Congress pursuant to Article I, section 8 of the United States Constitution.
+ Congress gave inventors the right to obtain patents on their inventions and thereby gain the right to exclude others from making, using or selling the invention, without the consent of the patent owner, for a period of seventeen years. 
+35 U.S.C. &sect; 154
+ (1982). Moreover, Congress has specifically granted patent owners the right to commence a civil suit in order to protect their inventions. 
+35 U.S.C. &sect; 281
+ (1982); 7 J. Von Kalinowski, 
+Antitrust Laws and Trade Regulation
+ at 59-15 (1989). As stated by the Ninth Circuit, "[p]atentees must be permitted to test the validity of their patents in court through actions against alleged infringers." 
+Handguards, Inc. v. Ethicon, Inc.,
+601 F.2d 986, 993
+, 
+202 USPQ 342, 348
+ (9th Cir. 1979), 
+cert. den.,
+444 U.S. 1025
+, 
+100 S.Ct. 688
+, 
+62 L.Ed.2d 659
+ (1980); 
+see also,
+ 7 J. Von Kalinowski, 
+Antitrust Laws and Trade Regulation,
+ at 59-111 (infringement suits, in and of themselves, do not violate antitrust laws).  
+ "The Congress shall have Power . . . To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries . . . " U.S. Const. Art. I, &sect; 8.
+ When the patented product is merely one of many products that actively compete on the market, few problems arise between the property rights of a patent owner and the antitrust laws. 
+SCM Corp. v. Xerox Corp.,
+645 F.2d 1195, 1203
+, 
+209 USPQ 889, 899
+ (2d Cir. 1981). However, when the patented product is so successful that it creates its own economic market or consumes a large section of an existing market, the aims and objectives of patent and antitrust laws may seem, at first glance, wholly at odds. However, the two bodies of law are actually complementary, as both are aimed at encouraging innovation, industry and competition. 
+Loctite Corp. v. Ultraseal Ltd.,
+781 F.2d 861, 876-77
+, 
+228 USPQ 90, 100-101
+ (Fed. Cir. 1985). 
+ There may on occasion exist, therefore, a fine line between actions protecting the legitimate interests of a patent owner and antitrust law violations. On the one hand, the patent owner must be allowed to protect the property right given to him under the patent laws. 
+ On the other hand, a patent owner may not take the property right granted by a patent and use it to extend his power in the marketplace improperly, i.e. beyond the limits of what Congress intended to give in the patent laws. The fact that a patent is obtained does not wholly insulate the patent owner from the antitrust laws. 
+United States v. Line Material Co.,
+333 U.S. 287, 308
+, 
+68 S.Ct. 550, 560
+, 
+92 L.Ed. 701
+, 
+76 USPQ 399, 409
+ (1948); 
+Miller Insituform v. Insituform of N.A.,
+830 F.2d 606, 608
+, 
+4 USPQ2d 1463, 1464
+ (6th Cir. 1987), 
+cert. den.,
+484 U.S. 1064
+, 
+108 S.Ct. 1023
+, 
+98 L.Ed.2d 988
+ (1988); 
+United States v. Westinghouse Elec. Corp.,
+648 F.2d 642, 647
+ (9th Cir. 1981). When a patent owner uses his patent rights not only as a shield to protect his invention, but as a sword to eviscerate competition unfairly, that owner may be found to have abused the grant and may become liable for antitrust violations when sufficient power in the relevant market is present. Therefore, patent owners may incur antitrust liability for enforcement of a patent known to be obtained through fraud
+ or known to be invalid,
+ where license of a patent compels the purchase of unpatented goods,
+ or where there is an overall scheme to use the patent to 
+ violate antitrust laws.
+Walker Process Equip., Inc. v. Food Mach. and Chem. Corp.,
+382 U.S. 172, 177
+, 
+86 S.Ct. 347, 350
+, 
+15 L.Ed.2d 247
+, 
+141 USPQ 404
+ (1965).
+Handguards, Inc. v. Ethicon, Inc.,
+601 F.2d 986
+, 
+202 USPQ 342
+ (9th Cir. 1979), 
+cert. denied,
+444 U.S. 1025
+, 
+100 S.Ct. 688
+, 
+62 L.Ed.2d 659
+ (1980).
+Morton Salt Co. v. G.S. Suppiger Co.,
+314 U.S. 488
+, 
+62 S.Ct. 402
+, 
+86 L.Ed. 363
+ (1942).
+Kobe v. Dempsey Pump Co.,
+198 F.2d 416
+, 
+94 USPQ 43
+ (10th Cir.), 
+cert. denied,
+344 U.S. 837
+, 
+73 S.Ct. 46
+, 
+97 L.Ed. 651
+ (1952).
+ The danger of disturbing the complementary balance struck by Congress is great when a court is asked to preliminarily enjoin conduct affecting patent and antitrust rights. A preliminary injunction entered without a sufficient factual basis and findings, though intended to maintain the status quo, can offend the public policies embodied in both the patent and antitrust laws. 
+ The district court based its grant of the preliminary injunction on the second alternative announced in 
+Los Angeles Memorial Coliseum
+ and 
+Inglis,
+ namely that "serious questions" existed and the balance of harms tipped sharply in favor of Atari. A "serious question" has been characterized as one where the movant has a fair chance of success on the merits. 
+Sierra On-Line, Inc.,
+739 F.2d at 1421
+; 
+Benda v. Grand Lodge of Int'l Ass'n. of Machinists and Aerospace Workers,
+584 F.2d 308, 315
+ (9th Cir.), 
+cert. dismissed,
+ 441 U.S. 937, 99 S.Ct. 2065, 60 L.Ed.2d 667 (1978). In determining the existence of "serious questions", the district court relied solely upon allegations made by Atari: 
+ Atari alleges that Nintendo has engaged in monopolistic practices through its licensing agreements. Specifically, Atari notes that Nintendo, through its licensing agreements: 1) prohibits a licensee from selling Nintendo approved cartridges outside the United States; 2) prohibits a licensee from producing any Nintendo approved games for use on any other home system; 3) requires the licensee to buy Nintendo approved games from Nintendo; 4) limits the number of games which Nintendo will approve of for distribution in the United States. These allegations are supported by the documents submitted, and are not substantially disputed by Nintendo. These allegations, in the Court's view, raise serious questions going to the merits of the case. Although the Court, at this juncture, is unwilling to make a finding of bad faith prosecution by Nintendo, the allegations, if proved, could result in antitrust liability for Nintendo. . . . Accordingly, the Court finds that this prong of the formulation has been satisfied by Atari.
+ District Court opinion, p. 3-4 (Citations omitted). This paragraph constitutes the entire basis articulated by the district court for its finding of "serious questions" necessary for the granting of a preliminary injunction. 
+ After examination of the district court's opinion and the record below, this court cannot find a factual basis sufficient to support the findings necessary to grant a preliminary injunction. On the basis of the sparse record before the court, we hold that the granting of a preliminary injunction here to be an abuse of discretion. The district court made no findings of fact, save for the lone finding that "[t]hese allegations are supported by the documents submitted, and are not substantially disputed by Nintendo." Nowhere does the district court make a finding that Atari could probably prove its allegations. The district court has not referred to a factual basis for its granting of the preliminary injunction against Nintendo and this court cannot find one.
+ Also absent from its opinion and the record is the district court's basis for expanding the injunction to make it binding on Atari and Tengen.  
+ Under certain circumstances, a preliminary injunction can issue on the basis of affidavits alone. 
+International Molders' Allied Workers' Local Union No. 164 v. Nelson,
+799 F.2d 547
+ (9th Cir. 1986). However, due to the competing interests here, reliance solely on plaintiff's allegations and supporting affidavits is an abuse of discretion.
+ Moreover, as patents are cloaked in a presumption of validity, a patent infringement suit is presumed to be brought in good faith. 
+Handguards, Inc. v. Ethicon, Inc.,
+601 F.2d 986, 996
+, 
+202 USPQ 342, 351
+ (9th Cir. 1979), 
+cert. denied,
+444 U.S. 1025
+, 
+100 S.Ct. 688
+, 
+62 L.Ed.2d 659
+ (1980). Yet, the record fails to reflect that Atari came forth with any evidence sufficient to show it had a fair chance of success in overcoming 
+ this presumption of validity and to prove that Nintendo was enforcing its patent in bad faith or expanding its patent rights beyond their proper scope. On the contrary, the district court specifically refused to find that Nintendo was proceeding in bad faith with its patent enforcement. Again, the lone general finding made by the district court is clearly not sufficient to support a finding of a fair chance of success and warrant the imposition of a preliminary injunction. 
+ It also appears from the opinion below that the district court assumes the truth of Atari's antitrust allegations. However, this court cannot find, either in the district court's opinion or anywhere in the record, specific factual findings or the basis for any findings concerning Nintendo's licensing agreement running afoul of the antitrust laws. Many of the restrictions Nintendo places on its licensees are not, as a matter of law, antitrust violations. For example, Atari claims that the clause restricting the sale of game cartridges outside the United States violates antitrust laws. However, the Supreme Court has held that nonprice vertical restrictions on the location of resale of products are not per se violations, but are to be judged according to the "rule of reason", wherein all circumstances are weighed in deciding whether a restrictive practice is an unreasonable restraint on competition. 
+Continental T.V., Inc. v. GTE Sylvania Inc.,
+433 U.S. 36, 57-58
+, 
+97 S.Ct. 2549, 2561-62
+, 
+53 L.Ed.2d 568
+ (1977). In addition, the Ninth Circuit has specifically held that license restrictions on the foreign export of a patented product do not violate antitrust laws. 
+Brownell v. Ketcham Wire Mfg. Co.,
+211 F.2d 121
+, 
+100 USPQ 338
+ (9th Cir. 1954). Neither does limiting the number of game cartridges which can be distributed constitute a 
+per se
+ violation. 
+U.S. v. E.I. DuPont de Nemours Co.,
+118 F. Supp. 41
+, 
+99 USPQ 402
+ (D.Del. 1953), 
+aff'd on other grounds,
+351 U.S. 377
+, 
+76 S.Ct. 994
+, 
+100 L.Ed. 1264
+ (1956); 
+United States v. Parker-Rust-Proofing Co.,
+61 F. Supp. 805
+, 
+65 USPQ 563
+ (E.D.Mich. 1945); 
+Aspinwall Mfg. Co. v. Gill,
+ 32 F. 697 (C.C.D.N.J. 1887); 
+see also, Q-Tips, Inc. v. Johnson Johnson,
+109 F. Supp. 657
+, 
+95 USPQ 250
+ (D.N.J. 1951). The district court's reliance solely on these allegations as a basis for granting the injunction does not meet the requirements for a preliminary injunction and is an abuse of discretion. 
+ The court wishes to stress that, in reversing the district court, it makes no determination of whether an injunction will ultimately be warranted. The granting of a preliminary injunction is an extraordinary remedy. 
+Shelton v. National Collegiate Athletic Ass'n,
+539 F.2d 1197
+ (9th Cir. 1976). The court must examine carefully extraordinary relief which precludes the filing of civil lawsuits for an indeterminate period of time. A preliminary injunction must be supported by sufficient factual evidence and a sufficient basis must be articulated by the court in the order granting the injunction. Accordingly, the preliminary injunction is vacated and this action is remanded to the district court for disposition consistent with this opinion.
+ The district court's injunction order grants a preliminary injunction as to Nintendo, Atari and Tengen. The district court seemed to make the injunction binding on the plaintiffs as a matter of equity. A preliminary injunction issued without notice, motion, hearing or evidence should be vacated. 
+Fed.R.Civ.P. 65
+; 
+Digital Equip. Corp. v. Emulex Corp.,
+805 F.2d 380
+, 
+231 USPQ 779
+ (Fed. Cir. 1986). In both its brief and oral argument, Nintendo has shown little opposition to vacating the injunction as to Atari and Tengen.
+ COSTS
+ Each party to bear its own costs. 
+ VACATED AND REMANDED 
+Summaries of
+Atari Games Corp. v. Nintendo of America
+United States Court of Appeals, Federal Circuit
+Apr 3, 1990
+897 F.2d 1572 (Fed. Cir. 1990)
+vacating preliminary injunction against filing infringement suits
+Summary of this case from&#x20;
+Mallinckrodt, Inc. v. Medipart, Inc.
+In Atari, for example, Nintendo designed a program—the 10NES—to prevent its video game system from accepting unauthorized game cartridges. 975 F.2d at 836.
+Summary of this case from&#x20;
+Oracle Am., Inc. v. Google Inc.
+noting that the antitrust laws are “aimed at encouraging innovation”
+Summary of this case from&#x20;
+Evergreen Partnering Grp., Inc. v. Pactiv Corp.
+applying Ninth Circuit law
+Summary of this case from&#x20;
+Qingdao Taifa Group v. U.S.
+applying Ninth Circuit law
+Summary of this case from&#x20;
+U.S. Ass'n of Importers v. U.S. Dept. of C
+applying Ninth Circuit law
+Summary of this case from&#x20;
+Lamb-Weston, Inc. v. McCain Foods, Ltd.
+discussing Ninth Circuit law
+Summary of this case from&#x20;
+Pulaski v. Chrisman
+discussing Ninth Circuit law
+Summary of this case from&#x20;
+Cottonwood Christian Center v. Cypress Redev. Ag.
+applying Ninth Circuit law
+Summary of this case from&#x20;
+American Civ. Liberties Union v. City of Las Vegas
+stating the "general rule" that a preliminary injunction should not issue on affidavits alone
+Summary of this case from&#x20;
+Bannum, Inc. v. U.S.
+Case details for
+Atari Games Corp. v. Nintendo of America
+Case Details
+Full title:
+ATARI GAMES CORPORATION AND TENGEN, INC., PLAINTIFFS/CROSS-APPELLANTS, v…
+Court:
+United States Court of Appeals, Federal Circuit
+Date published:&#x20;
+Apr 3, 1990
+Citations
+Copy Citation
+897 F.2d 1572 (Fed. Cir. 1990)
+Citing Cases
+FAIRFIELD RESORTS v. FAIRFIELD MTN. PROP. OWNERS ASSO
+Moreover, a district court should be wary of issuing an injunction based solely upon allegations and…
+U.S. Ass'n of Importers v. U.S. Dept. of C
+Even if the balance of harms tips sharply in favor of the movant, however, the movant must demonstrate at…
+77&#x20;
+Citing Cases
+Make your practice more effective and efficient with Casetext&#x2019;s legal research suite.
+Get a Demo
+Pricing
+Switch
+Big firm
+Coverage
+SmartCite
+Public records
+ search
+Partnerships and Resources
+Law school
+ access
+Bar associations
+About us
+Jobs
+Blog
+Podcast
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+Privacy
+Terms
+&#xA9; 2020 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.

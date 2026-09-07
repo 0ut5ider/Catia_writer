@@ -1,0 +1,6 @@
+Source: https://www.cati.com/blog/converting-catia-v4-models-to-catia-v5-part-files/ (retrieved 2026-09-07)
+
+In the steps below, we will walk through the process to convert your CATIA V4 models into either a V5 part file with parametric features or a simple “dummy” file that holds just the solid geometry.
+**6:**From here you will have two paste options to choose from; CATIA_SPEC and CATIA_RESULT.
+*   **CATIA_SPEC** will create part features in V5 that correlate to the model features in V4. This will give you a parametric model that can be edited.
+*   **CATIA_RESULT** will produce only the solid geometry of the V4 model into a V5 part. You can’t edit this part.

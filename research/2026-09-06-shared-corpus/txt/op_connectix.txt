@@ -1,0 +1,404 @@
+
+Sony Computer Entertainment v. Connectix Corp., 203 F.3d 596 | Casetext Search + Citator
+All State & Fed.
+JX
+Sign In
+Get a Demo
+Free Trial
+Free Trial
+Opinion
+Summaries
+Case details
+Try Free for 14 Days
+Sony Computer Entertainment v. Connectix Corp.
+Citing Cases
+Los Angeles Times v. Free Republic
+The mere fact that a use is commercial does not "give rise to a presumption of unfairness." Sony Computer…
+Sony Computer Entertainment America v. Bleem
+This Court may reverse the grant of a preliminary injunction "only when `the district court abused its…
+62&#x20;
+Citing Cases
+Case Details
+Full title:
+SONY COMPUTER ENTERTAINMENT, INC., a Japanese corporation; SONY COMPUTER…
+Court:
+United States Court of Appeals, Ninth Circuit
+Date published:&#x20;
+Feb 10, 2000
+Citations
+Copy Citation
+203 F.3d 596 (9th Cir. 2000)
+Citing Cases
+Los Angeles Times v. Free Republic
+The mere fact that a use is commercial does not "give rise to a presumption of unfairness." Sony Computer…
+Sony Computer Entertainment America v. Bleem
+This Court may reverse the grant of a preliminary injunction "only when `the district court abused its…
+62&#x20;
+Citing Cases
+From Casetext: Smarter Legal Research
+Sony Computer Entertainment v. Connectix Corp.
+United States Court of Appeals, Ninth Circuit
+Feb 10, 2000
+203 F.3d 596 (9th Cir. 2000)
+Copy Citation
+Download&#x20;
+PDF
+Check&#x20;
+Treatment
+Summary
+finding fair use where defendant made intermediate copies of defendant's copyrighted software program and, by reverse engineering, created defendant's own software program which emulated the functioning of plaintiff's game console so users could play plaintiff's games on their computer as opposed to on the console; the court found that the alleged infringing work was "modestly transformative" because it created a new platform or environment in which consumers could play games designed for plaintiff's product, and notwithstanding the similarity of uses and functions between the copyrighted and secondary work, defendant's program was "a wholly new product"
+Summary of this case from&#x20;
+Apple Inc. v. Corellium, LLC
+See 16 Summaries
+Opinion
+ No. 99-15852 
+Argued and Submitted September 14, 1999 &mdash; San Francisco, California
+ Filed February 10, 2000 
+ William S. Coats, III, Howrey Simon, Menlo Park, California, for the defendant-appellant. 
+ Ezra Hendon, Crosby, Heafey, Roach May, Oakland, California; James G. Gilliland, Jr., Townsend and Townsend and Crew, San Francisco, California, for the plaintiffs-appellees. 
+ Annette L. Hurst, Howard, Rice, Nemerovski, Canady, Falk Rabkin, San Francisco, California, for amicus Institute for Electrical and Electronics Engineers &mdash; USA. Peter M. C. Choy, American Committee for Interoperable Systems, Palo Alto, California, for amici American Committee for Interoperable Systems and Computer Communications Industry Association. Mark Lemley, University of Texas at Austin, Austin, Texas, for amicus Law Professors. Steven J. Metalitz, Smith Metalitz, Washington, D.C., for amici Nintendo of America, Inc., Sega of America, Inc., and 3dfx Interactive. 
+ Appeal from the United States District Court for the Northern District of California, Charles A. Legge, District Judge, Presiding. 
+ Before: Herbert Y. C. CHOY, William C. CANBY, Jr. and Barry G. SILVERMAN, Circuit Judges. 
+ CANBY, Circuit Judge: 
+ In this case we are called upon once again to apply the principles of copyright law to computers and their software, to determine what must be protected as expression and what must be made accessible to the public as function. Sony Computer Entertainment, Inc., which brought this copyright infringement action, produces and markets the Sony PlayStation console, a small computer with hand controls that connects to a television console and plays games that are inserted into the PlayStation on compact discs (CDs). Sony owns the copyright on the basic input-output system or BIOS, which is the software program that operates its PlayStation. Sony has asserted no patent rights in this proceeding. 
+ The defendant is the Connectix Corporation, which makes and sells a software program called "Virtual Game Station." The purpose of the Virtual Game Station is to emulate on a regular computer the functioning of the Sony PlayStation console, so that computer owners who buy the Virtual Game Station software can play Sony PlayStation games on their computers. The Virtual Game Station does not contain any of Sony's copyrighted material. In the process of producing the Virtual Game Station, however, Connectix repeatedly copied Sony's copyrighted BIOS during a process of "reverse engineering" that Connectix conducted in order to find out how the Sony PlayStation worked. Sony claimed infringement and sought a preliminary injunction. The district court 
+ concluded that Sony was likely to succeed on its infringement claim because Connectix's "intermediate copying" was not a protected "fair use" under 
+17 U.S.C. &sect; 107
+. The district court enjoined Connectix from selling the Virtual Game Station or from copying or using the Sony BIOS code in the development of other Virtual Game Station products. 
+ Connectix now appeals. We reverse and remand with instructions to dissolve the injunction. The intermediate copies made and used by Connectix during the course of its reverse engineering of the Sony BIOS were protected fair use, necessary to permit Connectix to make its non-infringing Virtual Game Station function with PlayStation games. Any other intermediate copies made by Connectix do not support injunctive relief, even if those copies were infringing. 
+ The district court also found that Sony is likely to prevail on its claim that Connectix's sale of the Virtual Game Station program tarnishes the Sony PlayStation mark under 
+15 U.S.C. &sect; 1125
+. We reverse that ruling as well. 
+ I. Background A. The products
+ Sony is the developer, manufacturer and distributor of both the Sony PlayStation and Sony PlayStation games. Sony also licenses other companies to make games that can play on the PlayStation. The PlayStation system consists of a console (essentially a mini-computer), controllers, and software that produce a three-dimensional game for play on a television set. The PlayStation games are CDs that load into the top of the console. The PlayStation console contains both (1) hardware components and (2) software known as firmware that is written onto a read-only memory (ROM) chip. The firmware is the Sony BIOS. Sony has a copyright on the BIOS. It has claimed no patent relevant to this proceeding on any component of the PlayStation. PlayStation is a registered trademark of Sony. 
+ Connectix's Virtual Game Station is software that "emulates" the functioning of the PlayStation console. That is, a consumer can load the Virtual Game Station software onto a computer, load a PlayStation game into the computer's CDROM drive, and play the PlayStation game. The Virtual Game Station software thus emulates both the hardware and firmware components of the Sony console. The Virtual Game Station does not play PlayStation games as well as Sony's PlayStation does. At the time of the injunction, Connectix had marketed its Virtual Game Station for Macintosh computer systems but had not yet completed Virtual Game Station software for Windows. 
+ B. Reverse engineering
+ Copyrighted software ordinarily contains both copyrighted and unprotected or functional elements. Sega Enters. Ltd. v. Accolade, Inc., 
+977 F.2d 1510, 1520
+ (9th Cir. 1993) (amended opinion); see 
+17 U.S.C. &sect; 102(b)
+ (Copyright protection does not extend to any "idea, procedure, process, system, method of operation, concept, principle, or discovery" embodied in the copyrighted work.). Software engineers designing a product that must be compatible with a copyrighted product frequently must "reverse engineer" the copyrighted product to gain access to the functional elements of the copyrighted product. See Andrew Johnson-Laird, Software Reverse Engineering in the Real World, 19 U. Dayton L. Rev. 843, 845-46 (1994). 
+ Reverse engineering encompasses several methods of gaining access to the functional elements of a software program. They include: (1) reading about the program; (2) observing "the program in operation by using it on a computer;" (3) performing a "static examination of the individual computer instructions contained within the program;" and (4) performing a "dynamic examination of the individual computer instructions as the program is being run on a computer." Id. at 846. 
+ Method (1) is the least effective, because individual software manuals often misdescribe the real product. See id. It would be particularly ineffective in this case because Sony does not make such information available about its PlayStation. Methods (2), (3), and (4) require that the person seeking access load the target program on to a computer, an operation that necessarily involves copying the copyrighted program into the computer's random access memory or RAM.
+ Any purchaser of a copyrighted software program must copy the program into the memory of a computer in order to make any use at all of the program. For that reason, 
+17 U.S.C. &sect; 117(a)(1)
+ provides that it shall not be an infringement for one who owns a software copy to make another copy "created as an essential step in the utilization of the computer program in conjunction with a machine and that it is used in no other manner." Connectix contends that its copying is within the protection of section 117, but our disposition of the fair use issue makes it unnecessary for us to address that contention. See Sega, 
+977 F.2d at 1517-18
+ (rejecting contention that disassembly is protected by 
+section 117
+).
+ Method (2), observation of a program, can take several forms. The functional elements of some software programs, for example word processing programs, spreadsheets, and video game displays may be discernible by observation of the computer screen. See Sega, 
+977 F.2d at 1520
+. Of course, the reverse engineer in such a situation is not observing the object code itself,
+ only the external visual expression of this code's operation on the computer. Here, the software program is copied each time the engineer boots up the computer, and the computer copies the program into RAM.  
+ Object code is binary code, consisting of a series of the numerals zero and one, readable only by computers.
+ Other forms of observation are more intrusive. Operations systems, system interface procedures, and other programs like the Sony BIOS are not visible to the user when they are operating. See id. One method of "observing" the operation of these programs is to run the program in an emulated environment. In the case of the Sony BIOS, this meant operating the BIOS on a computer with software that simulated the operation of the PlayStation hardware; operation of the program, in conjunction with another program known as a "debugger," permitted the engineers to observe the signals sent between the BIOS and other programs on the computer. This latter method required copying the Sony BIOS from a chip in the PlayStation onto the computer. The Sony BIOS was copied again each time the engineers booted up their computer and the computer copied the program into RAM. All of this copying was intermediate; that is, none of the Sony copyrighted material was copied into, or appeared in, Connectix's final product, the Virtual Game Station. 
+ Methods (3) and (4) constitute "disassembly" of object code into source code.
+ In each case, engineers use a program known as a "disassembler" to translate the ones and zeros of binary machine-readable object code into the words and mathematical symbols of source code. This translated source code is similar to the source code used originally to create the object code
+ but lacks the annotations drafted by the authors of the program that help explain the functioning of the source code. In a static examination of the computer instructions, method (3), the engineer disassembles the object code of all or part of the program. The program must generally be copied one or more times to perform disassembly. In a dynamic examination of the computer instructions, method (4), the engineer uses the disassembler program to disassemble parts of the program, one instruction at a time, while the program is running. This method also requires 
+ copying the program and, depending on the number of times this operation is performed, may require additional copying of the program into RAM every time the computer is booted up.   
+ Source code is readable by software engineers, but not by computers.
+ Software is generally written by programmers in source code (and in other more conceptual formats) and then assembled into object code.
+ C. Connectix's reverse engineering of the Sony BIOS
+ Connectix began developing the Virtual Game Station for Macintosh on about July 1, 1998. In order to develop a PlayStation emulator, Connectix needed to emulate both the PlayStation hardware and the firmware (the Sony BIOS). 
+ Connectix first decided to emulate the PlayStation's hardware. In order to do so, Connectix engineers purchased a Sony PlayStation console and extracted the Sony BIOS from a chip inside the console. Connectix engineers then copied the Sony BIOS into the RAM of their computers and observed the functioning of the Sony BIOS in conjunction with the Virtual Game Station hardware emulation software as that hardware emulation software was being developed by Connectix. The engineers observed the operation of the Sony BIOS through use of a debugging program that permitted the engineers to observe the signals sent between the BIOS and the hardware emulation software. During this process, Connectix engineers made additional copies of the Sony BIOS every time they booted up their computer and the Sony BIOS was loaded into RAM. 
+ Once they had developed the hardware emulation software, Connectix engineers also used the Sony BIOS to "debug" the emulation software. In doing so, they repeatedly copied and disassembled discrete portions of the Sony BIOS. 
+ Connectix also used the Sony BIOS to begin development of the Virtual Game Station for Windows. Specifically, they made daily copies to RAM of the Sony BIOS and used the Sony BIOS to develop certain Windows-specific systems for the Virtual Game Station for Windows. Although Connectix had its own BIOS at the time, Connectix engineers used the Sony BIOS because it contained CD-ROM code that the Connectix BIOS did not contain. 
+ Early in the development process, Connectix engineer Aaron Giles disassembled a copy of the entire Sony BIOS that he had downloaded from the Internet. He did so for the purpose of testing a "disassembler" program he had written. The print-out of the source code was not used to develop the Virtual Game Station emulator. Connectix engineers initially used this copy of the Sony BIOS to begin the reverse engineering process, but abandoned it after realizing that it was a Japanese-language version. 
+ During development of the Virtual Game Station, Connectix contacted Sony and requested "technical assistance" from Sony to complete the development of the Virtual Game Station. Connectix and Sony representatives met during September 1998. Sony declined Connectix's request for assistance. 
+ Connectix completed Virtual Game Station for Macintosh computers in late December 1998 or early January 1999. Connectix announced its new product at the MacWorld Expo on January 5, 1999. At MacWorld, Connectix marketed the Virtual Game Station as a "PlayStation emulator." The materials stated that the Virtual Game Station permits users to play "their favorite Playstation games" on a computer "even if you don't yet have a Sony PlayStation console." 
+ D. Procedural history
+ On January 27, 1999, Sony filed a complaint alleging copyright infringement and other causes of action against Connectix. Sony subsequently moved for a preliminary injunction on the grounds of copyright and trademark infringement. The district court granted the motion, enjoining Connectix: 
+ (1) from copying or using the Sony BIOS code in the development of the Virtual Game Station for Windows; and
+ (2) from selling the Virtual Game Station for Macintosh or the Virtual Game 
+ Station for Windows. Order on Mot. for Prelim. Inj. at 27. The district court also impounded all Connectix's copies of the Sony BIOS and all copies of works based upon or incorporating Sony BIOS. Id. at 27-28. Connectix now appeals from this order.
+ II. Discussion
+ To prevail on its motion for injunctive relief, Sony was required to demonstrate "either a likelihood of success on the merits and the possibility of irreparable injury or that serious questions going to the merits were raised and the balance of the hardships tip sharply in its favor." Cadence Design Sys., Inc. v. Avant! Corp., 
+125 F.3d 824, 826
+ (9th Cir. 1997) (internal quotation marks and bracket omitted), cert. denied, 
+523 U.S. 1118
+ (1998). We reverse the grant of a preliminary injunction only when "the district court abused its discretion or based its decision on an erroneous legal standard or on clearly erroneous findings of fact." Roe v. Anderson, 
+134 F.3d 1400, 1402
+ n. 1 (9th Cir. 1998) (internal quotation marks omitted), aff'd on other grounds, sub nom. Saenz v. Roe, 
+526 U.S. 489
+ (1999). We review the scope of injunctive relief for an abuse of discretion. SEC v. Interlink Data Network of L.A., Inc., 
+77 F.3d 1201, 1204
+ (9th Cir. 1996). 
+ Connectix admits that it copied Sony's copyrighted BIOS software in developing the Virtual Game Station but contends that doing so was protected as a fair use under 
+17 U.S.C. &sect; 107
+. Connectix also challenges the district court's conclusion that Sony has established a likelihood that Connectix's Virtual Game Station tarnishes the PlayStation trademark. We consider each of these claims below. 
+ A. Fair use
+ The fair use issue arises in the present context because of certain characteristics of computer software. The object code of a program may be copyrighted as expression, 
+17 U.S.C. &sect; 102(a)
+, but it also contains ideas and performs functions that are not entitled to copyright protection. See 
+17 U.S.C. &sect; 102(b)
+. Object code cannot, however, be read by humans. The unprotected ideas and functions of the code therefore are frequently undiscoverable in the absence of investigation and translation that may require copying the copyrighted material. We conclude that, under the facts of this case and our precedent, Connectix's intermediate copying and use of Sony's copyrighted BIOS was a fair use for the purpose of gaining access to the unprotected elements of Sony's software. 
+ The general framework for analysis of fair use is established by statute, 
+17 U.S.C. &sect; 107
+.
+ We have applied this statute and the fair use doctrine to the disassembly of computer software in the case of Sega Enterprises Ltd. v. Accolade, Inc., 
+977 F.2d 1510
+ (9th Cir. 1993) (amended opinion). Central to our decision today is the rule set forth in Sega:  
+ The factors for determining fair use include: 
+ (1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+ (2) the nature of the copyrighted work; 
+ (3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
+ (4) the effect of the use upon the potential market for or value of the copyrighted work.
+17 U.S.C. &sect; 107
+.
+ [W]here disassembly is the only way to gain access to the ideas and functional elements embodied in a copyrighted computer program and where there is a legitimate reason for seeking such access, disassembly is a fair use of the copyrighted work, as a matter of law.
+ Id. at 1527-28 (emphasis added). In Sega, we recognized that intermediate copying could constitute copyright infringement 
+ even when the end product did not itself contain copyrighted material. Id. at 1518-19. But this copying nonetheless could be protected as a fair use if it was "necessary" to gain access to the functional elements of the software itself. Id. at 1524-26. We drew this distinction because the Copyright Act protects expression only, not ideas or the functional aspects of a software program. See id. at 1524 (citing 
+17 U.S.C. &sect; 102(b)
+). We also recognized that, in the case of computer programs, this idea/expression distinction poses "unique problems" because computer programs are "in essence, utilitarian articles &mdash; articles that accomplish tasks. As such, they contain many logical, structural, and visual display elements that are dictated by the function to be performed, by considerations of efficiency, or by external factors such as compatibility requirements and industry demands." Id. Thus, the fair use doctrine preserves public access to the ideas and functional elements embedded in copyrighted computer software programs. This approach is consistent with the "`ultimate aim [of the Copyright Act], to stimulate artistic creativity for the general public good.'" Sony Corp. of Am. v. Universal City Studios, Inc., 
+464 U.S. 417, 432
+ (1984) (quoting Twentieth Century Music Corp. v. Aiken, 
+422 U.S. 151, 156
+ (1975)). 
+ We turn then to the statutory fair use factors, as informed by our precedent in Sega. 
+ 1. Nature of the copyrighted work
+ Under our analysis of the second statutory factor, nature of the copyrighted work, we recognize that "some works are closer to the core of intended copyright protection than others." Campbell v. Acuff-Rose Music, Inc., 
+510 U.S. 569, 586
+ (1994). Sony's BIOS lies at a distance from the core because it contains unprotected aspects that cannot be examined without copying. See Sega, 
+977 F.2d at 1526
+. We consequently accord it a "lower degree of protection than more traditional literary works." Id. As we have applied this standard, Connectix's copying of the Sony BIOS must have been "necessary" to have been fair use. See id. at 1524-26. We conclude that it was. 
+ There is no question that the Sony BIOS contains unprotected functional elements. Nor is it disputed that Connectix could not gain access to these unprotected functional elements without copying the Sony BIOS. Sony admits that little technical information about the functionality of the Sony BIOS is publicly available. The Sony BIOS is an internal operating system that does not produce a screen display to reflect its functioning. Consequently, if Connectix was to gain access to the functional elements of the Sony BIOS it had to be through a form of reverse engineering that required copying the Sony BIOS onto a computer.
+ Sony does not dispute this proposition.  
+ Connectix offers evidence that it attempted to gain access to the functionality of the Sony BIOS by attaching a "logic analyzer" to the input and output leads of the chip on which the Sony BIOS was located within the PlayStation console. This form of observation does not appear to require the making of an intermediate copy, but was of limited value because it permitted the observation of inter-chip, but not intra-chip signals. Sony does not suggest that this form of observation alone would have permitted Connectix engineers to gain access to the functional elements of the Sony BIOS.
+ The question then becomes whether the methods by which Connectix reverse-engineered the Sony BIOS were necessary to gain access to the unprotected functional elements within the program. We conclude that they were. Connectix employed several methods of reverse engineering (observation and observation with partial disassembly) each of which required Connectix to make intermediate copies of copyrighted material. Neither of these methods renders fair use protection inapplicable. Sega expressly sanctioned 
+ disassembly. See id. at 1527-28. We see no reason to distinguish observation of copyrighted software in an emulated computer environment. Both methods require the reverse engineer to copy protected as well as unprotected elements of the computer program. Because this intermediate copying is the gravamen of the intermediate infringement claim, see 
+17 U.S.C. &sect; 106(1)
+; Sega, 
+977 F.2d at 1518-19
+, and both methods of reverse engineering require it, we find no reason inherent in these methods to prefer one to another as a matter of copyright law. Connectix presented evidence that it observed the Sony BIOS in an emulated environment to observe the functional aspects of the Sony BIOS. When this method of reverse engineering was unsuccessful, Connectix engineers disassembled discrete portions of the Sony BIOS to view directly the ideas contained therein. We conclude that intermediate copying in this manner was "necessary" within the meaning of Sega. 
+ We decline to follow the approach taken by the district court. The district court did not focus on whether Connectix's copying of the Sony BIOS was necessary for access to functional elements. Instead, it found that Connectix's copying and use of the Sony BIOS to develop its own software exceeded the scope of Sega. See Order at 17 ("[T]hey disassembled Sony's code not just to study the concepts. They actually used that code in the development of [their] product."). This rationale is unpersuasive. It is true that Sega referred to "studying or examining the unprotected aspects of a copyrighted computer program." 
+977 F.2d at 1520
+ (emphasis added). But in Sega, Accolade's copying, observation and disassembly of Sega's game cartridges was held to be fair use, even though Accolade "loaded the disassembled code back into a computer, and experimented to discover the interface specifications for the Genesis console by modifying the programs and studying the results." Id. at 1515. Thus, the distinction between "studying" and "use" is unsupported in Sega. Moreover, reverse engineering is a technically complex, frequently iterative process. Johnson-Laird, 19 U. Dayton L. Rev. at 843-44. Within the limited context of a claim of intermediate infringement, we find the semantic distinction between "studying" and "use" to be artificial, and decline to adopt it for purposes of determining fair use.
+ We are unable to locate evidence in the record to support the district court's finding that Connectix "gradually convert[ed] Sony's code to their own code," Order at 11, if by this statement the court meant that Connectix engineers failed to create an original work. True, Connectix engineers admitted to combining the Sony BIOS with the Virtual Game Station hardware emulation software to test and develop the hardware emulation software. But in drafting the Connectix BIOS, Connectix engineers never claimed to do anything other than write their own code, even though they used, observed, copied and sometimes disassembled the Sony BIOS as they did so. Sony presents no evidence to the contrary, nor does Sony contend that Connectix's final product contains infringing material.
+ We also reject the argument, urged by Sony, that Connectix infringed the Sony copyright by repeatedly observing the Sony BIOS in an emulated environment, thereby making repeated copies of the Sony BIOS. These intermediate copies could not have been "necessary" under Sega, contends Sony, because Connectix engineers could have disassembled the entire Sony BIOS first, then written their own Connectix BIOS, and used the Connectix BIOS to develop the Virtual Game Station hardware emulation software. We accept Sony's factual predicate for the limited purpose of this appeal.
+ Our doing so, however, does not aid Sony. 
+ The depositions of Connectix engineers Aaron Giles and Eric Traut suggest that Connectix engineers recognized that other engineering solutions were sometimes available. 
+ With respect to the observation of the Sony BIOS in an emulated environment, Traut admitted that it was easier to use the Sony BIOS to develop the hardware emulation software than to develop Connectix own BIOS first, and then use the Connectix BIOS to develop the hardware emulation software. 
+ With respect to the observation of the Sony BIOS with selective disassembly of the code, Traut stated with respect to one bug that there would have been no way to fix the bug without disassembling a portion of the Sony BIOS. He also stated that at other times he disassembled portions of the Sony BIOS when doing so was "the most efficient way of finding that bug." In a subsequent question, he clarified that disassembly was not the only way to fix the bug, just the fastest way to do so. 
+ With respect to Connectix's observation of the Sony BIOS in the development of the Virtual Game Station for Windows, other solutions, presumably disassembly, may have been possible. Connectix engineer Giles responded "I don't know" when asked by Sony counsel if "it would have been possible to write the CD-ROM code before building the emulator."
+ Sony contends that Connectix's reverse engineering of the Sony BIOS should be considered unnecessary on the rationale that Connectix's decision to observe the Sony BIOS in an emulated environment required Connectix to make more intermediate copies of the Sony BIOS than if Connectix had performed a complete disassembly of the program. Under this logic, at least some of the intermediate copies were not necessary within the meaning of Sega. This construction stretches Sega too far. The "necessity" we addressed in Sega was the necessity of the method, i.e., disassembly, not the necessity of the number of times that method was applied. See 
+977 F.2d at 1524-26
+. In any event, the interpretation advanced by Sony would be a poor criterion for fair use. Most of the intermediate copies of the Sony BIOS were made by Connectix engineers when they booted up their computers and the Sony BIOS was copied into RAM. But if Connectix engineers had left their computers turned on throughout the period during which they were observing the Sony BIOS in an emulated environment, they would have made far fewer intermediate copies of the Sony BIOS (perhaps as few as one per computer). Even if we were inclined to supervise the engineering solutions of software companies in minute detail, and we are not, our application of the copyright law would not turn on such a distinction.
+ Such a rule could be easily manipulated. More important, the rule urged by Sony would require that a software engineer, faced with two engineering solutions that each require intermediate copying of protected and unprotected material, often follow the least efficient solution. (In cases in which the solution that required the fewest number of intermediate copies was also the most efficient, an engineer would pursue it, presumably, without our urging.) This is precisely the kind of "wasted effort that the proscription against the copyright of ideas and facts . . . [is] designed to prevent." Feist Publications, Inc. v. Rural Tel. Serv. Co., 
+499 U.S. 340, 354
+ (1991) (internal quotation marks omitted). Such an approach would erect an artificial hurdle in the way of the public's access to the ideas contained within copyrighted software programs. These are "aspects that were expressly denied copyright protection by Congress." Sega, 
+977 F.2d at 1526
+ (citing 
+17 U.S.C. &sect; 102(b)
+). We decline to erect such a barrier in this case. If Sony wishes to obtain a lawful monopoly on the functional concepts in its software, it must satisfy the more stringent standards of the patent laws. See Bonito Boats, Inc. v. Thunder Craft Boats, Inc., 
+489 U.S. 141, 160-61
+ (1989); Sega, 
+977 F.2d at 1526
+. This Sony has not done. The second statutory factor strongly favors Connectix.  
+ Sony relies on these RAM copies for its contention, which we reject, that there is no significant difference between the facts of this case and our decisions in Triad Systems Corp. v. Southeastern Express Co., 
+64 F.3d 1330
+ (9th Cir. 1995) and MAI Systems Corp. v. Peak Computer, Inc., 
+991 F.2d 511
+ (9th Cir. 1993). Those cases are inapposite to our fair use analysis. Neither involved reverse engineering of software to gain access to unprotected functional elements.
+ 2. Amount and substantiality of the portion used
+ With respect to the third statutory factor, amount and substantiality of the portion 
+ used in relation to the copyrighted work as a whole, Connectix disassembled parts of the Sony BIOS and copied the entire Sony BIOS multiple times. This factor therefore weighs against Connectix. But as we concluded in Sega, in a case of intermediate infringement when the final product does not itself contain infringing material, this factor is of "very little weight." Sega, 
+977 F.2d at 1526-27
+; see also Sony Corp. of Am. v. Universal City Studios, Inc., 
+464 U.S. 417, 449-50
+ (1984) (copying of entire work does not preclude fair use). 
+ 3. Purpose and character of the use
+ Under the first factor, purpose and character of the use, we inquire into whether Connectix's Virtual Game Station 
+ merely supersedes the objects of the original creation, or instead adds something new, with a further purpose or different character, altering the first with new expression, meaning, or message; it asks, in other words, whether and to what extent the new work is "transformative."
+ Campbell v. Acuff-Rose Music, Inc., 
+510 U.S. 569, 579
+ (1994) (internal quotation marks and citations omitted). As an initial matter, we conclude that the district court applied an erroneous legal standard; the district court held that Connectix's commercial purpose in copying the Sony BIOS gave rise to a "presumption of unfairness that . . . can be rebutted by the characteristics of a particular commercial use." Order at 14-15 (citing Sega, 
+977 F.2d at 1522
+). Since Sega, however, the Supreme Court has rejected this presumption as applied to the first and fourth factor of the fair use analysis. Acuff-Rose, 
+510 U.S. at 584, 594
+ (clarifying Sony, 
+464 U.S. at 451
+). Instead, the fact that Connectix's copying of the Sony BIOS was for a commercial purpose is only a "separate factor that tends to weigh against a finding of fair use." Id. at 585 (internal quotation marks omitted).
+ Sony points to Micro Star v. Formgen, Inc., 
+154 F.3d 1107
+ (9th Cir. 1998), for the proposition that commercial use creates a presumption of unfairness. See id. at 1113 (quoting Sony Corp. of Am. v. Universal City Studios, Inc., 
+464 U.S. 417, 451
+ (1984)). We do not read Micro Star that way; moreover, such a reading would be contrary to Acuff-Rose. AcuffRose expressly rejected such a "hard evidentiary presumption" and stated that the Court of Appeals "erred" by giving such dispositive weight to the commercial nature of the use. 
+510 U.S. at 584
+. Also, Micro Star itself involved a use that was non-transformative, which is not the case here. See Micro Star, 
+154 F.3d at 1113
+ n. 6. Cf. American Geophysical Union v. Texaco, Inc., 
+60 F.3d 913, 921-22
+ (2d Cir. 1995) (amended opinion) (rejecting, on grounds of Acuff-Rose and collected cases, presumption of unfairness for commercial use as applied to Texaco's intermediate copying of copyrighted articles).
+ We find that Connectix's Virtual Game Station is modestly transformative. The product creates a new platform, the personal computer, on which consumers can play games designed for the Sony PlayStation. This innovation affords opportunities for game play in new environments, specifically anywhere a Sony PlayStation console and television are not available, but a computer with a CD-ROM drive is. More important, the Virtual Game Station itself is a wholly new product, notwithstanding the similarity of uses and functions between the Sony PlayStation and the Virtual Game Station. The expressive element of software lies as much in the organization and structure of the object code that runs the computer as it does in the visual expression of that code that appears on a computer screen. See 
+17 U.S.C. &sect; 102(a)
+ (extending copyright protection to original works of authorship that "can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device"). Sony does not claim that the Virtual Game Station itself contains object code that infringes Sony's copyright. We are therefore at a loss to see how Connectix's drafting of entirely new object code for its VGS 
+ program could not be transformative, despite the similarities in function and screen output. 
+ Finally, we must weigh the extent of any transformation in Connectix's Virtual Game Station against the significance of other factors, including commercialism, that militate against fair use. See Acuff-Rose, 
+510 U.S. at 579
+. Connectix's commercial use of the copyrighted material was an intermediate one, and thus was only "indirect or derivative." Sega, 
+977 F.2d at 1522
+. Moreover, Connectix reverse-engineered the Sony BIOS to produce a product that would be compatible with games designed for the Sony PlayStation. We have recognized this purpose as a legitimate one under the first factor of the fair use analysis. See id. Upon weighing these factors, we find that the first factor favors Connectix. 
+ The district court ruled, however, that the Virtual Game Station was not transformative on the rationale that a computer screen and a television screen are interchangeable, and the Connectix product therefore merely "supplants" the Sony PlayStation console. Order at 15. The district court clearly erred. For the reasons stated above, the Virtual Game Station is transformative and does not merely supplant the PlayStation console. In reaching its decision, the district court apparently failed to consider the expressive nature of the Virtual Game Station software itself. Sony's reliance on Infinity Broadcast Corp. v. Kirkwood, 
+150 F.3d 104
+ (2d Cir. 1998), suffers from the same defect. The Infinity court reasoned that a "change of format, though useful, is not technically a transformation." Id. at 108 n. 2. But the infringing party in that case was merely taking copyrighted radio transmissions and retransmitting them over telephone lines; there was no new expression. Id. at 108. Infinity does not change our conclusion; the purpose and character of Connectix's copying points toward fair use. 
+ 4. Effect of the use upon the potential market
+ We also find that the fourth factor, effect of the use upon the potential market, favors Connectix. Under this factor, we consider 
+ not only the extent of market harm caused by the particular actions of the alleged infringer, but also "whether unrestricted and widespread conduct of the sort engaged in by the defendant . . . would result in a substantially adverse impact on the potential market" for the original.
+ Acuff-Rose, 
+510 U.S. at 590
+ (quoting 3 M. Nimmer D. Nimmer, Nimmer on Copyright, &sect; 13.05[A][4], at 13-102.61 (1993)). Whereas a work that merely supplants or supersedes another is likely to cause a substantially adverse impact on the potential market of the original, a transformative work is less likely to do so. See id. at 591; Harper Row, Publishers, Inc. v. Nation Enters, Inc., 
+471 U.S. 539, 567-69
+ (1985). 
+ The district court found that"[t]o the extent that such a substitution [of Connectix's Virtual Game Station for Sony PlayStation console] occurs, Sony will lose console sales and profits." Order at 19. We recognize that this may be so. But because the Virtual Game Station is transformative, and does not merely supplant the PlayStation console, the Virtual Game Station is a legitimate competitor in the market for platforms on which Sony and Sony-licensed games can be played. See Sega, 
+977 F.2d at 1522-23
+. For this reason, some economic loss by Sony as a result of this competition does not compel a finding of no fair use. Sony understandably seeks control over the market for devices that play games Sony produces or licenses. The copyright law, however, does not confer such a monopoly. See id. at 1523-24 ("[A]n attempt to monopolize the market by making it impossible for others to compete runs counter to the statutory purpose of promoting creative 
+ expression and cannot constitute a strong equitable basis for resisting the invocation of the fair use doctrine."). This factor favors Connectix. 
+ The four statutory fair use factors must be "weighed together, in light of the purposes of copyright." Acuff-Rose, 
+510 U.S. at 578
+. Here, three of the factors favor Connectix; one favors Sony, and it is of little weight. Of course, the statutory factors are not exclusive, Harper Row, 
+471 U.S. at 560
+, but we are unaware of other factors not already considered that would affect our analysis. Accordingly, we conclude that Connectix's intermediate copying of the Sony BIOS during the course of its reverse engineering of that product was a fair use under 
+17 U.S.C. &sect; 107
+, as a matter of law. With respect to its claim of copyright infringement, Sony has not established either a likelihood of success on the merits or that the balance of hardships tips in its favor. See Cadence Design Sys., Inc. v. Avant! Corp., 
+125 F.3d 824, 826
+ (9th Cir. 1997), cert. denied, 
+523 U.S. 1118
+ (1998). Accordingly, we need not address defenses asserted by Connectix under 
+17 U.S.C. &sect; 117(a)(1)
+ and our doctrine of copyright misuse. We reverse the district court's grant of a preliminary injunction on the ground of copyright infringement.
+ We do not accept Sony's argument that the downloading of Sony's BIOS from the Internet was itself an infringement justifying the injunction. The evidence of record suggests that the downloaded BIOS played a minimal role, if any, in development of the Virtual Game Station. We conclude that, on this record, the downloading infringement, if such it was, would not justify our upholding the injunction on the development and sale of the Virtual Game Station. The Virtual Game Station itself infringes no copyright. Bearing in mind the goals of the copyright law, "to stimulate artistic creativity for the general public good," Sony, 
+464 U.S. at 432
+ (internal quotation marks omitted), we conclude that there is a legitimate public interest in the publication of Connectix's software, and that this interest is not overborne by the record evidence related to the downloaded BIOS. The imposition of an injunction is discretionary. See 
+17 U.S.C. &sect; 502(a)
+. On this record, we conclude that it would be inappropriate to uphold the injunction because of Connectix's copying and use of the downloaded Sony BIOS; damages would adequately protect Sony's interest with respect to that alleged infringement. See Acuff-Rose, 
+510 U.S. at 578
+ n. 10 (discussing factors to be evaluated in deciding whether to enjoin product found to have exceeded bounds of fair use).
+ B. Tarnishment
+ The district court found that Connectix's sale of the Virtual Game Station tarnished Sony's "PlayStation" mark under 
+15 U.S.C. &sect; 1125(c)(1)
+. The district court based its preliminary injunction, however, exclusively on Sony's copyright claim, and did not cite its tarnishment finding as a ground for the injunction. Although we can "affirm the district court on any ground supported by the record," Charley's Taxi Radio Dispatch Corp. v. SIDA of Haw., Inc., 
+810 F.2d 869, 874
+ (9th Cir. 1987), we decline to affirm on this alternative ground. Sony has not shown a likelihood of success on each element of the tarnishment claim. 
+ To prevail on its tarnishment claim, Sony must show that (1) the PlayStation "mark is famous;" (2) Connectix is "making a commercial use of the mark;" (3) Connectix's "use began after the mark became famous;" and (4) Connectix's "use of the mark dilutes the quality of the mark by diminishing the capacity of the mark to identify and distinguish goods and services." Films of Distinction, Inc. v. Allegro Film Prods., Inc., 
+12 F. Supp.2d 1068, 1078
+ (C.D.Cal. 1998); 
+15 U.S.C. &sect; 1125(c)(1)
+, 1127 (definition of "dilution"). Connectix does not dispute the first and third of these elements. We address only the fourth element. 
+ Because Sony proceeds under a tarnishment theory of dilution, it must show under this fourth element that its PlayStation mark will "suffer negative associations" through Connectix's use. Hormel Foods Corp. v. Jim Henson Prods., Inc., 
+73 F.3d 497, 
+ 507
+ (2d Cir. 1996); see also 4 J. Thomas McCarthy, McCarthy on Trademarks and Unfair Competition &sect; 24.95 (4th ed. 1996 Supp. 1999). The district court found the Virtual Game Station does not play PlayStation games as well as the PlayStation console, and that although the Virtual Game Station's packaging contains a disclaimer to this effect, "game players do not comprehend this distinction." Order at 24-25. The Sony PlayStation mark therefore suffers negative associations because of this confusion on the part of consumers who play Sony games on the Virtual Game Station software. Id. at 25. 
+ The evidence on the record does not support such a finding of misattribution. The district court relied primarily on a series of semi-anonymous reviews posted on the Internet and submitted by Connectix. As the district court acknowledged, these reviews were neither authenticated nor identified. More important, the print-out of the comments does not reveal the context in which the comments were made; this omission makes the extent of any confusion by game players difficult to assess reliably. The district court also referred to two focus group studies conducted by market research firms at Sony's bequest. These studies address the difference of quality between the Virtual Game Station and PlayStation, but shed no light on the question of misattribution. Thus, we reject as clearly erroneous the district court's finding that the Virtual Game Station tarnishes the Sony PlayStation mark on a misattribution theory of tarnishment. 
+ Nor are we persuaded by Sony's argument that the difference in quality between the two platforms is itself sufficient to find tarnishment. See Deere Co. v. MTD Prods, Inc., 
+41 F.3d 39, 43
+ (2d Cir. 1994) ("`Tarnishment' generally arises when the plaintiff's trademark is linked to products of shoddy quality," diminishing the value of the mark "because the public will associate the lack of quality . . . with the plaintiff's unrelated goods."). Even if we assume, without deciding, that the concept of tarnishment is applicable to the present factual scenario, there is insufficient evidence to support a finding of tarnishment. "The sine qua non of tarnishment is a finding that plaintiff's mark will suffer negative associations through defendant's use." Hormel Foods, 
+73 F.3d at 507
+. The evidence here fails to show or suggest that Sony's mark or product was regarded or was likely to be regarded negatively because of its performance on Connectix's Virtual Game Station. The evidence is not even substantial on the quality of that performance. The Sony studies, each of included eight participants, presented a range of conclusions. One study concluded that "[o]n balance, the results of this focus group study show that the testers preferred the PlayStation gaming experience over the Virtual Game Station gaming experience." The other concluded that consumers found the Virtual Game Station was "generally acceptable" for one game, but "nearly unplayable" on another. The internet reviews submitted by Connectix also presented a range of opinion; while some anonymous reviewers loved the Virtual Game Station, some were ambivalent, and a relative few hated the Virtual Game Station emulation. In the only review for attribution, Newsweek said the software played "surprisingly well," and that some games on the Virtual Game Station "rocked." Steven Levy, "Play it Your Way," Newsweek, Mar. 15, 1999, at 84. This evidence is insufficient to support a conclusion that the shoddiness of the Virtual Game Station alone tarnishes the Sony mark. Sony's tarnishment claim cannot support the injunction. 
+ CONCLUSION
+ Connectix's reverse engineering of the Sony BIOS extracted from a Sony PlayStation console purchased by Connectix engineers is protected as a fair use. Other intermediate copies of the Sony BIOS made by Connectix, if they infringed Sony's copyright, do not justify injunctive relief. For these reasons, the district 
+ court's injunction is dissolved and the case is remanded to the district court. We also reverse the district court's finding that Connectix's Virtual Game Station has tarnished the Sony PlayStation mark. 
+ REVERSED AND REMANDED. 
+Summaries of
+Sony Computer Entertainment v. Connectix Corp.
+United States Court of Appeals, Ninth Circuit
+Feb 10, 2000
+203 F.3d 596 (9th Cir. 2000)
+finding fair use where defendant made intermediate copies of defendant's copyrighted software program and, by reverse engineering, created defendant's own software program which emulated the functioning of plaintiff's game console so users could play plaintiff's games on their computer as opposed to on the console; the court found that the alleged infringing work was "modestly transformative" because it created a new platform or environment in which consumers could play games designed for plaintiff's product, and notwithstanding the similarity of uses and functions between the copyrighted and secondary work, defendant's program was "a wholly new product"
+Summary of this case from&#x20;
+Apple Inc. v. Corellium, LLC
+finding that the new product was "modestly transformative" when it created a new platform, on which users could play Sony PlayStation games, and a "wholly new product, notwithstanding the similarity of the uses and functions between" the old and new products. The Court noted this was in contrast to Micro Star , 154 F.3d at 1113 & n.6, "which involved a use that was non-transformative."
+Summary of this case from&#x20;
+Rimini St., Inc. v. Oracle Int'l Corp.
+finding that disassembly copying was a fair use where employed to create a virtual game console on which users could play the plaintiff's games because the end-product was transformative and did not “merely supplant” the plaintiff's protected work
+Summary of this case from&#x20;
+Fox Broadcasting Co. Inc. v. Dish Network, L.C.C.
+finding that intermediate copying of computer firmware to extract elements not protected by copyright was a fair use
+Summary of this case from&#x20;
+Idearc Media Corp. v. Northwest Directories, Inc.
+concluding that defendant's intermediate copying and use of plaintiff's software program was a fair use
+Summary of this case from&#x20;
+Apple Inc. v. Corellium, LLC
+concluding that defendant's intermediate copying and use of plaintiff's software program was a fair use for the purpose of gaining access to the unprotected elements of plaintiff's software, and explaining that while the "object code of a program may be copyrighted as expression ... it also contains ideas and performs functions that are not entitled to copyright protection."
+Summary of this case from&#x20;
+Apple Inc. v. Corellium, LLC
+recognizing that computer programs pose unique problems in copyright context because they are both expressive and functional utilitarian articles; copyright protects only the expression, and fair use allows incidental copying for the purpose of reverse engineering code to determine its unprotected functional aspects
+Summary of this case from&#x20;
+United States v. Elcom Ltd.
+recognizing that object code may be copyrighted as expression under 17 U.S.C. § 102(b)
+Summary of this case from&#x20;
+United States v. Elcom Ltd.
+applying fair use to intermediate copying necessary to reverse engineer access to unprotected functional elements within a program
+Summary of this case from&#x20;
+Google LLC v. Oracle Am., Inc.
+copying necessary "for the purpose of gaining access to the unprotected elements of Sony's software" was fair use and not a "change of format"
+Summary of this case from&#x20;
+Disney Enters., Inc. v. VidAngel, Inc.
+refusing to consider copyright misuse where Sony had not established a likelihood of success on the merits sufficient to merit injunctive relief on a claim of copyright infringement
+Summary of this case from&#x20;
+Altera Corp. v. Clear Logic, Inc.
+reasoning that while Sony is likely to lose console sales and profits to Connectix's Virtual Game Station, "because the Virtual Game Station is transformative, and does not merely supplant the PlayStation console, the Virtual Game Station is a legitimate competitor in the market for platforms on which Sony and Sony-licensed games can be played."
+Summary of this case from&#x20;
+Rimini St., Inc. v. Oracle Int'l Corp.
+In Sony Computer Entertainment, Inc. v. Connectix Corp., 203 F.3d 596 (9th Cir. 2000), the Ninth Circuit held that Connectix's intermediate copying of Sony's software to create software allowing Connectix customers to play Sony PlayStation games on their computers was a fair use.
+Summary of this case from&#x20;
+CDK Glob. LLC v. Brnovich
+discussing intermediate copying in the context of reverse engineering of an internal operating system
+Summary of this case from&#x20;
+Cline v. Reetz-Laiolo
+applying substantially similar standard
+Summary of this case from&#x20;
+Brocade Communications Systems, Inc. v. A10 Networks, Inc.
+discussing fair use with no mention of First Amendment underpinnings
+Summary of this case from&#x20;
+United States v. Elcom Ltd.
+Case details for
+Sony Computer Entertainment v. Connectix Corp.
+Case Details
+Full title:
+SONY COMPUTER ENTERTAINMENT, INC., a Japanese corporation; SONY COMPUTER…
+Court:
+United States Court of Appeals, Ninth Circuit
+Date published:&#x20;
+Feb 10, 2000
+Citations
+Copy Citation
+203 F.3d 596 (9th Cir. 2000)
+Citing Cases
+Los Angeles Times v. Free Republic
+The mere fact that a use is commercial does not "give rise to a presumption of unfairness." Sony Computer…
+Sony Computer Entertainment America v. Bleem
+This Court may reverse the grant of a preliminary injunction "only when `the district court abused its…
+62&#x20;
+Citing Cases
+Make your practice more effective and efficient with Casetext’s legal research suite.
+Get a Demo
+Casetext research
+Parallel Search
+Compose
+Pricing
+Switch
+Big firm
+Coverage
+SmartCite
+Public records
+ search
+Partnerships and Resources
+Law school
+ access
+Bar associations
+About us
+Jobs
+Blog
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+Privacy
+Terms
+© 2021 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.

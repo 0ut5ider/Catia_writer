@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <script src="assets/js/display-mode.js"></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>OpenSCAD - Documentation</title>
+
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/fontawesome/css/regular.css" rel="stylesheet">
+	<link href="assets/fontawesome/css/solid.min.css" rel="stylesheet">
+	<link href="assets/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+
+  <link href="assets/fonts/open-sans/all.css" rel="stylesheet">
+
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
+
+	<!-- One-Page-Nav  -->
+	<script src="assets/js/jquery.scrollTo.js"></script>
+
+	<!--waypoints-->
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/waypoints-sticky.min.js"></script>
+
+	<script src="assets/js/header.js"></script>
+</head>
+<body>
+
+<div id="page-wrap">
+<header>
+	<div class="clear"></div>
+	<div id="logo" class="left"></div>
+	<div id="donate" class="right">
+    <a href="https://opencollective.com/openscad/donate" target="_blank">
+      <img src="assets/img/donate-opencollective.png" alt="Donate on Opencollective" width="200" height="33">
+    </a>
+	</div>
+	<div id="displayMode" class="right">
+		<div class="currentMode"><i class="fa fa-circle-half-stroke"></i> Theme</div>
+    <ul class="pickMode" style="display: none;">
+      <li class="system"><i class="fa fa-circle-half-stroke"></i> OS Default</li>
+      <li class="light"><i class="fa fa-sun"></i> Light</li>
+      <li class="dark"><i class="fa fa-moon"></i> Dark</li>
+    </ul>
+	</div>
+	<div id="title" style="margin-top:35px; width:620px;">
+		<h1 class="title" style="position:relative;"><span class="green">Open</span>SCAD</h1>
+		<h2 class="subtitle" style="position:relative; left:45px;">The Programmers Solid 3D CAD Modeller</h2>
+	</div>
+
+	<div id="navigation">
+	<div id="navigation-inner">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="downloads.html">Downloads</a></li>
+      <li class="current"><a href="documentation.html">Documentation</a></li>
+      <li><a href="libraries.html">Libraries</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="https://github.com/openscad/openscad/" target="_blank">GitHub</a></li>
+    </ul>
+	</div>
+	</div>
+</header>
+
+<div id="page-content">
+	
+	<div id="sidebar" class="sticky">
+		<h1><a href="documentation.html">Documentation</a></h1>
+		<ul>
+			<li><a href="documentation.html#tutorial">OpenSCAD Tutorial</a></li>
+			<li><a href="documentation.html#user-manual">OpenSCAD User Manual</a></li>
+			<li><a href="documentation.html#language-reference">OpenSCAD Language Reference</a></li>
+			<li><a href="documentation.html#cheat-sheet">Code Cheat Sheet</a></li>
+		</ul>
+    <h1><a href="documentation-books.html">Books</a></h1>
+    <ul>
+      <li><a href="documentation-books.html#books-english">English</a></li>
+			<li><a href="documentation-books.html#books-german">German / Deutsch</a></li>
+	    <li><a href="documentation-books.html#books-spanish">Spanish / Español</a></li>
+    </ul>
+    <h1><a href="documentation-videos.html">Videos</a></h1>
+    <ul>
+      <li><a href="documentation-videos.html#introduction">OpenSCAD: Introduction</a></li>
+    </ul>
+    <h1><a href="documentation-articles.html">Articles / Blogs</a></h1>
+    <ul>
+      <li><a href="documentation-articles.html#how-to-use-openscad">How to use OpenSCAD</a></li>
+      <li><a href="documentation-articles.html#3d-spielplatz">3D Spielplatz (german)</a></li>
+      <li><a href="documentation-articles.html#makerbot-blog">OpenSCAD Tutorial Series</a></li>
+      <li><a href="documentation-articles.html#edutechwiki">Tutorial at EduTechWiki</a></li>
+    </ul>
+  </div>
+
+  <article>
+    <section class="section-head">
+      <div class="link-grid">
+        <div class="link-button">
+          <a href="documentation.html"><i class="fas fa-scroll selected"></i></a>
+          <h1><a href="documentation.html">Documentation</a></h1>
+        </div>
+        <div class="link-button">
+          <a href="documentation-books.html"><i class="fas fa-book"></i></a>
+          <h1><a href="documentation-books.html">Books</a></h1>
+        </div>
+        <div class="link-button">
+          <a href="documentation-videos.html"><i class="fas fa-video"></i></a>
+          <h1><a href="documentation-videos.html">Videos</a></h1>
+        </div>
+        <div class="link-button">
+          <a href="documentation-articles.html"><i class="fas fa-globe"></i></a>
+          <h1><a href="documentation-articles.html">Articles / Blogs</a></h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="tutorial">
+      <h1><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial">OpenSCAD Tutorial</a></h1>
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_1">Chapter 1</a>: A few words about OpenSCAD and getting started with the first object</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_2">Chapter 2</a>: Scaling the model and first steps for parameterizing models</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_3">Chapter 3</a>: Resizing models and more ways of combining objects</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_4">Chapter 4</a>: Introducing modules to organize the code</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_5">Chapter 5</a>: Using multiple scripts and libraries</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_6">Chapter 6</a>: Control flow, conditional creation of objects</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_7">Chapter 7</a>: Loops and creating more complex patterns</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_8">Chapter 8</a>: Extruding 2D shapes into 3D objects</li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_9">Chapter 9</a>: Math, calculations and low level geometry creation</li>
+      </ol>
+    </section>
+
+    <section id="user-manual">
+      <h1><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual#The_OpenSCAD_User_Manual">OpenSCAD User Manual</a></h1>
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual#Introduction">Introduction</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/First_Steps">First Steps</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_User_Interface">User Interface</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Input_Devices">Input Devices</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Customizer">Customizer</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/STL_Import_and_Export">Import and Export</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Commented_Example_Projects">Commented Example Projects</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Paths">Paths</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_an_external_Editor_with_OpenSCAD">Using an external Editor with OpenSCAD</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_OpenSCAD_in_a_command_line_environment">Using OpenSCAD in a command line environment</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Building_OpenSCAD_from_Sources">Building OpenSCAD from Sources</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/FAQ">FAQ</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries">Libraries</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Tips_and_Tricks">Tips and Tricks</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Command_Glossary">Glossary</a></li>
+      </ol>			
+    </section>
+
+    <section id="language-reference">
+      <h1><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual#The_OpenSCAD_Language_Reference">OpenSCAD Language Reference</a></h1>
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/General">The OpenSCAD Language - General</a></li>
+        <li>
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids">3D Objects</a>,
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/3D_to_2D_Projection">Projection</a>
+        </li>
+        <li>
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem">2D Objects</a>,
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/2D_Primitives">Primitives</a>,
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Text">Text</a>,
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/2D_to_3D_Extrusion">Extrusion to 3D</a>
+        </li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations">Transformations</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/CSG_Modelling">Boolean operations</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions">Conditional and iterator functions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Operators">Mathematical operators</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions">Mathematical functions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/String_Functions">String functions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Type_Test_Functions">Type test functions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/List_Comprehensions">List comprehensions</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features">Other language features</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules">User defined functions and modules</a></li>
+        <li><a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters">Debugging aids - modifier characters</a></li>
+        <li>
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Importing_Geometry">Importing geometry</a>,
+          <a href="https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Export">Exporting geometry</a>
+        </li>
+      </ol>
+    </section>
+
+		<section id="cheat-sheet">
+			<h1><a href="cheatsheet/index.html" target="_blank">Cheat Sheet</a></h1>
+                        The <a href="cheatsheet/index.html" target="_blank">Cheat Sheet</a> is a
+                        quick reference to the language syntax and built-in modules and functions,
+                        with links to the main documentation.  It is also available from inside the
+                        program, via the Help menu.
+                        <p>
+                        <!--
+                            Better text here would be good, or maybe we could figure out how to
+                            automatically create a current PNG, or could include the actual cheat
+                            sheet here.
+                        -->
+                        NOTE:  the image below is only a link!  The cheat sheet is a separate web
+                        page.
+                        <p>
+			<a href="cheatsheet/index.html" target="_blank"><img class="imgLink" src="assets/img/openSCAD_cheat_sheet.png" width="680"/></a>
+		</section>	
+	</article>
+
+<div class="clear"></div>
+
+</div><!--#page-content end-->
+
+<footer>
+	
+</footer>
+</div><!--#page-wrap end-->
+
+</body>
+</html>

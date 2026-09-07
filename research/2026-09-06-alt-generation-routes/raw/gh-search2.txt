@@ -1,0 +1,42 @@
+=== 3dxml ===
+85⭐ xeokit/xeokit-convert | Convert various AEC model formats for efficient viewing  in the browser with xeokit. | https://github.com/xeokit/xeokit-convert
+35⭐ Terrev/3DXML-to-OBJ |  | https://github.com/Terrev/3DXML-to-OBJ
+14⭐ gxh-0808/3dxmlToGLtf | 实现3dxml到gltf的文件格式转换 | https://github.com/gxh-0808/3dxmlToGLtf
+6⭐ zy-zhao17/3Dxml-for-unity | 将3DXML格式的三维模型文件运行时动态载入unity并直接将生成的对象与解析好的动画模板关联，以达到快速批量导入模型并保留模型之间层次结构关系的目的。 | https://github.com/zy-zhao17/3Dxml-for-unity
+4⭐ ArasLabs/3dxml-viewer | Simple HTML file enabling the lanch of the 3DXML layer from Aras Innovator. | https://github.com/ArasLabs/3dxml-viewer
+1⭐ z1130/convert_3dxml_to_fbx | 3DXML 转 FBX | https://github.com/z1130/convert_3dxml_to_fbx
+1⭐ ming91915/ModelViewer | C# WPF, OpenGL model viewer (3DXML, OBJ...) | https://github.com/ming91915/ModelViewer
+1⭐ tvataire/GLC-Player_SF | GLC_Player is a OpenGL Open Source 3D viewer used to view 3d models (COLLADA, 3DXML, OBJ 3DS STL OFF COFF Format) and to navigate easily in these models. | https://github.com/tvataire/GLC-Player_SF
+=== catia+conversion ===
+0⭐ engine0751/Catia-Automation | CATIA Automation Toolkit using Python — A beginner-friendly collection of scripts to automate CATIA V5 tasks such as parameter extraction, screenshots, mass properties, STEP conversion, geometry listing, and point creation using the pycatia library. | https://github.com/engine0751/Catia-Automation
+0⭐ alpharsp/CATIA-3D-ROTATION | Rotation of 3D spaces relative to the original spaces and conversion from relative position to absolute positions using the 12 element array position from CATIA V5 (VBA) | https://github.com/alpharsp/CATIA-3D-ROTATION
+0⭐ Siddharthkumar42/Piston-Crank-Mechanism | Designed and simulated a piston-crank mechanism using CATIA V5 to demonstrate rotary-to-linear motion conversion.  | https://github.com/Siddharthkumar42/Piston-Crank-Mechanism
+=== catia+sdk ===
+=== anycad ===
+70⭐ anycad/anycad.rapid.net.sample | The samples for creating 3D graphics applications with AnyCAD Rapid .NET SDK | https://github.com/anycad/anycad.rapid.net.sample
+57⭐ anycad/anycadnetsdkpro |  | https://github.com/anycad/anycadnetsdkpro
+53⭐ anycad/StpViewer | The STEP File Viewer based on AnyCAD .Net Graphics Platform | https://github.com/anycad/StpViewer
+21⭐ anycad/anycad.net.pro.AppFeatures | structured examples for anycad graphics sdk | https://github.com/anycad/anycad.net.pro.AppFeatures
+7⭐ anycad/AnyCAD.VisualProgramming | AnyCAD Visual Programming with Dynamo | https://github.com/anycad/AnyCAD.VisualProgramming
+3⭐ boyitianlove/AnyCAD_Sample | Use AnyCAD .Net API to create and render 3d models. | https://github.com/boyitianlove/AnyCAD_Sample
+2⭐ chenxx08/anycadnetsdkpro | The samples for using AnyCAD .Net SDK Pro | https://github.com/chenxx08/anycadnetsdkpro
+2⭐ sherlocklh/test1 | 学习anycad.net做一个stl和step文件的展示 | https://github.com/sherlocklh/test1
+=== cgr+parser ===
+14⭐ thradams/cgrammar | C23 grammar for parser generators | https://github.com/thradams/cgrammar
+12⭐ Wybxc/cgrammar | A comprehensive C language grammar parser library written in Rust, implementing the C23 standard (ISO/IEC 9899:2023). | https://github.com/Wybxc/cgrammar
+2⭐ Jackcuii/EasyCGRA | A prototype to program CGRA PE easily and its parser implemented with ANTLR4. | https://github.com/Jackcuii/EasyCGRA
+1⭐ pink-sh/CGRFA_Parser |  | https://github.com/pink-sh/CGRFA_Parser
+1⭐ sopoforic/cgrr | Utility functions used by other modules for parsing game resource files. | https://github.com/sopoforic/cgrr
+0⭐ jcmvbkbc/cgrammar | ANSI C parser | https://github.com/jcmvbkbc/cgrammar
+0⭐ ZhuYuJin/cgroup-parser | cgroup parser for python | https://github.com/ZhuYuJin/cgroup-parser
+0⭐ saintube/cgroup-parser | a commandline tool writing for parsing linux cgroup files | https://github.com/saintube/cgroup-parser
+=== catia+batch ===
+3⭐ sheetd/BatchProcess | CATIA/Digital Project tool that performs batch file operations on Drawings (*.CATDrawings) and Part models (*.CATPart) files | https://github.com/sheetd/BatchProcess
+1⭐ YESdontASKmeAgain-Engineer/CatiaStepConverter | Windows CATIA V5 batch converter with ZIP/7Z/RAR discovery and STEP AP242 validation. | https://github.com/YESdontASKmeAgain-Engineer/CatiaStepConverter
+1⭐ wwwzhangdi2007-art/catia-batch-creator |  | https://github.com/wwwzhangdi2007-art/catia-batch-creator
+1⭐ sheetd/AssemblyMaker | CATIA/Digital Project tool that allows you to batch insert a part/product in to an assembly and then constrains the axis system of new part/product to a selection of axis systems.  | https://github.com/sheetd/AssemblyMaker
+1⭐ engine0751/Parametric-Assembly-Generator-Drawing-Automation-VBA- | Advanced CATIA VBA Automation Suite that generates parametric parts, builds assemblies, creates engineering drawings, and exports complete project packages. Includes modular VBA scripts, templates, Excel-driven parameters, and tools for screenshots and batch processing. | https://github.com/engine0751/Parametric-Assembly-Generator-Drawing-Automation-VBA-
+0⭐ Navidsaeyan/CATIA-Inventor-Batch-PDF-Export | Automation scripts to batch export CATIA (.CATDrawing) and Inventor (.idw) files to PDF | https://github.com/Navidsaeyan/CATIA-Inventor-Batch-PDF-Export
+0⭐ tylerluu-cmd/verisurf-batch-convert | Batch CATIA-to-STEP converter with validation using Verisurf API | https://github.com/tylerluu-cmd/verisurf-batch-convert
+0⭐ gubbins-inc/cataicatalog | take step files in organised folders, move them to root, use catia to convert to parts and products, return the catia file to directories, plan and execute move, create csv file for catia batch catalog generation | https://github.com/gubbins-inc/cataicatalog
+=== 3dxml+parse ===

@@ -1,0 +1,58 @@
+{
+  "fileFormatID": 1078,
+  "formatName": "Chemical Markup Language",
+  "version": null,
+  "formatDescription": "The Chemical Markup Language (CML), first developed in 1994, uses the extensible markup language to allow for the communication of chemical concepts without the loss of semantic information. It can be used to represent mainstream chemistry concepts such as molecules, reactions, solid-state and spectroscopy.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": null,
+  "formatNote": null,
+  "lastUpdatedDate": "02 Jan 2025",
+  "formatSourceID": 168,
+  "provenanceCompoundName": "University of Southampton / University of Southampton",
+  "formatProvenance": "Submitted by Southampton Chemistry Department. v.120- Updated description as part of PRONOM Research Week 2024. Submitted by the Digital Research Alliance of Canada - Federated Research Data Repository / Alliance de recherche num\u00e9rique du Canada - D\u00e9p\u00f4t f\u00e9d\u00e9r\u00e9 de donn\u00e9es de recherche.",
+  "formatSourceDate": "31 Mar 2011",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": "Text (Mark-up)",
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "fmt/333",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [
+    {
+      "signatureID": 444,
+      "name": "Chemical Markup Language",
+      "note": "Looking for the CML namespace declaration: xmlns=\"http://www.xml-cml.org/schema\"",
+      "byteSequences": [
+        {
+          "positionType": "Absolute from BOF",
+          "offset": 0,
+          "maxOffset": 65536,
+          "byteSequence": "786D6C6E733D22687474703A2F2F7777772E786D6C2D636D6C2E6F72672F736368656D6122",
+          "endianness": null
+        }
+      ]
+    }
+  ],
+  "externalSignatures": [
+    {
+      "externalSignature": "cml",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "Has priority over",
+      "relatedFormatID": 638,
+      "relatedFormatName": "Extensible Markup Language"
+    }
+  ],
+  "source": 168
+}

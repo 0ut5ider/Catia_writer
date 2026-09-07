@@ -1,0 +1,654 @@
+
+Atari Games Corp. v. Nintendo of America Inc, 975 F.2d 832 | Casetext
+CARA A.I.
+All State & Fed.
+JX
+&#xA7;
+Features
+Pricing
+Help
+Sign In
+Free Trial
+Back to 
+Results
+Atari Games Corp. v. Nintendo of America Inc.
+975 F.2d 832 (Fed. Cir. 1992)
+Copy Cite
+Read
+Read
+Attorney Analyses
+Analyses
+1
+Citing Briefs
+Briefs
+6
+Citing Cases
+Citing Cases
+66
+Browse cases
+Federal Circuit
+1992
+November
+Atari Games Corp. v. Nintendo of America Inc.
+Atari Games Corp.
+v.
+Nintendo of America Inc.
+Download 
+PDF
+Print
+Check if overturned
+Get alerts
+Email
+Citing cases
+United States Court of Appeals, Federal Circuit
+Nov 17, 1992
+Full title
+975 F.2d 832 (Fed. Cir. 1992)
+Copy Citation
+ 91-1293. 
+ September 10, 1992. Rehearing Denied; Suggestion for Rehearing In Banc Declined November 17, 1992. 
+ M. Laurence Popofsky, Heller, Ehrman, White McAuliffe, San Francisco, Cal., argued, for plaintiffs-appellants. With him on the brief were Robert S. Venning, Peter A. Wald, Kirk G. Werner, Robert B. Hawk, Michael K. Plimack and Dale A. Rice. Also on the brief were James B. Bear, Knobbe, Martens, Olson Bear, of Newport Beach, Cal., and G. Gervaise Davis, II, Schroeder, Davis Orliss, Inc., Monterey, Cal. 
+ Thomas G. Gallatin, Jr., Mudge, Rose, Guthrie, Alexander Ferdon, New York City, argued, for defendants-appellees. With him on the brief was John J. Kirby, Jr. Also on the brief was Larry S. Nixon, Nixon Vanderhye, P.C., of Arlington, Va. 
+ Appeal from the United States District Court for the Northern District of California. 
+ Before CLEVENGER, Circuit Judge, SMITH, Senior Circuit Judge, and RADER, Circuit Judge. 
+ RADER, Circuit Judge. 
+ Nintendo of America Inc., and Nintendo Co., Ltd. sell the Nintendo Entertainment System (NES). Two of Nintendo's competitors, Atari Games Corporation and its wholly-owned subsidiary, Tengen, Inc., sued Nintendo for, among other things, unfair competition, Sherman Act violations, and patent infringement. Nintendo sued Atari for, among other things, unfair competition, patent infringement, copyright infringement, and trade secret violations. The United States District Court for the Northern District of California consolidated the two cases and preliminarily enjoined Atari from exploiting Nintendo's copyrighted computer program. Because Nintendo has shown a likelihood of success on its copyright infringement claims, this court affirms. 
+ BACKGROUND
+ Nintendo's home video game system &mdash; the NES &mdash; includes a monitor, console, and controls. The console is a base unit into which a user inserts game cartridges. These cartridges contain the various game programs for the NES. As dictated by the program on the cartridge, the console controls an image on a video monitor, often a television set. In response to this video display, the user interacts with the system by manipulating the controls. Thus, by operating the controls in response to the video image, an individual plays the game on the cartridge in the NES console. 
+ For instance, the game program may control a maze or set of obstacles on the video display. The user then manipulates the controls to guide an object through the maze or set of obstacles. The game program 
+ then awards the user points for proficiently passing through the maze or obstacles. 
+ Nintendo designed a program &mdash; the 10NES &mdash; to prevent the NES from accepting unauthorized game cartridges. Both the NES console and authorized game cartridges contain microprocessors or chips programed with the 10NES. The console contains a "master chip" or "lock." Authorized game cartridges contain a "slave chip" or "key." When a user inserts an authorized cartridge into a console, the slave chip in effect unlocks the console; the console detects a coded message and accepts the game cartridge. When a user inserts an unauthorized cartridge, the console detects no unlocking message and refuses to operate the cartridge. Nintendo's 10NES program thus controls access to the NES. 
+ Atari first attempted to analyze and replicate the NES security system in 1986. Atari could not break the 10NES program code by monitoring the communication between the master and slave chips. Atari next tried to break the code by analyzing the chips themselves. Atari analysts chemically peeled layers from the NES chips to allow microscopic examination of the object code.
+ Nonetheless, Atari still could not decipher the code sufficiently to replicate the NES security system.  
+ Object code is machine readable, binary code, represented on paper as a series of ones and zeroes. In actuality, those ones and zeroes represent "on" and "off" states of switches on a computer chip. In the 10NES chips, the object code, contained in chip memories, is implemented when the chips are operational. When operational, the chips generate a series of "ons" and "offs" in a particular sequence. That results in a pulsating signal which conveys messages to the computer.
+ In December 1987, Atari became a Nintendo licensee. Atari paid Nintendo to gain access to the NES for its video games. The license terms, however, strictly controlled Atari's access to Nintendo's technology, including the 10NES program. Under the license, Nintendo would take Atari's games, place them in cartridges containing the 10NES program, and resell them to Atari. Atari could then market the games to NES owners. Nintendo limited all licensees, including Atari, to five new NES games per year. The Nintendo license also prohibited Atari from licensing NES games to other home video game systems for two years from Atari's first sale of the game. 
+ In early 1988, Atari's attorney applied to the Copyright Office for a reproduction of the 10NES program. The application stated that Atari was a defendant in an infringement action and needed a copy of the program for that litigation. Atari falsely alleged that it was a present defendant in a case in the Northern District of California. Atari assured the "Library of Congress that the requested copy [would] be used only in connection with the specified litigation." In fact, no suit existed between the parties until December 1988, when Atari sued Nintendo for antitrust violations and unfair competition. Nintendo filed no infringement action against Atari until November 1989. 
+ After obtaining the 10NES source code from the Copyright Office, Atari again tried to read the object code from peeled chips. Through microscopic examination, Atari's analysts transcribed the 10NES object code into a handwritten representation of zeros and ones. Atari used the information from the Copyright Office to correct errors in this transcription. The Copyright Office copy facilitated Atari's replication of the 10NES object code. 
+ After deciphering the 10NES program, Atari developed its own program &mdash; the Rabbit program &mdash; to unlock the NES. Atari's Rabbit program generates signals indistinguishable from the 10NES program. The Rabbit uses a different microprocessor. The Rabbit chip, for instance, operates faster. Thus, to generate signals recognizable by the 10NES master chip, the Rabbit program must include pauses. Atari also programmed the Rabbit in a different language. Because Atari chose a different microprocessor and programming language, the line-by-line instructions of the 10NES and Rabbit programs vary. Nonetheless, as the district court found, the 
+ Rabbit program generates signals functionally indistinguishable from the 10NES program. The Rabbit gave Atari access to NES owners without Nintendo's strict license conditions. 
+ Nintendo asked the district court to enjoin Atari's alleged infringement of its 10NES copyright. Atari sought in a separate motion to enjoin Nintendo's alleged antitrust violations and alleged misuse of its property rights. Nintendo prevailed on both motions. Atari appealed both rulings but subsequently moved to dismiss its appeal from the denial of its motion for a preliminary injunction. This court granted that motion. Atari asserts copyright misuse as a defense to copyright infringement. 
+ ANALYSIS
+ Because this action includes patent infringement claims, this court has jurisdiction over this appeal. 
+28 U.S.C. &sect; 1292
+, 1295, 1338 (1988). To resolve issues of copyright law, this court applies the law as interpreted by the regional circuits, in this case, the United States Court of Appeals for the Ninth Circuit. 
+Atari Games v. Nintendo of Am.,
+897 F.2d 1572, 1575
+ (Fed. Cir. 1990); 
+Cicena Ltd. v. Columbia Telecommunications Group,
+900 F.2d 1546
+ (Fed. Cir. 1990). 
+ The Ninth Circuit sustains preliminary injunctions if the movant shows "either a likelihood of success on the merits and the possibility of irreparable injury, or that serious questions going to the merits were raised and the balance of hardships tips sharply in its favor." 
+Johnson Controls v. Phoenix Control Sys.,
+886 F.2d 1173, 1174
+ (9th Cir. 1989); 
+accord Ocean Garden v. Marktrade Co.,
+953 F.2d 500, 506
+ (9th Cir. 1991). In a claim for copyright infringement, "a showing of a reasonable likelihood of success on the merits raises a presumption of irreparable harm." 
+Johnson Controls,
+886 F.2d at 1174
+. 
+ The Ninth Circuit vacates a preliminary injunction "only if the district court abused its discretion, or based its decision on an erroneous legal standard or clearly erroneous findings of fact." 
+Id.; accord Ocean Garden,
+953 F.2d at 502
+; 
+Associated Gen. Contractors of Cal. v. Coalition for Economic Equity,
+950 F.2d 1401, 1405
+ (9th Cir. 1991), 
+cert. denied,
+ ___ U.S. ___, 112 S.Ct. 1670, 118 L.Ed.2d 390 (1992). The Ninth Circuit reviews "de novo the correctness of the legal standards employed by the district court in evaluating the plaintiff's likelihood of success on the merits." 
+Associated Gen. Contractors,
+950 F.2d at 1405
+. 
+ Thus, following Ninth Circuit caselaw, this court must determine whether Nintendo has shown a likelihood of success on its prima facie case of copyright infringement and a likelihood that it will overcome Atari's copyright misuse defense. 
+See H.H. Robertson, Co. v. United Steel Deck,
+820 F.2d 384, 388-89
+ (Fed. Cir. 1987) (entitlement to preliminary injunction "is determined in the context of presumptions and burdens that inhere at trial on the merits"); 
+Gutierrez v. Municipal Court of the Southeast Judicial District, County of Los Angeles,
+838 F.2d 1031, 1038-45
+ (9th Cir. 1988); 
+Half Moon Bay Fishermans' Marketing v. Carlucci,
+857 F.2d 505, 507-12
+ (9th Cir. 1988); 
+Hale v. Department of Energy,
+806 F.2d 910, 915-18
+ (9th Cir. 1986). 
+ Copyright Infringement
+ To prevail on its copyright infringement claim, Nintendo must show ownership of the 10NES program copyright and copying by Atari of protectable expression from the 10NES program. 
+Feist Publications v. Rural Tel. Serv. Co.,
+___ U.S. ___
+, 
+111 S.Ct. 1282, 1296
+, 
+113 L.Ed.2d 358 (1991)
+; 
+Brown Bag Software v. Symantec Corp.,
+960 F.2d 1465, 1472
+ (9th Cir. 1992); 
+Johnson Controls,
+886 F.2d at 1175
+. The parties do not dispute that Nintendo owns the 10NES copyright. Therefore, Nintendo need only prove that Atari copied protectable expression from the 10NES program. 
+ Nintendo can show copying by proving that Atari made literal copies of the 10NES program. Alternatively, Nintendo can show copying by proving that Atari had access to the 10NES program and that Atari's work &mdash; the Rabbit program &mdash; is substantially 
+ similar to Nintendo's work in ideas and the expression of those ideas. 
+Johnson Controls,
+886 F.2d at 1176
+; 
+Landsberg v. Scrabble Crossword Game Players,
+736 F.2d 485, 488
+ (9th Cir.), 
+cert. denied,
+469 U.S. 1037
+, 
+105 S.Ct. 513
+, 
+83 L.Ed.2d 403 (1984)
+. The parties do not dispute that Atari had access to the 10NES program. Thus, to show non-literal copyright infringement, Nintendo must ultimately prove substantial similarity between the 10NES and the Rabbit in protectable expression. To determine whether Nintendo is likely to so prove, this court must first distinguish protectable expression from the unprotected elements of the 10NES program. 
+Johnson Controls,
+886 F.2d at 1175
+. 
+Copyright Overview
+ Article I, &sect; 8, cl. 8, of the Constitution gives Congress power "[T]o promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries." The Constitution thus gives Congress the authority to set the parameters of authors' exclusive rights. 
+Sony Corp. of Am. v. Universal City Studios,
+464 U.S. 417, 429
+, 
+104 S.Ct. 774, 782
+, 
+78 L.Ed.2d 574 (1984)
+. The Copyright Act of 1976, in general, protects "original works of authorship fixed in any tangible medium of expression." 
+17 U.S.C. &sect; 102(a) (1988)
+. To explain the term "works of authorship," the Act sets forth a statutory list of categories within the term. The first category on this non-exclusive list is "literary works." 
+Id.
+ For a thorough historical presentation of Congress's copyright enactments, 
+see Lotus Development v. Paperback Software International,
+740 F. Supp. 37, 47-51
+ (D.Mass. 1990).
+ The statutory definition of "literary works" embraces computer programs: 
+ "Literary works" are works, other than audiovisual works, expressed in words, numbers, or other verbal or numerical symbols or indicia, regardless of the nature of the material objects, such as books, periodicals, manuscripts, phonorecords, film, tapes, disks, or cards, in which they are embodied.
+17 U.S.C. &sect; 101 (1980)
+. As works "expressed in words, numbers, or other verbal or numerical symbols or indicia," computer programs fall within the terms of the 1976 Act. The House Report for the 1976 Act explicitly includes computer programs within "literary works": 
+ The term "literary works" does not connote any criterion of literary merit or qualitative value: it includes . . . computer data bases, and computer programs to the extent that they incorporate authorship in the programmer's expression of original ideas, as distinguished from the ideas themselves.
+ H.R. Rep. No. 1476, 94th Cong., 2d Sess. 54 (1976), 
+reprinted in
+ 1976 U.S.C.C.A.N. 5659, 5667. As literary works, copyright protection extends to computer programs, 
+see, e.g., Johnson Controls,
+886 F.2d 1173, 1175
+; 
+S.O.S., Inc. v. Payday, Inc.,
+886 F.2d 1081
+ (9th Cir. 1989), and to instructions encoded on silicon chips, 
+Apple Computer v. Formula International,
+725 F.2d 521
+ (9th Cir. 1984). 
+ The 1976 Act, however, sets limits on the scope of copyright protection. In the words of the Supreme Court, "[t]he mere fact that a work is copyrighted does not mean that every element of the work may be protected." 
+Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1289
+; 
+accord Harper Row, Publishers v. Nation Enter.,
+471 U.S. 539, 547-48
+, 
+105 S.Ct. 2218, 2224
+, 
+85 L.Ed.2d 588 (1985)
+. Section 102(b) of title 17 states: 
+ In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work.
+17 U.S.C. &sect; 102(b)
+. The 1976 House Report on section 102(b) applies this limitation directly to computer programs. 
+ Some concern has been expressed lest copyright in computer programs should extend protection to the methodology or processes adopted by the programmer, rather than merely to the "writing" expressing 
+ his ideas. 
+Section 102(b)
+ is intended, among other things, to make clear that the expression adopted by the programmer is the copyrightable element in a computer program, and that the actual processes or methods embodied in the program are not within the scope of the copyright law.
+ H.R. Rep. No. 1476, 94th Cong., 2d Sess. 57 (1976), 
+reprinted in
+ 1976 U.S.C.C.A.N. 5659, 5670. 
+Protectable Expression
+ This overview of copyright law explains the trial court's initial task is separating protectable expression in the 10NES program from unprotectable ideas, facts, processes, and methods of operation. The Copyright Act, however, contains no explicit standards for separating a computer program's expression from its idea. Rather this court must examine tests used for other literary works to distinguish expression from idea. 
+ Judge Learned Hand devised an abstraction test to separate the idea from expression in written or dramatic works: 
+ Upon any work . . . a great number of patterns of increasing generality will fit equally well, as more and more of the incident is left out. . . . [T]here is a point in this series of abstractions where they are no longer protected, since otherwise the playwright could prevent the use of his "ideas," to which, apart from their expression, his property is never extended.
+Nichols v. Universal Pictures Corp.,
+45 F.2d 119, 121
+ (2d Cir. 1930), 
+cert. denied,
+282 U.S. 902
+, 
+51 S.Ct. 216
+, 
+75 L.Ed. 795 (1931)
+. Our sister circuit recently applied this test in a computer program copyright case. 
+Computer Assocs. Int'l v. Altai, Inc.,
+ 1992 WL 139364, 23 USPQ2d 1241, 1252-53 (2d Cir. 1992); 
+cf., Whelan Assocs. v. Jaslow Dental Lab.,
+797 F.2d 1222
+ (3d Cir. 1986), 
+cert. denied,
+479 U.S. 1031
+, 
+107 S.Ct. 877
+, 
+93 L.Ed.2d 831 (1987)
+. Judge Hand's abstraction analysis forces differentiation of the unprotectable idea and protectable expression. The abstraction method also properly recognizes that a computer program contains many distinct ideas. 
+Computer Assocs. Int'l,
+ 23 USPQ2d at 1253. The Ninth Circuit as well endorses dissection of a copyrighted work. 
+Brown Bag,
+960 F.2d at 1475-76
+. By separating the program into manageable components, this method eases the court's task of discerning the boundaries of protectable expression. 
+ After separating the program into manageable components, the court must next filter the unprotectable components of the program from the protectable expression. 
+See Computer Assocs. Int'l,
+ 23 USPQ2d at 1253. The court must filter out as unprotectable the ideas, expression necessarily incident to the idea, expression already in the public domain, expression dictated by external factors (like the computer's mechanical specifications, compatibility with other programs, and demands of the industry served by the program), and expression not original to the programmer or author. 
+Id.,
+ 23 USPQ2d at 1253, 1255, 1256; 
+see also Harper Row,
+471 U.S. at 548
+, 
+105 S.Ct. at 2224
+; 
+Plains Cotton Coop. Ass'n v. Goodpasture Computer Serv.,
+807 F.2d 1256
+ (5th Cir.), 
+cert. denied,
+484 U.S. 821
+, 
+108 S.Ct. 80
+, 
+98 L.Ed.2d 42 (1987)
+. 
+ In addition, copyright protection does not "extend to any . . . procedure, process, system [or] method of operation." 
+17 U.S.C. &sect; 102(b)
+. In conformance with the standards of patent law, title 35 provides protection for the process or method performed by a computer in accordance with a program. 
+See Arrhythmia Research Technology v. Corazonix Corp.,
+958 F.2d 1053
+ (Fed. Cir. 1992). Thus, patent and copyright laws protect distinct aspects of a computer program. 
+See Baker v. Selden,
+101 U.S. 99, 103
+, 
+25 L.Ed. 841 (1879)
+. Title 35 protects the process or method performed by a computer program; title 17 protects the expression of that process or method. While title 35 protects any novel, nonobvious, and useful process, title 17 can protect a multitude of expressions that implement that process. If the patentable process is embodied inextricably in the line-by-line instructions of the computer program, however, then the process merges 
+ with the expression and precludes copyright protection. 
+See Formula Int'l,
+725 F.2d at 525
+; 
+Apple Computer v. Franklin Computer,
+714 F.2d 1240, 1253
+ (3d Cir. 1983), 
+cert. dismissed,
+464 U.S. 1033
+, 
+104 S.Ct. 690, 79
+, L.Ed.2d 158 (1984). 
+ This court, in applying Ninth Circuit law, must determine whether each component of the 10NES program "qualifies as an expression of an idea, or an idea itself." 
+Johnson Controls,
+886 F.2d at 1175
+. This determination depends on "the particular facts of each case." 
+Id.
+ Nintendo's 10NES program contains more than an idea or expression necessarily incident to an idea. Nintendo incorporated within the 10NES program creative organization and sequencing unnecessary to the lock and key function. Nintendo chose arbitrary programming instructions and arranged them in a unique sequence to create a purely arbitrary data stream. This data stream serves as the key to unlock the NES. Nintendo may protect this creative element of the 10NES under copyright. 
+ External factors did not dictate the design of the 10NES program. Nintendo may have incorporated some minimal portions of the program to accommodate the microprocessor in the NES, but no external factor dictated the bulk of the program. Nor did Nintendo take this program from the public domain. By registering the 10NES with the Copyright Office, Nintendo obtained the benefit of a presumption of originality which Atari does not rebut on this record. 
+ Finally, Nintendo seeks to protect the creative element of its program beyond the literal expression used to effect the unlocking process. The district court defined the unprotectable 10NES idea or process as the generation of a data stream to unlock a console. This court discerns no clear error in the district court's conclusion. The unique arrangement of computer program expression which generates that data stream does not merge with the process so long as alternate expressions are available. 
+Formula Int'l,
+725 F.2d at 525
+. In this case, Nintendo has produced expert testimony showing a multitude of different ways to generate a data stream which unlocks the NES console. 
+ At this stage in the proceedings of this case, Nintendo has made a sufficient showing that its 10NES program contains protectable expression. After filtering unprotectable elements out of the 10NES program, this court finds no error in the district court's conclusion that 10NES contains protectable expression. Nintendo independently created the 10NES program and exercised creativity in the selection and arrangement of its instruction lines. 
+See Bellsouth Advertising Publishing v. Donnelly Info. Publishing,
+933 F.2d 952, 957
+ (11th Cir. 1991) (selection, coordination, or arrangement of information constitutes originality). The security function of the program necessitated an original signal combination to act as a lock and key for the NES console. To generate an original signal, Nintendo had to design an original program. In sum, the district court properly discerned that the 10NES program contains protectable expression. At a minimum, Nintendo may protect under copyright the unique and creative arrangement of instructions in the 10NES program. 
+ Next, this court must determine whether the district court correctly determined that Nintendo has shown sufficient evidence that Atari either literally copied the 10NES or had access to the 10NES and produced a substantially similar copy. Nintendo argues that Atari's unauthorized acquisition of a copy from the Copyright Office literally infringed the 10NES program. Nintendo also argues that copies of the 10NES program made in the reverse engineering process literally infringe the 10NES copyright. Finally, Nintendo argues that Atari's Rabbit program is substantially similar to the 10NES and therefore infringes the 10NES copyright. A single copy is sufficient to support a claim of copyright infringement. 
+See
+17 U.S.C. &sect; 106
+; 
+1 U.S.C. &sect; 1 (1988)
+ ("words imparting the plural include the singular"); S.Rep. No. 94-473 at 58 (1975); H.R. Rep. No. 94-1476 at 61 (1976). Even for works warranting little copyright protection, verbatim copying is infringement. 
+ See 
+Data East USA v. Epyx, Inc.,
+862 F.2d 204, 209
+ (9th Cir. 1988); 
+Sid Marty Krofft Television Prods. v. McDonald's Corp.,
+562 F.2d 1157, 1168
+ (9th Cir. 1977). 
+Verbatim Copying
+ Atari acquired a copy of the 10NES program from the Copyright Office and used it to replicate the 10NES source code. The Copyright Act states: 
+ Copies or reproductions of deposited articles retained under the control of the Copyright Office shall be authorized or furnished only under the conditions specified by the Copyright Office regulations.
+17 U.S.C. &sect; 706(b)
+. In conformance with protective regulations, this provision permits access to copyrighted works. Copies obtained from the Copyright Office in violation of the regulations, however, are unauthorized reproductions. 
+ Section 201.2(d)(2) of the Regulations of the Copyright Office (as amended through July 1, 1986), permit reproduction only if: (1) the copyright owner grants permission, (2) a court orders reproduction, or (3) 
+ (ii) The Copyright Office receives a written request from an attorney on behalf of either the plaintiff or defendant in connection with litigation, actual or prospective, involving the copyrighted work. The following information must be included in such a request: (A) The names of all the parties involved and the nature of the controversy; (B) the name of the court in which the actual case is pending or, in the case of a prospective proceeding, a full statement of the facts of the controversy in which the copyrighted work is involved; and (C) satisfactory assurance that the requested reproduction will be used only in connection with the specified litigation.
+Id.
+ Under this regulation, Atari requested the 10NES program in 1988. 
+ In 1991, the Copyright Office circulated the following notice:  
+ The Copyright Office has recently become aware that an attorney completing the previous Litigation Statement form provided by the Office could generally allege that a controversy existed when in fact no real controversy did exist. An attorney could thus receive reproductions of deposits not authorized by the regulations. The Litigation Statement form has been amended to require the applicant to give more specific information regarding prospective proceedings and to include supporting documentation.
+ 56 Fed.Reg. 12,957 (1991).
+ Section 201.2(d)(2) refers to "litigation, actual or prospective." The term "prospective litigation," as used in the regulation, means more than a subjective expectation of litigation at some unspecified future time. Otherwise, anyone desiring a copy of a deposited work would only need to allege a speculative future dispute. Instead, the regulation repeatedly refers to and requests information about an actual controversy between parties. This language, in context, clarifies that the regulation requires an objective, reasonable apprehension of litigation. 
+ Patent law applies an analogous test to determine an actual controversy. 
+See Sony Corp. of Am. v. Universal City Studios,
+464 U.S. 417, 439
+, 
+104 S.Ct. 774, 787
+, 
+78 L.Ed.2d 574 (1984)
+ (appropriate to refer to patent case law in copyright cases "because of the historic kinship between patent law and copyright law"). In the patent declaratory judgment context, a two-prong analysis defines an actual controversy. 
+Spectronics Corp. v. H.B. Fuller Co.,
+940 F.2d 631, 634
+ (Fed. Cir.), 
+cert. denied,
+ ___ U.S. ___, 112 S.Ct. 658, 116 L.Ed.2d 749 (1991). First, an alleged patent infringer must have infringed or be in a position to infringe. 
+Id.
+ Second, the patentee's "conduct must create an objectively reasonable apprehension on the part of the accused infringer that the patent holder will initiate suit if the allegedly infringing activity continues." 
+Id.
+ In this case, Nintendo is likely to show that Atari had no reasonable apprehension of litigation in 1988. In fact, Atari was not in a position to infringe before acquiring the 10NES program from the Copyright Office. Atari was Nintendo's licensee in 1988. Atari had no product, allegedly infringing or not, to perform the function of the 10NES program. Without any allegedly infringing program at all in 1988, Atari had no reason to fear a copyright infringement suit from Nintendo. Therefore, no controversy at all existed when Atari acquired the 10NES program from the Copyright Office. Without an actual controversy, Atari's acquisition of 
+ the 10NES source code violated Copyright Office rules. Reproduction of an unauthorized copy from the Copyright Office violates 
+17 U.S.C. &sect; 106(1)
+. 
+ On this record, the district court did not err in determining that Nintendo is likely to show successfully that Atari infringed the 10NES copyright by obtaining and copying the source code from the Copyright Office. 
+Reverse Engineering
+ Atari made copies of the 10NES program in its attempts to "reverse engineer" Nintendo's program. Atari made intermediate copies in two very different settings. Before obtaining the Copyright Office copy of 10NES, Atari tried to understand the program. Atari stripped some 10NES chips and copied portions of the 10NES object code from the chips. 
+ The Semiconductor Chip Protection Act of 1984 permits, in some limited circumstances, reverse engineering to reproduce a mask work. 
+17 U.S.C. &sect; 906 (1988)
+. This Act, while supporting reverse engineering to help disseminate the ideas embodied in a mask work, does not apply in this case. Atari did not reproduce or copy Nintendo's chip or mask work. In fact, Atari used an entirely different chip. Atari instead allegedly copied the program on Nintendo's chip. Therefore, the 1984 Act does not apply.
+ After obtaining the copy of the code from the Copyright Office, Atari made other intermediate copies of the program. Atari made photocopies of the Copyright Office copy, deprocessed chips, and handcopied the 10NES object code from the deprocessed chip. Atari then entered this copied 10NES object code into a computer which aided in understanding the ideas in the program. The district court determined that this intermediate copying infringed Nintendo's copyright. 
+ The Copyright Act encourages authors to share their creative works with society. The Constitution sets forth the purpose of copyright protection as the promotion of "the Progress of Science", not the rewarding of authors. U.S. Const. art. I, &sect; 8, cl. 8; 
+Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1290
+; 
+see also, Harper Row,
+471 U.S. at 546
+, 
+105 S.Ct. at 2223
+; 
+Sony Corp.,
+464 U.S. at 429-30
+, 
+104 S.Ct. at 782-83
+; 
+Twentieth Century Music v. Aiken,
+422 U.S. 151, 156
+, 
+95 S.Ct. 2040, 2044
+, 
+45 L.Ed.2d 84 (1975)
+; 
+Fox Film Corp. v. Doyal,
+286 U.S. 123, 127
+, 
+52 S.Ct. 546, 546
+, 
+76 L.Ed. 1010 (1932)
+. The Copyright Act thus balances "the interests of authors . . . in the control and exploitation of their writings . . . on the one hand, and society's competing interests in the free flow of ideas, [and] information . . . on the other hand." 
+Sony Corp.,
+464 U.S. at 429-30
+, 
+104 S.Ct. at 782-83
+. Thus, while providing exclusive rights to expression, the Act "encourages others to build freely upon the ideas and information conveyed by a work." 
+Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1290
+. The Act grants authors enumerated exclusive rights, 
+see
+17 U.S.C. &sect; 106
+, subject to limitations, 
+see
+17 U.S.C. &sect; 107-112
+. 
+ The author does not acquire exclusive rights to a literary work in its entirety. Under the Act, society is free to exploit facts, ideas, processes, or methods of operation in a copyrighted work. 
+See, e.g., Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1289-90
+. To protect processes or methods of operation, a creator must look to patent laws. 
+See Bonito Boats v. Thunder Craft Boats,
+489 U.S. 141
+, 
+109 S.Ct. 971
+, 
+103 L.Ed.2d 118 (1989)
+; 
+Arrhythmia Research,
+958 F.2d at 1053
+; 
+see also The Law Business of Computer Software,
+ &sect; 2.07 (D.C. Toedt III ed. 1991). An author cannot acquire patent-like protection by putting an idea, process, or method of operation in an unintelligible format and asserting copyright infringement against those who try to understand that idea, process, or method of operation. 
+See, e.g., Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1290
+; 
+17 U.S.C. &sect; 102(b)
+. The Copyright Act permits an individual in rightful possession of a copy of a work to undertake necessary efforts to understand the work's ideas, processes, and methods of operation. 
+ This permission appears in the fair use exception to copyright exclusivity. Section 107 of the Copyright Act states that "fair use of a copyrighted work, including such use by reproduction in copies . . . for purposes such as criticism, comment, news reporting, teaching . . . scholarship or research" 
+ is not infringement. 
+17 U.S.C. &sect; 107
+. The legislative history of section 107 suggests that courts should adapt the fair use exception to accommodate new technological innovations. H.R. Rep. No. 1476, 94th Cong., 2d Sess. 66 (1976), 
+reprinted in
+ U.S.C.C.A.N. 5659, 5679-80; 
+17 U.S.C. &sect; 107
+; 
+see also Twentieth Century,
+422 U.S. at 156
+, 
+95 S.Ct. at 2044
+ ("When technological change has rendered its literal terms ambiguous, the Copyright Act must be construed in light of [its] basic purpose."). 
+ Thus, the Act exempts from copyright protection reproductions for "criticism, comment . . . or research." These activities permit public understanding and dissemination of the ideas, processes, and methods of operation in a work: 
+ The copyright holder has a property interest in preventing others from reaping the fruits of his labor, not in preventing the authors and thinkers of the future from making use of, or building upon, his advances. The process of creation is often an incremental one, and advances building on past developments are far more common than radical new concepts. 
+See Lewis Galoob Toys, Inc. v. Nintendo,
+964 F.2d 965
+ (9th Cir. 1992). Where the infringement is small in relation to the new work created, the fair user is profiting largely from his own creative efforts rather than free-riding on another's work. A prohibition on all copying whatsoever would stifle the free flow of ideas without serving any legitimate interest of the copyright holder.
+New Kids on the Block v. News Am. Publishing,
+971 F.2d 302, 307
+ n. 6 (9th Cir. 1992). 
+See also Harper Row,
+471 U.S. at 549
+, 
+105 S.Ct. at 2224
+ (fair use implied when "promoting progress of science and the useful arts"). 
+ Section 107 also requires examination of the nature of the work when determining if a reproduction is a fair use. 
+17 U.S.C. &sect; 107(2)
+. When the nature of a work requires intermediate copying to understand the ideas and processes in a copyrighted work, that nature supports a fair use for intermediate copying. Thus, reverse engineering object code to discern the unprotectable ideas in a computer program is a fair use. 
+See Feist,
+ ___ U.S. at ___, 
+111 S.Ct. at 1290
+, ("[C]opyright does not prevent subsequent users from copying from a prior author's work those constituent elements that are not original &mdash; for example . . . facts, or materials in the public domain &mdash; as long as such use does not unfairly appropriate the author's original contributions."); 
+cf. New Kids,
+ at 307 n. 6; 
+contra Sega Enter. v. Accolade, Inc.,
+785 F. Supp. 1392, 1395-96
+ (N.D.Cal. 1992)
+. 
+ Fair use to discern a work's ideas, however, does not justify extensive efforts to profit from replicating protected expression. Subparagraphs 1 and 4 of section 107 clarify that the fair use in intermediate copying does not extend to commercial exploitation of protected expression. 
+Sony Corp.,
+464 U.S. at 451
+, 
+104 S.Ct. at 793
+. The fair use reproductions of a computer program must not exceed what is necessary to understand the unprotected elements of the work. This limited exception is not an invitation to misappropriate protectable expression. Any reproduction of protectable expression must be strictly necessary to ascertain the bounds of protected information within the work. 
+ In this case, the source code obtained from the Copyright Office facilitated Atari's intermediate copying of the 10NES program. To invoke the fair use exception, an individual must possess an authorized copy of a literary work. 
+See Harper Row,
+471 U.S. at 562-63
+, 
+105 S.Ct. at 2232
+ (Knowing exploitation of purloined manuscript not compatible with "good faith" and "fair dealings" underpinnings of fair use doctrine.). Because Atari was not in authorized possession of the Copyright Office copy of 10NES, any copying or derivative copying of 10NES source code from the Copyright Office does not qualify as a fair use. 
+ Reverse engineering, untainted by the purloined copy of the 10NES program and necessary to understand 10NES, is a fair use. An individual cannot even observe, let alone understand, the object code on Nintendo's chip without reverse engineering. 
+ Atari retrieved this object code from NES security chips in its efforts to reverse engineer the 10NES program. Atari chemically removed layers from Nintendo's chips to reveal the 10NES object code. Through microscopic examination of the "peeled" chip, Atari engineers transcribed the 10NES object code into a handwritten list of ones and zeros. While these ones and zeros represent the configuration of machine readable software, the ones and zeros convey little, if any, information to the normal unaided observer. Atari then keyed this handwritten copy into a computer. The computer then "disassembled"
+ the object code or otherwise aided the observer in understanding the program's method or functioning. This "reverse engineering" process, to the extent untainted by the 10NES copy purloined from the Copyright Office, qualified as a fair use.  
+ Computer programs are normally written in a high-level language such as C or FORTRAN. Once written, the program is translated from the high-level language to machine-readable object code. This translation process, called compiling, is performed by a computer as instructed by a compiling program. As mentioned previously, the idea or process expressed in a program is not easily discernible from object code. Object code is disassembled to facilitate understanding the idea or process expressed. Disassembly is basically the reverse of compilation. Object code is translated via a disassembly program to a higher, more intelligible language called assembly language.
+ The district court assumed that reverse engineering (intermediate copying) was copyright infringement. 
+Atari Games v. Nintendo of Am.,
+ Nos. 88-4805, 89-0027, 89-0824, slip op. at 11-13, 1991 WL 57304 (N.D.Cal. Apr. 11, 1991). This court disagrees. Atari did not violate Nintendo's copyright by deprocessing computer chips in Atari's rightful possession. Atari could lawfully deprocess Nintendo's 10NES chips to learn their unprotected ideas and processes. This fair use did not give Atari more than the right to understand the 10NES program and to distinguish the protected from the unprotected elements of the 10NES program. Any copying beyond that necessary to understand the 10NES program was infringement. Atari could not use reverse engineering as an excuse to exploit commercially or otherwise misappropriate protected expression. 
+Substantial Similarity
+ Even in the absence of verbatim copying, a copyright owner may show infringement "by showing that the infringer had access to the work and that the two works are substantially similar." 
+Shaw v. Lindheim,
+919 F.2d 1353, 1356
+ (9th Cir. 1990); 
+accord Baxter v. MCA, Inc.,
+812 F.2d 421, 423
+ (9th Cir.), 
+cert. denied,
+ 484 U.S. 954, 108 S.Ct. 346, 98 L.Ed.2d 372 (1987). This doctrine prevents a plagiarist from escaping infringement by making immaterial changes in the protected work. 
+ The Ninth Circuit uses a two-step analysis to evaluate substantial similarity: 
+ First, an "extrinsic" test is used to determine whether two ideas are substantially similar. This is an objective test which rests upon specific criteria that can be listed and analyzed. Second, an "intrinsic" test is used to compare forms of expression. This is a subjective test which depends on the response of the ordinary reasonable person.
+Data East,
+862 F.2d at 208
+ (citations omitted). In the context of computer programs, the "ordinary reasonable person" with the ability to intelligently respond to computer expression is a computer programmer. 
+Johnson Controls,
+886 F.2d at 1176
+ n. 4. Thus, in addition to the lay response of a fact-finder, the Ninth Circuit permits expert testimony about the second prong of the substantial similarity test. 
+Cf., Brown Bag,
+960 F.2d at 1474
+ n. 3 (acknowledging movement toward test "in which lay and expert testimony are uniformly admissible" in computer copyright cases). 
+ In applying this test, the district court correctly considered expert testimony recounting striking similarities between the Rabbit and 10NES programs. Moreover, the trial court detected similarities between the programs beyond the similarities necessary to accommodate the programming environment, or similarities necessary to embody 
+ the unprotectable idea, process, or method of the 10NES program. 
+ Specifically, the district court noted that the Rabbit program incorporates elements of the 10NES program unnecessary for the chip's performance. The 10NES slave chip performs some functions beyond unlocking the NES console. For example, the 10NES slave chip shuts down upon receipt of an erroneous message from a master chip. The Rabbit program too contains this feature. This disabling feature is unnecessary to achieve Atari's stated purpose &mdash; unlocking the NES console. 
+ In another example, the district court noted that Nintendo modified its 10NES slave chip program in 1987. This modification deleted some instructions from the original 10NES program. Nonetheless the Rabbit program contains instructions equivalent to those deleted from the original 10NES program. These unnecessary instructions strongly suggest that the Rabbit program is substantially similar to the 10NES program. 
+See, e.g., M. Kramer Mfg. Co. v. Andrews,
+783 F.2d 421, 446
+ (4th Cir. 1986) ("Courts have consistently viewed `common errors' as strongest evidence of copying."); 
+E.F. Johnson Co. v. Uniden Corp. of Am.,
+623 F. Supp. 1485, 1496
+ (D.Minn. 1985) ("The existence of the identical unnecessary instructions in both codes is strong proof of substantial similarity."); 
+SAS Inst. v. S H Computer Sys.,
+605 F. Supp. 816, 824, 826
+ (M.D.Tenn. 1985) (inclusion of unnecessary statement "explained only as a result of slavish copying of structural detail"). 
+ While Atari may freely reproduce the idea or process of Nintendo's 10NES code, copying of fully extraneous instructions unnecessary to the 10NES program's function strongly supports the district court's imposition of an injunction on the likelihood Nintendo will show infringement. The unnecessary instructions in the Rabbit program suggest copying, not independent creation. As Judge Learned Hand said, "No plagiarist can excuse the wrong by showing how much of his work he did not pirate." 
+Sheldon v. Metro Goldwyn Pictures Corp.,
+81 F.2d 49, 56
+ (2d Cir.), 
+cert. denied,
+298 U.S. 669
+, 
+56 S.Ct. 835
+, 
+80 L.Ed. 1392 (1936)
+. Atari argued that incorporation of the unnecessary instructions was necessary to insure future compatibility. The district court did not abuse its discretion by refusing to allow Atari to rely on speculative future events to justify inclusion of unnecessary 10NES program elements in the Rabbit program. 
+ In sum, Nintendo is likely to show that its 10NES program contains protectable expression. Atari's efforts to reverse engineer the 10NES chip to learn the ideas in the program will not alone support a copyright infringement claim. To the extent, however, Nintendo is likely to show misappropriation and copying of the unauthorized Copyright Office copy, it is likely to succeed on the merits of its infringement claim. Alternatively, Nintendo is likely to prove substantial similarity between the Rabbit and 10NES programs sufficient to support its infringement claims. This record thus justifies the trial court's imposition of a preliminary injunction. 
+ Copyright Misuse
+ As a defense to copyright infringement, Atari asserts Nintendo has misused its copyright of the lockout program. Atari alleges Nintendo has conditioned the license of its copyrighted lockout program on the acceptance of contract provisions that give it control over the games developed by independent, third-party software developers. The standard license exclusivity provision Nintendo includes in its contracts provides: 
+Exclusivity:
+ LICENSEE agrees to sell the Licensed Products for use only in conjunction with the NES. For a period of two (2) years following the date of first sale by LICENSEE of any Licensed Products pertaining to any particular video game program developed by LICENSEE under this Agreement, LICENSEE will not adapt or offer such video game program or any derivatives of such video game program, for use in any: (a) other home video system; or, (b) home computer system. . . .
+ The district court granted Nintendo's motion for preliminary injunction in response to which Atari asserted the copyright misuse defense. Atari contends Nintendo's copyright misuse should prevent copyright enforcement. The district court did not discuss copyright misuse in its order granting the preliminary injunction. However, on Atari's earlier motion for summary judgment, the court held, as a matter of law, that Nintendo did not misuse its copyright: 
+ The record does not demonstrate, as a matter of law, that such restrictions restrain the creativity of Nintendo licensees and thereby thwart the intent of the patent and copyright laws.
+Atari Games v. Nintendo of Am.,
+ Nos. 88-4805, 89-0027, slip op. at 5-6, 1991 WL 57304 (N.D.Cal. Mar. 5, 1991). 
+ In its opinion, the district court raised questions about the origin of a copyright misuse defense. Once again, this court applies Ninth Circuit law. 
+Sun Studs v. Applied Theory Assoc.,
+772 F.2d 1557, 1560-61
+ (Fed. Cir. 1985). 
+ Several circuit courts, including the Ninth Circuit, have entertained defenses of copyright misuse. 
+Lasercomb Am. v. Reynolds,
+911 F.2d 970
+ (4th Cir. 1990); 
+United Tel. Co. v. Johnson Publishing Co.,
+855 F.2d 604, 610-12
+ (8th Cir. 1988); 
+Supermarket of Homes v. San Fernando Valley Bd. of Realtors,
+786 F.2d 1400, 1408
+ (9th Cir. 1986); 
+F.E.L. Publications v. Catholic Bishop,
+ 214 U.S.P.Q. 409, 413 (7th Cir.), 
+cert. denied,
+ 459 U.S. 859, 103 S.Ct. 131, 74 L.Ed.2d 113 (1982); 
+Edward B. Marks Music v. Colorado Magnetics,
+497 F.2d 285, 290
+ (10th Cir. 1974), 
+cert. denied,
+ 419 U.S. 1120, 95 S.Ct. 801, 42 L.Ed.2d 819 (1975); 
+Broadcast Music v. Moor-Law,
+527 F. Supp. 758, 772
+ (D.Del. 1981), 
+aff'd without opinion,
+ 691 F.2d 490 (3rd Cir. 1982); 
+Mitchell Bros. Film Group v. Cinema Adult Theater,
+604 F.2d 852, 865
+ (5th Cir. 1979), 
+cert. denied,
+445 U.S. 917
+, 
+100 S.Ct. 1277
+, 
+63 L.Ed.2d 601 (1980)
+. Only one circuit has sustained the defense. 
+Lasercomb,
+911 F.2d at 970
+. Although no Ninth Circuit case has applied the defense to prevent enforcement of a copyright infringement claim, the Ninth Circuit suggests that, under the appropriate factual setting, copyright misuse may be a viable defense against a claim of copyright infringement. 
+Supermarket of Homes,
+786 F.2d at 1408
+; 
+see also, Sega Enter.,
+ at 1399. 
+ Although it has yet to apply the copyright misuse defense, the United States Supreme Court has given at least tacit approval of the defense. 
+United States v. Loew's, Inc.,
+371 U.S. 38
+, 
+83 S.Ct. 97
+, 
+9 L.Ed.2d 11 (1962)
+. In 
+Loew's,
+ the Court applied principles of patent misuse to a patentee's unlawful tying arrangements and held that recovery for infringement should be denied. The Court then went on to apply, with reference to the copyrights, the same antitrust restrictions on tie-in of sales. Numerous cases suggest that the purpose and policy of patent misuse apply as well to copyright. 
+See, e.g., Sony Corp.,
+464 U.S. at 439
+, 
+104 S.Ct. at 787
+; 
+Loew's,
+371 U.S. at 44-51
+, 
+83 S.Ct. at 101-05
+; 
+United States v. Paramount Pictures,
+334 U.S. 131, 157-59
+, 
+68 S.Ct. 915, 929-30
+, 
+92 L.Ed. 1260 (1948)
+; 
+Mitchell Bros.,
+604 F.2d at 865
+; 
+Bellsouth,
+933 F.2d at 960-61
+. 
+ In the absence of any statutory entitlement to a copyright misuse defense, however, the defense is solely an equitable doctrine. Any party seeking equitable relief must come to the court with "clean hands." 
+Keystone Driller Co. v. General Excavator Co.,
+290 U.S. 240, 245
+, 
+54 S.Ct. 146, 147
+, 
+78 L.Ed. 293 (1933)
+. The Ninth Circuit has noted that the doctrine of unclean hands can also preclude the defense of copyright misuse. 
+Supermarket of Homes,
+786 F.2d at 1408
+. The district court states, "Atari lied to the Copyright Office in order to obtain the copyrighted 10NES program." 
+Atari Games v. Nintendo of Am.,
+ Nos. 88-4805, 89-0027, 89-0824, slip op. at 14, 1991 WL 57304 (N.D.Cal. Apr. 11, 1991). This record supports the district court's conclusion and suggests that Atari's unclean hands prevent it from invoking equity. Thus, even if the Ninth Circuit permits an equitable copyright misuse defense, Atari appears ineligible to invoke the defense. This court discerns no reversible error in the district 
+ court's assessment of Nintendo's likelihood of success on the merits of its copyright infringement claim. 
+ CONCLUSION
+ The district court did not err by granting Nintendo's request for a preliminary injunction. Nintendo is likely to prove that the 10NES program contains protected expression. Nintendo is also likely to prove that Atari made unauthorized verbatim copies of the 10NES program. On this record, the district court did not err in determining that Nintendo is likely to show successfully that Atari infringed the 10NES copyright by obtaining and copying the source code from the Copyright Office. Furthermore, Nintendo is likely to prove that Atari's Rabbit program is substantially similar to the 10NES program and that the similarities relate to protected expression. Nintendo is also likely to overcome Atari's assertion of copyright misuse as a defense. Atari presents no arguments to rebut the presumption of irreparable harm that arises upon a showing of likelihood of success on the merits. 
+ AFFIRMED. 
+Copy with citation
+Copy as parenthetical citation
+Citation format
+Make your practice more effective and efficient with Casetext&#x2019;s legal research suite.
+Get a Demo
+Product
+Pricing
+Tour 
+Switch
+Big firm
+Coverage
+SmartCite
+Public records 
+search
+Integrations 
+Law school 
+access
+Bar associations
+About us
+Jobs
+Blog
+Podcast
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+ Recommend
+Privacy
+Terms
+&#xA9; 2019 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.

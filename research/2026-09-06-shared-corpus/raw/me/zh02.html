@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>catpart 文件格式 at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="catpart 文件格式" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://zhuanlan.zhihu.com/p/2035371265393964803">CATPart格式是什么？用什么软件可以打开？ - 知乎</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://zhuanlan.zhihu.com/p/2035371265393964803">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/zhuanlan.zhihu.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://zhuanlan.zhihu.com/p/2035371265393964803">
+                            zhuanlan.zhihu.com/p/2035371265393964803
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://zhuanlan.zhihu.com/p/2035371265393964803">CATPart格式是CATIA软件的部件文件格式，是CATIA软件中用于存储设计部件的一种文件格式。要打开CATPart文件，可以使用以下软件： CATIA软件：作为.CATPart文件的原生软件，CATIA可以直接打开和编辑这些文件。 Auto…</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://docs.fileformat.com/zh/cad/catpart/">CATPAR 文件格式 - CATIA V5 零件文件 - File Format Docs</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://docs.fileformat.com/zh/cad/catpart/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/docs.fileformat.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://docs.fileformat.com/zh/cad/catpart/">
+                            docs.fileformat.com/zh/cad/catpart/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://docs.fileformat.com/zh/cad/catpart/"><b>CATPART</b> 文件是 CATIA V5 软件的原生文件格式。 它存储在 CATIA V5（一种 3D CAD 制造应用程序）中创建的零件和装配体。 这些文件可以在 CATIA V5 或其他支持 <b>CATPART</b> 文件格式的 CAD 应用程序（如 AutoCAD）中打开和编辑。 <b>CATPART</b> 文件包含 3D 几何图形以及模型的结构数据。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.tuofa-cncmachining.com/zh-CN/tuofa-blog/catpart-files-for-cnc-machining.html">用于 CNC 加工的 CATPart 文件：各种格式指南和转换</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.tuofa-cncmachining.com/zh-CN/tuofa-blog/catpart-files-for-cnc-machining.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.tuofa-cncmachining.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.tuofa-cncmachining.com/zh-CN/tuofa-blog/catpart-files-for-cnc-machining.html">
+                            www.tuofa-cncmachining.com/zh-CN/tuofa-blog/catpart-files-for-cnc-machining.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.tuofa-cncmachining.com/zh-CN/tuofa-blog/catpart-files-for-cnc-machining.html">总而言之，<b>CATPart</b> 文件对于在能够访问 CATIA 的计算机上创建和编辑设计非常有用。 <b>CATPart</b> CNC 加工常见问题解答 SolidWorks 可以直接打开 <b>CATPart</b> 吗？ 不可以，基本版 Solidworks 无法直接打开它（Premium 可以）；它需要像 STEP 这样的中性交换格式。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://wenku.baidu.com/view/f685248dae00b52acfc789eb172ded630b1c98c4.html">CATPart文件怎么打开？3种主流方法+2种替代方案全攻略_百度文库</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://wenku.baidu.com/view/f685248dae00b52acfc789eb172ded630b1c98c4.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/wenku.baidu.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://wenku.baidu.com/view/f685248dae00b52acfc789eb172ded630b1c98c4.html">
+                            wenku.baidu.com/view/f685248dae00b52acfc789eb172ded630b1c98c4.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://wenku.baidu.com/view/f685248dae00b52acfc789eb172ded630b1c98c4.html">百度文库 互联网 <b>CATPart</b>文件怎么打开？ 3种主流方法+2种替代方案全攻略 分清CATPart与CATProduct。 CATPart是单个零件文件，而CATProduct是由多个CATPart装配而成的产品总成文件。 如果您需要打开的是装配体，应寻找对应的.CATProduct文件。 数据交换的最佳实践。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://wenku.baidu.com/noteview/f685248dae00b52acfc789eb172ded630b1c98c4.html">CATPart文件怎么打开？3种主流方法+2种替代方案全攻略</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://wenku.baidu.com/noteview/f685248dae00b52acfc789eb172ded630b1c98c4.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/wenku.baidu.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://wenku.baidu.com/noteview/f685248dae00b52acfc789eb172ded630b1c98c4.html">
+                            wenku.baidu.com/noteview/f685248dae00b52acfc789eb172ded630b1c98c4.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://wenku.baidu.com/noteview/f685248dae00b52acfc789eb172ded630b1c98c4.html">CATPart文件怎么打开？3种主流方法+2种替代方案全攻略-CATPart文件是法国达索系统CATIA V5软件创建的原生3D零件文件，用于存储单个部件的完整几何与属性信息。由于其专有格式性质，无法像普通文档一样双击打开。打开它的核心路径主要有三条：使用原生软件CATIA；使用其他兼容的主流CAD软件；或通过 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://blog.csdn.net/cuicuiniu521/article/details/160825404">CATPart格式是什么？用什么软件可以打开？ - CSDN博客</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://blog.csdn.net/cuicuiniu521/article/details/160825404">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/blog.csdn.net.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://blog.csdn.net/cuicuiniu521/article/details/160825404">
+                            blog.csdn.net/cuicuiniu521/article/details/160825404
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://blog.csdn.net/cuicuiniu521/article/details/160825404">文章浏览阅读273次。CATPart是CATIA软件专用的三维部件文件格式，主要用于存储机械设计数据。支持打开该格式的主流软件包括：CATIA（原生支持）、Autodesk Inventor和SolidWorks（需特定插件）。此外，CAD看图软件如浩辰CAD看图王也能查看CATPart文件，并提供测量、剖切等专业功能。用户可根据需求选择专业 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://fileinfo.cn/extension/catpart">Catpart格式--catpart是什么文件？如何打开catpart文件</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://fileinfo.cn/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/fileinfo.cn.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://fileinfo.cn/extension/catpart">
+                            fileinfo.cn/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://fileinfo.cn/extension/catpart">关于<b>CATPART</b>文件 本页帮助您了解 .CATPART（CATIA V5零件文件）是什么文件、如何打开，以及可用的软件与在线工具。 该格式属于「CAD文件」分类。 我们力求信息准确；若发现错误或希望补充，欢迎反馈。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://fileinfo.cn/tc/extension/catpart">Catpart格式--catpart是什麼文件？如何打開catpart文件</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://fileinfo.cn/tc/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/fileinfo.cn.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://fileinfo.cn/tc/extension/catpart">
+                            fileinfo.cn/tc/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://fileinfo.cn/tc/extension/catpart">首頁 : 文件類型 : CAD文件 .<b>CATPART</b> <b>文件格式</b> 文件類型 CATIA V5零件文件 ... <b>CATPART</b>是什麼文件？ 由三維CAD制造應用程序CATIA V5創建的零件文件；存儲零件模型，包括三維幾何和結構數據；可以與其他零件組合到.CATPRODUCT裝配文件中。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.zixel3d.com/cad-faqs/437">catpart是什么格式？如何高效打开编辑？｜cad｜faqs｜子虔科技ZIXEL｜云原生3D CAD 产品设计协作平台｜AI for ...</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.zixel3d.com/cad-faqs/437">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.zixel3d.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.zixel3d.com/cad-faqs/437">
+                            www.zixel3d.com/cad-faqs/437
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-02-20T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.zixel3d.com/cad-faqs/437">许多用户在初次接触<b>CATPART</b>文件时，往往会遇到无法打开或难以快速预览的问题。 本文子虔小编将为大家系统介绍【catpart是什么格式】、常见查看方式，并推荐一款高效轻量的解决方案——子虔Zixel 3D工艺大师，帮助用户实现模型查看与技术文档制作的一体化应用。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.zixel3d.com/cad-faqs/286">什么是CATPart文件？CATPart用什么软件能打开？</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.zixel3d.com/cad-faqs/286">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.zixel3d.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.zixel3d.com/cad-faqs/286">
+                            www.zixel3d.com/cad-faqs/286
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.zixel3d.com/cad-faqs/286">3、与CATIA的软件环境高度兼容 CATPart文件天然适用于它的原生CATIA软件及其配套模块，如装配设计（CATProduct）、工程分析模块等。 4、文件结构复杂，体积较大 相比简单的STL或STEP文件，CATPart文件包含丰富的设计特征和约束关系，文件体积相对较大。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="catpart 文件格式" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-183004836203006419070600062999656864524" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

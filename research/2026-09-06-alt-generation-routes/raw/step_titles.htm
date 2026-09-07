@@ -1,0 +1,728 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<style> .withdrawn { color: grey } </style>
+<body>
+<p>The structure of this International Standard is described in ISO 10303-1.</p>
+The numbering of the parts of the International Standard reflects its structure:<br/>
+- Part 1 Overview and fundamental principles,<br/>
+- Part 2 Vocabulary,<br/>
+- Parts 11 to 19 specify the description methods,<br/>
+- Parts 21 to 29 specify the implementation methods,<br/>
+- Parts 31 to 39 specify the conformance testing methodology and framework,<br/>
+- Parts 41 to 99 specify the integrated generic resources, provided in the SMRL,<br/>
+- Parts 101 to 199 specify the integrated application resources, provided in the SMRL,<br/>
+- Parts 201 to 299 specify the application protocols,<br/>
+- Parts 301 to 399 specify the abstract test suites,<br/>
+- Part 400 specifies the Reference schema for sysml mapping, provided in the SMRL,<br/>
+- Parts 401 to 499 specify the application protocol modules, provided in the SMRL,<br/>
+- Parts 501 to 599 specify the application interpreted constructs, provided in the SMRL,<br/>
+- Parts 1001 to 1999 specify the application modules, provided in the SMRL,<br/>
+- Parts 3001 to 3099 specify business object models, provided in the SMRL,<br/>
+- Part 4000 specifies the Core model, provided in the SMRL,<br>
+- Parts 4401 to 4499 specify domain models, provided in the SMRL, and<br/>
+- Parts 5001 to 5999 specify usage guides.<br/><br/>
+ISO 10303 consists of the following parts under the general title Industrial automation systems and integration - Product data representation and exchange:<br/>
+- Part 1, Overview and fundamental principles;<br/>
+- Part 2, Vocabulary;<br/>
+- Part 11, Description methods: The EXPRESS language reference manual;<br/>
+- Part 12, Description methods: The EXPRESS-I language reference manual [Withdrawn];<br/>
+- Part 14, Description methods: The EXPRESS-X language reference manual;<br/>
+- Part 15, Description methods: SysML XMI to XSD transformation;<br/>
+- Part 16, Description methods: SysML XMI to EXPRESS transformation;<br/>
+- Part 17, Description methods: EXPRESS to SysML CXMI transformation;<br/>
+- Part 18, Description methods: SysML XMI to Web services transformation;<br/>
+- Part 21, Implementation methods: Clear text encoding of the exchange structure;<br/>
+- Part 22, Implementation methods: Standard data access interface specification;<br/>
+- Part 23, Implementation methods: C++ language binding to the standard data access interface;<br/>
+- Part 24, Implementation methods: C language binding to the standard data access interface;<br/>
+- Part 25, Implementation methods: EXPRESS to OMG XMI binding;<br/>
+- Part 26, Implementation methods: Binary representation of EXPRESS-driven data;<br/>
+- Part 27, Implementation methods: Java programming language binding to the standard data access interface with Internet/Intranet extensions;<br/>
+- Part 28, Implementation methods: XML representations of EXPRESS schemas and data;<br/>
+- Part 31, Conformance testing methodology and framework: General concepts;<br/>
+- Part 32, Conformance testing methodology and framework: Requirements on testing laboratories and clients;<br/>
+- Part 34, Conformance testing methodology and framework: Abstract test methods;<br/>
+- Part 35, Conformance testing methodology and framework: Abstract test methods for standard data access interface implementations;<br/>
+- Part 41, Integrated generic resource: Fundamentals of product description and support;<br/>
+- Part 42, Integrated generic resource: Geometric and topological representation;<br/>
+- Part 43, Integrated generic resource: Representation structures;<br/>
+- Part 44, Integrated generic resource: Product structure configuration;<br/>
+- Part 45, Integrated generic resource: Material and other engineering properties;<br/>
+- Part 46, Integrated generic resource: Visual presentation;<br/>
+- Part 47, Integrated generic resource: Shape variation tolerances;<br/>
+- Part 49, Integrated generic resource: Process structure and properties;<br/>
+- Part 50, Integrated generic resource: Mathematical constructs;<br/>
+- Part 51, Integrated generic resource: Mathematical representation;<br/>
+- Part 52, Integrated generic resource: Mesh-based topology;<br/>
+- Part 53, Integrated generic resource: Numerical analysis;<br/>
+- Part 54, Integrated generic resource: Classification and set theory;<br/>
+- Part 55, Integrated generic resource: Procedural and hybrid representation;<br/>
+- Part 56, Integrated generic resource: State;<br/>
+- Part 57, Integrated generic resource: Persistent identification of elements in procedural shape modelling;<br/>
+- Part 58, Integrated generic resource: Risk;<br/>
+- Part 59, Integrated generic resource: Quality of product shape data;<br/>
+- Part 61, Integrated generic resource: Systems engineering representation;<br/>
+- Part 62, Integrated generic resource: Equivalence validation of product data;<br/>
+- Part 101, Integrated application resource: Draughting;<br/>
+- Part 104, Integrated application resource: Finite element analysis;<br/>
+- Part 105, Integrated application resource: Kinematics;<br/>
+- Part 107, Integrated application resource: Finite element analysis definition relationships;<br/>
+- Part 108, Integrated application resource: Parameterization and constraints for explicit geometric product models;<br/>
+- Part 109, Integrated application resource: Kinematic and geometric constraints for assembly models;<br/>
+- Part 110, Integrated application resource: Mesh-based computational fluid dynamics;<br/>
+- Part 111, Integrated application resource: Elements for the procedural modelling of solid shapes;<br/>
+- Part 112, Integrated application resource: Modelling commands for the exchange of procedurally represented 2d cad models;<br/>
+- Part 113, Integrated application resource: Mechanical features;<br/>
+- Part 201, Application protocol: Explicit draughting [Withdrawn];<br/>
+- Part 202, Application protocol: Associative draughting [Withdrawn];<br/>
+- Part 203, Application protocol: Configuration controlled 3D designs of mechanical parts and assemblies [Withdrawn];<br/>
+- Part 204, Application protocol: Mechanical design using boundary representation [Withdrawn];<br/>
+- Part 207, Application protocol: Sheet metal die planning and design;<br/>
+- Part 209, Application protocol: Composite and metallic structural analysis and related design;<br/>
+- Part 210, Application protocol: Electronic assembly, interconnect, and packaging design;<br/>
+- Part 212, Application protocol: Electrotechnical design and installation;<br/>
+- Part 214, Application protocol: Core data for automotive mechanical design processes [Withdrawn];<br/>
+- Part 215, Application protocol: Ship arrangement;<br/>
+- Part 216, Application protocol: Ship moulded forms;<br/>
+- Part 218, Application protocol: Ship structures;<br/>
+- Part 219, Application protocol: Dimensional inspection information exchange;<br/>
+- Part 221, Application protocol: Functional data and their schematic representation for process plant;<br/>
+- Part 223, Application protocol: Exchange of design and manufacturing product information for cast parts;<br/>
+- Part 224, Application protocol: Mechanical product definition for process plans using machining features;<br/>
+- Part 225, Application protocol: Building elements using explicit shape representation;<br/>
+- Part 227, Application protocol: Plant spatial configuration;<br/>
+- Part 232, Application protocol: Technical data packaging core information and exchange;<br/>
+- Part 233, Application protocol: Systems engineering;<br/>
+- Part 235, Application protocol: Engineering properties for product design and verification;<br/>
+- Part 236, Application protocol: Furniture catalog and interior design;<br/>
+- Part 238, Application Protocol: Application interpreted model for computerized numerical controllers;<br/>
+- Part 239, Application Protocol: Product life cycle support;<br/>
+- Part 240, Application protocol: Process plans for machined products;<br/>
+- Part 242, Application protocol: Managed Model-based 3D Engineering;<br/>
+- Part 243, Application protocol: For modelling and simulation information in a collaborative systems engineering context (MoSSEC);<br/>
+- Part 304, Abstract test suite: Mechanical design using boundary representation;<br/>
+- Part 307, Abstract test suite: Sheet metal die planning and design;<br/>
+- Part 324, Abstract test suite: Mechanical product definition for process plans using machining features [Withdrawn];<br/>
+- Part 325, Abstract test suite: Building elements using explicit shape representation;<br/>
+- Part 332, Abstract test suite: Technical data packaging core information and exchange;<br/>
+- Part 400, Application module: Reference schema for sysml mapping;<br/>
+- Part 403, Application module: AP203 configuration controlled 3d design of mechanical parts and assemblies;<br/>
+- Part 409, Application module: AP209 multidisciplinary analysis and design;<br/>
+- Part 410, Application module: AP210 electronic assembly interconnect and packaging design;<br/>
+- Part 421, Application module: Functional data and schematic representation;<br/>
+- Part 433, Application module: AP233 systems engineering;<br/>
+- Part 436, Application module: AP236 furniture catalog and interior design;<br/>
+- Part 439, Application module: AP239 product life cycle support;<br/>
+- Part 442, Application module: AP242 managed model based 3d engineering;<br/>
+- Part 501, Application interpreted construct: Edge based wireframe;<br/>
+- Part 502, Application interpreted construct: Shell based wireframe;<br/>
+- Part 503, Application interpreted construct: Geometrically bounded 2d wireframe;<br/>
+- Part 504, Application interpreted construct: Draughting annotation;<br/>
+- Part 505, Application interpreted construct: Drawing structure and administration;<br/>
+- Part 506, Application interpreted construct: Draughting elements;<br/>
+- Part 507, Application interpreted construct: Geometrically bounded surface;<br/>
+- Part 508, Application interpreted construct: Non manifold surface;<br/>
+- Part 509, Application interpreted construct: Manifold surface;<br/>
+- Part 510, Application interpreted construct: Geometrically bounded wireframe;<br/>
+- Part 511, Application interpreted construct: Topologically bounded surface;<br/>
+- Part 512, Application interpreted construct: Faceted boundary representation;<br/>
+- Part 513, Application interpreted construct: Elementary boundary representation;<br/>
+- Part 514, Application interpreted construct: Advanced boundary representation;<br/>
+- Part 515, Application interpreted construct: Constructive solid geometry;<br/>
+- Part 517, Application interpreted construct: Mechanical design geometric presentation;<br/>
+- Part 518, Application interpreted construct: Mechanical design shaded presentation;<br/>
+- Part 519, Application interpreted construct: Geometric tolerances;<br/>
+- Part 520, Application interpreted construct: Associative draughting elements;<br/>
+- Part 521, Application interpreted construct: Manifold subsurface;<br/>
+- Part 523, Application interpreted construct: Curve swept solid;<br/>
+- Part 1001, Application module: Appearance assignment;<br/>
+- Part 1002, Application module: Colour;<br/>
+- Part 1003, Application module: Curve appearance;<br/>
+- Part 1004, Application module: Elemental geometric shape;<br/>
+- Part 1005, Application module: Elemental topology;<br/>
+- Part 1006, Application module: Foundation representation;<br/>
+- Part 1007, Application module: General surface appearance;<br/>
+- Part 1008, Application module: Layer assignment;<br/>
+- Part 1009, Application module: Shape appearance layers;<br/>
+- Part 1010, Application module: Date time;<br/>
+- Part 1011, Application module: Person organization;<br/>
+- Part 1012, Application module: Approval;<br/>
+- Part 1013, Application module: Person organization assignment;<br/>
+- Part 1014, Application module: Date time assignment;<br/>
+- Part 1015, Application module: Security classification;<br/>
+- Part 1016, Application module: Product categorization;<br/>
+- Part 1017, Application module: Product identification;<br/>
+- Part 1018, Application module: Product version;<br/>
+- Part 1019, Application module: Product view definition;<br/>
+- Part 1020, Application module: Product version relationship;<br/>
+- Part 1021, Application module: Identification assignment;<br/>
+- Part 1022, Application module: Part and version identification;<br/>
+- Part 1023, Application module: Part view definition;<br/>
+- Part 1024, Application module: Product relationship;<br/>
+- Part 1025, Application module: Alias identification;<br/>
+- Part 1026, Application module: Assembly structure;<br/>
+- Part 1027, Application module: Contextual shape positioning;<br/>
+- Part 1028, Application module: Universally unique identification assignment;<br/>
+- Part 1030, Application module: Property assignment;<br/>
+- Part 1032, Application module: Shape property assignment;<br/>
+- Part 1033, Application module: External model;<br/>
+- Part 1034, Application module: Product view definition properties;<br/>
+- Part 1036, Application module: Independent property;<br/>
+- Part 1038, Application module: Independent property representation;<br/>
+- Part 1039, Application module: Geometric validation property representation;<br/>
+- Part 1040, Application module: Process property assignment;<br/>
+- Part 1041, Application module: Product view definition relationship;<br/>
+- Part 1042, Application module: Work request;<br/>
+- Part 1043, Application module: Work order;<br/>
+- Part 1044, Application module: Certification;<br/>
+- Part 1046, Application module: Product replacement;<br/>
+- Part 1047, Application module: Activity;<br/>
+- Part 1049, Application module: Activity method;<br/>
+- Part 1050, Application module: Dimension tolerance;<br/>
+- Part 1051, Application module: Geometric tolerance;<br/>
+- Part 1052, Application module: Default tolerance;<br/>
+- Part 1054, Application module: Value with unit;<br/>
+- Part 1055, Application module: Part definition relationship;<br/>
+- Part 1056, Application module: Configuration item;<br/>
+- Part 1057, Application module: Effectivity;<br/>
+- Part 1058, Application module: Configuration effectivity;<br/>
+- Part 1059, Application module: Effectivity application;<br/>
+- Part 1060, Application module: Product concept identification;<br/>
+- Part 1061, Application module: Project;<br/>
+- Part 1062, Application module: Contract;<br/>
+- Part 1063, Application module: Product occurrence;<br/>
+- Part 1064, Application module: Event;<br/>
+- Part 1065, Application module: Time interval;<br/>
+- Part 1068, Application module: Constructive solid geometry 3d;<br/>
+- Part 1070, Application module: Class;<br/>
+- Part 1071, Application module: Class of activity;<br/>
+- Part 1074, Application module: Property condition;<br/>
+- Part 1077, Application module: Class of product;<br/>
+- Part 1080, Application module: Property space;<br/>
+- Part 1085, Application module: Property identification;<br/>
+- Part 1091, Application module: Maths space;<br/>
+- Part 1092, Application module: Maths value;<br/>
+- Part 1099, Application module: Independent property definition;<br/>
+- Part 1101, Application module: Product property feature definition;<br/>
+- Part 1102, Application module: Assembly feature definition;<br/>
+- Part 1103, Application module: Product class;<br/>
+- Part 1104, Application module: Specified product;<br/>
+- Part 1105, Application module: Multi linguism;<br/>
+- Part 1106, Application module: Extended measure representation;<br/>
+- Part 1108, Application module: Specification based configuration;<br/>
+- Part 1109, Application module: Alternative solution;<br/>
+- Part 1110, Application module: Surface conditions;<br/>
+- Part 1111, Application module: Classification with attributes;<br/>
+- Part 1112, Application module: Specification control;<br/>
+- Part 1113, Application module: Group;<br/>
+- Part 1114, Application module: Classification assignment;<br/>
+- Part 1115, Application module: Part collection;<br/>
+- Part 1116, Application module: Pdm material aspects;<br/>
+- Part 1118, Application module: Measure representation;<br/>
+- Part 1121, Application module: Document and version identification;<br/>
+- Part 1122, Application module: Document assignment;<br/>
+- Part 1123, Application module: Document definition;<br/>
+- Part 1124, Application module: Document structure;<br/>
+- Part 1126, Application module: Document properties;<br/>
+- Part 1127, Application module: File identification;<br/>
+- Part 1128, Application module: External item identification assignment;<br/>
+- Part 1129, Application module: External properties;<br/>
+- Part 1130, Application module: Derived shape element;<br/>
+- Part 1131, Application module: Construction geometry;<br/>
+- Part 1132, Application module: Associative text;<br/>
+- Part 1133, Application module: Single part representation;<br/>
+- Part 1134, Application module: Product structure;<br/>
+- Part 1136, Application module: Text appearance;<br/>
+- Part 1140, Application module: Requirement identification and version;<br/>
+- Part 1141, Application module: Requirement view definition;<br/>
+- Part 1142, Application module: Requirement view definition relationship;<br/>
+- Part 1143, Application module: Building component;<br/>
+- Part 1144, Application module: Building item;<br/>
+- Part 1145, Application module: Building structure;<br/>
+- Part 1146, Application module: Location in building;<br/>
+- Part 1147, Application module: Manufacturing configuration effectivity;<br/>
+- Part 1151, Application module: Functional data;<br/>
+- Part 1156, Application module: Product structure and classification;<br/>
+- Part 1157, Application module: Class of product structure;<br/>
+- Part 1158, Application module: Class of composition of product;<br/>
+- Part 1159, Application module: Class of connection of product;<br/>
+- Part 1160, Application module: Class of containment of product;<br/>
+- Part 1161, Application module: Class of involvement of product in connection;<br/>
+- Part 1162, Application module: Class of product library;<br/>
+- Part 1163, Application module: Individual product structure;<br/>
+- Part 1164, Application module: Product as individual;<br/>
+- Part 1165, Application module: Involvement of individual product in connection;<br/>
+- Part 1166, Application module: Composition of individual product;<br/>
+- Part 1167, Application module: Connection of individual product;<br/>
+- Part 1168, Application module: Containment of individual product;<br/>
+- Part 1169, Application module: Activity structure and classification;<br/>
+- Part 1170, Application module: Class of activity structure;<br/>
+- Part 1171, Application module: Class of composition of activity;<br/>
+- Part 1172, Application module: Class of connection of activity;<br/>
+- Part 1173, Application module: Class of involvement in activity;<br/>
+- Part 1174, Application module: Class of activity library;<br/>
+- Part 1175, Application module: Individual activity structure;<br/>
+- Part 1176, Application module: Individual activity;<br/>
+- Part 1177, Application module: Composition of individual activity;<br/>
+- Part 1178, Application module: Connection of individual activity;<br/>
+- Part 1179, Application module: Individual involvement in activity;<br/>
+- Part 1188, Application module: Class of person;<br/>
+- Part 1198, Application module: Property and property assignment;<br/>
+- Part 1199, Application module: Possession of property;<br/>
+- Part 1203, Application module: Schematic and symbolization;<br/>
+- Part 1204, Application module: Schematic drawing;<br/>
+- Part 1205, Application module: Schematic element;<br/>
+- Part 1206, Application module: Draughting annotation;<br/>
+- Part 1207, Application module: Drawing structure and administration;<br/>
+- Part 1208, Application module: Schematic element library;<br/>
+- Part 1209, Application module: Symbolization by schematic element;<br/>
+- Part 1210, Application module: Set theory;<br/>
+- Part 1211, Application module: Cardinality of relationship;<br/>
+- Part 1212, Application module: Classification;<br/>
+- Part 1213, Application module: Reference data library;<br/>
+- Part 1214, Application module: System breakdown;<br/>
+- Part 1215, Application module: Physical breakdown;<br/>
+- Part 1216, Application module: Functional breakdown;<br/>
+- Part 1217, Application module: Zonal breakdown;<br/>
+- Part 1218, Application module: Hybrid breakdown;<br/>
+- Part 1228, Application module: Representation with uncertainty;<br/>
+- Part 1230, Application module: Configuration controlled 3d parts and assemblies;<br/>
+- Part 1231, Application module: Product data management;<br/>
+- Part 1232, Application module: Design material aspects;<br/>
+- Part 1233, Application module: Requirement assignment;<br/>
+- Part 1240, Application module: Organization type;<br/>
+- Part 1241, Application module: Information rights;<br/>
+- Part 1242, Application module: Position in organization;<br/>
+- Part 1243, Application module: Experience;<br/>
+- Part 1244, Application module: Qualifications;<br/>
+- Part 1245, Application module: Type of person;<br/>
+- Part 1246, Application module: Attribute classification;<br/>
+- Part 1248, Application module: Product breakdown;<br/>
+- Part 1249, Application module: Activity method assignment;<br/>
+- Part 1250, Application module: Attachment slot;<br/>
+- Part 1251, Application module: Interface;<br/>
+- Part 1252, Application module: Probability;<br/>
+- Part 1253, Application module: Condition;<br/>
+- Part 1254, Application module: Condition evaluation;<br/>
+- Part 1255, Application module: State definition;<br/>
+- Part 1256, Application module: State observed;<br/>
+- Part 1257, Application module: Condition characterized;<br/>
+- Part 1258, Application module: Observation;<br/>
+- Part 1259, Application module: Activity as realized;<br/>
+- Part 1260, Application module: Scheme;<br/>
+- Part 1261, Application module: Activity method implementation;<br/>
+- Part 1262, Application module: Task specification;<br/>
+- Part 1263, Application module: Justification;<br/>
+- Part 1264, Application module: Risk;<br/>
+- Part 1265, Application module: Envelope;<br/>
+- Part 1266, Application module: Resource management;<br/>
+- Part 1267, Application module: Required resource;<br/>
+- Part 1268, Application module: Resource item;<br/>
+- Part 1269, Application module: Resource as realized;<br/>
+- Part 1270, Application module: Message;<br/>
+- Part 1271, Application module: State characterized;<br/>
+- Part 1272, Application module: Activity characterized;<br/>
+- Part 1273, Application module: Resource property assignment;<br/>
+- Part 1274, Application module: Probability distribution;<br/>
+- Part 1275, Application module: External class;<br/>
+- Part 1276, Application module: Location;<br/>
+- Part 1277, Application module: Location assignment;<br/>
+- Part 1278, Application module: Product group;<br/>
+- Part 1280, Application module: Required resource characterized;<br/>
+- Part 1281, Application module: Resource item characterized;<br/>
+- Part 1282, Application module: Resource management characterized;<br/>
+- Part 1283, Application module: Resource as realized characterized;<br/>
+- Part 1285, Application module: Work request characterized;<br/>
+- Part 1286, Application module: Work order characterized;<br/>
+- Part 1287, Application module: AP239 activity recording;<br/>
+- Part 1288, Application module: Management resource information;<br/>
+- Part 1289, Application module: AP239 management resource information;<br/>
+- Part 1290, Application module: Document management;<br/>
+- Part 1291, Application module: Plib class reference;<br/>
+- Part 1292, Application module: AP239 product definition information;<br/>
+- Part 1293, Application module: AP239 part definition information;<br/>
+- Part 1294, Application module: Interface lifecycle;<br/>
+- Part 1295, Application module: AP239 properties;<br/>
+- Part 1296, Application module: Condition evaluation characterized;<br/>
+- Part 1297, Application module: AP239 document management;<br/>
+- Part 1298, Application module: Activity method characterized;<br/>
+- Part 1300, Application module: Work output;<br/>
+- Part 1301, Application module: Work output characterized;<br/>
+- Part 1304, Application module: AP239 product status recording;<br/>
+- Part 1306, Application module: AP239 task specification resourced;<br/>
+- Part 1307, Application module: AP239 work definition;<br/>
+- Part 1308, Application module: Picture representation;<br/>
+- Part 1309, Application module: Drawing definition;<br/>
+- Part 1310, Application module: Draughting element;<br/>
+- Part 1311, Application module: Associative draughting elements;<br/>
+- Part 1312, Application module: Draughting element specialisations;<br/>
+- Part 1313, Application module: Mechanical design geometric presentation;<br/>
+- Part 1314, Application module: Mechanical design shaded presentation;<br/>
+- Part 1315, Application module: Mechanical design presentation representation with draughting;<br/>
+- Part 1316, Application module: Camera view 3d;<br/>
+- Part 1317, Application module: Procedural shape model;<br/>
+- Part 1318, Application module: Procedural solid model;<br/>
+- Part 1319, Application module: Solid with local modification;<br/>
+- Part 1320, Application module: Thickened face solid;<br/>
+- Part 1321, Application module: Swept solid;<br/>
+- Part 1322, Application module: Modified swept solid;<br/>
+- Part 1323, Application module: Basic geometric topology;<br/>
+- Part 1324, Application module: Non manifold surface;<br/>
+- Part 1327, Application module: Compound shape representation;<br/>
+- Part 1329, Application module: Elementary boundary representation;<br/>
+- Part 1330, Application module: Presentation hierarchy;<br/>
+- Part 1331, Application module: External source;<br/>
+- Part 1340, Application module: Name assignment;<br/>
+- Part 1341, Application module: Generic expression;<br/>
+- Part 1342, Application module: Expression;<br/>
+- Part 1343, Application module: Product placement;<br/>
+- Part 1344, Application module: Numerical interface;<br/>
+- Part 1345, Application module: Item definition structure;<br/>
+- Part 1346, Application module: Numeric function;<br/>
+- Part 1347, Application module: Wireframe 2d;<br/>
+- Part 1348, Application module: Requirement management;<br/>
+- Part 1349, Application module: Incomplete data reference mechanism;<br/>
+- Part 1350, Application module: Inertia characteristics;<br/>
+- Part 1351, Application module: Catalog data information;<br/>
+- Part 1352, Application module: Catalog data information and shape representation;<br/>
+- Part 1353, Application module: Parameterized catalog data information;<br/>
+- Part 1354, Application module: Furniture interior decoration;<br/>
+- Part 1355, Application module: Parameterized catalog data and shape representation;<br/>
+- Part 1357, Application module: Selected item;<br/>
+- Part 1358, Application module: Location assignment characterized;<br/>
+- Part 1362, Application module: Dimension and tolerance callouts;<br/>
+- Part 1364, Application module: Event assignment;<br/>
+- Part 1365, Application module: Time interval assignment;<br/>
+- Part 1366, Application module: Tagged text representation;<br/>
+- Part 1367, Application module: Textual expression representation;<br/>
+- Part 1369, Application module: Binary representation;<br/>
+- Part 1371, Application module: State based behaviour;<br/>
+- Part 1372, Application module: Analysis;<br/>
+- Part 1373, Application module: Analysis product relationships;<br/>
+- Part 1374, Application module: Analysis shape;<br/>
+- Part 1375, Application module: Cfd conditions;<br/>
+- Part 1376, Application module: Cfd equations;<br/>
+- Part 1377, Application module: Cfd model;<br/>
+- Part 1378, Application module: Cfd results;<br/>
+- Part 1379, Application module: Cfd specified general property;<br/>
+- Part 1380, Application module: Fea definition relationships;<br/>
+- Part 1381, Application module: Finite element analysis;<br/>
+- Part 1382, Application module: Finite element shape;<br/>
+- Part 1383, Application module: Finite elements;<br/>
+- Part 1384, Application module: Mesh connectivity;<br/>
+- Part 1385, Application module: Mesh function;<br/>
+- Part 1386, Application module: Mesh topology;<br/>
+- Part 1387, Application module: Product analysis;<br/>
+- Part 1396, Application module: Collection identification and version;<br/>
+- Part 1397, Application module: Conditional effectivity;<br/>
+- Part 1398, Application module: Identification relationship;<br/>
+- Part 1399, Application module: Property as definition;<br/>
+- Part 1400, Application module: Product environment definition;<br/>
+- Part 1401, Application module: Product environment observed;<br/>
+- Part 1402, Application module: Same as external item;<br/>
+- Part 1403, Application module: Geometric model relationship;<br/>
+- Part 1404, Application module: Geometric model 2d 3d relationship;<br/>
+- Part 1433, Application module: Project management;<br/>
+- Part 1434, Application module: Project management resource information;<br/>
+- Part 1435, Application module: Organization structure;<br/>
+- Part 1436, Application module: Project breakdown;<br/>
+- Part 1437, Application module: Schedule;<br/>
+- Part 1438, Application module: Work structure;<br/>
+- Part 1448, Application module: System behaviour;<br/>
+- Part 1450, Application module: System structure;<br/>
+- Part 1453, Application module: Function based behaviour;<br/>
+- Part 1466, Application module: Program management;<br/>
+- Part 1467, Application module: Risk management;<br/>
+- Part 1468, Application module: External state based behaviour model;<br/>
+- Part 1469, Application module: Foundation state definition;<br/>
+- Part 1470, Application module: Parameter value specification;<br/>
+- Part 1471, Application module: State based behaviour representation;<br/>
+- Part 1472, Application module: General model parameter;<br/>
+- Part 1473, Application module: Description assignment;<br/>
+- Part 1474, Application module: Analysis assignment;<br/>
+- Part 1475, Application module: Analysis characterized;<br/>
+- Part 1476, Application module: Analysis identification;<br/>
+- Part 1477, Application module: System modelling;<br/>
+- Part 1478, Application module: External functional model;<br/>
+- Part 1479, Application module: Extended task element;<br/>
+- Part 1480, Application module: Task element;<br/>
+- Part 1481, Application module: Behaviour view definition;<br/>
+- Part 1482, Application module: Behaviour identification and version;<br/>
+- Part 1483, Application module: Behaviour description assignment;<br/>
+- Part 1484, Application module: System identification and version;<br/>
+- Part 1485, Application module: System view definition;<br/>
+- Part 1486, Application module: Decision support;<br/>
+- Part 1488, Application module: Verification and validation;<br/>
+- Part 1489, Application module: Issue management;<br/>
+- Part 1490, Application module: Issue;<br/>
+- Part 1491, Application module: Expression assignment;<br/>
+- Part 1492, Application module: Function based behaviour representation;<br/>
+- Part 1493, Application module: Disposition;<br/>
+- Part 1501, Application module: Edge based wireframe;<br/>
+- Part 1502, Application module: Shell based wireframe;<br/>
+- Part 1503, Application module: Tessellated manifold surface shape representation;<br/>
+- Part 1504, Application module: Tessellated manifold subsurface shape representation;<br/>
+- Part 1507, Application module: Geometrically bounded surface;<br/>
+- Part 1509, Application module: Manifold surface;<br/>
+- Part 1510, Application module: Geometrically bounded wireframe;<br/>
+- Part 1511, Application module: Topologically bounded surface;<br/>
+- Part 1512, Application module: Faceted boundary representation;<br/>
+- Part 1513, Application module: Hybrid boundary representation;<br/>
+- Part 1514, Application module: Advanced boundary representation;<br/>
+- Part 1515, Application module: Tessellated boundary representation;<br/>
+- Part 1520, Application module: Product data quality definition;<br/>
+- Part 1521, Application module: Product data quality criteria;<br/>
+- Part 1522, Application module: Product data quality inspection result;<br/>
+- Part 1523, Application module: Shape data quality criteria;<br/>
+- Part 1524, Application module: Shape data quality inspection result;<br/>
+- Part 1525, Application module: Composite surface;<br/>
+- Part 1526, Application module: Numeric expression;<br/>
+- Part 1527, Application module: Elementary function;<br/>
+- Part 1601, Application module: Altered package;<br/>
+- Part 1602, Application module: Altered part;<br/>
+- Part 1603, Application module: Analytical model;<br/>
+- Part 1604, Application module: AP210 assembly functional interface requirements;<br/>
+- Part 1605, Application module: AP210 assembly functional requirements;<br/>
+- Part 1606, Application module: AP210 assembly physical design;<br/>
+- Part 1607, Application module: AP210 assembly physical interface requirements;<br/>
+- Part 1608, Application module: AP210 assembly physical requirements;<br/>
+- Part 1609, Application module: AP210 assembly requirement allocation;<br/>
+- Part 1610, Application module: AP210 assembly technology constraints;<br/>
+- Part 1611, Application module: AP210 connection zone based model extraction;<br/>
+- Part 1612, Application module: AP210 device functional and physical characterization;<br/>
+- Part 1613, Application module: Physical unit non planar design view;<br/>
+- Part 1614, Application module: AP210 functional decomposition;<br/>
+- Part 1615, Application module: AP210 functional requirement allocation;<br/>
+- Part 1616, Application module: AP210 functional specification;<br/>
+- Part 1617, Application module: AP210 interconnect design;<br/>
+- Part 1618, Application module: AP210 interconnect design for microwave;<br/>
+- Part 1619, Application module: AP210 interconnect functional requirements;<br/>
+- Part 1620, Application module: AP210 interconnect physical requirements;<br/>
+- Part 1621, Application module: AP210 interconnect requirement allocation;<br/>
+- Part 1622, Application module: AP210 interconnect technology constraints;<br/>
+- Part 1623, Application module: AP210 laminate assembly design;<br/>
+- Part 1624, Application module: AP210 package functional and physical characterization;<br/>
+- Part 1625, Application module: AP210 packaged part white box model;<br/>
+- Part 1626, Application module: AP210 physical unit physical characterization;<br/>
+- Part 1627, Application module: AP210 printed part functional and physical characterization;<br/>
+- Part 1628, Application module: Design product data management;<br/>
+- Part 1630, Application module: AP210 production rule;<br/>
+- Part 1631, Application module: Area 2d;<br/>
+- Part 1632, Application module: Assembly 2d shape;<br/>
+- Part 1633, Application module: Assembly 3d shape;<br/>
+- Part 1634, Application module: Assembly component placement requirements;<br/>
+- Part 1635, Application module: Assembly functional interface requirement;<br/>
+- Part 1636, Application module: Assembly module design;<br/>
+- Part 1637, Application module: Assembly module macro definition;<br/>
+- Part 1638, Application module: Assembly module with cable component 2d;<br/>
+- Part 1639, Application module: Assembly module with cable component 3d;<br/>
+- Part 1640, Application module: Assembly module with macro component;<br/>
+- Part 1641, Application module: Assembly module with subassembly;<br/>
+- Part 1642, Application module: Assembly module usage view;<br/>
+- Part 1643, Application module: Assembly module with interconnect component;<br/>
+- Part 1644, Application module: Assembly module with cable component;<br/>
+- Part 1645, Application module: Assembly module with packaged connector component;<br/>
+- Part 1646, Application module: Footprint definition;<br/>
+- Part 1647, Application module: Assembly physical interface requirement;<br/>
+- Part 1648, Application module: Assembly physical requirement allocation;<br/>
+- Part 1649, Application module: Assembly technology;<br/>
+- Part 1650, Application module: Bare die;<br/>
+- Part 1651, Application module: Basic curve;<br/>
+- Part 1652, Application module: Basic geometry;<br/>
+- Part 1653, Application module: Cable;<br/>
+- Part 1654, Application module: Characteristic;<br/>
+- Part 1655, Application module: Chemical substance;<br/>
+- Part 1656, Application module: Component grouping;<br/>
+- Part 1657, Application module: Component feature;<br/>
+- Part 1658, Application module: Connectivity allocation to physical network;<br/>
+- Part 1659, Application module: Curve swept solid;<br/>
+- Part 1660, Application module: Datum difference based model;<br/>
+- Part 1661, Application module: Design management;<br/>
+- Part 1662, Application module: Design specific assignment to assembly usage view;<br/>
+- Part 1663, Application module: Design specific assignment to interconnect usage view;<br/>
+- Part 1664, Application module: Device marking;<br/>
+- Part 1665, Application module: Electrical network definition;<br/>
+- Part 1666, Application module: Extended geometric tolerance;<br/>
+- Part 1667, Application module: Extended basic geometry;<br/>
+- Part 1668, Application module: Fabrication joint;<br/>
+- Part 1669, Application module: Fabrication requirement;<br/>
+- Part 1670, Application module: Fabrication technology;<br/>
+- Part 1671, Application module: Feature and connection zone;<br/>
+- Part 1672, Application module: Fill area style;<br/>
+- Part 1673, Application module: Edge shape feature;<br/>
+- Part 1674, Application module: Functional assignment to part;<br/>
+- Part 1675, Application module: Functional decomposition to assembly design;<br/>
+- Part 1676, Application module: Functional decomposition to design;<br/>
+- Part 1677, Application module: Functional decomposition to interconnect design;<br/>
+- Part 1678, Application module: Functional decomposition with nodal representation to packaged mapping;<br/>
+- Part 1679, Application module: Functional specification;<br/>
+- Part 1680, Application module: Functional unit requirement allocation;<br/>
+- Part 1681, Application module: Generic material aspects;<br/>
+- Part 1682, Application module: Interconnect 2d shape;<br/>
+- Part 1684, Application module: Interconnect module connection routing;<br/>
+- Part 1685, Application module: Interconnect module to assembly module relationship;<br/>
+- Part 1686, Application module: Interconnect module usage view;<br/>
+- Part 1687, Application module: Interconnect module with macros;<br/>
+- Part 1688, Application module: Interconnect non planar shape;<br/>
+- Part 1689, Application module: Interconnect physical requirement allocation;<br/>
+- Part 1690, Application module: Interconnect placement requirements;<br/>
+- Part 1691, Application module: Interface component;<br/>
+- Part 1692, Application module: Land;<br/>
+- Part 1693, Application module: Layered 2d shape;<br/>
+- Part 1694, Application module: Layered 3d shape;<br/>
+- Part 1695, Application module: Layered interconnect module 2d design;<br/>
+- Part 1696, Application module: Layered interconnect module 3d design;<br/>
+- Part 1698, Application module: Layered interconnect module design;<br/>
+- Part 1700, Application module: Layered interconnect module with printed component design;<br/>
+- Part 1701, Application module: Layout macro definition;<br/>
+- Part 1702, Application module: Manifold subsurface;<br/>
+- Part 1703, Application module: Model parameter;<br/>
+- Part 1704, Application module: Network functional design view;<br/>
+- Part 1705, Application module: Functional usage view;<br/>
+- Part 1706, Application module: Non feature shape element;<br/>
+- Part 1707, Application module: Package;<br/>
+- Part 1708, Application module: Packaged connector model;<br/>
+- Part 1709, Application module: Packaged part white box model;<br/>
+- Part 1710, Application module: Packaged part black box model;<br/>
+- Part 1711, Application module: Part external reference;<br/>
+- Part 1712, Application module: Part feature function;<br/>
+- Part 1713, Application module: Part feature grouping;<br/>
+- Part 1714, Application module: Part feature location;<br/>
+- Part 1715, Application module: Part occurrence;<br/>
+- Part 1716, Application module: Layered interconnect complex template;<br/>
+- Part 1717, Application module: Part template 3d shape;<br/>
+- Part 1718, Application module: Layered interconnect simple template;<br/>
+- Part 1719, Application module: Part template non planar shape;<br/>
+- Part 1720, Application module: Part template shape with parameters;<br/>
+- Part 1721, Application module: Physical component feature;<br/>
+- Part 1722, Application module: Part template;<br/>
+- Part 1723, Application module: Physical node requirement to implementing component allocation;<br/>
+- Part 1724, Application module: Physical unit 2d design view;<br/>
+- Part 1725, Application module: Physical unit 3d design view;<br/>
+- Part 1726, Application module: Physical unit 2d shape;<br/>
+- Part 1727, Application module: Physical unit 3d shape;<br/>
+- Part 1728, Application module: Physical unit design view;<br/>
+- Part 1729, Application module: Physical unit interconnect definition;<br/>
+- Part 1730, Application module: Physical unit shape with parameters;<br/>
+- Part 1731, Application module: Constructive solid geometry 2d;<br/>
+- Part 1732, Application module: Physical unit usage view;<br/>
+- Part 1733, Application module: Planned characteristic;<br/>
+- Part 1734, Application module: Pre defined datum symbol;<br/>
+- Part 1735, Application module: Pre defined datum 2d symbol;<br/>
+- Part 1736, Application module: Pre defined datum 3d symbol;<br/>
+- Part 1737, Application module: Printed physical layout template;<br/>
+- Part 1738, Application module: Product identification extension;<br/>
+- Part 1739, Application module: Production rule;<br/>
+- Part 1740, Application module: Requirement decomposition;<br/>
+- Part 1741, Application module: Sequential laminate assembly design;<br/>
+- Part 1742, Application module: Shape composition;<br/>
+- Part 1743, Application module: Shape parameters;<br/>
+- Part 1744, Application module: Discrete shield;<br/>
+- Part 1745, Application module: Signal;<br/>
+- Part 1746, Application module: Software;<br/>
+- Part 1747, Application module: Specification document;<br/>
+- Part 1748, Application module: Stratum non planar shape;<br/>
+- Part 1749, Application module: Styled curve;<br/>
+- Part 1750, Application module: Text representation;<br/>
+- Part 1751, Application module: Test requirement allocation;<br/>
+- Part 1752, Application module: Thermal network definition;<br/>
+- Part 1753, Application module: Value with unit extension;<br/>
+- Part 1754, Application module: Via component;<br/>
+- Part 1755, Application module: Physical connectivity definition;<br/>
+- Part 1756, Application module: Conductivity material aspects;<br/>
+- Part 1757, Application module: Test select product;<br/>
+- Part 1759, Application module: AP210 datum difference based model definition;<br/>
+- Part 1760, Application module: Pre defined product data management specializations;<br/>
+- Part 1761, Application module: Information product;<br/>
+- Part 1762, Application module: Generic product occurrence;<br/>
+- Part 1763, Application module: Integral shield;<br/>
+- Part 1764, Application module: Shape feature;<br/>
+- Part 1765, Application module: Characterizable object;<br/>
+- Part 1767, Application module: Composite constituent shape;<br/>
+- Part 1768, Application module: Composite material aspects;<br/>
+- Part 1769, Application module: Fea material aspects;<br/>
+- Part 1770, Application module: Part and zone laminate tables;<br/>
+- Part 1771, Application module: Stock material;<br/>
+- Part 1772, Application module: Ply orientation specification;<br/>
+- Part 1773, Application module: Basic data representation;<br/>
+- Part 1775, Application module: Currency;<br/>
+- Part 1776, Application module: Extended date;<br/>
+- Part 1777, Application module: External currency;<br/>
+- Part 1778, Application module: External library;<br/>
+- Part 1779, Application module: External representation item;<br/>
+- Part 1780, Application module: External unit;<br/>
+- Part 1782, Application module: Qualified measure;<br/>
+- Part 1784, Application module: External analysis representation;<br/>
+- Part 1785, Application module: Analysis representation;<br/>
+- Part 1786, Application module: Risk definition;<br/>
+- Part 1788, Application module: Explicit constraints;<br/>
+- Part 1789, Application module: Geometric constraints;<br/>
+- Part 1790, Application module: Parameterization and variational representation;<br/>
+- Part 1791, Application module: Primitive solids;<br/>
+- Part 1792, Application module: Sketch;<br/>
+- Part 1793, Application module: Solid model;<br/>
+- Part 1794, Application module: Assembly constraints;<br/>
+- Part 1795, Application module: Assembly feature relationship;<br/>
+- Part 1796, Application module: Kinematic motion representation;<br/>
+- Part 1797, Application module: Kinematic structure;<br/>
+- Part 1798, Application module: Kinematic state;<br/>
+- Part 1799, Application module: Kinematic topology;<br/>
+- Part 1800, Application module: Support resource;<br/>
+- Part 1801, Application module: B spline geometry;<br/>
+- Part 1802, Application module: Assembly component;<br/>
+- Part 1803, Application module: Process plan;<br/>
+- Part 1804, Application module: Product as individual assembly and test;<br/>
+- Part 1805, Application module: Characterized representation;<br/>
+- Part 1806, Application module: Form feature in panel;<br/>
+- Part 1807, Application module: Part shape;<br/>
+- Part 1808, Application module: Assembly shape;<br/>
+- Part 1809, Application module: Default setting association;<br/>
+- Part 1810, Application module: Product and manufacturing information view context;<br/>
+- Part 1811, Application module: Product and manufacturing information with nominal 3d models;<br/>
+- Part 1812, Application module: Product and manufacturing annotation presentation;<br/>
+- Part 1813, Application module: Parametric representation;<br/>
+- Part 1814, Application module: Machining features;<br/>
+- Part 1815, Application module: Mating structure;<br/>
+- Part 1816, Application module: Model based 3d geometrical dimensioning and tolerancing representation;<br/>
+- Part 1817, Application module: Kinematic analysis control and result;<br/>
+- Part 1819, Application module: Tessellated geometry;<br/>
+- Part 1820, Application module: Point direction model;<br/>
+- Part 1821, Application module: Externally conditioned data quality criteria;<br/>
+- Part 1822, Application module: Externally conditioned data quality inspection result;<br/>
+- Part 1823, Application module: Product view definition reference;<br/>
+- Part 1824, Application module: Change management;<br/>
+- Part 1825, Application module: Extended person organization;<br/>
+- Part 1826, Application module: Physical connectivity layout topology requirement;<br/>
+- Part 1827, Application module: Extruded structure cross section;<br/>
+- Part 1828, Application module: Wiring harness assembly design;<br/>
+- Part 1829, Application module: Assembly module with packaged component;<br/>
+- Part 1830, Application module: Edge based topological representation with length constraint;<br/>
+- Part 1831, Application module: Scan data 3d shape;<br/>
+- Part 1834, Application module: Surface visual texture;<br/>
+- Part 1835, Application module: Additive manufacturing part and build information;<br/>
+- Part 1836, Application module: Vertex colours for tessellated geometry;<br/>
+- Part 1837, Application module: Product data equivalence definition;<br/>
+- Part 1838, Application module: Annotated 3d model equivalence criteria;<br/>
+- Part 1839, Application module: Annotated 3d model equivalence inspection result;<br/>
+- Part 1840, Application module: Annotated 3d model equivalence shape;<br/>
+- Part 1841, Application module: Annotated 3d model equivalence assembly;<br/>
+- Part 1844, Application module: General design connectivity;<br/>
+- Part 1845, Application module: Wire and cable design connectivity;<br/>
+- Part 1846, Application module: Mechanical design features and requirements;<br/>
+- Part 1847, Application module: Assignment object relationship;<br/>
+- Part 1848, Application module: Annotated 3d model data quality criteria;<br/>
+- Part 1849, Application module: Annotated 3d model data quality inspection result;<br/>
+- Part 1850, Application module: Triangulated shape data quality;<br/>
+- Part 1851, Application module: Pmi data quality;<br/>
+- Part 1852, Application module: Retention period;<br/>
+- Part 1853, Application module: Datum and datum systems;<br/>
+- Part 1854, Application module: Limited length or area indicator assignment;<br/>
+- Part 3001, Business object model: AP242 managed model based 3d engineering;<br/>
+- Part 4000, Core model: Core model;<br/>
+- Part 4439, Domain model: Product life cycle support;<br/>
+- Part 4442, Domain model: AP242 managed model based 3d engineering;<br/>
+- Part 4443, Domain model: Mossec;<br/>
+- Part 5001, Guidance on the usage of ISO 10303-214 for gear units.<br/>
+</body>
+</html>

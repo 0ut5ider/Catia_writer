@@ -1,0 +1,45 @@
+{
+  "fileFormatID": 300,
+  "formatName": "Quicken Data File",
+  "version": null,
+  "formatDescription": "A .QDF file is a  Quicken Data file. The .qdf file extension is used for a data file format developed by Intuit, Inc. for their personal finance and money management software Quicken. This software provides users with tools for calculating and managing their financial records and tax details. These .qdf files are also called Quicken Data Files, and they contain a user's financial and accounting data. Earlier Quicken versions used file extensions QDB and QDT for this data.",
+  "releaseDate": null,
+  "withdrawnDate": null,
+  "binaryFileFormat": "Text",
+  "formatNote": null,
+  "lastUpdatedDate": "03 Jan 2025",
+  "formatSourceID": 1,
+  "provenanceCompoundName": "Digital Preservation Department / The National Archives",
+  "formatProvenance": "v.120- New description added as part of PRONOM Research Week 2024. Submitted by Brigham Young University.",
+  "formatSourceDate": "02 Aug 2005",
+  "formatDisclosure": null,
+  "formatEnvironment": null,
+  "formatRisk": null,
+  "formatAliases": null,
+  "formatTypes": null,
+  "byteOrders": null,
+  "formatFamilies": null,
+  "identifiers": [
+    {
+      "identifierText": "x-fmt/213",
+      "identifierType": "PUID"
+    }
+  ],
+  "internalSignatures": [],
+  "externalSignatures": [
+    {
+      "externalSignature": "abd",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qdf",
+      "signatureType": "File extension"
+    },
+    {
+      "externalSignature": "qel",
+      "signatureType": "File extension"
+    }
+  ],
+  "relationships": [],
+  "source": 1
+}

@@ -1,0 +1,602 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>&quot;CATPart&quot; file format internals at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="&quot;CATPart&quot; file format internals" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://docs.fileformat.com/cad/catpart/">CATPART File Format - CATIA V5 Part File</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://docs.fileformat.com/cad/catpart/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/docs.fileformat.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://docs.fileformat.com/cad/catpart/">
+                            docs.fileformat.com/cad/catpart/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://docs.fileformat.com/cad/catpart/">What is a <b>CATPART</b> <b>file</b>? A <b>CATPART</b> <b>file</b> is the native <b>file</b> <b>format</b> of CATIA V5 software. It stores parts and assemblies created in CATIA V5, a 3D CAD manufacturing application. These <b>files</b> can be opened and edited in CATIA V5 or other CAD applications that support the <b>CATPART</b> <b>file</b> <b>format</b> such as AutoCAD.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://fileinfo.com/extension/catpart">CATPART File - What is a .catpart file and how do I open it?</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://fileinfo.com/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/fileinfo.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://fileinfo.com/extension/catpart">
+                            fileinfo.com/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://fileinfo.com/extension/catpart">Verified information about the .<b>catpart</b> <b>file</b> <b>format</b> and a list of apps that open .<b>catpart</b> <b>files</b>.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://file-extensions.com/docs/catpart">CATPART file format - CATIA V5 Part File</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://file-extensions.com/docs/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/file-extensions.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://file-extensions.com/docs/catpart">
+                            file-extensions.com/docs/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://file-extensions.com/docs/catpart">What is a .<b>catpart</b> <b>file</b>? <b>CATPART</b> — CATIA V5 Part <b>File</b>. <b>Format</b> details, MIME type, technical specifications and the programs that open <b>CATPART</b> <b>files</b>.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.file-extension.info/format/catpart">CATPART File - What It Is, How to Open &amp; Convert It - File-Extension.info</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.file-extension.info/format/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.file-extension.info.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.file-extension.info/format/catpart">
+                            www.file-extension.info/format/catpart
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-08-21T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.file-extension.info/format/catpart">A <b>CATPART</b> <b>file</b> is a 3D CAD part document from CATIA V5 (or V6/3DEXPERIENCE) by Dassault Systèmes - it stores one component&#x27;s geometry and parametric feature history. To open it without a CATIA license, use the free eDrawings viewer or CAD Assistant. To use the part in other CAD software, export it to STEP.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://cadexchanger.com/catpart/">What is CATPart file and how to open it | CAD Exchanger</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://cadexchanger.com/catpart/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/cadexchanger.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://cadexchanger.com/catpart/">
+                            cadexchanger.com/catpart/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://cadexchanger.com/catpart/">How to view and convert <b>CATPart</b> <b>files</b>? Use CAD Exchanger software to read and write <b>CATPart</b> or enable your 3D CAD application to process it.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://fileformatdb.com/en/extension/catpart">CATPART File - What is a .catpart file and how do I open it?</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://fileformatdb.com/en/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/fileformatdb.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://fileformatdb.com/en/extension/catpart">
+                            fileformatdb.com/en/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://fileformatdb.com/en/extension/catpart">What is a <b>CATPART</b> <b>file</b>? A <b>CATPART</b> <b>file</b> is a 3D model created by CATIA V5, a 3D CAD manufacturing application. It contains a part model, including the three-dimensional geometry and structure data. <b>CATPART</b> <b>files</b> can be combined with other parts into a .CATPRODUCT assembly <b>file</b>. More Information <b>CATPART</b> <b>files</b> can store part designs such as casings, metal brackets, machine parts, and other ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html">CATPart Files for CNC Machining: Various Format Guide &amp; Conversion</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.tuofa-cncmachining.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html">
+                            www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.tuofa-cncmachining.com/tuofa-blog/catpart-files-for-cnc-machining.html">The <b>CATPart</b> <b>file</b> that it creates can be sent to the CAM software via an intermediate neutral exchange <b>format</b>. The G Codes generated will instruct the CNC machine to manufacturing it flawlessly. Here is a complete guide related to the handling of <b>CATPart</b> <b>files</b>. What Is a .<b>CATPart</b> <b>File</b>? <b>CATPart</b> <b>file</b> is the native <b>file</b> extension type for CATIA ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.filetypeadvisor.com/extension/catpart">CATPART File - What is a .CATPART file and how do I open it?</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.filetypeadvisor.com/extension/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.filetypeadvisor.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.filetypeadvisor.com/extension/catpart">
+                            www.filetypeadvisor.com/extension/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.filetypeadvisor.com/extension/catpart">Find out how to open a <b>CATPART</b> <b>file</b>, how to convert a <b>CATPART</b> <b>file</b> into a different <b>format</b>, what a .<b>CATPART</b> <b>file</b> is.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://jedok.com/formats/catpart">Supported CATPART Format Details - jedok.com</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://jedok.com/formats/catpart">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/jedok.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://jedok.com/formats/catpart">
+                            jedok.com/formats/catpart
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://jedok.com/formats/catpart">Supported <b>CATPART</b> <b>format</b> details with all supported conversions as <b>catpart</b> to conversions, and converto to <b>catpart</b> <b>file</b> <b>formats</b>.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.spatial.com/glossary/what-is-a-catpart-file-extension">Glossary | What is a Catpart File Extension? - ACIS</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.spatial.com/glossary/what-is-a-catpart-file-extension">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.spatial.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.spatial.com/glossary/what-is-a-catpart-file-extension">
+                            www.spatial.com/glossary/what-is-a-catpart-file-extension
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.spatial.com/glossary/what-is-a-catpart-file-extension">What is the <b>Catpart</b> <b>File</b> Extension? The .<b>CATPart</b> <b>file</b> extension was created by a 3D CAD manufacturing application called CATIA V5. A <b>catpart</b> (or &quot;<b>CATPart</b>&quot;) is used to store part models and contains 3D geometric and structural data. This <b>catpart</b> <b>file</b> can also be combined with additional parts and information to create an assembly <b>file</b> in CATPRODUCT.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

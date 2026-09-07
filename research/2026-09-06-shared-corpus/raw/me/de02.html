@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>CATIA V5 Dateiformat reverse engineering at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.7bcf94631b5964fa5ad7.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="CATIA V5 Dateiformat reverse engineering" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA">Reverse-Engineering-in-CATIA - GitHub</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/github.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA">
+                            github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://github.com/SoroushShirazikiya/Reverse-Engineering-in-CATIA"><b>Reverse</b> <b>Engineering</b> in <b>CATIA</b> <b>V5</b> | Step-by-Step Tutorial In this tutorial, I show how to do <b>reverse</b> <b>engineering</b> in <b>CATIA</b> <b>V5</b>, step by step. I recreate a part based on existing geometry and explain the process clearly in English to demonstrate both my CAD skills and communication.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/catia-reverse-engineer_y5b0jgBORpiGpHgSBitF0g">CATIA Reverse Engineer | Dassault Systèmes®</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/catia-reverse-engineer_y5b0jgBORpiGpHgSBitF0g">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/3dswym.3dexperience.3ds.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/catia-reverse-engineer_y5b0jgBORpiGpHgSBitF0g">
+                            3dswym.3dexperience.3ds.com/wiki/catia-user-community/catia-reverse-engineer_y5b0jgBORpiGpHgSBitF0g
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2025-01-24T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://3dswym.3dexperience.3ds.com/wiki/catia-user-community/catia-reverse-engineer_y5b0jgBORpiGpHgSBitF0g"><b>Reverse</b> Engineer is a specific and dedicated role for any user dealing with any workflow involving some transition between digital and physical worlds. <b>Reverse</b> Engineer is the best in class reconstruction tool on the market, addressing worflows between phyiscal and virtual worlds, including simulation results &amp; prototyping needs <b>Reverse</b> Engineer addresses the transitions between digital and ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://3dswym.3dexperience.3ds.com/post/catia-user-community/reverse-engineering-in-catia-v5-3dexperience_IRerLmn1RHu1SPPz2uNFZQ">Reverse Engineering in CATIA V5 &amp; 3DEXPERIENCE</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://3dswym.3dexperience.3ds.com/post/catia-user-community/reverse-engineering-in-catia-v5-3dexperience_IRerLmn1RHu1SPPz2uNFZQ">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/3dswym.3dexperience.3ds.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://3dswym.3dexperience.3ds.com/post/catia-user-community/reverse-engineering-in-catia-v5-3dexperience_IRerLmn1RHu1SPPz2uNFZQ">
+                            3dswym.3dexperience.3ds.com/post/catia-user-community/reverse-engineering-in-catia-v5-3dexperience_IRerLmn1RHu1SPPz2uNFZQ
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2026-06-05T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://3dswym.3dexperience.3ds.com/post/catia-user-community/reverse-engineering-in-catia-v5-3dexperience_IRerLmn1RHu1SPPz2uNFZQ">In this short video, I&#x27;m sharing a <b>reverse</b> <b>engineering</b> project of an automotive mirror component. The original part was reconstructed in <b>CATIA</b> <b>V5</b> and then reviewed inside the 3DEXPERIENCE platform. During the video, you can also see a glimpse of the slider sealing surface design, which is one of the important areas considered later in the mold design process. This post is mainly about ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.goengineer.com/training/catia-reverse-engineering">CATIA V5: Reverse Engineering Training Course | GoEngineer</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.goengineer.com/training/catia-reverse-engineering">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.goengineer.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.goengineer.com/training/catia-reverse-engineering">
+                            www.goengineer.com/training/catia-reverse-engineering
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.goengineer.com/training/catia-reverse-engineering">Learn how to use the tools in the <b>CATIA</b> <b>V5</b> Digitized Shape Editor workbench and tools specific to Quick Surface Reconstruction and Realistic Shape Optimizer.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.youtube.com/watch?v=m0FnNRmZMTw">CATIA V5 REVERSE ENGINEERING !! From Scanned Data to solid catpart!</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.youtube.com/watch?v=m0FnNRmZMTw">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.youtube.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.youtube.com/watch?v=m0FnNRmZMTw">
+                            www.youtube.com/watch?v=m0FnNRmZMTw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.youtube.com/watch?v=m0FnNRmZMTw">This video covers: 1) How to import STL file into <b>CATIA</b> <b>V5</b> 2) How to create curve from scan 3) How to create sketch from scan 4) How to extrude curve 5) Difference between trim and split 6) How to ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.youtube.com/watch?v=T2t4tKweXNQ">Reverse Engineering in CATIA V5 | Step-by-Step Tutorial</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.youtube.com/watch?v=T2t4tKweXNQ">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.youtube.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.youtube.com/watch?v=T2t4tKweXNQ">
+                            www.youtube.com/watch?v=T2t4tKweXNQ
+                          </a>
+                          
+                            <span>&nbsp; &nbsp; 2025-06-30T00:00:00.0000000</span>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.youtube.com/watch?v=T2t4tKweXNQ">Hello! I am Soroush Shirazikiya and Master&#x27;s graduate in Mechanical <b>Engineering</b> (with GPA 18.1/20 ) from Iran, skilled in <b>CATIA</b> design and mechanical modeling. On this channel, I create detailed ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://mecanicasolutions.com/wp-content/uploads/2025/06/CATIA-V5-Reverse-Engineering-Course.pdf"><span class="result__type">PDF</span> CATIA V5 Customized Reverse Engineering Training</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://mecanicasolutions.com/wp-content/uploads/2025/06/CATIA-V5-Reverse-Engineering-Course.pdf">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/mecanicasolutions.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://mecanicasolutions.com/wp-content/uploads/2025/06/CATIA-V5-Reverse-Engineering-Course.pdf">
+                            mecanicasolutions.com/wp-content/uploads/2025/06/CATIA-V5-Reverse-Engineering-Course.pdf
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://mecanicasolutions.com/wp-content/uploads/2025/06/CATIA-V5-Reverse-Engineering-Course.pdf">Register on-line or call 1-888-326-8326 www.mecanicasolutions.com Information contained within is subject to change. All classes are dependent on minimum enrollment</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://grabcad.com/tutorials/catia-v5-reverse-engineering-curve-from-3d-scan">CATIA V5 - Reverse Engineering (Curve from 3D scan) - GrabCAD</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://grabcad.com/tutorials/catia-v5-reverse-engineering-curve-from-3d-scan">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/grabcad.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://grabcad.com/tutorials/catia-v5-reverse-engineering-curve-from-3d-scan">
+                            grabcad.com/tutorials/catia-v5-reverse-engineering-curve-from-3d-scan
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://grabcad.com/tutorials/catia-v5-reverse-engineering-curve-from-3d-scan">This is an overview of the <b>reverse</b> <b>engineering</b> workflow in <b>CATIA</b> <b>V5</b>.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.cati.com/role/reverse-engineer-rpe/">Reverse Engineer (RPE) - Computer Aided Technology</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.cati.com/role/reverse-engineer-rpe/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.cati.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.cati.com/role/reverse-engineer-rpe/">
+                            www.cati.com/role/reverse-engineer-rpe/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.cati.com/role/reverse-engineer-rpe/">Best-in-class productivity on the market for geometry reconstruction, shape compensation, IP filtering,data preparation for prototyping or simulation.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="https://www.inceptra.com/solution/reverse-engineering/">Reverse Engineering - REE - Inceptra</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="https://www.inceptra.com/solution/reverse-engineering/">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.inceptra.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="https://www.inceptra.com/solution/reverse-engineering/">
+                            www.inceptra.com/solution/reverse-engineering/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="https://www.inceptra.com/solution/reverse-engineering/"><b>CATIA</b> - <b>Reverse</b> <b>Engineering</b> makes it possible to quickly capture physical prototype shapes in order to enhance their style, making the 3D virtual model the design reference. It provides powerful technologies in the <b>CATIA</b> environment enabling to easily manipulate clouds of points and quickly transform them into high-end 3D surface shapes.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="CATIA V5 Dateiformat reverse engineering" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-196541573980404829451840275701764424241" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

@@ -1,0 +1,39 @@
+en01	"catpart" file structure	10 results
+en02	"CATPart" file format internals	10 results
+en03	"CATIA" "structured storage"	NULL(quoted no match)
+en04	catpart olefile python	10 results
+en05	"catpart" parser OR reader github	NULL(quoted no match)
+en06	"CATIA" "compound document" file	NULL(quoted no match)
+en07	"CATIA V5" hex editor file	8 results
+en08	"CATIA" file signature "D0 CF 11 E0"	?
+en09	"CATIA" PRONOM file signature	?
+en10	"CATIA" Kaitai struct CATIA CAD	?
+en11	"010 Editor" CATIA template	10 results
+en12	open "CATProduct" without CATIA installed	10 results
+en13	read .CATPart "without CATIA"	?
+en14	site:stackoverflow.com catpart	?
+en15	site:eng-tips.com catia file format	10 results
+en16	"CATIA" specification object tree persistent	?
+en17	CATIA CATEPL	?
+en18	"Document Services" "CAA V5" pdf	NULL(quoted no match)
+en19	"SM6" CATIA file	8 results
+en20	"coreref" CATIA	7 results
+en21	"CATIA V5" ".CATPart" strings dump	4 results
+en22	CATIA redbook CAA technical modeler pdf	10 results
+en23	thesis "CATIA" "file format"	1 results
+en24	reverse engineering CAD file format survey	10 results
+de01	CATIA Dateiformat catpart Analyse	10 results
+de02	CATIA V5 Dateiformat reverse engineering	10 results
+fr01	structure du fichier CATIA interne	10 results
+fr02	"CATPart" format de fichier OLE	4 results
+ru01	формат файла CATPart	10 results
+ru02	обратная разработка CATIA формат	10 results
+ru03	структура файла CATIA V5	10 results
+zh01	CATIA 文件格式 逆向	10 results
+zh02	catpart 文件格式	10 results
+zh03	CATIA 二进制 解析	10 results
+ja01	CATIA ファイル形式 解析	10 results
+ja02	CATPart 構造	10 results
+ko01	CATIA 파일 형식 catpart	10 results
+es01	formato de archivo CATPart estructura	10 results
+it01	formato file CATPart struttura	10 results

@@ -1,0 +1,108 @@
+================================================================================
+PUID: x-fmt/436
+formatName: CATIA Model
+version: 4
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.
+binaryFileFormat: Binary
+formatDisclosure: Full
+provenanceCompoundName: Digital Library Research Group / MIT Libraries
+formatSourceDate: 06 Apr 2009
+lastUpdatedDate: 22 Apr 2024
+formatTypes: Model
+ INTERNAL SIG: CATIA Model V4 | BOF offset 80, magic bytes: CATIA followed by three spaces*CATIA SOLUTIONS V4{6}RELEASE followed by one space
+   pos: Absolute from BOF offset: 80 max: 0 endian: None
+   bytes: 4341544941202020*434154494120534F4C5554494F4E53205634{6}52454C4541534520
+    invalid literal for int() with base 16: '4{'
+ EXTERNAL: ['mod', 'model']
+================================================================================
+PUID: x-fmt/437
+formatName: CATIA Project
+version: 4
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.
+binaryFileFormat: Binary
+formatDisclosure: Full
+provenanceCompoundName: Digital Library Research Group / MIT Libraries
+formatSourceDate: 06 Apr 2009
+lastUpdatedDate: 16 Feb 2024
+formatTypes: None
+ EXTERNAL: ['project']
+================================================================================
+PUID: x-fmt/438
+formatName: CATIA Material Description
+version: 5
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering.
+binaryFileFormat: Binary
+formatDisclosure: Full
+provenanceCompoundName: Digital Library Research Group / MIT Libraries
+formatSourceDate: 06 Apr 2009
+lastUpdatedDate: 11 Feb 2022
+formatTypes: Model
+ INTERNAL SIG: CATIA Material Description V5 | CATIA Version 5 identifier plus file extension of the file name (.CATMaterial)
+   pos: Absolute from BOF offset: 0 max: None endian: None
+   bytes: 56355F434656320000*2E4341544D6174657269616C
+   ascii: V5_CFV2....4.D..FW&..
+ EXTERNAL: ['catmaterial']
+================================================================================
+PUID: x-fmt/439
+formatName: CATIA Model (Part Description)
+version: 5
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering.
+binaryFileFormat: Binary
+formatDisclosure: Full
+provenanceCompoundName: Digital Library Research Group / MIT Libraries
+formatSourceDate: 06 Apr 2009
+lastUpdatedDate: 11 Feb 2022
+formatTypes: Model
+ INTERNAL SIG: CATIA Part Description V5 | CATIA Version 5 identifier plus file extension of the file name (.CATPart)
+   pos: Absolute from BOF offset: 0 max: None endian: Little-endian
+   bytes: 56355F434656320000*2E43415450617274
+   ascii: V5_CFV2....4.E..'
+ EXTERNAL: ['catpart']
+================================================================================
+PUID: x-fmt/440
+formatName: CATIA Product Description
+version: 5
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering.
+binaryFileFormat: Binary
+formatDisclosure: Full
+provenanceCompoundName: Digital Library Research Group / MIT Libraries
+formatSourceDate: 06 Apr 2009
+lastUpdatedDate: 11 Feb 2022
+formatTypes: None
+ INTERNAL SIG: CATIA Product Description V5 | CATIA Version 5 identifier plus file extension of the file name (.CATProduct)
+   pos: Absolute from BOF offset: 0 max: None endian: None
+   bytes: 56355F434656320000*2E43415450726F64756374
+   ascii: V5_CFV2....4.E.&.GV7
+ EXTERNAL: ['catproduct']
+================================================================================
+PUID: fmt/1615
+formatName: CATIA Drawing
+version: 5
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. The .catdrawing files are created with this software to store two dimensional drawings, including different views of the item being designed. Catdrawing files are always linked to .catpart files - without a .catpart file, the .catdrawing file won’t open.
+binaryFileFormat: None
+formatDisclosure: None
+provenanceCompoundName: J. Paul Getty Trust / J. Paul Getty Trust
+formatSourceDate: 03 Feb 2022
+lastUpdatedDate: 03 Feb 2022
+formatTypes: Model
+ INTERNAL SIG: CATIA Drawing | BOF offset 0, magic bytes: V5_CFV2 * CATDrwCont
+   pos: Absolute from BOF offset: 0 max: 0 endian: None
+   bytes: 56355F4346563200*434154447277436F6E74
+   ascii: V5_CFV2..4.DG't6..
+ EXTERNAL: ['catdrawing']
+================================================================================
+PUID: fmt/1714
+formatName: CATIA Model File
+version: 3
+formatDescription: CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.
+binaryFileFormat: None
+formatDisclosure: None
+provenanceCompoundName: J. Paul Getty Trust / J. Paul Getty Trust
+formatSourceDate: 14 Jun 2022
+lastUpdatedDate: 22 Apr 2024
+formatTypes: Model
+ INTERNAL SIG: CATIA Model V.3 | BOF; Offset: 80; Magic Bytes: 'CATIA' * 'CATIA VERSION 3'{11}'RELEASE'
+   pos: Absolute from BOF offset: 0 max: 80 endian: None
+   bytes: 4341544941202020*43415449412056455253494F4E2033{11}52454C4541534520
+    invalid literal for int() with base 16: '3{'
+ EXTERNAL: ['model']

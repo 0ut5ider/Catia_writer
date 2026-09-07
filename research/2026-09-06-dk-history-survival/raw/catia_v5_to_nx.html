@@ -1,0 +1,2613 @@
+<!doctype html><html lang="en-us"><head>
+		<meta charset="utf-8">
+
+		
+		
+		<title>CATIA V5 to NX Translation Solutions | Theorem Solutions</title>
+		
+
+		
+		
+		<link rel="shortcut icon" href="https://www.theorem.com/hubfs/64%20x%2064%20pixels%20TS%20icon.png">
+		
+
+		
+		<meta name="description" content="Our CATIA V5 to NX translation solution allows you to convert all mechanical design geometry and more between these two systems. Learn more today!">
+
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Our CATIA V5 to NX translation solution allows you to convert all mechanical design geometry and more between these two systems. Learn more today!">
+    <meta property="og:title" content="CATIA V5 to NX Translation Solutions | Theorem Solutions">
+    <meta name="twitter:description" content="Our CATIA V5 to NX translation solution allows you to convert all mechanical design geometry and more between these two systems. Learn more today!">
+    <meta name="twitter:title" content="CATIA V5 to NX Translation Solutions | Theorem Solutions">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://www.theorem.com/hs-fs/hub/5405019/hub_generated/template_assets/107334379580/1702902894490/Theorem-theme/index.min.css">
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+/* HubSpot Styles (mobile) */
+@media (max-width: 767px) {
+  .widget_1679913073610-hidden {
+    display: block !important;
+  }
+}
+</style>
+    
+
+    
+<!--  Added by GoogleAnalytics integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+_hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create','UA-9260077-2','auto');
+  ga('send','pageview');
+}}]);
+</script>
+
+<!-- /Added by GoogleAnalytics integration -->
+
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = false;
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-QR632LJDV9');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QR632LJDV9"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = false;
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      // set up default denied consent
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+      });
+
+      // instruct cookie banner to send consent updates to GCM
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W485QXB');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="https://www.theorem.com/translate/catia-v5-to-nx-translator">
+
+
+<meta property="og:image" content="https://www.theorem.com/hubfs/AdobeStock-man-at-computer-1.jpg#keepProtocol">
+<meta property="og:image:width" content="1290">
+<meta property="og:image:height" content="860">
+
+<meta name="twitter:image" content="https://www.theorem.com/hubfs/AdobeStock-man-at-computer-1.jpg#keepProtocol">
+
+
+<meta property="og:url" content="https://www.theorem.com/translate/catia-v5-to-nx-translator">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="content-language" content="en-us">
+
+
+
+
+
+
+	<meta name="generator" content="HubSpot"></head>
+
+	<body>
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W485QXB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+
+		<div class="body-wrapper   hs-content-id-34117330575 hs-site-page page ">
+			
+			
+			<div data-global-resource-path="Theorem-theme/templates/partials/header_cadtranslate.html"><nav aria-label="Main menu" class="Nav">
+<div id="hs_cos_wrapper_Navigation_-_Main" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+  <div class="Nav--main Nav--wrapper">
+    <div class="Nav--row">
+
+
+      
+      
+        <a class="Nav__logo" href="https://www.theorem.com">
+          <img src="https://www.theorem.com/hubfs/raw_assets/public/Theorem-theme/images/theorem-logo.svg" alt="Theorem logo" width="152" height="45">
+        </a>
+      
+      
+
+
+      
+      <div class="NavMenu--container">
+        <div class="NavMenu">
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="https://www.theorem.com/products-and-solutions">
+              Products
+              </a>
+              
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+              
+              <div class="ProductMenu ChildMenu">
+
+              <div class="ChildMenu--grid grid grid--cols-3">
+              
+
+                  <div class="ProductMenu__item ProductMenu--purple">
+
+                  <img src="https://www.theorem.com/hubfs/cadtranslate-product-logo.svg" alt="CADTranslate logo" width="128" height="56" class="ProductMenu__image">
+
+                  <div class="ProductMenu__item-description"><strong>CAD Data Exchange:&nbsp;</strong>Seamless and robust data translation between CAD and Visualization formats.</div>
+
+                  <a class="ProductMenu__item-link" href="https://www.theorem.com/translate">
+                    View product
+                  </a>
+
+                </div>
+              
+
+                  <div class="ProductMenu__item ProductMenu--green">
+
+                  <img src="https://www.theorem.com/hubfs/cadpublish-product-logo.svg" alt="CADPublish logo" width="128" height="56" class="ProductMenu__image">
+
+                  <div class="ProductMenu__item-description"><strong>Interactive Documentation:</strong> 3D PDF Publisher and Composer.<strong> </strong>Making CAD data accessible to non-CAD users.</div>
+
+                  <a class="ProductMenu__item-link" href="https://www.theorem.com/cadpublish">
+                    View product
+                  </a>
+
+                </div>
+              
+
+                  <div class="ProductMenu__item ProductMenu--blue">
+
+                  <img src="https://www.theorem.com/hubfs/theoremxr-product-logo.svg" alt="TheoremXR logo" width="128" height="56" class="ProductMenu__image">
+
+                  <div class="ProductMenu__item-description"><strong>Extended Reality - XR</strong>: Augmented, Mixed and Virtual Reality for the Engineering Metaverse.</div>
+
+                  <a class="ProductMenu__item-link" href="https://www.theorem.com/theorem-xr">
+                    View product
+                  </a>
+
+                </div>
+              
+              </div>
+
+              <div class="ProductMenu__view-all">
+              <a href="https://www.theorem.com/products-and-solutions">
+                View All Products
+              </a>
+              </div>
+
+              </div>
+              
+
+
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--linked">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="https://www.theorem.com/about">
+              About us
+              </a>
+              
+
+              
+              
+
+              
+              
+              
+
+
+            </div>
+            
+
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="https://www.theorem.com/resource">
+              Resources
+              </a>
+              
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+
+                
+                  
+                  
+
+              <div class="MegaMenu ChildMenu ChildMenu--width-3">
+                <div class="ChildMenu--grid grid grid--cols-2">
+
+
+                
+                  <div class="MegaMenu--grid grid grid--cols-2">
+               
+                <a class="MegaMenu__item" href="https://www.theorem.com/blog">
+                  <div class="MegaMenu__item-title">Blog</div>
+                  <div class="MegaMenu__item-subtitle">Check out the latest blogs from Theorem</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/brochures">
+                  <div class="MegaMenu__item-title">Brochures</div>
+                  <div class="MegaMenu__item-subtitle">Download the latest Theorem Brochures</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/upcoming-events">
+                  <div class="MegaMenu__item-title">Events</div>
+                  <div class="MegaMenu__item-subtitle">See which events we will be exhibiting at this year</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="/blog/tag/news">
+                  <div class="MegaMenu__item-title">News</div>
+                  <div class="MegaMenu__item-subtitle">Keep up to date with the latest news and Product Releases</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/resellers">
+                  <div class="MegaMenu__item-title">Resellers</div>
+                  <div class="MegaMenu__item-subtitle">Find a Reseller in a Location Near You</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/social-insights">
+                  <div class="MegaMenu__item-title">Social Insights</div>
+                  <div class="MegaMenu__item-subtitle">Latest Social Posts on LinkedIn</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/user-stories">
+                  <div class="MegaMenu__item-title">User Stories</div>
+                  <div class="MegaMenu__item-subtitle">User Stories and White Papers</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/webinars">
+                  <div class="MegaMenu__item-title">Webinars</div>
+                  <div class="MegaMenu__item-subtitle">Product and use case specific webinars</div>
+                </a>
+                
+                </div>
+
+                
+
+                  <div class="MenuPosts">
+                    <div class="MenuPosts__title">Featured Resources</div>
+                    <div class="MenuPosts--list">
+                    
+                      <a class="MenuPosts__item" href="https://www.theorem.com/the-cognitive-gap">
+                        <div class="MenuPosts__item-tag">What is the Cognitive Gap?</div>
+                        <div class="MenuPosts__item-description">Exploring the Cognitive Gap and the Potential of XR Technologies</div>
+                      </a>
+                    
+                      <a class="MenuPosts__item" href="https://www.theorem.com/guide/a-logical-approach-to-cad-data-exchange">
+                        <div class="MenuPosts__item-tag">A Practical Guide to Data Exchange</div>
+                        <div class="MenuPosts__item-description">What should you consider when starting a CAD Data Exchange project?</div>
+                      </a>
+                    
+                      <a class="MenuPosts__item" href="https://www.theorem.com/guide/publish">
+                        <div class="MenuPosts__item-tag">A Guide to the 3D PDF Format</div>
+                        <div class="MenuPosts__item-description">What is 3D PDF and how can it benefit you?</div>
+                      </a>
+                    
+                    </div>
+                  </div>
+                
+
+                </div>
+              </div>
+              
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="#">
+              Support
+              </a>
+              
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+
+                
+                  
+                  
+
+              <div class="MegaMenu ChildMenu ChildMenu--width-1">
+                <div class="ChildMenu--grid grid grid--cols-1">
+
+
+                
+                  <div class="MegaMenu--grid grid grid--cols-1">
+               
+                <a class="MegaMenu__item" href="https://theoremsolutions.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank" rel="noopener">
+                  <div class="MegaMenu__item-title">Support Portal</div>
+                  <div class="MegaMenu__item-subtitle">Open a Support ticket or check on the progress of an existing ticket.</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/support">
+                  <div class="MegaMenu__item-title">Support Services</div>
+                  <div class="MegaMenu__item-subtitle">Discover your support options</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/ford-suppliers">
+                  <div class="MegaMenu__item-title">Ford Supplier Support</div>
+                  <div class="MegaMenu__item-subtitle">Software Downloads</div>
+                </a>
+                
+                </div>
+
+                
+
+                </div>
+              </div>
+              
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+
+
+        </div>
+
+        <div class="Nav__actions">
+
+        
+         <div class="Button Button--blue">
+         <a href="https://www.theorem.com/contact-us">
+           Contact
+         </a>
+         </div>
+
+        
+
+
+        <a href="/hs-search-results" class="Nav__search"></a>
+        </div>
+
+      </div>
+      
+
+      
+      <div class="Nav__toggle Nav__toggle--main">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+    </div>
+  </div></div>
+<div id="hs_cos_wrapper_Navigation_-_Secondary" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+  <div class="Nav--themed Nav--theme-purple">
+  <div class="Nav--secondary Nav--wrapper">
+    <div class="Nav--row">
+
+      
+      
+        <a class="Nav__logo" href="https://www.theorem.com/translate">
+          <img src="https://www.theorem.com/hubfs/cadtranslate-product-logo-white.svg" alt="CADTranslate logo" width="173" height="29">
+        </a>
+      
+      
+
+
+      
+      <div class="NavMenu--container">
+        <div class="NavMenu">
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="#">
+              Solutions
+              </a>
+              
+
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+
+                
+                  
+                  
+
+
+              <div class="MegaMenu ChildMenu ChildMenu--width-1">
+
+
+
+
+                <div class="ChildMenu--grid grid grid--cols-1">
+
+                
+            
+
+               <div class="MegaMenu--grid grid grid--cols-1">
+               
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/cad-to-cad">
+                  <div class="MegaMenu__item-title">CAD to CAD Translation</div>
+                  <div class="MegaMenu__item-subtitle">Over 50 available CAD to CAD solutions available</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/translate/lightweight-3d">
+                  <div class="MegaMenu__item-title">CAD to Lightweight 3D</div>
+                  <div class="MegaMenu__item-subtitle">Delivering 3D CAD assets in to a lightweight format (3DXML, Creo View, JT)</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/translate/multi-cad">
+                  <div class="MegaMenu__item-title">Design in Context </div>
+                  <div class="MegaMenu__item-subtitle">Enabling CATIA V5 and 3DEXPERIENCE users to work interactively</div>
+                </a>
+                
+                </div>
+
+                
+
+
+                </div>
+              </div>
+              
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="#">
+              Supported Formats
+              </a>
+              
+
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+
+                
+                  
+                  
+
+
+              <div class="MegaMenu ChildMenu ChildMenu--width-2">
+
+
+
+
+                <div class="ChildMenu--grid grid grid--cols-1">
+
+                
+            
+
+               <div class="MegaMenu--grid grid grid--cols-3">
+               
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/3dxml">
+                  <div class="MegaMenu__item-title">3DXML</div>
+                  <div class="MegaMenu__item-subtitle">Consume and create JT data</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/3dexperience">
+                  <div class="MegaMenu__item-title">3DEXPERIENCE</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from CREO, JT and NX</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/translate/catia-v5">
+                  <div class="MegaMenu__item-title">CATIA V5</div>
+                  <div class="MegaMenu__item-subtitle">Translation tools for CATIA V5 users</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/creo">
+                  <div class="MegaMenu__item-title">CREO</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from 3DEXPERIENCE, CATIA V5, JT and NX</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/creo-view">
+                  <div class="MegaMenu__item-title">CREO VIEW</div>
+                  <div class="MegaMenu__item-subtitle">Creo View Adapters for 3DEXPERIENCE, CATIA V5 and Inventor users</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/icem-surf">
+                  <div class="MegaMenu__item-title">ICEM Surf</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from CATIA V5 and NX</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/inventor">
+                  <div class="MegaMenu__item-title">Inventor</div>
+                  <div class="MegaMenu__item-subtitle">Translate to JT</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/jt">
+                  <div class="MegaMenu__item-title">JT</div>
+                  <div class="MegaMenu__item-subtitle">Visualizations solutions to/from CAD</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/nx">
+                  <div class="MegaMenu__item-title">NX</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from 3DEXPERIENCE, CATIA V5, CREO, ICEM, STEP</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/solidworks">
+                  <div class="MegaMenu__item-title">SOLIDWORKS</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from the JT visualization format</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/step-processors">
+                  <div class="MegaMenu__item-title">STEP Processors</div>
+                  <div class="MegaMenu__item-subtitle">Translate to/from JT and NX</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/3d-cad-translation/catia-v4-cadds">
+                  <div class="MegaMenu__item-title">Legacy Products</div>
+                  <div class="MegaMenu__item-subtitle">Supporting CADDS &amp; CATIA V4</div>
+                </a>
+                
+                </div>
+
+                
+
+
+                </div>
+              </div>
+              
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+
+            
+            
+
+            
+            <div class="NavItem NavItem--root NavItem--parent">
+
+              
+              <a class="NavItem__link NavItem__link--root NavItem__link--linked " href="#">
+              Resources
+              </a>
+              
+
+
+              
+              
+                <div class="NavItem__chevron"></div>
+              
+
+              
+              
+
+              
+              
+
+                
+                  
+                  
+
+
+              <div class="MegaMenu ChildMenu ChildMenu--width-1">
+
+
+
+
+                <div class="ChildMenu--grid grid grid--cols-1">
+
+                
+            
+
+               <div class="MegaMenu--grid grid grid--cols-1">
+               
+                <a class="MegaMenu__item" href="https://www.theorem.com/guide/a-logical-approach-to-cad-data-exchange">
+                  <div class="MegaMenu__item-title">A Practical Guide to Data Exchange</div>
+                  <div class="MegaMenu__item-subtitle">What should you consider when starting a data exchange project?</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="/webinars#cadtranslate">
+                  <div class="MegaMenu__item-title">CADTranslate Webinars</div>
+                  <div class="MegaMenu__item-subtitle">Watch the latest webinars on cad translation</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/news/tag/translate">
+                  <div class="MegaMenu__item-title">CADTranslate Blog Posts</div>
+                  <div class="MegaMenu__item-subtitle">Checkout the latest news and blogs for  CADTranslate products</div>
+                </a>
+                
+                <a class="MegaMenu__item" href="https://www.theorem.com/download/cadtranslate-brochure">
+                  <div class="MegaMenu__item-title">CADTranslate Brochure</div>
+                  <div class="MegaMenu__item-subtitle">Download an overview brochure for the CADTranslate Solutions</div>
+                </a>
+                
+                </div>
+
+                
+
+
+                </div>
+              </div>
+              
+              
+
+              
+              
+
+
+            </div>
+            
+
+          
+        </div>
+
+      </div>
+      
+
+        
+        <div class="Nav__toggle Nav__toggle--secondary">
+          <div class="Nav__toggle-label">Menu</div>
+        </div>
+
+    </div>
+  </div>
+  </div></div>
+</nav></div>
+			
+
+			
+			
+  <main id="main-content-secondary-nav" class="body-container-wrapper">
+    <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget widget_1679913073610-hidden dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1679913073610" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+<div class="Breadcrumbs ">
+	<div class="wrapper">
+			<div class="Breadcrumbs__links col--12">
+				
+
+					
+					
+					
+
+					<a href="https://www.theorem.com">
+						Home
+					</a>
+
+				
+
+					
+					
+					
+
+					<a href="https://www.theorem.com/3d-cad-translation">
+						CADTranslate
+					</a>
+
+				
+
+					
+					
+					
+
+					<a href="https://www.theorem.com/translate/catia-v5-to-nx-translator">
+						CATIA V5 to NX Translator
+					</a>
+
+				
+			</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1683041973731" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="HeroBanner HeroBanner--full-width-image HeroBanner--white-text">
+	<div class="HeroBanner--bg-overlay" style="opacity: 0.7"></div>
+
+	<img class="HeroBanner__image HeroBanner__image--center HeroBanner__image--middle" src="https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=1920&amp;height=1080&amp;name=TwoMonitors-1920x1080.jpg" alt="CATIA V5 to NX Translator" width="1920" height="1080" rel="preload" as="image" srcset="https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=960&amp;height=540&amp;name=TwoMonitors-1920x1080.jpg 960w, https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=1920&amp;height=1080&amp;name=TwoMonitors-1920x1080.jpg 1920w, https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=2880&amp;height=1620&amp;name=TwoMonitors-1920x1080.jpg 2880w, https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=3840&amp;height=2160&amp;name=TwoMonitors-1920x1080.jpg 3840w, https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=4800&amp;height=2700&amp;name=TwoMonitors-1920x1080.jpg 4800w, https://www.theorem.com/hs-fs/hubfs/TwoMonitors-1920x1080.jpg?width=5760&amp;height=3240&amp;name=TwoMonitors-1920x1080.jpg 5760w" sizes="(max-width: 1920px) 100vw, 1920px">
+
+	<div class="wrapper" style="width: 100%;">
+		<div class="row align--center">
+
+			<div class="col--12 TwoColumnBanner__text-col" style="max-width:750px">
+
+				
+				<div class="flow">
+					<h1>CATIA V5 to NX Translator</h1>
+<h4>Read and Write Data Between these Two Formats</h4>
+				</div>
+
+				
+					<div class="ButtonRow">
+
+					
+
+						
+
+						<div class="Button Button--light">
+							
+							
+							
+							
+							
+							<a href="#evaluation">
+								Evaluation Request
+							</a>
+						</div>
+						
+
+					
+
+
+					</div>
+				
+
+			</div>
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1683046742607" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+<div class="RichText RichText--full-width ">
+
+	
+
+	<div class="wrapper">
+		<div class="row">
+			<div class="col--12">
+				<div class="RichText__wrapper">
+					<div class="flow">
+						<h2>Why Use the CATIA V5 to NX Translator</h2>
+<p>Theorem’s CATIA V5 &lt;&gt; NX translator is a high quality, cost effective translation solution designed to help solve the issue of working with and sharing incompatible data formats. This product is designed for companies using CATIA V5 and NX who need an effective method of collaboration between the two mechanical CAD systems.</p>
+<p>The CATIA V5 &lt;&gt; NX translator supports collaboration between companies, their customers and suppliers enabling native 3D mechanical design data to be re-used in downstream activities helping to reduce overall project costs. Working with native design data helps to simplify the entire process, improves communication and provides access to all of the necessary information required to progress a product design to manufacture and then eventually to market.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1683046975840" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="Buttons bg--">
+	<div class="wrapper">
+		<div class="ButtonRow ButtonRow--standalone row ">
+			
+
+				
+
+				<div class="Button Button--blue">
+					
+					
+					
+					
+					
+					<a href="#evaluation">
+						Evaluation Request
+					</a>
+				</div>
+				
+
+			
+
+				
+
+				<div class="Button Button--purple">
+					
+					
+					
+					
+					
+					<a href="https://www.theorem.com/contact-us">
+						Contact Us
+					</a>
+				</div>
+				
+
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1680528986679" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="TwoColumnBanner ">
+
+	
+		<div class="bg  bg--"></div>
+	
+
+	<div class="wrapper">
+		<div class="row align--center TwoColumnBanner--reverse TwoColumnBanner--reverse-mobile">
+
+			<div class="col--5 TwoColumnBanner__text-col">
+
+				
+				<div class="flow">
+					<h3>What You Need to Know About Using the CATIA V5 to NX Translator</h3>
+<p>The CATIA V5 to NX translator is a direct database converter between CATIA V5 and NX. It enables the user to convert all forms of 3D mechanical design geometry, as well as assembly and attribute information, between these two systems.</p>
+<p>The translator can be purchased as a uni-directional, CATIA V5 to NX, or NX to CATIA V5 product, or as a bi-directional product. It can be used interactively or in a batch mode, from a standard Theorem Unified Interface.</p>
+				</div>
+
+				
+
+			</div>
+
+			<div class="col--7 TwoColumnBanner__image-col border">
+
+				
+				<img class="TwoColumnBanner__image aspect--16-9 image--cover" src="https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=1229&amp;height=691&amp;name=CADTranslate-Hero-2.jpg" alt="CADTranslate-Hero-2" width="1229" height="691" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=615&amp;height=346&amp;name=CADTranslate-Hero-2.jpg 615w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=1229&amp;height=691&amp;name=CADTranslate-Hero-2.jpg 1229w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=1844&amp;height=1037&amp;name=CADTranslate-Hero-2.jpg 1844w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=2458&amp;height=1382&amp;name=CADTranslate-Hero-2.jpg 2458w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=3073&amp;height=1728&amp;name=CADTranslate-Hero-2.jpg 3073w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-2.jpg?width=3687&amp;height=2073&amp;name=CADTranslate-Hero-2.jpg 3687w" sizes="(max-width: 1229px) 100vw, 1229px">
+				
+
+			</div>
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1683046818964" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="Buttons bg--">
+	<div class="wrapper">
+		<div class="ButtonRow ButtonRow--standalone row ">
+			
+
+				
+
+				<div class="Button Button--blue">
+					
+					
+					
+					
+					
+					<a href="#evaluation">
+						Evaluation Request
+					</a>
+				</div>
+				
+
+			
+
+				
+
+				<div class="Button Button--purple">
+					
+					
+					
+					
+					
+					<a href="https://www.theorem.com/contact-us">
+						Contact Us
+					</a>
+				</div>
+				
+
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1680531335442" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+<div class="RichText RichText--full-width ">
+
+	
+
+	<div class="wrapper">
+		<div class="row">
+			<div class="col--12">
+				<div class="RichText__wrapper">
+					<div class="flow">
+						<h3>The CATIA V5 to NX Translator Can Be Used in a Variety of Ways:</h3>
+<ul>
+<li>An interactive version of the translator can be run from within the menu system of either CATIA V5 or NX</li>
+<li>The translator converts all 3D wireframe, surface and solid geometry.</li>
+<li>If assembly data (product structure) is in the file, the assembly structure will be mapped between the two systems as well as colour information.</li>
+<li>The user can filter data to optimize the process.</li>
+<li>Can be integrated with any workflow or PDM/PLM environment</li>
+<li>Support 3D Product Manufacturing Information from CATIA V5 into NX</li>
+<li>If you wish to visualize and interrogate the CATIA V5 or NX data this can be done by using the integrated viewer product, which is a feature of the user interface.</li>
+<li>There is now a low-cost<span>&nbsp;</span><a href="https://www.theorem.com/guide/publish" rel="noopener">3D PDF</a><span>&nbsp;</span>addon available for this CADTranslate (previously called CADverter) product allowing an interactive 3D PDF document to be output. Users will have the extra benefit of a 3D publishing feature which enables the output CAD data to be published as a<span>&nbsp;</span><a href="https://www.theorem.com/guide/publish" rel=" noopener">3D PDF</a><span>&nbsp;</span>alongside the original translated format.</li>
+<li>An additional annual support contract is available ensuring limited product down time and ongoing compatibility with all source applications.</li>
+</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1680537780455" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="Buttons bg--">
+	<div class="wrapper">
+		<div class="ButtonRow ButtonRow--standalone row ">
+			
+
+				
+
+				<div class="Button Button--purple">
+					
+					
+					
+					
+					
+					<a href="#evaluation">
+						Evaluation Request
+					</a>
+				</div>
+				
+
+			
+
+				
+
+				<div class="Button Button--blue">
+					
+					
+					
+					
+					
+					<a href="https://www.theorem.com/contact-us">
+						Contact Us
+					</a>
+				</div>
+				
+
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1683030632761" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+<div class="CardRow">
+
+	
+		<div class="bg  "></div>
+	
+
+	<div class="wrapper">
+		<div class="row">
+
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched CtaBanner__card CtaBanner__card--purple ">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<h3><span>Which version is right for you?</span></h3>
+<p>For companies needing to translate CATIA V5 data Theorem provide two technology solutions, both use Dassault Systemes API tools which are supported by Dassault, they are the CAA and Interop APIs. Being supported by Dassault means data compatibility is assured, along with back up support from the vendor.</p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+
+				</div>
+			</div>
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched Card--purple Card--linked">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<h3><span>CAA</span></h3>
+<p>Our CATIA V5 products which use Dassault’s CAA libraries link to and require access to a V5 license in order to run. As such that enables them to be run directly inside V5 with an interactive “save as” capability, as well as being able to run in batch mode and linked to PLM.</p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="Card__cta">
+						<a href="#evaluation">
+						Request an Evaluation
+						</a>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched Card--purple Card--linked">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<h3>Independent</h3>
+<p><span>Our CATIA V5 products which use Dassault’s Interop libraries do not need a separate V5 license to run, as such they provide an independent self-contained solution for companies who do not have a CATIA V5 system installed or access to a license. They can be run interactively using the Theorem GUI or in batch mode and linked to PLM.</span></p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="Card__cta">
+						<a href="#evaluation">
+						Request an Evaluation
+						</a>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1683046857678" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="TwoColumnBanner ">
+
+	
+		<div class="bg  bg--"></div>
+	
+
+	<div class="wrapper">
+		<div class="row align--center  TwoColumnBanner--reverse-mobile">
+
+			<div class="col--5 TwoColumnBanner__text-col">
+
+				
+				<div class="flow">
+					<h3>Gain Competitive Advantage</h3>
+<p>Theorem’s CATIA V5 to NX Translator</p>
+<ul>
+<li>Facilitates the re-use and sharing of 3D design data</li>
+<li>Integrated directly within vendor applications but can be used in batch</li>
+<li>Can be integrated directly within a PLM environment</li>
+<li>Built with development tools and APIs supplied and supported by Dassault and Siemens</li>
+<li>Provides support for exchanging Product Manufacturing Information (PMI) data for downstream activities</li>
+<li>Product robustness is proven by daily use in the majority of the world’s leading Automotive, Aerospace, Defence, Power Generation and Transportation companies and their Supply chains</li>
+<li>Options available to Publish data to 3D PDF format to create interactive documentation from source data.</li>
+</ul>
+				</div>
+
+				
+
+			</div>
+
+			<div class="col--7 TwoColumnBanner__image-col border">
+
+				
+				<img class="TwoColumnBanner__image  image--contain" src="https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=1229&amp;height=691&amp;name=CADTranslate-Hero-3.jpg" alt="CADTranslate-Hero-3" width="1229" height="691" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=615&amp;height=346&amp;name=CADTranslate-Hero-3.jpg 615w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=1229&amp;height=691&amp;name=CADTranslate-Hero-3.jpg 1229w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=1844&amp;height=1037&amp;name=CADTranslate-Hero-3.jpg 1844w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=2458&amp;height=1382&amp;name=CADTranslate-Hero-3.jpg 2458w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=3073&amp;height=1728&amp;name=CADTranslate-Hero-3.jpg 3073w, https://www.theorem.com/hs-fs/hubfs/CADTranslate-Hero-3.jpg?width=3687&amp;height=2073&amp;name=CADTranslate-Hero-3.jpg 3687w" sizes="(max-width: 1229px) 100vw, 1229px">
+				
+
+			</div>
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1683030731698" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="IconGrid">
+	<div class="bg bg-- bg--"></div>
+	<div class="wrapper">
+		<div class="row">
+
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 352 512" aria-hidden="true"><g id="Lightbulb1_layer"><path d="M176 80c-52.94 0-96 43.06-96 96 0 8.84 7.16 16 16 16s16-7.16 16-16c0-35.3 28.72-64 64-64 8.84 0 16-7.16 16-16s-7.16-16-16-16zM96.06 459.17c0 3.15.93 6.22 2.68 8.84l24.51 36.84c2.97 4.46 7.97 7.14 13.32 7.14h78.85c5.36 0 10.36-2.68 13.32-7.14l24.51-36.84c1.74-2.62 2.67-5.7 2.68-8.84l.05-43.18H96.02l.04 43.18zM176 0C73.72 0 0 82.97 0 176c0 44.37 16.45 84.85 43.56 115.78 16.64 18.99 42.74 58.8 52.42 92.16v.06h48v-.12c-.01-4.77-.72-9.51-2.15-14.07-5.59-17.81-22.82-64.77-62.17-109.67-20.54-23.43-31.52-53.15-31.61-84.14-.2-73.64 59.67-128 127.95-128 70.58 0 128 57.42 128 128 0 30.97-11.24 60.85-31.65 84.14-39.11 44.61-56.42 91.47-62.1 109.46a47.507 47.507 0 0 0-2.22 14.3v.1h48v-.05c9.68-33.37 35.78-73.18 52.42-92.16C335.55 260.85 352 220.37 352 176 352 78.8 273.2 0 176 0z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Benefit from Improved....</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Check Circle2_layer"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Downstream use of your engineering data</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Check Circle3_layer"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Internal and external communication</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Check Circle4_layer"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Product and process quality</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Check Circle5_layer"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Overall productivity - data re-use</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+			
+				<div class="col--4">
+					<div class="IconGrid__card Card Card--notched Card--purple
+					">
+
+						<div class="Card--top">
+
+							
+								<div class="IconGrid__stock IconGrid__image IconGrid__stock--purple">
+									<span id="hs_cos_wrapper_module_1683030731698_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Check Circle6_layer"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" /></g></svg></span>
+								</div>
+							
+
+							<div class="IconGrid__text Card__text">
+								<div class="flow">
+									<h4>Reduction in errors - data re-use</h4>
+								</div>
+							</div>
+
+						</div>
+
+						
+						
+						
+
+					</div>
+				</div>
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1680603730175" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="Buttons bg--">
+	<div class="wrapper">
+		<div class="ButtonRow ButtonRow--standalone row ButtonRow--remove-tp">
+			
+
+				
+
+				<div class="Button Button--purple">
+					
+					
+					
+					
+					
+					<a href="#evaluation">
+						Evaluation Request
+					</a>
+				</div>
+				
+
+			
+
+				
+
+				<div class="Button Button--blue">
+					
+					
+					
+					
+					
+					<a href="https://www.theorem.com/contact-us">
+						Contact Us
+					</a>
+				</div>
+				
+
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1680536233709" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="TwoColumnBanner ">
+
+	
+		<div class="bg  bg--"></div>
+	
+
+	<div class="wrapper">
+		<div class="row align--center TwoColumnBanner--reverse TwoColumnBanner--reverse-mobile">
+
+			<div class="col--5 TwoColumnBanner__text-col">
+
+				
+				<div class="flow">
+					<h3>Supporting Model Based Engineering</h3>
+<p>Theorem’s Visualize 3D for CATIA V5 &lt;&gt; JT supports the translation of 3D Product Manufacturing Information (PMI), assembly structure, geometry, attributes and Metadata between CATIA V5 and JT, enabling<span>&nbsp;</span><a href="https://www.theorem.com/publish/model-based-definition" rel="noopener">Model-Based Engineering</a>.</p>
+<p>&nbsp;</p>
+				</div>
+
+				
+
+			</div>
+
+			<div class="col--7 TwoColumnBanner__image-col border">
+
+				
+				<img class="TwoColumnBanner__image  image--contain" src="https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=1250&amp;height=600&amp;name=3dpdf-home.jpg" alt="3dpdf-home" width="1250" height="600" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=625&amp;height=300&amp;name=3dpdf-home.jpg 625w, https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=1250&amp;height=600&amp;name=3dpdf-home.jpg 1250w, https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=1875&amp;height=900&amp;name=3dpdf-home.jpg 1875w, https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=2500&amp;height=1200&amp;name=3dpdf-home.jpg 2500w, https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=3125&amp;height=1500&amp;name=3dpdf-home.jpg 3125w, https://www.theorem.com/hs-fs/hubfs/3dpdf-home.jpg?width=3750&amp;height=1800&amp;name=3dpdf-home.jpg 3750w" sizes="(max-width: 1250px) 100vw, 1250px">
+				
+
+			</div>
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1680603699057" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+<div class="Buttons bg--">
+	<div class="wrapper">
+		<div class="ButtonRow ButtonRow--standalone row ButtonRow--remove-tp">
+			
+
+				
+
+				<div class="Button Button--purple">
+					
+					
+					
+					
+					
+					<a href="#evaluation">
+						Evaluation Request
+					</a>
+				</div>
+				
+
+			
+
+				
+
+				<div class="Button Button--blue">
+					
+					
+					
+					
+					
+					<a href="https://www.theorem.com/contact-us">
+						Contact Us
+					</a>
+				</div>
+				
+
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16830470111713" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="TwoColumnBanner ">
+
+	
+		<div class="bg  bg--"></div>
+	
+
+	<div class="wrapper">
+		<div class="row align--center  TwoColumnBanner--reverse-mobile">
+
+			<div class="col--5 TwoColumnBanner__text-col">
+
+				
+				<div class="flow">
+					<h2>Why Theorem Solutions?</h2>
+<p>Theorem Solutions is a totally independent company but with a strong and long standing business and technical relationship with Dassault Systemes, PTC and Siemens. These relationships enable us to develop products and solutions for the CATIA 3DEXPERIENCE, PTC and Siemens users.</p>
+<p>With the use of Dassault Systemes strategic XCAD development tools and PTC and Siemens development API's always ensures full and ongoing compatibility, delivers high quality data and business benefits.</p>
+				</div>
+
+				
+					<div class="ButtonRow">
+
+					
+
+						
+
+						<div class="Button Button--purple">
+							
+							
+							
+							
+							
+							<a href="#evaluation">
+								Request an Evaluation
+							</a>
+						</div>
+						
+
+					
+
+
+					</div>
+				
+
+			</div>
+
+			<div class="col--7 TwoColumnBanner__image-col border">
+
+				
+				<img class="TwoColumnBanner__image aspect--16-9 image--cover" src="https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=1500&amp;height=1000&amp;name=Careers-at-Theorem-1.jpeg" alt="Careers-at-Theorem-1" width="1500" height="1000" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=750&amp;height=500&amp;name=Careers-at-Theorem-1.jpeg 750w, https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=1500&amp;height=1000&amp;name=Careers-at-Theorem-1.jpeg 1500w, https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=2250&amp;height=1500&amp;name=Careers-at-Theorem-1.jpeg 2250w, https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=3000&amp;height=2000&amp;name=Careers-at-Theorem-1.jpeg 3000w, https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=3750&amp;height=2500&amp;name=Careers-at-Theorem-1.jpeg 3750w, https://www.theorem.com/hs-fs/hubfs/Careers-at-Theorem-1.jpeg?width=4500&amp;height=3000&amp;name=Careers-at-Theorem-1.jpeg 4500w" sizes="(max-width: 1500px) 100vw, 1500px">
+				
+
+			</div>
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-19 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1679917161420" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+<div class="CtaBanner ">
+	<div class="wrapper">
+		<div class="row align--center  TwoColumnBanner--reverse-mobile">
+
+			
+
+				<div class="col--6 TwoColumnBanner__image-col CtaBanner__image">
+					<img src="https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=2500&amp;height=1858&amp;name=Depositphotos_6155392_XXL-1.jpg" alt="" loading="lazy" width="2500" height="1858" srcset="https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=1250&amp;height=929&amp;name=Depositphotos_6155392_XXL-1.jpg 1250w, https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=2500&amp;height=1858&amp;name=Depositphotos_6155392_XXL-1.jpg 2500w, https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=3750&amp;height=2787&amp;name=Depositphotos_6155392_XXL-1.jpg 3750w, https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=5000&amp;height=3716&amp;name=Depositphotos_6155392_XXL-1.jpg 5000w, https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=6250&amp;height=4645&amp;name=Depositphotos_6155392_XXL-1.jpg 6250w, https://www.theorem.com/hs-fs/hubfs/Depositphotos_6155392_XXL-1.jpg?width=7500&amp;height=5574&amp;name=Depositphotos_6155392_XXL-1.jpg 7500w" sizes="(max-width: 2500px) 100vw, 2500px">
+				</div>
+
+				<div class="col--6 TwoColumnBanner__text-col CtaBanner__card CtaBanner__card--purple Card Card--notched Card--linked">
+
+						<div class="Card--top">
+							
+							<div class="Card__text">
+								<div class="flow">
+									<h2>A Logical Approach to CAD Data Exchange</h2>
+<p>What should you consider when starting a CAD Data Exchange project?</p>
+<p>This article aims to help people highlight, and then side-step, common problems that may occur during their data exchange lifecycle.</p>
+								</div>
+							</div>
+						</div>
+
+						
+
+						<div class="Card__cta">
+
+
+							
+
+							<div class="Card__cta-text">
+								
+								
+								
+								
+								
+								<a href="https://www.theorem.com/guide/a-logical-approach-to-cad-data-exchange">
+									Read More
+								</a>
+							</div>
+							
+
+						</div>
+
+						
+
+				</div>
+
+			
+
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-20 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_16830470337725" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+<div class="CardRow">
+
+	
+		<div class="bg  "></div>
+	
+
+	<div class="wrapper">
+		<div class="row">
+
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched Card--blue Card--linked">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<p><img src="https://www.theorem.com/hubfs/New-TSL-Logo/CADTranslate_Master_Full%20Colour_Vertical%20logo.svg" alt="CADTranslate Logo" width="400" height="400" loading="lazy" style="height: auto; max-width: 100%; width: 400px;">E<span>xtend the use of your 3D CAD assets by translating them to other 3D CAD or Visualization formats for internal downstream use or for collaboration with customers and suppliers.</span></p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="Card__cta">
+						<a href="https://www.theorem.com/3d-cad-translation">
+						Learn More
+						</a>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched Card--blue Card--linked">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<p><span><img src="https://www.theorem.com/hubfs/New-TSL-Logo/CADPublish%20_Master_Full%20Colour_Vertical%20logo.svg" alt="CADPublish _Master_Full Colour_Vertical logo" width="400" height="400" loading="lazy" style="height: auto; max-width: 100%; width: 400px;"></span><span>Release more value from your proprietary 3D CAD assets by using Publish to 3D PDF to create rich intelligent documents with text and 3D content.</span></p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="Card__cta">
+						<a href="https://www.theorem.com/publish">
+						Learn More
+						</a>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			
+			
+			
+			<div class="col--4">
+				<div class="Card Card--notched Card--blue Card--linked">
+
+					<div class="Card--top">
+					
+
+						<div class="Card__text">
+							<div class="flow">
+								<p><img src="https://www.theorem.com/hubfs/New-TSL-Logo/Theorem-XR_Master_full%20colour%20copy.svg" alt="Theorem-XR_Master_full colour copy" width="400" height="400" loading="lazy" style="height: auto; max-width: 100%; width: 400px;"><span>Collaborative XR Experiences for Design, Factory Layout, Training, Visualization and the Visual Digital Twin for AR/MR and VR. With 3D data automatically delivered by the Visualization Pipeline.</span></p>
+							</div>
+						</div>
+					</div>
+
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="Card__cta">
+						<a href="https://www.theorem.com/extended-reality">
+						Learn More
+						</a>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-21 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1679912781952" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<div class="FormContainer FormContainer--blue light-purple">
+
+	
+		<div class="bg bg--light-purple bg--"></div>
+	
+
+	<div class="wrapper" id="evaluation">
+		<div class="row  ">
+			<div class="col--5">
+				<div class="Form__text Form__sticky">
+					
+					<div class="flow">
+						
+							<div class="flow Form__text"><h2>Evaluation Request</h2>
+<p>Register now to request your free evaluation license of the Theorem CAD<strong>Translate</strong> solution.</p>
+<p>In just a few simple steps we will be able to validate your request based upon the details you provide.</p></div>
+						
+
+						
+							<div class="Form__checkmarks">
+								
+									<div class="Form__checkmark">
+										Complete all of the required details
+									</div>
+								
+									<div class="Form__checkmark">
+										Which product you are requesting an evaluation for
+									</div>
+								
+									<div class="Form__checkmark">
+										We will contact you to discuss your requirements
+									</div>
+								
+									<div class="Form__checkmark">
+										Once we have established that we can offer a solution, an evaluation license will be made available for a limited period
+									</div>
+								
+									<div class="Form__checkmark">
+										Please only use your company email address for validation purposes as we will not respond to personal email accounts
+									</div>
+								
+							</div>
+
+						
+
+						
+					</div>
+
+					
+
+				</div>
+			</div>
+			<div class="col--7">
+				<div class="FormWrapper form ">
+
+				
+					<span id="hs_cos_wrapper_widget_1679912781952_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form">
+<div id="hs_form_target_form_659544352"></div>
+
+
+
+
+
+
+
+
+</span>
+				
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  </main>
+
+
+			
+			
+			<div data-global-resource-path="Theorem-theme/templates/partials/footer.html"><div id="hs_cos_wrapper_footer" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+<footer class="Footer">
+
+	<div class="Footer__wrapper">
+
+		<div class="Footer__inner">
+
+			<div class="Footer__cta-banner Footer__row">
+
+				<div class="wrapper col--12">
+
+					
+						<div class="Footer__logo">
+
+							<img src="https://www.theorem.com/hubfs/raw_assets/public/Theorem-theme/images/theorem-logo.svg" alt="Theorem logo" width="491" height="128" loading="lazy">
+
+						</div>
+					
+
+					
+
+				</div>
+
+			</div>
+
+			<div class="wrapper">
+
+				<div class="Footer__row row Footer__row--first">
+
+					<div class="Footer__col Footer__col-first flow">
+
+						
+						<div class="Footer__intro flow--xs">
+							<h4>UK, Europe and Asia Pacific Regions</h4><p><strong>T:</strong> <a href="tel:01827305350">+44 (0) 1827 305 350</a></p><p><strong>E:</strong> <a href="mailto:sales@theorem.com">sales@theorem.com</a></p><h4>USA and the Americas</h4><p><strong>T:</strong> <a href="tel:5135761100">(513) 576 1100</a></p><p><strong>E:</strong> <a href="mailto:sales-usa@theorem.com">sales-usa@theorem.com</a></p>
+						</div>
+						
+
+						
+
+
+
+					</div>
+
+					
+					<div class="Footer__col Footer__col--left ">
+						
+						<h4 class="Footer__col-title">
+							Products
+						</h4>
+						
+						<div class="Footer__col--menu">
+							
+							<div class="Footer__menu">
+								<span id="hs_cos_wrapper_footer_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="112224314481" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/3d-cad-translation" role="menuitem">CADTranslate</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/publish" role="menuitem">CADPublish</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/extended-reality" role="menuitem">TheoremXR</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/products-and-solutions" role="menuitem">All Products</a></li>
+ </ul>
+</div></span>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="Footer__col Footer__col--left ">
+						
+						<h4 class="Footer__col-title">
+							About us
+						</h4>
+						
+						<div class="Footer__col--menu">
+							
+							<div class="Footer__menu">
+								<span id="hs_cos_wrapper_footer_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="112218071895" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/about" role="menuitem">About Us</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/careers-at-theorem" role="menuitem">Careers</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/environmental-policy" role="menuitem">Environmental Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/security" role="menuitem">Security and IT Policy</a></li>
+ </ul>
+</div></span>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="Footer__col Footer__col--left ">
+						
+						<h4 class="Footer__col-title">
+							Support
+						</h4>
+						
+						<div class="Footer__col--menu">
+							
+							<div class="Footer__menu">
+								<span id="hs_cos_wrapper_footer_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="112224314526" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/ford-suppliers" role="menuitem">Ford Suppliers</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/resellers" role="menuitem">Resellers</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://theoremsolutions.atlassian.net/servicedesk/customer/user/login?destination=portals" role="menuitem" target="_blank" rel="noopener">Support Portal</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/support" role="menuitem">Support Services</a></li>
+ </ul>
+</div></span>
+							</div>
+							
+						</div>
+					</div>
+					
+
+				</div>
+
+				<div class="Footer__info Footer__row">
+
+					
+					
+						<div class="Footer__certifications">
+
+						
+							<div class="Footer__certification-iframe">
+								<iframe src="https://registry.blockmarktech.com/certificates/21cb7f1c-649d-4c12-82a2-dd66daf6d9ff/widget/?tooltip_position=bottom_right&amp;theme=light&amp;hover=t&nbsp;" frameborder="0" scrolling="no" style="width: 128px; height: 200px; border: none; overflow: visible;"></iframe>
+							</div>
+						
+
+							
+
+								
+									<img class="Footer__certification-logo" style="--logo-height: 150px; --logo-width: 175px" src="https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=592&amp;height=468&amp;name=ISO%209001%20Colour.png" alt="ISO 9001 Colour" width="592" height="468" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=296&amp;height=234&amp;name=ISO%209001%20Colour.png 296w, https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=592&amp;height=468&amp;name=ISO%209001%20Colour.png 592w, https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=888&amp;height=702&amp;name=ISO%209001%20Colour.png 888w, https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=1184&amp;height=936&amp;name=ISO%209001%20Colour.png 1184w, https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=1480&amp;height=1170&amp;name=ISO%209001%20Colour.png 1480w, https://www.theorem.com/hs-fs/hubfs/ISO%209001%20Colour.png?width=1776&amp;height=1404&amp;name=ISO%209001%20Colour.png 1776w" sizes="(max-width: 592px) 100vw, 592px">
+								
+							
+
+								
+									<img class="Footer__certification-logo" style="--logo-height: 125px; --logo-width: 125px" src="https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=8334&amp;height=8334&amp;name=ISO_IEC%2027001_2013.png" alt="ISO_IEC 27001_2013" width="8334" height="8334" loading="lazy" srcset="https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=4167&amp;height=4167&amp;name=ISO_IEC%2027001_2013.png 4167w, https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=8334&amp;height=8334&amp;name=ISO_IEC%2027001_2013.png 8334w, https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=12501&amp;height=12501&amp;name=ISO_IEC%2027001_2013.png 12501w, https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=16668&amp;height=16668&amp;name=ISO_IEC%2027001_2013.png 16668w, https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=20835&amp;height=20835&amp;name=ISO_IEC%2027001_2013.png 20835w, https://www.theorem.com/hs-fs/hubfs/ISO_IEC%2027001_2013.png?width=25002&amp;height=25002&amp;name=ISO_IEC%2027001_2013.png 25002w" sizes="(max-width: 8334px) 100vw, 8334px">
+								
+							
+						</div>
+					
+
+					
+					<div class="Footer__social">
+
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						<a class="Footer__social-link" href="https://www.linkedin.com/company/theorem-solutions" target="_blank" rel="nofollow noopener">
+							<img class="Footer__social-icon" src="https://www.theorem.com/hubfs/raw_assets/public/Theorem-theme/images/icons/linkedin-icon.svg" alt="Linkedin Icon" loading="lazy">
+						</a>
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						<a class="Footer__social-link" href="https://twitter.com/theoremsolution" target="_blank" rel="nofollow noopener">
+							<img class="Footer__social-icon" src="https://www.theorem.com/hubfs/raw_assets/public/Theorem-theme/images/icons/twitter-icon.svg" alt="Twitter Icon" loading="lazy">
+						</a>
+					
+						
+						
+						
+						
+						
+						
+						
+						
+						<a class="Footer__social-link" href="https://www.youtube.com/channel/UCaXu1gFO6ovfp3t-5M1GxOA" target="_blank" rel="nofollow noopener">
+							<img class="Footer__social-icon" src="https://www.theorem.com/hubfs/raw_assets/public/Theorem-theme/images/icons/youtube-icon.svg" alt="Youtube Logo" loading="lazy">
+						</a>
+					
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			
+
+				<div class=" Footer__row Footer__legal">
+					<div class="wrapper">
+						
+						<div class="Footer__legal-text">
+							Copyright © Theorem Solutions 2024. All rights reserved.
+						</div>
+						
+
+						
+						<div class="Footer__legal-menu">
+							<span id="hs_cos_wrapper_footer_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_footer_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="112227926312" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.theorem.com/legal" role="menuitem">Legal</a></li>
+ </ul>
+</div></span>
+						</div>
+						
+					</div>
+				</div>
+
+			
+
+		</div>
+
+	</div>
+
+</footer></div></div>
+			
+
+		</div>
+
+		
+		
+<!-- HubSpot performance collection script -->
+<script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.388/embed.js"></script>
+<script defer src="https://www.theorem.com/hs-fs/hub/5405019/hub_generated/template_assets/107333803318/1702897082732/Theorem-theme/index.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en-us';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://www.theorem.com/hs-fs/hub/5405019/hub_generated/module_assets/112211728683/1702904142049/module_112211728683_navigation_main.min.js"></script>
+<script src="https://www.theorem.com/hs-fs/hub/5405019/hub_generated/module_assets/112211565616/1697214500623/module_112211565616_navigation_secondary.min.js"></script>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js"></script>
+
+    <script data-hs-allowed="true">
+        var options = {
+            portalId: '5405019',
+            formId: 'e10e2741-a727-4134-a7a1-853342e41b9d',
+            formInstanceId: '6418',
+            pageId: '11193383256',
+            region: 'na1',
+            
+            
+            
+            
+            pageName: "CATIA V5 to NX Translation Solutions | Theorem Solutions",
+            
+            
+            redirectUrl: "https:\/\/www.theorem.com\/ty\/3d-cad-translation",
+            
+            
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_form_659544352',
+            
+            
+            
+            
+            
+            contentType: "standard-page",
+            
+            
+            
+            formsBaseUrl: '/_hcms/forms/',
+            
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script>
+
+<script src="/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.theorem.com\/translate\/catia-v5-to-nx-translator"]);
+_hsq.push(["setPageId", "11193383256"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 34117330575,
+    "legacyPageId": "11193383256",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 34117330575,
+    "languageCode": "en-us",
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/5405019.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "03bfc63e-0b13-4888-bbbe-7a4340743d67",
+    ticks: 1708328085775,
+    page_id: 34117330575,
+    
+    content_group_id: 0,
+    portal_id: 5405019,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en-us",
+    analytics_page_type: "standard-page",
+    analytics_page_id: "11193383256",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.191/js/index.js"></script>
+
+
+
+
+		
+	
+
+</body></html>

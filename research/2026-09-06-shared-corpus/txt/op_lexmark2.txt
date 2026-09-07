@@ -1,0 +1,1187 @@
+
+Lexmark Intern. v. Static Control Components, 387 F.3d 522 | Casetext Search + Citator
+All State & Fed.
+JX
+Search the Law
+Search
+Help
+Sign In
+Sign Up
+Sign Up
+Opinion
+Summaries
+Case details
+Lexmark Intern. v. Static Control Components
+Citing Cases
+Static Control Components, Inc. v. Lexmark Intl.
+The Court does not address the issues raised in this Motion from whole cloth. Rather, in reversing this Court…
+RJ Control Consultants, Inc. v. Multiject, LLC
+Id. § 113(b). As relevant here, software codes may be entitled to copyright protection as "literary works"…
+169&#x20;
+Citing Cases
+Case Details
+Full title:
+LEXMARK INTERNATIONAL, INC., Plaintiff-Appellee, v. STATIC CONTROL…
+Court:
+United States Court of Appeals, Sixth Circuit
+Date published:&#x20;
+Oct 26, 2004
+Citations
+Copy Citation
+387 F.3d 522 (6th Cir. 2004)
+Citing Cases
+Static Control Components, Inc. v. Lexmark Intl.
+The Court does not address the issues raised in this Motion from whole cloth. Rather, in reversing this Court…
+RJ Control Consultants, Inc. v. Multiject, LLC
+Id. § 113(b). As relevant here, software codes may be entitled to copyright protection as "literary works"…
+169&#x20;
+Citing Cases
+From Casetext: Smarter Legal Research
+Lexmark Intern. v. Static Control Components
+United States Court of Appeals, Sixth Circuit
+Oct 26, 2004
+387 F.3d 522 (6th Cir. 2004)
+Copy Citation
+Download&#x20;
+PDF
+Check&#x20;
+Treatment
+Summary
+holding that a modification chip designed to make third party ink cartridges compatible with Lexmark printers was not primarily designed to circumvent copyright and thus did not violate the DMCA
+Summary of this case from&#x20;
+United States v. Reichert
+See 25 Summaries
+Opinion
+ No. 03-5400. 
+Argued: January 30, 2004.
+ Decided and Filed: October 26, 2004. 
+ Appeal from the United States District Court for the Eastern District of Kentucky, Karl S. Forester, Chief Judge. 
+ARGUED:
+ Seth D. Greenstein, McDermott, Will Emery, Washington, DC, for Appellant. Christopher J. Renk, Banner Witcoff, Chicago, IL, for Appellee. 
+ON BRIEF:
+ Seth D. Greenstein, M. Miller Baker, Melise R. Blakeslee, McDermott, Will Emery, Washington, DC, W. Craig Robertson III, E. Christine Lewis, Wyatt, Tarrant Combs, Lexington, KY, William L. London, Static Control Components, Inc., Sanford, North Carolina, for Appellant. Christopher J. Renk, Binal J. Patel, Jason S. Shull, Timothy C. Meece, Banner Witcoff, Chicago, Illinois, Joseph M. Potenza, Bradley C. Wright, Banner Witcoff, Washington, DC, Charles E. Shivel, Jr., Steven B. Loy, Hanly A. Ingram, Stoll, Keenon Park, Lexington, KY, for Appellee. 
+ Before: MERRITT and SUTTON, Circuit Judges; FEIKENS, District Judge.
+ The Honorable John Feikens, United States District Judge for the Eastern District of Michigan, sitting by designation.
+ SUTTON, J., delivered the opinion of the court. MERRITT, J. (pp. 551-53), delivered a separate concurring opinion. FEIKENS, D.J. (pp. 553-65), delivered a separate opinion concurring in part and dissenting in part. 
+OPINION
+ SUTTON, Circuit Judge. 
+ This copyright dispute involves two computer programs, two federal statutes and three theories of liability. The first computer program, known as the "Toner Loading Program," calculates toner level in printers manufactured by Lexmark International. The second computer program, known as the "Printer Engine Program," controls various printer functions on Lexmark printers. 
+ The first statute, the general copyright statute, 
+17 U.S.C. &sect; 101
+et seq.,
+ has been with us in one form or another since 1790 and grants copyright protection to "original works of authorship fixed in any tangible medium of expression," 
+id.
+ &sect; 102(a), but does not "extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery," 
+id.
+ &sect; 102(b). The second federal statute, the Digital Millenium Copyright Act (DMCA), 
+17 U.S.C. &sect; 1201
+et seq.,
+ was enacted in 1998 and proscribes the sale of products that may be used to "circumvent a technological measure that effectively controls access to a work" protected by the copyright statute. 
+ These statutes became relevant to these computer programs when Lexmark began selling discount toner cartridges for its printers that only Lexmark could re-fill and that contained a microchip designed to prevent Lexmark printers from functioning with toner cartridges that Lexmark had not re-filled. In an effort to support the market for competing toner cartridges, Static Control Components (SCC) mimicked Lexmark's computer chip and sold it to companies interested in selling remanufactured toner cartridges. 
+ Lexmark brought this action to enjoin the sale of SCC's computer chips and raised three theories of liability in doing so. Lexmark claimed that SCC's chip copied the Toner Loading Program in violation of the federal copyright statute. It claimed that SCC's chip violated the DMCA by circumventing a technological measure designed to control access to the Toner Loading Program. And it claimed that SCC's chip violated the DMCA by circumventing a technological measure designed to control access to the Printer Engine Program. 
+ After an evidentiary hearing, the district court decided that Lexmark had shown a likelihood of success on each claim and entered a preliminary injunction against SCC. As we view Lexmark's prospects for success on each of these claims differently, we vacate the preliminary injunction and remand the case for further proceedings. 
+I. A.
+The Parties.
+ Headquartered in Lexington, Kentucky, Lexmark is a leading manufacturer of laser and inkjet printers and has sold printers and toner cartridges for its printers since 1991. Lexmark is a publicly traded corporation and reported $4.8 billion in revenue for 2003. 
+ Static Control Components is a privately held company headquartered in Sanford, North Carolina. Started in 1987, it currently employs approximately 1,000 workers and makes a wide range of technology products, including microchips that it sells to third-party companies for use in remanufactured toner cartridges. 
+The Two Computer Programs.
+ The first program at issue is Lexmark's "Toner Loading Program," which measures the amount of toner remaining in the cartridge based on the amount of torque (rotational force) sensed on the toner cartridge wheel. Maggs Aff. &para; 24, JA 709. The Toner Loading Program relies upon eight program commands &mdash; "add," "sub" (an abbreviation for subtract), "mul" (multiply), "pct" (take a percent), "jump," "if," "load," and "exit" &mdash; to execute one of several mathematical equations that convert the torque reading into an approximation of toner level. Goldberg Aff. &para; 21, JA 578; Maggs Aff. &para; 24, JA 709. If the torque is less than a certain threshold value, the program executes one equation to calculate the toner level, and if the torque equals or exceeds that threshold, the program executes a different equation to calculate the toner level. Goldberg Aff. &para; 19, JA 576-77. The exact code of the Toner Loading Program varies slightly for each printer model, and this case involves two versions of the program &mdash; one for Lexmark's T520 and T522 printer models and another for Lexmark's T620 and T622 printer models. The Toner Loading Program for the T520/522 printers comprises 33 program instructions and occupies 37 bytes of memory, while the Toner Loading Program for the T620/622 printers comprises 45 program commands and uses 55 bytes of memory. To illustrate the modest size of this computer program, the phrase "Lexmark International, Inc. vs. Static Control Components, Inc." in ASCII format 
+ would occupy more memory than either version of the Toner Loading Program. Burchette Aff. &para; 13, JA 106. The Toner Loading Program is located on a microchip contained in Lexmark's toner cartridges. 
+ The second program is Lexmark's "Printer Engine Program." The Printer Engine Program occupies far more memory than the Toner Loading Program and translates into over 20 printed pages of program commands. The program controls a variety of functions on each printer &mdash; e.g., paper feed and movement, and printer motor control. D. Ct. Op. &para; 24, at 5. Unlike the Toner Loading Program, the Printer Engine Program is located within Lexmark's printers. 
+ Lexmark obtained Certificates of Registration from the Copyright Office for both programs. Neither program is encrypted and each can be read (and copied) directly from its respective memory chip. 
+Id.
+ &para; 44, at 8. 
+Lexmark's Prebate and Non-Prebate Cartridges.
+ Lexmark markets two types of toner cartridges for its laser printers: "Prebate" and "Non-Prebate." Prebate cartridges are sold to business consumers at an up-front discount. In exchange, consumers agree to use the cartridge just once, then return the empty unit to Lexmark; a "shrink-wrap" agreement on the top of each cartridge box spells out these restrictions and confirms that using the cartridge constitutes acceptance of these terms. 
+Id.
+ &para;&para; 13-14, at 3. Non-Prebate cartridges are sold without any discount, are not subject to any restrictive agreements and may be re-filled with toner and reused by the consumer or a third-party remanufacturer. 
+Id.
+ &para;&para; 15-18, at 3-4. 
+ To ensure that consumers adhere to the Prebate agreement, Lexmark uses an "authentication sequence" that performs a "secret handshake" between each Lexmark printer and a microchip on each Lexmark toner cartridge. Both the printer and the chip employ a publicly available encryption algorithm known as "Secure Hash Algorigthm-1" or "SHA-1," which calculates a "Message Authentication Code" based on data in the microchip's memory. If the code calculated by the microchip matches the code calculated by the printer, the printer functions normally. If the two values do not match, the printer returns an error message and will not operate, blocking consumers from using toner cartridges that Lexmark has not authorized. Yaro Decl. &para; 7, JA 82 ("To prevent unauthorized toner cartridges from being used with Lexmark's T520/522 and T620/622 laser printers, Lexmark utilizes an authentication sequence."). 
+SCC's Competing Microchip.
+ SCC sells its own microchip &mdash; the "SMARTEK" chip &mdash; that permits consumers to satisfy Lexmark's authentication sequence each time it would otherwise be performed, 
+i.e.,
+ when the printer is turned on or the printer door is opened and shut. SCC's advertising boasts that its chip breaks Lexmark's "secret code" (the authentication sequence), which "even on the fastest computer available today . . . would take 
+Years
+ to run through all of the possible 8-byte combinations to break." D. Ct. Op. &para; 103, at 19. SCC sells these chips to third-party cartridge remanufacturers, permitting them to replace Lexmark's chip with the SMARTEK chip on refurbished Prebate cartridges. These recycled cartridges are in turn sold to consumers as a low-cost alternative to new Lexmark toner cartridges. 
+ Each of SCC's SMARTEK chips also contains a copy of Lexmark's Toner Loading Program, which SCC claims is necessary to make its product compatible with Lexmark's printers. The SMARTEK chips thus contain an identical copy of the Toner Loading Program that is appropriate 
+ for each Lexmark printer, and SCC acknowledges that it "slavishly copied" the Toner Loading Program "in the exact format and order" found on Lexmark's cartridge chip. 
+Id.
+ &para;&para; 92, 96, at 18. A side-by-side comparison of the two data sequences reveals no differences between them. Able Decl. &para;&para; 10-15, JA 502-05. 
+ The parties agree that Lexmark's printers perform a second calculation independent of the authentication sequence. After the authentication sequence concludes, the Printer Engine Program downloads a copy of the Toner Loading Program from the toner cartridge chip onto the printer in order to measure toner levels. Before the printer runs the Toner Loading Program, it performs a "checksum operation," a "commonly used technique" to ensure the "integrity" of the data downloaded from the toner cartridge microchip. D. Ct. Op. &para; 77, at 14. Under this operation, the printer compares the result of a calculation performed on the data bytes of the transferred copy of the Toner Loading Program with the "checksum value" located elsewhere on the toner cartridge microchip. If the two values do not match, the printer assumes that the data was corrupted in the program download, displays an error message and ceases functioning. If the two values do match, the printer continues to operate. 
+The Lawsuit.
+ On December 30, 2002, Lexmark filed a complaint in the United States District Court for the Eastern District of Kentucky seeking to enjoin SCC (on a preliminary and permanent basis) from distributing the SMARTEK chips. The complaint contained three theories of liability. First, Lexmark alleged that SCC violated the copyright statute, 
+17 U.S.C. &sect; 106
+, by reproducing the Toner Loading Program on its SMARTEK chip. Second, it alleged that SCC violated the DMCA by selling a product that circumvents access controls on the Toner Loading Program. Third, it alleged that SCC violated the DMCA by selling a product that circumvents access controls on the Printer Engine Program. 
+B.
+ The district court initially concluded that Lexmark had established a likelihood of success on its copyright infringement claim for SCC's copying of its Toner Loading Program. Computer programs are "literary works" entitled to copyright protection, the court reasoned, and the "requisite level of creativity" necessary to establish the originality of the programs "is extremely low." D. Ct. Op. &para;&para; 9, 11, at 23. Because the Toner Loading Program could be written in multiple ways, the district court added, SCC had not rebutted the presumption of validity created by Lexmark's copyright registration for the Toner Loading Program. 
+Id.
+ &para; 13-14, at 24; 
+see also
+17 U.S.C. &sect; 410(c)
+. 
+ In coming to this conclusion, the district court rejected each of the defenses asserted by SCC. First, the district court determined that the Toner Loading Program was not a "lock-out code" (and unprotectable because its elements are dictated by functional compatibility requirements) since "the use of any Toner Loading Program could still result in a valid authentication sequence and a valid checksum." 
+Id.
+ &para; 22, at 26. But even if the Toner Loading Program were a "lock-out code," the district court believed copyright infringement had still taken place because "`[s]ecurity systems are just like any other computer program and are not inherently unprotectable.'" 
+Id.
+ &para; 25, at 27 (quoting 
+Atari Games Corp. v. Nintendo of Am., Inc.,
+ Nos. 88-4805 89-0027, 1993 WL 214886, at *7 (N.D.Cal. Apr.15, 1993) ( 
+"Atari II"
+)). Second, the court rejected SCC's fair use defense in view of the commercial 
+ purpose of the copying, the wholesale nature of the copying and the effect of the copying on the toner cartridge market. 
+Id.
+ at 28-30. Third, the district court rejected SCC's argument that Lexmark was "misus[ing]" the copyright laws "to secure an exclusive right or limited monopoly not expressly granted by copyright law." 
+Id.
+ at 38-39. 
+ The district court next determined that Lexmark had established a likelihood of success on its two DMCA claims, one relating to the Toner Loading Program, the other relating to the Printer Engine Program. Observing that the anti-trafficking provision of the DMCA, 
+17 U.S.C. &sect; 1201(a)(2)
+, "prohibits any product or device that circumvents a technological measure that prevents unauthorized access to a copyrighted work," D. Ct. Op. &para; 64, at 40, the district court concluded that Lexmark had established a likelihood of success that SCC's SMARTEK chip did this very thing. In the district court's view, Lexmark's authentication sequence (not the checksum calculation) constitutes a "technological measure" that "effectively controls access" to two copyrighted works &mdash; the Toner Loading Program and the Printer Engine Program. The authentication sequence, it determined, "controls access" because it "controls the consumer's ability to make use of these programs." 
+Id.
+ &para; 71, at 41. Because SCC designed the SMARTEK chip to circumvent Lexmark's authentication sequence, because circumvention was the sole commercial purpose of the SMARTEK chip and because SCC markets these chips as performing that function, the court reasoned that SCC likely had violated the DMCA's prohibitions on marketing circumvention devices. 
+Id.
+ at 42-43. 
+See
+17 U.S.C. 1201(a)(2)
+. 
+ Finally, the district court determined that the DMCA's "reverse engineering" exception to liability did not apply. D. Ct. Op. at 47-48; 
+see
+17 U.S.C. &sect; 1201(f)(2)
+, (3). Under the exception, circumvention devices may be produced and made available to others "solely for the purpose of enabling interoperability of an independently created program with other programs." 
+17 U.S.C. &sect; 1201(f)(3)
+. The court deemed this defense inapplicable because "SCC's SMARTEK microchips cannot be considered independently created computer programs." D. Ct. Op. &para; 94, at 47. 
+ Because Lexmark had established a likelihood of success on the merits, the district court presumed irreparable harm, 
+id.
+ at 48-49, and concluded that the public interest would favor an injunction against SCC, 
+id.
+ at 50-51. After weighing other potential hardships, the district court concluded that the preliminary injunction should issue. 
+II.
+ We apply an abuse-of-discretion standard in reviewing a district court's entry of a preliminary injunction. 
+Performance Unlimited, Inc. v. Questar Publishers, Inc.,
+52 F.3d 1373, 1378
+ (6th Cir. 1995). A district court abuses its discretion if it relies upon clearly erroneous findings of fact, employs an incorrect legal standard or improperly applies the correct law to the facts. 
+See id.
+ Four factors govern whether a district court should enter a preliminary injunction: (1) the plaintiff's likelihood of success on the merits; (2) the possibility of irreparable harm to the plaintiff in the absence of an injunction; (3) public interest considerations; and (4) potential harm to third parties. 
+Forry, Inc. v. Neundorfer, Inc.,
+837 F.2d 259, 262
+ (6th Cir. 1988). In the copyright context, much rests on the first factor because irreparable harm is presumed once a likelihood of success has been established, 
+id.
+ at 267, and because 
+ an injunction likely will serve the public interest once a claimant has demonstrated a likelihood of success in this setting, 
+Concrete Mach. Co. v. Classic Lawn Ornaments, Inc.,
+843 F.2d 600, 612
+ (1st Cir. 1988). We see no reason why a similar presumption of irreparable harm should not apply to claims under the DMCA. 
+See Universal City Studios, Inc. v. Reimerdes,
+82 F.Supp.2d 211, 215
+ (S.D.N.Y. 2000). Like the district court before us, we accordingly focus on the likelihood that Lexmark will succeed on its claims under the general copyright statute and the DMCA. 
+III. A.
+ The Constitution expressly gives Congress the power to grant protection to original works of authorship. 
+See
+ U.S. Const. art. I, &sect; 8, cl. 8. Relying on that authority, Congress has established the following standard for copyright protection: 
+ (a) Copyright protection subsists . . . in original works of authorship fixed in any tangible medium of expression. . . . Works of authorship include the following categories: (1) 
+literary works;
+ (2) musical works . . .; (3) dramatic works . . .; (4) pantomimes and choreographic works; (5) pictorial, graphic, and sculptural works; (6) motion pictures and other audiovisual works; (7) sound recordings; and (8) architectural works.
+ (b) In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work.
+17 U.S.C. &sect; 102
+ (emphasis added). The copyright statute grants owners of protected works the exclusive right to use them in certain ways. 
+See id.
+ &sect; 106 (granting copyright owners the exclusive right to reproduce copyrighted works, to create derivative works based on original works, to distribute copies of the works, and to perform or display the works publicly). 
+ As this case comes to the court, the parties agree that computer programs may be entitled to copyright protection as "literary works" under 
+17 U.S.C. &sect; 101
+ and may be protected from infringement under 
+17 U.S.C. &sect; 106
+. And that is true with respect to a computer program's object code (the binary code &mdash; a series of zeros and ones &mdash; that computers can read) and its source code (the spelled-out program commands that humans can read). 
+See
+17 U.S.C. &sect; 101
+ (defining "computer program[s]" as "set[s] of statements or instructions to be used directly or indirectly in a computer in order to bring about a certain result"); 
+17 U.S.C. &sect; 117(a)
+ (describing "limitations on exclusive rights" for "computer programs" and providing that infringement does not occur when a copy of a computer program is made either "as an essential step in the utilization of the computer program" or "for archival purposes"); H.R. Rep. No. 1476 (1976), 
+reprinted in
+ 1976 U.S.C.C.A.N. 5659, 5667 [hereinafter 
+House Report
+] ("The term `literary works' . . . includes . . . computer programs to the extent that they incorporate authorship in the programmer's expression of original ideas, as distinguished from the ideas themselves."); 
+accord Atari Games Corp. v. Nintendo of Am., Inc.,
+975 F.2d 832, 838
+ (Fed. Cir. 1992) ( 
+"Atari I"
+); 
+Johnson Controls, Inc. v. Phoenix Control Sys., Inc.,
+886 F.2d 1173, 1175
+ (9th Cir. 1989); 
+Apple Computer, Inc. v. Franklin Computer Corp.,
+714 F.2d 1240, 1247-49
+ (3d Cir. 1983). 
+ The parties also agree that Lexmark has registered the Toner Loading Program with the Copyright Office, which is an 
+ infringement suit prerequisite, 
+see
+17 U.S.C. &sect; 411(a)
+, and which constitutes prima facie evidence of the copyright's validity, 
+see id.
+ &sect; 410(c). And the parties agree that SCC shoulders the burden of rebutting the presumptive validity of Lexmark's copyright. 
+See Hi-Tech Video Prods., Inc. v. Capital Cities/ABC, Inc.,
+58 F.3d 1093, 1095
+ (6th Cir. 1995). 
+ The parties also share common ground when it comes to most of the general principles of copyright infringement applicable to this case. A plaintiff may establish a claim of copyright infringement by showing (1) ownership of a valid copyright in the computer program at issue (here, the Toner Loading Program) and (2) that the defendant copied protectable elements of the work. 
+See Feist Publ'ns, Inc. v. Rural Tel. Serv. Co.,
+499 U.S. 340, 361
+, 
+111 S.Ct. 1282
+, 
+113 L.Ed.2d 358
+ (1991); 
+Kohus v. Mariol,
+328 F.3d 848, 853
+ (6th Cir. 2003). The first prong tests the originality and non-functionality of the work, 
+see M.M. Bus. Forms Corp. v. Uarco, Inc.,
+472 F.2d 1137, 1139
+ (6th Cir. 1973), both of which are presumptively established by the copyright registration. The second prong tests whether any copying occurred (a factual matter) and whether the portions of the work copied were entitled to copyright protection (a legal matter). 
+See Kepner-Tregoe, Inc. v. Leadership Software, Inc.,
+12 F.3d 527, 534-35
+ n. 14 (5th Cir. 1994); 
+see generally
+ M. Nimmer D. Nimmer, 
+Nimmer on Copyright
+ &sect; 13.01[B] (2003) [hereinafter Nimmer]. If no direct evidence of copying is available, a claimant may establish this element by showing that the defendant had access to the copyrighted work and that the copyrighted work and the allegedly copied work are substantially similar. 
+Kohus,
+328 F.3d at 853-54
+. 
+ As to the first prong, the Supreme Court has instructed that "[o]riginal . . . means only that the work was independently created by the author (as opposed to copied from other works), and that it possesses at least some minimal degree of creativity," even if the work is not a "novel" one. 
+Feist,
+499 U.S. at 345-46
+ (originality requires both "independent creation plus a modicum of creativity"). And although constitutionally mandated, the threshold showing of originality is not a demanding one. 
+Id.
+ at 345, 
+111 S.Ct. 1282
+ ("To be sure, the requisite level of creativity is extremely low; even a slight amount will suffice."). 
+ But even if a work is in some sense "original" under &sect; 102(a), it still may not be copyrightable because &sect; 102(b) provides that "[i]n no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of [its] form." 
+17 U.S.C. &sect; 102(b)
+. This provision embodies the common-law idea-expression dichotomy that distinguishes the spheres of copyright and patent law. "[U]nlike a patent, a copyright gives no exclusive right to the art disclosed; protection is given only to the expression of the idea &mdash; not the idea itself." 
+Mazer v. Stein,
+347 U.S. 201, 217
+, 
+74 S.Ct. 460
+, 
+98 L.Ed. 630
+ (1954); 
+see also Baker v. Selden,
+101 U.S. 99, 101-02
+, 
+25 L.Ed. 841
+ (1879) (explaining that while a book describing a bookkeeping system is worthy of copyright protection, the underlying method described is not); 
+Computer Assocs. Int'l, Inc. v. Altai, Inc.,
+982 F.2d 693, 703
+ (2d Cir. 1992) ("It is a fundamental principle of copyright law that a copyright does not protect an idea, but only the expression of the idea."). While this general principle applies equally to computer programs, 
+id.; see also House Report
+ at 5667 (extending copyright protection to computer programs only "to the extent that they incorporate authorship in programmer's 
+ expression of original ideas, as distinguished from ideas themselves"), the task of separating expression from idea in this setting is a vexing one, 
+see Altai,
+982 F.2d at 704
+ ("The essentially utilitarian nature of a computer program further complicates the task of distilling its idea from its expression."); 
+Sega Enters., Ltd. v. Accolade, Inc.,
+977 F.2d 1510, 1524
+ (9th Cir. 1992); 
+see also Lotus Dev. Corp. v. Borland Int'l, Inc.,
+49 F.3d 807, 819-20
+ (1st Cir. 1995) (Boudin, J., concurring). "[C]ompared to aesthetic works, computer programs hover even more closely to the elusive boundary line described in 
+&sect; 102(b)
+." 
+Altai,
+982 F.2d at 704
+. 
+ In ascertaining this "elusive boundary line" between idea and expression, between process and non-functional expression, courts have looked to two other staples of copyright law &mdash; the doctrines of merger and sc&egrave;nes &agrave; faire. Where the "expression is essential to the statement of the idea," 
+CCC Info. Servs., Inc. v. Maclean Hunter Mkt. Reports, Inc.,
+44 F.3d 61, 68
+ (2d Cir. 1994); 
+see also Lotus Dev.,
+49 F.3d at 816
+ ("If specific words are essential to operating something, then they are part of a `method of operation' and, as such, are unprotectable."), or where there is only one way or very few ways of expressing the idea, 
+Warren Publ'g, Inc. v. Microdos Data Corp.,
+115 F.3d 1509, 1519
+ n. 27 (11th Cir. 1997), the idea and expression are said to have "merged." In these instances, copyright protection does not exist because granting protection to the expressive component of the work necessarily would extend protection to the work's uncopyrightable ideas as well. 
+See Gates Rubber Co. v. Bando Chem. Indus., Ltd.,
+9 F.3d 823, 838
+ (10th Cir. 1993); 
+see also Murray Hill Publ'ns, Inc. v. Twentieth Century Fox Film Corp.,
+361 F.3d 312, 319
+ n. 2 (6th Cir. 2004) (noting that where idea and expression are intertwined and where non-protectable ideas predominate, expression is not protected); 
+see generally
+ Nimmer &sect; 13.03[B][3]. For computer programs, "if the patentable process is embodied inextricably in the line-by-line instructions of the computer program, then the process merges with the expression and precludes copyright protection." 
+Atari I,
+975 F.2d at 839-40
+; 
+see, e.g., PRG-Schultz Int'l, Inc. v. Kirix Corp.,
+ No. 
+03 C 1867
+, 
+2003 WL 22232771, at *4
+ (N.D.Ill. Sept.22, 2003) (determining that copyright infringement claim failed because expression merged with process in computer software that performed auditing tasks). 
+ For similar reasons, when external factors constrain the choice of expressive vehicle, the doctrine of "sc&egrave;nes &agrave; faire" &mdash; "scenes," in other words, "that must be done" &mdash; precludes copyright protection. 
+See Twentieth Century Fox Film,
+361 F.3d at 319-20
+; 
+see generally
+ Nimmer &sect; 13.03[B][4]. In the literary context, the doctrine means that certain phrases that are "standard, stock, . . . or that necessarily follow from a common theme or setting" may not obtain copyright protection. 
+Gates Rubber,
+9 F.3d at 838
+. In the computer-software context, the doctrine means that the elements of a program dictated by practical realities &mdash; 
+e.g.,
+ by hardware standards and mechanical specifications, software standards and compatibility requirements, computer manufacturer design standards, target industry practices, and standard computer programming practices &mdash; may not obtain protection. 
+Id.
+ (citing case examples); 
+see Sega Enters.,
+977 F.2d at 1524
+ ("To the extent that a work is functional or factual, it may be copied."); 
+Brown Bag Software v. Symantec Corp.,
+960 F.2d 1465, 1473
+ (9th Cir. 1992) (affirming district court's finding that "[p]laintiffs may not claim copyright protection of an . . . expression that is, if not standard, 
+ then commonplace in the computer software industry"). As "an industry-wide goal," programming "[e]fficiency" represents an external constraint that figures prominently in the copyrightability of computer programs. 
+Altai,
+982 F.2d at 708
+. 
+ Generally speaking, "lock-out" codes fall on the functional-idea rather than the original-expression side of the copyright line. Manufacturers of interoperable devices such as computers and software, game consoles and video games, printers and toner cartridges, or automobiles and replacement parts may employ a security system to bar the use of unauthorized components. To "unlock" and permit operation of the primary device ( 
+i.e.,
+ the computer, the game console, the printer, the car), the component must contain either a certain code sequence or be able to respond appropriately to an authentication process. To the extent compatibility requires that a particular code sequence be included in the component device to permit its use, the merger and sc&egrave;nes &agrave; faire doctrines generally preclude the code sequence from obtaining copyright protection. 
+See Sega Enters.,
+977 F.2d at 1524
+ ("When specific instructions, even though previously copyrighted, are the 
+only and essential means of accomplishing a given task,
+ their later use by another will not amount to infringement.") (quoting National Commission on New Technological Uses of Copyrighted Works, Final Report 20 (1979)) (emphasis added); 
+Atari Games Corp. v. Nintendo of Am., Inc.,
+ Nos. 88-4805 89-0027, 1993 WL 207548, at *1 (N.D.Cal. May 18, 1993) ( 
+"Atari III"
+) ("Program code that is strictly necessary to achieve current compatibility presents a merger problem, almost by definition, and is thus excluded from the scope of any copyright."). 
+ In trying to discern whether these doctrines apply, courts tend to "focus on whether the idea is capable of various modes of expression." 
+Mason v. Montgomery Data, Inc.,
+967 F.2d 135, 138
+ (5th Cir. 1992) (quoting 
+Franklin Computer,
+714 F.2d at 1253
+); 
+Atari I,
+975 F.2d at 840
+ ("The unique arrangement of computer program expression which generates [the] data stream does not merge with the process so long as alternate expressions are available."). The question, however, is not whether 
+any
+ alternatives theoretically exist; it is whether other options practically exist under the circumstances. 
+See Altai,
+982 F.2d at 708
+ ("While, hypothetically, there might be a myriad of ways in which a programmer may effectuate certain functions within a program . . . efficiency concerns may so narrow the practical range of choice as to make only one or two forms of expression workable options."); 
+Atari I,
+975 F.2d at 840
+ (noting that "no external factor dictated the bulk of the program" and finding the program copyrightable). In order to characterize a choice between alleged programming alternatives as expressive, in short, the alternatives must be feasible within real-world constraints. 
+ The Supreme Court's decision in 
+Feist
+ helps to illustrate the point. In 
+Feist,
+ the alleged infringer had included 1,309 of the plaintiff's alphabetically-organized telephone book listings in its own telephone directory. 
+499 U.S. at 344
+, 
+111 S.Ct. 1282
+. The facts comprising these listings, it was clear, theoretically could have been organized in other ways &mdash; for instance, by street address or phone number, or by the age or height of the individual. But by virtue of tradition and settled expectations, the familiar alphabetical structure copied by the defendant amounted to the only organizational option available to the defendant. 
+Id.
+ at 363, 
+111 S.Ct. 1282
+. For these reasons, the Supreme Court determined that alphabetical phone listings did not satisfy the low threshold of originality 
+ for copyright protection. 
+Id.; see Altai,
+982 F.2d at 711
+ (noting that although 
+Feist
+ dealt with factual compilations under 
+17 U.S.C. &sect; 101
+, the decision's "underlying tenets apply to much of the work involved in computer programming" under 
+17 U.S.C. &sect; 102(a)
+). 
+ One last principle applies here. Even if the prerequisites for infringement are met &mdash; the copyright is valid and SCC copied protectable elements of the work &mdash; Congress has established a fair use defense to infringement claims to ensure that copyright protection advances rather than thwarts the essential purpose of copyright: "[t]o promote the Progress of Science and useful Arts." U.S. Const. art. I, &sect; 8, cl. 8; 
+see also Campbell v. Acuff-Rose Music, Inc.,
+510 U.S. 569, 577
+, 
+114 S.Ct. 1164
+, 
+127 L.Ed.2d 500
+ (1994). Congress has permitted others to use copyright-protected works, "including . . . by reproduction," when courts determine the use to be "fair" according to a non-exhaustive list of factors: 
+ (1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes; (2) the nature of the copyrighted work; (3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and (4) the effect of the use upon the potential market for or value of the copyrighted work.
+17 U.S.C. &sect; 107
+. With respect to computer programs, "fair use doctrine preserves public access to the ideas and functional elements embedded in copyrighted computer software programs." 
+Sony Computer Entm't, Inc. v. Connectix Corp.,
+203 F.3d 596, 603
+ (9th Cir. 2000). 
+B.
+ In applying these requirements to this case, it helps to clarify the terms of debate between the parties. Lexmark claims copyright protection in, and infringement of, the code that composes its Toner Loading Program. It has not alleged that SCC copied any other portion of its chip, including any of the data on which the SHA-1 algorithm &mdash; the authentication sequence or "secret handshake" &mdash; appear. Presumably that is because SCC replaced Lexmark's SHA-1 function with a different publicly available encryption program to enable interoperability of its chip with Lexmark's printers. Burchette Aff. &para; 9, JA 104. Nor does it matter whether SCC copied the Toner Loading Program knowingly or innocently because copyright infringement does not have a scienter requirement. 
+See Repp v. Webber,
+132 F.3d 882, 889
+ (2d Cir. 1997). Finally, when it comes to the merits of the infringement claim, the parties primarily debate whether the Toner Loading Program satisfies the originality requirement (prong one), as distinct from whether any copying by SCC is substantially similar to the Lexmark chip (prong two). That is because the parties agree that SCC's SMARTEK chip copied all aspects of the Toner Loading Program. 
+ In our view, the district court committed three related legal errors in determining that Lexmark had a likelihood of prevailing on its copyright claim with respect to the Toner Loading Program. First, the district court concluded that, because the Toner Loading Program "could be written in a number of different ways," it was entitled to copyright protection. D. Ct. Op. &para; 40, at 32. In refusing to consider whether "external factors such as compatibility requirements, industry standards, and efficiency" circumscribed the number of forms that the Toner Loading Program could take, the district court believed that the idea-expression divide and accompanying principles of merger and 
+ sc&egrave;nes &agrave; faire play a role only in the "substantial similarity" analysis and do not apply when the first prong of the infringement test (copyrightability) is primarily at issue. 
+Id.
+ &para; 37, at 31. In taking this path, the district court relied on cases invoking Nimmer's pronouncement that the idea-expression divide "constitutes not so much a limitation on the copyrightability of works, as it is a measure of the degree of similarity that must exist between a copyrightable work and an unauthorized copy." Nimmer &sect; 2.03[D]; 
+see
+ D. Ct. Op. at 31. And in concluding more generally that the copyrightability of a computer program turns solely on the availability of other options for writing the program, the court relied on several cases from other circuits. 
+See, e.g., Apple Computer, Inc. v. Formula Int'l, Inc.,
+725 F.2d 521, 525
+ (9th Cir. 1984); 
+Franklin Computer,
+714 F.2d at 1253
+; 
+Whelan Assocs., Inc. v. Jaslow Dental Lab., Inc.,
+797 F.2d 1222, 1240
+ (3d Cir. 1986); 
+E.F. Johnson Co. v. Uniden Corp. of Am.,
+623 F.Supp. 1485, 1502
+ (D.Minn. 1985). 
+ This reasoning, to start with, conflicts with 
+Feist.
+ As the Supreme Court's recent decision suggests, one does not satisfy the originality requirement for copyright protection merely by showing that the work could have been put together in different ways. Just as it failed to suffice in 
+Feist
+ that the author of the competing telephone book could have organized the listings in some manner other than the individual's last name, so it does not suffice here that SCC could have written the Toner Loading Program in some other way. As in 
+Feist,
+ the court must ask whether the alternative ways of putting together the competing work are feasible in that setting. 
+ Nor does Nimmer support the district court's "a number of different ways" reasoning. As a matter of practice, Nimmer is correct that courts most commonly discuss the idea-expression dichotomy in considering whether an original work and a partial copy of that work are "substantially similar" (as part of prong two of the infringement test), since the copyrightability of a work as a whole (prong one) is less frequently contested. But the idea-expression divide figures into the substantial similarity test not as a measure of "similarity"; it distinguishes the original work's protectable elements from its unprotectable ones, a distinction that allows courts to determine whether any of the former have been copied in substantial enough part to constitute infringement. Both prongs of the infringement test, in other words, consider "copyrightability," which at its heart turns on the principle that copyright protection extends to expression, not to ideas. 
+See Brown Bag Software,
+960 F.2d at 1475-76
+ (noting that copyrightability is an aspect of both parts of the infringement test); 
+see also Bateman v. Mnemonics, Inc.,
+79 F.3d 1532, 1545
+ (11th Cir. 1996) (deciding that district court erred by not permitting consideration of merger, sc&egrave;nes &agrave; faire doctrines in instance of literal copying); 
+Lotus Dev.,
+49 F.3d at 815
+ (assessing whether the literally copied menu command structure is copyrightable in light of 
+&sect; 102(b)
+'s limitation); 
+Whelan Assocs.,
+797 F.2d at 1236-37
+ (discussing sc&egrave;nes &agrave; faire doctrine in considering copyrightability of computer program structure); 
+Franklin Computer,
+714 F.2d at 1253
+ (discussing merger in context of copyrightability of computer operating system program). When a work itself constitutes merely an idea, process or method of operation, or when any discernible expression is inseparable from the idea itself, or when external factors dictate the form of expression, copyright protection does not extend to the work. 
+See Bateman,
+79 F.3d at 1546
+ n. 28 ("Compatibility 
+ and other functionality challenges to originality . . . are applied so as to deny copyright protection to a 
+particular work
+ or portion of a work.") (emphasis added); 
+Mason,
+967 F.2d at 138
+ n. 5 (rejecting argument that merger doctrine applies only to question of infringement and noting that "this court has applied the merger doctrine to the question of copyrightability"). 
+ Neither do the cited cases support the district court's initial frame of reference. 
+Franklin Computer,
+714 F.2d 1240
+, and 
+Formula International,
+725 F.2d 521
+, involved copies of Apple's operating system program &mdash; a program whose size and complexity is to the Toner Loading Program what the Sears Tower is to a lamppost. Given the nature of the Apple program, it would have been exceedingly difficult to say that practical alternative means of expression did not exist and indeed no defendant in the cases advanced that argument. And 
+Franklin Computer,
+714 F.2d at 1253
+, and 
+Whelan Assocs.,
+797 F.2d at 1236-37
+, do not establish that 
+any
+ variation in the modes of expression establishes copyrightability, as they acknowledge the potential relevance of the merger and sc&egrave;nes &agrave; faire doctrines. While 
+E.F. Johnson
+ rejected the defendant's argument that the computer software program at issue was not protectable because it was needed for "compatibility" with a certain radio system, it did so only after finding that "the exact duplication of the [program] . . . was not the `only and essential' means of achieving compatibility." 
+623 F.Supp. at 1502
+. 
+Second,
+ given the district court's mistaken view of the legal standard for distinguishing protectable expression from unprotectable ideas, the constraints on the Toner Loading Program established by the evidence need to be reconsidered. To discern whether "originality" exists in the work, the court should ask whether the ideas, methods of operation and facts of the program could have been expressed in any form other than that chosen by the programmer, taking into consideration the functionality, compatibility and efficiency demanded of the program. 
+ In presenting evidence in support of its motion for a preliminary injunction, Lexmark focused on establishing that the Toner Loading Program could have been written in other ways. Dr. Maggs, Lexmark's expert, described several possible alternatives in his declaration: (1) different constants and equations could be used; (2) a lookup table could be used in lieu of equations; (3) some measure other than torque could be used to approximate toner level (e.g., the number of pages printed); or (4) the same equations could be used in a different sequence. Maggs Decl., JA 709-10. He concluded that over 50 different programs could be written to substitute for the Toner Loading Program. Maggs Hr'g Test., JA 940. 
+ Dr. Goldberg, SCC's expert, acknowledged that certain changes could be made to the program, for example, by changing the sequence of elements in the program, Hr'g Test., JA 1021, or by writing the Toner Loading Program in a different programming language altogether, JA 1023. But Dr. Goldberg conceded this point only as a theoretical matter, as he concluded that functionality and efficiency considerations precluded any material changes to the Toner Loading Program. JA 1021. 
+ Dr. Goldberg concluded that several external constraints limit the options available in designing the Toner Loading Program. For one, the Printer Engine Program that downloads and executes the program understands only a single programming language composed of eight simple commands. JA 1018-19. For another, the program must consist of only 55 bytes because the printer downloads 
+ only these particular bytes. JA 1019. Efficiency considerations and the physical realities of the printer and toner cartridge also restrict the forms that the Toner Loading Program could take. 
+Id.
+ As a result, Dr. Goldberg concluded, these external factors together "dictate the way that the simple toner loading program looks," and the resulting program is a "no-thought translation of the formulas to the language that the internal loading program must be written in, and [the programmer doesn't] have much choice." 
+Id.
+ Dr. Goldberg responded to Dr. Maggs' testimony that the Toner Loading Program could take alternative forms by noting that Dr. Maggs' proposed changes were trivial &mdash; that they did not make any "substantial difference to the nature of the program" &mdash; or that they were so inefficient and repetitive as to be "ridiculous." JA 1021. Instead, Dr. Goldberg concluded, the Toner Loading Program as it is written is the most "straightforward, efficient, natural way to express the program." 
+Id.
+ By contrast, Dr. Maggs' testimony did not reference any of these functional considerations discussed by Goldberg, meaning that the record fails to establish any affirmative support for the contention that Dr. Maggs' proposed alternatives satisfy the memory restrictions of the program. 
+ Even aside from Dr. Goldberg's testimony that the Toner Loading Program is the most efficient means of calculating toner levels, the alternatives suggested by Dr. Maggs do not appear to support the district court's initial conclusion that the program is expressive. Dr. Maggs' first and third suggestions &mdash; that different equations and values or a different means of measuring toner level altogether could have been used &mdash; do not appear to represent alternative means of expressing the ideas or methods of operations embodied in the Toner Loading Program; they appear to be different ideas or methods of operation altogether. Selection from among competing ideas or methods of operation generally does not result in copyright-protectable expression. 
+See Bateman,
+79 F.3d at 1546
+ n. 29 ("Generally there is more than one method of operation or process that can be used to perform a particular computer program function. However, methods of operation and processes are not copyrightable."); 
+see also Am. Dental Ass'n v. Delta Dental Plans Ass'n,
+126 F.3d 977, 980
+ (7th Cir. 1997) ("A lamp may be entirely original, but if the novel elements are also functional the lamp cannot be copyrighted."). Nor would the use of a "lookup table" appear to differ meaningfully from the use of other equations directly. Instead of executing a mathematical formula on a given input, this program merely "looks up" in a data table the output of that same formula for the given input value. Finally, Dr. Maggs' fourth suggestion &mdash; that the same equations could be reordered &mdash; does not appear to show originality because such alterations may be too trivial to support a finding of creative expression. 
+See M.M. Bus. Forms,
+472 F.2d at 1140
+ (holding that paraphrasing of words on legal forms does not contain the requisite originality for copyright protection). 
+ To the extent these alternatives suggest any originality in the Toner Loading Program, at any rate, the quantum of originality may well be de minimis and accordingly insufficient to support the validity of Lexmark's copyright in the work. 
+See Mitel, Inc. v. Iqtel, Inc.,
+124 F.3d 1366, 1373-74
+ (10th Cir. 1997) (determining that plaintiff's "arbitrary selection" of several numbers required only "de minimis creative effort" and did not "evince enough originality to distinguish authorship") (quotation omitted); 
+cf. Sega Enters.,
+977 F.2d at 1524
+ n. 
+ 7 (noting that 20-byte code is of de minimis length and therefore likely a "word" or "short phrase" that is not protected by copyright law); 
+Murray Hill Publ'ns, Inc. v. ABC Comm'ns, Inc.,
+264 F.3d 622, 633
+ (6th Cir. 2001) (noting that short movie line was "a phrase or slogan not worthy of copyright protection in its own right"). Because the district court initially looked at these issues and this evidence through the wrong frame of reference, its conclusion that the Toner Loading Program had sufficient originality to obtain copyright protection does not support the preliminary injunction. At the permanent injunction stage of this dispute, we leave it to the district court in the first instance to decide whether the Toner Loading Program has sufficient originality to warrant copyright protection. 
+Third,
+ and perhaps most significantly, the district court erred in assessing whether the Toner Loading Program functions as a lock-out code. Even if the constraints described by Dr. Goldberg &mdash; the programming language, the program size, efficiency concerns &mdash; did not dictate the content of the Toner Loading Program, the fact that it also functions as a lock-out code undermines the conclusion that Lexmark had a probability of success on its infringement claim. 
+ The Toner Loading Program, recall, serves as input to the checksum operation that is performed each time the printer is powered on or the printer door is opened and closed (i.e., for toner cartridge replacement). After downloading a copy of the Toner Loading Program to calculate toner levels, the Printer Engine Program runs a calculation &mdash; the checksum &mdash; using every data byte of the Toner Loading Program as input. The program then compares the result of that calculation with a "checksum value" that is located elsewhere on Lexmark's toner cartridge chip. If any single byte of the Toner Loading Program is altered, the checksum value will not match the checksum calculation result. Only if the checksum value is correspondingly changed to accommodate any alterations in the data bytes will the printer function. 
+ In addition to its general conclusion that external constraints on the program were not relevant, the district court concluded that the checksum operation did not operate as a strict constraint on the content of the Toner Loading Program because "SCC's identical copying of Lexmark's Toner Loading Programs went beyond that which was necessary for compatibility." D. Ct. Op. &para; 27, at 27. According to the district court, the program could be altered rather simply, even in view of the checksum operation, because reasonable trial and error of no more than 256 different data combinations would have enabled SCC to discover and encode the correct checksum value on its chip. D. Ct. Op. &para; 86, at 16. In reaching this conclusion, the court downplayed the significance of Dr. Goldberg's testimony regarding the importance of contextual information to the ease or difficulty of guessing the correct checksum value, saying that Dr. Goldberg called the task "extraordinarily difficult," then dismissing his testimony without further explanation. Dr. Goldberg, however, did not describe this endeavor as "extraordinarily difficult" but as 
+"computationally impossible,"
+ Hr'g Test., JA 1012 (emphasis added) &mdash; a point that Lexmark did not then, and does not now, refute. Contrary to Judge Feikens' suggestion, moreover, Lexmark offered no evidence to show that the task of "turning off" the checksum operation altogether (without contextual information) would be any different from, or any less arduous than, the task of altering the checksum value to accommodate another program. 
+ The difficulty of deriving the proper checksum value and the corresponding degree to which the checksum operation acts as a constraint on the content of the bytes comprising the Toner Loading Program may be an open question at the permanent injunction phase. But for purposes of the preliminary injunction, Dr. Goldberg's unchallenged testimony that it would be "computationally impossible" to modify the checksum value without contextual information suffices to establish that the checksum operation imposes a compatibility constraint in the most literal sense possible: if any single byte of the Toner Loading Program is altered, the printer will not function. On this record, pure compatibility requirements justified SCC's copying of the Toner Loading Program. 
+C.
+ In defense of the district court's decision, Lexmark raises several other arguments, all unavailing. 
+First,
+ Lexmark notes that it "creatively inserted" in the Toner Loading Program a computer code representation of its stock ticker symbol, "LXK." Lexmark Br. at 24. Lexmark describes this segment as "non-functional" because it does not translate into source code contributing to the toner-calculating program. It is not clear whether these three letters would support a finding of creative expression in the work as a whole. 
+See Sega Enters.,
+977 F.2d at 1524
+ n. 7 (noting that Sega's 20-byte initialization code is of de minimis length and therefore likely a "word" or "short phrase" that is not protected by copyright law as described in 
+37 C.F.R. &sect; 202.1(a)
+); 
+see also Feist,
+499 U.S. at 344
+, 
+111 S.Ct. 1282
+ (concluding that phone book listings are not copyrightable even though the listings contained four fictitious listings that the plaintiff included for infringement detection purposes). What is clear is that the bytes containing the "LXK" reference 
+are
+ functional in the sense that they, like the rest of the Toner Loading Program, also serve as input to the checksum operation and as a result amount to a lock-out code that the merger and sc&egrave;nes &agrave; faire doctrines preclude from obtaining protection. 
+Second,
+ Lexmark argues that if the Toner Loading Program is not copyrightable, then "most computer programs would not be copyrightable." Lexmark Br. at 17. But the slope of this decision is neither as slippery nor as steep as Lexmark suggests. Most computer programs do not simultaneously operate as a lock-out code that is "computationally impossible" to alter without input from the programmer; and most programs are not as brief as this one, 
+see
+ Burchette Aff. &para; 13, JA 106 (noting that storing 
+"Lexmark International, Inc. v. Static Control Components, Inc."
+ in ASCII format would require more bytes of memory than the Toner Loading Program comprises); Goldberg Aff. &para; 14, JA 575 ("The simplest programs, such as those written on the first day of [an introductory programming class], are often of a similar complexity to the Toner Loading Program."). 
+ In reaching this conclusion, we do not mean to say that brief computer programs are ineligible for copyright protection. Short programs may reveal high levels of creativity and may present simple, yet unique, solutions to programming quandaries. Just as a mathematician may develop an elegant proof, or an author may express ideas in a spare, simple, but creative manner, 
+see, e.g.,
+ e.e. cummings, 
+Selected Poems
+ (Richard S. Kennedy ed., 1994), so a computer programmer may develop a program that is brief 
+and
+ eligible for protection. But unless a creative flair is shown, a very brief program is less likely to be copyrightable because it affords fewer opportunities for original 
+ expression. 
+See
+ Nimmer &sect; 2.01[B] (concluding that creativity and effort are reciprocally related &mdash; that the smaller the effort, the greater the creativity required to invoke copyright protection); 
+see generally
+ Julie E. Cohen, 
+Reverse Engineering and the Rise of Electronic Vigilantism: Intellectual Property Implications of "Lock-Out" Programs,
+ 68 S. Cal. L.Rev. 1091, 1139-1141 (1995) (describing how "a programmer may be efficient, in the sense of getting a task done, without being at all creative, if the most efficient way [of accomplishing the task] . . . is standard within the industry"; therefore, "industry-standard, efficient routines" in computer programs are not protectable expression unless the programmer incorporates some "idiosyncratic features"); 
+cf.
+37 C.F.R. &sect; 202.1(a)
+ (listing "[w]ords and short phrases" as an example of "works not subject to copyright"). 
+Third,
+ invoking the Federal Circuit's decision in 
+Atari I,
+975 F.2d at 840
+, Lexmark argues that even if the Toner Loading Program amounts to a lock-out code, it still may be eligible for protection. Lexmark Br. at 22; 
+see also
+ D. Ct. Op. &para; 25, at 27 ("Security systems are just like any other computer program and are not inherently unprotectable.") (quotation omitted). In 
+Atari I,
+ Nintendo developed a program (known as "10NES") that blocked its game console from accepting unauthorized game cartridges. 
+975 F.2d at 836
+. Relying on this program, Nintendo sold game cartridges that generated a data stream that "unlocked" the game console, allowing it to load and run the game. 
+Id.
+ at 836, 840. The Federal Circuit determined that the 10NES program was copyrightable despite arguments that the program constituted unprotectable ideas rather than expression and that the merger doctrine precluded copyright protection. 
+Id.
+ at 840. 
+ The Federal Circuit's rationale for accepting copyright protection for the 10NES program does not undermine our conclusion because the 10NES program was not a "lock out" code in the same sense that the Toner Loading Program is. In 
+Atari,
+ the data bytes of the 10NES program did not themselves do the "unlocking" of the game console; the program, when executed, generated an arbitrary stream of data that in turn enabled the console to function. That same data stream, the court concluded, could have been produced by a number of alternative programs; for this reason, the expression contained in the computer program did not "merge" with the process. 
+Id.
+ ("The unique arrangement of computer program expression which generates that data stream does not merge with the process so long as alternate expressions are available. In this case, Nintendo has produced expert testimony showing a multitude of different ways to generate a data stream which unlocks the NES console.") (citation omitted); 
+id.
+ ("[N]o external factor dictated the bulk of the [10NES] program."). Here, by contrast, the data bytes comprising the Toner Loading Program themselves act as the input to the checksum operation that must be successfully completed for the printer to operate. None of these bytes of the program can be altered without impeding printer functionality given the compatibility requirements created by the checksum operation. 
+See Atari III,
+ 1993 WL 207548, at *1 (distinguishing current compatibility requirements from future ones, and excluding program code "that is strictly necessary" to comply with the former from copyright protection under the merger concept). Compatibility requirements in 
+Atari,
+ in short, did not preclude the possibility of substituting other programs for the 10NES, while they do here. 
+ For like reasons, Judge Feikens is correct that a poem in the abstract could be copyrightable. But that does not mean that the poem receives copyright protection when it is used in the context of a lock-out code. Similarly, a computer program may be protectable in the abstract but not generally entitled to protection when used necessarily as a lock-out device. 
+D.
+ In view of our conclusion on this preliminary-injunction record that the Toner Loading Program is not copyrightable, we need not consider SCC's fair-use defense. Yet because this defense could regain relevance at the permanent injunction phase of the case (e.g., if further evidence undermines our conclusion that the program is not copyrightable), two related aspects of the district court's discussion deserve comment. 
+ The district court correctly outlined the four factors for determining whether SCC fairly used Lexmark's Toner Loading Program: (1) the purpose and character of the use, including whether it is of a commercial nature or is for nonprofit educational purposes; (2) the nature of the copyrighted work; (3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and (4) the effect of the use upon the potential market for or value of the copyrighted work. 
+17 U.S.C. &sect; 107
+. All of these factors except the second, the district court reasoned, counseled against a finding of fair use, and the second factor favored SCC's position only "slightly." D. Ct. Op. at 29-30. As a result, the court concluded, the fair-use defense did not apply. 
+Id.
+ &para; 35, at 30-31. 
+ With respect to the first factor &mdash; the purpose of the use &mdash; it is true that a profit-making purpose generally militates against a finding of fair use. 
+See Campbell,
+510 U.S. at 585
+, 
+114 S.Ct. 1164
+. But it is not the case that 
+any
+ profit-making purpose weighs against fair use, as the "crux" of this factor "is not whether the sole motive of the use is monetary gain." 
+Harper Row, Publishers, Inc. v. Nation Enters.,
+471 U.S. 539, 562
+, 
+105 S.Ct. 2218
+, 
+85 L.Ed.2d 588
+ (1985). The question is whether "the user stands to profit from exploitation of the 
+copyrighted material
+ without paying the customary price." 
+Id.
+ (emphasis added); 
+see also Kelly v. Arriba Soft Corp.,
+336 F.3d 811, 818-19
+ (9th Cir. 2003) (determining that commercial use did not weigh against fair use where it was "more incidental and less exploitative in nature" because the copies were used for a different purpose from the originals). In copying the Toner Loading Program into each of its SMARTEK chips, SCC was not seeking to exploit or unjustly benefit from any creative energy that Lexmark devoted to writing the program code. As in 
+Kelly,
+ SCC's chip uses the Toner Loading Program for a different purpose, one unrelated to copyright protection. Rather than using the Toner Loading Program to calculate toner levels, the SMARTEK chip uses the content of the Toner Loading Program's data bytes as input to the checksum operation and to permit printer functionality. Under these circumstances, it is far from clear that SCC copied the Toner Loading Program for its commercial value 
+as a copyrighted work
+ &mdash; at least on the preliminary-injunction record we have before us. 
+ With respect to the fourth factor &mdash; the effect of the use on the value of the copyrighted material &mdash; the relevant question likewise is whether the infringement impacted the market for the copyrighted work itself. 
+See Sony Corp. of Am. v. Universal City Studios, Inc.,
+464 U.S. 417, 450
+, 
+104 S.Ct. 774
+, 
+78 L.Ed.2d 574
+ (1984) ("[A] use that has no demonstrable effect upon the potential market 
+ for, or the value of, the copyrighted work need not be prohibited in order to protect the author's incentive to create."); 
+see also Campbell,
+510 U.S. at 590
+, 
+114 S.Ct. 1164
+ (the question is "whether `unrestricted and widespread conduct of the sort engaged in by the defendant . . . would result in a substantially adverse impact on the potential market' for the original.") (quoting Nimmer &sect; 13.05[A][4]). In 
+Kelly,
+ for example, the Ninth Circuit concluded that the fourth factor favored a finding of fair use because the Internet search engine's utilization of the plaintiff's copyrighted images did not harm the value or marketability of the original photos. 
+336 F.3d at 821-22
+. Here, the district court focused on the wrong market: it focused not on the value or marketability of the Toner Loading Program, but on Lexmark's market for its toner cartridges. Lexmark's market for its toner cartridges and the profitability of its Prebate program may well be diminished by the SMARTEK chip, but that is not the sort of market or value that copyright law protects. 
+See Connectix,
+203 F.3d at 607
+ ("Sony understandably seeks control over the market for devices that play games Sony produces or licenses. The copyright law, however, does not confer such a monopoly."). Lexmark has not introduced any evidence showing that an independent market exists for a program as elementary as its Toner Loading Program, and we doubt at any rate that the SMARTEK chip could have displaced any value in 
+this
+ market. 
+IV. A.
+ Enacted in 1998, the DMCA has three liability provisions. The statute first prohibits the circumvention of "a technological measure that effectively controls access to a work protected [by copyright]." 
+17 U.S.C. &sect; 1201(a)(1)
+. The statute then prohibits selling devices that circumvent access-control measures: 
+ No person shall manufacture, import, offer to the public, provide, or otherwise traffic in any technology, product, service, device, component, or part thereof, that &mdash;
+ (A) is primarily designed or produced for the purpose of circumventing a technological measure that effectively controls access to a [copyrighted work];
+ (B) has only limited commercially significant purpose or use other than to circumvent a technological measure that effectively controls access to a [copyrighted work]; or
+ (C) is marketed by that person or another acting in concert with that person with that person's knowledge for use in circumventing a technological measure that effectively controls access to a [copyrighted work].
+Id.
+ &sect; 1201(a)(2). The statute finally bans devices that circumvent "technological measures" protecting "a right" of the copyright owner. 
+Id.
+ &sect; 1201(b). The last provision prohibits devices aimed at circumventing technological measures that allow some forms of "access" but restrict other uses of the copyrighted work, 
+see Universal City Studios, Inc. v. Corley,
+273 F.3d 429, 441
+ (2d Cir. 2001); 
+United States v. Elcom Ltd.,
+203 F.Supp.2d 1111, 1120
+ (N.D.Cal. 2002), such as streaming media, which permits users to view or watch a copyrighted work but prevents them from downloading a permanent copy of the work, 
+see RealNetworks, Inc. v. Streambox, Inc.,
+ No. 2:99CV02070, 2000 WL 127311, at *1-2 (W.D.Wash. Jan. 18, 2000). 
+ The statute also contains three "reverse engineering" defenses. A person may circumvent an access control measure "for the sole purpose of identifying and analyzing those elements of the program that are 
+ necessary to achieve interoperability of an independently created computer program with other programs, and that have not previously been readily available to [that person]." 
+17 U.S.C. &sect; 1201(f)(1)
+. A person "may develop and employ technological means" that are "necessary" to enable interoperability. 
+Id.
+ &sect; 1201(f)(2). And these technological means may be made available to others "solely for the purpose of enabling interoperability of an independently created computer program with other programs." 
+Id.
+ &sect; 1201(f)(3). All three defenses apply only when traditional copyright infringement does not occur and only when the challenged actions (in the case of the third provision) would not violate other "applicable law[s]." 
+Id.
+ In filing its complaint and in its motion for a preliminary injunction, Lexmark invoked the second liability provision &mdash; the ban on distributing devices that circumvent access-control measures placed on copyrighted works. 
+See id.
+ &sect; 1201(a)(2). According to Lexmark, SCC's SMARTEK chip is a "device" marketed and sold by SCC that "circumvents" Lexmark's "technological measure" (the SHA-1 authentication sequence, not the checksum operation), which "effectively controls access" to its copyrighted works (the Toner Loading Program and Printer Engine Program). Lexmark claims that the SMARTEK chip meets all three tests for liability under &sect; 1201(a)(2): (1) the chip "is primarily designed or produced for the purpose of circumventing" Lexmark's authentication sequence, 
+17 U.S.C. &sect; 1201(a)(2)(A)
+; (2) the chip "has only limited commercially significant purpose or use other than to circumvent" the authentication sequence, 
+id.
+ &sect; 1201(a)(2)(B); and (3) SCC "market[s]" the chip "for use in circumventing" the authentication sequence, 
+id.
+ &sect; 1201(a)(2)(C). The district court agreed and concluded that Lexmark had shown a likelihood of success under all three provisions. 
+B.
+ We initially consider Lexmark's DMCA claim concerning the Printer Engine Program, which (the parties agree) is protected by the general copyright statute. In deciding that Lexmark's authentication sequence "effectively controls access to a work protected under [the copyright provisions]," the district court relied on a definition in the DMCA saying that a measure "effectively controls access to a work" if, "in the ordinary course of operation," it "requires the application of information, or a process or treatment, with the authority of the copyright owner, to gain access to the work." 
+17 U.S.C. &sect; 1201(a)(3)
+. Because Congress did not explain what it means to "gain access to the work," the district court relied on the "ordinary, customary meaning" of "access": "the ability to enter, to obtain, or to make use of," D. Ct. Op. at 41 (quoting 
+Merriam-Webster's Collegiate Dictionary
+ 6 (10th ed. 1999)). Based on this definition, the court concluded that "Lexmark's authentication sequence effectively `controls access' to the Printer Engine Program because it controls the consumer's ability to 
+make use of
+ these programs." D. Ct. Op. at 41 (emphasis added). 
+ We disagree. It is not Lexmark's authentication sequence that "controls access" to the Printer Engine Program. 
+See
+17 U.S.C. &sect; 1201(a)(2)
+. It is the purchase of a Lexmark printer that allows "access" to the program. Anyone who buys a Lexmark printer may read the literal code of the Printer Engine Program directly from the printer memory, with or without the benefit of the authentication sequence, and the data from the program may be translated into readable source code after which copies may be freely distributed. Maggs 
+ Hr'g Test., JA 928. No security device, in other words, protects access to the Printer Engine Program Code and no security device accordingly must be circumvented to obtain access to that program code. 
+ The authentication sequence, it is true, may well block one form of "access" &mdash; the "ability to . . . make use of" the Printer Engine Program by preventing the printer from functioning. But it does not block another relevant form of "access" &mdash; the "ability to obtain" a copy of the work or to "make use of" the literal elements of the program (its code). Because the statute refers to "control[ling] access to a work protected under this title," it does not naturally apply when the "work protected under this title" is otherwise accessible. Just as one would not say that a lock on the back door of a house "controls access" to a house whose front door does not contain a lock and just as one would not say that a lock on any door of a house "controls access" to the house after its purchaser receives the key to the lock, it does not make sense to say that this provision of the DMCA applies to otherwise-readily-accessible copyrighted works. Add to this the fact that the DMCA not only requires the technological measure to "control access" but also requires the measure to control that access "effectively," 
+17 U.S.C. &sect; 1201(a)(2)
+, and it seems clear that this provision does not naturally extend to a technological measure that restricts one form of access but leaves another route wide open. 
+See also id.
+ &sect; 1201(a)(3) (technological measure must " 
+require
+ the application of information, or a process or a treatment . . . to gain access to the work") (emphasis added). 
+See The Chamberlain Group, Inc. v. Skylink Techs., Inc.,
+381 F.3d 1178, at *1183
+, 
+2004 U.S.App. LEXIS 18513, at *52
+ (Fed. Cir. Aug. 31, 2004) ("Chamberlain's proposed construction of the DMCA ignores the significant differences between defendants whose accused products enable copying and those, like Skylink, whose accused products enable only legitimate uses of copyrighted software."). 
+ Nor are we aware of any cases that have applied this provision of the DMCA to a situation where the access-control measure left the literal code or text of the computer program or data freely readable. And several cases apply the provision in what seems to us its most natural sense. 
+See, e.g., 321 Studios v. Metro Goldwyn Mayer Studios, Inc.,
+307 F.Supp.2d 1085, 1095
+ (N.D.Cal. 2004) (deciding that the "CSS" encryption program, which prevents viewing of DVD movies and copying of the data encoded on the DVD, effectively controls access to copyrighted DVD movies); 
+Universal City Studios, Inc. v. Reimerdes,
+ 111 F.Supp.2d 294, 318 (S.D.N.Y. 2000), 
+aff'd sub nom., Corley,
+273 F.3d 429
+; 
+Sony Computer Entm't Am. Inc. v. Gamemasters,
+87 F.Supp.2d 976, 987
+ (N.D.Cal. 1999) (deciding that technological measure on PlayStation game console, which prevented unauthorized games from being played, effectively controlled access to copyrighted CD-ROM video games, which the facts of the case do not describe as either encrypted or unencrypted); 
+see also RealNetworks,
+ 2000 WL 127311, at *3 (noting that the technological measure at issue was a "successful means of protecting against unauthorized duplication and distribution" of copyrighted digital works); 
+Pearl Investments, LLC v. Standard I/O, Inc.,
+257 F.Supp.2d 326, 349-50
+ (D.Me. 2003) (determining that plaintiff's "encrypted, password-protected virtual private network," which blocked access to data including plaintiff's copyrighted computer software, was a technological measure that effectively controlled access to that work). 
+ Lexmark defends the district court's contrary ruling on several grounds. 
+ First, it contends that SCC waived this argument by failing to raise it in the district court. The premise of this argument remains unclear. Below, SCC indeed claimed that the DMCA by its terms did not cover its conduct. While SCC may not have anticipated the district court's specific reliance on the "to make use of" definition of "access" in its preliminary injunction ruling, the district court's ruling also does not say that SCC conceded the point. Under these circumstances, it is well within our discretion to allow SCC to explain why the district court's resolution of this purely legal question &mdash; an interpretation of a statute &mdash; is mistaken. 
+See McFarland v. Henderson,
+307 F.3d 402, 407
+ (6th Cir. 2002). 
+Second,
+ Lexmark counters that several cases have embraced a "to make use of" definition of "access" in applying the DMCA. While Lexmark is partially correct, these cases (and others as well) ultimately illustrate the liability line that the statute draws and in the end explain why access to the Printer Engine Program is not covered. 
+ In the essential setting where the DMCA applies, the copyright protection operates on two planes: in the literal code governing the work and in the visual or audio manifestation generated by the code's execution. For example, the encoded data on CDs translates into music and on DVDs into motion pictures, while the program commands in software for video games or computers translate into some other visual and audio manifestation. In the cases upon which Lexmark relies, restricting "use" of the work means restricting consumers from making use of the copyrightable expression in the work. 
+See 321 Studios,
+307 F.Supp.2d at 1095
+ (movies contained on DVDs protected by an encryption algorithm cannot be watched without a player that contains an access key); 
+Reimerdes,
+ 111 F.Supp.2d at 303 (same); 
+Gamemasters,
+87 F.Supp.2d at 981
+ (Sony's game console prevented operation of unauthorized video games). As shown above, the DMCA applies in these settings when the product manufacturer prevents all access to the copyrightable material and the alleged infringer responds by marketing a device that circumvents the technological measure designed to guard access to the copyrightable material. 
+ The copyrightable expression in the Printer Engine Program, by contrast, operates on only one plane: in the literal elements of the program, its source and object code. Unlike the code underlying video games or DVDs, "using" or executing the Printer Engine Program does not in turn create any protected expression. Instead, the program's output is purely functional: the Printer Engine Program "controls a number of operations" in the Lexmark printer such as "paper feed[,] paper movement[,] [and] motor control." Lexmark Br. at 9; 
+cf. Lotus Dev.,
+49 F.3d at 815
+ (determining that menu command hierarchy is an "uncopyrightable method of operation"). And unlike the code underlying video games or DVDs, no encryption or other technological measure prevents access to the Printer Engine Program. Presumably, it is precisely because the Printer Engine Program is not a conduit to protectable expression that explains why Lexmark (or any other printer company) would not block access to the computer software that makes the printer work. Because Lexmark's authentication sequence does not restrict access to this literal code, the DMCA does not apply. 
+ Lexmark next argues that access-control measures may "effectively control access" to a copyrighted work within the meaning of the DMCA even though the measure may be evaded by an "`enterprising 
+ end-user.'" Lexmark Br. at 46 (quoting 
+RealNetworks,
+ 2000 WL 127311, at *9). Doubtless, Lexmark is correct that a precondition for DMCA liability is not the creation of an impervious shield to the copyrighted work. 
+See RealNetworks,
+ 2000 WL 127311, at *9; 
+Reimerdes,
+ 111 F.Supp.2d at 317-18 (rejecting argument that an encryption measure does not "effectively control access" because it is only a "weak cipher"); 
+see also
+17 U.S.C. &sect; 1201(a)(3)
+. Otherwise, the DMCA would apply only when it is not needed. 
+ But our reasoning does not turn on the 
+degree
+ to which a measure controls access to a work. It turns on the textual requirement that the challenged circumvention device must indeed circumvent 
+something,
+ which did not happen with the Printer Engine Program. Because Lexmark has not directed any of its security efforts, through its authentication sequence or otherwise, to ensuring that its copyrighted work (the Printer Engine Program) cannot be read and copied, it cannot lay claim to having put in place a "technological measure that effectively controls access to a work protected under [the copyright statute]." 
+17 U.S.C. &sect; 1201(a)(2)(B)
+. 
+ Nor can Lexmark tenably claim that this reading of the statute fails to respect Congress's purpose in enacting it. Congress enacted the DMCA to implement the Copyright Treaty of the World Intellectual Property Organization, and in doing so expressed concerns about the threat of "massive piracy" of digital works due to "the ease with which [they] can be copied and distributed worldwide virtually instantaneously." S.Rep. No. 105-190, at 8 (1998). As Congress saw it, "copyrighted works will most likely be encrypted and made available to consumers once payment is made for access to a copy of the work. [People] will try to profit from the works of others by decoding the encrypted codes protecting copyrighted works, or engaging in the business of providing devices or services to enable others to do so." H.R. Rep. No. 105-551, pt. 1, at 10. Backing with legal sanctions "the efforts of copyright owners to protect their works from piracy behind digital walls such as encryption codes or password protections," 
+Corley,
+273 F.3d at 435
+, Congress noted, would encourage copyright owners to make digital works more readily available, 
+see
+ S.Rep. No. 105-190, at 8. 
+See also
+ Nimmer &sect; 12A.02[B][1]. 
+ Nowhere in its deliberations over the DMCA did Congress express an interest in creating liability for the circumvention of technological measures designed to prevent consumers from using consumer goods while leaving the copyrightable content of a work unprotected. In fact, Congress added the interoperability provision in part to ensure that the DMCA would not diminish the benefit to consumers of interoperable devices "in the consumer electronics environment." 144 Cong. Rec. E2136 (daily ed. Oct. 13, 1998) (remarks of Rep. Bliley). 
+See generally
+ Anti-Circumvention Rulemaking Hearing, at 44-56, at 
+http://www.copyright.gov/1201/2003/hearings/transcript-may9.pdf
+ (testimony of Professor Jane Ginsburg) (Section 1201(a) does not "cover the circumvention of a technological measure that controls access to a work not protected under [the Copyright] title. And if we're talking about ball point pen cartridges, printer cartridges, garage doors and so forth, we're talking about works not protected under this title."). 
+C.
+ In view of our conclusion regarding the Printer Engine Program, we can dispose quickly of Lexmark's DMCA claim regarding the Toner Loading Program. The SCC chip does not provide 
+ "access" to the Toner Loading Program but replaces the program. And to the extent a copy of the Toner Loading Program appears on the Printer Engine Program, Lexmark fails to overcome the same problem that undermines its DMCA claim with respect to the Printer Engine Program: Namely, it is not the SCC chip that permits access to the Printer Engine Program but the consumer's purchase of the printer. One other point deserves mention. All three liability provisions of this section of the DMCA require the claimant to show that the "technological measure" at issue "controls access to 
+a work protected under this title,
+" 
+see
+17 U.S.C. &sect; 1201(a)(2)(A)
+-(C), which is to say a work protected under the general copyright statute, 
+id.
+ &sect; 102(a). To the extent the Toner Loading Program is not a "work protected under [the copyright statute]," which the district court will consider on remand, the DMCA necessarily would not protect it. 
+D.
+ The district court also rejected SCC's interoperability defense &mdash; that its replication of the Toner Loading Program data is a "technological means" that SCC may make "available to others" "solely for the purpose of enabling interoperability of an independently created computer program with other programs." 
+17 U.S.C. &sect; 1201(f)(3)
+. In rejecting this defense, the district court said that "SCC's SMARTEK microchips cannot be considered independently created computer programs. [They] serve no legitimate purpose other than to circumvent Lexmark's authentication sequence and . . . cannot qualify as independently created when they contain exact copies of Lexmark's Toner Loading Programs." D. Ct. Op. &para; 94, at 47. 
+ Because the issue could become relevant at the permanent injunction stage of this dispute, we briefly explain our disagreement with this conclusion. In particular, the court did not explain why it rejected SCC's testimony that the SMARTEK chips do contain other functional computer programs beyond the copied Toner Loading Program data. The affidavit of Lynn Burchette, an SCC manager, states that "[the SMARTEK] chip has a microprocessor, with software routines we developed that control its operation and function. Our chip supports additional functionality performed by our software beyond that of [the chip on Lexmark's toner cartridges]." JA 103. And Dr. Goldberg testified that "Static Control has written a substantial amount of software for managing this chip; for not only providing the int[er]operability features, but also for managing the additional functionality that the [chip manufacturer] provides and which the remanufacturers may want." JA 1023. 
+ Instead of showing why these statements are wrong, Lexmark contends that this is not "credible evidence" that "independently created computer programs" exist on the SMARTEK chip. Yet Lexmark bears the burden of establishing its likelihood of success on the merits of the DMCA claims. 
+See Leary v. Daeschner,
+228 F.3d 729, 739
+ (6th Cir. 2000). Because Lexmark has offered no reason why the testimony of SCC's experts is not "credible evidence" on this point and has offered no evidence of its own to dispute or even overcome the statements of Burchette and Goldberg, SCC also has satisfied the "independently created computer programs" requirement and may benefit from the interoperability defense, at least in the preliminary injunction context. 
+ Lexmark argues alternatively that if independently created programs do exist, (1) they must have existed prior to the "reverse engineering" of Lexmark's Toner Loading Program, and (2) the technological 
+ means must be "necessary or absolutely needed" to enable interoperability of SCC's SMARTEK chip with Lexmark's Printer Engine Program. As to the first argument, nothing in the statute precludes simultaneous creation of an interoperability device and another computer program; it just must be "independently" created. As to the second argument, the statute is silent about the degree to which the "technological means" must be necessary, if indeed they must be necessary at all, for interoperability. The Toner Loading Program copy satisfies any such requirement, however, because without that program the checksum operation precludes operation of the printer (and, accordingly, operation of the Printer Engine Program), unless the checksum value located elsewhere on the chip is modified &mdash; which appears to be a computational impossibility without the contextual information that Lexmark does not disclose. 
+See supra.
+ Also unavailing is Lexmark's final argument that the interoperability defense in &sect; 1201(f)(3) does not apply because distributing the SMARTEK chip constitutes infringement and violates other "applicable law" (including tortious interference with prospective economic relations or contractual relations). Because the chip contains only a copy of the thus-far unprotected Toner Loading Program and does not contain a copy of the Printer Engine Program, infringement is not an issue. And Lexmark has offered no independent, let alone persuasive, reason why SCC's SMARTEK chip violates any state tort or other state law. 
+V.
+ Because Lexmark failed to establish a likelihood of success on any of its claims, whether under the general copyright statute or under the DMCA, we vacate the district court's preliminary injunction and remand the case for further proceedings consistent with this opinion. 
+ MERRITT, Circuit Judge, concurring. 
+ I agree with the Court's opinion as far as it goes; but, on the record now before us, I would go further in limiting the scope of the remand. As the Court explains, the Toner Loading Program is not copyrightable because of the merger and scenes a faire doctrines, and even if it were copyrightable SCC's use of the program in this case appears to fall under the fair use exception. Its purpose, though commercial in nature, was only to sell cartridges that could be used by Lexmark printers rather than to profit by infringing any Lexmark copyright. The fact that the Toner Loading Program is not copyrightable defeats both Lexmark's direct claim to copyright infringement and its DMCA claim based on the Toner Loading Program (because the DMCA only prevents the circumvention of measures that protect copyright-protected works). And I agree that Lexmark's DMCA claim based on the clearly copyright-protected Printer Engine Program fails because the authentication sequence does not, and is not intended to, "effectively control access" to the Printer Engine Program. 
+ I write separately to emphasize that our holding should not be limited to the narrow facts surrounding either the Toner Loading Program or the Printer Engine Program. We should make clear that in the future companies like Lexmark cannot use the DMCA in conjunction with copyright law to create monopolies of manufactured goods for themselves just by tweaking the facts of this case: by, for example, creating a Toner Loading Program that is more complex and "creative" than the one here, or by cutting off other access to the Printer Engine Program. The crucial point is that the DMCA forbids anyone 
+ from trafficking in any technology that "is primarily designed or produced for the purpose of circumventing a technological measure that effectively controls access to a [protected] work." 
+17 U.S.C. &sect; 1201(2)(A)
+ (emphasis added). The key question is the "purpose" of the circumvention technology. The microchip in SCC's toner cartridges is intended not to reap any benefit from the Toner Loading Program &mdash; SCC's microchip is not designed to measure toner levels &mdash; but only for the purpose of making SCC's competing toner cartridges work with printers manufactured by Lexmark. 
+ By contrast, Lexmark would have us read this statute in such a way that any time a manufacturer intentionally circumvents any technological measure and accesses a protected work it necessarily violates the statute regardless of its "purpose." Such a reading would ignore the precise language &mdash; "for the purpose of" &mdash; as well as the main point of the DMCA &mdash; to prohibit the pirating of copyright-protected works such as movies, music, and computer programs. If we were to adopt Lexmark's reading of the statute, manufacturers could potentially create monopolies for replacement parts simply by using similar, but more creative, lock-out codes. Automobile manufacturers, for example, could control the entire market of replacement parts for their vehicles by including lock-out chips. Congress did not intend to allow the DMCA to be used offensively in this manner, but rather only sought to reach those who circumvented protective measures "for the purpose" of pirating works protected by the copyright statute. Unless a plaintiff can show that a defendant circumvented protective measures for such a purpose, its claim should not be allowed to go forward. If Lexmark wishes to utilize DMCA protections for (allegedly) copyrightable works, it should not use such works to prevent competing cartridges from working with its printer. 
+ Reading the DMCA in pari materia with the rest of the copyright code supports this interpretation. The DMCA should be used as part of the copyright code as it applies to computer software codes and other digital media. To this extent, the specific "purpose" language of the DMCA modifies the more abstract language of the previous copyright law. As the Court explains, the fair use exception in copyright law explicitly looks to the purpose of the one making the copy in determining whether or not such copying violates the statute, and the DMCA itself contains a reverse engineering exception that also demonstrates Congress's aim merely to prevent piracy. I agree with the Court that both exceptions apply to SCC's actions in this case. But we should be wary of shifting the burden to a rival manufacturer to demonstrate that its conduct falls under such an exception in cases where there is no indication that it has any intention of pirating a protected work. See, e.g., Lawrence Lessig, Free Culture 187 (2004) (noting the danger that "in America fair use simply means the right to hire a lawyer to defend your right to create"). A monopolist could enforce its will against a smaller rival simply because the potential cost of extended litigation and discovery where the burden of proof shifts to the defendant is itself a deterrent to innovation and competition. Misreading the statute to shift the burden in this way could allow powerful manufacturers in practice to create monopolies where they are not in principle supported by law. Instead, a better reading of the statute is that it requires plaintiffs as part of their burden of pleading and persuasion to show a purpose to pirate on the part of defendants. Only then need the defendants invoke the 
+ statutory exceptions, such as the reverse engineering exception. In this case, even if the Toner Loading Program were protected by copyright, and even if the access to the Printer Engine Program were "effectively" controlled, there has been no showing that SCC circumvented the authentication sequence for the purpose of accessing these programs. Indeed, the proof so far shows that SCC had no interest in those programs other than ensuring that their own cartridges would work with Lexmark's printers. 
+ Finally, this reading of the DMCA is also supported by the provision in the Constitution that grants Congress the power to regulate copyright. Article I, section 8, of the Constitution gives Congress the power to regulate copyright in order to "promote the Progress of Science and useful Arts." U.S. Const. art. I, &sect; 8, cl. 8. Congress gives authors and programmers exclusive rights to their expressive works (for a limited time) so that they will have an incentive to create works that promote progress. Lexmark's reading of the extent of these rights, however, would clearly stifle rather than promote progress. It would allow authors exclusive control over not only their own expression, but also over whatever functional use they can make of that expression in manufactured goods. Giving authors monopolies over manufactured goods as well as over their creative expressions will clearly not "promote the Progress of Science and the useful Arts," but rather would stifle progress by stamping out competition from manufacturers who may be able to design better or less expensive replacement parts like toner cartridges. 
+ For these additional reasons, I concur in the Court's opinion reversing the judgment of the district court. On remand the first question should be whether Lexmark can show the requisite "primary purpose" to pirate a copyrighted work rather than to ensure that their own cartridges work with Lexmark's printer. If not, its case against SCC should be dismissed. 
+ FEIKENS, District Judge, Concurring in part and Dissenting in part. 
+ I begin this opinion by noting that my colleagues and I agree on a number of points regarding this case. We agree that this opinion does not foreclose any outcome on the case in chief; instead, its decisions are limited to the grant of the preliminary injunction below. We also agree that Plaintiff Lexmark failed to demonstrate a likelihood of success on the merits of success on the third count, which deals with the Printer Engine Program (PEP) (although I write to explain my own reasoning as to why that is, I also agree with the reasoning of my colleagues). We agree that the Digital Millennium Copyright Act (DMCA) was not intended by Congress to be used to create a monopoly in the secondary markets for parts or components of products that consumers have already purchased. Finally, we agree on the outcome of the second count, although we come to that conclusion for different reasons. 
+ For the reasons explained below, however, I dissent as to the majority's decision on the first count, regarding the copyrightability and infringement of the Toner Loading Program (TLP). 
+I. Count One
+ The first count before us deals with the question of whether the Toner Loading Program (TLP) at issue here is copyrightable. My colleagues give three reasons for their findings: first, that the TLP is not sufficiently original to qualify for copyright protection; second, that the district court erroneously failed to apply the doctrines of merger and sc&egrave;nes &agrave; faire to the copyrightability 
+ question; and third, the district court erred in assessing whether the TLP functions as a lock-out code. 
+ I feel that the record could support a finding that there was enough original expression in the TLP to qualify it for copyright protection. Second, although I agree that the district court erred in its factual findings supporting the conclusion that the TLP was not functioning as a lock-out code, I feel the record offers support for the proposition that it is possible and practical for competitors to make toner cartridges that function with the printer without copying the Toner Loading Program, and therefore, I would remand that issue to the district court to make a determination in the first instance. Third, although I agree with my colleagues that the district court erred in applying the law of the doctrine of merger and sc&egrave;nes &agrave; faire, I would apply the doctrines in this case differently. 
+A. Whether the TLP Contains Original Expression
+ I agree with my colleagues that in discerning whether a work is "original" as required by 
+17 U.S.C. &sect; 102(a)
+, and not unprotectable under 
+17 U.S.C. &sect; 102(b)
+, the court should ask whether the ideas, methods of operation, and facts of the program could have been expressed in any form other than that chosen by the programmer, taking into consideration the functionality, compatibility, and efficiency demanded of the program. However, I part ways on the question of whether the record could support the district court's initial finding that the TLP was sufficiently original to be copyrightable. 
+ My colleagues rely on testimony from Defendant's expert Goldberg, who concluded that external factors dictated the way the TLP was written and that the proposals for alternative ways of writing the TLP offered by Plaintiff's expert Maggs were inefficient and repetitive. My colleagues find both that a lookup table does not "differ meaningfully" from the use of equations and that as a matter of law, the equations that were used in the TLP, alternative equations, and a lookup table are "different ideas or methods of operation altogether". I am at a loss to understand how two things that do not differ meaningfully are altogether different. I would hold that each of these alternatives are different expressions of the same idea (monitoring and reporting on toner levels). I would also find that there is factual support in the record for the proposition that there are a variety of expressions that are practical options given the external factors that constrain the program. Nothing in the record suggests that a look up table could not be expressed in the limited number of bytes or the requisite computer language. In fact, given that sample code was provided for alternatives, in my mind, I think it is entirely possible that the district court could conclude, based on this record, that a TLP using (for instance) a lookup table could be written efficiently and practically. Therefore, I would uphold the district court's decision on originality, or at most, remand the case for the district court to reconsider its decision on originality and make more specific factual findings to support its preliminary injunction. 
+B. Whether the TLP Is a Lock-Out Code
+ My colleagues and I agree that the district court's finding of fact # 79 is inadequate to support the conclusion the district court drew about the practical possibility or impossibility of using the printer without copying the TLP verbatim.
+ (If verbatim 
+ copying was necessary, then the TLP essentially acted as a "password" or a lock-out code.) However, while my colleagues see the record as supporting only the finding of impossibility, I find the record decidedly mixed on the issue.  
+ I also believe the district court made another clear error in the factual findings relating to the TLP, although it was harmless. In finding of fact # 40, the district count found that for one of the printers in question, "7 bytes of Toner Loading Program . . . are used as an input to the SHA-1 [in the T620/622 printer model]." JA 0273. Yet in finding of fact # 67, the district court found that "the contents of the Toner Loading Program are irrelevant to the SHA-1 for calculating the MAC." JA 0278. I believe this second finding of fact is inaccurate; the TLP is not irrelevant to the SHA-1 if it is used as an input. However, because the chip's content dictates the input into the SHA-1, the authentication sequence will complete successfully regardless of the TLP content. Therefore, the district court's error is harmless.
+ There are three ways to make a chip that achieves compatibility between a refilled Prebate cartridge and the printers at issue: (1) copy Lexmark's chip (and therefore the TLP) verbatim; (2) replace the TLP with a different program and change the checksum value accordingly; or (3) turn the entire TLP sequence "off" with the flip of a single bit. Here, Defendant chose the first option. My colleagues rely on Dr. Goldberg's testimony that the second method is "computationally impossible", and though I do not agree that the record is unchallenged on this point,
+ I agree that the record leans strongly toward impossibility as a practical matter. However, I depart from the opinion of my colleagues sharply when I consider the third option.  
+ On cross-examination, Lexmark's expert, Maggs, said "it wouldn't be easy" to figure out where and what the checksum value should be without contextual information. JA 0953. I read this as contradicting Goldberg's statement that it would be "impossible." In addition, Lexmark offered the statement of another manufacturer of toner cartridges, who said it was not impossible to achieve "a 100 percent working solution" for compatibility with the printer (presumably the 100 percent figure includes access to a program that would accurately report when toner was running low), although "it has become a much more difficult endeavor[ . . .]". JA 0214.
+ As I explain below, I believe the record offers strong evidence that the third option 
+is
+ possible, even without contextual information as to the location of the "off" switch. Therefore, although my colleagues appear to believe that the checksum operation must conclude successfully for the printer to operate, I do not believe the record supports this finding. I believe there is uncontroverted evidence in the record that it is possible to manufacture a chip that never triggers the checksum sequence, and the printer can still operate &mdash; in fact, this is exactly what occurs with the non-Prebate cartridges. Further, I believe that the record offers evidence that it was unnecessary for Defendant to copy the TLP to make the cartridge compatible with the printer, even with no contextual information about the location or existence of the "off switch", and would remand to the district court to make new factual findings and determine that question for itself. 
+ Lexmark offered evidence that the third option was possible. In the testimony of Maggs, when the questioning turned to the third option of turning the entire TLP process off with the flip of a single bit, he said it would take "a few days or a few weeks maybe" of trial and error to find the bit that turned off the TLP process. JA 0953 &mdash; 4. When asked about the one-bit off switch, Goldberg only stated that he did not know it existed, because Defendants could not determine what the bit did. JA 1030. However, Goldberg stated previously that Defendant ran a very similar test as part of its attempt at reverse engineering, 
+ in which it flipped one of every eight bits in the TLP. JA 0575. 
+ My colleagues argue that Lexmark has introduced no evidence that option three, finding the off switch, was "less arduous" than option two, finding a working checksum. This is simply false. Lexmark's expert testified that it would take a "few days or a few weeks" to reverse engineer the one-bit "off switch" by "brute force," assuming you did not know where the "off switch" was. JA 0954. Given this testimony, I think it is improper for my colleagues to decide that reverse engineering a working chip was impossible, instead of remanding this question to the district court. 
+ However, even without Maggs' testimony, I think it is evident from this record that option three is considerably less arduous than option two. The undisputed evidence in the record about the chip's design offers more than enough evidence for a court to find that option three is vastly easier than option two. 
+ The record states that the off switch works regardless of what the values of all other bits on the chip are. JA 0708. Therefore, the maximum number of tests that must be run to find the off switch can be represented as two times the number of bits that might be the off switch (since there are only two values of each bit, 0 and 1). In contrast, the checksum's operation is relative to the values of other bits on the chip. In other words, in contrast to the off switch, a working checksum value depends on the position of 55 other bytes,
+ or 440 other bits. JA 0706. This means that no bit can be tested independently, and instead, the tester must search for a "match" between a particular setting of the TLP bytes and the checksum value. Thus, even though there is clearly more than one way to set all the bits to have the chip function, basic principles of mathematics tell us that the number of tests that must be done to find a working checksum and arrangement of bits rises exponentially
+ in comparison to the test for single, independently-functioning off switch. Therefore, I think this record amply supports the proposition that it is much simpler to find the off switch than it is to find a working checksum.   
+ For the larger of the two TLPs at issue here.
+ Or, depending on the method used to calculate the checksum, factorially.
+ The record with regard to what I describe as the third option, reverse-engineering the off switch for the TLP process, could reasonably support the finding that it is possible to find that switch without contextual information, and hence to reverse-engineer a working chip even without a memory map or other contextual information. The factual determination of whether such reverse engineering is possible in turn decides the factual question of whether or not the TLP is a lock-out code. This factual finding significantly impacts any decision about the use of the merger doctrine as a defense to infringement by Defendant, and therefore the likelihood of success on the merits by Plaintiff. Because of the importance of the question, and the insufficiency of the factual findings made by the district court on this question, I would remand to the district court for it to make that finding in the first instance. 
+C. Doctrines of Merger and Sc&egrave;nes &agrave; Faire
+1. Merger
+ I believe my colleagues offer a good description of the law of merger, and I will not restate that law here. However, there is one aspect of merger my colleagues do not decide that I believe is important to 
+ this case: a Circuit split regarding the law of merger. 
+ Simply put, there is some disagreement about whether the merger doctrine acts as a bar to copyrightability, or simply as a defense to particular types of infringement. 
+See
+ Nimmer 13.03[B][3]; 
+Mason v. Montgomery Data, Inc.,
+967 F.2d 135, 138
+, fn. 5 (5th Cir. 1992); 
+Kregos v. Associated Press,
+937 F.2d 700, 705
+ (2nd Cir. 1991). The Sixth Circuit has not previously taken a position on this question. The Second and Ninth Circuits have taken the position that merger operates only as a defense to infringement. 
+Kregos v. Associated Press,
+937 F.2d 700, 705
+ (2d Cir. 1991); 
+Ets-Hokin v. Skyy Spirits, Inc.,
+225 F.3d 1068, 1082
+ (9th Cir. 2000). The Fifth Circuit holds that merger determines copyrightability. 
+Mason,
+967 F.2d 135, 138
+, fn. 5. 
+ As I read the majority's opinion, my colleagues have declined to take a position on this split, but I would do so, because of the importance of this decision to the DMCA count. As I discuss later in my analysis of Count II, the DMCA only protects works that are protected by Title 17 of the U.S. Code or in which the copyright owner has a right under Title 17. 
+17 U.S.C. 1201(a)(1)(A)
+; 
+17 U.S.C. 1201(b)(A)
+. Therefore, if the doctrine of merger is applied at the copyrightability stage, and merger is found to have occurred, Plaintiff will have failed to state a claim on which relief can be granted under the DMCA. However, if the doctrine of merger is applied at the infringement stage, then even if merger is found to have occurred, some analysis of the DMCA's scope of protection of the TLP is in order. Therefore, in my view, it is essential to decide whether merger of a work with a method of operation determines the initial question of copyrightability of the work, or operates only as a defense to infringement. 
+ Although I would exercise judicial economy and limit the holding to the case of merger with a method of operation (which is the question I believe this case presents),
+ for the reasons below, I would find the merger doctrine can operate only as a defense to infringement in that context, and as such has no bearing on the question of copyrightability.
+ In an analogous situation, the Ninth Circuit chose to address the copying of an access code using the fair use doctrine. 
+Sega Enterprises Ltd. v. Accolade, Inc.,
+977 F.2d 1510
+ (1993). I think this situation is better understood as a merger with a method of operation, and not as a fair use. However, I will discuss 
+Sega
+ further when I discuss the fair use doctrine.
+ Nimmer finds this is generally the better view of the merger doctrine. &sect; 1303[B][3].
+ The Copyright Act denies copyright protection to, among other things, methods of operation. 
+17 U.S.C. &sect; 102(b)
+. However, an otherwise copyrightable text can be used as a method of operation of a computer &mdash; for instance, an original, copyrightable poem could be used as a password, or a computer program as a lock-out code. In my view, therefore, it is necessary to know what the potential infringer is doing with the material in order to know if merger has occurred. In other words, if I use my own copyrighted poem as a password or lock-out code, an individual who published the poem as part of a book could not escape a finding of liability for infringement. The rationale for the merger doctrine is that without it, certain ideas or methods of operation would be removed from the public realm because all ways of expressing them would be copyrighted. When a poem or program is used as a lock-out code, it is being used as a step in a method of operation of the thing it is locking. Therefore, to protect a work from copying when it is used as a password 
+ would be to prevent the public from using a method of operation. 
+ Under this reasoning, an individual who copied a poem solely to use as a password would not have infringed the copyright, because in that scenario, the alleged infringer would have the defense that the poem has "merged" with a method of operation (the password). By contrast, someone who copied the poem for expressive purposes (for instance, as part of a book of poetry) would not have this defense. For these reasons, I would hold that in cases where the merger is with a method of operation, the merger doctrine should be applied as a defense to infringement only, and not as informing the question of copyrightability of the work itself. 
+ Applying that reasoning to this case, the TLP can remain copyrightable as a computer program, and therefore retain some of the protections of copyright law, even if it is a lock-out code. Defendant can still avoid infringement, however, if it uses the TLP only as a method of operation. For instance, Defendant can only claim this defense to infringement if it uses the TLP to interface with the Lexmark printers at issue, and if it is a necessary method of operation of the machine. It would not be able to assert the same merger defense to infringement if it manufactured its own printers and inserted the copied TLP as part of its own Printer Loading Program, even if it originally copied the TLP for the purpose of interfacing with Lexmark printers. Importantly, as this case is concerned, Defendant could not successfully assert this defense if (as a practical matter and not as a theoretical question) the printer could be operated without copying the TLP. In my view, any finding of merger with a method of operation in this case would act as a defense to infringement, but leave the TLP potentially copyrightable (and therefore allow it to qualify for the additional protections of the DMCA). 
+ I support a remand on the question of whether or not the TLP is operating as a lock-out code on the chips in question. Therefore, I would also remand the question of whether the TLP has merged with a method of operation in Defendant's SMARTEK chip, because the two questions are essentially equivalent. 
+2. Sc&egrave;nes &agrave; Faire
+ In computer programs, the sc&egrave;nes &agrave; faire doctrine has been restated as a determination of whether external constraints on the size and content of a program, and standard programming practices, are so deterministic of the content of program that the contents of the program are analogous to the "stock scenes" of literature. 
+Gates Rubber Co. v. Bando Chem. Indus., Ltd.,
+9 F.3d 823, 838
+ (10th Cir. 1993). Courts have recognized that a rare work may be entirely made up of sc&egrave;nes &agrave; faire, but many works will be a combination of sc&egrave;nes &agrave; faire and more original elements. 
+See, e.g., Reed-Union Corp. v. Turtle Wax, Inc.,
+77 F.3d 909, 914
+ (7th Cir. 1996). 
+ As I read it, Defendant's argument is essentially that because the equations involved in the TLP are standard and their arrangement involved no creativity, the program was one of those rare works that is entirely made up of sc&egrave;nes &agrave; faire and the arrangement of those non-copyrightable elements is not creative enough to allow the work any protections of copyright. The record is undisputed on the point that there are elements of the program (some code that translates to LMX) that do not play a functional role and appear to be installed for the purpose of proving verbatim copying in an action like this one. I think it is unquestionable that these elements are not sc&egrave;nes &agrave; faire, and they were copied. Thus, I believe that 
+ regardless of any other finding, there is a likelihood that some portion of the work would not be classified sc&egrave;nes &agrave; faire. However, because it is not clear whether that portion alone would be creative enough to merit copyright, I will discuss the sc&egrave;nes &agrave; faire doctrine's application to this case, as I see it. 
+ I believe 
+Feist
+ stands for the proposition that a creative enough arrangement of otherwise uncopyrightable elements would in fact be copyrightable. 
+Feist Publications, Inc. v. Rural Telephone Service Co.,
+499 U.S. 340
+, 
+111 S.Ct. 1282
+, 
+113 L.Ed.2d 358
+ (1991). In that situation, a wholesale copying of the program (such as we have in this case) might still constitute infringement, even though the program is entirely made up of sc&egrave;nes &agrave; faire, because the copyrightable arrangement would be copied. In addition, a program (like the one before us) may be a blend of sc&egrave;nes &agrave; faire and material that is not dictated by norms or constraints, and in my mind, copying either a substantial part of an original arrangement or copying enough of the non-sc&egrave;nes &agrave; faire elements would still constitute infringement. 
+ Finally, there is a Circuit split regarding the stage at which to apply the sc&egrave;nes &agrave; faire doctrine that parallels the split as to the merger doctrine. 4 Nimmer &sect; 13.03[B][4], at 13-76 &mdash; 7 n. 180.1; 
+Reed-Union Corp. v. Turtle Wax, Inc.,
+77 F.3d 909, 914
+ (7th Cir. 1996) (holding the doctrine of sc&egrave;nes &agrave; faire is separate from the doctrine regarding the validity of a copyright); 
+Ets-Hokin v. Skyy Spirits, Inc.,
+225 F.3d 1068, 1082
+ (9th Cir. 2000) (recognizing the split and citing 
+Reed-Union
+ favorably on this question); 
+Taylor Corp. v. Four Seasons Greetings LLC,
+315 F.3d 1039, 1042-3
+ (8th Cir. 2003) (finding that the sc&egrave;nes &agrave; faire doctrine determined whether substantial similarity existed); 
+Hoehling v. Universal City Studios, Inc.,
+618 F.2d 972
+ (2nd Cir. 1980), 
+cert. denied,
+449 U.S. 841
+, 
+101 S.Ct. 121
+, 
+66 L.Ed.2d 49
+ (1980) (holding that sc&egrave;nes &agrave; faire are not copyrightable). The Sixth Circuit has not explicitly taken a position on this split, although in a case regarding "stock scenes" in a movie decided after this case was argued, the Sixth Circuit held that sc&egrave;nes &agrave; faire are "too general to qualify for copyright protection" and applied the doctrine before considering substantial similarity. 
+Stromback v. New Line Cinema,
+384 F.3d 283, 296
+ (6th Cir. 2004). The district court took the position that the sc&egrave;nes &agrave; faire doctrine should be applied as a defense to infringement, and therefore, on that position alone, this case would require remand for consideration in light of 
+Stromback,
+384 F.3d at 304-05
+. My colleagues take the position that 
+Stromback
+ did, namely that the sc&egrave;nes &agrave; faire doctrine determines copyrightability. 
+ Clearly, this panel is bound to follow the decision in 
+Stromback.
+ However, I believe that 
+Stromback
+ can and should be distinguished in the area of computer programming. The doctrine of sc&egrave;nes &agrave; faire has been expanded in the area of computing beyond the traditional literary "stock scenes" to include those elements that are dictated by external constraints. 
+Gates Rubber Co. v. Bando Chem. Indus., Ltd.,
+9 F.3d 823, 838
+ (10th Cir. 1993). Therefore, in this area, application of the sc&egrave;nes &agrave; faire doctrine does require some understanding of how the element is being used: as I read the case law, if an otherwise copyrightable arrangement was dictated by external constraints, it would classified as sc&egrave;nes &agrave; faire. However, if external constraints, norms, etc. did not dictate a particular arrangement in a defendant's work, but a defendant copied a particular arrangement anyway, it is not clear to me that the case law would still classify that same arrangement as sc&egrave;nes &agrave; faire &mdash; instead, the work might qualify for some 
+ protection from infringement. Thus, I think when applying the extension of the sc&egrave;nes &agrave; faire doctrine for computer programs, the district court's rule is superior because it is necessary to understand the circumstances of the copying in order to know whether or not the sc&egrave;nes &agrave; faire doctrine applies. Therefore, I would distinguish 
+Stromback
+ and take the other side of the Circuit split for cases regarding the application of the sc&egrave;nes &agrave; faire doctrine, when its extension regarding external constraints for computer programs is at issue. 
+D. Fair Use
+ I agree with my colleagues that the question in the first element of the fair use defense is "whether the user stands to profit from exploitation of the 
+copyrighted material
+ without paying the customary price." 
+Harper Row, Publishers, Inc. v. Nation Enters.,
+471 U.S. 539, 562
+, 
+105 S.Ct. 2218
+, 
+85 L.Ed.2d 588
+ (1985) (emphasis added). I part ways with my colleagues, however, in their application of that doctrine here. 
+ Here, we have the curious situation that Defendant says it did not know the TLP existed, while arguing that the use is fair. Thus, while Defendant undoubtedly had the purpose of selling exact copies of the Lexmark chip (which contained the TLP) "for private commercial gain" (which weighs against a fair use defense), it apparently did not have the purpose of selling the TLP itself (although it did so). 
+Harper Row
+ does say that the defendant's use in that case "had not merely the incidental effect but the 
+intended purpose
+ of supplanting the copyright holder's commercially valuable right." 
+Id.
+ at 562, 
+105 S.Ct. 2218
+ (emphasis in original). Thus, I believe, my colleagues read the case to say that Plaintiff, in order to prove a likelihood of success, must show that the user intended to benefit from the copying of the TLP, and not simply intended to benefit from the sale of an exact copy of the Lexmark chip that happened to contain the TLP. 
+ Here, I part ways. I think that Defendant had the intended purpose of making money from an exact copy of Plaintiff's chip. I do not think that this prong can or should be transformed into a prong weighing in favor of "fair use" because Plaintiff's alleged violation of copyright protections was done unknowingly.
+ The Court in 
+Harper Row
+ said it could not "ignore [the defendant's] stated purpose of first publication." 
+Id.
+ Likewise, I think we should not ignore that this Defendant knew it was making an exact copy of a computer chip, and it did so in order to benefit commercially from whatever content was on the chip. In other words, Defendant copied that chip for the purpose of gaining whatever commercial value such a chip had. Therefore, this factor is at best neutralized by the fact that Defendant did not know that the commercial value was potentially partly derived from copyright rights, and this factor therefore should not weigh against Lexmark.
+ In my mind, this is consistent with the understanding that copyright infringement does not have an element of 
+scienter.
+ Moreover, my colleagues argue that SCC used the TLP for "a different purpose, one unrelated to copyright protection. Rather than using the Toner Loading Program to calculate toner levels . . .". The record is uncontested on the point that it is the copied TLP that calculates the toner levels for the refilled Prebate cartridges, and governs when the "toner low" message will be displayed. Therefore, Defendant's product 
+did
+ use the program for the same purpose as the Plaintiff's did &mdash; to monitor and report on toner levels &mdash; even if Defendant did not realize that it was doing so. Therefore, Defendant potentially benefited from the creative energy that Lexmark devoted to writing the program code. Although a commercial use does not necessarily block a finding of a fair use, 
+Campbell v. Acuff-Rose Music Inc.,
+510 U.S. 569
+, 
+114 S.Ct. 1164
+, 
+127 L.Ed.2d 500
+ (1994), I think this type of commercial use is what Congress intended to weigh against a finding of fair use.
+ With respect to the fourth factor, which involves the effect Defendant's use had on the value of the copyrighted material, I disagree with my colleagues on the question of whether Plaintiff was required to introduce evidence of the independent market for TLPs, or if evidence that the market for the cartridges was impacted was enough. I agree that the Supreme Court instructs us that "[a] use that has no demonstrable effect upon the potential market for, or the value of, the copyrighted work need not be prohibited[. . .]." 
+Sony Corp. of Am. v. Universal City Studios, Inc.,
+464 U.S. 417, 450
+, 
+104 S.Ct. 774
+, 
+78 L.Ed.2d 574
+ (1984). My difference with my colleagues emerges from my belief that the words "or value of" suggest that in situations in which the market for the work itself does not necessarily represent the value of the work, the value of the work is what a court should consider. I believe the value of the TLP is represented by the market for toner cartridges, and therefore, it is not necessary for Plaintiff to introduce evidence about the TLP market in order to demonstrate a likelihood of success on this factor. In other words, the potential commercial benefit from copying the TLP accrues because the TLP on the chip at issue adds functionality to the toner cartridge, which in turn may enhance the market for the cartridge itself. 
+ I think the district court could easily find that a toner cartridge that accurately tells a user when the toner is running low is more valuable than one that does not. More specifically, unlike my colleagues, I think the market for SCC's cartridges containing the SMARTEK chip might have been impacted negatively if the printer inaccurately reported toner levels when using an SCC cartridge. Therefore, as I see it, the TLP on the chip increased the value of Defendant's toner cartridge if the TLP Defendant copied is better able to report on toner consumption than a chip without the TLP would be. If no TLP was on the chip, the printer would use the default TLP code in the Printer Engine Program to warn users of low toner levels. However, there is no evidence in the record that speaks to whether the default TLP that comes with the printer would be able to accurately report the amount of toner in a Prebate cartridge, or whether it would misreport the level of toner to the user. Thus, there is no evidence in the record one way or another regarding whether Defendant's cartridge is more valuable because the cartridge contains the TLP than it would be if the cartridge did not. 
+ In conclusion, I think the market for these cartridges may very well be impacted by the ability of the toner cartridges to make an accurate report of toner levels. I do not believe Lexmark needs to introduce evidence showing that an independent market exists for the TLP &mdash; I think the court can assume an impact to the primary market for the re-filled cartridges, provided that the copied TLP lent additional functionality to the cartridge. Therefore, because the benefit (or lack thereof) gained from copying the TLP on the chip instead of using the printer's default TLP is necessary to deciding the fair use question, and because the record is silent on this point, I would remand to the district court to gather the evidence necessary to make this determination and reconsider its findings on fair use in light of that additional evidence. 
+II. Count Two
+ As discussed under Count I, the DMCA only offers its additional protections to those works that are already protected by Title 17 of the U.S. Code or those works in which the copyright owner has a protected right under Title 17. 
+17 U.S.C. 1201(a)(2)(A)
+; 
+17 U.S.C. 1201(b)(A)
+. Because I believe that this record does not allow the elimination of copyrightability on the grounds of originality, merger, or sc&egrave;nes &agrave; faire, I believe some analysis of the DMCA claim regarding the TLP is necessary. However, I note that the DMCA explicitly leaves the defenses to copyright infringement, including the fair use doctrine, unaltered. 
+17 U.S.C. &sect; 1201(c)
+. Therefore, if the district court on remand were to find that the merger, sc&egrave;nes &agrave; faire, or fair use doctrine supplied an adequate defense to infringement, given the copying that went on in this case, I do not believe Plaintiff could meet its burden to show likelihood of success under 
+17 U.S.C. &sect; 1201(b)
+, because there would be no "right of a copyright owner" to prevent the TLP's use in this fashion. 
+ I believe Plaintiff also failed to meet its burden under both 1201(a) and 1201(b), however, because it failed to present evidence that the chip was primarily designed or produced for the purpose of accessing the TLP. 
+ Interestingly, unlike traditional copyright law, there is an element of 
+scienter
+ present in the DMCA: in order to be a violation of the Act, any technology that is marketed must have been "primarily designed or produced for the purpose of circumventing" a technological measure or other protection of a work (or a portion of the work) protected under Title 17. 
+17 U.S.C. 1201(a)(2)(A)
+; 
+17 U.S.C. 1201(b)(A)
+. Here, I think the evidence before the trial court was overwhelming on the point that while Defendant "primarily designed" the chip to circumvent any protections of the Printer Engine Program, the chip was not "primarily designed or produced for the purpose of" circumventing protections for the TLP. Therefore, even if the checksum sequence can be categorized as a lock-out code that must be circumvented in order for the TLP on the chip to be used, or the primary authentication sequence is seen as a protection for both the TLP and the Printer Engine Program, because the chip was primarily designed to allow access to the Printer Engine Program
+ and not the TLP, I believe Plaintiff has not demonstrated a likelihood of success on this count.  
+ I discuss why I believe the DMCA does not reach the Printer Engine Program in my discussion of Count III.
+ However, I emphasize the narrow bounds of my position. The record before the trial court at the preliminary injunction stage points overwhelmingly to the conclusion that Defendant did not realize the TLP was on the chip. If evidence showed Defendant knew or should have known that there was a program on the chip, and that it was practical for the Defendant to manufacture a chip that did not access (and therefore use) the TLP, in my mind, that would be a different case. Under that scenario, the defendant would know of the protection, be able to achieve the purpose of operating the printer without circumventing that protection, and yet still choose to circumvent those protections. On such a record, I think a court would have to carefully weigh whether such a situation means that Defendant's product was "produced for the purpose of circumventing" protections of the TLP. 
+ My reasoning on this count is based on my belief that consumers did not have an implied license to use the copyrightable TLP beyond the first re-fill of the Prebate cartridge. With the assumption that the shrinkwrap agreement was valid and enforceable (I believe Lexmark can demonstrate a likelihood of success on that question),
+ I would conclude consumers' implied license to use the copyrighted TLP did not extend beyond the first re-fill of the Prebate cartridge. The TLP at issue is not present in the printer at purchase. Instead, the consumer gains access to using it by purchasing the Prebate toner cartridge (which stores the programs in its microchip). The Prebate toner cartridge is only sold under a special shrinkwrap agreement that requires that the cartridge be returned to Lexmark when it is empty and may not be re-filled by others for reuse. Since the consumer is only authorized to use the Prebate cartridge until the toner runs out, it follows that the license also blocks the consumer from using the TLP after that time.  
+ SCC contends that such shrinkwrap agreements are not enforceable. In support of this, at least one amicus brief cites a 2001 Federal Circuit court decision that held there must be a "meeting of the minds" in order for restrictions in the agreement to be enforceable. 
+Jazz Photo Corp. v. Int'l Trade Comm.,
+264 F.3d 1094, 1108
+ (Fed. Cir. 2001), 
+cert. denied,
+536 U.S. 950
+, 
+122 S.Ct. 2644
+, 
+153 L.Ed.2d 823
+ (2002). Other circuits have upheld the validity of shrinkwrap agreements. 
+See, e.g., ProCD, Inc. v. Zeidenberg,
+86 F.3d 1447
+ (7th Cir. 1996) (holding that terms inside a box of software bind consumers who use the software after an opportunity to read the terms and to reject them by returning the product). Here, the shrinkwrap agreement was clear and the district court could find that it supports the conclusion that there was a meeting of the minds and the agreement is enforceable. To wit: "This all-new cartridge is sold at a special price subject to a restriction that it may be used only once. Following this initial use, you agree to return the empty cartridge only to Lexmark for remanufacturing and recycling. If you don't accept these terms, return the unopened package to your point of purchase. A regular price cartridge without these terms is available." Finally, I note this case is factually different from 
+Hewlett-Packard Co. v. Repeat-O-Type Stencil Mfg. Corp. Inc.,
+123 F.3d 1445
+ (Fed. Cir. 1997), in which the shrinkwrap agreement contained only a warning against refilling, and did not condition the sale on a promise not to refill.
+ The TLP was part of the cartridge, and therefore, when the consumer was able to use the TLP after the cartridge had been emptied of toner and re-filled by Defendant (in violation of the shrinkwrap agreement), in my mind, he or she gained unauthorized access to the TLP. However, the record currently supports the finding that Defendant did not have the requisite knowledge of the TLP to form an intent to primarily design or produce a chip for the purpose of gaining access to it. Therefore, I concur on the outcome of the second count, although my reasoning would be different from that of my colleagues. 
+III. Count Three
+ In contrast to the TLP, I believe the consumer has a right to use the Printer Engine Program for the life of the printer. Because the consumer has this right, there is no right of the copyright owner to prevent the consumer from using the Printer Engine Program, and therefore, Defendants cannot be found to be in violation of the DMCA. Though the words are never used, I think the concept of this license is present in my colleagues opinion. I agree with their reasoning regarding this count, and write on this issue only because I believe it sheds additional light on my reasoning regarding Count Two. 
+ All the Lexmark printers at issue here come with the Printer Engine Program installed. In fact, it would be impossible 
+ for the printer to work at all without such a program, just at it would be impossible for the printer to work without an engine. Therefore, when the consumer buys the printer, the consumer must be buying the right to use not just the physical printer components, but also the Printer Engine Program that allows those physical components to produce printed pages. By buying a Lexmark printer, the consumer acquires an implied license to use the Printer Engine Program for the life of that printer. 
+ The DMCA defines "circumventing a technological measure" to mean avoid, bypass, etc., "a technological measure, 
+without the authority
+ of the copyright owner." 
+17 U.S.C. &sect; 1201(a)(3)(A)
+ (emphasis mine). Therefore, under the plain meaning of the law, circumventing a technological measure it is only a violation of &sect; 1201(a) if the device allows consumers access to a work that they are not otherwise permitted to have. Therefore, even if Defendant has circumvented the authentication sequence to gain access to the Printer Engine Program, or designed a chip with that as its main purpose, it has not violated the statute, because it has not given anyone access to the program who did not already have authority from Lexmark to use it. In fact, it would be impossible to use the toner cartridge's chip to gain illegal access to the Lexmark Printer Engine Program, because only consumers with Lexmark printers would use the toner cartridge, and they already own the right to use the Printer Engine Program. 
+ If this language of the statute were not enough, it is clear from the legislative history that Congress did not intend this provision to apply to devices that merely facilitated legitimate access. In the House of Representative's Commerce Committee's report on the DMCA, it stated explicitly that the aim of &sect; 1201(b) was to restrict devices used primarily for piracy, and not those that facilitate legal use of products. In discussion of &sect; 1201(b), the Committee stated, "This provision is not aimed at products that are capable of commercially significant non-infringing uses, such as consumer electronics, telecommunications, or computer products [. . .] used by businesses and consumers for perfectly legitimate purposes." HR Rep. 105-796 (October 8, 1998). The Committee also stated that &sect; 1201(b)(1) seeks to prohibit "making or selling the technological means to overcome these protections and 
+thereby facilitate copyright infringement
+" [emphasis mine]. Id. In its January 1999 report discussing &sect; 1201(b), the Commerce Committee again clarified that the measure was intended to outlaw trade in "devices with 
+no substantial non-infringing uses
+ that are expressly intended to facilitate circumvention of technological measures for purposes of gaining access to or making a copy of a work" [emphasis mine]. HR Rep. 105-846 (Jan. 2, 1999). This understanding of &sect; 1201(b) was also clear in the Senate discussions of the DMCA. It stated that the prohibitions in &sect; 1201(a) were made "meaningful" through the provisions of &sect; 1201(b), which were intended to enforce "the longstanding prohibitions on infringements." S. Rep. 105-190 (May 11, 1998). It reiterated that &sect; 1201(b) is intended to attack those devices that "facilitate copyright infringement." Id. Because Defendant's chip can 
+only
+ make non-infringing uses of the Lexmark Printer Engine Program, it is clear Congress did not intend the DMCA to apply in this situation. 
+IV. Conclusion
+ For the reasons stated above, I dissent from the majority's opinion with regard to Count One. Although I concur with the result in Count Two, I do not agree with the reasoning of my colleagues and offer 
+ my own approach. Finally, I concur with both the reasoning and result for Count Three, but give my own additional reasons for why that is so. 
+Summaries of
+Lexmark Intern. v. Static Control Components
+United States Court of Appeals, Sixth Circuit
+Oct 26, 2004
+387 F.3d 522 (6th Cir. 2004)
+holding that a modification chip designed to make third party ink cartridges compatible with Lexmark printers was not primarily designed to circumvent copyright and thus did not violate the DMCA
+Summary of this case from&#x20;
+United States v. Reichert
+holding that a modification chip designed to make third party ink cartridges compatible with Lexmark printers was not primarily designed to circumvent copyright and thus did not violate the DMCA
+Summary of this case from&#x20;
+United States v. Reichert
+finding that the district court erred in assessing principles of merger and scenes a faire in the infringement analysis, rather than as a component of copyrightability
+Summary of this case from&#x20;
+Oracle Am., Inc. v. Google Inc.
+finding no DMCA anti-circumvention liability where an authentication sequence in a printer microchip blocked one form of access (printer function) but permitted free access from other avenues (for example, anyone who purchased that brand of printer could download a copy of the program)
+Summary of this case from&#x20;
+MGE UPS Systems Inc. v. GE Consumer
+affirming presumption of irreparable harm in case involving circumvention of copy protection, stating "[w]e see no reason why a similar presumption of irreparable harm should not apply to claims under the DMCA."
+Summary of this case from&#x20;
+RealNetworks, Inc. v. DVD Copy Control Ass'n
+rejecting copyrightability of toner loading software program and lock-out code because lacked creativity warranting protection
+Summary of this case from&#x20;
+Soc'y of the Holy Transfiguration Monastery, Inc. v. Denver
+recognizing that if "a precondition for DMCA liability is ... the creation of an impervious shield to the copyrighted work ... the DMCA would apply only when it is not needed"
+Summary of this case from&#x20;
+Dig. Drilling Data Sys. v. Petrolink Servs.
+In Lexmark, this Court considered this distinction with a software program and noted that "the task of separating expression from idea in this setting is a vexing one," describing the distinction between idea and expression as an "elusive boundary line."
+Summary of this case from&#x20;
+RJ Control Consultants, Inc. v. Multiject, LLC
+noting that under the merger doctrine, "[w]here the 'expression is essential to the statement of the idea,' or where there is only one way or very few ways of expressing the idea, . . . copyright protection does not exist because granting protection to the expressive component of the work necessarily would extend protection to the work's uncopyrightable ideas as well." (quoting CCC Info. Servs., Inc. v. Maclean Hunter Mkt. Reports, Inc., 44 F.3d 61, 68 (2d Cir. 1994)) (citing Warren Publ'g, Inc. v. Microdos Data Corp., 115 F.3d 1509, 1519 n.27 (11th Cir. 1997); Gates Rubber Co. v. Bando Chem. Indus., Ltd., 9 F.3d 823, 838 (10th Cir. 1993))
+Summary of this case from&#x20;
+Hiller, LLC v. Success Grp. Int'l Learning All.
+noting that the district court erred, in the context of assessing the copyrightability of a very short, literal code, in failing to consider "external factors such as compatibility requirements, industry standards, and efficiency" that necessarily limited what was actually copyrightable
+Summary of this case from&#x20;
+Dynamic Concepts, Inc. v. Tri-State Surgical Supply & Equip. Ltd.
+comparing a short computer program of sufficient creativity to other “spare, simple, but creative” expressions, like the poetry of e.e. cummings
+Summary of this case from&#x20;
+Greene v. Ablon
+noting the circuit split and concluding that, where a court is assessing merger of an expression with a method of operation, “I would find the merger doctrine can operate only as a defense to infringement in that context, and as such has no bearing on the question of copyrightability.”
+Summary of this case from&#x20;
+Oracle Am., Inc. v. Google Inc.
+In Lexmark, the plaintiff sold laser printers equipped with an authentication sequence, verified by the printer's copyrighted software, that ensured that only plaintiffs own toner cartridges could be inserted into the printers.
+Summary of this case from&#x20;
+MDY Industries, LLC v. Blizzard Entertainment, Inc.
+addressing copyright infringement action against rival chip maker
+Summary of this case from&#x20;
+Arizona Cartridge v. Lexmark Intern., Inc.
+describing a checksum-based method for allowing users to verify, authenticate, and "integrity"-check printer files downloaded from an external source
+Summary of this case from&#x20;
+Checksum Ventures, LLC v. Dell Inc.
+explaining that certificates of registration obtained before or within five years of the first publication of a work create a rebuttable presumption of a valid copyright, and alleged infringers bear the burden of rebutting the presumption
+Summary of this case from&#x20;
+Philpot v. LM Commc'ns II of S.C., Inc.
+explaining that, "if no direct evidence of copying is available, a claimant may establish this element by showing that the defendant had access to the copyrighted work and that the copyrighted work and the allegedly copied work are substantially similar"
+Summary of this case from&#x20;
+Philpot v. LM Commc'ns II of S.C., Inc.
+listing "ownership of a valid copyright in the computer program at issue" as an element to establish copyright infringement
+Summary of this case from&#x20;
+Ecimos, LLC v. Carrier Corp.
+In Lexmark International, Inc. v. Static Control Components, Inc., 387 F.3d 522 (6th Cir. 2004), the court held that no technological measure was circumvented because anyone who bought a Lexmark printer could "read the literal code... directly from the printer memory, with or without the benefit of the authentication sequence...."
+Summary of this case from&#x20;
+Group v. NuCloud Global, Inc.
+In Lexmark, the Sixth Circuit stated that all three liability provisions within the DMCA "require the claimant to show that the 'technological measure' at issue "controls access to a work protected under this title," see 17 U.S.C. § 1201(a)(2)(A)-(C), which is to say a work protected under the general copyright statute[.
+Summary of this case from&#x20;
+Ford Motor Co. v. Autel US Inc.
+noting that registration constitutes prima facie evidence that the plaintiff owned a valid copyright
+Summary of this case from&#x20;
+Hua-Cheng Pan v. Kohl's Dep't Stores, Inc.
+noting that registration constitutes prima facie evidence that the plaintiff owned a valid copyright
+Summary of this case from&#x20;
+Lyles v. Capital - EMI Music Inc.
+explaining that where the "expression is essential to the statement of the idea," . . . or where there is only one way or very few ways of expressing the idea, . . . the idea and expression are said to have "merged."
+Summary of this case from&#x20;
+Jedson Engineering, Inc. v. Spirit Construction Serv.
+observing that it is the "possibility of irreparable harm to the plaintiff in the absence of an injunction"
+Summary of this case from&#x20;
+American Postal Workers Union v. U.S. Postal Service
+agreeing with the legal principles governing a copyright claim but disagreeing with whether there were sufficient facts on the record to conclude the computer program was not copyrightable
+Summary of this case from&#x20;
+Goldman v. Healthcare Management Systems, Inc.
+Case details for
+Lexmark Intern. v. Static Control Components
+Case Details
+Full title:
+LEXMARK INTERNATIONAL, INC., Plaintiff-Appellee, v. STATIC CONTROL…
+Court:
+United States Court of Appeals, Sixth Circuit
+Date published:&#x20;
+Oct 26, 2004
+Citations
+Copy Citation
+387 F.3d 522 (6th Cir. 2004)
+Citing Cases
+Static Control Components, Inc. v. Lexmark Intl.
+The Court does not address the issues raised in this Motion from whole cloth. Rather, in reversing this Court…
+RJ Control Consultants, Inc. v. Multiject, LLC
+Id. § 113(b). As relevant here, software codes may be entitled to copyright protection as "literary works"…
+169&#x20;
+Citing Cases
+Make your practice more effective and efficient with Casetext&#x2019;s legal research suite.
+Get a Demo
+Pricing
+Switch
+Big firm
+Coverage
+SmartCite
+Public records
+ search
+Partnerships and Resources
+Law school
+ access
+Bar associations
+About us
+Jobs
+Blog
+Podcast
+News
+Twitter
+Facebook
+LinkedIn
+Instagram
+Help articles
+Customer support
+Contact sales
+Privacy
+Terms
+&#xA9; 2020 Casetext Inc.
+Casetext, Inc. and Casetext are not a law firm and do not provide legal advice.
