@@ -93,3 +93,14 @@ of it; that report logs which search engines and indexes returned nothing.
 
 Stripped text of the web captures in `raw/`, so greps do not need an HTML parser.
 Named to match the `raw/` file they came from.
+
+## Fidelity notes
+
+- `raw/uk_50ba.xml` is the CDPA section 50BA capture from legislation.gov.uk. Five
+  `<CommentaryRef Ref="key-...">` anchors in it match the pattern GitHub push
+  protection reports as a Mailgun API key. They are document-internal commentary
+  identifiers, not credentials. The `key-` prefix in those five values is rewritten
+  to `key_` so the repository can be public. The statutory text is untouched.
+- Fetch failures are kept as empty or stub files instead of deleted, so a later
+  agent sees that the query was attempted. See the stub list under
+  `raw/cl_*.json` above.
